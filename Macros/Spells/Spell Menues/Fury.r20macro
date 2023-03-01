@@ -1,0 +1,7 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;1:=[View](~Fury-Spell-Level-1)}} {{Spelllevel&nbsp;3:=[View](~Fury-Spell-Level-3)}} {{Spelllevel&nbsp;7:=[View](~Fury-Spell-Level-7)}} {{Spelllevel&nbsp;9:=[View](~Fury-Spell-Level-9)}} 
+
+[1, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 1 }} {{subtags=[Back to Main Menu](~Spells-Main-Fury)}} {{Weapon Bless:=[View](~Fury-Weapon-Bless-Description) [Send](~Fury-Weapon-Bless-Cast)}} ]
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-Fury)}} {{Castigate:=[View](~Fury-Castigate-Description) [Send](~Fury-Castigate-Cast)}} ]
+[7, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 7 }} {{subtags=[Back to Main Menu](~Spells-Main-Fury)}} {{Abyssal Frenzy:=[View](~Fury-Abyssal-Frenzy-Description) [Send](~Fury-Abyssal-Frenzy-Cast)}} ]
+[9, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 9 }} {{subtags=[Back to Main Menu](~Spells-Main-Fury)}} {{Abyssal Frenzy, Mass:=[View](~Fury-Abyssal-Frenzy,-Mass-Description) [Send](~Fury-Abyssal-Frenzy,-Mass-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

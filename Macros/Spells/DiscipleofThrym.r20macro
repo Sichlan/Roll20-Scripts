@@ -1,0 +1,275 @@
+
+
+Cause Fear(Player's Handbook v.3.5): - DiscipleofThrym(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Cause Fear](https://dndtools.net/spells/players-handbook-v35--6/cause-fear--2716/) }} {{School:= Necromancy  [Fear]}} {{Level:= **DiscipleofThrym 1**, Bard 1, DeathMaster 1, Sha'ir 1, DeathDelver 1, Duskblade 1, Vigilante 1, Adept 1, DreadNecromancer 1, Wizard 1, Sorcerer 1, Cleric 1, Jester 1, Death 1, Blackwater 1, Abyss 1, Orc 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature with 5 or fewer HD}} {{Duration:=1d4 rounds or 1 round; see text}} {{Savingthrow:=Will partial }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The affected creature becomes frightened. If the subject succeeds on a Will save, it is shaken for 1 round. Creatures with 6 or more Hit Dice are immune to this effect.
+**Cause fear** counters and dispels <a href="/spells/players-handbook-v35--6/remove-fear--2353/">**remove fear**</a>}}
+
+
+Detect Fire(Frostburn): - DiscipleofThrym(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Detect Fire](https://dndtools.net/spells/frostburn--68/detect-fire--1265/) }} {{School:= Divination  [Cold]}} {{Level:= **DiscipleofThrym 1**, Cleric 1, Cloistered Cleric 1}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like detect evil (see page 218 of the Player's Handbook), except that it detects heat energy from normal fire, fire spells, fire magic items, clerics of fire deities, and all living beings other than those with the cold subtype.
+You are vulnerable to an overwhelming heat aura if you have the cold subtype.
+Living beings without the fire subtype are detected with a heat aura strength of faint only, regardless of level or Hit Dice}}
+
+
+Divine Favor(Player's Handbook v.3.5): - DiscipleofThrym(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Divine Favor](https://dndtools.net/spells/players-handbook-v35--6/divine-favor--2606/) }} {{School:= Evocation  }} {{Level:= **DiscipleofThrym 1**, Cleric 1, Paladin 1, RunescarredBerserker 1, SlayerofDomiel 1, VassalofBahamut 1, KnightoftheWeave 1, KnightoftheChalice 1, Mysticism 1, Nobility 1, Cloistered Cleric 1}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Calling upon the strength and wisdom of a deity, you gain a +1 luck bonus on attack and weapon damage rolls for every three caster levels you have (at least +1, maximum +3). The bonus doesn't apply to spell damage}}
+
+
+Doom(Player's Handbook v.3.5): - DiscipleofThrym(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Doom](https://dndtools.net/spells/players-handbook-v35--6/doom--2731/) }} {{School:= Necromancy  [Fear]}} {{Level:= **DiscipleofThrym 1**, Cleric 1, DreadNecromancer 1, KnightoftheChalice 1, Blighter 1, DeathMaster 1, Jester 1, Demonologist 1, Hades 1, Hatred 1, Pestilence 1, Wrath(BE) 1, Cloistered Cleric 1}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One living creature}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell fills a single subject with a feeling of horrible dread that causes it to become shaken}}
+
+
+Ease of Breath(Frostburn): - DiscipleofThrym(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Ease of Breath](https://dndtools.net/spells/frostburn--68/ease-of-breath--1282/) }} {{School:= Necromancy  [Cold]}} {{Level:= **DiscipleofThrym 1**, Cleric 1, Druid 1, Ranger 1, Cloistered Cleric 1}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 hour/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You grant the target the ability to survive in thin air, conferring a +20 inherent bonus on Fortitude saves to resist altitude sickness as well as saving throws to resist becoming fatigued due to altitude or thin air}}
+
+
+Frostburn, Lesser(Frostburn): - DiscipleofThrym(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Frostburn, Lesser](https://dndtools.net/spells/frostburn--68/frostburn-lesser--1284/) }} {{School:= Necromancy  [Cold]}} {{Level:= **DiscipleofThrym 1**, Cleric 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude half }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When laying your hand upon a creature, you channel cold energy that deals 1d12 points of frostburn damage +1 point per caster level (maximum +5).
+When cast upon a cold subtype creature, this spell heals a like amount of damage, rather than harming it}}
+
+
+Magic Weapon(Player's Handbook v.3.5): - DiscipleofThrym(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Magic Weapon](https://dndtools.net/spells/players-handbook-v35--6/magic-weapon--2838/) }} {{School:= Transmutation  }} {{Level:= **DiscipleofThrym 1**, Cleric 1, Sha'ir 1, WuJen 1, Duskblade 1, KnightoftheChalice 1, KnightoftheWeave 1, HunteroftheDead 1, Wizard 1, Sorcerer 1, Paladin 1, DeathMaster 1, War 1, Dwarf 1, Metal 1, ReveredAncestor 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Weapon touched}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Magic weapon gives a weapon a +1 enhancement bonus on attack and damage rolls. (An enhancement bonus does not stack with a masterwork weapon's +1 bonus on attack rolls). 
+You can't cast this spell on a natural weapon, such as an unarmed strike (instead, see magic fang). A monk's unarmed strike is considered a weapon, and thus it can be enhanced by this spell}}
+
+
+Obscuring Mist(Player's Handbook v.3.5): - DiscipleofThrym(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Obscuring Mist](https://dndtools.net/spells/players-handbook-v35--6/obscuring-mist--2414/) }} {{School:= Conjuration (Creation) }} {{Level:= **DiscipleofThrym 1**, Cleric 1, UrbanDruid 1, Jester 1, DeathMaster 1, Sha'ir 1, WuJen 1, Duskblade 1, Beguiler 1, SlayerofDomiel 1, EbonmarInfiltrator 1, Adept 1, Wizard 1, Sorcerer 1, Druid 1, Assassin 1, Air 1, Water 1, Darkness 1, Windstorm 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S}} {{Range:= 20 ft.}} {{Effect:=Cloud spreads in 20-ft. radius from you, 20 ft. high}} {{Duration:=1 min./level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A misty vapor arises around you. It is stationary once created. The vapor obscures all sight, including darkvision, beyond 5 feet. A creature 5 feet away has concealment (attacks have a 20% miss chance).  Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target).
+A moderate wind (11+ mph), such as from a <a href="/spells/players-handbook-v35--6/gust-of-wind--2618/">gust of wind spell</a>, disperses the fog in 4 rounds. A strong wind (21+ mph) disperses the fog in 1 round. A <a href="/spells/players-handbook-v35--6/fireball--2612/">fireball</a>, <a href="/spells/players-handbook-v35--6/flame-strike--2614/">flame strike</a>, or similar spell burns away the fog in the explosive or fiery spell's area. A <a href="/spells/players-handbook-v35--6/wall-of-fire--2658/">wall of fire</a> burns away the fog in the area into which it deals damage. This spell does not function underwater}}
+
+
+Protection from Good(Player's Handbook v.3.5): - DiscipleofThrym(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Protection from Good](https://dndtools.net/spells/players-handbook-v35--6/protection-from-good--2349/) }} {{School:= Abjuration  [Evil]}} {{Level:= **DiscipleofThrym 1**, Cleric 1, DeathMaster 1, Savant 1, Sha'ir 1, DivineBard 1, RunescarredBerserker 1, Adept 1, Wizard 1, Sorcerer 1, Demonologist 1, Evil 1, Hades 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/protection-from-evil--2348/">protection from evil</a>, except that the deflection and resistance bonuses apply to attacks from good creatures, and good summoned creatures cannot touch the subject}}
+
+
+Protection from Law(Player's Handbook v.3.5): - DiscipleofThrym(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Protection from Law](https://dndtools.net/spells/players-handbook-v35--6/protection-from-law--2350/) }} {{School:= Abjuration  [Chaotic]}} {{Level:= **DiscipleofThrym 1**, Cleric 1, Sorcerer 1, Wizard 1, Adept 1, RunescarredBerserker 1, DivineBard 1, Sha'ir 1, Savant 1, Chaos 1, Limbo 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature Touched}}  {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/protection-from-evil--2348/">**protection from evil**</a>, except that the deflection and resistance bonuses apply to attacks from lawful creatures, and lawful summoned creatures cannot touch the subject}}
+
+
+Shivering Touch, Lesser(Frostburn): - DiscipleofThrym(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shivering Touch, Lesser](https://dndtools.net/spells/frostburn--68/shivering-touch-lesser--1292/) }} {{School:= Necromancy  [Cold]}} {{Level:= **DiscipleofThrym 1**, Cleric 1, Sorcerer 1, Wizard 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your successful melee touch attack delivers a bitter chill to the target, causing it to shiver uncontrollably for the duration of the spell.
+Shivering characters take 1d6 points of Dexterity damage.
+Creatures with the cold subtype are immune to the effects of lesser shivering touch}}
+
+
+Blood Snow(Frostburn): - DiscipleofThrym(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blood Snow](https://dndtools.net/spells/frostburn--68/blood-snow--1280/) }} {{School:= Necromancy  [Cold]}} {{Level:= **DiscipleofThrym 2**, Cleric 2, Druid 2, Sorcerer 3, Wizard 3, Cloistered Cleric 2, Arcanist 3}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=20-ft. square of snow/level}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You must cast this spell on a snow field.
+You corrupt an area of fallen snow, imbuing it with negative energy.
+Each round, a creature in contact with blood snow must succeed on a Fortitude save or take 1d2 points of Constitution drain.
+In addition, anyone failing a saving throw is nauseated for the duration of the spell}}
+
+
+Bull's Strength(Player's Handbook v.3.5): - DiscipleofThrym(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Bull's Strength](https://dndtools.net/spells/players-handbook-v35--6/bulls-strength--2788/) }} {{School:= Transmutation  }} {{Level:= **DiscipleofThrym 2**, Cleric 2, Sha'ir 2, WuJen 2, DeathDelver 2, Duskblade 2, Fatemaker 2, KnightoftheChalice 2, KnightoftheWeave 2, VassalofBahamut 2, HunteroftheDead 2, RunescarredBerserker 2, Adept 2, Wizard 2, Sorcerer 2, Paladin 2, Druid 2, UrbanDruid 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S, M, DF}} {{Material Component:= A few hairs, or a pinch of dung, from a bull}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject becomes stronger. The spell grants a +4 enhancement bonus to Strength, adding the usual benefits to melee attack rolls, melee damage rolls, and other uses of the Strength modifier}}
+
+
+Chill Metal(Player's Handbook v.3.5): - DiscipleofThrym(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Chill Metal](https://dndtools.net/spells/players-handbook-v35--6/chill-metal--2793/) }} {{School:= Transmutation  [Cold]}} {{Level:= **DiscipleofThrym 2**, Druid 2, Blighter 2, DeathMaster 2, UrbanDruid 2, Cold 2}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Metal equipment of one creature per two levels, no two of which can be more than 30 ft. apart; or 25 lb. of metal/level, none of which can be more than 30 ft. away from any of the rest}} {{Duration:=7 rounds}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Chill metal makes metal extremely cold.
+Unattended, nonmagical metal gets no saving throw.
+Magical metal is allowed a saving throw against the spell (Magic item's saving throws are covered in the Dungeon Master's Guide).
+An item in a creature's possession uses the creature's saving throw bonus unless its own is higher.
+A creature takes cold damage if its equipment is chilled.
+It takes full damage if its armor is affected or if it is holding, touching, wearing, or carrying metal weighing one-fifth of its weight.
+The creature takes minimum damage (1 point or 2 points; see the table) if it's not wearing metal armor and the metal that it's carrying weighs less than one-fifth of its weight.
+On the first round of the spell, the metal becomes chilly and uncomfortable to touch but deals no damage.
+The same effect also occurs on the last round of the spell's duration.
+During the second (and also the next-to-last) round, icy coldness causes pain and damage.
+In the third, fourth, and fifth rounds, the metal is freezing cold, causing more damage, as shown on the table below.
+Any heat intense enough to damage the creature negates cold damage from the spell (and vice versa) on a point-for-point basis.
+For example, if the damage roll from a chill metal spell indicates 5 points of cold damage and the subject plunges through a wall of fire in the same round and takes 8 points of fire damage, it winds up taking no cold damage and only 3 points of fire damage.
+Underwater, chill metal deals no damage, but ice immediately forms around the affected metal, making it more buoyant.
+Chill metal counters and dispels heat metal}}
+
+
+Conjure Ice Object(Frostburn): - DiscipleofThrym(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Conjure Ice Object](https://dndtools.net/spells/frostburn--68/conjure-ice-object--1247/) }} {{School:= Conjuration (Creation) [Cold]}} {{Level:= **DiscipleofThrym 2**, Cleric 2, Druid 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Effect:=One object of up to 5 lb./level}} {{Duration:=1 min./level}} {{Savingthrow:=None (harmless) }} {{Save DC:=[[@{spelldc2}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You conjure into being a block of transparent ice in the shape of any object you have seen at least once before, up to the weight limit (to a maximum of 50 pounds at 10th level).
+Any object with moving parts does not function (for example, a crossbow).
+You must succeed on an appropriate Craft check to make a complex item}}
+
+
+Eagle's Splendor(Player's Handbook v.3.5): - DiscipleofThrym(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Eagle's Splendor](https://dndtools.net/spells/players-handbook-v35--6/eagles-splendor--2803/) }} {{School:= Transmutation  }} {{Level:= **DiscipleofThrym 2**, Bard 2, UrbanDruid 2, Jester 2, Sha'ir 2, Vigilante 2, Fatemaker 2, KnightoftheWeave 2, Wizard 2, Sorcerer 2, Paladin 2, Cleric 2, CourtHerald 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The transmuted creature becomes more poised, articulate, and personally forceful. The spell grants a +4 enhancement bonus to Charisma, adding the usual benefits to Charisma-based skill checks and other uses of the Charisma modifier. <a href="/classes/sorcerer/">Sorcerers</a> and <a href="/classes/bard/">bards</a> (and other spellcasters who rely on Charisma) affected by this spell do not gain any additional bonus spells for the increased Charisma, but the save DCs for spells they cast while under this spell's effect do increase.
+**Arcane Material Component:** A few feathers or a pinch of droppings from an eagle}}
+
+
+Fog Cloud(Player's Handbook v.3.5): - DiscipleofThrym(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fog Cloud](https://dndtools.net/spells/players-handbook-v35--6/fog-cloud--2393/) }} {{School:= Conjuration (Creation) }} {{Level:= **DiscipleofThrym 2**, Druid 2, Jester 2, DeathMaster 2, Sha'ir 2, WuJen 2, Beguiler 2, Wizard 2, Sorcerer 2, UrbanDruid 2, Water 2, Arcanist 2}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Fog spreads in 20-ft. radius, 20 ft. high}} {{Duration:=10 min./level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A bank of fog billows out from the point you designate.
+The fog obscures all sight, including darkvision, beyond 5 feet.
+A creature within 5 feet has concealment (attacks have a 20% miss chance).
+Creatures farther away have total concealment (50% miss chance, and the attacker can't use sight to locate the target).
+A moderate wind (11+ mph) disperses the fog in 4 rounds; a strong wind (21+ mph) disperses the fog in 1 round.
+The spell does not function underwater}}
+
+
+Frost Weapon(Frostburn): - DiscipleofThrym(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Frost Weapon](https://dndtools.net/spells/frostburn--68/frost-weapon--1312/) }} {{School:= Transmutation  }} {{Level:= **DiscipleofThrym 2**, Cleric 2, Druid 2, Sorcerer 2, Wizard 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Area:=Weapon touched}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates (harmless, object) }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You imbue a weapon with icy cold, granting it a power similar to the frost special ability.
+A frost weapon deals an extra 1d6 points of cold damage on a successful hit.
+If cast on a bow, crossbow, or sling, the spell bestows the cold energy upon the weapon's ammunition.
+This ability stacks with the frost special ability, but not with itself.
+Material Component: A drop of water}}
+
+
+Zone of Glacial Cold(Frostburn): - DiscipleofThrym(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Zone of Glacial Cold](https://dndtools.net/spells/frostburn--68/zone-of-glacial-cold--1264/) }} {{School:= Conjuration  [Cold]}} {{Level:= **DiscipleofThrym 2**, Druid 2, Ranger 2, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= A snowball}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=20-ft. radius}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude half }} {{Save DC:=[[@{spelldc2}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create a zone of icy cold within the spell's area, dealing 1d6 points of cold damage per round}}
+
+
+Aura of Cold, Lesser(Frostburn): - DiscipleofThrym(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Aura of Cold, Lesser](https://dndtools.net/spells/frostburn--68/aura-of-cold-lesser--1298/) }} {{School:= Transmutation  [Cold]}} {{Level:= **DiscipleofThrym 3**, Cleric 3, Druid 3, Paladin 4, Ranger 4, Cloistered Cleric 3}} {{Components:= V, S, DF}} {{Range:= 5 ft.}} {{Area:=5-ft.-radius spherical emanation, centered on you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You are covered in a thin layer of white frost and frigid cold emanates from your body, dealing 1d6 points of cold damage at the start of your round to each creature within 5 feet}}
+
+
+Binding Snow(Frostburn): - DiscipleofThrym(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Binding Snow](https://dndtools.net/spells/frostburn--68/binding-snow--1299/) }} {{School:= Transmutation  [Cold]}} {{Level:= **DiscipleofThrym 3**, Cleric 3, Druid 3, Paladin 3, Ranger 3, Cloistered Cleric 3}} {{Components:= V, S, DF, Frostfell}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=One 10-ft. square/level}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=Reflex negates }} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell must be cast on a snow field.
+That snow field instantly freezes, impeding movement through the area.
+A creature caught within the area can move only at half its normal speed.
+By making a DC 20 Strength check or a DC 25 Escape Artist check, the creature can move at its normal speed for that round.
+A creature that succeeds on a Reflex save is not impeded}}
+
+
+Ice Shape(Frostburn): - DiscipleofThrym(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Ice Shape](https://dndtools.net/spells/frostburn--68/ice-shape--1315/) }} {{School:= Transmutation  [Cold]}} {{Level:= **DiscipleofThrym 3**, Cleric 3, Druid 3, Sorcerer 5, Wizard 5, Cloistered Cleric 3, Arcanist 5}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Area:=Ice touched, up to 10 cu. ft. + 1 cu. ft./level}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can form an existing piece of ice into any shape that suits your purpose.
+For example, you can make an ice weapon, a special trapdoor, or a crude idol.
+Ice shape also permits you to reshape an ice door to make an exit where one didn't exist or to seal a door shut.
+While it's possible to make crude coffers, doors, and so forth with ice shape, fine detail isn't possible.
+There is a 30% chance that any shape including moving parts simply doesn't work.
+Arcane Material Component: Slush, which must be spread into roughly the desired shape of the ice object and then touched to the ice while the verbal component is uttered}}
+
+
+Meld Into Ice(Frostburn): - DiscipleofThrym(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Meld Into Ice](https://dndtools.net/spells/frostburn--68/meld-into-ice--1320/) }} {{School:= Transmutation  }} {{Level:= **DiscipleofThrym 3**, Cleric 3, Druid 3, Cloistered Cleric 3}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 min./level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Meld into ice enables you to meld your body and possessions
+into a single block of ice.
+The ice must be large enough to accommodate your body in all three dimensions.
+When the casting is complete, you and not more than 100 pounds of nonliving gear merge with the ice.
+If either condition is violated, the spell fails and is wasted.
+While in the ice, you remain in contact, however tenuous, with the face of the ice through which you melded.
+You remain aware of the passage of time and can cast spells on yourself while hiding in the ice.
+Nothing that goes on outside the ice can be seen, but you can still hear what happens around you.
+Minor physical damage to the ice does not harm you, but its partial destruction (to the extent that you no longer fit within it) expels you and deals you 5d6 points of damage.
+The ice's complete destruction (by damage or thawing) expels you and slays you instantly unless you make a DC 18 Fortitude save.
+Any time before the duration expires, you can step out of the ice through the surface that you entered.
+If the spell's duration expires or the effect is dispelled before you voluntarily exit the stone, you are violently expelled and take 5d6 points of damage.
+The following spells harm you if cast upon the ice that you are occupying: Ice to flesh expels you and deals you 5d6 points of damage.
+Ice shape deals you 3d6 points of damage but does not expel you.
+Thaw expels you and then slays you instantly unless you make a DC 18 Fortitude save, in which case you are merely expelled.
+Finally, pass through ice expels you without damage}}
+
+
+Shivering Touch(Frostburn): - DiscipleofThrym(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shivering Touch](https://dndtools.net/spells/frostburn--68/shivering-touch--1291/) }} {{School:= Necromancy  [Cold]}} {{Level:= **DiscipleofThrym 3**, Cleric 3, Sorcerer 3, Wizard 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=On a successful melee touch attack, you instantly suck the heat from the target's body, rendering it numb. The target takes 3d6 points of Dexterity damage.
+Creatures with the cold subtype are immune to the effects of <a href="/spells/frostburn--68/shivering-touch--1291/">**shivering touch**</a>}}
+
+
+Sleet Storm(Player's Handbook v.3.5): - DiscipleofThrym(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sleet Storm](https://dndtools.net/spells/players-handbook-v35--6/sleet-storm--2436/) }} {{School:= Conjuration (Creation) [Cold]}} {{Level:= **DiscipleofThrym 3**, Druid 3, Sorcerer 3, Wizard 3, Warmage 3, Sha'ir 3, Savant 3, Cold 3, Storm 4, Arcanist 3}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=Cylinder (40-ft. radius, 20 ft. high)}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Driving sleet blocks all sight (even darkvision) within it and causes the ground in the area to be icy.
+A creature can walk within or through the area of sleet at half normal speed with a DC 10 Balance check.
+Failure means it can't move in that round, while failure by 5 or more means it falls (see the Balance skill for details).
+The sleet extinguishes torches and small fires.
+Arcane Material Component: A pinch of dust and a few drops of water}}
+
+
+Boreal Wind(Frostburn): - DiscipleofThrym(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Boreal Wind](https://dndtools.net/spells/frostburn--68/boreal-wind--1268/) }} {{School:= Evocation  [Cold]}} {{Level:= **DiscipleofThrym 4**, Druid 4, Bard 5, Cleric 5, Sorcerer 5, Wizard 5, Cloistered Cleric 5, Arcanist 5}} {{Components:= V, S, DF}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Effect:=Gust of wind (20 ft. wide, 20 ft. high) emanating out from you to the extreme of the range}} {{Duration:=1 round + 1 round/2 levels}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc4}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create a strong blast of arctic air that originates from your fingertips and moves in the direction you are facing.
+As a stronger form of gust of wind, this boreal wind automatically extinguishes candles, torches, and similar protected or unprotected f lames, including lanterns.
+Large fires (such as bonfires, a blacksmith's coals, or even a house fire) have a 50% chance to be extinguished by the boreal wind.
+Forest or grassland fires are too large to be extinguished by this spell.
+All creatures caught in the area take 1d4 points of cold damage per caster level (maximum 15d4).
+A successful Fortitude saving throw negates the gust's effects.
+Those that fail the save are pushed away from the caster a distance of 3 feet per caster level.
+Creatures that remain in the area past the first round must make an additional saving throw each round.
+A boreal wind can do anything a sudden blast of wind would be expected to do.
+It can create a stinging spray of sand or dust, overturn tents
+and blow down small huts, scuttle a small boat, and blow gases or vapors to the edge of the range.
+The wind can change direction if you actively direct it (a move action for you); otherwise, it merely blows in the same direction}}
+
+
+Frostburn(Frostburn): - DiscipleofThrym(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Frostburn](https://dndtools.net/spells/frostburn--68/frostburn--1283/) }} {{School:= Necromancy  [Cold]}} {{Level:= **DiscipleofThrym 4**, Cleric 4, Cloistered Cleric 4}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like lesser frostburn, except that it deals 3d12 points of frostburn damage +1 point per caster level (maximum +20)}}
+
+
+Glacial Globe of Invulnerability(Frostburn): - DiscipleofThrym(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Glacial Globe of Invulnerability](https://dndtools.net/spells/frostburn--68/glacial-globe-of-invulnerability--1230/) }} {{School:= Abjuration  [Cold]}} {{Level:= **DiscipleofThrym 4**, Sorcerer 3, Wizard 3, Cleric 4, Cloistered Cleric 4, Arcanist 3}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= 10 ft.}} {{Area:=10-ft.-radius spherical emanation, centered on you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A frosty sphere of cold energy surrounds you and excludes all spells and spell-like abilities with the fire descriptor of 3rd level or lower.
+This spell functions like globe of invulnerability, except that it affects only fire spells.
+In addition, the frosty opaqueness of the globe grants concealment (20%miss chance) to those within the area against attacks from outside.
+Likewise, targets outside the globe gain concealment against attacks from those within the spell's area.
+Arcane Material Component: A tiny sphere of ice that shatters at the expiration of the spell}}
+
+
+Hibernal Healing(Frostburn): - DiscipleofThrym(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Hibernal Healing](https://dndtools.net/spells/frostburn--68/hibernal-healing--1314/) }} {{School:= Transmutation  [Cold]}} {{Level:= **DiscipleofThrym 4**, Druid 4, Cleric 5, Cloistered Cleric 5}} {{Components:= V, S, Frostfell}} {{Range:= Personal}} {{Target:=You}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude half (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You absorb slush, snow, and ice, channeling the cold energy stored within to cure 10 points of damage per caster level, to a maximum of 150 points at 15th level.
+The spell melts all slush, snow, and ice within 10 feet of the caster}}
+
+
+Summon Giants(Frostburn): - DiscipleofThrym(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Summon Giants](https://dndtools.net/spells/frostburn--68/summon-giants--1262/) }} {{School:= Conjuration (Summoning) }} {{Level:= **DiscipleofThrym 4**, Cleric 8, Winter 8, Cloistered Cleric 8}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A lock of hair from a giant of the desired kind}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One or more summoned creatures}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You summon one or more giants that attack your enemies.
+They appear where you designate and act immediately, on your turn.
+The giants attack your opponents to the best of their ability.
+If you speak Giant, you can direct the giants not to attack, to attack particular enemies, or to perform other actions.
+Summoned giants act normally on the last round of the spell and disappear at the end of their turn.
+Choose a giant kind from the table below}}
+
+
+Dispel Fire(Frostburn): - DiscipleofThrym(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dispel Fire](https://dndtools.net/spells/frostburn--68/dispel-fire--1229/) }} {{School:= Abjuration  [Cold]}} {{Level:= **DiscipleofThrym 5**, Cleric 5, Cloistered Cleric 5}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like dispel evil (see page 222 of the Player's Handbook), except that you are surrounded by constant red, orange, and yellow flames, and the spell affects fire creatures and spells rather than evil ones}}
+
+
+Dispel Good(Player's Handbook v.3.5): - DiscipleofThrym(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dispel Good](https://dndtools.net/spells/players-handbook-v35--6/dispel-good--2313/) }} {{School:= Abjuration  [Evil]}} {{Level:= **DiscipleofThrym 5**, Cleric 5, NarDemonbinder 5, DeathMaster 5, Evil 5, Hades 5, Cloistered Cleric 5}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like dispel evil, except that you are surrounded by dark, wavering, unholy energy, and the spell affects good creatures and spells rather than evil ones}}
+
+
+Dispel Law(Player's Handbook v.3.5): - DiscipleofThrym(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dispel Law](https://dndtools.net/spells/players-handbook-v35--6/dispel-law--2314/) }} {{School:= Abjuration  [Chaotic]}} {{Level:= **DiscipleofThrym 5**, Cleric 5, Chaos 5, Limbo 5, Cloistered Cleric 5}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like dispel evil, except that you are surrounded by flickering, yellow, chaotic energy, and the spell affects lawful creatures and spells rather than evil ones}}
+
+
+Entomb(Frostburn): - DiscipleofThrym(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Entomb](https://dndtools.net/spells/frostburn--68/entomb--1272/) }} {{School:= Evocation  [Cold]}} {{Level:= **DiscipleofThrym 5**, Druid 6, Sorcerer 6, Wizard 6, Arcanist 6}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=One creature/level, no two of which can be more than 30 ft. apart}} {{Duration:=Instantaneous and 1 round/level; see text}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc5}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An entomb spell traps living creatures in a block of ice, suffocating them.
+The spell entraps the targets with a thick layer of ice from head to toe.
+Those that make a successful Fortitude saving throw can shake off the ice immediately, though they still take 6d6 points of cold damage.
+If the creature fails its saving throw, it is held within the ice and immediately begins to suffocate per the drowning rules (see page 304 of the Dungeon Master's Guide).
+In addition, the creature takes 2d12 points of cold damage and 1 point of Constitution damage per round from contact
+with the ice.
+Other than attempting to escape, creatures entombed can perform actions that only require mental or verbal activity.
+Escaping from the ice block requires a DC 20 Strength check or the application of 20 points of fire damage.
+Material Component: A clear gemstone with a minimum value of 500 gp}}
+
+
+Frostbite(Frostburn): - DiscipleofThrym(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Frostbite](https://dndtools.net/spells/frostburn--68/frostbite--1249/) }} {{School:= Conjuration (Creation) [Cold]}} {{Level:= **DiscipleofThrym 5**, Cleric 5, Cloistered Cleric 5}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/2 levels, no two of which can be more than 30 ft. apart}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude half }} {{Save DC:=[[@{spelldc5}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You chill the air and create a layer of frost on the skin of target creatures.
+The targets are entitled to a Fortitude save; those who fail take 6d6 points of cold damage and 2d6 points of Dexterity damage.
+Creatures dropping to 0 Dexterity are frozen in a layer of ice, shivering and unable to attack, move, or defend}}
+
+
+Ice Storm(Player's Handbook v.3.5): - DiscipleofThrym(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Ice Storm](https://dndtools.net/spells/players-handbook-v35--6/ice-storm--2624/) }} {{School:= Evocation  [Cold]}} {{Level:= **DiscipleofThrym 5**, Warmage 3, Druid 4, Sorcerer 4, Wizard 4, WuJen 4, Sha'ir 4, DeathMaster 4, Savant 4, Cold 4, Winter 4, Windstorm 4, Water 5, Storm 5, Arcanist 4}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=Cylinder (20-ft. radius, 40 ft. high)}} {{Duration:=1 full round}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Great magical hailstones pound down for 1 full round, dealing 3d6 points of bludgeoning damage and 2d6 points of cold damage to every creature in the area. A -4 penalty applies to each Listen check made within the ice storm's effect, and all land movement within its area is at half speed. At the end of the duration, the hail disappears, leaving no aftereffects (other than the damage dealt).
+**Arcane Material Component**: A pinch of dust and a few drops of water}}
+
+
+Stoneskin(Player's Handbook v.3.5): - DiscipleofThrym(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Stoneskin](https://dndtools.net/spells/players-handbook-v35--6/stoneskin--2369/) }} {{School:= Abjuration  }} {{Level:= **DiscipleofThrym 5**, Trapsmith 2, Fatemaker 4, Sorcerer 4, Wizard 4, DeathMaster 4, Adept 4, Sha'ir 4, RunescarredBerserker 4, WuJen 4, Druid 5, UrbanDruid 5, Endurance 5, Earth 6, Strength 6, Dragon 6, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=10 min./level or until discharged}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc5}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The warded creature gains resistance to blows, cuts, stabs, and slashes.
+The subject gains damage reduction 10/adamantine.
+(It ignores the first 10 points of damage each time it takes damage from a weapon, though an adamantine weapon bypasses the reduction).
+Once the spell has prevented a total of 10 points of damage per caster level (maximum 150 points), it is discharged.
+Material Component: Granite and 250 gp worth of diamond dust sprinkled on the target's skin}}
+
+
+Wall of Ice(Player's Handbook v.3.5): - DiscipleofThrym(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wall of Ice](https://dndtools.net/spells/players-handbook-v35--6/wall-of-ice--2660/) }} {{School:= Evocation  [Cold]}} {{Level:= **DiscipleofThrym 5**, Sorcerer 4, Wizard 4, WuJen 4, Sha'ir 4, DeathMaster 4, Ocean 5, Cold 5, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= A small piece of quartz or similar rock crystal}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Anchored plane of ice, up to one 10-ft. square/level, or hemisphere of ice with a radius of up to 3 ft. + 1 ft./level}} {{Duration:=1 min./level}} {{Savingthrow:=Reflex negates; see text }} {{Save DC:=[[@{spelldc5}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates an anchored plane of ice or a hemisphere of ice, depending on the version selected.
+A wall of ice cannot form in an area occupied by physical objects or creatures.
+Its surface must be smooth and unbroken when created.
+Any creature adjacent to the wall when it is created may attempt a Reflex save to disrupt the wall as it is being formed.
+A successful save indicates that the spell automatically fails.
+Fire, including a fireball spell and red dragon breath, can melt a wall of ice, and it deals full damage to the wall (instead of the normal half damage taken by objects).
+Suddenly melting a wall of ice creates a great cloud of steamy fog that lasts for 10 minutes.
+Ice Plane: A sheet of strong, hard ice appears.
+The wall is 1 inch thick per caster level.
+It covers up to a 10-foot-square area per caster level (so a 10th-level wizard can create a wall of ice 100 feet long and 10 feet high, a wall 50 feet long and 20 feet high, or some other combination of length and height that does not exceed 1,000 square feet).
+The plane can be oriented in any fashion as long as it is anchored.
+A vertical wall need only be anchored on the floor, while a horizontal or slanting wall must be anchored on two opposite sides.
+The wall is primarily defensive in nature and is used to stop pursuers from following you and the like.
+Each 10-foot square of wall has 3 hit points per inch of thickness.
+Creatures can hit the wall automatically.
+A section of wall whose hit points drop to 0 is breached.
+If a creature tries to break through the wall with a single attack, the DC for the Strength check is 15 + caster level.
+Even when the ice has been broken through, a sheet of frigid air remains.
+Any creature stepping through it (including the one who broke through the wall) takes 1d6 points of cold damage +1 point per caster level (no save).
+Hemisphere: The wall takes the form of a hemisphere whose maximum radius is 3 feet + 1 foot per caster level.
+Thus, a 7th-level caster can create a hemisphere 10 feet in radius.
+The hemisphere is as hard to break through as the ice plane form, but it does not deal damage to those who go through a breach}}

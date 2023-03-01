@@ -1,0 +1,79 @@
+
+
+Bestow Wound(Heroes of Horror): - Spite(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Bestow Wound](https://dndtools.net/spells/heroes-of-horror--70/bestow-wound--1448/) }} {{School:= Transmutation  }} {{Level:= **Spite 1**, DreadNecromancer 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S, M}} {{Material Component:= A small eye agate worth at least 10 gp}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=If wounded, you can cast this spell and touch a living creature.
+The target takes damage equal to your wounds at the rate of 1 point of damage per your caster level, or the amount needed to bring you up to your maximum hit points, whichever is less.
+At the same time, you heal that much damage, as if a cure spell had been cast on you}}
+
+
+Pronouncement of Fate(Heroes of Horror): - Spite(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Pronouncement of Fate](https://dndtools.net/spells/heroes-of-horror--70/pronouncement-of-fate--1446/) }} {{School:= Necromancy  }} {{Level:= **Spite 4**, Cleric 4, Cloistered Cleric 4}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates or Will partial; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Necromancy}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=To invoke this spell, you speak the name of an offense that your target has committed.
+Then you speak the inevitable doom that will fall upon her as a result of her transgression.
+(The target need neither understand nor even hear this pronouncement).
+An affected target takes a -4 penalty on attack rolls, damage rolls, saving throws, and checks for the duration of the spell.
+If the offense you named was committed against you personally (although not necessarily against you alone), the target also has a 50% chance of losing all actions on her turn for the duration of the spell.
+The spell's power can be more difficult to resist, depending on who suffered from the offense specified by the casting.
+If you were personally affected by the offense (in the DM's judgment), then the target can only hope to reduce the deleterious effects of the spell by half on a successful Will save.
+You receive a +4 bonus on your caster level check to overcome the spell resistance of any creature whose crime affected you personally.
+A successful save in these circumstances results in the target taking a -2 penalty on attack rolls, damage rolls, saving throws, and checks.
+In addition, she has a 25% chance to lose all her actions for the duration of the spell.
+Any target whose offense did not affect you personally gets her full spell resistance, and a successful Will save negates the effects of the pronouncement of fate}}
+
+
+Fire In the Blood(Heroes of Horror): - Spite(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Fire In the Blood](https://dndtools.net/spells/heroes-of-horror--70/fire-in-the-blood--1449/) }} {{School:= Transmutation  }} {{Level:= **Spite 5**, Cleric 5, DreadNecromancer 5, Cloistered Cleric 5}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This unsettling spell enables you to make deadly weapons of your own arteries and veins.
+Once the spell is cast, your blood takes on a mystical potency that makes it more corrosive than the strongest acid to anyone who draws it from you.
+From then on, until the spell's duration has elapsed, anyone who deals slashing or piercing melee damage on you is sprayed with your blood in retribution.
+The blood deals a cumulative 1d6 points of damage per attack upon your attacker, with no save or spell resistance applicable, up to a maximum of 5d6.
+Thus, the first time a foe hits you with a slashing or piercing weapon, he instantly takes 1d6 points of damage from the sanguinary backlash.
+The second time that same foe strikes you, he takes 2d6 points of damage.
+As soon as any single foe has taken 5d6 points of damage in a single spray from your corrosive blood, the spell ends.
+Opponents striking you with magical attacks that do not manifest in a slashing or piercing manner, or those striking you with only bludgeoning weapons, do not trigger the retributive blood spray.
+The arc and direction of the blood spray is magical in nature, and the spray does not splatter adjacent squares or parties, no matter how close together they might be.
+Each spray strikes only the one responsible for the wound.
+Material Component: A drop of your own blood}}
+
+
+Cloak of Hate(Heroes of Horror): - Spite(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Cloak of Hate](https://dndtools.net/spells/heroes-of-horror--70/cloak-of-hate--1432/) }} {{School:= Enchantment  }} {{Level:= **Spite 6**, Bard 5, Cleric 6, Sorcerer 6, Wizard 6, Cloistered Cleric 6, Arcanist 6}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 day/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc6}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Living beings view the subject of this spell with instinctive hostility.
+All <span class="caps">NPC</span> reactions begin one category worse than they
+otherwise would (see page 72 of the Player's Handbook), and any Diplomacy checks to moderate those reactions take a &#8211; 10 circumstance penalty.
+Furthermore, people view the target in the worst possible light.
+If, for example, a community is hunting for an unknown murderer, they will assume that the subject of the spell is guilty of the crime.
+Player characters and NPCs who know the subject well, such as old friends or loved ones, are unaffected.
+Material Component:One ounce of bile}}
+
+
+Pact of Return(Heroes of Horror): - Spite(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Pact of Return](https://dndtools.net/spells/heroes-of-horror--70/pact-of-return--1444/) }} {{School:= Necromancy  }} {{Level:= **Spite 7**, Cleric 7, Cloistered Cleric 7}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 hour/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell allows you to establish the conditions whereby you will be brought back to life upon your death.
+When you cast pact of return, you must state either a specific creature or a set of specific circumstances that you expect will be responsible for your death at some point within the spell's duration.
+If you name a creature, that creature does not have to deal the deathblow to trigger the release of the spell, but it must play an active part in your demise.
+If you name a set of circumstances, those circumstances must be reasonably specific or the spell will fail, leaving you well and truly dead.
+An acceptable set of circumstances would be, &quot;I expect energy draining to play a pivotal role in my demise&quot;, whereas an unacceptable set would be, &quot;I expect to die from loss of hit points&quot;.
+The DM decides whether the terms are acceptable.
+Whether the subject of your demise is a specific person or a specific source, you must die (that is, reach -10 hit points or lower) for the spell to take effect.
+If you do, and the circumstances of your demise are similar enough to those described when you cast the spell (DM's discretion), you are instantly resurrected (see page 272 of the Player's Handbook) with no level loss.
+You can have more than one pact of return active at the same time, each one to be triggered by a different foe or set of circumstances, but you must keep track of the total time that has elapsed for each.
+A pact of return that has not yet taken effect is still a magical effect (and a powerful necromantic one, at that), which can be dispelled by one who detects its presence}}
+
+
+Mantle of Pure Spite(Heroes of Horror): - Spite(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Mantle of Pure Spite](https://dndtools.net/spells/heroes-of-horror--70/mantle-of-pure-spite--1442/) }} {{School:= Necromancy  }} {{Level:= **Spite 8**}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 min./level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=By means of this spell, you wrap yourself in a pulsating nimbus of netherlight&#8212;the mystical aggregate of all your unresolved frustration and rage.
+Anyone foolish enough to attack you while this nimbus is
+in effect is in for a most unpleasant surprise.
+Each time you are the target of an attack, you gain increasingly greater power over your attacker.
+First, this spell generates a cumulative +1 bonus to all attack rolls and to damage against that foe each and every time it strikes you, up to a maximum bonus equal to your level.
+Second, you gain the ability to overcome any damage reduction your opponent might have, as though you possessed the necessary alignment or weapon materials.
+Last but not least, you gain a cumulative dam age reduction of your own, equal to 1/- each time your opponent strikes you, up to a maximum benefit of DR 15/-.
+If you are fighting multiple opponents, you must keep track of how many times each one has struck you in order to determine the benefits this spell grants you against each.
+A mantle of pure spite provides its benefits even at range, so a wizard launching harmful spells at you from what she thinks is a safe distance will still kindle the mantle of pure spite's nimbus and experience its spiteful reprisals.
+Material Component: A smidgen of your spit}}
+
+
+Imprison Soul(Heroes of Horror): - Spite(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Imprison Soul](https://dndtools.net/spells/heroes-of-horror--70/imprison-soul--1441/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Spite 9**, Cleric 9, DreadNecromancer 9, Cloistered Cleric 9}} {{Components:= V, S, M, AF}} {{Material Component:= Component: A portion of the target's body (a fingernail, a strand of hair, or some other small part)}} {{Arcane Focus:= A Tiny or smaller object to be the receptacle for the subject's soul}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Permanent; see text}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc9}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=By casting imprison soul, you place the subject's soul in a receptacle, such as a gem, ring, or some other miniscule object, leaving her body lifeless.
+While trapped, the subject takes 1d4 points of Constitution damage per day until dead or freed.
+The rituals to prepare the receptacle require three days.
+Destroying or opening the receptacle ends the spell, releasing the soul.
+To cast the spell, you must know the name of the target.
+The receptacle must be within spell range and you must know where it is}}

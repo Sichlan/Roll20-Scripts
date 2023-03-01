@@ -1,0 +1,223 @@
+
+
+Arcane Sight(Player's Handbook v.3.5): - Trapsmith(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Arcane Sight](https://dndtools.net/spells/players-handbook-v35--6/arcane-sight--2476/) }} {{School:= Divination  }} {{Level:= **Trapsmith 1**, Sorcerer 3, Sha'ir 3, Savant 3, DeathMaster 3, Beguiler 3, KnightoftheWeave 3, EbonmarInfiltrator 3, Hoardstealer 3, Wizard 3, CourtHerald 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 min./level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell makes your eyes glow blue and allows you to see magical auras within 120 feet of you.
+The effect is similar to that of a detect magic spell, but arcane sight does not require concentration and discerns aura location and power more quickly.
+You know the location and power of all magical auras within your sight.
+An aura's power depends on a spell's functioning level or an item's caster level, as noted in the description of the detect magic spell (page 219).
+If the items or creatures bearing the auras are in line of sight, you can make Spellcraft skill checks to determine the school of magic involved in each.
+(Make one check per aura; DC 15 + spell level, or 15 + one-half caster level for a nonspell effect).
+If you concentrate on a specific creature within 120 feet of you as a standard action, you can determine whether it has any spellcasting or spell-like abilities, whether these are arcane or divine (spell-like abilities register as arcane), and the strength of the most powerful spell or spell-like ability the creature currently has available for use.
+In some cases, arcane sight may give a deceptively low reading&#8212;for example, when you use it on a spellcaster who has used up most of his or her daily spell allotment.
+Arcane sight can be made permanent with a permanency spell}}
+
+
+Cat's Grace(Player's Handbook v.3.5): - Trapsmith(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Cat's Grace](https://dndtools.net/spells/players-handbook-v35--6/cats-grace--2790/) }} {{School:= Transmutation  }} {{Level:= **Trapsmith 1**, Bard 2, UrbanDruid 2, Sha'ir 2, WuJen 2, Duskblade 2, Vigilante 2, Fatemaker 2, KnightoftheWeave 2, EbonmarInfiltrator 2, Hoardstealer 2, Adept 2, Wizard 2, Sorcerer 2, Ranger 2, Druid 2, Assassin 2, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= A pinch of cat fur}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The transmuted creature becomes more graceful, agile, and coordinated.
+The spell grants a +4 enhancement bonus to Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the Dexterity modifier}}
+
+
+Clairaudience/Clairvoyance(Player's Handbook v.3.5): - Trapsmith(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Clairaudience/Clairvoyance](https://dndtools.net/spells/players-handbook-v35--6/clairaudienceclairvoyance--2479/) }} {{School:= Divination (Scrying) }} {{Level:= **Trapsmith 1**, Bard 3, Savant 3, Sha'ir 3, Beguiler 3, Vigilante 3, CourtHerald 3, Hoardstealer 3, Wizard 3, Sorcerer 3, EbonmarInfiltrator 4, Knowledge 3, Arcanist 3}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A small horn (for hearing) or a glass eye (for seeing)}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Effect:=Magical sensor}} {{Duration:=1 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Clairaudience/clairvoyance** creates an invisible magical sensor at a specific location that enables you to hear or see (your choice) almost as if you were there. You don't need line of sight or line of effect, but the locale must be known&#8212;a place familiar to you or an obvious one, such as behind a door, around a corner, or in a grove of trees. Once you have selected the locale, the sensor doesn't move, but you can rotate it in all directions to view the area as desired. Unlike other <a href="/spells/sub-schools/scrying/">scrying</a> spells, this spell does not allow magically or supernaturally enhanced senses to work through it. If the chosen locale is magically dark, you see nothing. If it is naturally pitch black, you can see in a 10- foot radius around the center of the spell's effect. **Clairaudience/clairvoyance** functions only on the plane of existence you are currently occupying}}
+
+
+Dispel Magic(Player's Handbook v.3.5): - Trapsmith(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Dispel Magic](https://dndtools.net/spells/players-handbook-v35--6/dispel-magic--2315/) }} {{School:= Abjuration  }} {{Level:= **Trapsmith 1**, Bard 3, DeathMaster 3, Sha'ir 3, WuJen 3, Blighter 3, Beguiler 3, Vigilante 3, KnightoftheChalice 3, KnightoftheWeave 3, Cleric 3, Paladin 3, Sorcerer 3, Wizard 3, Hoardstealer 3, CourtHerald 3, Duskblade 4, Druid 4, UrbanDruid 4, DreadNecromancer 4, Magic 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One spellcaster, creature, or object; or 20-ft.-radius burst}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Because magic is so powerful, so too is the ability to dispel magic.  You can use **dispel magic** to end ongoing spells that have been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, to end ongoing spells (or at least their effects) within an area, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by dispel magic. **Dispel magic** can dispel (but not counter) spell-like effects just as it does spells.
+Note: The effect of a spell with an instantaneous duration can't be dispelled, because the magical effect  is already over before the **dispel magic** can take effect. Thus, you can't use **dispel magic** to repair damage caused by a <a href="/spells/players-handbook-v35--6/fireball--2612/">**fireball**</a> or to turn a petrified character back to flesh. In these cases, the magic has departed, leaving only burned flesh or perfectly normal stone in its wake.
+You choose to use **dispel magic** in one of three ways: a targeted dispel, an area dispel, or a counterspell:
+**Targeted Dispel:** One object, creature, or spell is the target of the dispel magic spell. You make a dispel check (1d20 + your caster level, maximum +10) against the spell or against each ongoing spell currently in effect on the object or creature. The DC for this dispel check is 11 + the spell's caster level.
+For example, Mialee, at 5th level, targets **dispel magic** on a drow who is under the effects of <a href="/spells/players-handbook-v35--6/haste--2823/">**haste**</a>, <a href="/spells/players-handbook-v35--6/mage-armor--2405/">**mage armor**</a>, and <a href="/spells/players-handbook-v35--6/bulls-strength--2788/">**bull's strength**</a>. All three spells were cast on the drow by a 7th-level wizard. Mialee makes a dispel check (1d20 + 5 against DC 18) three times, once each for the **haste**, **mage armor**, and **bull's strength** effects. If she succeeds on a particular check, that spell is dispelled (the drow's spell resistance doesn't help him); if she fails, that spell remains in effect.
+If you target an object or creature that is the effect of an ongoing spell (such as a monster summoned by monster summoning), you make a dispel check to end the spell that conjured the object or creature.
+If the object that you target is a magic item, you make a dispel check against the item's caster level. If you succeed, all the item's magical properties are suppressed for 1d4 rounds, after which the item recovers on its own. A suppressed item becomes nonmagical for the duration of the effect. An interdimensional interface (such as a bag of holding) is temporarily closed. A magic item's physical properties are unchanged: A suppressed magic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal magic such as this.
+You automatically succeed on your dispel check against any spell that you cast yourself.
+**Area Dispel:** When **dispel magic** is used in this way, the spell affects everything within a 20-foot radius.
+For each creature within the area that is the subject of one or more spells, you make a dispel check against the spell with the highest caster level. If that check fails, you make dispel checks against progressively weaker spells until you dispel one spell (which discharges the dispel magic spell so far as that target is concerned) or until you fail all your checks. The creature's magic items are not affected.
+For each object within the area that is the target of one or more spells, you make dispel checks as with creatures. Magic items are not affected by an area dispel.
+For each ongoing area or effect spell whose point of origin is within the area of the **dispel magic** spell, you can make a dispel check to dispel the spell.
+For each ongoing spell whose area overlaps that of the **dispel magic** spell, you can make a dispel check to end the effect, but only within the overlapping area.
+If an object or creature that is the effect of an ongoing spell (such as a monster summoned by monster summoning) is in the area, you can make a dispel check to end the spell that conjured that object or creature (returning it whence it came) in addition to attempting to dispel spells targeting the creature or object.
+You may choose to automatically succeed on dispel checks against any spell that you have cast.
+**Counterspell:** When **dispel magic** is used in this way, the spell targets a spellcaster and is cast as a counterspell (page 170). Unlike a true counterspell, however, **dispel magic** may not work; you must make a dispel check to counter the other spellcaster's spell}}
+
+
+Fox's Cunning(Player's Handbook v.3.5): - Trapsmith(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Fox's Cunning](https://dndtools.net/spells/players-handbook-v35--6/foxs-cunning--2817/) }} {{School:= Transmutation  }} {{Level:= **Trapsmith 1**, Bard 2, Sorcerer 2, Wizard 2, EbonmarInfiltrator 2, Fatemaker 2, Vigilante 2, Sha'ir 2, Jester 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The transmuted creature becomes smarter.
+The spell grants a +4 enhancement bonus to Intelligence, adding the usual benefits to Intelligence-based skill checks and other uses of the Intelligence modifier.
+Wizards (and other spellcasters who rely on Intelligence) affected by this spell do not gain any additional bonus spells for the increased Intelligence, but the save DCs for spells they cast while under this spell's effect do increase.
+This spell doesn't grant extra skill points.
+Arcane Material Component: A few hairs, or a pinch of dung, from a fox}}
+
+
+Gaseous Form(Player's Handbook v.3.5): - Trapsmith(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Gaseous Form](https://dndtools.net/spells/players-handbook-v35--6/gaseous-form--2819/) }} {{School:= Transmutation  }} {{Level:= **Trapsmith 1**, Bard 3, Sorcerer 3, Wizard 3, Vigilante 3, WuJen 3, Sha'ir 3, DeathMaster 3, Jester 3, Air 3, Arcanist 3}} {{Components:= S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Willing corporeal creature touched}} {{Duration:=2 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject and all its gear become insubstantial, misty, and translucent.
+Its material armor (including natural armor) becomes worthless, though its size, Dexterity, deflection bonuses, and armor bonuses from force effects (for example, from the mage armor spell) still apply.
+The subject gains damage reduction 10/magic and becomes immune to poison and critical hits.
+It can't attack or cast spells with verbal, somatic, material, or focus components while in gaseous form.
+(This does not rule out the use of certain spells that the subject may have prepared using the feats Silent Spell, Still Spell, and Eschew Materials).
+The subject also loses supernatural abilities while in gaseous form.
+If it has a touch spell ready to use, that spell is discharged harmlessly when the gaseous form spell takes effect.
+A gaseous creature can't run, but it can fly at a speed of 10 feet (maneuverability perfect).
+It can pass through small holes or narrow openings, even mere cracks, with all it was wearing or holding in its hands, as long as the spell persists.
+The creature is subject to the effects of wind, and it can't enter water or other liquid.
+It also can't manipulate objects or activate items, even those carried along with its gaseous form.
+Continuously active items remain active, though in some cases their effects may be moot (such as those that supply armor or natural armor bonuses).
+Arcane Material Component: A bit of gauze and a wisp of smoke}}
+
+
+Haste(Player's Handbook v.3.5): - Trapsmith(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Haste](https://dndtools.net/spells/players-handbook-v35--6/haste--2823/) }} {{School:= Transmutation  }} {{Level:= **Trapsmith 1**, TelflammarShadowlord 2, Bard 3, Wizard 3, Vigilante 3, Sorcerer 3, Sha'ir 3, RunescarredBerserker 3, Jester 3, Fatemaker 3, Beguiler 3, WuJen 3, Time 3, Celerity 4, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level, no two of which can be more than 30 ft. apart}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The transmuted creatures move and act more quickly than normal. This extra speed has several effects.
+When making a full attack action, a hasted creature may make one extra attack with any weapon he is holding. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a weapon of speed, nor does it actually grant an extra action, so you can't use it to cast a second spell or otherwise take an extra action in the round).
+A hasted creature gains a +1 bonus on attack rolls and a +1 dodge bonus to AC and Reflex saves. Any condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses.
+All of the hasted creature's modes of movement (including land movement, burrow, climb, fly, and swim) increase by 30 feet, to a maximum of twice the subject's normal speed using that form of movement. This increase counts as an enhancement bonus, and it affects the creature's jumping distance as normal for increased speed.
+Multiple haste effects don't stack. Haste dispels and counters slow.
+Material Component: A shaving of licorice root}}
+
+
+Knock(Player's Handbook v.3.5): - Trapsmith(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Knock](https://dndtools.net/spells/players-handbook-v35--6/knock--2829/) }} {{School:= Transmutation  }} {{Level:= **Trapsmith 1**, TelflammarShadowlord 1, ThayanSlaver 1, Savant 2, Sha'ir 2, WuJen 2, Sorcerer 2, Beguiler 2, EbonmarInfiltrator 2, Hoardstealer 2, Wizard 2, UrbanDruid 2, Greed 3, Arcanist 2}} {{Components:= V}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One door, box, or chest with an area of up to 10 sq. ft./level}} {{Duration:=Instantaneous; see text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The knock spell opens stuck, barred, locked, held, or arcane locked doors.
+It opens secret doors, as well as locked or trick-opening boxes or chests.
+It also loosens welds, shackles, or chains (provided they serve to hold closures shut).
+If used to open a arcane locked door, the spell does not remove the arcane lock but simply suspends its functioning for 10 minutes.
+In all other cases, the door does not relock itself or become stuck again on its own.
+Knock does not raise barred gates or similar impediments (such as a portcullis), nor does it affect ropes, vines, and the like.
+The effect is limited by the area.
+A 3rd-level caster can cast a knock spell on a door of 30 square feet or less (for example, a standard 4-foot-by-7-foot
+door).
+Each spell can undo as many as two means of preventing egress.
+Thus if a door is locked, barred, and held, or quadruple locked, opening it requires two knock spells}}
+
+
+Protection from Energy(Player's Handbook v.3.5): - Trapsmith(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Protection from Energy](https://dndtools.net/spells/players-handbook-v35--6/protection-from-energy--2347/) }} {{School:= Abjuration  }} {{Level:= **Trapsmith 1**, Ranger 2, RunescarredBerserker 2, Cleric 3, Duskblade 3, DeathDelver 3, WuJen 3, Sha'ir 3, DeathMaster 3, Fatemaker 3, KnightoftheChalice 3, VassalofBahamut 3, HunteroftheDead 3, Hoardstealer 3, Wizard 3, Sorcerer 3, Druid 3, UrbanDruid 3, Luck 3, Protection 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=10 min./level or until discharged}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Protection from energy grants temporary immunity to the type of energy you specify when you cast it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of energy damage (to a maximum of 120 points at 10th level), it is discharged.
+Note: Protection from energy overlaps (and does not stack with) resist energy. If a character is warded by protection from energy and <a href="/spells/players-handbook-v35--6/resist-energy--2357/">resist energy</a>, the protection spell absorbs damage until its power is exhausted}}
+
+
+Arcane Eye(Player's Handbook v.3.5): - Trapsmith(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Arcane Eye](https://dndtools.net/spells/players-handbook-v35--6/arcane-eye--2475/) }} {{School:= Divination (Scrying) }} {{Level:= **Trapsmith 2**, Sorcerer 4, Wizard 4, Hoardstealer 4, EbonmarInfiltrator 4, Sha'ir 4, DeathMaster 4, Savant 4, CourtHerald 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= A bit of bat fur}} {{Range:= Unlimited}} {{Effect:=Magical sensor}} {{Duration:=1 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create an invisible magical sensor that sends you visual information.
+You can create the arcane eye at any point you can see, but it can then travel outside your line of sight without hindrance.
+An arcane eye travels at 30 feet per round (300 feet per minute) if viewing an area ahead as a human would (primarily looking at the floor) or 10 feet per round (100 feet per minute) if examining the ceiling and walls as well as the floor ahead.
+It sees exactly as you would see if you were there.
+The eye can travel in any direction as long as the spell lasts.
+Solid barriers block its passage, but it can pass through a hole or space as small as 1 inch in diameter.
+The eye can't enter another plane of existence, even through a gate or similar magical portal.
+You must concentrate to use an arcane eye.
+If you do not concentrate, the eye is inert until you again concentrate}}
+
+
+Dimension Door(Player's Handbook v.3.5): - Trapsmith(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Dimension Door](https://dndtools.net/spells/players-handbook-v35--6/dimension-door--2388/) }} {{School:= Conjuration (Teleportation) }} {{Level:= **Trapsmith 2**, TelflammarShadowlord 3, Bard 4, Savant 4, Jester 4, DeathMaster 4, Sha'ir 4, WuJen 4, Duskblade 4, CourtHerald 4, SlayerofDomiel 4, EbonmarInfiltrator 4, Hoardstealer 4, Wizard 4, Sorcerer 4, RunescarredBerserker 5, KnightoftheWeave 5, Travel 4, Portal(Alternative) 4, Portal 4, Arcanist 4}} {{Components:= V}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Target:=You and touched objects or other touched willing creatures}} {{Duration:=Instantaneous}} {{Savingthrow:=None and Will negates (object) }} {{Save DC:=[[@{spelldc2}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You instantly transfer yourself from your current location to any other spot within range. You always arrive at exactly the spot desired&#8212;whether by simply visualizing the area or by stating direction, such as &quot;900 feet straight downward&quot;, or &quot;upward to the northwest, 45-degree angle, 1,200 feet&quot;. After using this spell, you can't take any other actions until your next turn. You can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth. All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you.
+If you arrive in a place that is already occupied by a solid body, you and each creature traveling with you take 1d6 points of damage and are shunted to a random open space on a suitable surface within 100 feet of the intended location.
+If there is no free space within 100 feet, you and each creature traveling with you take an additional 2d6 points of damage and are shunted to a free space within 1,000 feet. If there is no free space within 1,000 feet, you and each creature travelling with you take an additional 4d6 points of damage and the spell simply fails}}
+
+
+Globe of Invulnerability, Lesser(Player's Handbook v.3.5): - Trapsmith(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Globe of Invulnerability, Lesser](https://dndtools.net/spells/players-handbook-v35--6/globe-of-invulnerability-lesser--2325/) }} {{School:= Abjuration  }} {{Level:= **Trapsmith 2**, Sorcerer 4, Wizard 4, KnightoftheWeave 4, WuJen 4, Sha'ir 4, DeathMaster 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= 10 ft.}} {{Area:=10-ft.-radius spherical emanation, centered on you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An immobile, faintly shimmering magical sphere surrounds you and excludes all spell effects of 3rd level or lower.
+The area or effect of any such spells does not include the area of the lesser globe of invulnerability.
+Such spells fail to affect any target located within the globe.
+Excluded effects include spell-like abilities and spells or spell-like effects from items.
+However, any type of spell can be cast through or out of the magical globe.
+Spells of 4th level and higher are not affected by the globe, nor are spells already in effect when the globe is cast.
+The globe can be brought down by a targeted dispel magic spell, but not by an area dispel magic.
+You can leave and return to the globe without penalty.
+Note that spell effects are not disrupted unless their effects enter the globe, and even then they are merely suppressed, not dispelled.
+For example, creatures inside the globe would still see a mirror image created by a caster outside the globe.
+If that caster then entered the globe, the images would wink out, to reappear when the caster exited the globe.
+Likewise, a caster standing in the area of a light spell would still receive sufficient illumination for vision, even though that part of the light spell's area that lies within the globe would not be luminous.
+If a given spell has more than one level depending on which character class is casting it, use the level appropriate to the caster to determine whether lesser globe of invulnerability stops it.
+Material Component: A glass or crystal bead that shatters at the expiration of the spell}}
+
+
+Otiluke's Resilient Sphere(Player's Handbook v.3.5): - Trapsmith(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Otiluke's Resilient Sphere](https://dndtools.net/spells/players-handbook-v35--6/otilukes-resilient-sphere--2637/) }} {{School:= Evocation  [Force]}} {{Level:= **Trapsmith 2**, Sorcerer 4, Wizard 4, Sha'ir 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=1-ft.-diameter/level sphere, centered around a creature}} {{Duration:=1 min./level (D)}} {{Savingthrow:=Reflex negates }} {{Save DC:=[[@{spelldc2}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A globe of shimmering force encloses a creature, provided the creature is small enough to fit within the diameter of the sphere.
+The sphere contains its subject for the spell's duration.
+The sphere is not subject to damage of any sort except from a rod of cancellation, a rod of negation, a disintegrate spell, or a targeted dispel magic spell.
+These effects destroy the sphere without harm to the subject.
+Nothing can pass through the sphere, inside or out, though the subject can breathe normally.
+The subject may struggle, but the sphere cannot be physically moved either by people outside it or by the struggles of those within.
+Material Component: A hemispherical piece of clear crystal and a matching hemispherical piece of gum arabic}}
+
+
+Stone Shape(Player's Handbook v.3.5): - Trapsmith(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Stone Shape](https://dndtools.net/spells/players-handbook-v35--6/stone-shape--2881/) }} {{School:= Transmutation  [Earth]}} {{Level:= **Trapsmith 2**, Cleric 3, Druid 3, DeathMaster 3, Sorcerer 4, Wizard 4, Sha'ir 4, WuJen 5, Earth 3, Craft 3, Cloistered Cleric 3, Arcanist 4}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Stone or stone object touched, up to 10 cu. ft. + 1 cu. ft./level}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can form an existing piece of stone into any shape that suits your purpose.
+For example, you can make a stone weapon, a special trapdoor, or a crude idol.
+Stone shape also permits you to reshape a stone door to make an exit where one didn't exist or to seal a door shut.
+While it's possible to make crude coffers, doors, and so forth with stone shape, fine detail isn't possible.
+There is a 30% chance that any shape including moving parts simply doesn't work.
+Arcane Material Component: Soft clay, which must be worked into roughly the desired shape of the stone object and then touched to the stone while the verbal component is uttered}}
+
+
+Stoneskin(Player's Handbook v.3.5): - Trapsmith(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Stoneskin](https://dndtools.net/spells/players-handbook-v35--6/stoneskin--2369/) }} {{School:= Abjuration  }} {{Level:= **Trapsmith 2**, Fatemaker 4, Sorcerer 4, Wizard 4, DeathMaster 4, Adept 4, Sha'ir 4, RunescarredBerserker 4, WuJen 4, Druid 5, DiscipleofThrym 5, UrbanDruid 5, Endurance 5, Earth 6, Strength 6, Dragon 6, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=10 min./level or until discharged}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The warded creature gains resistance to blows, cuts, stabs, and slashes.
+The subject gains damage reduction 10/adamantine.
+(It ignores the first 10 points of damage each time it takes damage from a weapon, though an adamantine weapon bypasses the reduction).
+Once the spell has prevented a total of 10 points of damage per caster level (maximum 150 points), it is discharged.
+Material Component: Granite and 250 gp worth of diamond dust sprinkled on the target's skin}}
+
+
+Bigby's Interposing Hand(Player's Handbook v.3.5): - Trapsmith(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Bigby's Interposing Hand](https://dndtools.net/spells/players-handbook-v35--6/bigbys-interposing-hand--2587/) }} {{School:= Evocation  [Force]}} {{Level:= **Trapsmith 3**, Duskblade 4, Sorcerer 5, Wizard 5, Sha'ir 5, Arcanist 5}} {{Components:= V, S, AF}} {{Arcane Focus:= A soft glove}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=10-ft. hand}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Bigby's Interposing hand creates a Large magic hand that appears between you and one opponent.
+This floating, disembodied hand then moves to remain between the two of you, regardless of where you move or how the opponent tries to get around it, providing cover (+4 AC) for you against that opponent.
+Nothing can fool the hand&#8212;it sticks with the selected opponent in spite of darkness, invisibility, polymorphing, or any other attempt at hiding or disguise.
+The hand does not pursue an opponent, however.
+A Bigby's hand is 10 feet long and about that wide with its fingers outstretched.
+It has as many hit points as you do when you're undamaged, and its AC is 20 (-1 size, +11 natural).
+It takes damage as a normal creature, but most magical effects that don't cause damage do not affect it.
+The hand never provokes attacks of opportunity from opponents.
+It cannot push through a wall of force or enter an antimagic field, but it suffers the full effect of a prismatic wall or prismatic sphere.
+The hand makes saving throws as its caster.
+Disintegrate or a successful dispel magic destroys it.
+Any creature weighing 2,000 pounds or less that tries to push past the hand is slowed to half its normal speed.
+The hand cannot reduce the speed of a creature weighing more than 2,000 pounds, but it still affects the creature's attacks.
+Directing the spell to a new target is a move action}}
+
+
+Break Enchantment(Player's Handbook v.3.5): - Trapsmith(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Break Enchantment](https://dndtools.net/spells/players-handbook-v35--6/break-enchantment--2306/) }} {{School:= Abjuration  }} {{Level:= **Trapsmith 3**, Bard 4, NentyarHunter 4, DeathDelver 4, Vigilante 4, KnightoftheWeave 4, Paladin 4, Jester 5, Sha'ir 5, Cleric 5, Adept 5, Beguiler 5, Sorcerer 5, Wizard 5, Healer 5, CourtHerald 5, Luck 5, Arborea 5, Liberation 5, Spell 5, Cloistered Cleric 5, Arcanist 5}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Up to one creature per level, all within 30 ft. of each other}} {{Duration:=Instantaneous}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc3}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell frees victims from enchantments, transmutations, and curses.
+Break enchantment can reverse even an instantaneous effect, such as flesh to stone.
+For each such effect, you make a caster level check (1d20 + caster level, maximum +15) against a DC of 11 + caster level of the effect.
+Success means that the creature is free of the spell, curse, or effect.
+For a cursed magic item, the DC is 25.
+If the spell is one that cannot be dispelled by dispel magic, break enchantment works only if that spell is 5th level or lower.
+For instance, bestow curse cannot be dispelled by dispel magic, but break enchantment can dispel it.
+If the effect comes from some permanent magic item, such as a cursed sword, break enchantment does not remove the curse from the item, but it does frees the victim from the item's effects.
+For example, a cursed item can change the alignment of its user.
+Break enchantment allows the victim to be rid of the item and negates the alignment change, but the item's curse is intact and affects the next creature to pick up the item&#8212;
+even if it's the recent recipient of the break enchantment spell}}
+
+
+Dispel Magic, Greater(Player's Handbook v.3.5): - Trapsmith(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Dispel Magic, Greater](https://dndtools.net/spells/players-handbook-v35--6/dispel-magic-greater--2316/) }} {{School:= Abjuration  }} {{Level:= **Trapsmith 3**, Bard 5, DreadNecromancer 5, Sorcerer 6, UrbanDruid 6, DeathMaster 6, Sha'ir 6, WuJen 6, NarDemonbinder 6, Blighter 6, Cleric 6, KnightoftheWeave 6, Druid 6, Wizard 6, Beguiler 6, Liberation 6, Cloistered Cleric 6, Arcanist 6}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/dispel-magic--2315/">**dispel magic**</a>, except that the maximum caster level on your dispel check is +20 instead of +10.
+Additionally, greater dispel magic has a chance to dispel any effect that remove curse can remove, even if dispel magic can't dispel that effect}}
+
+
+Fabricate(Player's Handbook v.3.5): - Trapsmith(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Fabricate](https://dndtools.net/spells/players-handbook-v35--6/fabricate--2812/) }} {{School:= Transmutation  }} {{Level:= **Trapsmith 3**, Sorcerer 5, Wizard 5, WuJen 5, Sha'ir 5, UrbanDruid 5, CourtHerald 5, Greed 5, Dwarf 5, Trade 5, Arcanist 5}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Up to 10 cu. ft./level; see text}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You convert material of one sort into a product that is of the same material.
+Thus, you can fabricate a wooden bridge from a clump of tress, a rope from a patch of hemp, clothes from flax or wool, and so forth.
+Creatures or magic items cannot be created or transmuted by the fabricate spell.
+The quality of items made by this spell is commensurate with the quality of material used as the basis for the new fabrication.
+If you work with a mineral, the target is reduced to 1 cubic foot per level instead of 10 cubic feet.
+You must make an appropriate Craft check to fabricate articles requiring a high degree of craftsmanship (jewelry, swords, glass, crystal, and the like).
+Casting requires 1 round per 10 cubic feet (or 1 cubic foot) of material to be affected by the spell.
+Material Component: The original material, which costs the same amount as the raw materials required to craft the item to be created}}
+
+
+Wall of Stone(Player's Handbook v.3.5): - Trapsmith(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Wall of Stone](https://dndtools.net/spells/players-handbook-v35--6/wall-of-stone--2470/) }} {{School:= Conjuration (Creation) [Earth]}} {{Level:= **Trapsmith 3**, UrbanDruid 5, Sha'ir 5, WuJen 5, Cleric 5, Adept 5, Wizard 5, Sorcerer 5, DeathMaster 5, Druid 6, Earth 5, Craft 5, Cloistered Cleric 5, Arcanist 5}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Stone wall whose area is up to one 5-ft. square/level (S)}} {{Duration:=Instantaneous}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc3}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates a wall of rock that merges into adjoining rock surfaces.
+It is typically employed to close passages, portals, and breaches against opponents.
+A wall of stone is 1 inch thick per four caster levels and composed of up to one 5-foot square per level.
+You can double the wall's area by halving its thickness.
+The wall cannot be conjured so that it occupies the same space as a creature or another object.
+Unlike a wall of iron, you can create a wall of stone in almost any shape you desire.
+The wall created need not be vertical, nor rest upon any firm foundation; however, it must merge with and be solidly supported by existing stone.
+It can be used to bridge a chasm, for instance, or as a ramp.
+For this use, if the span is more than 20 feet, the wall must be arched and buttressed.
+This requirement reduces the spell's area by half.
+Thus, a 20th-level caster can create span with a surface area of ten 5-foot squares.
+The wall can be crudely shaped to allow crenellations, battlements, and so forth by likewise reducing the area.
+Like any other stone wall, this one can be destroyed by a disintegrate spell or by normal means such as breaking and chipping.
+Each 5-foot square of the wall has 15 hit points per inch of thickness and hardness 8.
+A section of wall whose hit points drop to 0 is breached.
+If a creature tries to break through the wall with a single attack, the DC for the Strength check is 20 + 2 per inch of thickness.
+It is possible, but difficult, to trap mobile opponents within or under a wall of stone, provided the wall is shaped so it can hold the creatures.
+Creatures can avoid entrapment with successful Reflex saves.
+Arcane Material Component: A small block of granite}}

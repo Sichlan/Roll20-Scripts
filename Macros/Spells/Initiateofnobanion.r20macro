@@ -1,0 +1,6 @@
+
+
+Lionheart(Spell Compendium): - Initiateofnobanion(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Lionheart](https://dndtools.net/spells/spell-compendium--86/lionheart--4373/) }} {{School:= Abjuration  }} {{Level:= **Initiateofnobanion 2**, Paladin 1, Initiateoftheholyrealm 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You touch your ally while intoning the spell. Where your finger touches, a warm glow appears, then fades.**
+The subject gains immunity to fear effects.
+Material Component: A hair from a lion's mane}}

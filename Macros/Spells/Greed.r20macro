@@ -1,0 +1,131 @@
+
+
+Cheat(Spell Compendium): - Greed(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Cheat](https://dndtools.net/spells/spell-compendium--86/cheat--3794/) }} {{School:= Transmutation  }} {{Level:= **Greed 1**, Bard 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S, AF}} {{Arcane Focus:= A pair of dice made from human bones}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level or until discharged}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You rattle the dice in your hand and mutter the words of the spell, then check your facedown cards again. The two low cards have somehow become trumps.**
+At one point during the duration of this spell, you can attempt to alter the outcome of a game of chance. This spell can affect only nonmagical games, such as those using cards or dice. It cannot affect a game involving magic, nor a magic item involved in a game of chance (such as a **deck of many things**). Whenever a dice roll is made to determine the outcome of the game, a character under the effect of this spell can demand a reroll and take the better of the two rolls.
+Anyone observing the game of chance is allowed a Will saving throw to realize something fishy is going on, and might suspect that the outcome of the game has been magically altered. For example, Darkon is playing a game that he has a 1 in 4 chance of winning. The DM secretly rolls 1d4 and tells the player that Darkon lost. Because Darkon is under the effect of a **cheat** spell, the player can have the DM reroll. The spell alters probability, so there is no subterfuge that another character could notice (except for the casting of the spell itself)}}
+
+
+Entice Gift(Spell Compendium): - Greed(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Entice Gift](https://dndtools.net/spells/spell-compendium--86/entice-gift--4450/) }} {{School:= Enchantment  }} {{Level:= **Greed 2**, Bard 2, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 round}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You cast the spell and a purple glow appears in your mark's eyes. You hold out your hand and demand the object it holds in a compelling voice.**
+You enchant a creature so that it feels suddenly compelled to give you what it is holding when you cast this spell. On the creature's next action, it moves as close to you as it can get in a single round and offers you the object as a standard action. This spell allows you to act out of turn and accept the &quot;gift&quot; if the creature reaches you to hand you the object (assuming you have a free hand and can accept it). The subject defends itself normally and acts as it wishes on subsequent rounds, including attempting to get the object back if desired. If the subject is prevented from doing as the spell compels, the spell has no effect. For example, if the subject is paralyzed and cannot move or drop the item, nothing happens}}
+
+
+Knock(Player's Handbook v.3.5): - Greed(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Knock](https://dndtools.net/spells/players-handbook-v35--6/knock--2829/) }} {{School:= Transmutation  }} {{Level:= **Greed 3**, TelflammarShadowlord 1, Trapsmith 1, ThayanSlaver 1, Savant 2, Sha'ir 2, WuJen 2, Sorcerer 2, Beguiler 2, EbonmarInfiltrator 2, Hoardstealer 2, Wizard 2, UrbanDruid 2, Arcanist 2}} {{Components:= V}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One door, box, or chest with an area of up to 10 sq. ft./level}} {{Duration:=Instantaneous; see text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The knock spell opens stuck, barred, locked, held, or arcane locked doors.
+It opens secret doors, as well as locked or trick-opening boxes or chests.
+It also loosens welds, shackles, or chains (provided they serve to hold closures shut).
+If used to open a arcane locked door, the spell does not remove the arcane lock but simply suspends its functioning for 10 minutes.
+In all other cases, the door does not relock itself or become stuck again on its own.
+Knock does not raise barred gates or similar impediments (such as a portcullis), nor does it affect ropes, vines, and the like.
+The effect is limited by the area.
+A 3rd-level caster can cast a knock spell on a door of 30 square feet or less (for example, a standard 4-foot-by-7-foot
+door).
+Each spell can undo as many as two means of preventing egress.
+Thus if a door is locked, barred, and held, or quadruple locked, opening it requires two knock spells}}
+
+
+Fire Trap(Player's Handbook v.3.5): - Greed(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fire Trap](https://dndtools.net/spells/players-handbook-v35--6/fire-trap--2320/) }} {{School:= Abjuration  [Fire]}} {{Level:= **Greed 4**, Druid 2, Warmage 2, Blighter 2, Sorcerer 4, Wizard 4, WuJen 4, Sha'ir 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Object touched}} {{Duration:=Permanent until discharged (D)}} {{Savingthrow:=Reflex half; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Fire trap creates a fiery explosion when an intruder opens the item that the trap protects.
+A fire trap can ward any object that can be opened and closed (book, box, bottle, chest, coffer, coffin, door, drawer, and so forth).
+When casting fire trap, you select a point on the object as the spell's center.
+When someone other than you opens the object, a fiery explosion fills the area within a 5-foot radius around the spell's center.
+The flames deal 1d4 points of fire damage +1 point per caster level (maximum +20).
+The item protected by the trap is not harmed by this explosion.
+A fire trapped item cannot have a second closure or warding spell placed on it.
+A knock spell does not bypass a fire trap.
+An unsuccessful dispel magic spell does not detonate the spell.
+Underwater, this ward deals half damage and creates a large cloud of steam.
+You can use the fire trapped object without discharging it, as can any individual to whom the object was specifically attuned when cast.
+Attuning a fire trapped object to an individual usually involves setting a password that you can share with friends.
+Note:Magic traps such as fire trap are hard to detect and disable.
+A rogue (only) can use the Search skill to find a fire trap and Disable Device to thwart it.
+The DC in each case is 25 + spell level (DC 27 for a druid's fire trap or DC 29 for the arcane version).
+Material Component: A half-pound of gold dust (cost 25 gp) sprinkled on the warded object}}
+
+
+Fabricate(Player's Handbook v.3.5): - Greed(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fabricate](https://dndtools.net/spells/players-handbook-v35--6/fabricate--2812/) }} {{School:= Transmutation  }} {{Level:= **Greed 5**, Trapsmith 3, Sorcerer 5, Wizard 5, WuJen 5, Sha'ir 5, UrbanDruid 5, CourtHerald 5, Dwarf 5, Trade 5, Arcanist 5}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Up to 10 cu. ft./level; see text}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You convert material of one sort into a product that is of the same material.
+Thus, you can fabricate a wooden bridge from a clump of tress, a rope from a patch of hemp, clothes from flax or wool, and so forth.
+Creatures or magic items cannot be created or transmuted by the fabricate spell.
+The quality of items made by this spell is commensurate with the quality of material used as the basis for the new fabrication.
+If you work with a mineral, the target is reduced to 1 cubic foot per level instead of 10 cubic feet.
+You must make an appropriate Craft check to fabricate articles requiring a high degree of craftsmanship (jewelry, swords, glass, crystal, and the like).
+Casting requires 1 round per 10 cubic feet (or 1 cubic foot) of material to be affected by the spell.
+Material Component: The original material, which costs the same amount as the raw materials required to craft the item to be created}}
+
+
+Guards and Wards(Player's Handbook v.3.5): - Greed(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Guards and Wards](https://dndtools.net/spells/players-handbook-v35--6/guards-and-wards--2328/) }} {{School:= Abjuration  }} {{Level:= **Greed 6**, Sorcerer 6, Wizard 6, Sha'ir 6, UrbanDruid 6, CourtHerald 6, Arcanist 6}} {{Components:= V, S, M, AF}} {{Material Component:= Burning incense, a small measure of brimstone and oil, a knotted string, and a small amount of blood}} {{Arcane Focus:= A small silver rod}} {{Range:= Anywhere within the area to be warded}} {{Area:=Up to 200 sq. ft./level (S)}} {{Duration:=2 hours/level (D)}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc6}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This powerful spell is primarily used to defend your stronghold.
+The ward protects 200 square feet per caster level.
+The warded area can be as much as 20 feet high, and shaped as you desire.
+You can ward several stories of a stronghold by dividing the area among them; you must be somewhere within the area to be warded to cast the spell.
+The spell creates the following magical effects within the warded area.
+Fog: Fog fills all corridors, obscuring all sight, including darkvision, beyond 5 feet.
+A creature within 5 feet has concealment (attacks have a 20% miss chance).
+Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target).
+Saving Throw: None.
+Spell Resistance: No.
+Arcane Locks: All doors in the warded area are arcane locked.
+Saving Throw: None.
+Spell Resistance: No.
+Webs:Webs fill all stairs from top to bottom.
+These strands are identical with those created by the web spell, except that they regrow in 10 minutes if they are burned or torn away while the guards and wards spell lasts.
+Saving Throw: Reflex negates; see text for web.
+Spell Resistance: No.
+Confusion:Where there are choices in direction&#8212;such as a corridor intersection or side passage&#8212;a minor confusion-type effect functions so as to make it 50% probable that intruders believe they are going in the opposite direction from the one they actually chose.
+This is an enchantment, mind-affecting effect.
+Saving Throw: None.
+Spell Resistance: Yes.
+Lost Doors:One door per caster level is covered by a silent image to appear as if it were a plain wall.
+Saving Throw: Will disbelief (if interacted with).
+Spell Resistance: No.
+In addition, you can place your choice of one of the following five magical effects.
+1. Dancing lights in four corridors.
+You can designate a simple program that causes the lights to repeat as long as the guards and wards spell lasts.
+Saving Throw: None.
+Spell Resistance: No.
+2. A magic mouth in two places.
+Saving Throw: None.
+Spell Resistance: No.
+3. A stinking cloud in two places.
+The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while the guards and wards spell lasts.
+Saving Throw: Fortitude negates; see text for stinking cloud.
+Spell Resistance: No.
+4. A gust of wind in one corridor or room.
+Saving Throw: Fortitude negates.
+Spell Resistance: Yes.
+5. A suggestion in one place.
+You select an area of up to 5 feet square, and any creature who enters or passes through the area receives the suggestion mentally.
+Saving Throw: Will negates.
+Spell Resistance: Yes.
+The whole warded area radiates strong magic of the abjuration school.
+A dispel magic cast on a specific effect, if successful, removes only that effect.
+A successful Mordenkainen's disjunction destroys the entire guards and wards effect}}
+
+
+Teleport Object(Player's Handbook v.3.5): - Greed(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Teleport Object](https://dndtools.net/spells/players-handbook-v35--6/teleport-object--2460/) }} {{School:= Conjuration (Teleportation) }} {{Level:= **Greed 7**, Sorcerer 7, Wizard 7, WuJen 7, Sha'ir 7, Arcanist 7}} {{Components:= }} {{Range:= Touch}} {{Target:=One touched object of up to 50 lb./level and 3 cu. ft./level}}  {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc7}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/teleport--2461/">**teleport**</a>, except that it teleports an object, not you.  Creatures and magical forces (such as a <a href="/spells/players-handbook-v35--6/delayed-blast-fireball--2603/">**delayed blast fireball**</a> bead) cannot be teleported.
+If desired, the target object can be sent to a distant location on the Ethereal Plane. In this case, the point from which the object was teleported remains faintly magical until the item is retrieved. A successful targeted <a href="/spells/players-handbook-v35--6/dispel-magic--2315/">**dispel magic**</a> spell cast on that point brings the vanished item back from the Ethereal Plane}}
+
+
+Phantasmal Thief(Spell Compendium): - Greed(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Phantasmal Thief](https://dndtools.net/spells/spell-compendium--86/phantasmal-thief--4625/) }} {{School:= Conjuration (Creation) }} {{Level:= **Greed 8**, Sorcerer 5, Wizard 5, Arcanist 5}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One invisible, mindless, shapeless thief}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**As you invoke this spell, the spool begins to spin, the thread vanishing as it unravels. There is a wrinkle of force that flashes briefly; then it evaporates, leaving only the promise of power behind.**
+An invisible force, not unlike the product of an <a href="/spells/players-handbook-v35--6/unseen-servant--2468/">**unseen servant**</a> spell (PH 297), comes into being where you wish. On your turn, this force steals objects from others as you inaudibly direct it (a free action). A phantasmal thief can steal an object from a creature or can pick up an unattended object, as long as the object weighs no more than 1 pound per caster level. It cannot break into locked chests. A phantasmal thief has a Hide modifier (useful against those who can see invisible creatures) and a Move Silently modifier both equal to your caster level.
+If a phantasmal thief goes undetected, it can steal any object a creature possesses but is not holding or wearing. Even objects in a bag of holding can be stolen. It can steal objects, bring objects to you, or put them back where they came from. It can take no other actions. A phantasmal thief needs 1 round to steal an object and another round to bring it to you.
+A phantasmal thief can hold only one object at a time, and the object becomes invisible in its grasp. A thief cannot take an item if it is detected by the creature it's trying to steal from (with a Listen or Spot check). However, the thief can repeat the attempt in the next round. It cannot be harmed in any way, although it can be dispelled.
+A phantasmal thief can steal an object from a creature's hand by making a successful disarm attempt. It does so with a bonus on the disarm check equal to your caster level. If a phantasmal thief is used in this way, it disappears after it brings the stolen object to you.
+Material Component: A spool of green thread}}
+
+
+Sympathy(Player's Handbook v.3.5): - Greed(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sympathy](https://dndtools.net/spells/players-handbook-v35--6/sympathy--2579/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Greed 9**, Sorcerer 8, Wizard 8, WuJen 8, Sha'ir 8, Druid 9, UrbanDruid 9, Temptation 8, Lust 8, Community 8, Joy 8, Arcanist 8}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One location (up to a 10-ft. cube/level) or one object}} {{Duration:=2 hours/level (D)}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc9}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You cause an object or location to emanate magical vibrations that attract either a specific kind of intelligent creature or creatures of a particular alignment, as defined by you.
+The particular kind of creature to be affected must be named specifically&#8212;for example, red dragons, hill giants, wererats, lammasus, or vampires.
+A creature subtype (such as goblinoid) is not specific enough.
+Likewise, the specific alignment must be named&#8212;for example, chaotic evil, chaotic good, lawful neutral, or neutral.
+Creatures of the specified kind or alignment feel elated and pleased to be in the area or desire to touch or to possess the object.
+The compulsion to stay in the area or touch the object is overpowering.
+If the save is successful, the creature is released from the enchantment, but a subsequent save must be made 1d6&#215;10 minutes later.
+If this save fails, the affected creature attempts to return to the area or object.
+Sympathy counters and dispels antipathy.
+Material Component: 1,500 gp worth of crushed pearls and a drop of honey}}

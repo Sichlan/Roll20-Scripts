@@ -1,0 +1,42 @@
+
+
+Spectral Stag(Player's Guide to Faerûn): - Initiateofmalar(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Spectral Stag](https://dndtools.net/spells/players-guide-to-faerun--22/spectral-stag--2229/) }} {{School:= Conjuration (Creation) }} {{Level:= **Initiateofmalar 2**}} {{Components:= V, S, DF}} {{Range:= 0 ft.}} {{Effect:=One quasi-real staglike creature}} {{Duration:=1 round/level}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc2}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You conjure a quasi-real, staglike creature that you can direct to either attack a target or simply carry you on its back.
+When you cast the spell, you decide whether you want the stag to appear next to you or form underneath you so that you may ride it immediately.
+The stag has a speed of 60 feet and can act as soon as it
+appears, moving as you direct.
+Controlling the stag is a free action.
+It can move through the air as if it were on firm land, as a phantom steed spell (caster level 12th).
+It can bear its rider's weight plus up to 10 pounds of additional weight per caster level.
+The stag is a Large creature with an Armor Class of 18 (-1 size, +4 natural armor, + 5 Dex) and 7 hit points +1 hit point per caster level.
+If it loses all its hit points, the spectral stag disappears.
+If directed to attack a creature, the stag charges its target and initiates a bull rush.
+It has an effective Strength of 18 for this purpose.
+The stag cannot be attacked or damaged, but if you are riding it when it attempts a bull rush, the defender may use her attack of opportunity against you instead of the stag.
+If the bull rush fails, the stag (and you, if you are riding it) moves 5 feet straight back to where it was before it moved into the target's space.
+If the bull rush succeeds, the stag moves the defender the maximum distance possible.
+The defender must also make a Fortitude saving throw or be stunned for 1 round.
+When the spell ends, the stag vanishes.
+If you were riding it at the time, you land safely on the ground}}
+
+
+Possess Animal(Player's Guide to Faerûn): - Initiateofmalar(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Possess Animal](https://dndtools.net/spells/players-guide-to-faerun--22/possess-animal--2275/) }} {{School:= Necromancy  }} {{Level:= **Initiateofmalar 3**, Shaman 3, Nature 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One animal}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc3}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You project your spirit into the body of an animal, forcing it to behave as you direct.
+The target must be a normal animal (not a magical beast, vermin, or other monster type), and your caster level must exceed its Hit Dice.
+The animal's soul remains in its body but has no control over it while your spirit is there.
+Your own body lies comatose for the duration of the spell.
+While in the animal's body, you keep your Intelligence, Wisdom, Charisma, level, classes, base attack bonus, base save bonuses, alignment, and mental abilities.
+You can cast spells while you possess the animal only if you have the Natural Spell feat or an equivalent ability, and you can't activate the body's extraordinary or supernatural abilities.
+Furthermore, for every 2 points of damage taken by the animal body while you are possessing it, you take 1 point of damage.
+If the animal body is killed while you are possessing it, you must make a DC 10 Fortitude save or die as well.
+If your body is destroyed while your spirit is in the animal's body, you die at the end of the spell's duration.
+Material Component: A bowl of incense and a morsel of food appealing to the target animal}}
+
+
+Strength of the Beast(Player's Guide to Faerûn): - Initiateofmalar(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Strength of the Beast](https://dndtools.net/spells/players-guide-to-faerun--22/strength-of-the-beast--2296/) }} {{School:= Transmutation  }} {{Level:= **Initiateofmalar 4**, InitiateofselÃ»ne 4}} {{Components:= V, AF}} {{Arcane Focus:= A lock of hair from your animal form}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions only if you are a lycanthrope, and it benefits you only while you are in your humanoid form.
+While under the effect of this spell, you gain certain characteristics of your animal form while remaining in humanoid form.
+You gain the same damage reduction you have in animal form (normally 5/silver or 10/silver), the scent special quality, and the feats you have access to in animal form.
+In addition, you gain one-half the adjustment for each ability score that you gain in animal form, rounded down to the nearest multiple of 2.
+For example, if you are a werebear, you gain Str +8 (half of your animal form's +16) and Con +4 (half of +8), but no adjustment to your Dexterity because half of +2, rounded down to the nearest multiple of 2, is +0.
+If you must make a Control Shape check while under the effect of this spell, you take a -4 penalty on your check}}

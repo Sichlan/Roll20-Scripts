@@ -1,0 +1,8 @@
+---------------------
+Perception Macro
+---------------------
+
+&{template:DnD35StdRoll} {{name=@{character_name} ❖ Perception}} {{pcflag=true}} {{Spot:= [[1d20 + [[@{spot}]] ]] }} {{Listen:= [[1d20 + [[@{listen}]] ]] }}
+
+
+Schmeißt sowohl Listen als auch Spot in einem Macro. Selbsterklärend

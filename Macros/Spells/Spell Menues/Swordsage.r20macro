@@ -1,0 +1,4 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;1:=[View](~Swordsage-Spell-Level-1)}} 
+
+[1, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 1 }} {{subtags=[Back to Main Menu](~Spells-Main-Swordsage)}} {{Stone Bones:=[View](~Swordsage-Stone-Bones-Description) [Send](~Swordsage-Stone-Bones-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

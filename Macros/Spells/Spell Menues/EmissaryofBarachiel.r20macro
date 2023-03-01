@@ -1,0 +1,6 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;1:=[View](~EmissaryofBarachiel-Spell-Level-1)}} {{Spelllevel&nbsp;2:=[View](~EmissaryofBarachiel-Spell-Level-2)}} {{Spelllevel&nbsp;4:=[View](~EmissaryofBarachiel-Spell-Level-4)}} 
+
+[1, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 1 }} {{subtags=[Back to Main Menu](~Spells-Main-EmissaryofBarachiel)}} {{Ray of Hope:=[View](~EmissaryofBarachiel-Ray-of-Hope-Description) [Send](~EmissaryofBarachiel-Ray-of-Hope-Cast)}} ]
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-EmissaryofBarachiel)}} {{Elation:=[View](~EmissaryofBarachiel-Elation-Description) [Send](~EmissaryofBarachiel-Elation-Cast)}} ]
+[4, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 4 }} {{subtags=[Back to Main Menu](~Spells-Main-EmissaryofBarachiel)}} {{Heaven's Trumpet:=[View](~EmissaryofBarachiel-Heaven's-Trumpet-Description) [Send](~EmissaryofBarachiel-Heaven's-Trumpet-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

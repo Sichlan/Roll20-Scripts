@@ -1,0 +1,79 @@
+
+
+Parching Touch(Sandstorm): - Thirst(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Parching Touch](https://dndtools.net/spells/sandstorm--85/parching-touch--3167/) }} {{School:= Necromancy  }} {{Level:= **Thirst 1**, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Living creature or creatures touched (up to one/level)}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude partial; see text }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your hand glows with a dull, ruby light, and your touch drains moisture from the body of a living creature, dealing 1d6 points of dessication damage.
+A plant or elemental of the water subtype instead takes 1d8 points of dessication damage.
+A touched creature also takes 1 point of Constitution damage and is dehydrated unless it makes a successful Fortitude saving throw.
+You can use this melee touch attack up to once per caster level}}
+
+
+Dessicate(Sandstorm): - Thirst(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Dessicate](https://dndtools.net/spells/sandstorm--85/dessicate--3164/) }} {{School:= Necromancy  }} {{Level:= **Thirst 2**, Cleric 2, Druid 2, Sorcerer 2, Wizard 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You evaporate moisture from the body of a living creature, dealing it 1d6 points of dessication damage per two caster
+levels (maximum 5d6) and making it dehydrated (see page 15).
+A successful Fortitude save results in half damage and negates the dehydration.
+A plant or elemental of the water subtype takes 1d8 points of damage per caster level (maximum 10d8).
+An elemental of the earth subtype takes only 1d4 points of damage per two caster levels (maximum 5d4).
+Material Component: A pinch of dust}}
+
+
+Tormenting Thirst(Sandstorm): - Thirst(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Tormenting Thirst](https://dndtools.net/spells/sandstorm--85/tormenting-thirst--3154/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Thirst 3**, Bard 3, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc3}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell fills the subject with a terrible sense of thirst.
+Desperate and unable to focus on any other goal, it must drink as deeply as it can.
+The affected creature runs to the nearest body of water in sight, grabs and empties the closest container of water or liquor (even those carried by allies), or runs toward the nearest known source of water.
+No matter how much the subject drinks, the sensation of thirst is not quenched.
+If denied the opportunity to quench its thirst, an affected creature flies into a rage similar to the barbarian class feature (see page 25 of the Player's Handbook).
+The subject attacks friend and foe alike in its quest to find water, though not necessarily with lethal force}}
+
+
+Dispel Water(Sandstorm): - Thirst(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Dispel Water](https://dndtools.net/spells/sandstorm--85/dispel-water--3121/) }} {{School:= Abjuration  }} {{Level:= **Thirst 4**, Bard 4, Druid 4, Cleric 5, Sorcerer 5, Wizard 5, Cloistered Cleric 5, Arcanist 5}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=See text}} {{Duration:=Instantaneous}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc4}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You call on the power of the waste to counter and dismiss water creatures, spells, and effects.
+However, dispel water cannot counter an instantaneous spell or effect.
+You choose to use dispel water in one of three ways: to dry up a body of water, to counter a water-based spell or effect, or to dismiss an extraplanar creature of the water subtype.
+Dry Up Water: This effect instantly destroys 200 cubic feet of water per level.
+Remaining water rushes in to fill the void.
+Cast in a large body of water, such as an ocean, the destruction of 1,000 or more cubic feet of water produces a strong current that pulls boats and creatures down.
+Creatures caught in the current must make a DC 20 Swim check to avoid going under.
+A creature that fails the Swim check is pulled down to a depth of 10 feet per caster level and must hold its breath or begin to drown (see page 304 of the Dungeon Master's Guide).
+The current might capsize vessels: The chance is 95% for a craft shorter than 20 feet long, 50% for one from 20 to 60 feet long, and 20% for one over 60 feet long.
+Counterspell:Used in this way, dispel water targets a spellcaster and is cast as a counterspell (see page 170 of the Player's Handbook).
+It only counters spells and spell-like abilities that have the water descriptor, or appear on the Water domain spell list, or clearly involve water (such as create food and water, sleet storm, and wall of ice).
+To successfully counter the other spell, you must make a dispel check (1d20 + your caster level, maximum +20) against a DC equal to 11 + the spell's caster level.
+Dismiss Water Creature: Cast in this way, dispel water targets a single extraplanar creature of the water subtype within range.
+The creature can negate the effect with a successful Will save (and its spell resistance, if any, applies).
+If it fails to save or resist the spell, the creature is forced back to its home plane}}
+
+
+Desiccate, Mass(Sandstorm): - Thirst(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Desiccate, Mass](https://dndtools.net/spells/sandstorm--85/desiccate-mass--3165/) }} {{School:= Necromancy  }} {{Level:= **Thirst 5**, Cleric 6, Druid 6, Sorcerer 6, Wizard 6, Cloistered Cleric 6, Arcanist 6}} {{Components:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature/level, no two of which can be more than 30 ft. apart}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like desiccate, except that it affects multiple creatures}}
+
+
+Symbol of Thirst(Sandstorm): - Thirst(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Symbol of Thirst](https://dndtools.net/spells/sandstorm--85/symbol-of-thirst--3153/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Thirst 6**, Cleric 6, Sorcerer 6, Wizard 6, Cloistered Cleric 6, Arcanist 6}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= 0 ft.; see text}} {{Target:=One symbol}} {{Duration:=See text}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc6}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like symbol of death (see page 289 of the Player's Handbook), except that all creatures within 60 feet of a symbol of thirst are consumed by a terrible sense of thirst (as the tormenting thirst spell; see below) for 10 minutes per caster level.
+Note:Magic traps, such as symbol of thirst, are hard to detect and disable.
+A rogue (only) can use the Search skill to find a symbol of thirst and Disable Device to thwart it.
+The DC in each case is 25 + spell level, or 32 for symbol of thirst.
+Material Component:Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 5,000 gp}}
+
+
+Mephit Mob(Sandstorm): - Thirst(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Mephit Mob](https://dndtools.net/spells/sandstorm--85/mephit-mob--3135/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Thirst 7**, Bard 6, Druid 6}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Two or more summoned creatures, no two of which can be more than 30 ft. apart}} {{Duration:=10 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell summons 2d6 mephits of a kind you designate.
+These are average mephits, as described in the Monster Manual and in Chapter 6 of this book.
+The mephits appear where you choose and act immediately, on your turn.
+They attack your opponents to the best of their ability.
+If you can communicate with the mephits, you can direct them not to attack, to attack particular enemies, or to perform other actions.
+You can dismiss them singly, or in groups, at any time.
+Summoned mephits cannot summon or otherwise conjure another creature, nor can they use any teleportation or planar travel abilities.
+Mephits cannot be summoned into an environment that cannot support them.
+When you use a summoning spell to summon an air, earth, fire, or water creature, it is a spell of that type.
+For example, mephit mob is an earth spell when you cast it to summon salt mephits}}
+
+
+Horrid Wilting(Player's Handbook v.3.5): - Thirst(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Horrid Wilting](https://dndtools.net/spells/players-handbook-v35--6/horrid-wilting--2742/) }} {{School:= Necromancy  }} {{Level:= **Thirst 8**, Sorcerer 8, Wizard 8, Warmage 8, Blighter 8, WuJen 8, Sha'ir 8, DreadNecromancer 8, Water 8, Blightbringer 8, Pestilence 8, Suffering 9, Arcanist 8}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Target:=Living creatures, no two of which can be more than 60 ft. apart}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude half }} {{Save DC:=[[@{spelldc8}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell evaporates moisture from the body of each subject living creature, dealing 1d6 points of damage per caster level (maximum 20d6). This spell is especially devastating to water elementals and plant creatures, which instead take 1d8 points of damage per caster level (maximum 20d8).
+**Arcane Material Component:** A bit of sponge}}
+
+
+Energy Drain(Player's Handbook v.3.5): - Thirst(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Energy Drain](https://dndtools.net/spells/players-handbook-v35--6/energy-drain--2732/) }} {{School:= Necromancy  }} {{Level:= **Thirst 9**, Cleric 9, Sorcerer 9, Wizard 9, Sha'ir 9, DeathMaster 9, DreadNecromancer 9, Blightbringer 9, Hades 9, Hunger 9, Undeath 9, Cloistered Cleric 9, Arcanist 9}} {{Components:= }} {{Range:= }}   {{Savingthrow:=Fortitude partial; see text for enervation }} {{Save DC:=[[@{spelldc9}+@{sf-Necromancy}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/enervation--2733/">**enervation**</a>, except that the creature struck gains 2d4 negative levels, and the negative levels last longer.
+There is no saving throw to avoid gaining the negative levels, but 24 hours after gaining them, the subject  must make a Fortitude saving throw (DC = energy drain spell's save DC) for each negative level. If the save succeeds, that negative level is removed. If it fails, the negative level also goes away, but one of the subject's character levels is permanently drained.
+An undead creature struck by the ray gains 2d4&#215;5 temporary hit points for 1 hour}}

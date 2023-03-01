@@ -1,0 +1,15 @@
+
+
+Beastmask(Defenders of the Faith: A Guidebook to Clerics and Paladins): - Beastmaster(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Beastmask](https://dndtools.net/spells/defenders-of-the-faith-a-guidebook-to-clerics-and-paladins--38/beastmask--964/) }} {{School:= Illusion (Glamer) }} {{Level:= **Beastmaster 2**, Druid 2}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=5 minutes + 1 minute/level}} {{Savingthrow:=Will disbelief }} {{Save DC:=[[@{spelldc2}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell disguises the target so that an animal or beast will believe the creature is a natural or dire animal.
+For example, an individual cloaked by this glamer as a wolf might move through a wolf pack unhindered.
+You must set the animal form at the time of casting.
+If the form you choose is more than one size larger or two sizes smaller than the target's size, the spell fails.
+Your illusion deceives the senses of animals and beasts: sight, hearing, smell, and touch.
+The spell does not allow communication with animals or beasts, nor is the subject granted any of the animal form's characteristics}}
+
+
+Bear's Heart(Defenders of the Faith: A Guidebook to Clerics and Paladins): - Beastmaster(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Bear's Heart](https://dndtools.net/spells/defenders-of-the-faith-a-guidebook-to-clerics-and-paladins--38/bears-heart--969/) }} {{School:= Transmutation  }} {{Level:= **Beastmaster 4**, Druid 4, Cleric 5, Cloistered Cleric 5}} {{Components:= V, S}} {{Range:= 20 ft.}} {{Target:=Living allies within 20 ft.}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You turn your living allies (one per caster level) into fierce warriors, but exhaust them in the process.
+Allies gain a +4 enhancement bonus to Strength, and also +1d4 temporary hit points per caster level.
+When the spell ends, any remaining temporary hit points from its effect are lost, and each ally takes 1 point of subdual damage per level of the caster}}

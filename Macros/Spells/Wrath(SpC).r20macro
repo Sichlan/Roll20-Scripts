@@ -1,0 +1,60 @@
+
+
+Rage(Player's Handbook v.3.5): - Wrath(SpC)(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Rage](https://dndtools.net/spells/players-handbook-v35--6/rage--2570/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Wrath(SpC) 3**, Bard 2, Sorcerer 3, Wizard 3, Sha'ir 3, Jester 3, Madness 3, Liberation 3, Hatred 4, Arcanist 3}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One willing living creature per three levels, no two of which may be more than 30 ft. apart}} {{Duration:=Concentration + 1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Each affected creature gains a +2 morale bonus to Strength and Constitution, a +1 morale bonus on Will saves, and a -2 penalty to AC.
+The effect is otherwise identical with a barbarian's rage (see page 25), except that the subjects aren't fatigued at the end of the rage}}
+
+
+Shout(Player's Handbook v.3.5): - Wrath(SpC)(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Shout](https://dndtools.net/spells/players-handbook-v35--6/shout--2648/) }} {{School:= Evocation  [Sonic]}} {{Level:= **Wrath(SpC) 4**, KnightoftheChalice 3, Bard 4, Sorcerer 4, Wizard 4, Warmage 4, Duskblade 4, WuJen 4, Sha'ir 4, Jester 4, Arcanist 4}} {{Components:= V}} {{Range:= 30 ft.}} {{Area:=Cone-shaped burst}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude partial or Reflex negates (object); see text }} {{Save DC:=[[@{spelldc4}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You emit an ear-splitting yell that deafens and damages creatures in its path.
+Any creature within the area is deafened for 2d6 rounds and takes 5d6 points of sonic damage.
+A successful save negates the deafness and reduces the damage by half.
+Any exposed brittle or crystalline object or crystalline creature takes 1d6 points of sonic damage per caster level (maximum 15d6).
+An affected creature is allowed a Fortitude save to reduce the damage by half, and a creature holding fragile objects can negate damage to them with a successful Reflex save.
+A shout spell cannot penetrate a silence spell}}
+
+
+Righteous Might(Player's Handbook v.3.5): - Wrath(SpC)(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Righteous Might](https://dndtools.net/spells/players-handbook-v35--6/righteous-might--2865/) }} {{School:= Transmutation  }} {{Level:= **Wrath(SpC) 5**, RunescarredBerserker 4, Cleric 5, NentyarHunter 5, Strength 5, Celestia 5, Competition 5, Hatred 5, Mysticism 5, Wrath(BE) 5, Cloistered Cleric 5}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your height immediately doubles, and your weight increases by a factor of eight. This increase changes your size category to the next larger one, and you gain a +8 size bonus to Strength and a +4 size bonus to Constitution. You gain a +4 enhancement bonus to your natural armor. You gain damage reduction 5/evil (if you normally channel positive energy) or damage reduction 5/good (if you normally channel negative energy). At 12th level this damage reduction becomes 10/evil or 10/good, and at 15th level it becomes 15/evil or 15/good (the maximum). Your size modifier for AC and attacks changes as appropriate to your new size category (if your original size was Diminutive, Tiny, Small, Medium, or Large, the modifier decreases by 1; otherwise see Size Modifier, page 134). Use Table 8-4: Creature Size and Scale to determine your new space and reach. This spell doesn't change your speed.
+If insufficient room is available for the desired growth, you attain the maximum possible size and may make a Strength check (using your increased Strength) to burst any enclosures in the process. If you fail, you are constrained without harm by the materials enclosing you&#8212;the spell cannot crush you by increasing your size.
+All equipment you wear or carry is similarly enlarged by the spell. Melee and projectile weapons deal more damage (see Table 2-2 in the Dungeon Master's Guide). Other magical properties are not affected by this spell. Any enlarged item that leaves your possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown weapons deal their normal damage (projectiles deal damage based on the size of the weapon that fired them). 
+Multiple magical effects that increase size do not stack, which means (among other things) that you can't use a second casting of this spell to further increase your size while you are still under the effect of the first casting}}
+
+
+Song of Discord(Player's Handbook v.3.5): - Wrath(SpC)(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Song of Discord](https://dndtools.net/spells/players-handbook-v35--6/song-of-discord--2572/) }} {{School:= Enchantment (Compulsion) [Sonic]}} {{Level:= **Wrath(SpC) 6**, Bard 5, DreadNecromancer 7, Limbo 7}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=Creatures within a 20-ft.-radius spread}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc6}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell causes those within the area to turn on each other rather than attack their foes.
+Each affected creature has a 50% chance to attack the nearest target each round.
+(Roll to determine each creature's behavior every round at the beginning of its turn).
+A creature that does not attack its nearest neighbor is free to act normally for that round.
+Creatures forced by a song of discord to attack their fellows employ all methods at their disposal, choosing their deadliest spells and most advantageous combat tactics.
+They do not, however, harm targets that have fallen unconscious}}
+
+
+Shout, Greater(Player's Handbook v.3.5): - Wrath(SpC)(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Shout, Greater](https://dndtools.net/spells/players-handbook-v35--6/shout-greater--2649/) }} {{School:= Evocation  [Sonic]}} {{Level:= **Wrath(SpC) 8**, Bard 6, Sorcerer 8, Wizard 8, Warmage 8, Sha'ir 8, Arcanist 8}} {{Components:= V, S, AF}} {{Arcane Focus:= A small metal or ivory horn}} {{Range:= 60 ft.}}   {{Savingthrow:=Fortitude partial or Reflex negates (object); see text }} {{Save DC:=[[@{spelldc8}+@{sf-Evocation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like shout, except that the cone deals 10d6 points of sonic damage (or 1d6 points of sonic damage per caster level, maximum 20d6, against exposed brittle or crystalline objects or crystalline creatures).
+It also causes creatures to be stunned for 1 round and deafened for 4d6 rounds.
+A creature in the area of the cone can negate the stunning and halve both the damage and the duration of the deafness with a successful Fortitude save.
+A creature holding vulnerable objects can attempt a Reflex save to negate the damage to those objects}}
+
+
+Storm of Vengeance(Player's Handbook v.3.5): - Wrath(SpC)(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Storm of Vengeance](https://dndtools.net/spells/players-handbook-v35--6/storm-of-vengeance--2439/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Wrath(SpC) 9**, Druid 9, Cleric 9, Blighter 9, UrbanDruid 9, Storm 9, Nobility 9, Retribution 9, Wrath(BE) 9, Cloistered Cleric 9}} {{Components:= V, S}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Effect:=360-ft.-radius storm cloud}} {{Duration:=Concentration (maximum 10 rounds) (D)}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc9}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates an enormous black storm cloud.
+Lightning and crashing claps of thunder appear within the storm.
+Each creature beneath the cloud must succeed on a Fortitude save or be deafened for 1d4&#215;10 minutes.
+If you do not maintain concentration on the spell after casting it, the spell ends.
+If you continue to concentrate, the spell generates additional effects in each following round, as noted below.
+Each effect occurs during your turn.
+2nd Round: Acid rains down in the area, dealing 1d6 points of acid damage (no save).
+3rd Round: You call six bolts of lightning down from the cloud.
+You decide where the bolts strike.
+No two bolts may be directed at the same target.
+Each bolt deals 10d6 points of electricity damage.
+A creature struck can attempt a Reflex save for half damage.
+4th Round:Hailstones rain down in the area, dealing 5d6 points of bludgeoning damage (no save).
+5th through 10th Rounds: Violent rain and wind gusts reduce visibility.
+The rain obscures all sight, including darkvision, beyond 5 feet.
+A creature 5 feet away has concealment (attacks have a 20% miss chance).
+Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target).
+Speed is reduced by three-quarters.
+Ranged attacks within the area of the storm are impossible.
+Spells cast within the area are disrupted unless the caster succeeds on a Concentration check against a DC equal to the storm of vengeance's save DC + the level of the spell the caster is trying to cast}}

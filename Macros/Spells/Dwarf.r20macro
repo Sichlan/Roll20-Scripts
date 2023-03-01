@@ -1,0 +1,98 @@
+
+
+Magic Weapon(Player's Handbook v.3.5): - Dwarf(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Magic Weapon](https://dndtools.net/spells/players-handbook-v35--6/magic-weapon--2838/) }} {{School:= Transmutation  }} {{Level:= **Dwarf 1**, Cleric 1, Sha'ir 1, WuJen 1, Duskblade 1, KnightoftheChalice 1, KnightoftheWeave 1, HunteroftheDead 1, DiscipleofThrym 1, Wizard 1, Sorcerer 1, Paladin 1, DeathMaster 1, War 1, Metal 1, ReveredAncestor 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Weapon touched}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Magic weapon gives a weapon a +1 enhancement bonus on attack and damage rolls. (An enhancement bonus does not stack with a masterwork weapon's +1 bonus on attack rolls). 
+You can't cast this spell on a natural weapon, such as an unarmed strike (instead, see magic fang). A monk's unarmed strike is considered a weapon, and thus it can be enhanced by this spell}}
+
+
+Glyph of Warding(Player's Handbook v.3.5): - Dwarf(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Glyph of Warding](https://dndtools.net/spells/players-handbook-v35--6/glyph-of-warding--2326/) }} {{School:= Abjuration  }} {{Level:= **Dwarf 3**, Cleric 3, Wealth 3, Rune 3, Cloistered Cleric 3}} {{Components:= V, S, M}} {{Material Component:= You trace the glyph with incense, which must first be sprinkled with powdered diamond worth at least 200 gp}} {{Range:= Touch}} {{Target:=Object touched or up to 5 sq. ft./level}} {{Duration:=Permanent until discharged (D)}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc3}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This powerful inscription harms those who enter, pass, or open the warded area or object.
+A glyph of warding can guard a bridge or passage, ward a portal, trap a chest or box, and so on.
+You set the conditions of the ward.
+Typically, any creature entering the warded area or opening the warded object without speaking a password (which you set when casting the spell) is subject to the magic it stores.
+Alternatively or in addition to a password trigger, glyphs can be set according to physical characteristics (such as height or weight) or creature type, subtype, or kind (such as aberration, drow, or red dragon).
+Glyphs can also be set with respect to good, evil, law, or chaos, or to pass those of your religion.
+They cannot be set according to class, Hit Dice, or level.
+Glyphs respond to invisible creatures normally but are not triggered by those who travel past them ethereally.
+Multiple glyphs cannot be cast on the same area.
+However, if a cabinet has three drawers, each can be separately warded.
+When casting the spell, you weave a tracery of faintly glowing lines around the warding sigil.
+A glyph can be placed to conform to any shape up to the limitations of your total square footage.
+When the spell is completed, the glyph and tracery become nearly invisible.
+Glyphs cannot be affected or bypassed by such means as physical or magical probing, though they can be dispelled.
+Mislead, polymorph, and nondetection (and similar magical effects) can fool a glyph, though nonmagical disguises and the like can't.
+Read magic allows you to identify a glyph of warding with a DC 13 Spellcraft check.
+Identifying the glyph does not discharge it and allows you to know the basic nature of the glyph (version, type of damage caused, what spell is stored).
+The DM may decide that the exact glyphs available to you depend on your deity.
+He or she might also make new glyphs available according to the magical research rules in the Dungeon Master's Guide.
+Note:Magic traps such as glyph of warding are hard to detect and disable.
+A rogue (only) can use the Search skill to find the glyph and Disable Device to thwart it.
+The DC in each case is 25 + spell level, or 28 for glyph of warding.
+Depending on the version selected, a glyph either blasts the intruder or activates a spell.
+Blast Glyph: A blast glyph deals 1d8 points of damage per two caster levels (maximum 5d8) to the intruder and to all within 5 feet of him or her.
+This damage is acid, cold, fire, electricity, or sonic (caster's choice, made at time of casting).
+Each creature affected can attempt a Reflex save to take half damage.
+Spell resistance applies against this effect.
+Spell Glyph: You can store any harmful spell of 3rd level or lower that you know.
+All level-dependent features of the spell are based on your caster level at the time of casting the glyph.
+If the spell has a target, it targets the intruder.
+If the spell has an area or an amorphous effect (such as a cloud), the area or effect is centered on the intruder.
+If the spell summons creatures, they appear as close as possible to the intruder and attack.
+Saving throws and spell resistance operate as normal, except that the DC is based on the level of the spell stored in the glyph}}
+
+
+Magic Weapon, Greater(Player's Handbook v.3.5): - Dwarf(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Magic Weapon, Greater](https://dndtools.net/spells/players-handbook-v35--6/magic-weapon-greater--2839/) }} {{School:= Transmutation  }} {{Level:= **Dwarf 4**, DeathMaster 3, Paladin 3, Sorcerer 3, Wizard 3, RunescarredBerserker 3, KnightoftheWeave 3, Sha'ir 3, Duskblade 3, WuJen 3, NentyarHunter 4, KnightoftheChalice 4, Cleric 4, Celestia 4, Cloistered Cleric 4, Arcanist 3}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One weapon or fifty projectiles (all of which must be in contact with each other at the time of casting)}} {{Duration:=1 hour/level}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like magic weapon, except that it gives a weapon an enhancement bonus on attack and damage rolls of +1 per four caster levels (maximum +5).
+Alternatively, you can affect as many as fifty arrows, bolts, or bullets. The projectiles must be of the same kind, and they have to be together (in the same quiver or other container). Projectiles, but not thrown weapons, lose their transmutation when used. (Treat shuriken as projectiles, rather than as thrown weapons, for the purpose of this spell).
+Arcane Material Component: Powdered lime and carbon}}
+
+
+Fabricate(Player's Handbook v.3.5): - Dwarf(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fabricate](https://dndtools.net/spells/players-handbook-v35--6/fabricate--2812/) }} {{School:= Transmutation  }} {{Level:= **Dwarf 5**, Trapsmith 3, Sorcerer 5, Wizard 5, WuJen 5, Sha'ir 5, UrbanDruid 5, CourtHerald 5, Greed 5, Trade 5, Arcanist 5}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Up to 10 cu. ft./level; see text}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You convert material of one sort into a product that is of the same material.
+Thus, you can fabricate a wooden bridge from a clump of tress, a rope from a patch of hemp, clothes from flax or wool, and so forth.
+Creatures or magic items cannot be created or transmuted by the fabricate spell.
+The quality of items made by this spell is commensurate with the quality of material used as the basis for the new fabrication.
+If you work with a mineral, the target is reduced to 1 cubic foot per level instead of 10 cubic feet.
+You must make an appropriate Craft check to fabricate articles requiring a high degree of craftsmanship (jewelry, swords, glass, crystal, and the like).
+Casting requires 1 round per 10 cubic feet (or 1 cubic foot) of material to be affected by the spell.
+Material Component: The original material, which costs the same amount as the raw materials required to craft the item to be created}}
+
+
+Stone Tell(Player's Handbook v.3.5): - Dwarf(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Stone Tell](https://dndtools.net/spells/players-handbook-v35--6/stone-tell--2518/) }} {{School:= Divination  }} {{Level:= **Dwarf 6**, Druid 6, UrbanDruid 6}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 min./level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You gain the ability to speak with stones, which relate to you who or what has touched them as well as revealing what is covered or concealed behind or under them.
+The stones relate complete descriptions if asked.
+A stone's perspective, perception, and knowledge may prevent the stone from providing the details you are looking for (as determined by the DM).
+You can speak with natural or worked stone}}
+
+
+Dictum(Player's Handbook v.3.5): - Dwarf(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dictum](https://dndtools.net/spells/players-handbook-v35--6/dictum--2605/) }} {{School:= Evocation  [Lawful][Sonic]}} {{Level:= **Dwarf 7**, Cleric 7, Law 7, Inquisition 7, Mechanus 7, Cloistered Cleric 7}} {{Components:= V}} {{Range:= 40 ft.}} {{Area:=Nonlawful creatures in a 40-ft.-radius spread centered on you}} {{Duration:=Instantaneous}} {{Savingthrow:=None or Will negates; see text }} {{Save DC:=[[@{spelldc7}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Any nonlawful creature within the area of a dictum spell suffers the following ill effects.
+The effects are cumulative and concurrent.
+No saving throw is allowed against these effects.
+Deafened: The creature is deafened for 1d4 rounds.
+Slowed: The creature is slowed, as by the slow spell, for 2d4 rounds.
+Paralyzed: The creature is paralyzed and helpless for 1d10 minutes.
+Killed: Living creatures die.
+Undead creatures are destroyed.
+Furthermore, if you are on your home plane when you cast this spell, nonlawful extraplanar creatures within the area are instantly banished back to their home planes.
+Creatures so banished cannot return for at least 24 hours.
+This effect takes place regardless of whether the creatures hear the dictum.
+The banishment effect allows a Will save (at a -4 penalty) to negate.
+Creatures whose HD exceed your caster level are unaffected by dictum}}
+
+
+Protection from Spells(Player's Handbook v.3.5): - Dwarf(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Protection from Spells](https://dndtools.net/spells/players-handbook-v35--6/protection-from-spells--2351/) }} {{School:= Abjuration  }} {{Level:= **Dwarf 8**, Sorcerer 8, Wizard 8, Sha'ir 8, Magic 8, Balance 8, Family 8, Arcanist 8}} {{Components:= V, S, M, AF}} {{Material Component:= A diamond of at least 500 gp value, which must be crushed and sprinkled over the targets}} {{Arcane Focus:= One 1,000 gp diamond per creature to be granted the protection.
+Each subject must carry one such gem for the duration of the spell.
+If a subject loses the gem, the spell ceases to affect him}} {{Range:= Touch}} {{Target:=Up to one creature touched per four levels}} {{Duration:=10 min./level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc8}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject gains a +8 resistance bonus on saving throws against spells and spell-like abilities (but not against supernatural and extraordinary abilities)}}
+
+
+Elemental Swarm(Player's Handbook v.3.5): - Dwarf(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Elemental Swarm](https://dndtools.net/spells/players-handbook-v35--6/elemental-swarm--2390/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Dwarf 9**, Druid 9, Warmage 9, Air 9, Earth 9, Fire 9, Water 9, Ocean 9}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Two or more summoned creatures, no two of which can be more than 30 ft. apart}} {{Duration:=10 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell opens a portal to an Elemental Plane and summons elementals from it. A druid can choose the plane (Air, Earth, Fire, or Water); a cleric opens a portal to the plane matching his domain.
+When the spell is complete, 2d4 Large elementals appear. Ten minutes later, 1d4 Huge elementals appear. Ten minutes after that, one greater elemental appears. Each elemental has maximum hit points per HD. Once these creatures appear, they serve you for the duration of the spell.
+The elementals obey you explicitly and never attack you, even if someone else manages to gain control over them. You do not need to concentrate to maintain control over the elementals. You can dismiss them singly or in groups at any time.
+When you use a summoning spell to summon an air, earth, fire, or water creature, it is a spell of that type. For example, elemental swarm is a fire spell when you cast it to summon fire elementals and a water spell when you use it to summon water elementals.
+<h4>Special</h4>When casting **elemental swarm** as an Air Domain spell, only Air elementals may be summoned.
+When casting **elemental swarm** as an Earth or Dwarf Domain spell, only Earth elementals may be summoned.
+When casting **elemental swarm** as a Fire Domain spell, only Fire elementals may be summoned.
+When casting **elemental swarm** as a Water or Ocean Domain spell, only Water elementals may be summoned}}

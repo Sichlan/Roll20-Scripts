@@ -1,0 +1,49 @@
+
+
+Mystic Lash(Player's Guide to Faerûn): - Initiateofbane(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mystic Lash](https://dndtools.net/spells/players-guide-to-faerun--22/mystic-lash--2258/) }} {{School:= Evocation  [Electricity][Evil]}} {{Level:= **Initiateofbane 3**}} {{Components:= V, S, DF}} {{Range:= 15 ft.}} {{Effect:=Electric whip}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc3}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create a long whip of ghostly red energy that emanates from your hand and never harms you.
+You can wield this weapon as if it were an actual whip and you were proficient with it.
+You must succeed on a ranged touch attack with the mystic lash to strike a target.
+Any creature struck by it takes 1d6 points of electricity damage per three caster levels (maximum 4d6) and must succeed on a Fortitude save or be stunned for 1 round.
+You gain a bonus on damage rolls equal to your Charisma modifier, but your Strength modifier does not apply, since the lash is immaterial.
+If you release the lash from your hand after it hits a target, it continues to attack that target automatically, leaving your hand free.
+If the lash's target falls unconscious, dies, or is destroyed, the lash returns to you on its next action.
+If you do not grasp it on the round it returns, it dissipates; otherwise, you can use the lash on another creature and begin the cycle again.
+As with a normal whip, you can use the mystic lash to make trip or disarm attacks, but only if you are actually wielding it.
+It cannot make such attacks on its own}}
+
+
+Battletide(Magic of Faerun): - Initiateofbane(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Battletide](https://dndtools.net/spells/magic-of-faerun--20/battletide--1736/) }} {{School:= Transmutation  }} {{Level:= **Initiateofbane 5**, Cleric 5, Cloistered Cleric 5}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=You and up to one creature/level, no two of which can be more than 30 ft. apart}} {{Duration:=1 round/level}} {{Savingthrow:=No and Will negates }} {{Save DC:=[[@{spelldc5}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You steal energy from others.
+Targets other than you suffer a -2 circumstance penalty on saves, attack rolls, and damage rolls.
+As long as at least one enemy is affected by the spell, you get one extra partial action each round.
+If all the affected enemies free themselves from the spell (by death, entering an antimagic field, receiving a successful dispel magic, and so on), the spell ends}}
+
+
+Stone Walk(Player's Guide to Faerûn): - Initiateofbane(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Stone Walk](https://dndtools.net/spells/players-guide-to-faerun--22/stone-walk--2230/) }} {{School:= Conjuration  }} {{Level:= **Initiateofbane 6**}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Stone touched}} {{Duration:=Permanent until discharged}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc6}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You magically link one location to another so that you or someone else may speak a command word at one end and be teleported to the other end.
+Before casting this spell, you must prepare the ends of the link, both of which must be areas of stone 5 feet square.
+This preparation takes 1 hour, and they serve for repeated castings of the spell as long as the stones are not damaged.
+When you cast stone walk, you designate a command word and touch one of the stones.
+Both stones then become attuned to the command word you designate.
+Thereafter, any creature that speaks the command word while standing upon one of the stones is teleported (as though by greater teleport) to the other stone instantaneously.
+The stones function once for every four caster levels you possess, and each usage can transport one willing Medium or smaller creature plus one additional willing Medium or smaller creature (each carrying gear or objects up to its maximum load) or its equivalent per three caster levels.
+A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth.
+All creatures to be transported must be in contact with each other.
+Because of the special link between the stones, travel by means of this spell is not impeded by abjurations such as dimensional lock or forbiddance.
+A gate seal spell cast upon either stone suppresses the stone walk effect.
+Material Component: Preparation of each end of the link requires a paste made from rubies and amber worth 2,500 gp.
+Casting the spell requires a 2,500-gp diamond.
+Activating one of the linked stones once the spell is cast requires no material components}}
+
+
+Undeath After Death(Player's Guide to Faerûn): - Initiateofbane(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Undeath After Death](https://dndtools.net/spells/players-guide-to-faerun--22/undeath-after-death--2277/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Initiateofbane 7**}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Willing living creature touched}} {{Duration:=Permanent until discharged}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You tear off a piece of a creature's life force, corrupt it with negative energy and the power of undeath, then bind it back to the same creature's body.
+This process initiates a blasphemous transformation when the creature dies.
+The subject of this spell loses 2 points of Constitution upon casting.
+When it dies, the corrupted life force initiates a slow change in its body, causing it to animate as a crypt spawn at the next sunset (see Chapter 6 in Monstrous Compendium:
+Monsters of Faerûn).
+If the creature's remains are destroyed, the undeath after death spell cannot bring it back as an undead.
+Even if the spell is dispelled before the subject dies, it still does not regain its lost Constitution points.
+Material Components: A piece of obsidian shaped like a heart, which is placed on the subject's chest, and a black onyx gem worth at least 50 gp per HD the subject creature possesses at the time the spell is cast.
+This gem must be placed in the subject's mouth}}

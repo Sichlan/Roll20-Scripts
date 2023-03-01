@@ -1,0 +1,104 @@
+
+
+Endure Elements(Player's Handbook v.3.5): - Sun(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Endure Elements](https://dndtools.net/spells/players-handbook-v35--6/endure-elements--2317/) }} {{School:= Abjuration  }} {{Level:= **Sun 1**, Cleric 1, Savant 1, Sha'ir 1, WuJen 1, Blighter 1, KnightoftheChalice 1, VassalofBahamut 1, RunescarredBerserker 1, Adept 1, Wizard 1, Sorcerer 1, Ranger 1, Paladin 1, Druid 1, UrbanDruid 1, Ocean 1, Arborea 1, Endurance 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=24 hours}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A creature protected by endure elements suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between -50 and 140 degrees Fahrenheit without having to make Fortitude saves (as described in the Dungeon Master's Guide). The creature's equipment is likewise protected.
+Endure elements doesn't provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth}}
+
+
+Heat Metal(Player's Handbook v.3.5): - Sun(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Heat Metal](https://dndtools.net/spells/players-handbook-v35--6/heat-metal--2824/) }} {{School:= Transmutation  [Fire]}} {{Level:= **Sun 2**, Druid 2, Blighter 2, UrbanDruid 2, Metal 2}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Metal equipment of one creature per two levels, no two of which can be more than 30 ft. apart; or 25 lb. of metal/level, all of which must be within a 30-ft. circle}} {{Duration:=7 rounds}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Heat metal makes metal extremely warm.
+Unattended, nonmagical metal gets no saving throw.
+Magical metal is allowed a saving throw against the spell.
+(Magic item's saving throws are covered in the Dungeon Master's Guide).
+An item in a creature's possession uses the creature's saving throw bonus unless its own is higher.
+A creature takes fire damage if its equipment is heated.
+It takes full damage if its armor is affected or if it is holding, touching, wearing, or carrying metal weighing one-fifth of its weight.
+The creature takes minimum damage (1 point or 2 points; see the table) if it's not wearing metal armor and the metal that it's carrying weighs less than one-fifth of its weight.
+On the first round of the spell, the metal becomes warm and uncomfortable to touch but deals no damage.
+The same effect also occurs on the last round of the spell's duration.
+During the second (and also the next-to-last) round, intense heat causes pain and damage.
+In the third, fourth, and fifth rounds, the metal is searing hot, causing more damage, as shown on the table below.
+Any cold intense enough to damage the creature negates fire damage from the spell (and vice versa) on a point-for-point basis.
+For example, if the damage roll from a heat metal spell indicates 2 points of fire damage and the subject is hit by a ray of frost in the same round and takes 3 points of cold damage, it winds up taking no fire damage and only 1 point of cold damage.
+If cast underwater, heat metal deals half damage and boils the surrounding water.
+Heat metal counters and dispels chill metal}}
+
+
+Searing Light(Player's Handbook v.3.5): - Sun(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Searing Light](https://dndtools.net/spells/players-handbook-v35--6/searing-light--2644/) }} {{School:= Evocation  }} {{Level:= **Sun 3**, Cleric 3, HunteroftheDead 3, VassalofBahamut 3, KnightoftheChalice 3, Glory 3, Cloistered Cleric 3}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Ray}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Focusing divine power like a ray of the sun, you project a blast of light from your open palm. You must succeed on a ranged touch attack to strike your target. A creature struck by this ray of light takes 1d8 points of damage per two caster levels (maximum 5d8). An undead creature takes 1d6 points of damage per caster level (maximum 10d6), and an undead creature particularly vulnerable to bright light, such as a vampire, takes 1d8 points of damage per caster level (maximum 10d8). A construct or inanimate object takes only 1d6 points of damage per two caster levels (maximum 5d6)}}
+
+
+Fire Shield(Player's Handbook v.3.5): - Sun(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Fire Shield](https://dndtools.net/spells/players-handbook-v35--6/fire-shield--2610/) }} {{School:= Evocation  }} {{Level:= **Sun 4**, Warmage 3, Sorcerer 4, Wizard 4, Duskblade 4, WuJen 4, Sha'ir 4, Retribution 4, Fire 5, Arcanist 4}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell wreathes you in flame and causes damage to each creature that attacks you in melee.
+The flames also protect you from either cold-based or fire-based attacks (your choice).
+Any creature striking you with its body or a handheld weapon deals normal damage, but at the same time the attacker takes 1d6 points of damage +1 point per caster level (maximum +15).
+This damage is either cold damage (if the shield protects against fire-based attacks) or fire damage (if the shield protects against cold-based attacks).
+If the attacker has spell resistance, it applies to this effect.
+Creatures wielding weapons with exceptional reach are not subject to this damage if they attack you.
+When casting this spell, you appear to immolate yourself, but the flames are thin and wispy, giving off light equal to only half the illumination of a normal torch (10 feet).
+The color of the flames is determined randomly (50% chance of either color)&#8212;blue or green if the chill shield is cast, violet or blue if the warm shield is employed.
+The special powers of each version are as follows.
+Warm Shield: The flames are warm to the touch.
+You take only half damage from cold-based attacks.
+If such an attack allows a Reflex save for half damage, you take no damage on a successful save.
+Chill Shield: The flames are cool to the touch.
+You take only half damage from fire-based attacks.
+If such an attack allows a Reflex save for half damage, you take no damage on a successful save.
+Arcane Material Component: A bit of phosphorus for the warm shield; a live firefly or glowworm or the tail portions of four dead ones for the chill shield}}
+
+
+Flame Strike(Player's Handbook v.3.5): - Sun(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Flame Strike](https://dndtools.net/spells/players-handbook-v35--6/flame-strike--2614/) }} {{School:= Evocation  [Fire]}} {{Level:= **Sun 5**, Druid 4, Blighter 4, Cleric 5, Warmage 5, NarDemonbinder 5, NentyarHunter 5, War 5, Cloistered Cleric 5}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=Cylinder (10-ft. radius, 40 ft. high)}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex half }} {{Save DC:=[[@{spelldc5}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A flame strike produces a vertical column of divine fire roaring downward.
+The spell deals 1d6 points of damage per caster level (maximum 15d6).
+Half the damage is fire damage, but the other half results directly from divine power and is therefore not subject to being reduced by resistance to fire-based attacks, such as that granted by protection from energy (fire), fire shield (chill shield), and similar magic}}
+
+
+Fire Seeds(Player's Handbook v.3.5): - Sun(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Fire Seeds](https://dndtools.net/spells/players-handbook-v35--6/fire-seeds--2392/) }} {{School:= Conjuration (Creation) [Fire]}} {{Level:= **Sun 6**, Druid 6, Warmage 6, Blighter 6, WuJen 6, Fire 6}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Up to four touched acorns or up to eight touched holly berries}} {{Duration:=10 min./level or until used}} {{Savingthrow:=None or Reflex half; see text }} {{Save DC:=[[@{spelldc6}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Depending on the version of fire seeds you choose, you turn acorns into splash weapons that you or another character can throw, or you turn holly berries into bombs that you can detonate on command.
+Acorn Grenades: As many as four acorns turn into special splash weapons that can be hurled as far as 100 feet.
+A ranged touch attack roll is required to strike the intended target.
+Together, the acorns are capable of dealing 1d6 points of fire damage per caster level (maximum 20d6), divided up among the acorns as you wish.
+For example, a 20th-level druid could create one 20d6 missile, two 10d6 missiles, one 11d6 and three 3d6 missiles, or any other combination totalling up to four acorns and 20d6 points of damage.
+Each acorn explodes upon striking any hard surface.
+In addition to its regular fire damage, it deals 1 point of splash damage per die, and it ignites any combustible materials within 10 feet.
+A creature within this area that makes a successful Reflex saving throw takes only half damage; a creature struck directly is not allowed a saving throw.
+Holly Berry Bombs: You turn as many as eight holly berries into special bombs.
+The holly berries are usually placed by hand, since they are too light to make effective thrown weapons (they can be tossed only 5 feet).
+If you are within 200 feet and speak a word of command, each berry instantly bursts into flame, causing 1d8 points of fire damage +1 point per caster level to every creature in a 5-foot-radius burst and igniting any combustible materials within 5 feet.
+A creature in the area that makes a successful Reflex saving throw takes only half damage.
+Material Component: The acorns or holly berries}}
+
+
+Sunbeam(Player's Handbook v.3.5): - Sun(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Sunbeam](https://dndtools.net/spells/players-handbook-v35--6/sunbeam--2652/) }} {{School:= Evocation  [Light]}} {{Level:= **Sun 7**, Druid 7, Warmage 7, Glory 7}} {{Components:= V, S, DF}} {{Range:= 60 ft.}} {{Area:=Line from your hand}} {{Duration:=1 round/level or until all beams are exhausted}} {{Savingthrow:=Reflex negates and Reflex half; see text }} {{Save DC:=[[@{spelldc7}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=For the duration of this spell, you can use a standard action to evoke a dazzling beam of intense light each round.
+You can call forth one beam per three caster levels (maximum six beams at 18th level).
+The spell ends when its duration runs out or your allotment of beams is exhausted.
+Each creature in the beam is blinded and takes 4d6 points of damage.
+Any creatures to which sunlight is harmful or unnatural take double damage.
+A successful Reflex save negates the blindness and reduces the damage by half.
+An undead creature caught within the beam takes 1d6 points of damage per caster level (maximum 20d6), or half damage if a Reflex save is successful.
+In addition, the beam results in the destruction of any undead creature specifically harmed by bright light (such as a vampire) if it fails its save.
+The ultraviolet light generated by the spell deals damage to fungi, mold, oozes, and slimes just as if they were undead creatures}}
+
+
+Sunburst(Player's Handbook v.3.5): - Sun(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Sunburst](https://dndtools.net/spells/players-handbook-v35--6/sunburst--2653/) }} {{School:= Evocation  [Light]}} {{Level:= **Sun 8**, Druid 8, Sorcerer 8, Wizard 8, Warmage 8, Sha'ir 8, Purification 8, Elysium 8, Elf 8, Arcanist 8}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=80-ft.-radius burst}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex partial; see text }} {{Save DC:=[[@{spelldc8}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Sunburst causes a globe of searing radiance to explode silently from a point you select.
+All creatures in the globe are blinded and take 6d6 points of damage.
+A creature to which sunlight is harmful or unnatural takes double damage.
+A successful Reflex save negates the blindness and reduces the damage by half.
+An undead creature caught within the globe takes 1d6 points of damage per caster level (maximum 25d6), or half damage if a Reflex save is successful.
+In addition, the burst results in the destruction of any undead creature specifically harmed by bright light (such as a vampire) if it fail its save.
+The ultraviolet light generated by the spell deals damage to fungi, mold, oozes, and slimes just as if they were undead creatures.
+Sunburst dispels any darkness spells of lower than 9th level within its area.
+Arcane Material Component: A piece of sunstone and a naked flame}}
+
+
+Prismatic Sphere(Player's Handbook v.3.5): - Sun(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Prismatic Sphere](https://dndtools.net/spells/players-handbook-v35--6/prismatic-sphere--2343/) }} {{School:= Abjuration  }} {{Level:= **Sun 9**, Sorcerer 9, Wizard 9, Warmage 9, Sha'ir 9, Protection 9, Family 9, Arcanist 9}} {{Components:= V}} {{Range:= 10 ft.}} {{Effect:=10-ft.-radius sphere centered on you}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like prismatic wall, except you conjure up an immobile, opaque globe of shimmering, multicolored light that surrounds you and protects you from all forms of attack.
+The sphere flashes in all colors of the visible spectrum.
+The sphere's blindness effect on creatures with less than 8 HD lasts 2d4&#215;10 minutes.
+You can pass into and out of the prismatic sphere and remain near it without harm. However, when you're inside it, the sphere blocks any attempt to project something through the sphere (including spells). Other creatures that attempt to attack you or pass through suffer the effects of each color, one at a time.
+Typically, only the upper hemisphere of the globe will exist, since you are at the center of the sphere, so the lower half is usually excluded by the floor surface you are standing on.
+The colors of the sphere have the same effects as the colors of a prismatic wall.
+Prismatic sphere can be made permanent with a permanency spell.
+<table><tr><th>Color </th><th>Order </th><th>Effect of Color </th><th>Negated By </th></tr><tr><td> Red </td><td> 1st </td><td> Stops nonmagical ranged weapons. </td><td> **Cone of cold** </td></tr><tr><td> </td><td> </td><td> Deals 20 points of fire damage (Relfex half). </td><td> </td></tr><tr><td> Orange </td><td> 2nd </td><td> Stops magical ranged weapons. </td><td> **Gust of wind** </td></tr><tr><td> </td><td> </td><td> Deals 40 points of acid damage (Reflex half). </td><td> </td></tr><tr><td> Yellow </td><td> 3rd </td><td> Stops poisons, gases and petrification. </td><td> **Disintegrate** </td></tr><tr><td> </td><td> </td><td> Deals 80 points of electricity damage (Reflex half). </td><td> </td></tr><tr><td> Green </td><td> 4th </td><td> Stops breath weapons </td><td> **Passwall** </td></tr><tr><td> </td><td> </td><td> Poison (Kills; Fortitude partial for 1d6 points of Con damage instead). </td><td> </td></tr><tr><td> Blue </td><td> 5th </td><td> Stops divination and mental attacks. </td><td> **Magic missle** </td></tr><tr><td> </td><td> </td><td> Turned to stone (Fortitude negates). </td><td> </td></tr><tr><td> Indigo </td><td> 6th </td><td> Stops all spells. </td><td> **Daylight** </td></tr><tr><td> </td><td> </td><td> Will save or become insane (as insanity spell). </td><td> </td></tr><tr><td> Violet </td><td> 7th </td><td> Energy field destroys all objects and effects. </td><td> **Dispel magic** </td></tr><tr><td> </td><td> </td><td> Creatures sent to another plane (Will negates). </td><td> </td></tr></table>Note: The violet effect makes the special effects of the other six colors redundant, but these six effects are included here because certain magic items can create prismatic effects one color at a time, and spell resistance might render some colors ineffective (see above)}}

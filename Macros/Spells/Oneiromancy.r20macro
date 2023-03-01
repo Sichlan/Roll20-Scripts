@@ -1,0 +1,51 @@
+
+
+Restful Slumber(Heroes of Horror): - Oneiromancy(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Restful Slumber](https://dndtools.net/spells/heroes-of-horror--70/restful-slumber--1435/) }} {{School:= Enchantment  }} {{Level:= **Oneiromancy 1**}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc1}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You allow another creature to gain a full night's sleep, uninterrupted by nightmares.
+If you attempt to cancel the nightmares imposed by an outside source, such as a curse or another spellcaster, you must make a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the nightmares' source}}
+
+
+Dream Walk(Heroes of Horror): - Oneiromancy(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dream Walk](https://dndtools.net/spells/heroes-of-horror--70/dream-walk--1422/) }} {{School:= Conjuration (Teleportation) }} {{Level:= **Oneiromancy 4**}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched, or up to eight willing creatures joining hands}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You move yourself or some other creature into a dreamscape.
+You must either be able to see the dreamer whose dreams you wish to enter or be within 30 feet of her.
+This spell otherwise functions exactly as plane shift}}
+
+
+Manifest Desire(Heroes of Horror): - Oneiromancy(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Manifest Desire](https://dndtools.net/spells/heroes-of-horror--70/manifest-desire--1436/) }} {{School:= Illusion  }} {{Level:= **Oneiromancy 4**}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=Concentration + 3 rounds}} {{Savingthrow:=Will disbelief (if interacted with) }} {{Save DC:=[[@{spelldc4}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The target's greatest desire appears before her in illusory form for all to see.
+Interaction with the image allows a Will save to disbelieve.
+Many casters use this spell simply to learn the subject's greatest desire, not caring whether the illusion deceives the subject}}
+
+
+Manifest Nightmare(Heroes of Horror): - Oneiromancy(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Manifest Nightmare](https://dndtools.net/spells/heroes-of-horror--70/manifest-nightmare--1437/) }} {{School:= Illusion  [Fear]}} {{Level:= **Oneiromancy 4**}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=Concentration + 3 rounds}} {{Savingthrow:=Will partial or disbelief (if interacted with) }} {{Save DC:=[[@{spelldc4}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The target's greatest fear appears before him in illusory formfor all to see.
+So long as the nightmare remains manifest and in the subject's proximity, he must make a Will save every round or become panicked.
+Success on this save indicates that the subject is only shaken that round.
+This save is repeated every round for the spell's duration, until and unless the subject makes a successful save to disbelieve the illusion.
+In order to disbelieve the illusion, the subject must first force himself to interact with it, to determine that it might be false.
+Many casters use this spell simply to learn the nature of the subject's greatest fear, not caring whether the illusion actually causes the subject to panic}}
+
+
+Dreaming Puppet(Heroes of Horror): - Oneiromancy(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dreaming Puppet](https://dndtools.net/spells/heroes-of-horror--70/dreaming-puppet--1433/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Oneiromancy 5**}} {{Components:= V, S}} {{Range:= Unlimited}} {{Target:=One sentient, living creature of caster's HD +4 or lower}} {{Duration:=1 min./level (D)}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc5}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You take control of the physical body of a sleeping creature.
+At the beginning of the spell, you must name the subject or identify him by some title that leaves no doubt as to his identity.
+You then enter a trance and appear in the subject's dream.
+So long as you remain in his dream, you see the world through the eyes of his physical form, and you control his body as per the spell dominate monster (see page 224 of the Player's Handbook).
+The subject is aware of you in his dream, and can identify you if he knows you personally.
+Once the spell ends, or if the subject shakes off the effect due to a new save granted by instructions contrary to his moral code (this new save gains a +2 bonus; see dominate person), he remembers what he has done while under the effects of dreaming puppet.
+These memories are dreamlike and not entirely clear, but the subject recalls the gist of all that happened.
+If the recipient is awake when the spell begins, you can choose to wake up (ending the spell) or remain in the trance.
+You can remain in the trance until the recipient goes to sleep (assuming the spell's duration lasts that long), then enter the recipient's dream and dominate him as normal.
+If you are disturbed and awaken during the trance, the spell ends.
+Creatures who don't sleep (such as elves, but not half-elves), don't dream, or are otherwise immune to mind-affecting spells and abilities are immune to this spell.
+You are unaware of your own surroundings or of the activities around you while in the trance.
+You are defenseless both physically and mentally (you always fail any saving throw) while in the trance.
+Dreaming puppet carries an element of risk for you as well as for the subject.
+If the target exceeds the required Will save by 10 or more, or rolls a natural 20, not only are you barred from controlling him but your soul becomes lost in the dreamscape, unable to easily return to your own body.
+In order to return to your body, you must either find your way through the realm of dreams (and possibly other planes as well), cast a planar traveling spell, or be rescued}}
+
+
+Dream Sight(Spell Compendium): - Oneiromancy(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dream Sight](https://dndtools.net/spells/spell-compendium--86/dream-sight--4421/) }} {{School:= Divination  }} {{Level:= **Oneiromancy 7**, Dream 6, Shaman 4}} {{Components:= S, DF}} {{Range:= See text}} {{Target:=You}} {{Duration:=1 minute/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**In sleep your spirit rises to travel about and observe the world.**
+You fall into a deep sleep while your spirit leaves your body invisibly in incorporeal form and travels to distant locations. Your spirit can move 100 feet per round, and can see and hear anything you could if you were in the same location. The spirit can be blocked by any spell that wards incorporeal creatures, and it can be detected and attacked in the same way as incorporeal creatures can. Your spirit can do nothing bu move and observe &#8211; it cannot speak, attack, cast spells, or perform any other action.
+At the end of the spell, your spirit instantaneously return to your body and you wake up. If your body is disturbed or attacked while your spirit is wandering, the spell ends immediately}}

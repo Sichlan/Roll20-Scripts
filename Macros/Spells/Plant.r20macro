@@ -1,0 +1,98 @@
+
+
+Entangle(Player's Handbook v.3.5): - Plant(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Entangle](https://dndtools.net/spells/players-handbook-v35--6/entangle--2807/) }} {{School:= Transmutation  }} {{Level:= **Plant 1**, Druid 1, Ranger 1, NentyarHunter 1}} {{Components:= V, S, DF}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=Plants in a 40-ft.-radius spread}} {{Duration:=1 min./level (D)}} {{Savingthrow:=Reflex partial; see text }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Grasses, weeds, bushes, and even trees wrap, twist, and entwine about creatures in the area or those that enter the area, holding them fast and causing them to become entangled.
+The creature can break free and move half its normal speed by using a full-round action to make a DC 20 Strength check or a DC 20 Escape Artist check.
+A creature that succeeds on a Reflex save is not entangled but can still move at only half speed through the area.
+Each round on your turn, the plants once again attempt to entangle all creatures that have avoided or escaped entanglement.
+Note: The DM may alter the effects of the spell somewhat, based on the nature of the entangling plants}}
+
+
+Barkskin(Player's Handbook v.3.5): - Plant(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Barkskin](https://dndtools.net/spells/players-handbook-v35--6/barkskin--2782/) }} {{School:= Transmutation  }} {{Level:= **Plant 2**, NentyarHunter 1, Druid 2, Ranger 2, UrbanDruid 2}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=10 min./level}} {{Savingthrow:=None (harmless)}}  {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Barkskin toughens a creature's skin. The effect grants a +2 enhancement bonus to the creature's existing natural armor bonus. This enhancement bonus increases by 1 for every three caster levels above 3rd, to a maximum of +5 at caster level 12th.
+The enhancement bonus provided by barkskin stacks with the target's natural armor bonus, but not with other enhancement bonuses to natural armor. A creature without natural armor has an effective natural armor bonus of +0, much as a character wearing only normal clothing has an armor bonus of +0}}
+
+
+Plant Growth(Player's Handbook v.3.5): - Plant(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Plant Growth](https://dndtools.net/spells/players-handbook-v35--6/plant-growth--2852/) }} {{School:= Transmutation  }} {{Level:= **Plant 3**, Druid 3, Ranger 3, WuJen 3}} {{Components:= V, S, DF}} {{Range:= See text}} {{Target:=See text}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Plant growth has different effects depending on the version chosen.
+Overgrowth: This effect causes normal vegetation (grasses, briars, bushes, creepers, thistles, trees, vines) within long range (400 feet + 40 feet per caster level) to become thick and overgrown.
+The plants entwine to form a thicket or jungle that creatures must hack or force a way through.
+Speed drops to 5 feet, or 10 feet for Large or larger creatures.
+(The DM may allow faster movement for very small or very large creatures).
+The area must have brush and trees in it for this spell to take effect.
+At your option, the area can be a 100-foot-radius circle, a 150-foot-radius semicircle, or a 200-foot-radius quarter circle.
+You may designate places within the area that are not affected.
+Enrichment: This effect targets plants within a range of one-half mile, raising their potential productivity over the course of the next year to one-third above normal.
+Plant growth counters diminish plants.
+This spell has no effect on plant creatures}}
+
+
+Command Plants(Player's Handbook v.3.5): - Plant(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Command Plants](https://dndtools.net/spells/players-handbook-v35--6/command-plants--2794/) }} {{School:= Transmutation  }} {{Level:= **Plant 4**, Ranger 3, Druid 4, WuJen 4, Blightbringer 7}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Up to 2 HD/level of plant creatures, no two of which can be more than 30 ft. apart}} {{Duration:=One day/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell allows you some degree of control over one or more plant creatures.
+Affected plant creatures can understand you, and they perceive your words and actions in the most favorable way (treat their attitude as friendly).
+They will not attack you while the spell lasts.
+You can try to give a subject orders, but you must win an opposed Charisma check to convince it to do anything it wouldn't ordinarily do.
+(Retries are not allowed).
+A commanded plant never obeys suicidal or obviously harmful orders, but it might be convinced that something very dangerous is worth doing (see charm person).
+You can affect a number of plant creatures whose combined level or HD do not exceed twice your level}}
+
+
+Wall of Thorns(Player's Handbook v.3.5): - Plant(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wall of Thorns](https://dndtools.net/spells/players-handbook-v35--6/wall-of-thorns--2471/) }} {{School:= Conjuration (Creation) }} {{Level:= **Plant 5**, NentyarHunter 4, Druid 5}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Wall of thorny brush, up to one 10-ft. cube/level (S)}} {{Duration:=10 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A wall of thorns spell creates a barrier of very tough, pliable, tangled brush bearing needle-sharp thorns as long as a human's finger.
+Any creature forced into or attempting to move through a wall of thorns takes slashing damage per round of movement equal to 25 minus the creature's AC.
+Dexterity and dodge bonuses to AC do not count for this calculation.
+(Creatures with an Armor Class of 25 or higher, without considering Dexterity and dodge bonuses, take no damage from contact with the wall).
+You can make the wall as thin as 5 feet thick, which allows you to shape the wall as a number of 10-by-10-by-5-foot blocks equal to twice your caster level.
+This has no effect on the damage dealt by the thorns, but any creature attempting to break through takes that much less time to force its way through the barrier.
+Creatures can force their way slowly through the wall by making a Strength check as a full-round action.
+For every 5 points by which the check exceeds 20, a creature moves 5 feet (up to a maximum distance equal to its normal land speed).
+For example, a creature that rolled 25 on its Strength check could move 5 feet in a round.
+Of course, moving or attempting to move through the thorns incurs damage as described above.
+A creature trapped in the thorns can choose to remain motionless in order to avoid taking any more damage.
+Any creature within the area of the spell when it is cast takes damage as if it had moved into the wall and is caught inside.
+In order to escape, it must attempt to push its way free, or it can wait until the spell ends.
+Creatures with the ability to pass through overgrown areas unhindered can pass through a wall of thorns at normal speed without taking damage.
+A wall of thorns can be breached by slow work with edged weapons.
+Chopping away at the wall creates a safe passage 1 foot deep for every 10 minutes of work.
+Normal fire cannot harm the barrier, but magical fire burns it away in 10 minutes.
+Despite its appearance, a wall of thorns is not actually a living plant, and thus is unaffected by spells that affect plants}}
+
+
+Repel Wood(Player's Handbook v.3.5): - Plant(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Repel Wood](https://dndtools.net/spells/players-handbook-v35--6/repel-wood--2863/) }} {{School:= Transmutation  }} {{Level:= **Plant 6**, Blighter 5, Druid 6, UrbanDruid 6}} {{Components:= V, S}} {{Range:= 60 ft.}} {{Area:=60-ft. line-shaped emanation from you}} {{Duration:=1 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Waves of energy roll forth from you, moving in the direction that you determine, causing all wooden objects in the path of the spell to be pushed away from you to the limit of the range.
+Wooden objects larger than 3 inches in diameter that are fixed firmly are not affected, but loose objects are.
+Objects 3 inches in diameter or smaller that are fixed in place splinter and break, and the pieces move with the wave of energy.
+Objects affected by the spell are repelled at the rate of 40 feet per round.
+Objects such as wooden shields, spears, wooden weapon shafts and hafts, and arrows and bolts are pushed back, dragging those carrying them along.
+(A creature being dragged by an item it is carrying can let go.
+A creature being dragged by a shield can loose it as a move action and drop it as a free action).
+If a spear is planted (set) to prevent this forced movement, it splinters.
+Even magic items with wooden sections are repelled, although an antimagic field blocks the effects.
+The waves of energy continue to sweep down the set path for the spell's duration.
+After you cast the spell, the path is set, and you can then do other things or go elsewhere without affecting the spell's power}}
+
+
+Animate Plants(Player's Handbook v.3.5): - Plant(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Animate Plants](https://dndtools.net/spells/players-handbook-v35--6/animate-plants--2778/) }} {{School:= Transmutation  }} {{Level:= **Plant 7**, Druid 7}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One Large plant per three caster levels or all plants within range; see text}} {{Duration:=1 round/level or 1 hour/level; see text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You imbue inanimate plants with mobility and a semblance of life.  Each animated plant then immediately attacks whomever or whatever you initially designate as though it were an animated object of the appropriate size category. You may animate one Large or smaller plant (such as a tree), or an equivalent number of larger plants, per three caster levels.  A Huge plant counts as two Large or smaller plants, a Gargantuan plant as four, and a Colossal plant as eight.  You can change the designated target or targets as a move action, as if directing an active spell. 
+Use the statistics for animated objects found in the Monster Manual, except that plants smaller than Large don't have hardness unless the DM rules otherwise for a given case.
+**Animate plants** cannot affect plant creatures (such as treants), nor does it affect nonliving vegetable material (such as a cotton tunic or hempen rope).
+**Entangle:** Alternatively, you may imbue all plants within range with a degree of mobility, which allows them to entwine around creatures in the area.  This usage of the spell duplicates the effect of an <a href="/spells/players-handbook-v35--6/entangle--2807/">entangle</a> spell.  Spell resistance does not keep creatures from being entangled.  This effect lasts 1 hour per caster level}}
+
+
+Control Plants(Player's Handbook v.3.5): - Plant(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Control Plants](https://dndtools.net/spells/players-handbook-v35--6/control-plants--2795/) }} {{School:= Transmutation  }} {{Level:= **Plant 8**, Druid 8, WuJen 8}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Up to 2 HD/level of plant creatures, no two of which can be more than 30 ft. apart}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc8}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell enables you to control the actions of one or more plant creatures for a short period of time.
+You command the creatures by voice and they understand you, no matter what language you speak.
+Even if vocal communication is impossible (in the area of a silence spell, for instance), the controlled plants do not attack you.
+At the end of the spell, the subjects revert to their normal behavior.
+Suicidal or self-destructive commands are simply ignored}}
+
+
+Shambler(Player's Handbook v.3.5): - Plant(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shambler](https://dndtools.net/spells/players-handbook-v35--6/shambler--2435/) }} {{School:= Conjuration (Creation) }} {{Level:= **Plant 9**, Blighter 8, Druid 9}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Three or more shambling mounds, no two of which can be more than 30 ft. apart; see text}} {{Duration:=Seven days or seven months (D); see text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The shambler spell creates 1d4+2 shambling mounds with 11 HD each.
+(See the Monster Manual for details about shambling mounds).
+The creatures willingly aid you in combat or battle, perform a specific mission, or serve as bodyguards.
+The creatures remain with you for seven days unless you dismiss them.
+If the shamblers are created only for guard duty, however, the duration of the spell is seven months.
+In this case, the shamblers can only be ordered to guard a specific site or location.
+Shamblers summoned to guard duty cannot move outside the spell's range, which is measured from the point where each first appeared.
+The shamblers have resistance to fire as normal shambling mounds do only if the terrain is rainy, marshy, or damp}}

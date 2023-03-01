@@ -1,0 +1,24 @@
+
+
+Ghost Light(Complete Arcane): - Grave(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Ghost Light](https://dndtools.net/spells/complete-arcane--55/ghost-light--523/) }} {{School:= Necromancy  [Fear]}} {{Level:= **Grave 1**, WuJen 1, Maho 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=One Medium or smaller ghostly light}} {{Duration:=Concentration}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create a ghostly green radiance anywhere within range that shines with the brightness of a torch and is imbued with unearthly power, causing creatures within 30 feet to become shaken unless they succeed on a Will save.
+The light can be shaped to any Medium or smaller form, and can move at a speed of 30 feet as long as you maintain concentration on the spell (so that you can shape the effect into a human form and make it seem to walk or fly, for example).
+The shape of a ghost light can be changed at any time during the spell's duration as a free action.
+Material Component: A bit of phosphorus}}
+
+
+Wall of Bones(Complete Arcane): - Grave(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wall of Bones](https://dndtools.net/spells/complete-arcane--55/wall-of-bones--482/) }} {{School:= Conjuration (Creation) }} {{Level:= **Grave 4**, WuJen 4, Maho 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Wall whose area is up to one 10-ft. square/level}} {{Duration:=10 minutes}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell causes a wall of bones to erupt from the earth.
+The wall can be whatever shape you desire as long as its base is solidly on the ground, but it cannot be conjured so that it occupies the same space as a creature or another object.
+Though solid, the wall has many small openings and gaps, and creatures on either side have cover and concealment against attacks from the opposite side.
+A wall of bones can be passed through as a full-round action, but its sharp spikes and edges deal 1d8 points of damage to any Small or Medium creature that attempts to do so.
+Small creatures can slip and wriggle through the wall at will, but a Medium creature must make a successful DC 20 Escape Artist check.
+Failure means that a creature takes damage as normal and becomes stuck in the wall.
+It must make another move attempt the following round to either pass through the wall or pull back from it (taking damage from the movement either way).
+Tiny or smaller creatures can slip freely through the wall at half speed, and Large or larger creatures cannot pass through it but might be able to break through (see below) or climb over, taking no damage.
+Any creature trapped in the wall can choose to remain motionless until the spell expires to avoid taking any more damage.
+The wall is 6 inches thick per caster level.
+Each 5-foot square has 10 hit points per 6 inches of thickness, but the wall takes only half damage from slashing or piercing weapons.
+A creature can make a Strength check (DC 15 + 2 per caster level, maximum + 10) to break through the wall with a single attack.
+The wall is composed of bones of many different types of creatures, fused at bizarre angles, but it cannot be animated by an animate dead spell nor communicated with via speak with dead.
+Material Component: A withered tree branch taken from a cemetery}}

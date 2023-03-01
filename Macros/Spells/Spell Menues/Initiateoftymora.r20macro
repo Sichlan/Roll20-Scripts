@@ -1,0 +1,5 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;1:=[View](~Initiateoftymora-Spell-Level-1)}} {{Spelllevel&nbsp;2:=[View](~Initiateoftymora-Spell-Level-2)}} 
+
+[1, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 1 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateoftymora)}} {{Fleeting Fortune:=[View](~Initiateoftymora-Fleeting-Fortune-Description) [Send](~Initiateoftymora-Fleeting-Fortune-Cast)}} ]
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateoftymora)}} {{Favor of Tymora:=[View](~Initiateoftymora-Favor-of-Tymora-Description) [Send](~Initiateoftymora-Favor-of-Tymora-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

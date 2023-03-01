@@ -1,0 +1,5 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;1:=[View](~Initiateofgond-Spell-Level-1)}} {{Spelllevel&nbsp;3:=[View](~Initiateofgond-Spell-Level-3)}} 
+
+[1, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 1 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofgond)}} {{Wieldskill:=[View](~Initiateofgond-Wieldskill-Description) [Send](~Initiateofgond-Wieldskill-Cast)}} ]
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofgond)}} {{Understand Device:=[View](~Initiateofgond-Understand-Device-Description) [Send](~Initiateofgond-Understand-Device-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

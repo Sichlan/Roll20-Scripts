@@ -1,0 +1,13 @@
+
+
+Hellfire(Fiendish Codex II: Tyrants of the Nine Hells): - Diabolic(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Hellfire](https://dndtools.net/spells/fiendish-codex-ii-tyrants-of-the-nine-hells--67/hellfire--1170/) }} {{School:= Evocation  [Evil]}} {{Level:= **Diabolic 4**}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=10-ft.-radius spread}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Calling upon the raw energies of Baator, you cause hellish fires to fill an area you designate.
+You create a small explosion of brimstone and fire.
+The spell deals 1d8 points of damage per two caster levels (maximum 5d8) to creatures in the affected area.
+The damage is not fire damage, and is not subject to being reduced by resistance to fire-based attacks, such as that granted by protection from energy (fire), fire shield (chill shield),
+and similar magic}}
+
+
+Hellfire Storm(Fiendish Codex II: Tyrants of the Nine Hells): - Diabolic(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Hellfire Storm](https://dndtools.net/spells/fiendish-codex-ii-tyrants-of-the-nine-hells--67/hellfire-storm--1169/) }} {{School:= Evocation  [Evil]}} {{Level:= **Diabolic 7**}} {{Components:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=20-ft.-radius spread}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like hellfire,
+except it deals 1d8 points of damage per caster level (maximum 10d8) to creatures in the affected area}}

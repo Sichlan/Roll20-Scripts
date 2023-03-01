@@ -1,0 +1,85 @@
+
+
+Expeditious Retreat(Player's Handbook v.3.5): - Celerity(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Expeditious Retreat](https://dndtools.net/spells/players-handbook-v35--6/expeditious-retreat--2811/) }} {{School:= Transmutation  }} {{Level:= **Celerity 1**, Bard 1, DeathMaster 1, Jester 1, Savant 1, Beguiler 1, Vigilante 1, Fatemaker 1, EbonmarInfiltrator 1, Hoardstealer 1, Wizard 1, Sorcerer 1, Sha'ir 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 min./level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell increases your base land speed by 30 feet.
+(This adjustment is treated as an enhancement bonus).
+There is no effect on other modes of movement, such as burrow, climb, fly, or swim.
+As with any effect that increases your speed, this spell affects your jumping distance (see the Jump skill, page 77).
+This spell need not be used as part of a retreat; the name of the spell merely hints at the typical wizard's attitude towards combat}}
+
+
+Blur(Player's Handbook v.3.5): - Celerity(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blur](https://dndtools.net/spells/players-handbook-v35--6/blur--2664/) }} {{School:= Illusion (Glamer) }} {{Level:= **Celerity 3**, Bard 2, Jester 2, DeathMaster 2, Sha'ir 2, WuJen 2, NentyarHunter 2, Beguiler 2, Vigilante 2, Wizard 2, Sorcerer 2, CourtHerald 2, Arcanist 2}} {{Components:= V}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 min./level (D)}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Illusion}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject's outline appears blurred, shifting and wavering.
+This distortion grants the subject concealment (20% miss chance).
+A see invisibility spell does not counteract the blur effect, but a true seeing spell does.
+Opponents that cannot see the subject ignore the spell's effect (though fighting an unseen opponent carries penalties of its own; see page 151)}}
+
+
+Haste(Player's Handbook v.3.5): - Celerity(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Haste](https://dndtools.net/spells/players-handbook-v35--6/haste--2823/) }} {{School:= Transmutation  }} {{Level:= **Celerity 4**, Trapsmith 1, TelflammarShadowlord 2, Bard 3, Wizard 3, Vigilante 3, Sorcerer 3, Sha'ir 3, RunescarredBerserker 3, Jester 3, Fatemaker 3, Beguiler 3, WuJen 3, Time 3, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level, no two of which can be more than 30 ft. apart}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The transmuted creatures move and act more quickly than normal. This extra speed has several effects.
+When making a full attack action, a hasted creature may make one extra attack with any weapon he is holding. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a weapon of speed, nor does it actually grant an extra action, so you can't use it to cast a second spell or otherwise take an extra action in the round).
+A hasted creature gains a +1 bonus on attack rolls and a +1 dodge bonus to AC and Reflex saves. Any condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses.
+All of the hasted creature's modes of movement (including land movement, burrow, climb, fly, and swim) increase by 30 feet, to a maximum of twice the subject's normal speed using that form of movement. This increase counts as an enhancement bonus, and it affects the creature's jumping distance as normal for increased speed.
+Multiple haste effects don't stack. Haste dispels and counters slow.
+Material Component: A shaving of licorice root}}
+
+
+Tree Stride(Player's Handbook v.3.5): - Celerity(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Tree Stride](https://dndtools.net/spells/players-handbook-v35--6/tree-stride--2466/) }} {{School:= Conjuration (Teleportation) }} {{Level:= **Celerity 5**, Ranger 4, NentyarHunter 4, Druid 5, Elf 4, Fey 5}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 hour/level or until expended; see text}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You gain the ability to enter trees and move from inside one tree to inside another tree.
+The first tree you enter and all others you enter must be of the same kind, must be living, and must have girth at least equal to yours.
+By moving into an oak tree (for example), you instantly know the location of all other oak trees within transport range (see below) and may choose whether you want to pass into one or simply step back out of the tree you moved into.
+You may choose to pass to any tree of the appropriate kind within the transport range as shown on the following table.
+You may move into a tree up to one time per caster level (passing from one tree to another counts only as moving into one tree).
+The spell lasts until the duration expires or you exit a tree.
+This means that in a thick oak forest, a 10th-level druid
+could make ten transports over the course of 10 rounds, traveling as far as 30,000 feet (about 6 miles) in doing so.
+Each transport is a full-round action.
+You can, at your option, remain within a tree without transporting yourself, but you are forced out when the spell ends.
+If the tree in which you are concealed is chopped down or burned, you are slain if you do not exit before the process is complete}}
+
+
+Wind Walk(Player's Handbook v.3.5): - Celerity(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wind Walk](https://dndtools.net/spells/players-handbook-v35--6/wind-walk--2896/) }} {{School:= Transmutation  [Air]}} {{Level:= **Celerity 6**, Cleric 6, Druid 7, UrbanDruid 7, Cloistered Cleric 6}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=You and one touched creature per three levels}} {{Duration:=1 hour/level (D); see text}} {{Savingthrow:=No and Will negates (harmless) }} {{Save DC:=[[@{spelldc6}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You alter the substance of your body to a cloudlike vapor (as the gaseous form spell) and move through the air, possibly at great speed.
+You can take other creatures with you, each of which acts independently.
+Normally, a wind walker flies at a speed of 10 feet with perfect maneuverability.
+If desired by the subject, a magical wind wafts a wind walker along at up to 600 feet per round (60 mph) with poor maneuverability.
+Wind walkers are not invisible but rather appear misty and translucent.
+If fully clothed in white, they are 80% likely to be mistaken for clouds, fog, vapors, or the like.
+A wind walker can regain its physical form as desired and later resume the cloud form.
+Each change to and from vaporous form takes 5 rounds, which counts toward the duration of the spell (as does any time spent in physical form).
+As noted above, you can dismiss the spell, and you can even dismiss it for individual wind walkers and not others.
+For the last minute of the spell's duration, a wind walker in cloud form automatically descends 60 feet per round (for a total of 600 feet), though it may descend faster if it wishes.
+This descent serves as a warning that the spell is about to end}}
+
+
+Blink, Greater(Spell Compendium): - Celerity(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blink, Greater](https://dndtools.net/spells/spell-compendium--86/blink-greater--3971/) }} {{School:= Transmutation  }} {{Level:= **Celerity 8**, Bard 5, Sorcerer 5, Wizard 5, Arcanist 5}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**An immaterial fog descends over your eyes as you complete the spell. You perceive the closeness of a parallel, ethereal reality, and you know that you can pass freely between that world and the one upon which you stand.**
+This spell functions like <a href="/spells/players-handbook-v35--6/blink--2787/">blink</a> (PH 206), except that you have control over the timing of your &quot;blinking&quot; back and forth between the Ethereal Plane and the Material Plane. You can also ready an action to blink away from any physical or magical attack. The attack misses automatically unless it also affects ethereal targets (as a force effect does). While blinking, you have no chance of interfering with your own attacks or your own spells. When moving through solid  objects, you do not risk materializing inside one unless you actually end your movement there, in which case you materialize and are shunted off to the nearest open space, taking 1d6 points of damage per 5 feet traveled in this manner}}
+
+
+Blink, Improved(Complete Divine): - Celerity(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blink, Improved](https://dndtools.net/spells/complete-divine--56/blink-improved--730/) }} {{School:= Transmutation  }} {{Level:= **Celerity 8**, Bard 5, Sorcerer 5, Wizard 5, Arcanist 5}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Like the 3rd-level arcane spell blink, you flicker back and forth between the Material and Ethereal planes.
+However, you are capable of controlling the timing of you blinks and therefore make better use of them.
+Blinking by means of this spell has several effects: Physical attacks against you have a 50% miss chance, and the Blind-Fight feat doesn't help the attacker.
+If the attack is capable of striking invisible or incorporeal creatures, the miss chance is only 20%.
+An attacker who can both see and strike ethereal creatures takes no penalty.
+You have no chance of interfering with your own attacks.
+Individually targeted spells have a 50% chance to fail against you while blinking, unless your attacker can target invisible, ethereal creatures.
+You have no chance of interfering with your own spells.
+You take only half damage from area attacks (or full damage from those that extend onto the Ethereal Plane).
+While blinking, you strike as an invisible creature (+2 bonus on attack rolls), denying your target any Dexterity bonus to AC.
+You take only half damage from falling, since you are subject to gravity only while you are on the Material Plane.
+You can ready an action to blink away from a specific enemy attack, physical or magical.
+If you do so, the attack misses automatically unless it can also affect ethereal targets.
+You move at three-quarters speed, since movement on the Ethereal Plane is at half speed and you spend about half your time there and half your time material.
+While blinking, you can step through (but not see through) solid objects.
+You do not risk materializing inside a solid object unless you actually end your move inside one, in which case you materialize and are shunted off to the nearest open space.
+You take 1d6 points of damage per 5 feet traveled in his manner.
+Since you spend about half your time on the Ethereal Plane, you can see and even attack ethereal creatures.
+You interact with ethereal creatures in roughly the same way you interact with material ones (their attacks have a 50% miss chance against you, and so on)}}
+
+
+Time Stop(Player's Handbook v.3.5): - Celerity(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Time Stop](https://dndtools.net/spells/players-handbook-v35--6/time-stop--2886/) }} {{School:= Transmutation  }} {{Level:= **Celerity 9**, Sorcerer 9, Wizard 9, Beguiler 9, WuJen 9, Sha'ir 9, Trickery 9, Planning 9, Time 9, Arcanist 9}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1d4+1 rounds (apparent time); see text}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell seems to make time cease to flow for everyone but you. In fact, you speed up so greatly that all other creatures seem frozen, though they are actually still moving at their normal speeds. You are free to act for 1d4+1 rounds of apparent time. Normal and magical fire, cold, gas, and the like can still harm you. While the **time stop** is in effect, other creatures are invulnerable to your attacks and spells; you cannot target such creatures with any attack or spell. A spell that affects an area and has a duration longer than the remaining duration of the **time stop** (such as <a href="/spells/players-handbook-v35--6/cloudkill--2374/">**cloudkill**</a>) have their normal effects on other creatures once the **time stop** ends. Most spellcasters use the additional time to improve their defenses, summon allies, or flee from combat.
+You cannot move or harm items held, carried, or worn by a creature stuck in normal time, but you can affect any item that is not in another creature's possession.
+You are undetectable while **time stop** lasts. You cannot enter an area protected by an <a href="/spells/players-handbook-v35--6/antimagic-field--2301/">**antimagic field**</a> while under the effect of **time stop**}}

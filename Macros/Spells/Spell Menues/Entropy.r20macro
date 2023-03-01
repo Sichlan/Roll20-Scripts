@@ -1,0 +1,5 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;2:=[View](~Entropy-Spell-Level-2)}} {{Spelllevel&nbsp;9:=[View](~Entropy-Spell-Level-9)}} 
+
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-Entropy)}} {{Vision of Entropy:=[View](~Entropy-Vision-of-Entropy-Description) [Send](~Entropy-Vision-of-Entropy-Cast)}} ]
+[9, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 9 }} {{subtags=[Back to Main Menu](~Spells-Main-Entropy)}} {{Abyssal Rift:=[View](~Entropy-Abyssal-Rift-Description) [Send](~Entropy-Abyssal-Rift-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

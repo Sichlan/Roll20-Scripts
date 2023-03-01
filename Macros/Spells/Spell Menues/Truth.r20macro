@@ -1,0 +1,6 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;6:=[View](~Truth-Spell-Level-6)}} {{Spelllevel&nbsp;7:=[View](~Truth-Spell-Level-7)}} {{Spelllevel&nbsp;9:=[View](~Truth-Spell-Level-9)}} 
+
+[6, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 6 }} {{subtags=[Back to Main Menu](~Spells-Main-Truth)}} {{Force Shapechange:=[View](~Truth-Force-Shapechange-Description) [Send](~Truth-Force-Shapechange-Cast)}} ]
+[7, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 7 }} {{subtags=[Back to Main Menu](~Spells-Main-Truth)}} {{Illusion Purge:=[View](~Truth-Illusion-Purge-Description) [Send](~Truth-Illusion-Purge-Cast)}} ]
+[9, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 9 }} {{subtags=[Back to Main Menu](~Spells-Main-Truth)}} {{True Seeing, Mass:=[View](~Truth-True-Seeing,-Mass-Description) [Send](~Truth-True-Seeing,-Mass-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

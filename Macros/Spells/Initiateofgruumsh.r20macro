@@ -1,0 +1,27 @@
+
+
+Battle Line(Champions of Ruin): - Initiateofgruumsh(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Battle Line](https://dndtools.net/spells/champions-of-ruin--27/battle-line--263/) }} {{School:= Abjuration  }} {{Level:= **Initiateofgruumsh 2**}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=Up to two contiguous 5-ft. squares/level, maximum 10 squares (S)}} {{Duration:=1 round/level}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc2}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=By means of this spell you draw a visible, unholy &quot;line in the sand&quot; that causes a feeling of dread and hesitation in all creatures that cross it.
+Any creature entering the affected area must make a Will save or become shaken.
+A creature that successfully saves cannot be affected again by the same spellcaster's battle line spells for 24 hours}}
+
+
+Bloodspear(Champions of Ruin): - Initiateofgruumsh(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Bloodspear](https://dndtools.net/spells/champions-of-ruin--27/bloodspear--289/) }} {{School:= Transmutation  }} {{Level:= **Initiateofgruumsh 3**}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Spear touched}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell allows you to channel the fury of Gruumsh into the god's favored weapon&#8212;a spear.
+The weapon's tip begins to drip blood, and the spear acts as if it had the wounding special ability (see Dungeon Master's Guide page 226) for the duration of the spell.
+The spell is automatically canceled 1 round after the weapon leaves your hand.
+You cannot have more than one bloodspear in effect at a time.
+This spell has no effect on a spear that already has the wounding special ability, and it does not work on artifacts}}
+
+
+Pocket Cave(Champions of Ruin): - Initiateofgruumsh(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Pocket Cave](https://dndtools.net/spells/champions-of-ruin--27/pocket-cave--270/) }} {{School:= Conjuration (Creation) }} {{Level:= **Initiateofgruumsh 5**}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=Extradimensional cave, up to two 10-ft. cubes/level (S)}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You conjure up an extradimensional cave that has a single entrance on the plane from which the spell was cast.
+You can only cast this spell on a surface made of rock or some form of earth.
+The entry point looks like a dark cave entrance that is 4 feet wide and 8 feet high.
+Only those you designate can enter the cave, and the portal is shut and made invisible behind you when you enter.
+You can open it again from your side at will.
+Creatures entering the cave will find themselves in a dark, wet cavern.
+The place contains enough oxygen to sustain as many creatures as can fit in the area for the duration of the spell.
+Edible fungus grows along the walls, and condensation drips down one wall into a pool of fresh, clean water that never seems to run dry.
+External conditions such as weather do not affect the pleasant atmosphere of the cave, and nothing except the designated creatures can pass through the portal in either direction.
+At the end of the spell's duration, all within the pocket cave return to the spot where they entered the cave or else to the nearest open space, if that spot is occupied}}

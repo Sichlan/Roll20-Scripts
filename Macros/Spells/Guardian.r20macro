@@ -1,0 +1,38 @@
+
+
+Warning(Player's Guide to Faerûn): - Guardian(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Warning](https://dndtools.net/spells/players-guide-to-faerun--22/warning--2240/) }} {{School:= Divination  }} {{Level:= **Guardian 2**, Shaman 2, Sohei 2, Initiateofhelm 2}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=10 min./level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Divination}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell heightens the subject's senses and awareness of danger.
+The subject gains a +4 insight bonus on Listen and Spot checks and gains uncanny dodge for the duration of the spell, retaining its Dexterity bonus to AC (if any) regardless of being caught flat-footed or struck by an invisible attacker.
+(The subject still loses its Dexterity bonus to AC if immobilized)}}
+
+
+Substitution(Oriental Adventures): - Guardian(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Substitution](https://dndtools.net/spells/oriental-adventures--96/substitution--2026/) }} {{School:= Abjuration  }} {{Level:= **Guardian 3**, Shaman 3, Celestial 3, Fortune 3}} {{Components:= V, S, M, AF}} {{Material Component:= Offerings to a spirit you revere worth 10 gp}} {{Arcane Focus:= A figure of a spirit you revere, made of glass, wood, stone, or iron.
+The statue's hit points and cost depend on the substance of which it is made.
+A glass figure has 10 hit points and costs 25 gp, a wood figure has 25 hit points and costs 250 gp, a stone figure has 50 hit points and costs 375 gp, and an iron figure has 100 hit points and costs 750 gp.
+You may use this figure for multiple castings of this spell, but you cannot repair it or restore its lost hit points}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 hour/level or until discharged (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates a mystic connection between you and a specially prepared figure representing your deity or a spirit you revere.
+For the duration of the spell, you take only half damage from all wounds and attacks (including those inflicted by special abilities) that deal you hit point damage.
+The amount of damage not taken by you is taken by the figure instead.
+Forms of harm that do not involve hit points, such as charm effects, temporary ability damage, level draining, and disintegration, are not affected.
+If you suffer a reduction of hit points from a lowered Constitution score, the reduction is not split with the figure because it is not hit point damage.
+The spell is discharged when the figure runs out of hit points (i.e. when they reach 0).
+When the spell ends, subsequent damage is no longer divided between you and the figure, but damage already split is not reassigned to you}}
+
+
+Snake Barrier(Oriental Adventures): - Guardian(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Snake Barrier](https://dndtools.net/spells/oriental-adventures--96/snake-barrier--2025/) }} {{School:= Abjuration  }} {{Level:= **Guardian 4**, Shaman 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Invisible barrier whose area is up to one 5-ft. square/level (S)}} {{Duration:=3 rounds/level}} {{Savingthrow:=Will negates or Fortitude half (see text) }} {{Save DC:=[[@{spelldc4}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates an invisible barrier that prevents reptiles, reptilian creatures, and dragons from crossing it.
+Affected creatures are aware of the barrier's presence and purpose, and reptiles that are not overtly hostile avoid the barrier and those protected by it.
+Reptilian creatures with hostile intent may try to penetrate the barrier.
+Affected creatures with 4 or fewer Hit Dice must make a successful Will saving throw to cross at all.
+Any affected creature that crosses the barrier takes 1d4 points of damage per caster level (maximum 10d4), with a successful Fortitude saving throw reducing the damage by half.
+Intelligent reptilian creatures that encounter the barrier usually find it infuriating, and are much less likely to befriend and aid the caster.
+Material Component: A shed snakeskin}}
+
+
+Surelife(Player's Guide to Faerûn): - Guardian(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Surelife](https://dndtools.net/spells/players-guide-to-faerun--22/surelife--2222/) }} {{School:= Abjuration  }} {{Level:= **Guardian 8**, Repose 8, WuJen 8, Fortune 8}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 min./level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell protects you against some condition&#8212;such as being immersed in boiling oil or being buried under an avalanche&#8212;that would ordinarily cause certain death.
+You can protect yourself only against a natural occurrence or a nonmagical condition, not against a spell or the direct attack of a creature (such as the breath of a dragon or the swords of a group of bandits).
+At the time of casting, you must specify the condition against which you wish to protect yourself.
+Should you be subjected to that condition during the duration of the spell, you feel no discomfort and take no damage from the condition, though the spell does not protect any items carried on your person.
+If you are still subject to the condition at the end of the spell's duration, you suffer its full normal effects.
+Material Component: An ointment of peach syrup and cinnabar}}

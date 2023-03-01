@@ -1,0 +1,5 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;1:=[View](~Initiateofhorus-re-Spell-Level-1)}} {{Spelllevel&nbsp;2:=[View](~Initiateofhorus-re-Spell-Level-2)}} 
+
+[1, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 1 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofhorus-re)}} {{Disk of Solar Vengeance:=[View](~Initiateofhorus-re-Disk-of-Solar-Vengeance-Description) [Send](~Initiateofhorus-re-Disk-of-Solar-Vengeance-Cast)}} ]
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofhorus-re)}} {{Stormvoice:=[View](~Initiateofhorus-re-Stormvoice-Description) [Send](~Initiateofhorus-re-Stormvoice-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

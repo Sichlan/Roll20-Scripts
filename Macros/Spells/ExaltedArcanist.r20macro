@@ -1,0 +1,68 @@
+
+
+Vision of Heaven(Book of Exalted Deeds): - ExaltedArcanist(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Vision of Heaven](https://dndtools.net/spells/book-of-exalted-deeds--52/vision-of-heaven--55/) }} {{School:= Enchantment  }} {{Level:= **ExaltedArcanist 1**, ApostleofPeace 1, Cleric 1, SlayerofDomiel 1, Celestial 1, Joy 1, Cloistered Cleric 1}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One evil creature}} {{Duration:=1 round}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your words allow the target creature the merest glimpse of the blessed joy of the SevenHeavens, spurring the target to a moment of regret for its evil deeds.
+For 1 round, the target is dazed.
+In addition, the creature is more susceptible to future redemption.
+For the next 24 hours, the creature takes a -1 penalty on all Will saves related to redemption (see Chapter 2)}}
+
+
+Aspect of the Deity, Lesser(Book of Exalted Deeds): - ExaltedArcanist(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Aspect of the Deity, Lesser](https://dndtools.net/spells/book-of-exalted-deeds--52/aspect-of-the-deity-lesser--98/) }} {{School:= Transmutation  [Good]}} {{Level:= **ExaltedArcanist 4**, ApostleofPeace 4, Paladin 4, KnightoftheChalice 4, Mysticism 3}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast this spell, your body changes into a form that is more like your deity (in a very limited fashion, of course).
+You gain a +4 enhancement bonus to your Charisma score.
+You also gain acid, cold, and electricity resistance 10}}
+
+
+Sword of Conscience(Book of Exalted Deeds): - ExaltedArcanist(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sword of Conscience](https://dndtools.net/spells/book-of-exalted-deeds--52/sword-of-conscience--54/) }} {{School:= Enchantment (Compulsion) [Good]}} {{Level:= **ExaltedArcanist 4**, ChampionofGwynharwyf 4, Cleric 4, Paladin 4, SlayerofDomiel 4, Cloistered Cleric 4}} {{Components:= V, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One evil creature}} {{Duration:=Instantaneous; see text}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The target creature, which must be evil, is struck by pangs of conscience and remorse.
+The creature instantaneously takes Wisdom and Charisma damage according to the magnitude of its evil.
+The creature regains lost abilities normally; they do not automatically return when the spell's duration expires.
+This effect is not language-dependent}}
+
+
+Crown of Flame(Book of Exalted Deeds): - ExaltedArcanist(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Crown of Flame](https://dndtools.net/spells/book-of-exalted-deeds--52/crown-of-flame--66/) }} {{School:= Evocation  [Good]}} {{Level:= **ExaltedArcanist 5**, Cleric 5, Glory 5, Cloistered Cleric 5}} {{Components:= V, Archon}} {{Range:= 10 ft.}} {{Area:=10-ft.-radius emanation, centered on you}} {{Duration:=1 minute/level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You become a blazingly hot beacon of the powers of good, searing all evil outsiders, evil undead, and evil fey within 10 feet of you.
+Affected creatures take 2d6 points of damage per round}}
+
+
+Heavenly Lightning(Book of Exalted Deeds): - ExaltedArcanist(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Heavenly Lightning](https://dndtools.net/spells/book-of-exalted-deeds--52/heavenly-lightning--76/) }} {{School:= Evocation  [Good]}} {{Level:= **ExaltedArcanist 5**, Celestial 5}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Up to one creature per 2 caster levels}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create a leaping bolt of radiant lightning that arcs from one target to the next, avoiding other creatures in its path.
+Each target struck by an arc takes 3d6 points of special celestial electricity damage.
+Creatures normally immune to electricity take full damage from this spell, and the celestial lightning is not subject to being reduced by protection from energy (electricity) or similar magic}}
+
+
+Aspect of the Deity(Book of Exalted Deeds): - ExaltedArcanist(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Aspect of the Deity](https://dndtools.net/spells/book-of-exalted-deeds--52/aspect-of-the-deity--96/) }} {{School:= Transmutation  [Good]}} {{Level:= **ExaltedArcanist 6**, ApostleofPeace 6, Herald 7, Mysticism 6}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As lesser aspect of the deity, but you take on all the qualities of a celestial creature (see the Monster Manual for complete details):<ul><li>You take on a shining, metallic appearance.</li><li>You gain the ability to smite evil once a day.</li></ul>
+Add your Charisma bonus to your attack roll and your character level to your damage roll against an evil foe.<ul><li>You gain darkvision out to 60 ft.</li><li>You gain resistance 20 to acid, cold, and electricity.</li><li>You gain damage reduction 10/magic.</li><li>You gain spell resistance 25.</li></ul>
+Your creature type does not change (you do not become an
+outsider)}}
+
+
+Bolt of Glory(Spell Compendium): - ExaltedArcanist(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Bolt of Glory](https://dndtools.net/spells/spell-compendium--86/bolt-glory--3984/) }} {{School:= Evocation  [Good]}} {{Level:= **ExaltedArcanist 6**, Cleric 6, Glory 6, Cloistered Cleric 6}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=Ray}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Calling upon the Positive Energy Plane and the power of your faith, you project a white bolt of hissing positive energy at your foe.**
+You must succeed on a ranged touch attack with the ray to strike a target. A creature struck takes varying damage, depending on its nature or its home plane of existence and your level.
+Creatures native to the Negative Energy Plane, evil-aligned outsiders, and all undead creatures take 1d12 points of damage per caster level (maximum 15d12).
+Creatures native to the Material Plane or an Elemental Plane, or any other neutral-aligned outsiders, take 1d12 points of damage per two caster levels (maximum 7d12).
+Creatures native to the Positive Energy Plane and all good-aligned outsider are not affected by this spell}}
+
+
+Heavenly Lightning Storm(Book of Exalted Deeds): - ExaltedArcanist(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Heavenly Lightning Storm](https://dndtools.net/spells/book-of-exalted-deeds--52/heavenly-lightning-storm--75/) }} {{School:= Evocation  [Good]}} {{Level:= **ExaltedArcanist 7**, Celestial 7}} {{Components:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=Up to one creature per caster level}}{{Area:=10-ft. wide to close range (25 ft. + 5 ft./2 levels)}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As heavenly lightning, except it has a greater range, can strike more targets, and deals 5d6 points of special celestial electricity damage}}
+
+
+Righteous Smite(Book of Exalted Deeds): - ExaltedArcanist(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Righteous Smite](https://dndtools.net/spells/book-of-exalted-deeds--52/righteous-smite--83/) }} {{School:= Evocation  [Good]}} {{Level:= **ExaltedArcanist 7**, Cleric 7, Wrath(BE) 7, Cloistered Cleric 7}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=20-ft. radius spread}} {{Duration:=Instantaneous}} {{Savingthrow:=Will partial; see text }} {{Save DC:=[[@{spelldc7}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You draw down holy power to smite your enemies.
+Only evil and neutral creatures are harmed by the spell; good creatures are unaffected.
+The spell deals 1d6 points of damage per caster level (maximum 20d6) to evil creatures (or 1d8 points of damage per caster level, maximum 20d8, to evil outsiders) and blinds them for 1d4 rounds.
+A successful Will saving throw reduces damage to half and
+negates the blinding effect.
+The spell deals only half damage against creatures that are neither good nor evil, and they are not blinded.
+They can reduce that damage by half (down to one-quarter of the roll) with a successful Will save}}
+
+
+Aspect of the Deity, Greater(Book of Exalted Deeds): - ExaltedArcanist(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Aspect of the Deity, Greater](https://dndtools.net/spells/book-of-exalted-deeds--52/aspect-of-the-deity-greater--97/) }} {{School:= Transmutation  [Good]}} {{Level:= **ExaltedArcanist 9**, ApostleofPeace 9, Herald 9, Mysticism 9}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As lesser aspect of the deity, except that you take on the qualities of a half-celestial (see the Monster Manual for complete details).
+You do not gain the spell-like abilities of these creatures.
+Your creature type changes to outsider for the duration of the spell.
+Unlike other outsiders, you can be brought back from the dead if you are killed in this form.
+You undergo the following transformations:<ul><li>You grow feathered wings that allow you to fly at twice your normal speed (good maneuverability).</li><li>You gain +1 natural armor, or your existing natural armor bonus increases by +1.</li><li>You gain low-light vision.</li><li>You gain immunity to acid, cold, disease, and electricity.</li><li>You gain a +4 racial bonus on your saving throws against poison.</li><li>You gain the following enhancement bonuses to your ability scores: +4 Str, +2 Dex, +4 Con, +2 Int, +4 Wis, +4 Cha.</li></ul}}

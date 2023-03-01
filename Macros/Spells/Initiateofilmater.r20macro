@@ -1,0 +1,31 @@
+
+
+Favor of Ilmater(Player's Guide to Faerûn): - Initiateofilmater(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Favor of Ilmater](https://dndtools.net/spells/players-guide-to-faerun--22/favor-of-ilmater--2271/) }} {{School:= Necromancy  }} {{Level:= **Initiateofilmater 4**, Paladin 4}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One willing creature}} {{Duration:=1 min./level}} {{Savingthrow:=None (harmless)}}  {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The target becomes immune to nonlethal damage, charm and compulsion effects, and attacks that function specifically by causing pain.
+It is further immune to effects that would cause it to be dazed, exhausted, fatigued, nauseated, sickened, staggered, or stunned.
+The target remains conscious at -1 to -9 hit points and can take a single action each round while in that state.
+If any of the above conditions were in effect on the target at the time of casting, they are suspended for the spell's duration.
+(Thus, an unconscious target becomes conscious and functional).
+When the spell ends, any effects suspended by the spell that have not expired in the interim (such as fatigue, which normally requires 8 hours of rest to abate) return.
+Effects that expired during the duration of this spell do not resume when it ends.
+In addition to these effects, the target gains the benefit of the Endurance feat for the duration of the spell}}
+
+
+Glory of the Martyr(Player's Guide to Faerûn): - Initiateofilmater(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Glory of the Martyr](https://dndtools.net/spells/players-guide-to-faerun--22/glory-of-the-martyr--2212/) }} {{School:= Abjuration  [Good]}} {{Level:= **Initiateofilmater 4**, ChampionofGwynharwyf 4, Paladin 4}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A platinum ring worth at least 50 gp worn by you and each subject of the spell}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Like shield other, this spell wards the subjects, creating a mystic connection between them and you that transfers some of their wounds to you.
+Each subject gains a +1 deflection bonus to AC and a +1 resistance bonus on all saving throws.
+In addition, each subject takes only one-half the normal hit point damage from any attack, and you take the remainder.
+Forms of harm that do not involve hit points, such as charm effects, ability damage, level draining, and disintegration, are not affected.
+If a subject's hit points are reduced because of a lowered Constitution score, that reduction is not split with you because it is not hit point damage.
+When the spell ends, any subsequent damage is no longer divided between you and the subjects, but the damage you took for the subjects is not reassigned to them.
+If you die while glory of the martyr is in effect, the spell ends in a burst of positive energy that restores 1d8 hit points to each subject.
+If a subject dies or moves out of range of the spell, that subject's connection to you is severed, but the spell remains in force with respect to other subjects.
+If your connection with all subjects is severed, the spell ends}}
+
+
+Pact of Martyrdom(Player's Guide to Faerûn): - Initiateofilmater(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Pact of Martyrdom](https://dndtools.net/spells/players-guide-to-faerun--22/pact-of-martyrdom--2274/) }} {{School:= Necromancy  [Good]}} {{Level:= **Initiateofilmater 4**}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One willing creature}} {{Duration:=Instantaneous}} {{Savingthrow:=None (harmless)}}  {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You exchange hit point totals with a target that has fewer hit points than you do.
+If the target was unconscious and dying, you become unconscious and dying.
+If the target was unconscious but stabilized, you become unconscious but stabilized.
+The spell transfers only actual hit points, not temporary hit points.
+Pact of martyrdom does not function if you have fewer hit points than the target when you cast the spell}}

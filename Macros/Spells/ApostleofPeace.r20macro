@@ -1,0 +1,153 @@
+
+
+Eyes of the Avoral(Book of Exalted Deeds): - ApostleofPeace(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Eyes of the Avoral](https://dndtools.net/spells/book-of-exalted-deeds--52/eyes-of-the-avoral--108/) }} {{School:= Transmutation  }} {{Level:= **ApostleofPeace 1**, BelovedofValarian 1, Cleric 1, Druid 1, Ranger 1, Sorcerer 1, Wizard 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= S}} {{Range:= Touch}} {{Target:=One creature}} {{Duration:=10 minutes/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject gains an avoral's sharp eyesight, receiving a +8 racial bonus on Spot checks for the duration of the spell}}
+
+
+Ray of Hope(Book of Exalted Deeds): - ApostleofPeace(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Ray of Hope](https://dndtools.net/spells/book-of-exalted-deeds--52/ray-of-hope--52/) }} {{School:= Enchantment (Compulsion) [Good]}} {{Level:= **ApostleofPeace 1**, Bard 1, Cleric 1, EmissaryofBarachiel 1, Cloistered Cleric 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Powerful hope wells up in the subject, who gains a +2 morale bonus on saving throws, attack rolls, ability checks, and skill checks.
+Ray of hope counters and dispels sorrow (detailed in the Book of Vile Darkness)}}
+
+
+Vision of Heaven(Book of Exalted Deeds): - ApostleofPeace(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Vision of Heaven](https://dndtools.net/spells/book-of-exalted-deeds--52/vision-of-heaven--55/) }} {{School:= Enchantment  }} {{Level:= **ApostleofPeace 1**, Cleric 1, ExaltedArcanist 1, SlayerofDomiel 1, Celestial 1, Joy 1, Cloistered Cleric 1}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One evil creature}} {{Duration:=1 round}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your words allow the target creature the merest glimpse of the blessed joy of the SevenHeavens, spurring the target to a moment of regret for its evil deeds.
+For 1 round, the target is dazed.
+In addition, the creature is more susceptible to future redemption.
+For the next 24 hours, the creature takes a -1 penalty on all Will saves related to redemption (see Chapter 2)}}
+
+
+Ease Pain(Book of Exalted Deeds): - ApostleofPeace(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Ease Pain](https://dndtools.net/spells/book-of-exalted-deeds--52/ease-pain--26/) }} {{School:= Conjuration (Healing) }} {{Level:= **ApostleofPeace 2**, BelovedofValarian 2, Cleric 2, Cloistered Cleric 2}} {{Components:= S, DF}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Ease pain immediately removes any lingering effects of pain, including penalties imposed by symbol of pain, angry ache, and similar spells.
+It does not heal any damage or other effects not directly related to pain.
+If the target creature is under some effect that causes continuing damage, the pain is eased only for a moment.
+Ease pain cannot bypass the need for a Concentration check to cast a spell under such circumstances, nor can it allow a creature subject to death by thorns to act normally (since the spell's damage is ongoing)}}
+
+
+Glorious Raiment(Book of Exalted Deeds): - ApostleofPeace(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Glorious Raiment](https://dndtools.net/spells/book-of-exalted-deeds--52/glorious-raiment--5/) }} {{School:= Abjuration  [Good]}} {{Level:= **ApostleofPeace 2**, Glory 2}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Robe, garment, or outfit touched}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You imbue a robe, priestly garment, or outfit of regular clothing with divine power.
+The spell bestows the following effects for its duration:<ul><li>+1 sacred bonus to AC per five caster levels (maximum +4 at 20th level)</li><li>Damage reduction 5/evil Only a good-aligned creature gains the benefits of this spell.</li></ul>
+Creatures of nongood alignment can wear the glorious raiment, but gain no spell benefits from doing so}}
+
+
+Yoke of Mercy(Book of Exalted Deeds): - ApostleofPeace(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Yoke of Mercy](https://dndtools.net/spells/book-of-exalted-deeds--52/yoke-of-mercy--58/) }} {{School:= Enchantment (Compulsion) [Good]}} {{Level:= **ApostleofPeace 2**, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V, Abstinence}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell compels a creature up to 4 HD more than the caster's level to fight in a merciful manner.
+Specifically, the creature deals nonlethal damage with its attacks, avoids using damaging spells or spell-like abilities, and does not deliver a coup de grace to a helpless foe.
+Abstinence Component: You must not have dealt damage, by spell or any other means, to another living creature within the last 8 hours before casting this spell}}
+
+
+Blessed Sight(Book of Exalted Deeds): - ApostleofPeace(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blessed Sight](https://dndtools.net/spells/book-of-exalted-deeds--52/blessed-sight--36/) }} {{School:= Divination  }} {{Level:= **ApostleofPeace 3**, ChampionofGwynharwyf 3, Cleric 3, Paladin 3, SlayerofDomiel 3, Celestial 3, Cloistered Cleric 3}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell makes your eyes glow with white light and allows you to see evil auras within 120 feet of you.
+The effect is similar to a detect evil spell, but does not require concentration and discerns aura location and strength more quickly.
+You know the location and strength of all evil auras within your sight.
+An aura's strength depends on the type and Hit Dice of any evil creature, as noted in the description of the detect evil spell in the Player's Handbook}}
+
+
+Refreshment(Book of Exalted Deeds): - ApostleofPeace(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Refreshment](https://dndtools.net/spells/book-of-exalted-deeds--52/refreshment--30/) }} {{School:= Conjuration (Healing) [Good]}} {{Level:= **ApostleofPeace 3**, Bard 3, Cleric 3, VassalofBahamut 3, Endurance 3, Cloistered Cleric 3}} {{Components:= V, S}} {{Range:= 20 ft.}} {{Target:=20-ft.-radius burst centered on you}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Refreshment channels celestial energy to remove all nonlethal damage the targets have taken, including damage from environmental conditions, starvation and thirst, and related effects as well as damage dealt by nonlethal attacks}}
+
+
+Remove Nausea(Book of Exalted Deeds): - ApostleofPeace(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Remove Nausea](https://dndtools.net/spells/book-of-exalted-deeds--52/remove-nausea--32/) }} {{School:= Conjuration (Healing) }} {{Level:= **ApostleofPeace 3**, Cleric 3, Cloistered Cleric 3}} {{Components:= V, DF}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Remove nausea restores to health a creature who is nauseated or sickened.
+Remove nausea cures only the nausea or sickening effect, not disease, poison, or any other effects}}
+
+
+Aspect of the Deity, Lesser(Book of Exalted Deeds): - ApostleofPeace(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Aspect of the Deity, Lesser](https://dndtools.net/spells/book-of-exalted-deeds--52/aspect-of-the-deity-lesser--98/) }} {{School:= Transmutation  [Good]}} {{Level:= **ApostleofPeace 4**, ExaltedArcanist 4, Paladin 4, KnightoftheChalice 4, Mysticism 3}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast this spell, your body changes into a form that is more like your deity (in a very limited fashion, of course).
+You gain a +4 enhancement bonus to your Charisma score.
+You also gain acid, cold, and electricity resistance 10}}
+
+
+Blood of the Martyr(Book of Exalted Deeds): - ApostleofPeace(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blood of the Martyr](https://dndtools.net/spells/book-of-exalted-deeds--52/blood-of-the-martyr--87/) }} {{School:= Necromancy (Healing) [Good]}} {{Level:= **ApostleofPeace 4**, ChampionofGwynharwyf 4, Cleric 4, Paladin 4, Cloistered Cleric 4}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=Willing creature}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You may transfer your own hit points directly to a target creature within range.
+You must transfer at least 20 points.
+Transferred hit points are damage to you.
+The creature takes your transferred hit points as if receiving a cure wounds spell and cannot gain more hit points than its maximum allows; any excess points are lost.
+This spell transfers only actual hit points, not temporary hit points.
+An unconscious target is considered a &quot;willing creature&quot; for purposes of this spell}}
+
+
+Remove Fatigue(Book of Exalted Deeds): - ApostleofPeace(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Remove Fatigue](https://dndtools.net/spells/book-of-exalted-deeds--52/remove-fatigue--111/) }} {{School:= Transmutation  }} {{Level:= **ApostleofPeace 4**, Cleric 4, Pleasure 4, Shaman 4, Sohei 4, Cloistered Cleric 4}} {{Components:= S}} {{Range:= Touch}} {{Target:=Up to one living creature touched per two levels}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The creatures you touch gain the benefits of 8 hours of restful sleep.
+If a subject was fatigued, the fatigue and its penalties are removed.
+If a subject was exhausted, the exhaustion becomes fatigue, but the subject only needs to rest for 1 more hour to eliminate the fatigue.
+If a subject was already well rested, it does not need to rest or sleep during the next 24 hours.
+Arcane spellcasters must still rest their minds for 8 hours in order to prepare or ready their spells}}
+
+
+Status, Greater(Eberron Campaign Setting): - ApostleofPeace(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Status, Greater](https://dndtools.net/spells/eberron-campaign-setting--12/status-greater--4915/) }} {{School:= Divination  }} {{Level:= **ApostleofPeace 4**, Cleric 4, Community 4, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=One touched creature/3 levels}} {{Duration:=1 hour/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Divination}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As <a href="/spells/players-handbook-v35--6/status--2517/">**status**</a>, but you can also cast a limited selection of spells through the link, as if you were touching the target. You can cast any spell that meets the following conditions:
+<ul><li>Level: 0, 1st, or 2nd</li><li>Range: Touch</li><li>Target: Creature touched</li><li>Saving Throw: Yes (harmless)</li></ul>For example, if you become aware (through the **greater status** spell) that one of your linked companions is dying, you can cast <a href="/spells/players-handbook-v35--6/cure-moderate-wounds--2383/">**cure moderate wounds**</a> to try to revive her}}
+
+
+Sustain(Book of Exalted Deeds): - ApostleofPeace(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sustain](https://dndtools.net/spells/book-of-exalted-deeds--52/sustain--117/) }} {{School:= Transmutation  }} {{Level:= **ApostleofPeace 4**, Cleric 4, Endurance 4, Shaman 4, Sohei 4, Cloistered Cleric 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Up to one living creature touched/two levels}} {{Duration:=6 hours/level}} {{Savingthrow:=None (harmless)}}  {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell instantly relieves the negative effects of hunger and thirst and allows the targets to go without food or water for the duration of the spell, suffering no ill effects from the deprivation.
+An affected creature can eat or drink normally without difficulty.
+When the spell ends, the creatures must resume normal eating and drinking habits, but do not feel any adverse effects from the missed meals.
+The size of the creature is not a factor; a Tiny lizard and a Colossal dragon are both fully nourished by the spell.
+Material Component: A flask of warm wine and a loaf of bread}}
+
+
+Energetic Healing(Book of Exalted Deeds): - ApostleofPeace(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Energetic Healing](https://dndtools.net/spells/book-of-exalted-deeds--52/energetic-healing--27/) }} {{School:= Conjuration (Healing) }} {{Level:= **ApostleofPeace 5**, Cleric 5, Druid 5, Cloistered Cleric 5}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=One living creature touched}} {{Duration:=10 minutes/level or until discharged}} {{Savingthrow:=None (harmless)}}  {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell converts magical energy damage into healing power.
+First, it renders the target immune to one energy type (acid, cold, electricity, fire, or sonic) specified when the spell is cast.
+Second, whenever the target is subjected to a magical attack of the selected energy type, he instead heals damage equal to 10% of the damage dealt (rounded down).
+For example, a creature protected by energetic healing (cold) that would normally take 35 points of cold damage from a cone of cold heals 3 points of damage instead.
+Once the spell heals a number of hit points equal to 2 per caster level (maximum 30), it is discharged.
+This spell does not convert nonmagical energy attacks (such as damage from alchemist's fire) into healing}}
+
+
+Sacred Guardian(Book of Exalted Deeds): - ApostleofPeace(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sacred Guardian](https://dndtools.net/spells/book-of-exalted-deeds--52/sacred-guardian--41/) }} {{School:= Divination  }} {{Level:= **ApostleofPeace 5**, Cleric 5, Cloistered Cleric 5}} {{Components:= V, S, Celestial}} {{Range:= Touch}} {{Target:=Object or willing creature touched}} {{Duration:=1 day/level}} {{Savingthrow:=None (see text) (harmless)}} {{Save DC:=[[@{spelldc5}+@{sf-Divination}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Celestials use sacred guardian to monitor the location and condition of a creature or object that has been placed in their care.
+Similar to status, this spell makes the caster constantly aware of the target creature or object's precise location and status: whether a creature is unharmed, wounded, disabled, staggered, unconscious, dying, dead, and so on, or whether an object is unharmed, damaged, or destroyed.
+Once the spell is cast, the distance between the caster and the subject does not affect the spell, and the spell continues to function even if the subject and caster are on different planes of existence.
+If the caster wishes to teleport to the subject's presence, he can do so even if he is not familiar with the location (assuming he has access to teleportation magic).
+If the caster casts scrying or greater scrying on the subject, the subject does not receive a saving throw; unless the subject is warded by a spell or in a location that blocks scrying magic, the spell automatically succeeds.
+This spell has no effect on unwilling creatures.
+If the target is an attended object, the attending creature must be willing for the object to receive the spell}}
+
+
+Aspect of the Deity(Book of Exalted Deeds): - ApostleofPeace(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Aspect of the Deity](https://dndtools.net/spells/book-of-exalted-deeds--52/aspect-of-the-deity--96/) }} {{School:= Transmutation  [Good]}} {{Level:= **ApostleofPeace 6**, ExaltedArcanist 6, Herald 7, Mysticism 6}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As lesser aspect of the deity, but you take on all the qualities of a celestial creature (see the Monster Manual for complete details):<ul><li>You take on a shining, metallic appearance.</li><li>You gain the ability to smite evil once a day.</li></ul>
+Add your Charisma bonus to your attack roll and your character level to your damage roll against an evil foe.<ul><li>You gain darkvision out to 60 ft.</li><li>You gain resistance 20 to acid, cold, and electricity.</li><li>You gain damage reduction 10/magic.</li><li>You gain spell resistance 25.</li></ul>
+Your creature type does not change (you do not become an
+outsider)}}
+
+
+Celestial Blood(Book of Exalted Deeds): - ApostleofPeace(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Celestial Blood](https://dndtools.net/spells/book-of-exalted-deeds--52/celestial-blood--2/) }} {{School:= Abjuration  [Good]}} {{Level:= **ApostleofPeace 6**, Cleric 6, Pleasure 6, Cloistered Cleric 6}} {{Components:= V, S, M}} {{Material Component:= A vial of holy water, with which you anoint the subject's head}} {{Range:= Touch}} {{Target:=Nonevil creature touched}} {{Duration:=1 minute/level}} {{Savingthrow:=None (harmless)}}  {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You channel holy power to grant the subject some of the protection enjoyed by celestial creatures.
+The subject gains resistance 10 to acid, cold, and electricity, a +4 bonus on saving throws against poison, and damage reduction 10/evil}}
+
+
+Bastion of Good(Book of Exalted Deeds): - ApostleofPeace(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Bastion of Good](https://dndtools.net/spells/book-of-exalted-deeds--52/bastion-of-good--1/) }} {{School:= Abjuration  [Good]}} {{Level:= **ApostleofPeace 7**, Cleric 7, Cloistered Cleric 7}} {{Components:= V, S, Abstinence}} {{Range:= 20 ft.}} {{Area:=20-ft.-radius spherical emanation centered on you}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A nimbus of light surrounds you, protecting you and those around you from spell effects and the attacks of evil creatures.
+The aura excludes all spell effects of up to 3rd level, exactly as a minor globe of invulnerability does.
+In addition, the nimbus protects creatures within it as a magic circle against evil at double strength.
+Warded creatures gain a +4 deflection bonus to AC and a +4 resistance bonus on saves against attacks from evil creatures, and they are protected from possession, mental control, and bodily contact by summoned or conjured creatures.
+Abstinence Component: You must fast for 24 hours before casting this spell}}
+
+
+Shield of the Archons(Book of Exalted Deeds): - ApostleofPeace(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shield of the Archons](https://dndtools.net/spells/book-of-exalted-deeds--52/shield-of-the-archons--12/) }} {{School:= Abjuration  [Good]}} {{Level:= **ApostleofPeace 7**, Cleric 7, Cloistered Cleric 7}} {{Components:= V, Archon}} {{Range:= Personal}} {{Target:=You}}{{Effect:=Mobile shield}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A mystic shield of beneficent energies interposes itself between you an incoming magical attack.
+The shield blocks harmful spells, spell-like abilities, and supernatural abilities.
+It can only block one such attack each round, intercepting the first but not any later attacks until your next turn.
+Any targeted magical attack that strikes the shield is dissipated, but it has a 5% chance per spell level to shatter the shield as well.
+Attacks with no spell level have a 5% chance per 2 caster levels to shatter the shield.
+An attack that shatters the shield is dissipated without harming you.
+If you are within the area or effect of a harmful spell or effect that is not directly targeted on you, the shield of the archons grants you a +4 bonus on your saving throw against the effect}}
+
+
+Aspect of the Deity, Greater(Book of Exalted Deeds): - ApostleofPeace(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Aspect of the Deity, Greater](https://dndtools.net/spells/book-of-exalted-deeds--52/aspect-of-the-deity-greater--97/) }} {{School:= Transmutation  [Good]}} {{Level:= **ApostleofPeace 9**, ExaltedArcanist 9, Herald 9, Mysticism 9}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As lesser aspect of the deity, except that you take on the qualities of a half-celestial (see the Monster Manual for complete details).
+You do not gain the spell-like abilities of these creatures.
+Your creature type changes to outsider for the duration of the spell.
+Unlike other outsiders, you can be brought back from the dead if you are killed in this form.
+You undergo the following transformations:<ul><li>You grow feathered wings that allow you to fly at twice your normal speed (good maneuverability).</li><li>You gain +1 natural armor, or your existing natural armor bonus increases by +1.</li><li>You gain low-light vision.</li><li>You gain immunity to acid, cold, disease, and electricity.</li><li>You gain a +4 racial bonus on your saving throws against poison.</li><li>You gain the following enhancement bonuses to your ability scores: +4 Str, +2 Dex, +4 Con, +2 Int, +4 Wis, +4 Cha.</li></ul}}
+
+
+End to Strife(Book of Exalted Deeds): - ApostleofPeace(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [End to Strife](https://dndtools.net/spells/book-of-exalted-deeds--52/end-to-strife--46/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **ApostleofPeace 9**, Cleric 9, Cloistered Cleric 9}} {{Components:= V, S, DF}} {{Range:= 80 ft.}} {{Area:=80-ft.-radius emanation, centered on you}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates an invisible aura of divine power around the caster.
+All intelligent creatures within the spell's area suddenly become aware that any hostile actions they take will be met with dire consequences.
+Any creature in the spell's area that makes an attack takes 20d6 points of damage.
+The caster decides whether the spell deals lethal or nonlethal damage but cannot change her mind once the spell is cast.
+Creatures with multiple attacks take the damage after every attack they make.
+Targets outside the area of the spell may freely attack creatures in the area without taking damage from this spell}}

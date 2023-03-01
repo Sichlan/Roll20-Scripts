@@ -1,0 +1,78 @@
+
+
+Magic Stone(Player's Handbook v.3.5): - Halfling(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Magic Stone](https://dndtools.net/spells/players-handbook-v35--6/magic-stone--2836/) }} {{School:= Transmutation  }} {{Level:= **Halfling 1**, Cleric 1, Druid 1, HunteroftheDead 1, DeathMaster 1, UrbanDruid 1, Earth 1, Cloistered Cleric 1}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Up to three pebbles touched}} {{Duration:=30 minutes or until discharged}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You transmute as many as three pebbles, which can be no larger than sling bullets, so that they strike with great force when thrown or slung. If hurled, they have a range increment of 20 feet. If slung, treat them as sling bullets (range increment 50 feet). The spell gives them a +1 enhancement bonus on attack and damage rolls. The user of the stones makes a normal ranged attack. Each stone that hits deals 1d6+1 points of damage (including the spell's enhancement bonus), or 2d6+2 points against undead}}
+
+
+Magic Vestment(Player's Handbook v.3.5): - Halfling(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Magic Vestment](https://dndtools.net/spells/players-handbook-v35--6/magic-vestment--2837/) }} {{School:= Transmutation  }} {{Level:= **Halfling 3**, Cleric 3, KnightoftheChalice 3, Savant 3, Strength 3, War 3, Celestia 3, Nobility 3, Cloistered Cleric 3}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Armor or shield touched}} {{Duration:=1 hour/level}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You imbue a suit of armor or a shield with an enhancement bonus of +1 per four caster levels (maximum +5 at 20th level).
+An outfit of regular clothing counts as armor that grants no AC bonus for the purpose of this spell}}
+
+
+Freedom of Movement(Player's Handbook v.3.5): - Halfling(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Freedom of Movement](https://dndtools.net/spells/players-handbook-v35--6/freedom-of-movement--2322/) }} {{School:= Abjuration  }} {{Level:= **Halfling 4**, NentyarHunter 3, RunescarredBerserker 3, Bard 4, UrbanDruid 4, Jester 4, DeathDelver 4, Beguiler 4, Vigilante 4, SlayerofDomiel 4, HunteroftheDead 4, EbonmarInfiltrator 4, Hoardstealer 4, Healer 4, Ranger 4, Druid 4, Cleric 4, Savant 4, Luck 4, Ocean 4, Liberation 4, Time 4, Cloistered Cleric 4}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Personal or touch}} {{Target:=You or creature touched}} {{Duration:=10 min./level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell enables you or a creature you touch to move and attack normally for the duration of the spell, even under the influence of magic that usually impedes movement, such as paralysis, solid fog, slow, and web. The subject automatically succeeds on any grapple check made to resist a grapple attempt, as well as on grapple checks or Escape Artist checks made to escape a grapple or a pin.
+The spell also allows the subject to move and attack normally while underwater, even with slashing weapons such as axes and swords or with bludgeoning weapons such as flails, hammers, and maces, provided that the weapon is wielded in the hand rather than hurled. The freedom of movement spell does not, however, allow water breathing.
+Material Component: A leather thong, bound around the arm or a similar appendage}}
+
+
+Move Earth(Player's Handbook v.3.5): - Halfling(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Move Earth](https://dndtools.net/spells/players-handbook-v35--6/move-earth--2845/) }} {{School:= Transmutation  [Earth]}} {{Level:= **Halfling 6**, Druid 6, Sorcerer 6, Wizard 6, WuJen 6, Sha'ir 6, DeathMaster 6, UrbanDruid 6, Arcanist 6}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=Dirt in an area up to 750 ft. square and up to 10 ft. deep (S)}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Move earth moves dirt (clay, loam, sand), possibly collapsing embankments, moving hillocks, shifting dunes, and so forth.
+However, in no event can rock formations be collapsed or moved.
+The area to be affected determines the casting time.
+For every 150-foot square (up to 10 feet deep), casting takes 10 minutes.
+The maximum area, 750 feet by 750 feet, takes 4 hours and 10 minutes to move.
+This spell does not violently break the surface of the ground.
+Instead, it creates wavelike crests and troughs, with the earth reacting with glacierlike fluidity until the desired result is achieved.
+Trees, structures, rock formations, and such are mostly unaffected except for changes in elevation and relative topography.
+The spell cannot be used for tunneling and is generally too slow to trap or bury creatures.
+Its primary use is for digging or filling moats or for adjusting terrain contours before a battle.
+This spell has no effect on earth creatures.
+Material Component: A mixture of soils (clay, loam, and sand) in a small bag, and an iron blade}}
+
+
+Shadow Walk(Player's Handbook v.3.5): - Halfling(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shadow Walk](https://dndtools.net/spells/players-handbook-v35--6/shadow-walk--2703/) }} {{School:= Illusion (Shadow) }} {{Level:= **Halfling 7**, Bard 5, Sorcerer 6, Wizard 6, Beguiler 6, Sha'ir 6, DeathMaster 6, Sloth 7, Arcanist 6}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Up to one touched creature/level}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc7}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=To use the shadow walk spell, you must be in an area of shadowy illumination.
+You and any creature you touch are then transported along a coiling path of shadowstuff to the edge of the Material Plane where it borders the Plane of Shadow.
+The effect is largely illusory, but the path is quasi-real.
+You can take more than one creature along with you (subject to your level limit), but all must be touching each other.
+In the region of shadow, you move at a rate of 50 miles per hour, moving normally on the borders of the Plane of Shadow but much more rapidly relative to the Material Plane.
+Thus, you can use this spell to travel rapidly by stepping onto the Plane of Shadow, moving the desired distance, and then stepping back onto the Material Plane.
+Because of the blurring of reality between the Plane of Shadow and the Material Plane, you can't make out details of the terrain or areas you pass over during transit, nor can you predict perfectly where your travel will end.
+It's impossible to judge distances accurately, making the spell virtually useless for scouting or spying.
+Furthermore, when the spell effect ends, you are shunted 1d10&#215;100 feet in a random horizontal direction from your desired endpoint.
+If this would place you within a solid object, you are shunted 1d10&#215;1,000 feet in the same direction.
+If this would still place you within a solid object, you (and any creatures with you) are shunted to the nearest empty space available, but the strain of this activity renders each creature fatigued (no save).
+Shadow walk can also be used to travel to other planes that border on the Plane of Shadow, but this usage requires the transit of the Plane of Shadow to arrive at a border with another plane of reality.
+The transit of the Plane of Shadow requires 1d4 hours.
+Any creatures touched by you when shadow walk is cast also make the transition to the borders of the Plane of Shadow.
+They may opt to follow you, wander off through the plane, or stumble back into the Material Plane (50% chance for either of the latter results if they are lost or abandoned by you).
+Creatures unwilling to accompany you into the Plane of Shadow receive a Will saving throw, negating the effect if successful}}
+
+
+Word of Recall(Player's Handbook v.3.5): - Halfling(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Word of Recall](https://dndtools.net/spells/players-handbook-v35--6/word-of-recall--2473/) }} {{School:= Conjuration (Teleportation) }} {{Level:= **Halfling 8**, Cleric 6, DeathMaster 6, Druid 8, UrbanDruid 8, Cloistered Cleric 6}} {{Components:= V}} {{Range:= Unlimited}} {{Target:=You and touched objects or other willing creatures}} {{Duration:=Instantaneous}} {{Savingthrow:=None or Will negates (harmless, object) }} {{Save DC:=[[@{spelldc8}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Word of recall teleports you instantly back to your sanctuary when the word is uttered.
+You must designate the sanctuary when you prepare the spell, and it must be a very familiar place.
+The actual point of arrival is a designated area no larger than 10 feet by 10 feet.
+You can be transported any distance within a plane but cannot travel between planes.
+You can transport, in addition to yourself, any objects you carry, as long as their weight doesn't exceed your maximum load.
+You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels.
+A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth.
+All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you.
+Exceeding this limit causes the spell to fail.
+An unwilling creature can't be teleported by word of recall.
+Likewise, a creature's Will save (or spell resistance) prevents items in its possession from being teleported.
+Unattended, nonmagical objects receive no saving throw}}
+
+
+Foresight(Player's Handbook v.3.5): - Halfling(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Foresight](https://dndtools.net/spells/players-handbook-v35--6/foresight--2500/) }} {{School:= Divination  }} {{Level:= **Halfling 9**, Druid 9, Sorcerer 9, Wizard 9, Healer 9, Beguiler 9, Blighter 9, Sha'ir 9, UrbanDruid 9, DeathMaster 9, Time 8, Knowledge 9, Oracle 9, Celestia 9, Fate 9, Arcanist 9}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Personal or touch}} {{Target:=See text}} {{Duration:=10 min./level}} {{Savingthrow:=None or Will negates (harmless) }} {{Save DC:=[[@{spelldc9}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell grants you a powerful sixth sense in relation to yourself or another.
+Once foresight is cast, you receive instantaneous warnings of impending danger or harm to the subject of the spell.
+Thus, if you are the subject of the spell, you would be warned in advance if a rogue were about to attempt a sneak attack on you, or if a creature were about to leap out from a hiding place, or if an attacker were specifically targeting you with a spell or ranged weapon.
+You are never surprised or flat-footed.
+In addition, the spell gives you a general idea of what action you might take to best protect yourself&#8212;duck, jump right, close your eyes, and so on&#8212;and gives you a +2 insight bonus to AC and Reflex saves.
+This insight bonus is lost whenever you would lose a Dexterity bonus to AC.
+When another creature is the subject of the spell, you receive warnings about that creature.
+You must communicate what you learn to the other creature for the warning to be useful, and the creature can be caught unprepared in the absence of such a warning.
+Shouting a warning, yanking a person back, and even telepathically communicating (via an appropriate spell) can all be accomplished before some danger befalls the subject, provided you act on the warning without delay.
+The subject, however, does not gain the insight bonus to AC and Reflex saves.
+Arcane Material Component: A hummingbird's feather}}

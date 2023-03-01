@@ -1,0 +1,4 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;3:=[View](~MerchantPrince-Spell-Level-3)}} 
+
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-MerchantPrince)}} {{Fool's Gold:=[View](~MerchantPrince-Fool's-Gold-Description) [Send](~MerchantPrince-Fool's-Gold-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

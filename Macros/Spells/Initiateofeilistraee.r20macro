@@ -1,0 +1,11 @@
+
+
+Spellsong, Lesser(Champions of Valor): - Initiateofeilistraee(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Spellsong, Lesser](https://dndtools.net/spells/champions-of-valor--28/spellsong-lesser--330/) }} {{School:= Transmutation  }} {{Level:= **Initiateofeilistraee 3**}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like spellsong, except you can use it only to prepare one spell of 1st level or lower in this spell's slot}}
+
+
+Spellsong(Champions of Valor): - Initiateofeilistraee(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Spellsong](https://dndtools.net/spells/champions-of-valor--28/spellsong--329/) }} {{School:= Transmutation  }} {{Level:= **Initiateofeilistraee 6**}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=Instantaneous}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast this spell, you immediately prepare one spell of 4th level or lower in this spell's slot.
+The spell must be a spell you could normally prepare in that slot (for example, you could not prepare a wizard spell or a domain spell).
+The spell works like any spell prepared in the normal manner, including requiring the normal components.
+Like a bard spell, casting spellsong always requires a verbal component, and you cannot use Silent Spell or similar effects to cast the spell without a verbal component}}

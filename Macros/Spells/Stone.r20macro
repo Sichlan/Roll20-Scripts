@@ -1,0 +1,6 @@
+
+
+Hail of Stone(Spell Compendium): - Stone(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Hail of Stone](https://dndtools.net/spells/spell-compendium--86/hail-stone--4677/) }} {{School:= Conjuration (Creation) [Earth]}} {{Level:= **Stone 2**, Sorcerer 1, Wizard 1, Warmage 1, Arcanist 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=Cylinder (5-ft. radius, 40 ft. high)}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You hold the jade chip before you and blow on it as you end the spell. The chip flares with a green flame and vanishes as rocks begin to fall on your pursuers.**
+You create a rain of stones that deals 1d4 points of damage per caster level (maximum 5d4) to creatures and objects within the area.
+Material Component: A piece of jade worth at least 5 gp}}

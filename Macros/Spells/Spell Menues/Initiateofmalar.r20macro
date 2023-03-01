@@ -1,0 +1,6 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;2:=[View](~Initiateofmalar-Spell-Level-2)}} {{Spelllevel&nbsp;3:=[View](~Initiateofmalar-Spell-Level-3)}} {{Spelllevel&nbsp;4:=[View](~Initiateofmalar-Spell-Level-4)}} 
+
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofmalar)}} {{Spectral Stag:=[View](~Initiateofmalar-Spectral-Stag-Description) [Send](~Initiateofmalar-Spectral-Stag-Cast)}} ]
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofmalar)}} {{Possess Animal:=[View](~Initiateofmalar-Possess-Animal-Description) [Send](~Initiateofmalar-Possess-Animal-Cast)}} ]
+[4, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 4 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofmalar)}} {{Strength of the Beast:=[View](~Initiateofmalar-Strength-of-the-Beast-Description) [Send](~Initiateofmalar-Strength-of-the-Beast-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

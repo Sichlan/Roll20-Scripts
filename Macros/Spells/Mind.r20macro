@@ -1,0 +1,67 @@
+
+
+Comprehend Languages(Player's Handbook v.3.5): - Mind(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Comprehend Languages](https://dndtools.net/spells/players-handbook-v35--6/comprehend-languages--2482/) }} {{School:= Divination  }} {{Level:= **Mind 1**, Bard 1, UrbanDruid 1, DeathMaster 1, Savant 1, Sha'ir 1, WuJen 1, Beguiler 1, Vigilante 1, KnightoftheWeave 1, EbonmarInfiltrator 1, Adept 1, Wizard 1, Sorcerer 1, Cleric 1, CourtHerald 1, Herald 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 min./level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can understand the spoken words of creatures or read otherwise incomprehensible written messages.
+In either case, you must touch the creature or the writing.
+The ability to read does not necessarily impart insight into the material, merely its literal meaning.
+The spell enables you to understand or read an unknown language, not speak or write it.
+Written material can be read at the rate of one page (250 words) per minute.
+Magical writing cannot be read, though the spell reveals that it is magical, but comprehend languages is often useful when deciphering treasure maps.
+This spell can be foiled by certain warding magic (such as the secret page and illusory script spells).
+It does not decipher codes or reveal messages concealed in otherwise normal text.
+Comprehend languages can be made permanent with a permanency spell.
+Arcane Material Component: A pinch of soot and a few grains of salt}}
+
+
+Detect Thoughts(Player's Handbook v.3.5): - Mind(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Detect Thoughts](https://dndtools.net/spells/players-handbook-v35--6/detect-thoughts--2494/) }} {{School:= Divination  }} {{Level:= **Mind 2**, ThayanSlaver 1, UrbanDruid 2, Savant 2, DeathMaster 2, Sha'ir 2, WuJen 2, Bard 2, Beguiler 2, Vigilante 2, EbonmarInfiltrator 2, Wizard 2, Sorcerer 2, CourtHerald 2, Knowledge 2, Mentalism 2, Inquisition 3, Baator 3, Arcanist 2}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A copper piece}} {{Range:= 60 ft.}} {{Area:=Cone-shaped emanation}} {{Duration:=Concentration, up to 1 min./level (D)}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You detect surface thoughts.
+The amount of information revealed depends on how long you study a particular area or subject.
+1st Round: Presence or absence of thoughts (from conscious creatures with Intelligence scores of 1 or higher).
+2nd Round:Number of thinking minds and the Intelligence score of each.
+If the highest Intelligence is 26 or higher (and at least 10 points higher than your own Intelligence score), you are stunned for 1 round and the spell ends.
+This spell does not let you determine the location of the thinking minds if you can't see the creatures whose thoughts you are detecting.
+3rd Round: Surface thoughts of any mind in the area.
+A target's Will save prevents you from reading its thoughts, and you must cast detect thoughts again to have another chance.
+Creatures of animal intelligence (Int 1 or 2) have simple, instinctual thoughts that you can pick up.
+Each round, you can turn to detect thoughts in a new area.
+The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it}}
+
+
+Telepathic Bond, Lesser(Spell Compendium): - Mind(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Telepathic Bond, Lesser](https://dndtools.net/spells/spell-compendium--86/telepathic-bond-lesser--4302/) }} {{School:= Divination  }} {{Level:= **Mind 3**, Sorcerer 3, Wizard 3, Cleric 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S}} {{Range:= 30 ft.}} {{Target:=You and one willing creature within 30 ft.}} {{Duration:=10 minutes/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**As you send your thoughts outward, your mind brushes against the consciousness of your friend and it welcomes you, forming a bond that no distance can break.**
+You forge a telepathic bond with another creature with an Intelligence score of 6 or higher. You can communicate telepathically through the bond regardless of language. No special power or influence is established as a result of the bond. Once the bond is formed, it works over any distance (although not from one plane to another)}}
+
+
+Discern Lies(Player's Handbook v.3.5): - Mind(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Discern Lies](https://dndtools.net/spells/players-handbook-v35--6/discern-lies--2496/) }} {{School:= Divination  }} {{Level:= **Mind 4**, Paladin 3, VassalofBahamut 3, Cleric 4, KnightoftheChalice 4, Savant 4, Tyranny 3, Inquisition 4, Mechanus 4, Drow 4, Nobility 4, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level, no two of which can be more than 30 ft. apart}} {{Duration:=Concentration, up to 1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Each round, you concentrate on one subject, who must be within range.
+You know if the subject deliberately and knowingly speaks a lie by discerning disturbances in its aura caused by lying.
+The spell does not reveal the truth, uncover unintentional inaccuracies, or necessarily reveal evasions.
+Each round, you may concentrate on a different subject}}
+
+
+Probe Thoughts(Spell Compendium): - Mind(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Probe Thoughts](https://dndtools.net/spells/spell-compendium--86/probe-thoughts--4660/) }} {{School:= Divination  }} {{Level:= **Mind 6**, Sorcerer 6, Wizard 6, Arcanist 6}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}}  {{Duration:=Concentration, up to 1 round/level}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc6}+@{sf-Divination}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Reaching out with your thoughts, you break through your target's mental defenses and reap answers to your desires.**
+All of the subject's memories and knowledge are accessible to you, ranging from memories deep below the surface to those still easily called to mind. You can learn the answer to one question per round, to the best of the subject's knowledge. You pose the questions telepathically, and the answers to those questions are imparted directly to your mind. You and the subject do not need to speak the same language, though less intelligent creatures might yield up only appropriate visual images in answer to your questions. The subject is not aware that its mind is being probed, unless you wish to make it aware.
+If the subject moves beyond the range of the spell, the effect ends}}
+
+
+Brain Spider(Spell Compendium): - Mind(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Brain Spider](https://dndtools.net/spells/spell-compendium--86/brain-spider--3989/) }} {{School:= Divination  }} {{Level:= **Mind 7**, Cleric 7, Cloistered Cleric 7}} {{Components:= V, S, M, DF}} {{Material Component:= A dead spider of any size or type. It must still have all eight legs}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Target:=Up to eight living creatures}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc7}+@{sf-Divination}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You touch a spider's body and think of the targets. As each target succumbs to the spell, a leg of the spider vanishes into nothingness.**
+For the duration of the spell, as a standard action, you can eavesdrop on the thoughts of up to eight other creatures at once, hearing as desired:
+*A creature's surface thoughts.*Individual trains of thought in whatever order you desire.*One nugget of information per caster level from all the minds regarding one particular topic, thing, or being.*The thoughts and memories of one creature of the group in detail.
+Once per round, if you do not perform a detailed study of one creature's mind, you can attempt (as a standard action) to implant a **suggestion** (PH 285) in the mind of any one of the affected creatures. The creature can make another Will saving throw to resist the **suggestion**, using the original save DC. (Creatures with special resistance to enchantment spells can use this resistance to keep from being affected by the **suggestion.**) Success on this saving throw does not negate the other effects of the brain spider for that creature}}
+
+
+Mind Blank(Player's Handbook v.3.5): - Mind(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mind Blank](https://dndtools.net/spells/players-handbook-v35--6/mind-blank--2338/) }} {{School:= Abjuration  }} {{Level:= **Mind 8**, Sorcerer 8, Wizard 8, Beguiler 8, Blighter 8, WuJen 8, Sha'ir 8, DeathMaster 8, Protection 8, Arborea 8, Fate 8, Liberation 8, Mentalism 8, Trade 8, Arcanist 8}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=24 hours}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc8}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject is protected from all devices and spells that detect, influence, or read emotions or thoughts.
+This spell protects against all mind-affecting spells and effects as well as information gathering by divination spells or effects.
+Mind blank even foils limited wish, miracle, and wish spells when they are used in such a way as to affect the subject's mind or to gain information about it.
+In the case of scrying that scans an area the creature is in, such as arcane eye, the spell works but the creature simply isn't detected.
+Scrying attempts that are targeted specifically at the subject do not work at all}}
+
+
+Weird(Player's Handbook v.3.5): - Mind(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Weird](https://dndtools.net/spells/players-handbook-v35--6/weird--2709/) }} {{School:= Illusion (Phantasm) [Fear]}} {{Level:= **Mind 9**, Sorcerer 9, Wizard 9, Warmage 9, Sha'ir 9, DeathMaster 9, Madness 9, Dream 9, Illusion 9, Arcanist 9}} {{Components:= }} {{Range:= }} {{Target:=Any number of creatures, no two of which can be more than 30 ft. apart}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like phantasmal killer, except it can affect more than one creature.
+Only the affected creatures see the phantasmal creatures attacking them, though you see the attackers as shadowy shapes.
+If a subject's Fortitude save succeeds, it still takes 3d6 points of damage and is stunned for 1 round.
+The subject also takes 1d4 points of temporary Strength damage}}

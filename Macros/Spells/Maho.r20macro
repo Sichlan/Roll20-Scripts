@@ -1,0 +1,131 @@
+
+
+Ghost Light(Complete Arcane): - Maho(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Ghost Light](https://dndtools.net/spells/complete-arcane--55/ghost-light--523/) }} {{School:= Necromancy  [Fear]}} {{Level:= **Maho 1**, WuJen 1, Grave 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=One Medium or smaller ghostly light}} {{Duration:=Concentration}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create a ghostly green radiance anywhere within range that shines with the brightness of a torch and is imbued with unearthly power, causing creatures within 30 feet to become shaken unless they succeed on a Will save.
+The light can be shaped to any Medium or smaller form, and can move at a speed of 30 feet as long as you maintain concentration on the spell (so that you can shape the effect into a human form and make it seem to walk or fly, for example).
+The shape of a ghost light can be changed at any time during the spell's duration as a free action.
+Material Component: A bit of phosphorus}}
+
+
+Apparition(Complete Arcane): - Maho(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Apparition](https://dndtools.net/spells/complete-arcane--55/apparition--512/) }} {{School:= Illusion (Phantasm) [Fear]}} {{Level:= **Maho 2**, WuJen 2}} {{Components:= V, S, M}} {{Material Component:= A miniature palette dotted with paints of assorted colors}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell causes the subject's face to take on a horrible and terrifying appearance.
+You can create nearly any combination of hideous features - blue skin, parrot face, elephantine nose, rotting tusks, or worse - but you cannot duplicate the appearance of any specific creature or person.
+Any creature (excluding you and your allies) that views the recipient and fails its save becomes shaken}}
+
+
+Kiss of the Toad(Complete Arcane): - Maho(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Kiss of the Toad](https://dndtools.net/spells/complete-arcane--55/kiss-of-the-toad--526/) }} {{School:= Necromancy  }} {{Level:= **Maho 2**, WuJen 2}} {{Components:= V, S, AF}} {{Arcane Focus:= A tattoo of a toad on your skin}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=Instantaneous; see text}} {{Savingthrow:=Fortitude negates; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your touch becomes toxic, poisoning a creature you hit with a successful melee touch attack.
+The poison deals 1d6 points of Constitution damage immediately and another 1d6 points of Constitution damage 1 minute later.
+Each instance of damage can be negated with a successful Fortitude save}}
+
+
+Mental Weakness(Oriental Adventures): - Maho(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mental Weakness](https://dndtools.net/spells/oriental-adventures--96/mental-weakness--2057/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Maho 3**, Shaman 3}} {{Components:= V, S, AF}} {{Arcane Focus:= The tail of a red fox}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc3}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell weakens the subject's mental resistance, giving him a -4 penalty on all Will saves}}
+
+
+Cloud of Taint(Oriental Adventures): - Maho(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Cloud of Taint](https://dndtools.net/spells/oriental-adventures--96/cloud-of-taint--2063/) }} {{School:= Evocation  [Evil]}} {{Level:= **Maho 4**}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=20-ft.-radius spread}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc4}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You call up raw Tainted power to smite your enemies.
+The Taint takes the form of a cold, cloying cloud of greasy darkness.
+Nezumi, Shinomen nagas, and creatures with the Shadowlands subtype are not harmed by the spell, and creatures with a Taint score are not fully affected.
+The spell deals 1d8 points of damage per two caster levels (maximum 5d8) to untainted creatures and sickens them for 1d4 rounds.
+A sickened creature suffers a -2 penalty on attack rolls, weapon damage rolls, saves, skill checks, and ability checks.
+A successful Fortitude save reduces damage to half and negates the sickening effect.
+Sickened creatures must make an additional successful Fortitude save or gain a Taint score of 1d3.
+The spell deals only half damage to creatures with Taint scores, and they are not sickened.
+They can reduce the damage in half again (down to one-quarter of the roll) with a successful Fortitude save.
+Such Tainted creatures automatically increase their Taint score by 1, regardless of their saving throw results}}
+
+
+Creeping Darkness(Complete Arcane): - Maho(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Creeping Darkness](https://dndtools.net/spells/complete-arcane--55/creeping-darkness--492/) }} {{School:= Evocation  [Darkness]}} {{Level:= **Maho 4**, WuJen 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Cloud spreads in a 20-ft.-radius, 20 ft. high (S)}} {{Duration:=3 rounds/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates an amorphous cloud of inky blackness that you can shape and move as desired.
+While you concentrate on it, the darkness can move up to 20 feet per round, either floating through air or seeping through the smallest cracks.
+The cloud stops all light and sound, so creatures within it (or creatures whose sensory organs and vocal apparatus are within it) are treated as being deafened and blinded (including creatures with darkvision), in addition to being unable to speak or cast spells with verbal components.
+As well, creatures entirely within the cloud have total concealment.
+A moderate wind (11+ mph) disperses the cloud in 5 rounds; a strong wind (21+ mph) disperses it in 2 rounds.
+Material Component: A whisker from a black cat and a tiny bottle of smoke captured on a moonless night}}
+
+
+Fatigue(Oriental Adventures): - Maho(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fatigue](https://dndtools.net/spells/oriental-adventures--96/fatigue--2109/) }} {{School:= Transmutation  }} {{Level:= **Maho 4**, Shaman 4, Sohei 4}} {{Components:= S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=See text}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject becomes fatigued, suffering an effective penalty of -2 to Strength and Dexterity.
+A fatigued character cannot run or charge and becomes exhausted by doing something that would normally cause fatigue.
+If the subject is already fatigued when you cast the spell, it becomes exhausted, moving at half normal speed and suffering an effective penalty of -6 to Strength and Dexterity.
+The subject can negate the effects of the spell through normal rest.
+The creature must rest for 8 hours to remove the fatigue}}
+
+
+Heart Ripper(Spell Compendium): - Maho(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Heart Ripper](https://dndtools.net/spells/spell-compendium--86/heart-ripper--4694/) }} {{School:= Necromancy  [Death]}} {{Level:= **Maho 4**, Assassin 4, WuJen 4}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc4}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**With a sweep of your hand, invisible magic slams into your target. With a bloody pop and squelch, the heart of your target bursts out its back, dropping the creature like a discarded rag doll.**
+Invisible bolts of force instantly slay the target you designate by driving its heart from its body unless it succeeds on a Fortitude save. If the target has HD higher than your caster level, it does not die on a failed saving throw, but instead is stunned for 1d4 rounds. Creatures that don't depend on their hearts for survival, creatures with no anatomy, and creatures immune to extra damage from critical hits are unaffected by the spell}}
+
+
+Pain(Complete Arcane): - Maho(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Pain](https://dndtools.net/spells/complete-arcane--55/pain--527/) }} {{School:= Necromancy  }} {{Level:= **Maho 4**, WuJen 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=Up to 1 HD/level of creatures, no two of which can be more than 20 ft. apart}} {{Duration:=1 minute}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc4}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The target creatures are struck by wracking pains and agony, giving them a -4 penalty on attack rolls, skill checks, and ability checks.
+A successful Fortitude save lessens this penalty to -2.
+Material Component: A live leech}}
+
+
+Wall of Bones(Complete Arcane): - Maho(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wall of Bones](https://dndtools.net/spells/complete-arcane--55/wall-of-bones--482/) }} {{School:= Conjuration (Creation) }} {{Level:= **Maho 4**, WuJen 4, Grave 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Wall whose area is up to one 10-ft. square/level}} {{Duration:=10 minutes}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell causes a wall of bones to erupt from the earth.
+The wall can be whatever shape you desire as long as its base is solidly on the ground, but it cannot be conjured so that it occupies the same space as a creature or another object.
+Though solid, the wall has many small openings and gaps, and creatures on either side have cover and concealment against attacks from the opposite side.
+A wall of bones can be passed through as a full-round action, but its sharp spikes and edges deal 1d8 points of damage to any Small or Medium creature that attempts to do so.
+Small creatures can slip and wriggle through the wall at will, but a Medium creature must make a successful DC 20 Escape Artist check.
+Failure means that a creature takes damage as normal and becomes stuck in the wall.
+It must make another move attempt the following round to either pass through the wall or pull back from it (taking damage from the movement either way).
+Tiny or smaller creatures can slip freely through the wall at half speed, and Large or larger creatures cannot pass through it but might be able to break through (see below) or climb over, taking no damage.
+Any creature trapped in the wall can choose to remain motionless until the spell expires to avoid taking any more damage.
+The wall is 6 inches thick per caster level.
+Each 5-foot square has 10 hit points per 6 inches of thickness, but the wall takes only half damage from slashing or piercing weapons.
+A creature can make a Strength check (DC 15 + 2 per caster level, maximum + 10) to break through the wall with a single attack.
+The wall is composed of bones of many different types of creatures, fused at bizarre angles, but it cannot be animated by an animate dead spell nor communicated with via speak with dead.
+Material Component: A withered tree branch taken from a cemetery}}
+
+
+Water to Poison(Complete Arcane): - Maho(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Water to Poison](https://dndtools.net/spells/complete-arcane--55/water-to-poison--574/) }} {{School:= Transmutation  }} {{Level:= **Maho 4**, WuJen 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=One ounce of water/level}} {{Duration:=Instantaneous}} {{Savingthrow:=None; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell transforms a volume of water into an equal volume of colorless, tasteless, ingested poison with a save DC equal to the spell's DC.
+When ingested, the poison deals 1 point of Constitution damage followed by 1d8 points of Constitution damage 1 minute later.
+A successful Will save can negate each instance of damage.
+A single swallow (1 ounce) of poison is enough to affect a single creature; drinking more does not increase the effect.
+Material Component: The fang of a poisonous snake and a bloodstone worth at least 50 gp}}
+
+
+Blood of Fire(Oriental Adventures): - Maho(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blood of Fire](https://dndtools.net/spells/oriental-adventures--96/blood-of-fire--2087/) }} {{School:= Necromancy  }} {{Level:= **Maho 5**, Shaman 5}} {{Components:= V, S, M}} {{Material Component:= Your blood.
+Cutting the pattern in your palm deals 2 points of damage to you}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=Up to four creatures}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex negates (see text) }} {{Save DC:=[[@{spelldc5}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast this spell, you cut a mystic pattern into one palm with a knife and enchant your own blood.
+The spell creates one missile of blood per three caster levels (maximum of five missiles).
+You can then send these missiles of blood streaking from the upturned palm, which explode on impact.
+You can choose a separate target for each missile, but you must make a ranged touch attack for each missile.
+A direct hit deals 2d8 points of damage with no saving throw allowed.
+Creatures within 5 feet of a creature struck by a missile must make successful Reflex saves or take the same damage.
+(Missiles that miss their target do not cause damage to any creature)}}
+
+
+Wood Rot(Spell Compendium): - Maho(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wood Rot](https://dndtools.net/spells/spell-compendium--86/wood-rot--4782/) }} {{School:= Transmutation  }} {{Level:= **Maho 5**, Druid 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=One nonmagical wooden object or a volume of wood; or one plant creature}} {{Duration:=Instantaneous or 1 round/level; see text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**By crushing a live termite between your teeth and reciting the necessary words of power, you finish casting the spell.**
+When you cast this spell, an insidious rot immediately taints any wooden object or plant creature you touch. Any unattended nonmagical wooden item smaller than 6 feet in diameter, or a 3-foot-radius volume of a larger wooden object (such as a wooden door), is instantly destroyed by wood rot.
+In combat, you can use the spell to attempt to sunder any wooden or wooden-hafted weapon; the weapon or its wooden portion is destroyed on a successful melee touch attack. Attempting to sunder a weapon generally provokes attacks of opportunity, and wood rot has no effect on wooden or wooden-hafted weapons that strike you, even if you hold the charge.
+Against wooden shields or armor, you also make a melee touch attack. Such targets too large to be destroyed outright take a -1d6 penalty to their armor or shield bonus on a successful hit and are rendered unusable if the penalty exceeds the bonus. Any attack against a wooden object discharges the spell, and wooden magic items are immune to the effect of wood rot.
+Against plant creatures, wood rot deals 3d6 points of damage +1 point per caster level (maximum +15) on a successful attack. Against plant creatures, the spell lasts for 1 round per level, and you can make one melee touch attack per round. Once it is used to make an attack against a plant creature, wood rot cannot be used to attack or destroy wooden items.
+Material Component: A live termite}}
+
+
+Sword of Darkness(Spell Compendium): - Maho(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sword of Darkness](https://dndtools.net/spells/spell-compendium--86/sword-darkness--4294/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Maho 7**, Sorcerer 7, Wizard 7, WuJen 7, Arcanist 7}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Black blade of negative energy}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You shatter the sword in your hand against a stone, bringing into being a similar weapon made entirely of black energy. As soon as it forms, the black blade attacks.**
+This spell functions like <a href="/spells/spell-compendium--86/sword-deception--4293/">**sword of deception**</a>, except that you cause a black blade of pure negative energy to appear and attack opponents at a distance, as directed by you. Instead of dealing damage, a sword of darkness bestows one negative level on each successful hit against a living creature, threatens a critical hit on a roll of 19-20, and bestows two negative levels on a critical hit. Negative levels usually have a chance of permanently draining the subject's levels, but the negative levels from sword of darkness don't last long enough to do so. However, if the subject gains at least as many negative levels as it has Hit Dice, it dies.
+If the sword strikes an undead creature, it grants that creature 5 temporary hit points per two caster levels (maximum 25 temporary hit points) that last for up to 1 hour.
+Material Component: A bastard sword or longsword, which is shattered against a stone while casting the spell}}
+
+
+Withering Palm(Spell Compendium): - Maho(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Withering Palm](https://dndtools.net/spells/spell-compendium--86/withering-palm--4781/) }} {{School:= Necromancy  }} {{Level:= **Maho 7**, Cleric 7, WuJen 7, Death 7, Cloistered Cleric 7}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc7}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**A black shroud of magical energy surrounds your hands. Beneath the shroud your hands look withered and aged, like uncared-for ancient leather on the verge of crumbling to dust.**
+Your successful melee touch attack deals 1 point of Strength damage and 1 point of Constitution damage per two caster levels to the target (maximum of 10 points each). If you score a critical hit, the subject takes ability drain instead, but the effect is not doubled}}
+
+
+Tainted Aura(Oriental Adventures): - Maho(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Tainted Aura](https://dndtools.net/spells/oriental-adventures--96/tainted-aura--2028/) }} {{School:= Abjuration  [Evil]}} {{Level:= **Maho 9**}} {{Components:= V, S, AF}} {{Arcane Focus:= A fragment of an oni's body, such as a claw, tooth, or bone}} {{Range:= 20 ft.}} {{Target:=One creature/level in a 20-ft.-radius burst centered on you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=See text (harmless)}} {{Save DC:=[[@{spelldc9}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A malevolent darkness surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by untainted creatures, and infecting such creatures with the Shadowlands Taint when they strike the subjects.
+This abjuration has four effects:
+First, the warded creatures gain a +4 deflection bonus to AC and a +4 resistance bonus on saves.
+Unlike the effect of protection from good, this benefit applies against all attacks, not just against attacks by good creatures.
+Second, the warded creatures gain SR 25 against good spells and spells cast by creatures with neither a Taint score nor the Shadowlands subtype.
+Third, the abjuration blocks possession and mental influence, just as protection from good does.
+Finally, if an untainted creature succeeds at a melee attack against a warded creature, the offending attacker gains a Taint score of 1d3 (Fortitude save negates)}}

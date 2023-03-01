@@ -1,0 +1,50 @@
+
+
+Protection from Possession(Ghostwalk): - Ghost(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Protection from Possession](https://dndtools.net/spells/ghostwalk--94/protection-from-possession--1334/) }} {{School:= Abjuration  }} {{Level:= **Ghost 1**, Bard 1, BoneCollector 1, Cleric 1, Paladin 1, Sorcerer 1, Wizard 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=10 minutes/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell wards a creature against mental control and possession attempts.
+The spell blocks any attempt to possess the warded creature (as by a magic jar attack or certain ghost feats) or to exercise mental control over the creature (as by a vampire's supernatural domination ability, which works similarly to dominate person).
+The protection does not prevent a vampire's domination itself, but it prevents the vampire from mentally commanding the protected creature.
+If the protection from possession effect ends before the domination effect does, the vampire would then be able to mentally command the controlled creature.
+Likewise, the spell keeps out a possessing life force, but does not expel one if it is in place before the spell is cast.
+Arcane Material Component: A bit of powdered silver, which is used to mark the forehead of the target creature}}
+
+
+Hold Person Or Ghost(Ghostwalk): - Ghost(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Hold Person Or Ghost](https://dndtools.net/spells/ghostwalk--94/hold-person-or-ghost--1355/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Ghost 2**, Bard 3, Cleric 3, Sorcerer 4, Wizard 4, Cloistered Cleric 3, Arcanist 4}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As hold person, except that it also affects ghosts}}
+
+
+Undead Bane Weapon(Spell Compendium): - Ghost(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Undead Bane Weapon](https://dndtools.net/spells/spell-compendium--86/undead-bane-weapon--4643/) }} {{School:= Transmutation  }} {{Level:= **Ghost 3**, Paladin 3, Cleric 4, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Weapon touched or fifty projectiles (all of which must be in contact with each other at the time of casting)}} {{Duration:=1 hour/level}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Your hand glows with a dull light, and when you touch the weapon, the light shifts to it, so that it sheds a serene gray radiance as bright as a candle.**
+You give a weapon the undead bane special ability in addition to any other properties it has. Against undead, your weapon's enhancement bonus is 2 higher than normal, and it deals an extra 2d6 points of damage against undead. The spell has no effect if cast upon a weapon that already has the undead bane special ability.
+Alternatively, you can affect up to fifty arrows, bolts, or bullets. The projectiles must be of the same kind, and they have to be together, such as in the same quiver. Projectiles, but not thrown weapons, lose their transmutation after one attack.
+The weapon is treated as good aligned for the purpose of overcoming damage reduction}}
+
+
+Proper State(Ghostwalk): - Ghost(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Proper State](https://dndtools.net/spells/ghostwalk--94/proper-state--1376/) }} {{School:= Necromancy  }} {{Level:= **Ghost 4**, Cleric 4, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One willing incorporeal undead}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You transform a willing incorporeal undead creature into a ghost.
+If its previous class and level are unknown, it becomes a ghost of the same race as you, with warrior levels equal to its undead Hit Dice.
+If the undead's previous race, class, and level were known (such as if the undead were a former ally that became the spawn of a shadow), it becomes a ghost of its former self.
+In any case, the creature's character level is no greater than the Hit Dice it had as an undead.
+For example, a 5th-level dwarf fighter that became a shadow's spawn and was turned into a ghost with this spell would now be a 2nd-level fighter.
+Levels lost in this manner are handled as if the character had lost levels from an undead's energy drain attack.
+A creature redeemed with this spell retains the alignment it had as an undead creature, although it is not strongly attached to that alignment and can change it over time or with the aid of an atonement spell.
+Because only humanoids can become ghosts, this spell works only on incorporeal undead that are vaguely humanoid.
+For example, it cannot convert a spectral steed (a horselike undead), a nightwing nightshade (a batlike creature), a nightwalker nightshade (a giantlike creature), or a nightcrawler (a wormlike creature) into a ghost}}
+
+
+Contingent Spell Lock(Ghostwalk): - Ghost(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Contingent Spell Lock](https://dndtools.net/spells/ghostwalk--94/contingent-spell-lock--1382/) }} {{School:= Transmutation  }} {{Level:= **Ghost 5**, Bard 6, Cleric 6, Sorcerer 6, Wizard 6, Cloistered Cleric 6, Arcanist 6}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=Instantaneous}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You transfer some of your currently prepared spells or available spell slots to a hidden part of your soul so that, if you die, when you appear on the Ethereal Plane, you have those spells or spell slots available for use (normally, dying and appearing on the Ethereal Plane causes you to lose all prepared spells and unused spell slots).
+You can transfer one spell per spell level that you can cast into this hidden part of your soul.
+Once you transfer the spells or spell slots in this manner, you cannot access them in any way&#8212;it is as if you had used those spell slots.
+The next time you choose to ready or prepare spells, you may leave those transferred spells or slots in place, or you may recover them along with your other spells or spell slots (which means they would not be available if you died).
+The transferred spells or spell slots may be used by your ghost in the normal manner, requiring the appropriate components and so on.
+If you are raised from the dead, the transferred spells become inaccessible again (although you can choose to recover them the next time you ready or prepare spells, as described above)}}
+
+
+Undeath to Death(Player's Handbook v.3.5): - Ghost(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Undeath to Death](https://dndtools.net/spells/players-handbook-v35--6/undeath-to-death--2767/) }} {{School:= Necromancy  }} {{Level:= **Ghost 6**, DreadNecromancer 5, Cleric 6, Sorcerer 6, Wizard 6, Sha'ir 6, DeathMaster 6, UrbanDruid 6, Repose 6, Cloistered Cleric 6, Arcanist 6}} {{Components:= V, S, M, DF}} {{Material Component:= The powder of a crushed diamond worth at least 500 gp}} {{Range:= }} {{Area:=Several undead creatures within a 40-ft.-radius burst}}  {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc6}+@{sf-Necromancy}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like circle of death, except that it destroys undead creatures as noted above}}
+
+
+Repel Ectoplasm(Ghostwalk): - Ghost(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Repel Ectoplasm](https://dndtools.net/spells/ghostwalk--94/repel-ectoplasm--1335/) }} {{School:= Abjuration  }} {{Level:= **Ghost 7**, Sorcerer 6, Wizard 6, Arcanist 6}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As repel wood, but affecting only ectoplasm, whether inert or part of an ectoplasmic creature.
+Large manifestations of ectoplasm (such as a wall of ectoplasm spell) are not considered &quot;fixed firmly&quot; for the purpose of this spell and are pushed back by the waves of energy}}

@@ -1,0 +1,9 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;1:=[View](~Force-Spell-Level-1)}} {{Spelllevel&nbsp;2:=[View](~Force-Spell-Level-2)}} {{Spelllevel&nbsp;3:=[View](~Force-Spell-Level-3)}} {{Spelllevel&nbsp;5:=[View](~Force-Spell-Level-5)}} {{Spelllevel&nbsp;6:=[View](~Force-Spell-Level-6)}} {{Spelllevel&nbsp;7:=[View](~Force-Spell-Level-7)}} 
+
+[1, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 1 }} {{subtags=[Back to Main Menu](~Spells-Main-Force)}} {{Mage Armor:=[View](~Force-Mage-Armor-Description) [Send](~Force-Mage-Armor-Cast)}} ]
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-Force)}} {{Magic Missile:=[View](~Force-Magic-Missile-Description) [Send](~Force-Magic-Missile-Cast)}} ]
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-Force)}} {{Blast of Force:=[View](~Force-Blast-of-Force-Description) [Send](~Force-Blast-of-Force-Cast)}} ]
+[5, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 5 }} {{subtags=[Back to Main Menu](~Spells-Main-Force)}} {{Wall of Force:=[View](~Force-Wall-of-Force-Description) [Send](~Force-Wall-of-Force-Cast)}} ]
+[6, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 6 }} {{subtags=[Back to Main Menu](~Spells-Main-Force)}} {{Repulsion:=[View](~Force-Repulsion-Description) [Send](~Force-Repulsion-Cast)}} ]
+[7, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 7 }} {{subtags=[Back to Main Menu](~Spells-Main-Force)}} {{Forcecage:=[View](~Force-Forcecage-Description) [Send](~Force-Forcecage-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

@@ -1,0 +1,33 @@
+
+
+Demonflesh(Fiendish Codex I: Hordes of the Abyss): - Demonic(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Demonflesh](https://dndtools.net/spells/fiendish-codex-i-hordes-of-the-abyss--66/demonflesh--1161/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Demonic 1**, Blackguard 1, Demonologist 1}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your flesh becomes thick and leathery like a demon's.
+This spell grants you a +1 enhancement bonus to your natural armor for every five caster levels you possess (minimum +1, maximum +4).
+A creature without natural armor has an effective natural armor bonus of +0}}
+
+
+Demoncall(Fiendish Codex I: Hordes of the Abyss): - Demonic(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Demoncall](https://dndtools.net/spells/fiendish-codex-i-hordes-of-the-abyss--66/demoncall--1149/) }} {{School:= Divination  [Evil]}} {{Level:= **Demonic 2**, Blackguard 2, Demonologist 2}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=Instantaneous}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your eyes roll back into your head as you call to Dagon for his unique insight.
+Suddenly you become aware of some fragment of forbidden lore previously lost to you.
+You tap into the forbidden knowledge of demons, gaining a +10 profane bonus on any one skill check involving Knowledge (arcana), Knowledge (the planes), or Knowledge (religion).
+The check must be made immediately, in the same turn as you cast the spell}}
+
+
+Demon Wings(Fiendish Codex I: Hordes of the Abyss): - Demonic(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Demon Wings](https://dndtools.net/spells/fiendish-codex-i-hordes-of-the-abyss--66/demon-wings--1160/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Demonic 3**, Blackguard 3, Demonologist 3}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 minutes/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You raise your arms dramatically, whisper the name &quot;Pazuzu&quot;
+twice, and watch as demonic wings sprout from your back.
+Wings sprout from your back, allowing you to fly at your normal land speed with average maneuverability.
+You can carry weight while flying according to your normal carrying capacity, and greater burdens affect your fly speed as they would your land speed}}
+
+
+Fiendish Clarity(Fiendish Codex I: Hordes of the Abyss): - Demonic(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fiendish Clarity](https://dndtools.net/spells/fiendish-codex-i-hordes-of-the-abyss--66/fiendish-clarity--1150/) }} {{School:= Divination  [Evil]}} {{Level:= **Demonic 7**, Cleric 7, Sorcerer 7, Wizard 7, Cloistered Cleric 7, Arcanist 7}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 minutes/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You manifest the acute senses of a powerful fiend.
+You gain darkvision out to 60 feet and can see in magical darkness as if it were normal darkness.
+In addition, you can see invisible creatures and objects as if affected by a see invisibility spell, and you can use detect good at will}}
+
+
+Utterdark(Lords of Madness): - Demonic(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Utterdark](https://dndtools.net/spells/lords-of-madness--72/utterdark--1527/) }} {{School:= Conjuration (Creation) [Evil]}} {{Level:= **Demonic 8**, Sorcerer 9, Wizard 9, Darkness 8, Viledarkness 8, Arcanist 9}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=100-ft./level radius spread}} {{Duration:=1 hour/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Utterdark spreads outward from you, creating an area of cold, cloying magical darkness.
+This darkness is similar to that created by the deeper darkness spell, but it cannot be dispelled by magical light (although a light spell or similar effect of equal or higher level can temporarily suppress the utterdark where their areas overlap, restoring normal illumination to the affected area for as long as the light spell or effect lasts).
+Furthermore, evil-aligned creatures can see in this darkness as if it were simply a dimly lighted area.
+Arcane Material Component: A black stick, 6 inches long, with humanoid blood smeared upon it}}

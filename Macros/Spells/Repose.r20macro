@@ -1,0 +1,13 @@
+
+
+Undeath to Death(Player's Handbook v.3.5): - Repose(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Undeath to Death](https://dndtools.net/spells/players-handbook-v35--6/undeath-to-death--2767/) }} {{School:= Necromancy  }} {{Level:= **Repose 6**, DreadNecromancer 5, Cleric 6, Sorcerer 6, Wizard 6, Sha'ir 6, DeathMaster 6, UrbanDruid 6, Ghost 6, Cloistered Cleric 6, Arcanist 6}} {{Components:= V, S, M, DF}} {{Material Component:= The powder of a crushed diamond worth at least 500 gp}} {{Range:= }} {{Area:=Several undead creatures within a 40-ft.-radius burst}}  {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc6}+@{sf-Necromancy}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like circle of death, except that it destroys undead creatures as noted above}}
+
+
+Surelife(Player's Guide to Faerûn): - Repose(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Surelife](https://dndtools.net/spells/players-guide-to-faerun--22/surelife--2222/) }} {{School:= Abjuration  }} {{Level:= **Repose 8**, WuJen 8, Fortune 8, Guardian 8}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 min./level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell protects you against some condition&#8212;such as being immersed in boiling oil or being buried under an avalanche&#8212;that would ordinarily cause certain death.
+You can protect yourself only against a natural occurrence or a nonmagical condition, not against a spell or the direct attack of a creature (such as the breath of a dragon or the swords of a group of bandits).
+At the time of casting, you must specify the condition against which you wish to protect yourself.
+Should you be subjected to that condition during the duration of the spell, you feel no discomfort and take no damage from the condition, though the spell does not protect any items carried on your person.
+If you are still subject to the condition at the end of the spell's duration, you suffer its full normal effects.
+Material Component: An ointment of peach syrup and cinnabar}}

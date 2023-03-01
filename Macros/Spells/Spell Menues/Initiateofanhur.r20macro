@@ -1,0 +1,4 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;2:=[View](~Initiateofanhur-Spell-Level-2)}} 
+
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofanhur)}} {{Thunderstroke:=[View](~Initiateofanhur-Thunderstroke-Description) [Send](~Initiateofanhur-Thunderstroke-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

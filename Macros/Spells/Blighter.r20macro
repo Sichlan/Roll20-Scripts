@@ -1,0 +1,723 @@
+
+
+Detect Magic(Player's Handbook v.3.5): - Blighter(0)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Detect Magic](https://dndtools.net/spells/players-handbook-v35--6/detect-magic--2489/) }} {{School:= Divination  }} {{Level:= **Blighter 0**, Bard 0, UrbanDruid 0, Jester 0, DeathMaster 0, Sha'ir 0, WuJen 0, Beguiler 0, CourtHerald 0, Cleric 0, Healer 0, Adept 0, Druid 0, Sorcerer 0, Wizard 0, EbonmarInfiltrator 1, DreadNecromancer 1, NentyarHunter 1, Hoardstealer 1, Vigilante 1, Cloistered Cleric 0, Arcanist 0}} {{Components:= V, S}} {{Range:= 60 ft.}} {{Area:=Cone-shaped emanation}} {{Duration:=Concentration, up to 1 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject.
+**1st Round:** Presence or absence of magical auras.
+**2nd Round:** Number of different magical auras and the power of the most potent aura.
+**3rd Round:** The strength and location of each aura. If the items or creatures bearing the auras are in  line of sight, you can make Spellcraft skill checks to determine the school of magic involved in each. (Make one check per aura; DC 15 + spell level, or 15 + half caster level for a nonspell effect).
+Magical areas, multiple types of magic, or strong local magical emanations may distort or conceal weaker auras.
+**Aura Strength:** An aura's power depends on a spell's functioning spell level or an item's caster level. If an aura falls into more than one category, detect magic indicates the stronger of the two. 
+<table><tr><th colspan="1"></th><th style="text-align:center;" colspan="4">Aura Power </th></tr><tr><th>Spell or Object </th><th>Faint </th><th>Moderate </th><th>Strong </th><th>Overwhelming </th></tr><tr><td> Functioning spell (spell level) </td><td> 3rd or lower </td><td> 4th-6th </td><td> 7th-9th </td><td> 10th+ (deity level) </td></tr><tr><td> Magic Item (caster level) </td><td> 5th or lower </td><td> 6th-11th </td><td> 12th-20th </td><td> 21st+ (artifact) </td></tr></table>Lingering Aura: A magical aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a magic item). If detect magic is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:
+<table><tr><th>Original Strength </th><th>Duration of Lingering Aura </th></tr><tr><td> Faint</td><td> 1d6 rounds </td></tr><tr><td> Moderate</td><td> 1d6 minutes </td></tr><tr><td> Strong</td><td> 1d6×10 minutes </td></tr><tr><td> Overwhelming</td><td> 1d6 days </td></tr></table>Outsiders and elementals are not magical in themselves, but if they are summoned, the conjuration spell registers.
+Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
+Detect magic can be made permanent with a permanency spell}}
+
+
+Detect Poison(Player's Handbook v.3.5): - Blighter(0)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Detect Poison](https://dndtools.net/spells/players-handbook-v35--6/detect-poison--2490/) }} {{School:= Divination  }} {{Level:= **Blighter 0**, Cleric 0, UrbanDruid 0, DeathMaster 0, Sha'ir 0, WuJen 0, CourtHerald 0, Healer 0, Wizard 0, Sorcerer 0, Druid 0, NentyarHunter 1, Ranger 1, Paladin 1, Assassin 1, DeathDelver 1, Cloistered Cleric 0, Arcanist 0}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature, one object, or a 5-ft. cube}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You determine whether a creature, object, or area has been poisoned or is poisonous.
+You can determine the exact type of poison with a DC 20 Wisdom check.
+A character with the Craft (alchemy) skill may try a DC 20 Craft (alchemy) check if the Wisdom check fails, or may try the Craft (alchemy) check prior to the Wisdom check.
+The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it}}
+
+
+Flare(Player's Handbook v.3.5): - Blighter(0)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Flare](https://dndtools.net/spells/players-handbook-v35--6/flare--2616/) }} {{School:= Evocation  [Light]}} {{Level:= **Blighter 0**, Bard 0, Druid 0, Sorcerer 0, Wizard 0, WuJen 0, Sha'ir 0, DeathMaster 0, Jester 0, Arcanist 0}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=Burst of light}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc0}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This cantrip creates a burst of light.
+If you cause the light to burst directly in front of a single creature, that creature is dazzled for 1 minute unless it makes a successful Fortitude save.
+Sightless creatures, as well as creatures already dazzled, are not affected by flare}}
+
+
+Ghost Sound(Player's Handbook v.3.5): - Blighter(0)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Ghost Sound](https://dndtools.net/spells/players-handbook-v35--6/ghost-sound--2670/) }} {{School:= Illusion (Figment) }} {{Level:= **Blighter 0**, Bard 0, Sorcerer 0, Wizard 0, Adept 0, DeathMaster 0, Sha'ir 0, WuJen 0, Beguiler 0, Vigilante 1, SlayerofDomiel 1, EbonmarInfiltrator 1, Hoardstealer 1, Assassin 1, Arcanist 0}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=Illusory sounds}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will disbelief (if interacted with) }} {{Save DC:=[[@{spelldc0}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place.
+You choose what type of sound ghost sound creates when casting it and cannot thereafter change the sound's basic character.
+The volume of sound created depends on your level.
+You can produce as much noise as four normal humans per caster level (maximum twenty humans).
+Thus, talking, singing, shouting, walking, marching, or running sounds can be created.
+The noise a ghost sound spell produces can be virtually any type of sound within the volume limit.
+A horde of rats running and squeaking is about the same volume as eight humans running and shouting.
+A roaring lion is equal to the noise from sixteen humans, while a roaring dire tiger is equal to the noise from twenty humans.
+Ghost sound can enhance the effectiveness of a silent image spell.
+Ghost sound can be made permanent with a permanency spell.
+Material Component: A bit of wool or a small lump of wax}}
+
+
+Inflict Minor Wounds(Player's Handbook v.3.5): - Blighter(0)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Inflict Minor Wounds](https://dndtools.net/spells/players-handbook-v35--6/inflict-minor-wounds--2747/) }} {{School:= Necromancy  }} {{Level:= **Blighter 0**, Cleric 0, DeathMaster 0, Cloistered Cleric 0}} {{Components:= }} {{Range:= }}   {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc0}+@{sf-Necromancy}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like inflict light wounds, except that you deal 1 point of damage and a Will save negates the damage instead of halving it}}
+
+
+Read Magic(Player's Handbook v.3.5): - Blighter(0)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Read Magic](https://dndtools.net/spells/players-handbook-v35--6/read-magic--2511/) }} {{School:= Divination  }} {{Level:= **Blighter 0**, Bard 0, UrbanDruid 0, DeathMaster 0, Sha'ir 0, WuJen 0, Beguiler 0, CourtHerald 0, Healer 0, Adept 0, Cleric 0, Druid 0, Wizard 0, Sorcerer 0, Paladin 1, Ranger 1, Vigilante 1, KnightoftheWeave 1, Hoardstealer 1, Cloistered Cleric 0, Arcanist 0}} {{Components:= V, S, AF}} {{Arcane Focus:= A clear crystal or mineral prism}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 min./level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=By means of read magic, you can decipher magical inscriptions on objects&#8212;books, scrolls, weapons, and the like&#8212;that would otherwise be unintelligible.
+This deciphering does not normally invoke the magic contained in the writing, although it may do so in the case of a cursed scroll.
+Furthermore, once the spell is cast and you have read the magical inscription, you are thereafter able to read that particular writing without recourse to the use of read magic.
+You can read at the rate of one page (250 words) per minute.
+The spell allows you to identify a glyph of warding with a DC 13 Spellcraft check, a greater glyph of warding with a DC 16 Spellcraft check, or any symbol spell with a Spellcraft check (DC 10 + spell level).
+Read magic can be made permanent with a permanency spell}}
+
+
+Touch of Fatigue(Player's Handbook v.3.5): - Blighter(0)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Touch of Fatigue](https://dndtools.net/spells/players-handbook-v35--6/touch-of-fatigue--2766/) }} {{School:= Necromancy  }} {{Level:= **Blighter 0**, Sorcerer 0, Wizard 0, Adept 0, Duskblade 0, Sha'ir 0, DeathMaster 0, Sloth 1, Arcanist 0}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc0}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You channel negative energy through your touch, fatiguing the target.
+You must succeed on a touch attack to strike a target.
+The subject is immediately fatigued for the spell's duration.
+This spell has no effect on a creature that is already fatigued.
+Unlike with normal fatigue, the effect ends as soon as the spell's duration expires.
+Material Component: A drop of sweat}}
+
+
+Bane(Player's Handbook v.3.5): - Blighter(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Bane](https://dndtools.net/spells/players-handbook-v35--6/bane--2527/) }} {{School:= Enchantment (Compulsion) [Fear]}} {{Level:= **Blighter 1**, Cleric 1, DreadNecromancer 1, DeathMaster 1, Jester 1, Savant 1, Demonologist 1, Baator 1, Suffering 1, Cloistered Cleric 1}} {{Components:= V, S, DF}} {{Range:= 50 ft.}} {{Area:=All enemies within 50 ft.}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Bane fills your enemies with fear and doubt. Each affected creature takes a -1 penalty on attack rolls and a -1 penalty on saving throws against fear effects. 
+Bane counters and dispels bless}}
+
+
+Burning Hands(Player's Handbook v.3.5): - Blighter(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Burning Hands](https://dndtools.net/spells/players-handbook-v35--6/burning-hands--2590/) }} {{School:= Evocation  [Fire]}} {{Level:= **Blighter 1**, Sorcerer 1, Wizard 1, Adept 1, Warmage 1, Duskblade 1, ThayanSlaver 1, Sha'ir 1, Fire 1, Arcanist 1}} {{Components:= V, S}} {{Range:= 15 ft.}} {{Area:=Cone-shaped burst}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex half }} {{Save DC:=[[@{spelldc1}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A cone of searing flame shoots from your fingertips.
+Any creature in the area of the flames takes 1d4 points of fire damage per caster level (maximum 5d4).
+Flammable materials, such as cloth, paper, parchment, and thin wood burn if the flames touch them.
+A character can extinguish burning items as a full-round action}}
+
+
+Curse Water(Player's Handbook v.3.5): - Blighter(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Curse Water](https://dndtools.net/spells/players-handbook-v35--6/curse-water--2725/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Blighter 1**, Cleric 1, DeathMaster 1, Cloistered Cleric 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Flask of water touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell imbues a flask (1 pint) of water with negative energy, turning it into unholy water.
+Unholy water damages good outsiders the way holy water damages undead and evil outsiders.
+Material Component: 5 pounds of powdered silver (worth 25 gp)}}
+
+
+Detect Undead(Player's Handbook v.3.5): - Blighter(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Detect Undead](https://dndtools.net/spells/players-handbook-v35--6/detect-undead--2495/) }} {{School:= Divination  }} {{Level:= **Blighter 1**, Cleric 1, Savant 1, DeathMaster 1, Sha'ir 1, DeathDelver 1, DreadNecromancer 1, Wizard 1, Sorcerer 1, Paladin 1, UrbanDruid 1, Undeath 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= 60 ft.}} {{Area:=Cone-shaped emanation}} {{Duration:=Concentration, up to 1 minute/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can detect the aura that surrounds undead creatures.
+The amount of information revealed depends on how long you study a particular area.
+1st Round: Presence or absence of undead auras.
+2nd Round:Number of undead auras in the area and the strength of the strongest undead aura present.
+If you are of good alignment, and the strongest undead aura's strength is overwhelming (see below), and the creature has HD of at least twice your character level, you are stunned for 1 round and the spell ends.
+3rd Round: The strength and location of each undead aura.
+If an aura is outside your line of sight, then you discern its direction but not its exact location.
+Aura Strength: The strength of an undead aura is determined by the HD of the undead creature, as given on the following table:
+Lingering Aura: An undead aura lingers after its original source is destroyed.
+If detect undead is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura).
+How long the aura lingers at this dim level depends on its original power:
+Each round, you can turn to detect undead in a new area.
+The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
+Arcane Material Component: A bit of earth from a grave}}
+
+
+Doom(Player's Handbook v.3.5): - Blighter(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Doom](https://dndtools.net/spells/players-handbook-v35--6/doom--2731/) }} {{School:= Necromancy  [Fear]}} {{Level:= **Blighter 1**, Cleric 1, DreadNecromancer 1, DiscipleofThrym 1, KnightoftheChalice 1, DeathMaster 1, Jester 1, Demonologist 1, Hades 1, Hatred 1, Pestilence 1, Wrath(BE) 1, Cloistered Cleric 1}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One living creature}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell fills a single subject with a feeling of horrible dread that causes it to become shaken}}
+
+
+Endure Elements(Player's Handbook v.3.5): - Blighter(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Endure Elements](https://dndtools.net/spells/players-handbook-v35--6/endure-elements--2317/) }} {{School:= Abjuration  }} {{Level:= **Blighter 1**, Cleric 1, Savant 1, Sha'ir 1, WuJen 1, KnightoftheChalice 1, VassalofBahamut 1, RunescarredBerserker 1, Adept 1, Wizard 1, Sorcerer 1, Ranger 1, Paladin 1, Druid 1, UrbanDruid 1, Sun 1, Ocean 1, Arborea 1, Endurance 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=24 hours}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A creature protected by endure elements suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between -50 and 140 degrees Fahrenheit without having to make Fortitude saves (as described in the Dungeon Master's Guide). The creature's equipment is likewise protected.
+Endure elements doesn't provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth}}
+
+
+Inflict Light Wounds(Player's Handbook v.3.5): - Blighter(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Inflict Light Wounds](https://dndtools.net/spells/players-handbook-v35--6/inflict-light-wounds--2745/) }} {{School:= Necromancy  }} {{Level:= **Blighter 1**, Cleric 1, DreadNecromancer 1, DeathMaster 1, Destruction 1, Cloistered Cleric 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Will half }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When laying your hand upon a creature, you channel negative energy that deals 1d8 points of damage +1 point per caster level (maximum +5).
+Since undead are powered by negative energy, this spell cures such a creature of a like amount of damage, rather than harming it}}
+
+
+Invisibility to Animals(Player's Handbook 3.0): - Blighter(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Invisibility to Animals](https://dndtools.net/spells/players-handbook-30--106/invisibility-animals--3788/) }} {{School:= Abjuration  }} {{Level:= **Blighter 1**, Druid 1}} {{Components:= S, DF}} {{Range:= Touch}} {{Target:=One creature touched/level}} {{Duration:=10 minutes/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Animals cannot perceive the warded creatures. They act as though the warded creatures are not there. Warded creatures could stand before the hungriest of lions and not be molested or even noticed.
+If a warded character touches an animal or attacks any creature, even with a spell, the spell ends for all recipients.
+Note: Beasts (such as owlbears), magical beasts (such as blink dogs), and vermin (such as giant scorpions) are not &quot;animals&quot; as defined by the spell; see the Monster Manua}}
+
+
+Ray of Enfeeblement(Player's Handbook v.3.5): - Blighter(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Ray of Enfeeblement](https://dndtools.net/spells/players-handbook-v35--6/ray-of-enfeeblement--2755/) }} {{School:= Necromancy  }} {{Level:= **Blighter 1**, Sorcerer 1, Wizard 1, DreadNecromancer 1, Duskblade 1, ThayanSlaver 1, Sha'ir 1, DeathMaster 1, Envy 2, Arcanist 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=Ray}} {{Duration:=1 min./level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A coruscating ray springs from your hand.
+You must succeed on a ranged touch attack to strike a target.
+The subject takes a penalty to Strength equal to 1d6+1 per two caster levels (maximum 1d6+5).
+The subject's Strength score cannot drop below 1}}
+
+
+Chill Metal(Player's Handbook v.3.5): - Blighter(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Chill Metal](https://dndtools.net/spells/players-handbook-v35--6/chill-metal--2793/) }} {{School:= Transmutation  [Cold]}} {{Level:= **Blighter 2**, Druid 2, DiscipleofThrym 2, DeathMaster 2, UrbanDruid 2, Cold 2}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Metal equipment of one creature per two levels, no two of which can be more than 30 ft. apart; or 25 lb. of metal/level, none of which can be more than 30 ft. away from any of the rest}} {{Duration:=7 rounds}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Chill metal makes metal extremely cold.
+Unattended, nonmagical metal gets no saving throw.
+Magical metal is allowed a saving throw against the spell (Magic item's saving throws are covered in the Dungeon Master's Guide).
+An item in a creature's possession uses the creature's saving throw bonus unless its own is higher.
+A creature takes cold damage if its equipment is chilled.
+It takes full damage if its armor is affected or if it is holding, touching, wearing, or carrying metal weighing one-fifth of its weight.
+The creature takes minimum damage (1 point or 2 points; see the table) if it's not wearing metal armor and the metal that it's carrying weighs less than one-fifth of its weight.
+On the first round of the spell, the metal becomes chilly and uncomfortable to touch but deals no damage.
+The same effect also occurs on the last round of the spell's duration.
+During the second (and also the next-to-last) round, icy coldness causes pain and damage.
+In the third, fourth, and fifth rounds, the metal is freezing cold, causing more damage, as shown on the table below.
+Any heat intense enough to damage the creature negates cold damage from the spell (and vice versa) on a point-for-point basis.
+For example, if the damage roll from a chill metal spell indicates 5 points of cold damage and the subject plunges through a wall of fire in the same round and takes 8 points of fire damage, it winds up taking no cold damage and only 3 points of fire damage.
+Underwater, chill metal deals no damage, but ice immediately forms around the affected metal, making it more buoyant.
+Chill metal counters and dispels heat metal}}
+
+
+Chill Touch(Player's Handbook v.3.5): - Blighter(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Chill Touch](https://dndtools.net/spells/players-handbook-v35--6/chill-touch--2717/) }} {{School:= Necromancy  }} {{Level:= **Blighter 2**, Sorcerer 1, Wizard 1, DreadNecromancer 1, Warmage 1, Duskblade 1, TelflammarShadowlord 1, Sha'ir 1, DeathMaster 1, Cold 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature or creatures touched (up to one/level)}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude partial or Will negates; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A touch from your hand, which glows with blue energy, disrupts the life force of living creatures.
+Each touch channels negative energy that deals 1d6 points of damage.
+The touched creature also takes 1 point of Strength damage unless it makes a successful Fortitude saving throw.
+You can use this melee touch attack up to one time per level.
+An undead creature you touch takes no damage of either sort, but it must make a successful Will saving throw or flee as if panicked for 1d4 rounds +1 round per caster level}}
+
+
+Darkness(Player's Handbook v.3.5): - Blighter(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Darkness](https://dndtools.net/spells/players-handbook-v35--6/darkness--2600/) }} {{School:= Evocation  [Darkness]}} {{Level:= **Blighter 2**, TelflammarShadowlord 1, Bard 2, DreadNecromancer 2, DeathMaster 2, Sha'ir 2, SlayerofDomiel 2, EbonmarInfiltrator 2, Adept 2, Wizard 2, Sorcerer 2, Cleric 2, CourtHerald 2, Baator 2, Cavern 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Object touched}} {{Duration:=10 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell causes an object to radiate shadowy illumination out to a 20-foot radius.
+All creatures in the area gain concealment (20% miss chance).
+Even creatures that can normally see in such conditions (such as with darkvision or lowlight vision) have the miss chance in an area shrouded in magical darkness.
+Normal lights (torches, candles, lanterns, and so forth) are incapable of brightening the area, as are light spells of lower level (such as light or dancing lights).
+Higher level light spells (such as daylight) are not affected by darkness.
+If darkness is cast on a small object that is then placed inside or under a lightproof covering, the spell's effect is blocked until the covering is removed.
+Darkness counters or dispels any light spell of equal or lower spell level.
+Arcane Material Component: A bit of bat fur and either a drop of pitch or a piece of coal}}
+
+
+Death Knell(Player's Handbook v.3.5): - Blighter(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Death Knell](https://dndtools.net/spells/players-handbook-v35--6/death-knell--2726/) }} {{School:= Necromancy  [Death][Evil]}} {{Level:= **Blighter 2**, Cleric 2, DeathMaster 2, DreadNecromancer 2, Death 2, Abyss 2, Gluttony 2, Cloistered Cleric 2}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=Instantaneous/10 minutes per HD of subject; see text}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You draw forth the ebbing life force of a creature and use it to fuel your own power.
+Upon casting this spell, you touch a living creature that has -1 or fewer hit points.
+If the subject fails its saving throw, it dies, and you gain 1d8 temporary hit points and a +2 bonus to Strength.
+Additionally, your effective caster level goes up by +1, improving spell effects dependent on caster level.
+(This increase in effective caster level does not grant you access to more spells).
+These effects last for 10 minutes per HD of the subject creature}}
+
+
+Fire Trap(Player's Handbook v.3.5): - Blighter(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fire Trap](https://dndtools.net/spells/players-handbook-v35--6/fire-trap--2320/) }} {{School:= Abjuration  [Fire]}} {{Level:= **Blighter 2**, Druid 2, Warmage 2, Sorcerer 4, Wizard 4, WuJen 4, Sha'ir 4, Greed 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Object touched}} {{Duration:=Permanent until discharged (D)}} {{Savingthrow:=Reflex half; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Fire trap creates a fiery explosion when an intruder opens the item that the trap protects.
+A fire trap can ward any object that can be opened and closed (book, box, bottle, chest, coffer, coffin, door, drawer, and so forth).
+When casting fire trap, you select a point on the object as the spell's center.
+When someone other than you opens the object, a fiery explosion fills the area within a 5-foot radius around the spell's center.
+The flames deal 1d4 points of fire damage +1 point per caster level (maximum +20).
+The item protected by the trap is not harmed by this explosion.
+A fire trapped item cannot have a second closure or warding spell placed on it.
+A knock spell does not bypass a fire trap.
+An unsuccessful dispel magic spell does not detonate the spell.
+Underwater, this ward deals half damage and creates a large cloud of steam.
+You can use the fire trapped object without discharging it, as can any individual to whom the object was specifically attuned when cast.
+Attuning a fire trapped object to an individual usually involves setting a password that you can share with friends.
+Note:Magic traps such as fire trap are hard to detect and disable.
+A rogue (only) can use the Search skill to find a fire trap and Disable Device to thwart it.
+The DC in each case is 25 + spell level (DC 27 for a druid's fire trap or DC 29 for the arcane version).
+Material Component: A half-pound of gold dust (cost 25 gp) sprinkled on the warded object}}
+
+
+Flaming Sphere(Player's Handbook v.3.5): - Blighter(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Flaming Sphere](https://dndtools.net/spells/players-handbook-v35--6/flaming-sphere--2615/) }} {{School:= Evocation  [Fire]}} {{Level:= **Blighter 2**, Druid 2, Sorcerer 2, Wizard 2, Warmage 2, Sha'ir 2, Arcanist 2}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=5-ft.-diameter sphere}} {{Duration:=1 round/level}} {{Savingthrow:=Reflex negates }} {{Save DC:=[[@{spelldc2}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A burning globe of fire rolls in whichever direction you point and burns those it strikes.
+It moves 30 feet per round.
+As part of thismovement, it can ascend or jump up to 30 feet to strike a target.
+If it enters a space with a creature, it stops moving for the round and deals 2d6 points of fire damage to that creature, though a successful Reflex save negates that damage.
+A flaming sphere rolls over barriers less than 4 feet tall, such as furniture and low walls.
+It ignites flammable substances it touches and illuminates the same area as a torch would.
+The sphere moves as long as you actively direct it (a move action for you); otherwise, it merely stays at rest and burns.
+It can be extinguished by any means that would put out a normal fire of its size.
+The surface of the sphere has a spongy, yielding consistency and so does not cause damage except by its flame.
+It cannot push aside unwilling creatures or batter down large obstacles.
+A flaming sphere winks out if it exceeds the spell's range.
+Arcane Material Component: A bit of tallow, a pinch of brimstone, and a dusting of powdered iron}}
+
+
+Heat Metal(Player's Handbook v.3.5): - Blighter(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Heat Metal](https://dndtools.net/spells/players-handbook-v35--6/heat-metal--2824/) }} {{School:= Transmutation  [Fire]}} {{Level:= **Blighter 2**, Druid 2, UrbanDruid 2, Sun 2, Metal 2}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Metal equipment of one creature per two levels, no two of which can be more than 30 ft. apart; or 25 lb. of metal/level, all of which must be within a 30-ft. circle}} {{Duration:=7 rounds}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Heat metal makes metal extremely warm.
+Unattended, nonmagical metal gets no saving throw.
+Magical metal is allowed a saving throw against the spell.
+(Magic item's saving throws are covered in the Dungeon Master's Guide).
+An item in a creature's possession uses the creature's saving throw bonus unless its own is higher.
+A creature takes fire damage if its equipment is heated.
+It takes full damage if its armor is affected or if it is holding, touching, wearing, or carrying metal weighing one-fifth of its weight.
+The creature takes minimum damage (1 point or 2 points; see the table) if it's not wearing metal armor and the metal that it's carrying weighs less than one-fifth of its weight.
+On the first round of the spell, the metal becomes warm and uncomfortable to touch but deals no damage.
+The same effect also occurs on the last round of the spell's duration.
+During the second (and also the next-to-last) round, intense heat causes pain and damage.
+In the third, fourth, and fifth rounds, the metal is searing hot, causing more damage, as shown on the table below.
+Any cold intense enough to damage the creature negates fire damage from the spell (and vice versa) on a point-for-point basis.
+For example, if the damage roll from a heat metal spell indicates 2 points of fire damage and the subject is hit by a ray of frost in the same round and takes 3 points of cold damage, it winds up taking no fire damage and only 1 point of cold damage.
+If cast underwater, heat metal deals half damage and boils the surrounding water.
+Heat metal counters and dispels chill metal}}
+
+
+Inflict Moderate Wounds(Player's Handbook v.3.5): - Blighter(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Inflict Moderate Wounds](https://dndtools.net/spells/players-handbook-v35--6/inflict-moderate-wounds--2748/) }} {{School:= Necromancy  }} {{Level:= **Blighter 2**, Cleric 2, DeathMaster 2, DreadNecromancer 2, Cloistered Cleric 2}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like inflict light wounds, except that you deal 2d8 points of damage +1 point per caster level (maximum +10)}}
+
+
+Produce Flame(Player's Handbook v.3.5): - Blighter(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Produce Flame](https://dndtools.net/spells/players-handbook-v35--6/produce-flame--2641/) }} {{School:= Evocation  [Fire]}} {{Level:= **Blighter 2**, Druid 1, Fire 2, Orc 2}} {{Components:= V, S}} {{Range:= 0 ft.}} {{Effect:=Flame in your palm}} {{Duration:=1 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Flames as bright as a torch appear in your open hand. The flames harm neither you nor your equipment.
+In addition to providing illumination, the flames can be hurled or used to touch enemies. You can strike an opponent with a melee touch attack, dealing fire damage equal to 1d6 +1 point per caster level (maximum +5). Alternatively, you can hurl the flames up to 120 feet as a thrown weapon. When doing so, you attack with a ranged touch attack (with no range penalty) and deal the same damage as with the melee attack. No sooner do you hurl the flames than a new set appears in your hand. Each attack you make reduces the remaining duration by 1 minute. If an attack reduces the remaining duration to 0 minutes or less, the spell ends after the attack resolves.
+This spell does not function underwater}}
+
+
+Resist Elements(Psionics Handbook 3.0): - Blighter(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Resist Elements](https://dndtools.net/spells/psionics-handbook-30--46/resist-elements--3789/) }} {{School:= Abjuration  }} {{Level:= **Blighter 2**, Ranger 1, Cleric 2, Druid 2, Paladin 2, Sorcerer 2, Wizard 2, NentyarHunter 2, Fire 3, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S, DF}} {{Range:= }}  {{Duration:=1 minute/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As endure elements, except resist elements absorbs the first 12 points of damage.
+Note: Resist elements overlaps (and does not stack with) endure elements and protection from elements. If a character is warded by protection from elements and one or both of the other spells, the protection spell absorbs damage until it is exhausted. If a character is warded by resist elements and endure elements at the same time, the resist spell absorbs damage but the endure spell does not}}
+
+
+Warp Wood(Player's Handbook v.3.5): - Blighter(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Warp Wood](https://dndtools.net/spells/players-handbook-v35--6/warp-wood--2892/) }} {{School:= Transmutation  }} {{Level:= **Blighter 2**, Druid 2, WuJen 2, UrbanDruid 2}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=1 Small wooden object/level, all within a 20-ft. radius}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You cause wood to bend and warp, permanently destroying its straightness, form, and strength.
+A warped door springs open (or becomes stuck, requiring a Strength check to open, at your option).
+A boat or ship springs a leak.
+Warped ranged weapons are useless.
+A warped melee weapon causes a -4 penalty on attack rolls.
+You may warp one Small or smaller object (such as a wagon wheel or a human's crossbow) or its equivalent per caster level.
+A Medium object (such as an oar or a human's spear) counts as two Small objects, a Large object (such as a rowboat or a hill giant's greatclub) as four, a Huge object (such as a wagon or a cloud giant's morningstar) as eight, a Gargantuan object (such as a keelboat) as sixteen, and a Colossal object (such as a sailing ship) as thirty-two.
+Alternatively, you can unwarp wood (effectively warping it back to normal) with this spell, straightening wood that has been warped by this spell or by other means.
+Make whole, on the other hand, does no good in repairing a warped item.
+You can combine multiple consecutive warp wood spells to warp (or unwarp) an object that is too large for you to warp with a single spell.
+Until the object is completely warped, it suffers no ill effects}}
+
+
+Contagion(Player's Handbook v.3.5): - Blighter(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Contagion](https://dndtools.net/spells/players-handbook-v35--6/contagion--2721/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Blighter 3**, Cleric 3, Druid 3, UrbanDruid 3, Adept 3, DeathMaster 3, Sha'ir 4, Warmage 4, Wizard 4, Sorcerer 4, DreadNecromancer 4, Destruction 3, Blightbringer 3, Pestilence 3, Hades 4, Cloistered Cleric 3, Arcanist 4}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc3}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject contracts a disease selected from the table below, which strikes immediately (no incubation period). The DC noted is for the subsequent saves (use contagion's normal save DC for the initial saving throw). See the Dungeon Master's Guide for descriptions of each disease, as well as for the general effects of disease.
+<table><tr><th>Disease </th><th>DC </th><th>Damage </th></tr><tr><td> Blinding sickness </td><td> 16 </td><td> 1d4 Str <sup>1</sup> </td></tr><tr><td> Cackle fever </td><td> 16 </td><td> 1d6 Wis </td></tr><tr><td> Filth fever </td><td> 12 </td><td> 1d3 Dex and 1d3 Con </td></tr><tr><td> Mindfire </td><td> 12 </td><td> 1d4 Int </td></tr><tr><td> Red ache </td><td> 15 </td><td> 1d6 Str </td></tr><tr><td> Shakes </td><td> 13 </td><td> 1d8 Dex </td></tr><tr><td> Slimy doom </td><td> 14 </td><td> 1d4 Con </td></tr><tr><td colspan="3"><sup>1</sup> Each time a victim takes 2 or more points of Strength damage from blinding sickness, he or she must make another Fortitude save (using the disease's save DC) or be permanently blinded. </td></tr></table>See the Dungeon Master's Guide for descriptions of each disease, as well as for the general effects of disease}}
+
+
+Deeper Darkness(Player's Handbook v.3.5): - Blighter(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Deeper Darkness](https://dndtools.net/spells/players-handbook-v35--6/deeper-darkness--2602/) }} {{School:= Evocation  [Darkness]}} {{Level:= **Blighter 3**, Cleric 3, Adept 3, EbonmarInfiltrator 3, SlayerofDomiel 3, DeathMaster 3, Baator 4, Cloistered Cleric 3}} {{Components:= }} {{Range:= }}  {{Duration:=One day/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/darkness--2600/">**darkness**</a>, except that the object radiates shadowy illumination in a 60-foot radius and the darkness lasts longer.
+Daylight brought into an area of deeper darkness (or vice versa) is temporarily negated, so that the otherwise prevailing light conditions exist in the overlapping areas of effect.
+Deeper darkness counters and dispels any light spell of equal or lower level, including daylight and light}}
+
+
+Desecrate(Player's Handbook v.3.5): - Blighter(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Desecrate](https://dndtools.net/spells/players-handbook-v35--6/desecrate--2604/) }} {{School:= Evocation  [Evil]}} {{Level:= **Blighter 3**, Cleric 2, DivineBard 2, DeathMaster 2, Evil 2, Undeath 2, Cloistered Cleric 2}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=20-ft.-radius emanation}} {{Duration:=2 hours/level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell imbues an area with negative energy.
+Each Charisma check made to turn undead within this area takes a -3 profane penalty, and every undead creature entering a desecrated area gains a +1 profane bonus on attack rolls, damage rolls, and saving throws.
+An undead creature created within or summoned into such an area gains +1 hit points per HD.
+If the desecrated area contains an altar, shrine, or other permanent fixture dedicated to your deity or aligned higher power, the modifiers given above are doubled (-6 profane penalty on turning checks, +2 profane bonus and +2 hit points per HD for undead in the area).
+Furthermore, anyone who casts animate dead within this area may create as many as double the normal amount of undead (that is, 4 HD per caster level rather than 2 HD per caster level).
+If the area contains an altar, shrine, or other permanent fixture of a deity, pantheon, or higher power other than your patron, the desecrate spell instead curses the area, cutting off its connection with the associated deity or power.
+This secondary function, if used, does not also grant the bonuses and penalties relating to undead, as given above.
+Desecrate counters and dispels consecrate.
+Material Component: A vial of unholy water and 25 gp worth (5 pounds) of silver dust, all of which must be sprinkled around the area}}
+
+
+Diminish Plants(Player's Handbook v.3.5): - Blighter(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Diminish Plants](https://dndtools.net/spells/players-handbook-v35--6/diminish-plants--2800/) }} {{School:= Transmutation  }} {{Level:= **Blighter 3**, Druid 3, Ranger 3, DeathMaster 3, UrbanDruid 3}} {{Components:= V, S, DF}} {{Range:= See text}} {{Target:=See text}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell has two versions.
+Prune Growth: This version causes normal vegetation (grasses, briars, bushes, creepers, hedges, thistles, trees, vines, and so forth) within long range (400 feet + 40 feet per level) to shrink to about one-third of their normal size, becoming untangled and less bushy.
+The affected vegetation appears to have been carefully pruned and trimmed.
+At your option, the area can be a 100-foot-radius circle, a 150-foot-radius semicircle, or a 200-foot-radius quarter-circle.
+You may also designate portions of the area that are not affected.
+Stunt Growth: This version targets normal plants within a range of 1/2 mile, reducing their potential productivity over the course of the following year to one-third below normal.
+Diminish plants counters plant growth.
+This spell has no effect on plant creatures}}
+
+
+Dispel Magic(Player's Handbook v.3.5): - Blighter(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dispel Magic](https://dndtools.net/spells/players-handbook-v35--6/dispel-magic--2315/) }} {{School:= Abjuration  }} {{Level:= **Blighter 3**, Trapsmith 1, Bard 3, DeathMaster 3, Sha'ir 3, WuJen 3, Beguiler 3, Vigilante 3, KnightoftheChalice 3, KnightoftheWeave 3, Cleric 3, Paladin 3, Sorcerer 3, Wizard 3, Hoardstealer 3, CourtHerald 3, Duskblade 4, Druid 4, UrbanDruid 4, DreadNecromancer 4, Magic 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One spellcaster, creature, or object; or 20-ft.-radius burst}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Because magic is so powerful, so too is the ability to dispel magic.  You can use **dispel magic** to end ongoing spells that have been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, to end ongoing spells (or at least their effects) within an area, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by dispel magic. **Dispel magic** can dispel (but not counter) spell-like effects just as it does spells.
+Note: The effect of a spell with an instantaneous duration can't be dispelled, because the magical effect  is already over before the **dispel magic** can take effect. Thus, you can't use **dispel magic** to repair damage caused by a <a href="/spells/players-handbook-v35--6/fireball--2612/">**fireball**</a> or to turn a petrified character back to flesh. In these cases, the magic has departed, leaving only burned flesh or perfectly normal stone in its wake.
+You choose to use **dispel magic** in one of three ways: a targeted dispel, an area dispel, or a counterspell:
+**Targeted Dispel:** One object, creature, or spell is the target of the dispel magic spell. You make a dispel check (1d20 + your caster level, maximum +10) against the spell or against each ongoing spell currently in effect on the object or creature. The DC for this dispel check is 11 + the spell's caster level.
+For example, Mialee, at 5th level, targets **dispel magic** on a drow who is under the effects of <a href="/spells/players-handbook-v35--6/haste--2823/">**haste**</a>, <a href="/spells/players-handbook-v35--6/mage-armor--2405/">**mage armor**</a>, and <a href="/spells/players-handbook-v35--6/bulls-strength--2788/">**bull's strength**</a>. All three spells were cast on the drow by a 7th-level wizard. Mialee makes a dispel check (1d20 + 5 against DC 18) three times, once each for the **haste**, **mage armor**, and **bull's strength** effects. If she succeeds on a particular check, that spell is dispelled (the drow's spell resistance doesn't help him); if she fails, that spell remains in effect.
+If you target an object or creature that is the effect of an ongoing spell (such as a monster summoned by monster summoning), you make a dispel check to end the spell that conjured the object or creature.
+If the object that you target is a magic item, you make a dispel check against the item's caster level. If you succeed, all the item's magical properties are suppressed for 1d4 rounds, after which the item recovers on its own. A suppressed item becomes nonmagical for the duration of the effect. An interdimensional interface (such as a bag of holding) is temporarily closed. A magic item's physical properties are unchanged: A suppressed magic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal magic such as this.
+You automatically succeed on your dispel check against any spell that you cast yourself.
+**Area Dispel:** When **dispel magic** is used in this way, the spell affects everything within a 20-foot radius.
+For each creature within the area that is the subject of one or more spells, you make a dispel check against the spell with the highest caster level. If that check fails, you make dispel checks against progressively weaker spells until you dispel one spell (which discharges the dispel magic spell so far as that target is concerned) or until you fail all your checks. The creature's magic items are not affected.
+For each object within the area that is the target of one or more spells, you make dispel checks as with creatures. Magic items are not affected by an area dispel.
+For each ongoing area or effect spell whose point of origin is within the area of the **dispel magic** spell, you can make a dispel check to dispel the spell.
+For each ongoing spell whose area overlaps that of the **dispel magic** spell, you can make a dispel check to end the effect, but only within the overlapping area.
+If an object or creature that is the effect of an ongoing spell (such as a monster summoned by monster summoning) is in the area, you can make a dispel check to end the spell that conjured that object or creature (returning it whence it came) in addition to attempting to dispel spells targeting the creature or object.
+You may choose to automatically succeed on dispel checks against any spell that you have cast.
+**Counterspell:** When **dispel magic** is used in this way, the spell targets a spellcaster and is cast as a counterspell (page 170). Unlike a true counterspell, however, **dispel magic** may not work; you must make a dispel check to counter the other spellcaster's spell}}
+
+
+Inflict Serious Wounds(Player's Handbook v.3.5): - Blighter(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Inflict Serious Wounds](https://dndtools.net/spells/players-handbook-v35--6/inflict-serious-wounds--2750/) }} {{School:= Necromancy  }} {{Level:= **Blighter 3**, Cleric 3, DeathMaster 3, DreadNecromancer 3, Cloistered Cleric 3}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like inflict light wounds, except that you deal 3d8 points of damage +1 point per caster level (maximum +15)}}
+
+
+Poison(Player's Handbook v.3.5): - Blighter(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Poison](https://dndtools.net/spells/players-handbook-v35--6/poison--2754/) }} {{School:= Necromancy  }} {{Level:= **Blighter 3**, Druid 3, Warmage 3, DeathMaster 3, UrbanDruid 3, Cleric 4, DreadNecromancer 4, Slime 3, Abyss 4, Pestilence 4, Scalykind 4, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=Instantaneous; see text}} {{Savingthrow:=Fortitude negates; see text }} {{Save DC:=[[@{spelldc3}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Calling upon the venomous powers of natural predators, you infect the subject with a horrible poison by making a successful melee touch attack. The poison deals 1d10 points of temporary Constitution damage immediately and another 1d10 points of temporary Constitution damage 1 minute later. Each instance of damage can be negated by a Fortitude save (DC 10 + 1/2 your caster level + your Wis modifier)}}
+
+
+Protection from Elements(Player's Handbook 3.0): - Blighter(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Protection from Elements](https://dndtools.net/spells/players-handbook-30--106/protection-elements--3790/) }} {{School:= Abjuration  }} {{Level:= **Blighter 3**, Ranger 2, Cleric 3, Druid 3, Sorcerer 3, Wizard 3, Luck 3, Protection 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, DF}} {{Range:= }}  {{Duration:=10 minutes/level or until discharged}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As endure elements, but protection from elements grants temporary invulnerability to the selected energy type. When the spell absorbs 12 points per caster level of elemental damage, it is discharged.
+Note: Protection from elements overlaps (and does not stack with) resist elements and endure elements. If a character is warded by protection from elements and one or both of the other spells, the protection spell absorbs damage until it is exhausted. If a character is warded by resist elements and endure elements at the same time, the resist spell absorbs damage but the endure spell does not}}
+
+
+Stinking Cloud(Player's Handbook v.3.5): - Blighter(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Stinking Cloud](https://dndtools.net/spells/players-handbook-v35--6/stinking-cloud--2438/) }} {{School:= Conjuration (Creation) }} {{Level:= **Blighter 3**, Sorcerer 3, Wizard 3, Warmage 3, WuJen 3, Sha'ir 3, Jester 3, UrbanDruid 3, DeathMaster 3, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Cloud spreads in 20-ft. radius, 20 ft. high}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude negates; see text }} {{Save DC:=[[@{spelldc3}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Stinking cloud creates a bank of fog like that created by fog cloud, except that the vapors are nauseating.
+Living creatures in the cloud become nauseated.
+This condition lasts as long as the creature is in the cloud and for 1d4+1 rounds after it leaves.
+(Roll separately for each nauseated character).
+Any creature that succeeds on its save but remains in the cloud must continue to save each round on your turn.
+Stinking cloud can be made permanent with a permanency spell.
+A permanent stinking cloud dispersed by wind reforms in 10 minutes.
+Material Component: A rotten egg or several skunk cabbage leaves}}
+
+
+Vampiric Touch(Player's Handbook v.3.5): - Blighter(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Vampiric Touch](https://dndtools.net/spells/players-handbook-v35--6/vampiric-touch--2768/) }} {{School:= Necromancy  }} {{Level:= **Blighter 3**, TelflammarShadowlord 2, Sorcerer 3, Wizard 3, Duskblade 3, Sha'ir 3, DeathMaster 3, DreadNecromancer 3, Envy 4, Gluttony 4, Arcanist 3}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=Instantaneous/1 hour; see text}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You must succeed on a melee touch attack.
+Your touch deals 1d6 points of damage per two caster levels (maximum 10d6).
+You gain temporary hit points equal to the damage you deal.
+However, you can't gain more than the subject's current hit
+points +10, which is enough to kill the subject.
+The temporary hit points disappear 1 hour later}}
+
+
+Animate Dead(Player's Handbook v.3.5): - Blighter(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Animate Dead](https://dndtools.net/spells/players-handbook-v35--6/animate-dead--2711/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Blighter 4**, DeathMaster 2, Cleric 3, DeathDelver 3, Adept 3, Wizard 4, WuJen 4, Sorcerer 4, Sha'ir 4, DreadNecromancer 4, Death 3, Undeath 3, Cloistered Cleric 3, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= You must place a black onyx gem worth at least 25 gp per Hit Die of the undead into the mouth or eye socket of each corpse you intend to animate. The magic of the spell turns these gems into worthless, burned-out shells}} {{Range:= Touch}} {{Target:=One or more corpses touched}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell turns the bones or bodies of dead creatures into undead skeletons or zombies that follow your spoken commands.  The undead can follow you, or they can remain in an area and attack any creature (or just a specific kind of creature) entering the place.  They remain animated until they are destroyed.
+(A destroyed skeleton or zombie can't be animated again).
+Regardless of the type of undead you create with this spell, you can't create more HD of undead than twice your caster level with a single casting of **animate dead**.  (The <a href="/spells/players-handbook-v35--6/desecrate--2604/">deserate</a> spell doubles this limit; see page 218).
+The undead you create remain under your control indefinitely. No matter how many times you use this spell, however, you can control only 4 HD worth of undead creatures per caster level. If you exceed this number, all the newly created creatures fall under your control, and any excess undead from previous castings become uncontrolled.  (You choose which creatures are released). If you are a cleric, any undead you might command by virtue of your power to command or rebuke undead do not count toward the limit.
+**Skeletons:** A skeleton can be created only from a mostly intact corpse or skeleton. The corpse must have bones, so creating a skeleton from a purple worm, for example, is not possible. If a skeleton is made from a corpse, the flesh falls off the bones. The statistics for a skeleton depend on its size; they do not depend on what abilities the creature may have had while alive. The Monster Manual has game statistics for skeletons.
+**Zombies:** A zombie can be created only from a mostly intact corpse. The corpse must be that of a creature with a true anatomy, so a dead gelatinous cube, for example, cannot be animated as a zombie. The statistics for a zombie depend on its size, not on what abilities the creature may have had while alive. The Monster Manual has game statistics for zombies}}
+
+
+Antiplant Shell(Player's Handbook v.3.5): - Blighter(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Antiplant Shell](https://dndtools.net/spells/players-handbook-v35--6/antiplant-shell--2302/) }} {{School:= Abjuration  }} {{Level:= **Blighter 4**, Druid 4, UrbanDruid 4}} {{Components:= V, S, DF}} {{Range:= 10 ft.}} {{Area:=10-ft.-radius emanation, centered on you}} {{Duration:=10 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The **antiplant shell** spell creates an invisible, mobile barrier that keeps all creatures within the shell protected from attacks by plant creatures or animated plants.  As with many abjuration spells, forcing the barrier against creatures that the spell keeps at bay strains and collapses the field (see Abjuration, page 172)}}
+
+
+Blight(Player's Handbook v.3.5): - Blighter(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blight](https://dndtools.net/spells/players-handbook-v35--6/blight--2714/) }} {{School:= Necromancy  }} {{Level:= **Blighter 4**, Druid 4, UrbanDruid 4, Sorcerer 5, Wizard 5, Sha'ir 5, DeathMaster 5, DreadNecromancer 5, Cleric 5, Cloistered Cleric 5, Arcanist 5}} {{Components:= V, S, DF}} {{Range:= Touch}}  {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude half; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell withers a single plant of any size.
+An affected plant creature takes 1d6 points of damage per level (maximum 15d6) and may attempt a Fortitude saving throw for half damage.
+A plant that isn't a creature (such as a tree or shrub) doesn't receive a save and immediately withers and dies.
+This spell has no effect on the soil or surrounding plant life}}
+
+
+Death Ward(Player's Handbook v.3.5): - Blighter(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Death Ward](https://dndtools.net/spells/players-handbook-v35--6/death-ward--2727/) }} {{School:= Necromancy  }} {{Level:= **Blighter 4**, RunescarredBerserker 3, Cleric 4, DeathMaster 4, DeathDelver 4, KnightoftheWeave 4, SlayerofDomiel 4, HunteroftheDead 4, Healer 4, Paladin 4, DreadNecromancer 4, Druid 5, UrbanDruid 5, Death 4, Undeath 4, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject is immune to all death spells, magical death effects, energy drain, and any negative energy effects (such as from inflict spells or chill touch).
+This spell doesn't remove negative levels that the subject has already gained, nor does it affect the saving throw necessary 24 hours after gaining a negative level.
+Death ward does not protect against other sorts of attacks, such as hit point loss, poison, or petrification, even if those attacks might be lethal.
+(note: Heroes of Horror lists this spell as both a 3rd and 4th level spell for the Dread Necromancer)}}
+
+
+Flame Strike(Player's Handbook v.3.5): - Blighter(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Flame Strike](https://dndtools.net/spells/players-handbook-v35--6/flame-strike--2614/) }} {{School:= Evocation  [Fire]}} {{Level:= **Blighter 4**, Druid 4, Cleric 5, Warmage 5, NarDemonbinder 5, NentyarHunter 5, Sun 5, War 5, Cloistered Cleric 5}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=Cylinder (10-ft. radius, 40 ft. high)}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex half }} {{Save DC:=[[@{spelldc4}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A flame strike produces a vertical column of divine fire roaring downward.
+The spell deals 1d6 points of damage per caster level (maximum 15d6).
+Half the damage is fire damage, but the other half results directly from divine power and is therefore not subject to being reduced by resistance to fire-based attacks, such as that granted by protection from energy (fire), fire shield (chill shield), and similar magic}}
+
+
+Inflict Critical Wounds(Player's Handbook v.3.5): - Blighter(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Inflict Critical Wounds](https://dndtools.net/spells/players-handbook-v35--6/inflict-critical-wounds--2743/) }} {{School:= Necromancy  }} {{Level:= **Blighter 4**, Cleric 4, DeathMaster 4, DreadNecromancer 4, Destruction 4, Cloistered Cleric 4}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like inflict light wounds, except that you deal 4d8 points of damage +1 point per caster level (maximum +20)}}
+
+
+Repel Vermin(Player's Handbook v.3.5): - Blighter(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Repel Vermin](https://dndtools.net/spells/players-handbook-v35--6/repel-vermin--2355/) }} {{School:= Abjuration  }} {{Level:= **Blighter 4**, Ranger 3, Bard 4, Cleric 4, Druid 4, Vigilante 4, UrbanDruid 4, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= 10 ft.}} {{Area:=10-ft.-radius emanation centered on you}} {{Duration:=10 min./level (D)}} {{Savingthrow:=None or Will negates; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An invisible barrier holds back vermin.
+A vermin with Hit Dice of less than one-third your level cannot penetrate the barrier.
+A vermin with Hit Dice of one-third your level or more can penetrate the barrier if it succeeds on a Will save.
+Even so, crossing the barrier deals the vermin 2d6 points of damage, and pressing against the barrier causes pain, which deters most vermin}}
+
+
+Rusting Grasp(Player's Handbook v.3.5): - Blighter(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Rusting Grasp](https://dndtools.net/spells/players-handbook-v35--6/rusting-grasp--2867/) }} {{School:= Transmutation  }} {{Level:= **Blighter 4**, Druid 4, WuJen 4, UrbanDruid 4, Metal 4, Slime 4}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=One nonmagical ferrous object (or the volume of the object within 3 ft. of the touched point) or one ferrous creature}} {{Duration:=See text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Any iron or iron alloy item you touch becomes instantaneously rusted, pitted, and worthless, effectively destroyed.
+If the item is so large that it cannot fit within a 3-foot radius (a large iron door or a wall of iron), a 3-foot-radius volume of the metal is rusted and destroyed.
+Magic items made of metal are immune to this spell.
+You may employ rusting grasp in combat with a successful melee touch attack.
+Rusting grasp used in this way instantaneously destroys 1d6 points of Armor Class gained from metal armor (to the maximum amount of protection the armor offered) through corrosion.
+For example, full plate armor (AC +8) could be reduced to +7 or as low as +2 in protection, depending on the die roll.
+Weapons in use by an opponent targeted by the spell are more difficult to grasp.
+You must succeed on a melee touch attack against the weapon.
+A metal weapon that is hit is destroyed.
+Note: Striking at an opponent's weapon provokes an attack of opportunity.
+Also, you must touch the weapon and not the other way around.
+Against a ferrous creature, rusting grasp instantaneously deals 3d6 points of damage +1 per caster level (maximum +15) per successful attack.
+The spell lasts for 1 round per level, and you can make one melee touch attack per round}}
+
+
+Transmute Mud to Rock(Player's Handbook v.3.5): - Blighter(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Transmute Mud to Rock](https://dndtools.net/spells/players-handbook-v35--6/transmute-mud-to-rock--2888/) }} {{School:= Transmutation  [Earth]}} {{Level:= **Blighter 4**, Druid 5, Sorcerer 5, Wizard 5, Sha'ir 5, UrbanDruid 5, Arcanist 5}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=Up to two 10-ft. cubes/level (S)}} {{Duration:=Permanent}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell transforms normal mud or quicksand of any depth into soft stone (sandstone or a similar mineral) permanently.
+Any creature in the mud is allowed a Reflex save to escape before the area is hardened to stone.
+Transmute mud to rock counters and dispels transmute rock to mud.
+Arcane Material Component: Sand, lime, and water}}
+
+
+Transmute Rock to Mud(Player's Handbook v.3.5): - Blighter(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Transmute Rock to Mud](https://dndtools.net/spells/players-handbook-v35--6/transmute-rock-to-mud--2889/) }} {{School:= Transmutation  [Earth]}} {{Level:= **Blighter 4**, Druid 5, Sorcerer 5, Wizard 5, Sha'ir 5, UrbanDruid 5, Slime 6, Arcanist 5}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=Up to two 10-ft. cubes/level (S)}} {{Duration:=Permanent; see text}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell turns natural, uncut or unworked rock of any sort into an equal volume of mud.
+If the spell is cast upon a boulder, for example, the boulder collapses into mud.
+Magical stone is not affected by the spell.
+The depth of the mud created cannot exceed 10 feet.
+A creature unable to levitate, fly, or otherwise free itself from the mud sinks until hip- or chest-deep, reducing its speed to 5 feet and causing a -2 penalty on attack rolls and AC.
+Brush thrown atop the mud can support creatures able to climb on top of it.
+Creatures large enough to walk on the bottom can wade through the area at a speed of 5 feet.
+If transmute rock to mud is cast upon the ceiling of a cavern or tunnel, the mud falls to the floor and spreads out in a pool at a depth of 5 feet.
+For example, a 10th-level caster could convert twenty 10-foot cubes into mud.
+Pooling on the floor, this mud would cover an area of forty 10-foot squares to a depth of 5 feet.
+The falling mud and the ensuing cave-in deal 8d6 points of bludgeoning damage to anyone caught directly beneath the area, or half damage to those who succeed on Reflex saves.
+Castles and large stone buildings are generally immune to the effect of the spell, since transmute rock to mud can't affect worked stone and doesn't reach deep enough to undermine such buildings' foundations.
+However, small buildings or structures often rest upon foundations shallow enough to be damaged or even partially toppled by this spell.
+The mud remains until a successful dispel magic or transmute mud to rock spell restores its substance&#8212;but not necessarily its form.
+Evaporation turns the mud to normal dirt over a period of days.
+The exact time depends on exposure to the sun, wind, and normal drainage.
+Arcane Material Component: Clay and water}}
+
+
+Unhallow(Player's Handbook v.3.5): - Blighter(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Unhallow](https://dndtools.net/spells/players-handbook-v35--6/unhallow--2656/) }} {{School:= Evocation  [Evil]}} {{Level:= **Blighter 4**, Cleric 5, Druid 5, UrbanDruid 5, DeathMaster 5, DreadNecromancer 5, DivineBard 6, Cloistered Cleric 5}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Area:=40-ft. radius emanating from the touched point}} {{Duration:=Instantaneous}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc4}+@{sf-Evocation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Unhallow makes a particular site, building, or structure an unholy site.
+This has three major effects.
+First, the site or structure is guarded by a magic circle against good effect.
+Second, all turning checks made to turn undead take a -4 penalty, and turning checks to rebuke undead gain a +4 profane bonus.
+Spell resistance does not apply to this effect.
+(This provision does not apply to the druid version of the spell).
+Finally, you may choose to fix a single spell effect to the unhallowed site.
+The spell effect lasts for one year and functions throughout the entire site, regardless of its normal duration and area or effect.
+You may designate whether the effect applies to all creatures, creatures that share your faith or alignment, or creatures that adhere to another faith or alignment.
+For example, you may create a bless effect that aids all creatures of like alignment or faith in the area, or a bane effect that hinders creatures of the opposite alignment or an enemy faith.
+At the end of the year, the chosen effect lapses, but it can be renewed or replaced simply by casting unhallow again.
+Spell effects that may be tied to an unhallowed site include aid, bane, bless, cause fear, darkness, daylight, death ward, deeper darkness, detect magic, detect good, dimensional anchor, discern lies, dispel magic, endure elements, freedom of movement,
+invisibility purge, protection from energy, remove fear, resist energy, silence, tongues, and zone of truth.
+Saving throws and spell resistance might apply to these spells' effects.
+(See the individual spell descriptions for details).
+An area can receive only one unhallow spell (and its associated spell effect) at a time.
+Unhallow counters but does not dispel hallow.
+Material Component:Herbs, oils, and incense worth at least 1,000 gp, plus 1,000 gp per level of the spell to be tied to the unhallowed area}}
+
+
+Wall of Fire(Player's Handbook v.3.5): - Blighter(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wall of Fire](https://dndtools.net/spells/players-handbook-v35--6/wall-of-fire--2658/) }} {{School:= Evocation  [Fire]}} {{Level:= **Blighter 4**, Sorcerer 4, Wizard 4, Warmage 4, Adept 4, NarDemonbinder 4, WuJen 4, Sha'ir 4, Druid 5, Fire 4, Arcanist 4}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Opaque sheet of flame up to 20 ft. long/level or a ring of fire with a radius of up to 5 ft. per two levels; either form 20 ft. high}} {{Duration:=Concentration + 1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An immobile, blazing curtain of shimmering violet fire springs into existence.
+One side of the wall, selected by you, sends forth waves of heat, dealing 2d4 points of fire damage to creatures within 10 feet and 1d4 points of fire damage to those past 10 feet but within 20 feet.
+The wall deals this damage when it appears and on your turn each round to all creatures in the area.
+In addition, the wall deals 2d6 points of fire damage +1 point of fire damage per caster level (maximum +20) to any creature passing through it.
+The wall deals double damage to undead creatures.
+If you evoke the wall so that it appears where creatures are, each creature takes damage as if passing through the wall.
+If any 5-foot length of wall takes 20 points of cold damage or more in 1 round, that length goes out.
+(Do not divide cold damage by 4, as normal for objects).
+Wall of fire can be made permanent with a permanency spell.
+A permanent wall of fire that is extinguished by cold damage becomes inactive for 10 minutes, then reforms at normal strength.
+Arcane Material Component: A small piece of phosphorus}}
+
+
+Antilife Shell(Player's Handbook v.3.5): - Blighter(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Antilife Shell](https://dndtools.net/spells/players-handbook-v35--6/antilife-shell--2300/) }} {{School:= Abjuration  }} {{Level:= **Blighter 5**, Cleric 6, Druid 6, DeathMaster 6, UrbanDruid 6, Animal 6, Cloistered Cleric 6}} {{Components:= V, S, DF}} {{Range:= 10 ft.}} {{Area:=10-ft.-radius emanation, centered on you}} {{Duration:=10 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You bring into being a mobile, hemispherical energy field that prevents the entrance of most types of living creatures. The effect hedges out animals, aberrations, dragons, fey, giants, humanoids, magical beasts, monstrous humanoids, oozes, plants, and vermin, but not constructs, elementals, outsiders, or undead.  See the **Monster Manual** for more about creature types.
+This spell may be used only defensively, not aggressively. Forcing an abjuration barrier against creatures that the spell keeps at bay collapses the barrier (see Abjuration, page 172)}}
+
+
+Create Undead(Player's Handbook v.3.5): - Blighter(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Create Undead](https://dndtools.net/spells/players-handbook-v35--6/create-undead--2724/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Blighter 5**, DeathMaster 5, Cleric 6, Sorcerer 6, Wizard 6, Sha'ir 6, DreadNecromancer 6, Death 6, Evil 6, Undeath 6, Cloistered Cleric 6, Arcanist 6}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One corpse}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A much more potent spell than animate dead, this evil spell allows you to create more powerful sorts of undead: ghouls, ghasts, mummies, and mohrgs (see the Monster Manual for more information on all types of undead). The type or types of undead you can create is based on your caster level, as shown on the table below.
+<table><tr><th>Caster Level </th><th>Undead Created </th></tr><tr><td> 11th or lower </td><td> Ghoul </td></tr><tr><td> 12th-14th </td><td> Ghast </td></tr><tr><td> 15th-17th </td><td> Mummy </td></tr><tr><td> 18th or higher </td><td> Mohrg</td></tr></table>You may create less powerful undead than your level would allow if you choose. For example, at 16th level you could decide to create a ghoul or a ghast instead of a mummy. Doing this may be a good idea, because created undead are not automatically under the control of their animator. If you are capable of commanding undead, you may attempt to command the undead creature as it forms (see Turn or Rebuke Undead, page 159).
+This spell must be cast at night.
+Material Component: A clay pot filled with grave dirt and another filled with brackish water. The spell must be cast on a dead body. You must place a black onyx gem worth at least 50 gp per HD of the undead to be created into the mouth or eye socket of each corpse. The magic of the spell turns these gems into worthless shells}}
+
+
+Forbiddance(Player's Handbook v.3.5): - Blighter(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Forbiddance](https://dndtools.net/spells/players-handbook-v35--6/forbiddance--2321/) }} {{School:= Abjuration  }} {{Level:= **Blighter 5**, Cleric 6, Wealth 6, Hatred 6, Pride 6, Cloistered Cleric 6}} {{Components:= V, S, M, DF}} {{Material Component:= A sprinkling of holy water and rare incenses worth at least 1,500 gp, plus 1,500 gp per 60-foot cube. If a password is desired, this requires the burning of additional rare incenses worth at least 1,000 gp, plus 1,000 gp per 60-foot cube}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=60-ft. cube/level (S)}} {{Duration:=Permanent}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc5}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Forbiddance** seals an area against all planar travel into or within it. This includes all teleportation spells (such as **dimension door** and **teleport**), plane shifting, astral travel, ethereal travel, and all summoning spells. Such effects simply fail automatically.
+In addition, it damages entering creatures whose alignments are different from yours. The effect on those attempting to enter the warded area is based on their alignment relative to yours (see below). A creature inside the area when the spell is cast takes no damage unless it exits the area and attempts to reenter, at which time it is affected as normal.
+**Alignments identical:** No effect. The creature may enter the area freely (although not by planar travel).
+**Alignments different with respect to either law/chaos or good/evil:** The creature takes 6d6 points of damage. A successful Will save halves the damage, and spell resistance applies. 
+**Alignments different with respect to both law/chaos and good/evil:** The creature takes 12d6 points of damage. A successful Will save halves the damage, and spell resistance applies.
+At your option, the abjuration can include a password, in which case creatures of alignments different from yours can avoid the damage by speaking the password as they enter the area. You must select this option (and the password) at the time of casting.
+**Dispel magic** does not dispel a **forbiddance** effect unless the dispeller's level is at least as high as your caster level.
+You can't have multiple overlapping **forbiddance** effects. In such a case, the more recent effect stops at the boundary of the older effect}}
+
+
+Repel Wood(Player's Handbook v.3.5): - Blighter(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Repel Wood](https://dndtools.net/spells/players-handbook-v35--6/repel-wood--2863/) }} {{School:= Transmutation  }} {{Level:= **Blighter 5**, Druid 6, UrbanDruid 6, Plant 6}} {{Components:= V, S}} {{Range:= 60 ft.}} {{Area:=60-ft. line-shaped emanation from you}} {{Duration:=1 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Waves of energy roll forth from you, moving in the direction that you determine, causing all wooden objects in the path of the spell to be pushed away from you to the limit of the range.
+Wooden objects larger than 3 inches in diameter that are fixed firmly are not affected, but loose objects are.
+Objects 3 inches in diameter or smaller that are fixed in place splinter and break, and the pieces move with the wave of energy.
+Objects affected by the spell are repelled at the rate of 40 feet per round.
+Objects such as wooden shields, spears, wooden weapon shafts and hafts, and arrows and bolts are pushed back, dragging those carrying them along.
+(A creature being dragged by an item it is carrying can let go.
+A creature being dragged by a shield can loose it as a move action and drop it as a free action).
+If a spear is planted (set) to prevent this forced movement, it splinters.
+Even magic items with wooden sections are repelled, although an antimagic field blocks the effects.
+The waves of energy continue to sweep down the set path for the spell's duration.
+After you cast the spell, the path is set, and you can then do other things or go elsewhere without affecting the spell's power}}
+
+
+Waves of Fatigue(Player's Handbook v.3.5): - Blighter(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Waves of Fatigue](https://dndtools.net/spells/players-handbook-v35--6/waves-of-fatigue--2771/) }} {{School:= Necromancy  }} {{Level:= **Blighter 5**, Sorcerer 5, Wizard 5, Duskblade 5, Sha'ir 5, DeathMaster 5, DreadNecromancer 5, Hades 6, Sloth 6, Arcanist 5}} {{Components:= V, S}} {{Range:= 30 ft.}} {{Area:=Cone-shaped burst}} {{Duration:=Instantaneous}} {{Savingthrow:=No }} {{Save DC:=[[@{spelldc5}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Waves of negative energy render all living creatures in the spell's area fatigued.
+This spell has no effect on a creature that is already fatigued}}
+
+
+Acid Fog(Player's Handbook v.3.5): - Blighter(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Acid Fog](https://dndtools.net/spells/players-handbook-v35--6/acid-fog--2372/) }} {{School:= Conjuration (Creation) [Acid]}} {{Level:= **Blighter 6**, Sorcerer 6, Wizard 6, Warmage 6, Sha'ir 6, DeathMaster 6, DreadNecromancer 6, Water 7, Arcanist 6}} {{Components:= V, S, M, DF}} {{Material Component:= A pinch of dried, powdered peas combined with powdered animal hoof.}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Fog spreads in 20-ft. radius, 20 ft. high}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Acid fog** creates a billowing mass of misty vapors similar to that produced by a **solid fog**spell.  In addition to slowing creatures down and obscuring sight, this spell's vapors are highly acidic.  Each round on your turn, starting when you cast the spell, the fog deals 2d6 points of acid damage to each creature and object within it}}
+
+
+Circle of Death(Player's Handbook v.3.5): - Blighter(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Circle of Death](https://dndtools.net/spells/players-handbook-v35--6/circle-of-death--2718/) }} {{School:= Necromancy  [Death]}} {{Level:= **Blighter 6**, Sorcerer 6, Wizard 6, Warmage 6, Sha'ir 6, DeathMaster 6, DreadNecromancer 6, Undeath 5, Arcanist 6}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=Several living creatures within a 40-ft.-radius burst}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc6}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A circle of death snuffs out the life force of living creatures, killing them instantly.
+The spell slays 1d4 HD worth of living creatures per caster level (maximum 20d4).
+Creatures with the fewest HD are affected first; among creatures with equal HD, those who are closest to the burst's point of origin are affected first.
+No creature of 9 or more HD can be affected, and Hit Dice that are not sufficient to affect a creature are wasted.
+Material Component: The powder of a crushed black pearl with a minimum value of 500 gp}}
+
+
+Dispel Magic, Greater(Player's Handbook v.3.5): - Blighter(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dispel Magic, Greater](https://dndtools.net/spells/players-handbook-v35--6/dispel-magic-greater--2316/) }} {{School:= Abjuration  }} {{Level:= **Blighter 6**, Trapsmith 3, Bard 5, DreadNecromancer 5, Sorcerer 6, UrbanDruid 6, DeathMaster 6, Sha'ir 6, WuJen 6, NarDemonbinder 6, Cleric 6, KnightoftheWeave 6, Druid 6, Wizard 6, Beguiler 6, Liberation 6, Cloistered Cleric 6, Arcanist 6}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/dispel-magic--2315/">**dispel magic**</a>, except that the maximum caster level on your dispel check is +20 instead of +10.
+Additionally, greater dispel magic has a chance to dispel any effect that remove curse can remove, even if dispel magic can't dispel that effect}}
+
+
+Finger of Death(Player's Handbook v.3.5): - Blighter(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Finger of Death](https://dndtools.net/spells/players-handbook-v35--6/finger-of-death--2737/) }} {{School:= Necromancy  [Death]}} {{Level:= **Blighter 6**, Sorcerer 7, Wizard 7, Warmage 7, Sha'ir 7, DeathMaster 7, DreadNecromancer 7, Druid 8, UrbanDruid 8, Blightbringer 6, Abyss 6, Arcanist 7}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc6}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can slay any one living creature within range.
+The target is entitled to a Fortitude saving throw to survive the attack.
+If the save is successful, the creature instead takes 3d6 points of damage +1 point per caster level (maximum +25).
+The subject might die from damage even if it succeeds on its saving throw}}
+
+
+Fire Seeds(Player's Handbook v.3.5): - Blighter(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fire Seeds](https://dndtools.net/spells/players-handbook-v35--6/fire-seeds--2392/) }} {{School:= Conjuration (Creation) [Fire]}} {{Level:= **Blighter 6**, Druid 6, Warmage 6, WuJen 6, Fire 6, Sun 6}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Up to four touched acorns or up to eight touched holly berries}} {{Duration:=10 min./level or until used}} {{Savingthrow:=None or Reflex half; see text }} {{Save DC:=[[@{spelldc6}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Depending on the version of fire seeds you choose, you turn acorns into splash weapons that you or another character can throw, or you turn holly berries into bombs that you can detonate on command.
+Acorn Grenades: As many as four acorns turn into special splash weapons that can be hurled as far as 100 feet.
+A ranged touch attack roll is required to strike the intended target.
+Together, the acorns are capable of dealing 1d6 points of fire damage per caster level (maximum 20d6), divided up among the acorns as you wish.
+For example, a 20th-level druid could create one 20d6 missile, two 10d6 missiles, one 11d6 and three 3d6 missiles, or any other combination totalling up to four acorns and 20d6 points of damage.
+Each acorn explodes upon striking any hard surface.
+In addition to its regular fire damage, it deals 1 point of splash damage per die, and it ignites any combustible materials within 10 feet.
+A creature within this area that makes a successful Reflex saving throw takes only half damage; a creature struck directly is not allowed a saving throw.
+Holly Berry Bombs: You turn as many as eight holly berries into special bombs.
+The holly berries are usually placed by hand, since they are too light to make effective thrown weapons (they can be tossed only 5 feet).
+If you are within 200 feet and speak a word of command, each berry instantly bursts into flame, causing 1d8 points of fire damage +1 point per caster level to every creature in a 5-foot-radius burst and igniting any combustible materials within 5 feet.
+A creature in the area that makes a successful Reflex saving throw takes only half damage.
+Material Component: The acorns or holly berries}}
+
+
+Harm(Player's Handbook v.3.5): - Blighter(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Harm](https://dndtools.net/spells/players-handbook-v35--6/harm--2741/) }} {{School:= Necromancy  }} {{Level:= **Blighter 6**, Cleric 6, DeathMaster 6, DreadNecromancer 6, Destruction 6, Abyss 6, Suffering 6, Cloistered Cleric 6}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Will half; see text }} {{Save DC:=[[@{spelldc6}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Harm charges a subject with negative energy that deals 10 points of damage per caster level (to a maximum of 150 points at 15th level).
+If the creature successfully saves, harm deals half this amount, but it cannot reduce the target's hit points to less than 1.
+If used on an undead creature, harm acts like heal}}
+
+
+Control Undead(Player's Handbook v.3.5): - Blighter(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Control Undead](https://dndtools.net/spells/players-handbook-v35--6/control-undead--2722/) }} {{School:= Necromancy  }} {{Level:= **Blighter 7**, DeathMaster 6, Sorcerer 7, Wizard 7, Sha'ir 7, DreadNecromancer 7, Undeath 7, Arcanist 7}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Up to 2 HD/level of undead creatures, no two of which can be more than 30 ft. apart}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc7}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell enables you to command undead creatures for a short period of time.
+You command them by voice and they understand you, no matter what language you speak.
+Even if vocal communication is impossible (in the area of a silence spell, for instance), the controlled undead do not attack you.
+At the end of the spell, the subjects revert to their normal behavior.
+Intelligent undead creatures remember that you controlled them.
+Material Component: A small piece of bone and a small piece of raw meat}}
+
+
+Control Weather(Player's Handbook v.3.5): - Blighter(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Control Weather](https://dndtools.net/spells/players-handbook-v35--6/control-weather--2797/) }} {{School:= Transmutation  }} {{Level:= **Blighter 7**, WuJen 6, Cleric 7, Druid 7, Sorcerer 7, Wizard 7, Sha'ir 7, UrbanDruid 7, Air 7, Storm 7, Cold 7, Winter 7, Elysium 7, Windstorm 7, Cloistered Cleric 7, Arcanist 7}} {{Components:= V, S}} {{Range:= 2 miles}} {{Area:=2-mile-radius circle, centered on you; see text}} {{Duration:=4d12 hours; see text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You change the weather in the local area.
+It takes 10 minutes to cast the spell and an additional 10 minutes for the effects to manifest.
+The current, natural weather conditions are determined by the DM.
+You can call forth weather appropriate to the climate and season of the area you are in.
+You control the general tendencies of the weather, such as the direction and intensity of the wind.
+You cannot control specific applications of the weather&#8212;
+where lightning strikes, for example, or the exact path of a tornado.
+When you select a certain weather condition to occur, the weather assumes that condition 10 minutes later (changing gradually, not abruptly).
+The weather continues as you left it for the duration, or until you use a standard action to designate a new kind of weather (which fully manifests itself 10 minutes later).
+Contradictory conditions are not possible simultaneously&#8212;fog and strong wind, for example.
+Control weather can do away with atmospheric phenomena (naturally occurring or otherwise) as well as create them.
+A druid casting this spell doubles the duration and affects a circle with a 3-mile radius}}
+
+
+Earthquake(Player's Handbook v.3.5): - Blighter(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Earthquake](https://dndtools.net/spells/players-handbook-v35--6/earthquake--2608/) }} {{School:= Evocation  [Earth]}} {{Level:= **Blighter 7**, Warmage 7, Cleric 8, Druid 8, WuJen 8, UrbanDruid 8, Earth 7, Destruction 8, Cavern 8, ReveredAncestor 8, Cloistered Cleric 8}} {{Components:= V, S, DF}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=80-ft.-radius spread (S)}} {{Duration:=1 round}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc7}+@{sf-Evocation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast earthquake, an intense but highly localized tremor rips the ground.
+The shock knocks creatures down, collapses structures, opens cracks in the ground, and more.
+The effect lasts for 1 round, during which time creatures on the ground can't move or attack.
+A spellcaster on the ground must make a Concentration check (DC 20 + spell level) or lose any spell he or she tries to cast.
+The earthquake affects all terrain, vegetation, structures, and creatures in the area.
+The specific effect of an earthquake spell depends on the nature of the terrain where it is cast.
+Cave, Cavern, or Tunnel: The spell collapses the roof, dealing 8d6 points of bludgeoning damage to any creature caught under the cave-in (Reflex DC 15 half ) and pinning that creature beneath the rubble (see below).
+An earthquake cast on the roof of a very large cavern could also endanger those outside the actual area but below the falling debris.
+Cliffs: Earthquake causes a cliff to crumble, creating a landslide that travels horizontally as far as it fell vertically.
+An earthquake cast at the top of a 100-foot cliff would sweep debris 100 feet outward from the base of the cliff.
+Any creature in the path takes 8d6 points of bludgeoning damage (Reflex DC 15 half ) and is pinned beneath the rubble (see below).
+Open Ground: Each creature standing in the area must make a DC 15 Reflex save or fall down.
+Fissures open in the earth, and every creature on the ground has a 25% chance to fall into one (Reflex DC 20 to avoid a fissure).
+At the end of the spell, all fissures grind shut, killing any creatures still trapped within.
+Structure: Any structure standing on open ground takes 100 points of damage, enough to collapse a typical wooden or masonry building, but not a structure built of stone or reinforced masonry.
+Hardness does not reduce this damage, nor is it halved as damage dealt to objects normally is (See the Dungeon Master's Guide for information on hit points for walls and the like).
+Any creature caught inside a collapsing structure takes 8d6 points of bludgeoning damage (Reflex DC 15 half ) and is pinned beneath the rubble (see below).
+River, Lake, or Marsh: Fissures open underneath the water, draining away the water from that area and forming muddy ground.
+Soggy marsh or swampland becomes quicksand for the duration of the spell, sucking down creatures and structures.
+Each creature in the area must make a DC 15 Reflex save or sink down in the mud and quicksand.
+At the end of the spell, the rest of the body of water rushes in to replace the drained water, possibly drowning those caught in the mud.
+Pinned beneath Rubble: Any creature pinned beneath rubble takes 1d6 points of nonlethal damage per minute while pinned.
+If a pinned character falls unconscious, he or she must make a DC 15 Constitution check or take 1d6 points of lethal damage each minute thereafter until freed or dead}}
+
+
+Fire Storm(Player's Handbook v.3.5): - Blighter(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fire Storm](https://dndtools.net/spells/players-handbook-v35--6/fire-storm--2611/) }} {{School:= Evocation  [Fire]}} {{Level:= **Blighter 7**, Druid 7, Warmage 7, NarDemonbinder 7, Cleric 8, Fire 7, Cloistered Cleric 8}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=Two 10-ft. cubes per level (S)}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex half }} {{Save DC:=[[@{spelldc7}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When a fire storm spell is cast, the whole area is shot through with sheets of roaring flame.
+The raging flames do not harm natural vegetation, ground cover, and any plant creatures in the area that you wish to exclude from damage.
+Any other creature within the area takes 1d6 points of fire damage per caster level (maximum 20d6)}}
+
+
+Repel Metal Or Stone(Player's Handbook v.3.5): - Blighter(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Repel Metal Or Stone](https://dndtools.net/spells/players-handbook-v35--6/repel-metal-or-stone--2354/) }} {{School:= Abjuration  [Earth]}} {{Level:= **Blighter 7**, Druid 8, WuJen 8, UrbanDruid 8, Metal 9}} {{Components:= V, S}} {{Range:= 60 ft.}} {{Area:=60-ft. line from you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Like repel wood, this spell creates waves of invisible and intangible energy that roll forth from you.
+All metal or stone objects in the path of the spell are pushed away from you to the limit of the range.
+Fixed metal or stone objects larger than 3 inches in diameter and loose objects weighing more than 500 pounds are not affected.
+Anything else, including animated objects, small boulders, and creatures in metal armor, moves back.
+Fixed objects 3 inches in diameter or smaller bend or break, and the pieces move with the wave of energy.
+Objects affected by the spell are repelled at the rate of 40 feet per round.
+Objects such as metal armor, swords, and the like are pushed back, dragging their bearers with them.
+Even magic items with metal components are repelled, although an antimagic field blocks the effects.
+The waves of energy continue to sweep down the set path for the spell's duration.
+After you cast the spell, the path is set, and you can then do other things or go elsewhere without affecting the spell's
+power}}
+
+
+Repulsion(Player's Handbook v.3.5): - Blighter(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Repulsion](https://dndtools.net/spells/players-handbook-v35--6/repulsion--2356/) }} {{School:= Abjuration  }} {{Level:= **Blighter 7**, Sorcerer 6, Wizard 6, Beguiler 6, WuJen 6, Sha'ir 6, Cleric 7, Healer 7, DeathMaster 7, Force 6, Protection 7, Baator 7, Nobility 7, Cloistered Cleric 7, Arcanist 6}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A pair of small iron bars attached to two small canine statuettes, one black and one white, the whole array worth 50 gp}} {{Range:= Up to 10 ft./level}} {{Area:=Up to 10-ft.-radius/level emanation centered on you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc7}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An invisible, mobile field surrounds you and prevents creatures from approaching you.
+You decide how big the field is at the time of casting (to the limit your level allows).
+Any creature within or entering the field must attempt a save.
+If it fails, it becomes unable to move toward you for the duration of the spell.
+Repelled creatures' actions are not otherwise restricted.
+They can fight other creatures and can cast spells and attack you with ranged weapons.
+If you move closer to an affected creature, nothing happens.
+(The creature is not forced back).
+The creature is free to make melee attacks against you if you come within reach.
+If a repelled creature moves away from you and then tries to turn back toward you, it cannot move any closer if it is still within the spell's area}}
+
+
+Horrid Wilting(Player's Handbook v.3.5): - Blighter(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Horrid Wilting](https://dndtools.net/spells/players-handbook-v35--6/horrid-wilting--2742/) }} {{School:= Necromancy  }} {{Level:= **Blighter 8**, Sorcerer 8, Wizard 8, Warmage 8, WuJen 8, Sha'ir 8, DreadNecromancer 8, Water 8, Thirst 8, Blightbringer 8, Pestilence 8, Suffering 9, Arcanist 8}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Target:=Living creatures, no two of which can be more than 60 ft. apart}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude half }} {{Save DC:=[[@{spelldc8}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell evaporates moisture from the body of each subject living creature, dealing 1d6 points of damage per caster level (maximum 20d6). This spell is especially devastating to water elementals and plant creatures, which instead take 1d8 points of damage per caster level (maximum 20d8).
+**Arcane Material Component:** A bit of sponge}}
+
+
+Mind Blank(Player's Handbook v.3.5): - Blighter(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mind Blank](https://dndtools.net/spells/players-handbook-v35--6/mind-blank--2338/) }} {{School:= Abjuration  }} {{Level:= **Blighter 8**, Sorcerer 8, Wizard 8, Beguiler 8, WuJen 8, Sha'ir 8, DeathMaster 8, Protection 8, Arborea 8, Fate 8, Liberation 8, Mentalism 8, Mind 8, Trade 8, Arcanist 8}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=24 hours}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc8}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject is protected from all devices and spells that detect, influence, or read emotions or thoughts.
+This spell protects against all mind-affecting spells and effects as well as information gathering by divination spells or effects.
+Mind blank even foils limited wish, miracle, and wish spells when they are used in such a way as to affect the subject's mind or to gain information about it.
+In the case of scrying that scans an area the creature is in, such as arcane eye, the spell works but the creature simply isn't detected.
+Scrying attempts that are targeted specifically at the subject do not work at all}}
+
+
+Shambler(Player's Handbook v.3.5): - Blighter(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shambler](https://dndtools.net/spells/players-handbook-v35--6/shambler--2435/) }} {{School:= Conjuration (Creation) }} {{Level:= **Blighter 8**, Druid 9, Plant 9}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Three or more shambling mounds, no two of which can be more than 30 ft. apart; see text}} {{Duration:=Seven days or seven months (D); see text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The shambler spell creates 1d4+2 shambling mounds with 11 HD each.
+(See the Monster Manual for details about shambling mounds).
+The creatures willingly aid you in combat or battle, perform a specific mission, or serve as bodyguards.
+The creatures remain with you for seven days unless you dismiss them.
+If the shamblers are created only for guard duty, however, the duration of the spell is seven months.
+In this case, the shamblers can only be ordered to guard a specific site or location.
+Shamblers summoned to guard duty cannot move outside the spell's range, which is measured from the point where each first appeared.
+The shamblers have resistance to fire as normal shambling mounds do only if the terrain is rainy, marshy, or damp}}
+
+
+Waves of Exhaustion(Player's Handbook v.3.5): - Blighter(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Waves of Exhaustion](https://dndtools.net/spells/players-handbook-v35--6/waves-of-exhaustion--2770/) }} {{School:= Necromancy  }} {{Level:= **Blighter 8**, DreadNecromancer 6, Sorcerer 7, Wizard 7, Warmage 7, Sha'ir 7, DeathMaster 7, Hades 8, Sloth 8, Arcanist 7}} {{Components:= V, S}} {{Range:= 60 ft.}} {{Area:=Cone-shaped burst}} {{Duration:=Instantaneous}} {{Savingthrow:=No }} {{Save DC:=[[@{spelldc8}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Waves of negative energy cause all living creatures in the spell's area to become exhausted.
+This spell has no effect on a creature that is already exhausted}}
+
+
+Antipathy(Player's Handbook v.3.5): - Blighter(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Antipathy](https://dndtools.net/spells/players-handbook-v35--6/antipathy--2526/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Blighter 9**, Sorcerer 8, Wizard 8, WuJen 8, Sha'ir 8, DeathMaster 8, Druid 9, UrbanDruid 9, Mentalism 7, Hatred 8, Wealth 9, Elf 9, Arcanist 8}} {{Components:= V, S, M, DF}} {{Material Component:= A lump of alum soaked in vinegar}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One location (up to a 10-ft. cube/level) or one object}} {{Duration:=2 hours/level (D)}} {{Savingthrow:=Will partial }} {{Save DC:=[[@{spelldc9}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You cause an object or location to emanate magical vibrations that repel either a specific kind of   intelligent creature or creatures of a particular alignment, as defined by you.  The kind of creature to be affected must be named specifically&#8212;for example, red dragons, hill giants, wererats, lammasus, cloakers, or vampires.  A creature subtype (such as goblinoid) is not specific enough.  Likewise, the specific alignment to be repelled must be named&#8212;for example, chaotic evil, chaotic good, lawful neutral, or neutral.
+Creatures of the designated kind or alignment feel an overpowering urge to leave the area or to avoid the affected item. A compulsion forces them to abandon the area or item, shunning it and never willingly returning to it while the spell is in effect.  A creature that makes a successful saving throw can stay in the area or touch the item but feels uncomfortable doing so.  This distracting discomfort reduces the creature's Dexterity score by 4 points.
+**Antipathy** counters and dispels **sympathy**}}
+
+
+Foresight(Player's Handbook v.3.5): - Blighter(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Foresight](https://dndtools.net/spells/players-handbook-v35--6/foresight--2500/) }} {{School:= Divination  }} {{Level:= **Blighter 9**, Druid 9, Sorcerer 9, Wizard 9, Healer 9, Beguiler 9, Sha'ir 9, UrbanDruid 9, DeathMaster 9, Time 8, Knowledge 9, Oracle 9, Celestia 9, Fate 9, Halfling 9, Arcanist 9}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Personal or touch}} {{Target:=See text}} {{Duration:=10 min./level}} {{Savingthrow:=None or Will negates (harmless) }} {{Save DC:=[[@{spelldc9}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell grants you a powerful sixth sense in relation to yourself or another.
+Once foresight is cast, you receive instantaneous warnings of impending danger or harm to the subject of the spell.
+Thus, if you are the subject of the spell, you would be warned in advance if a rogue were about to attempt a sneak attack on you, or if a creature were about to leap out from a hiding place, or if an attacker were specifically targeting you with a spell or ranged weapon.
+You are never surprised or flat-footed.
+In addition, the spell gives you a general idea of what action you might take to best protect yourself&#8212;duck, jump right, close your eyes, and so on&#8212;and gives you a +2 insight bonus to AC and Reflex saves.
+This insight bonus is lost whenever you would lose a Dexterity bonus to AC.
+When another creature is the subject of the spell, you receive warnings about that creature.
+You must communicate what you learn to the other creature for the warning to be useful, and the creature can be caught unprepared in the absence of such a warning.
+Shouting a warning, yanking a person back, and even telepathically communicating (via an appropriate spell) can all be accomplished before some danger befalls the subject, provided you act on the warning without delay.
+The subject, however, does not gain the insight bonus to AC and Reflex saves.
+Arcane Material Component: A hummingbird's feather}}
+
+
+Implosion(Player's Handbook v.3.5): - Blighter(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Implosion](https://dndtools.net/spells/players-handbook-v35--6/implosion--2626/) }} {{School:= Evocation  }} {{Level:= **Blighter 9**, Cleric 9, Warmage 9, DeathMaster 9, Destruction 9, Abyss 9, Slime 9, Cloistered Cleric 9}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One corporeal creature/round}} {{Duration:=Concentration (up to 4 rounds)}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc9}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create a destructive resonance in a corporeal creature's body.
+For each round you concentrate, you cause one creature to collapse in on itself, killing it.
+(This effect, being instantaneous, cannot be dispelled).
+You can target a particular creature only once with each casting of the spell.
+Implosion has no effect on creatures in gaseous form or on incorporeal creatures}}
+
+
+Incendiary Cloud(Player's Handbook v.3.5): - Blighter(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Incendiary Cloud](https://dndtools.net/spells/players-handbook-v35--6/incendiary-cloud--2401/) }} {{School:= Conjuration (Creation) [Fire]}} {{Level:= **Blighter 9**, Sorcerer 8, Wizard 8, Warmage 8, WuJen 8, Sha'ir 8, Fire 8, Arcanist 8}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Cloud spreads in 20-ft. radius, 20 ft. high}} {{Duration:=1 round/level}} {{Savingthrow:=Reflex half; see text }} {{Save DC:=[[@{spelldc9}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An incendiary cloud spell creates a cloud of roiling smoke shot through with white-hot embers.
+The smoke obscures all sight as a fog cloud does.
+In addition, the white-hot embers within the cloud deal 4d6 points of fire damage to everything within the cloud on your turn each round.
+All targets can make Reflex saves each round to take half damage.
+As with a cloudkill spell, the smoke moves away from you at 10 feet per round.
+Figure out the smoke's new spread each round based on its new point of origin, which is 10 feet farther away from where you were when you cast the spell.
+By concentrating, you can make the cloud (actually its point of origin) move as much as 60 feet each round.
+Any portion of the cloud that would extend beyond your maximum range dissipates harmlessly, reducing the remainder's spread thereafter.
+As with fog cloud, wind disperses the smoke, and the spell can't be cast underwater}}
+
+
+Storm of Vengeance(Player's Handbook v.3.5): - Blighter(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Storm of Vengeance](https://dndtools.net/spells/players-handbook-v35--6/storm-of-vengeance--2439/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Blighter 9**, Druid 9, Cleric 9, UrbanDruid 9, Storm 9, Nobility 9, Retribution 9, Wrath(BE) 9, Wrath(SpC) 9, Cloistered Cleric 9}} {{Components:= V, S}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Effect:=360-ft.-radius storm cloud}} {{Duration:=Concentration (maximum 10 rounds) (D)}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc9}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates an enormous black storm cloud.
+Lightning and crashing claps of thunder appear within the storm.
+Each creature beneath the cloud must succeed on a Fortitude save or be deafened for 1d4&#215;10 minutes.
+If you do not maintain concentration on the spell after casting it, the spell ends.
+If you continue to concentrate, the spell generates additional effects in each following round, as noted below.
+Each effect occurs during your turn.
+2nd Round: Acid rains down in the area, dealing 1d6 points of acid damage (no save).
+3rd Round: You call six bolts of lightning down from the cloud.
+You decide where the bolts strike.
+No two bolts may be directed at the same target.
+Each bolt deals 10d6 points of electricity damage.
+A creature struck can attempt a Reflex save for half damage.
+4th Round:Hailstones rain down in the area, dealing 5d6 points of bludgeoning damage (no save).
+5th through 10th Rounds: Violent rain and wind gusts reduce visibility.
+The rain obscures all sight, including darkvision, beyond 5 feet.
+A creature 5 feet away has concealment (attacks have a 20% miss chance).
+Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target).
+Speed is reduced by three-quarters.
+Ranged attacks within the area of the storm are impossible.
+Spells cast within the area are disrupted unless the caster succeeds on a Concentration check against a DC equal to the storm of vengeance's save DC + the level of the spell the caster is trying to cast}}

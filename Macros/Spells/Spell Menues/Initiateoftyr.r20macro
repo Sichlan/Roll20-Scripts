@@ -1,0 +1,5 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;4:=[View](~Initiateoftyr-Spell-Level-4)}} {{Spelllevel&nbsp;6:=[View](~Initiateoftyr-Spell-Level-6)}} 
+
+[4, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 4 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateoftyr)}} {{Sword and Hammer:=[View](~Initiateoftyr-Sword-and-Hammer-Description) [Send](~Initiateoftyr-Sword-and-Hammer-Cast)}} ]
+[6, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 6 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateoftyr)}} {{Sword and Hammer, Greater:=[View](~Initiateoftyr-Sword-and-Hammer,-Greater-Description) [Send](~Initiateoftyr-Sword-and-Hammer,-Greater-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

@@ -1,0 +1,1 @@
+&{template:DnD35StdRoll} {{name=Pronounciation Check }} {{skillflag=true}} {{check=Successfull?:}} {{checkroll= [[ { { [[1d20+151]],0 }>[[15+2*@{target|hitdie} +?{Self?|Yes,-4|No,0}+?{Utterance DC?|0}]]}*([[1]]) ]]}}

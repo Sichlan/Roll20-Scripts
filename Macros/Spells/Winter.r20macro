@@ -1,0 +1,76 @@
+
+
+Snowsight(Frostburn): - Winter(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Snowsight](https://dndtools.net/spells/frostburn--68/snowsight--1325/) }} {{School:= Transmutation  }} {{Level:= **Winter 1**, Druid 1, Ranger 1}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 hour/level}} {{Savingthrow:=None (harmless)}}  {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject gains the ability to see to the normal limits of its vision even in whiteout conditions, and ignores all penalties due to snow glare and snow blindness.
+Snowsight is no better than normal vision.
+During daylight, this usually means the subject can see to the horizon; at night, vision is restricted to ambient light or darkvision as appropriate for the subject creature.
+Snowsight does not grant creatures the ability to see in darkness}}
+
+
+Snow Walk(Frostburn): - Winter(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Snow Walk](https://dndtools.net/spells/frostburn--68/snow-walk--1323/) }} {{School:= Transmutation  }} {{Level:= **Winter 2**, Druid 2, Ranger 2}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=One creature/level touched}} {{Duration:=10 min./level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subjects can walk on top of snow rather than through it, avoiding the usual movement penalties and leaving neither footprints nor scent.
+Tracking the subject is impossible by nonmagical means, and the gliding along the surface of the snow adds 10 feet to the target creature's land speed.
+(This adjustment is treated as an enhancement bonus)}}
+
+
+Ice Storm(Player's Handbook v.3.5): - Winter(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Ice Storm](https://dndtools.net/spells/players-handbook-v35--6/ice-storm--2624/) }} {{School:= Evocation  [Cold]}} {{Level:= **Winter 4**, Warmage 3, Druid 4, Sorcerer 4, Wizard 4, WuJen 4, Sha'ir 4, DeathMaster 4, Savant 4, DiscipleofThrym 5, Cold 4, Windstorm 4, Water 5, Storm 5, Arcanist 4}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=Cylinder (20-ft. radius, 40 ft. high)}} {{Duration:=1 full round}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Great magical hailstones pound down for 1 full round, dealing 3d6 points of bludgeoning damage and 2d6 points of cold damage to every creature in the area. A -4 penalty applies to each Listen check made within the ice storm's effect, and all land movement within its area is at half speed. At the end of the duration, the hail disappears, leaving no aftereffects (other than the damage dealt).
+**Arcane Material Component**: A pinch of dust and a few drops of water}}
+
+
+Blizzard(Frostburn): - Winter(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Blizzard](https://dndtools.net/spells/frostburn--68/blizzard--1300/) }} {{School:= Transmutation  [Cold]}} {{Level:= **Winter 5**, Druid 5}} {{Components:= V, S}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=100 ft.-radius/level spread}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc5}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Immediately upon completion of this spell, the temperature drops to below freezing and a powerful blizzard erupts in the area.
+Visibility is reduced to zero, making Spot, Search, and Listen checks and all ranged attacks impossible.
+Unprotected flames are automatically extinguished and protected flames have a 75% chance of being doused.
+Creatures unprotected from the cold must make a Fortitude save or take 1d6 points of nonlethal cold damage.
+One foot of new snow falls each round.
+Movement within the area is impeded, depending on the creature's size and depth of snow (for movement in a snow field, see page 12)}}
+
+
+Death Hail(Frostburn): - Winter(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Death Hail](https://dndtools.net/spells/frostburn--68/death-hail--1248/) }} {{School:= Conjuration (Creation) [Cold][Death]}} {{Level:= **Winter 6**, Druid 6}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=Cylinder (40-ft radius, 20 ft. high)}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude half }} {{Save DC:=[[@{spelldc6}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You call into being an intense storm of death hail in the area you designate.
+Creatures in the area must succeed on a Fortitude save or take 1d2 points of Strength and Constitution damage}}
+
+
+Control Weather(Player's Handbook v.3.5): - Winter(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Control Weather](https://dndtools.net/spells/players-handbook-v35--6/control-weather--2797/) }} {{School:= Transmutation  }} {{Level:= **Winter 7**, WuJen 6, Cleric 7, Druid 7, Sorcerer 7, Wizard 7, Blighter 7, Sha'ir 7, UrbanDruid 7, Air 7, Storm 7, Cold 7, Elysium 7, Windstorm 7, Cloistered Cleric 7, Arcanist 7}} {{Components:= V, S}} {{Range:= 2 miles}} {{Area:=2-mile-radius circle, centered on you; see text}} {{Duration:=4d12 hours; see text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You change the weather in the local area.
+It takes 10 minutes to cast the spell and an additional 10 minutes for the effects to manifest.
+The current, natural weather conditions are determined by the DM.
+You can call forth weather appropriate to the climate and season of the area you are in.
+You control the general tendencies of the weather, such as the direction and intensity of the wind.
+You cannot control specific applications of the weather&#8212;
+where lightning strikes, for example, or the exact path of a tornado.
+When you select a certain weather condition to occur, the weather assumes that condition 10 minutes later (changing gradually, not abruptly).
+The weather continues as you left it for the duration, or until you use a standard action to designate a new kind of weather (which fully manifests itself 10 minutes later).
+Contradictory conditions are not possible simultaneously&#8212;fog and strong wind, for example.
+Control weather can do away with atmospheric phenomena (naturally occurring or otherwise) as well as create them.
+A druid casting this spell doubles the duration and affects a circle with a 3-mile radius}}
+
+
+Summon Giants(Frostburn): - Winter(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Summon Giants](https://dndtools.net/spells/frostburn--68/summon-giants--1262/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Winter 8**, DiscipleofThrym 4, Cleric 8, Cloistered Cleric 8}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A lock of hair from a giant of the desired kind}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One or more summoned creatures}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You summon one or more giants that attack your enemies.
+They appear where you designate and act immediately, on your turn.
+The giants attack your opponents to the best of their ability.
+If you speak Giant, you can direct the giants not to attack, to attack particular enemies, or to perform other actions.
+Summoned giants act normally on the last round of the spell and disappear at the end of their turn.
+Choose a giant kind from the table below}}
+
+
+Fimbulwinter(Frostburn): - Winter(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Fimbulwinter](https://dndtools.net/spells/frostburn--68/fimbulwinter--1306/) }} {{School:= Transmutation  [Cold]}} {{Level:= **Winter 9**, Druid 8, Sorcerer 8, Wizard 8, Cleric 9, Cloistered Cleric 9, Arcanist 8}} {{Components:= V, S, XP}} {{XP-Cost= 100 XP}} {{Range:= 1 mile/level}} {{Area:=1 mile/level radius, centered on you}} {{Duration:=4d12 weeks}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You change the weather to a state of permanent winter, or strengthen winter conditions already present. It takes 10 minutes to cast the spell and an additional 10 minutes for the effects to manifest themselves. The current, natural weather conditions are determined by the DM. You then choose what wintry conditions you want to manifest; the strength of the winter depends on the existing climate and season of the area.
+Season - Possible Weather
+Spring - Frequent snowfall, nightly frost
+Summer - Light snow, hailstorms, cold rain, cloudy
+Autumn - Frequent snowfall, frost
+Winter - Frigid cold, blizzard, and constant snowfall
+Daily wind and snowfall during a fimbulwinter are determined using the table below. 
+Add +8 to the roll when cast during winter, 
++4 in spring or autumn, 
+-2 in summer, 
++2 for a cold climate, 
++2 for temperate climate, and 
+-6 for hot climate. 
+Roll separately for wind and snow. The snow and wind shown are the maximum possible for the day; at your option, there can be less wind or snow.
+D20 Roll - Amount of Snowfall - Amount of Wind
+0 or less - [[1d12]] inches of snowfall melt - Weak (0-10 mph)
+1 - 5 </td><td> No new snow </td><td> Weak (0?10 mph) </td></tr><tr><td> 6&#8212;10 </td><td> 1d4?1 inches snow </td><td> Moderate (11+ mph) </td></tr><tr><td> 11&#8212;15 </td><td> 1d8 inches snow or 1 inch hail </td><td> Moderate (11+ mph) </td></tr><tr><td> 16&#8212;20 </td><td> 1d12 inches snow </td><td> Strong (21+ mph) </td></tr><tr><td> 21&#8212;25 </td><td> 2d12+4 inches snow </td><td> Strong (21+ mph) </td></tr><tr><td> 26+ </td><td> 1d6+1 feet of snow </td><td> Very strong (31+ mph) </td></tr></table>You control the general tendencies of the weather, such as the direction and intensity of the wind. When you select a certain weather condition to occur, the weather assumes that condition 10 minutes later (changing gradually, not abruptly). The weather continues as you left it for the duration, or until you use a standard action to designate a new kind of weather (which fully manifests itself 10 minutes later)}}

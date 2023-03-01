@@ -1,0 +1,705 @@
+
+
+Blade of Blood(Player's Handbook II): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blade of Blood](https://dndtools.net/spells/players-handbook-ii--80/blade-of-blood--2991/) }} {{School:= Necromancy  }} {{Level:= **Blackguard 1**, Assassin 1, Cleric 1, Duskblade 1, Sorcerer 1, Wizard 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Weapon touched}} {{Duration:=1 round/level or until discharged}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Red blood erupts along the weapon's blade, bludgeon, or point.
+The blood drips to spatter in thick, viscous drops upon the ground.
+This spell infuses the weapon touched with baleful energy.
+The next time this weapon strikes a living creature, blade of blood discharges.
+The spell deals an extra 1d6 points of damage against the target of the attack.
+You can voluntarily take 5 hit points of damage to empower the weapon to deal an extra 2d6 points of damage (for a total of 3d6 points of extra damage).
+The weapon loses this property if its wielder drops it or otherwise loses contact with it}}
+
+
+Blessed Aim(Spell Compendium): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blessed Aim](https://dndtools.net/spells/spell-compendium--86/blessed-aim--3941/) }} {{School:= Divination  }} {{Level:= **Blackguard 1**, Cleric 1, Paladin 1, Cloistered Cleric 1}} {{Components:= V, S}} {{Range:= 50 ft.}} {{Effect:=50-ft.-radius spread centered on you}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc1}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**With the blessing of your deity, you bolster your allies' aim with an exhortation.**
+This spell grants your allies within the spread a +2 morale bonus on ranged attack rolls}}
+
+
+Boneblast(Book of Vile Darkness): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Boneblast](https://dndtools.net/spells/book-of-vile-darkness--37/boneblast--200/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Blackguard 1**, Cleric 2, Cloistered Cleric 2}} {{Components:= V, S, M, Undead}} {{Material Component:= The bone of a small child that still lives}} {{Range:= Touch}} {{Target:=One creature that has a skeleton}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude half or Fortitude negates (see text) }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster causes some bone within a touched creature to break or crack.
+The caster cannot specify which bone.
+Because the damage is general rather than specific, the target takes 1d3 points of Constitution damage.
+A Fortitude save reduces the Constitution damage by half,
+or negates it if the full damage would have been 1 point of Constitution damage}}
+
+
+Corrupt Weapon(Dungeon Master's Guide v.3.5): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Corrupt Weapon](https://dndtools.net/spells/dungeon-masters-guide-v35--4/corrupt-weapon--3775/) }} {{School:= Transmutation  }} {{Level:= **Blackguard 1**}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Weapon touched}} {{Duration:=1 min./level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This transmutation makes a weapon strike true against good foes.  The weapon is treated as having a +1 enhancement bonus for the purpose of bypassing the damage reduction of good creatures or striking good incorporeal creatures (though the spell doesn't grant an actual enhancement bonus). The weapon also becomes evil, which means it can bypass the damage reduction of certain creatures, particularly good outsiders. (This effect overrides and suppresses any other alignment the weapon might have).  Individual arrows or bolts can be transmuted, but affected projectile weapons (such as bows) don't confer the benefit to the projectiles they shoot.
+In addition, all critical hit rolls against good foes are automatically successful, so every threat is a critical hit.  This last effect does not apply to any weapon that already has a magical effect related to critical hits, such as a keen weapon or a vorpal sword}}
+
+
+Death Grimace(Book of Vile Darkness): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Death Grimace](https://dndtools.net/spells/book-of-vile-darkness--37/death-grimace--205/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Blackguard 1**, Assassin 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= S}} {{Range:= Touch}} {{Target:=One corpse}} {{Duration:=Permanent}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster marks a corpse with a particular magical &quot;signature&quot;, thus identifying himself (truthfully or falsely) as the murderer.
+Some assassins use this signature as a sort of calling card, while others use it as a way to prove that they earned their pay.
+The signature can take many forms: a specific expression on the face of the corpse (hence the name of the spell), an actual rune, a word written on the corpse's flesh, a discoloration of one eye, and so on}}
+
+
+Demonflesh(Fiendish Codex I: Hordes of the Abyss): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Demonflesh](https://dndtools.net/spells/fiendish-codex-i-hordes-of-the-abyss--66/demonflesh--1161/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 1**, Demonologist 1, Demonic 1}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your flesh becomes thick and leathery like a demon's.
+This spell grants you a +1 enhancement bonus to your natural armor for every five caster levels you possess (minimum +1, maximum +4).
+A creature without natural armor has an effective natural armor bonus of +0}}
+
+
+Detect Incarnum(Magic of Incarnum): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Detect Incarnum](https://dndtools.net/spells/magic-of-incarnum--74/detect-incarnum--1825/) }} {{School:= Divination  }} {{Level:= **Blackguard 1**, Bard 1, Cleric 1, Paladin 1, Sorcerer 1, Wizard 1, Incarnum 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, DF}} {{Range:= 60 ft.}} {{Area:=Cone-shaped emanation}} {{Duration:=Concentration, up to 10 min./level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can sense the presence of incarnum.
+The amount of information revealed depends on how long you study a particular area or subject.
+1st Round: Presence or absence of incarnum (including creatures with the incarnum subtype, soulmelds, or magic items invested with essentia).
+2nd Round:Number of incarnum auras (soulmelds, creatures with the incarnum subtype, and so on) in the area and the power of the most potent aura present (see the table).
+3rd Round: The power and location of each aura.
+If an aura is outside your line of sight, you can discern its
+direction but not its exact location.
+The power of an incarnum aura depends on the type of creature or object that you're detecting and its Hit Dice or caster level, as shown on the table.
+If an aura falls into more than one strength category, the spell indicates the stronger of the two}}
+
+
+Devastating Smite(The Forge of War): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Devastating Smite](https://dndtools.net/spells/forge-war--105/devastating-smite--3546/) }} {{School:= Transmutation  }} {{Level:= **Blackguard 1**, Cleric 1, Paladin 1, Cloistered Cleric 1}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 round or until discharged; see text}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The next smite attack made by the subject deals double its normal smite damage. For instance, a 9th-level paladin normally deals an extra 9 points of damage with her smite evil ability. Under the effect of this spell, she would deal an extra 18 points of damage. The spell applies to only one smite attack; if that attack misses, the spell is lost without effect}}
+
+
+Distort Weapon(Book of Vile Darkness): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Distort Weapon](https://dndtools.net/spells/book-of-vile-darkness--37/distort-weapon--242/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 1**}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Weapon touched}} {{Duration:=1 minute/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell makes a weapon strike true against good foes. Any threat of a critical hit against a good foe is automatically confirmed, without a roll. The weapon can also harm good creatures that have damage reduction, as if the weapon had a +1 enhancement bonus. 
+Individual arrows or bolts can be altered, but altered projectile weapons (such as bows) don't confer the benefit to the projectiles they shoot. 
+This spell has no effect on any magic weapon that already has a special ability related to critical hits, such as a keen or vorpal weapon}}
+
+
+Divine Sacrifice(Spell Compendium): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Divine Sacrifice](https://dndtools.net/spells/spell-compendium--86/divine-sacrifice--4410/) }} {{School:= Evocation  }} {{Level:= **Blackguard 1**, Paladin 1, ChampionofGwynharwyf 1}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Giving up some of your life force to win the battle, you empower your next blow against your foe.**
+Your first attack each round for the duration of the spell deals an extra 5d6 points of damage if it hits, and you take 10 points of damage each time you make such an attack, whether or not the attack is successful}}
+
+
+Faith healing(Spell Compendium): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Faith healing](https://dndtools.net/spells/spell-compendium--86/faith-healing--4473/) }} {{School:= Conjuration (Healing) }} {{Level:= **Blackguard 1**, Cleric 1, Paladin 1, Cloistered Cleric 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Will half (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You place your hands on your loyal acolyte and blue-silver radiance discharges from your hands. The horrendous wounds across his chest heal, leaving no scar.**
+When laying your hand upon a living creature, you channel positive energy that cures 8 points of damage +1 point per caster level (up to +5). The spell works only on a creature that worships the same deity as you. A target with no deity or a different deity from yours is unaffected by the spell, even if the target would normally be harmed by positive energy}}
+
+
+Faith Healing(Magic of Faerun): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Faith Healing](https://dndtools.net/spells/magic-of-faerun--20/faith-healing--1612/) }} {{School:= Conjuration (Healing) }} {{Level:= **Blackguard 1**, Cleric 1, Paladin 1, Cloistered Cleric 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Will half (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When laying your hand upon a living creature, you channel positive energy that cures 8 points of damage +1 point per caster level (up to +5).
+The spell only works on a creature with the same patron as you.
+A target with no patron or a different patron than you is unaffected by the spell, even if the target would normally be harmed by positive energy}}
+
+
+False Peacebond(CityScape): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [False Peacebond](https://dndtools.net/spells/cityscape--53/false-peacebond--359/) }} {{School:= Transmutation  }} {{Level:= **Blackguard 1**, Assassin 1, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The weapon glows with a faint aura.
+For just a moment, your companion shimmers to match, before the light fades.
+This spell functions as peacebond (see the facing page), except that you can choose a single individual who can draw the weapon freely.
+This individual might be yourself, or anyone else present at the time of casting.
+Once this individual draws the weapon, the false peacebond
+effect ends; resheathing the weapon does not reactivate the spell}}
+
+
+Golden Barding(Spell Compendium): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Golden Barding](https://dndtools.net/spells/spell-compendium--86/golden-barding--4555/) }} {{School:= Conjuration (Creation) }} {{Level:= **Blackguard 1**, Paladin 1}} {{Components:= V, DF}} {{Range:= Touch}} {{Target:=Special mount touched}} {{Duration:=1 hour/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**With a flash, a glowing, golden suit of barding for your special mount appears.**
+You create a suit of barding for your mount to wear. The armor appears on your mount, fitting perfectly. The golden barding you create has no armor check penalty and has no effect on your mount's speed. The exact nature of the barding depends on your caster level.
+**2nd&#8212;3rd:** Scale mail barding (+4 armor bonus).
+**4th&#8212;5th:** Chainmail barding (+5).
+**6th&#8212;7th:** Splint mail barding (+6).
+**8th&#8212;9th:** Half-plate barding (+7).
+**10th+:** Full plate barding (+8).
+You can cast <a href="/spells/players-handbook-v35--6/magic-vestment--2837/">**magic vestment**</a> or other spells that target a suit of armor on the **golden barding**}}
+
+
+Investiture of the Spined Devil(Fiendish Codex II: Tyrants of the Nine Hells): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Investiture of the Spined Devil](https://dndtools.net/spells/fiendish-codex-ii-tyrants-of-the-nine-hells--67/investiture-of-the-spined-devil--1187/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 1**, Cleric 2, Sorcerer 2, Wizard 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The air stinks of sulfur and brimstone as you use the essence of a spinagon to imbue a creature with the power of Baator.
+You cause a creature to suddenly bristle with spines.
+The subject can snap its body forward to unleash a volley of up to three spines as a standard action (make a separate attack roll for each spine).
+The spines each deal 1d6 points of damage plus the subject's Strength modifier.
+This attack has a range of 60 feet with no range increment.
+The spines can be directed against different targets if desired, but all targets must be within 30 feet of one another.
+The subject can launch up to fifteen spines per casting of this spell.
+In addition, the subject gains resistance to fire 5.
+This resistance stacks with the resistance granted by other evil investiture spells (but not with multiple castings of investiture of the spined devil).
+While this spell is in effect, magic weapons with the evil outsider bane special ability have full effect against the subject of the investiture.
+After the spell's duration expires (or if it is dispelled or ended through some other means), the subject is fatigued for 1 minute.
+Material Component: A fist-sized chunk of brimstone}}
+
+
+Knight Unburdened(The Forge of War): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Knight Unburdened](https://dndtools.net/spells/forge-war--105/knight-unburdened--3551/) }} {{School:= Transmutation  }} {{Level:= **Blackguard 1**, Artificer 1, Paladin 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 hour/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject of this spell ignores the standard movement penalties for wearing medium or heavy armor. He suffers all the other drawbacks for the armor he wears, such as maximum Dexterity bonus to AC, armor check penalty on skills, arcane spell failure chance, and so forth.
+Note that a subject of this spell still cannot use class features and other abilities that do not function when he wears medium or heavy armor}}
+
+
+Know Greatest Enemy(Spell Compendium): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Know Greatest Enemy](https://dndtools.net/spells/spell-compendium--86/know-greatest-enemy--4331/) }} {{School:= Divination  }} {{Level:= **Blackguard 1**, Paladin 1}} {{Components:= V, DF}} {{Range:= 60 ft.}} {{Area:=Cone-shaped emanation}} {{Duration:=Concentration, up to 1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Your eyes flash green, turning golden as your survey your opponents. To your eyes, the weakest of them are limned with a pale green nimbus, which intensifies with power. The most powerful is wrapped in a brilliant, shimmering green aura.**
+This spell evaluates the creatures in the area and determines the relative power level of each. Creatures are evaluated as follows:
+<table><tr><th><strong>CR</strong> </th><th><strong>Strength</strong> </th></tr><tr><td> 4 or lower </td><td> Weak </td></tr><tr><td> 5&#8212;10 </td><td> Moderate </td></tr><tr><td> 11&#8212;15 </td><td> Strong </td></tr><tr><td> 16 or higher </td><td> Overwhelming </td></tr></table>Among creatures within the same category, you know which is the most powerful, but not why. For example, among a group of ogres (CR 2), you would know one of them (an ogre with two levels of barbarian, CR 4) was the most powerful, but not know if it was because the ogre had class levels, a template (such as half-fiendish), or for another reason.
+Any spell of 3rd level or higher that prevents scrying attempts on a creature (such as nondetection) or an area (such as false vision) thwarts this spell's ability to evaluate that creature or creatures within that area}}
+
+
+Mark of the Outcast(Spell Compendium): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mark of the Outcast](https://dndtools.net/spells/spell-compendium--86/mark-of-the-outcast--4538/) }} {{School:= Necromancy  }} {{Level:= **Blackguard 1**, Cleric 2, Druid 2, Waterydeath 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=Permanent}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You select your victim for punishment and invoke the ancient words of anathema. A dull purple splotch in the shape of a skull manifests itself on your victim's flesh, visible to all.**
+This spell creates an indelible mark on the subject's face (or other upper body part, if the subject doesn't have a head). The mark is visible to normal vision, low-light vision, and darkvision. The wearer of such a mark takes a -5 circumstance penalty on Bluff and Diplomacy checks and a -2 penalty to Armor Class.
+The mark cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell}}
+
+
+Protection from Incarnum(Magic of Incarnum): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Protection from Incarnum](https://dndtools.net/spells/magic-of-incarnum--74/protection-from-incarnum--1810/) }} {{School:= Abjuration  }} {{Level:= **Blackguard 1**, Cleric 1, Paladin 1, Sorcerer 1, Wizard 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=One creature}} {{Duration:=1 minute/level (D)}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You ward a creature from attacks by soulmelds and incarnum creatures.
+The spell forms a barrier at a distance of 1 foot around the warded creature.
+The barrier is normally invisible, but it flashes electric blue when struck by an incarnum creature's natural weapon attack or an effect generated by a soulmeld.
+While protected, the subject gains a +2 deflection bonus to Armor Class and a +2 resistance bonus on saves.
+Both of these bonuses apply only against natural weapon attacks made by incarnum creatures or effects created by soulmelds.
+A side effect of this spell is that it prevents the subject from gaining essentia, even if such an effect would be considered beneficial.
+Such effects automatically fail if targeted on the protected subject}}
+
+
+Resurgence(Spell Compendium): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Resurgence](https://dndtools.net/spells/spell-compendium--86/resurgence--4102/) }} {{School:= Abjuration  }} {{Level:= **Blackguard 1**, Cleric 1, Paladin 1, Cloistered Cleric 1}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**By laying hands on your ally and saying a brief prayer, you convince a higher power to grant him a second chance.**
+The subject of a resurgence spell can make a second attempt to save against an ongoing spell, spell- ike ability, or supernatural ability, such as dominate person. If the subject of resurgence is affected by more than one ongoing magical effect, the subject chooses one of them to retry the save against. If the subject succeeds on the saving throw on the second attempt, the effect ends immediately. Resurgence never restores hit points or ability score damage, but it does eliminate any conditions such as shaken, fatigued, or nauseated that were caused by a spell, spell-like ability, or supernatural ability.
+If a spell, spell-like ability, or supernatural ability doesn't allow a save (such as power word stun), then resurgence won't help the subject recover}}
+
+
+Secret Weapon(CityScape): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Secret Weapon](https://dndtools.net/spells/cityscape--53/secret-weapon--358/) }} {{School:= Illusion (Glamer) }} {{Level:= **Blackguard 1**, Assassin 1, Bard 1, EbonmarInfiltrator 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Weapon touched}} {{Duration:=10 min./level (D)}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Illusion}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=At your touch, the weapon seems to disappear from view.
+You enable someone to hide a weapon on his person.
+The weapon does not become truly invisible so much as easily overlooked.
+Secret weapon adds +20 to the Sleight of Hand check to conceal a light weapon, and +10 to the check to conceal a larger weapon (even one normally too large to conceal).
+A &quot;weapon&quot; is defined as any manufactured weapon.
+With the aid of this spell, you can attempt to hide a weapon even if you do not possess the Sleight of Hand skill.
+Additionally, you can hide the presence of a weapon from detection spells, although true seeing penetrates the glamer.
+Material Component: A thin black cloth}}
+
+
+Strategic Charge(Spell Compendium): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Strategic Charge](https://dndtools.net/spells/spell-compendium--86/strategic-charge--4251/) }} {{School:= Abjuration  }} {{Level:= **Blackguard 1**, Paladin 1}} {{Components:= V, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**A red nimbus surrounds you as you move smoothly across the crowded battlefield.**
+You gain the benefit of the <a href="/feats/players-handbook-v35--6/mobility--1975/">Mobility</a> feat (PH 98), even if you not meet the prerequisites. You do not have to be charging to gain this benefit}}
+
+
+Summon Undead I(Spell Compendium): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Summon Undead I](https://dndtools.net/spells/spell-compendium--86/summon-undead-i--3780/) }} {{School:= Conjuration (Summoning) [Evil]}} {{Level:= **Blackguard 1**, Cleric 1, Sorcerer 1, Wizard 1, DreadNecromancer 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A tiny bag, a small (not lit) candle, and a carved bone from any humanoid}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One summoned creature}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**The undead you summon appear in a burst of smoke and fog. The vapor swiftly dissipates, but you can't shake the impression of screaming faces in the cloud's tendrils.**
+This spell functions like <a href="/spells/players-handbook-v35--6/summon-monster-i--2441/">**summon monster I**</a> (PH 285), except that you summon an undead creature.
+Summon undead I conjures one of the creatures from the 1st-level list in the accompanying sidebar. You choose which creature to summon, and you can change that choice each time you cast the spell. Summoned undead do not count toward the total Hit Dice of undead that you can control with animate dead or the other command undead abilities. No undead creature you summon can have more Hit Dice than your caster level +1.
+<h4><span class="caps">SUMMON</span> <span class="caps">UNDEAD</span> <span class="caps">LISTS</span></h4><table><tr><th><strong>Spell Level</strong> </th><th><strong>Undead Creature</strong> </th></tr><tr><td> <strong>1st</strong> </td><td> <strong>Human warrior skeleton (MM 226)</strong>, <strong>kobold zombie (MM 266)</strong> </td></tr><tr><td> 2nd </td><td> Owlbear skeleton (MM 226), bugbear zombie (MM 267) </td></tr><tr><td> 3rd </td><td> Ghoul (MM 118), troll skeleton (MM 227), ogre zombie (MM 267) </td></tr><tr><td> 4th </td><td> Allip (MM 10), ghast (MM 119), wyvern zombie (MM 267) </td></tr><tr><td> 5th </td><td> Mummy (MM 190), shadow (MM 221), vampire spawn (MM 253), wight (MM 255) </td></tr></table}}
+
+
+Traveler's Mount(Spell Compendium): - Blackguard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Traveler's Mount](https://dndtools.net/spells/spell-compendium--86/travelers-mount--4316/) }} {{School:= Transmutation  }} {{Level:= **Blackguard 1**, Druid 1, Paladin 1, Ranger 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Animal or magical beast touched}} {{Duration:=1 hour/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**With words of encouragement, you make the creature better able to handle the rigors of overland travel, at the expense of its ability to fight.**
+The touched animal or magical beast gets a 20-foot enhancement bonus to its speed, and it can hustle without taking damage or becoming fatigued as long as the spell is in effect. While bearing a rider, the mount no longer attacks in combat. The steed willingly bears its rider into battle; it just can't use its own natural weapons for the duration of the spell}}
+
+
+Blade of Pain and Fear(Spell Compendium): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blade of Pain and Fear](https://dndtools.net/spells/spell-compendium--86/blade-pain-and-fear--3959/) }} {{School:= Evocation  }} {{Level:= **Blackguard 2**, Assassin 2, Cleric 3, Sorcerer 3, Wizard 3, Deathbound 2, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, DF}} {{Range:= 0 ft}} {{Effect:=Swordlike column of gnashing teeth}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will partial }} {{Save DC:=[[@{spelldc2}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**A three-foot-long column of disembodied gnashing teeth springs forth from your hand.**
+For the duration of the spell, you can make melee touch attacks that deal 1d6 points of damage +1 point per two caster levels (maximum +10). Your Strength modifier does not apply to the  damage. A creature that you successfully deal damage to must also make a Will saving throw or become frightened for 1d4 rounds}}
+
+
+Boneblade(Book of Vile Darkness): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Boneblade](https://dndtools.net/spells/book-of-vile-darkness--37/boneblade--199/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Blackguard 2**, Cleric 3, Cloistered Cleric 3}} {{Components:= V, S, AF, Undead}} {{Arcane Focus:= A 6-inch-long bone}} {{Range:= Touch}} {{Effect:=One bone that becomes a blade}} {{Duration:=10 minutes/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster changes a bone at least 6 inches long into a longsword, short sword, or greatsword (caster's choice).
+This weapon has a +1 enhancement bonus on attacks and damage for every five caster levels (at least +1, maximum +4).
+Furthermore, this blade deals an extra +1d6 points of damage to living targets and an additional +1d6 points of damage to good-aligned targets.
+This spell confers no proficiency with the blade, but the caster doesn't need to be the one wielding the blade for it to be effective}}
+
+
+Clarity of Mind(Spell Compendium): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Clarity of Mind](https://dndtools.net/spells/spell-compendium--86/clarity-mind--4021/) }} {{School:= Abjuration  }} {{Level:= **Blackguard 2**, HarperScout 2, Paladin 2, Balance 3}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=1 hour/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**A nimbus of silver rays surrounds the warrior's head as you touch him and invoke the spell's holy power. His thoughts grow clearer, and he is better able to see through the mind-warping effects of spells.**
+You grant the subject a +4 insight bonus on saving throws against all mind-affecting spells and effects. If the subject of **clarity of mind** attacks a creature that has concealment and fails the miss chance roll, he can reroll the miss chance once to see if his attack actually hit the target}}
+
+
+Curse of Ill Fortune(Spell Compendium): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Curse of Ill Fortune](https://dndtools.net/spells/spell-compendium--86/curse-ill-fortune--4269/) }} {{School:= Transmutation  }} {{Level:= **Blackguard 2**, Cleric 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One living creature}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Letting loose a stream of foul incantations, you curse the subject.**
+You place a temporary curse upon the subject, giving it a -3 penalty on attack rolls, ability checks, and skill checks. **Curse of ill fortune** is negated by any spell that removes a **bestow curse** spell}}
+
+
+Demoncall(Fiendish Codex I: Hordes of the Abyss): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Demoncall](https://dndtools.net/spells/fiendish-codex-i-hordes-of-the-abyss--66/demoncall--1149/) }} {{School:= Divination  [Evil]}} {{Level:= **Blackguard 2**, Demonologist 2, Demonic 2}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=Instantaneous}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your eyes roll back into your head as you call to Dagon for his unique insight.
+Suddenly you become aware of some fragment of forbidden lore previously lost to you.
+You tap into the forbidden knowledge of demons, gaining a +10 profane bonus on any one skill check involving Knowledge (arcana), Knowledge (the planes), or Knowledge (religion).
+The check must be made immediately, in the same turn as you cast the spell}}
+
+
+Demonhide(Spell Compendium): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Demonhide](https://dndtools.net/spells/spell-compendium--86/demonhide--4359/) }} {{School:= Abjuration  [Evil]}} {{Level:= **Blackguard 2**}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Evil creature touched}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You touch your minion with your holy symbols and invoke the horrid words of the lower planes. A fiery glow spreads across your servant's skin, leaving it with a deep red luster.**
+The subject gains damage reduction 5/cold iron or good}}
+
+
+Devil's Eye(Fiendish Codex II: Tyrants of the Nine Hells): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Devil's Eye](https://dndtools.net/spells/fiendish-codex-ii-tyrants-of-the-nine-hells--67/devils-eye--1173/) }} {{School:= Transmutation  }} {{Level:= **Blackguard 2**, Cleric 3, Sorcerer 3, Wizard 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With a few words and a gesture, the darkness melts away, and you can see with perfect clarity.
+You gain the visual acuity of a devil.
+You can see in darkness and magical darkness out to 30 feet}}
+
+
+Divine Presence(Complete Champion): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Divine Presence](https://dndtools.net/spells/complete-champion--57/divine-presence--620/) }} {{School:= Transmutation  }} {{Level:= **Blackguard 2**, Cleric 2, Druid 2, Paladin 2, Cloistered Cleric 2}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 minutes/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your back straightens, your eyes flash, and your aura pulses with divine might.
+You channel a tiny spark of the divine, granting yourself nearly inhuman presence.
+You gain a +5 sacred (if your deity is good or neutral) or profane (if your deity is evil) bonus on Intimidate checks made against anyone who does not worship your deity.
+When making such checks against individuals who have one alignment component opposed to yours (chaos/law or good/evil), this bonus becomes +10.
+When making such checks against someone whose alignment is diametrically opposed to yours, the bonus becomes +15}}
+
+
+Execration(Complete Champion): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Execration](https://dndtools.net/spells/complete-champion--57/execration--617/) }} {{School:= Necromancy  }} {{Level:= **Blackguard 2**, Cleric 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=10 minutes/level or until discharged}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You channel the wrath of your deity through a simple touch, inflicting misfortune on your foe.
+With a touch, you impose a -2 penalty on all of another creature's saving throws.
+If the subject is also under another effect that imposes saving throw penalties, the effects stack.
+At any point before the spell's duration expires, you can force the subject to reroll a single attack roll, saving throw, skill check, or ability check as an immediate action.
+You can require this action either before or after the subject rolls, but you must have line of sight to the subject at the time.
+The lower of the two rolls applies.
+Once this option is exercised, the spell ends immediately}}
+
+
+Hand of Divinity(Spell Compendium): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Hand of Divinity](https://dndtools.net/spells/spell-compendium--86/hand-of-divinity--4680/) }} {{School:= Evocation  }} {{Level:= **Blackguard 2**, Cleric 2, Paladin 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 minute/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You call upon your beliefs and a great pair of hands appears around your target, cradling it in its power. The effect fades, but your target briefly glows with a healthy orange nimbus.**
+If your deity is non-evil, this spell grants a +2 sacred bonus on saving throws, and the spell is a good spell. If your deity is evil, this spell grants a +2 profane bonus on saving throws, and the spell is an evil spell.
+This spell works only on a creature with the same deity as you or the same alignment as your deity. If cast on a target that does not meet this criteria, the spell has no effect}}
+
+
+Increase Virulence(Player's Handbook II): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Increase Virulence](https://dndtools.net/spells/players-handbook-ii--80/increase-virulence--3018/) }} {{School:= Transmutation  }} {{Level:= **Blackguard 2**, Assassin 2, Bard 2, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Vial of poison or creature touched}} {{Duration:=1 minute/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Ribbons of green and black energy engulf your hand and pass into the vial or creature you touch.
+You make the poison in a vial or a creature more lethal.
+The DCs for all saving throws against the poison increase by 2.
+Material Component: Licorice root}}
+
+
+Investiture of the Bearded Devil(Fiendish Codex II: Tyrants of the Nine Hells): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Investiture of the Bearded Devil](https://dndtools.net/spells/fiendish-codex-ii-tyrants-of-the-nine-hells--67/investiture-of-the-bearded-devil--1176/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 2**, Cleric 3, Sorcerer 3, Wizard 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With a rush of sinister green light, you invest the target with infernal energy, drawing power from a bearded devil to fuel the spell.
+You cause the target to grow a long, ropy mass of callused tissue from its chin that vaguely resembles a beard.
+This beard flails about as though it were alive.
+If the subject successfully hits an adjacent opponent with at least one melee attack in a round, it also automatically hits with its beard, dealing an extra 2d8 points of damage.
+The subject also gains resistance to fire 5.
+This resistance stacks with the resistance granted by other evil investiture spells (but not with multiple castings of investiture of the bearded devil).
+While this spell is in effect, magic weapons with the evil outsider bane special ability have full effect against the target of the investiture.
+After the spell's duration expires (or if it is dispelled or ended through some other means), the subject is fatigued for 1 minute.
+Material Component: A fist-sized chunk of brimstone}}
+
+
+Investiture of the Chain Devil(Fiendish Codex II: Tyrants of the Nine Hells): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Investiture of the Chain Devil](https://dndtools.net/spells/fiendish-codex-ii-tyrants-of-the-nine-hells--67/investiture-of-the-chain-devil--1177/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 2**, Cleric 3, Sorcerer 3, Wizard 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With a rush of red light and the faint clanking of many chains, you invest the target with the power of a chain devil.
+While under the effect of this spell, the target is infused with the magical energies and malignant will of a chain devil.
+While the spell is in effect, the subject's reach increases by 5 feet, and the subject's maximum number of attacks of opportunity made each round increases by one.
+In addition, the subject gains resistance to fire 5.
+This resistance stacks with the resistance granted by other evil investiture spells (but not with multiple castings of investiture of the chain devil).
+While this spell is in effect, magic weapons with the evil outsider bane special ability have full effect against the subject of the investiture.
+After the spell's duration expires (or if it is dispelled or ended through some other means), the subject is fatigued for 1 minute.
+Material Component: A fist-sized chunk of brimstone}}
+
+
+Master Cavalier(Complete Champion): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Master Cavalier](https://dndtools.net/spells/complete-champion--57/master-cavalier--625/) }} {{School:= Transmutation  }} {{Level:= **Blackguard 2**, Cleric 2, Paladin 2, Cloistered Cleric 2}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 minutes/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you utter the final words of this spell, your muscles and equilibrium shift dramatically, making you feel more at home in the saddle than you do on your own feet.
+Upon casting this spell, you gain a +10 bonus on all Ride checks.
+If you have special mount or similar class ability, your bonus on Ride checks increases to +20 while you are mounted on your special mount.
+If you cast master cavalier along with phantom charge (see below) and war-mount (page 129), the three spells have a synergistic effect.
+By shunting a tiny amount of its physical form into the plane from which it normally comes, your mount gains the ability to walk on liquids or even on empty air.
+This adjustment grants it a fly speed equal to its normal land-based movement rate, with average maneuverability.
+This effect lasts until either master cavalier or war-mount expires}}
+
+
+Soul of Shadow(Dragon Magic): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Soul of Shadow](https://dndtools.net/spells/dragon-magic--62/soul-of-shadow--1091/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 2**, Cleric 3, Cloistered Cleric 3}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 hour}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Flecks of darkness whirl in your eyes, and your shadow seems to grow and writhe, echoing darkness within you.
+This spell infuses your body with energy drawn from the Negative Energy Plane.
+Whenever you cast or are the target of an inflict spell, you can choose for the spell to deal a number of extra points of damage equal to twice the spell's level.
+(Only undead casters typically choose for such spells to &quot;deal&quot; extra damage to them).
+If you cast such a spell that deals at least 10 points of damage to any one target, it also removes the fatigued condition from you (or reduces exhaustion to fatigue).
+If soul of shadow and soul of anarchy are active on you at the same time, you gain damage reduction 3/good or lawful.
+If soul of shadow and soul of order are active on you at the same time, you gain damage reduction 3/chaotic or good.
+Soul of shadow counters and dispels soul of light, and vice versa.
+Special: An evil-aligned dragon capable of casting 5th-level sorcerer spells can cast this spell as a swift action}}
+
+
+Summon Undead II(Spell Compendium): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Summon Undead II](https://dndtools.net/spells/spell-compendium--86/summon-undead-ii--4279/) }} {{School:= Conjuration (Summoning) [Evil]}} {{Level:= **Blackguard 2**, Cleric 2, Sorcerer 2, Wizard 2, DreadNecromancer 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A tiny bag, a small (not lit) candle, and a carved bone from any humanoid}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One or more summoned creatures, no two of which are more than 30 ft. apart}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/spell-compendium--86/summon-undead-i--3780/">**summon undead I**</a>, except that you can summon one undead from the 2nd-level list or two undead of the same kind from the 1st-level list.
+<h4><span class="caps">SUMMON</span> <span class="caps">UNDEAD</span> <span class="caps">LISTS</span></h4><table><tr><th><strong>Spell Level</strong> </th><th><strong>Undead Creature</strong> </th></tr><tr><td> <strong>1st</strong> </td><td> <strong>Human warrior skeleton (MM 226)</strong>, <strong>kobold zombie (MM 266)</strong> </td></tr><tr><td> <strong>2nd</strong> </td><td> <strong>Owlbear skeleton (MM 226)</strong>, <strong>bugbear zombie (MM 267)</strong> </td></tr><tr><td> 3rd </td><td> Ghoul (MM 118), troll skeleton (MM 227), ogre zombie (MM 267) </td></tr><tr><td> 4th </td><td> Allip (MM 10), ghast (MM 119), wyvern zombie (MM 267) </td></tr><tr><td> 5th </td><td> Mummy (MM 190), shadow (MM 221), vampire spawn (MM 253), wight (MM 255) </td></tr></table}}
+
+
+Turn Anathema(Complete Champion): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Turn Anathema](https://dndtools.net/spells/complete-champion--57/turn-anathema--611/) }} {{School:= Enchantment (Compulsion) [Evil][Good][Lawful]}} {{Level:= **Blackguard 2**, Cleric 2, Paladin 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 minutes/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you clutch your holy symbol, it pulses briefly with divine power, then grows oddly cold beneath your fingers.
+Choose one non-neutral aspect of your own alignment&#8212;
+chaotic, evil, good, or lawful.
+If you are neutral, you must choose an alignment component for this spell when you first cast it, and this choice cannot be altered for subsequent castings unless your alignment has changed in such a way as to make that choice unsuitable.
+The spell takes on the descriptor of the selected alignment component.
+Upon casting this spell, you can use one of your daily turn or rebuke attempts to turn creatures with the opposing alignment subtype as though they were undead.
+For instance, if you cast turn anathema as a good spell, you could attempt to turn creatures of the evil subtype, such as demons.
+You could not, however, turn a red dragon, because although it is an evil creature, it lacks the evil subtype.
+This spell allows only turning, not rebuking or destroying, even if you normally rebuke rather than turn.
+You can use as many of your daily turn/rebuke attempts as you wish in this way for the duration of the spell}}
+
+
+Veil of Shadow(Spell Compendium): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Veil of Shadow](https://dndtools.net/spells/spell-compendium--86/veil-shadow--4722/) }} {{School:= Evocation  [Darkness]}} {{Level:= **Blackguard 2**, Assassin 2, Cleric 2, Sorcerer 2, Wizard 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You speak the words of this spell, and tendrils of purple darkness rise from the ground, surrounding you and concealing you from your foes.**
+Swirling wisps of darkness obscure your form, granting you concealment. The 20% miss chance is in effect even if the attacker has darkvision.
+This spell effect is dispelled in daylight or in the area of a <a href="/spells/descriptors/light/">light</a> spell of 3rd level or higher.
+<a href="/spells/players-handbook-v35--6/see-invisibility--2514/">**See invisibility**</a> does not counter a **veil of shadow**'s concealment effect, but a <a href="/spells/players-handbook-v35--6/true-seeing--2520/">**true seeing**</a> spell does}}
+
+
+Vestigewrack(Tome of Magic): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Vestigewrack](https://dndtools.net/spells/tome-of-magic--89/vestigewrack--3449/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Blackguard 2**, Cleric 2, Sorcerer 2, Wizard 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S, AF}} {{Arcane Focus:= An ornate sacrificial dagger or kukri worth 300 gp}} {{Range:= 20 ft.}} {{Target:=One incorporeal creature or apparition/level in a 20-ft.-radius emanation centered on you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You hold the curved dagger aloft, and as you slice it through the air at the incorporeal creature before you, you speak words of power that remind it of the life it once had, and the pain of its loss.
+Clutching a curved blade, you make a downward cutting motion that produces a field of pulsing, unholy, red light around you.
+Each incorporeal creature within this light must succeed on a Fortitude save or be wracked with sensations of loss.
+This effect manifests as a -2 penalty on attack rolls, damage rolls, skill checks, and saves for as long as the creature remains in range, and for 1d4 rounds afterward.
+In addition, every corporeal user of pact magic gains a +2 bonus on binding checks made against any vestige within range of this spell}}
+
+
+Wave of Grief(Spell Compendium): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wave of Grief](https://dndtools.net/spells/spell-compendium--86/wave-of-grief--4761/) }} {{School:= Enchantment  [Evil]}} {{Level:= **Blackguard 2**, Bard 2, Cleric 2, Cloistered Cleric 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= 30 ft.}} {{Area:=Cone-shaped burst}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Emitting a mournful wail, you send out a pulse of magic imbued with sorrow and sadness.**
+All within the cone when the spell is cast take a -3 penalty on attack rolls, saving throws, ability checks, and skill checks.
+Material Component: Three tears}}
+
+
+Zeal(Spell Compendium): - Blackguard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Zeal](https://dndtools.net/spells/spell-compendium--86/zeal--4490/) }} {{School:= Abjuration  }} {{Level:= **Blackguard 2**, Paladin 2, Competition 2}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You invoke a divine shield to protect you as you close with a chosen opponent.**
+Choose a foe as you cast this spell. You gain a +4 deflection bonus to AC against all attacks of opportunity from opponents other than the chosen foe. Also, you can move through enemies as if they were allies for the duration of this spell, as long as you finish your movement closer to your chosen foe than when you began it}}
+
+
+Abyssal Might(Book of Vile Darkness): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Abyssal Might](https://dndtools.net/spells/book-of-vile-darkness--37/abyssal-might--129/) }} {{School:= Conjuration (Summoning) [Evil]}} {{Level:= **Blackguard 3**, Demonologist 3, Cleric 4, Sorcerer 4, Wizard 4, Cloistered Cleric 4, Arcanist 4}} {{Components:= V, S, M, Demon}} {{Material Component:= The heart of a dwarf child.}} {{Range:= Personal}} {{Target:=Caster}} {{Duration:=10 minutes/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster summons evil energy from the Abyss and imbues himself with its might.
+The caster gains a +2 enhancement bonus to Strength, Constitution, and Dexterity.
+The caster's existing spell resistance improves by +2}}
+
+
+Bedevil(Champions of Ruin): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Bedevil](https://dndtools.net/spells/champions-of-ruin--27/bedevil--267/) }} {{School:= Conjuration (Summoning) [Evil]}} {{Level:= **Blackguard 3**, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= A tiny iron statuette of a devil or imp, plus either a drop of the intended victim's blood or one personal article belonging to the intended victim}} {{Range:= See text}}  {{Duration:=1 day/level (D)}} {{Savingthrow:=No }} {{Save DC:=[[@{spelldc3}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You summon a mischievous spirit and send it to bedevil your enemy.
+The spirit seeks out its assigned victim wherever she might be, as long as she is on the same plane as you when you cast the spell.
+It then proceeds to irritate and annoy her through a variety of manifestations.
+The victim of a bedevil spell finds herself constantly seeing movement out of the corner of her eye.
+Her sleep is frequently interrupted by bed shaking and blanket shifting and the sounds of voices that fade upon waking.
+When spellcasting, she suffers a variety of minor irritations that threaten to disrupt her spells, and she constantly feels haunted and watched.
+The result of this bedevilment is that she takes a -1 penalty on all ability checks, skill checks, and Will saving throws and has a 5% chance of arcane spell failure (which stacks with any spell failure chance from armor worn).
+Detect evil cast upon the subject of this spell reveals the presence of the bedeviling spirit, while protection from evil keeps the spirit from adversely affecting the victim.
+A dispel evil spell destroys the mischievous spirit, but remove curse or similar magic has no effect on it}}
+
+
+Deific Bastion(Complete Champion): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Deific Bastion](https://dndtools.net/spells/complete-champion--57/deific-bastion--619/) }} {{School:= Transmutation  }} {{Level:= **Blackguard 3**, Cleric 3, Paladin 3, Cloistered Cleric 3}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Shield or heavy armor touched}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Calling upon your patron for protection, you imbue your defenses with an unnatural resilience.
+You must either be holding a shield or wearing heavy armor to cast this spell.
+The shield or armor gains a +1 enhancement bonus plus an additional special ability that depends on your deity, as given on the table below.
+This enhancement bonus is defensive only; it does not cause a shield to function as a magic weapon if it is used to make a shield bash.
+The enhancement bonus of the armor or shield is +2 if your caster level is 9th-11th, +3 if it's 12th-14th level, +4 if it's 15th-16th, and +5 if it's 18th or higher}}
+
+
+Demon Wings(Fiendish Codex I: Hordes of the Abyss): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Demon Wings](https://dndtools.net/spells/fiendish-codex-i-hordes-of-the-abyss--66/demon-wings--1160/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 3**, Demonologist 3, Demonic 3}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 minutes/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You raise your arms dramatically, whisper the name &quot;Pazuzu&quot;
+twice, and watch as demonic wings sprout from your back.
+Wings sprout from your back, allowing you to fly at your normal land speed with average maneuverability.
+You can carry weight while flying according to your normal carrying capacity, and greater burdens affect your fly speed as they would your land speed}}
+
+
+Fangs of the Vampire King(Spell Compendium): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fangs of the Vampire King](https://dndtools.net/spells/spell-compendium--86/fangs-vampire-king--4476/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 3**, Assassin 3, Corrupt 2, Deathbound 3}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Hissing an evil laugh, you sprout sharp fangs to drain the blood of your foes.**
+You grow vampirelike fangs that allow you to make bite attacks as natural attacks. Your bite attack deals 1d6 points of damage + your strength modifier, and 1 point of Constitution damage. If you make a full attack with other weapons, you can make a bite attack as a natural secondary attack (-5 penalty on the attack roll)}}
+
+
+Hell's Power(Book of Vile Darkness): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Hell's Power](https://dndtools.net/spells/book-of-vile-darkness--37/hells-power--141/) }} {{School:= Conjuration (Creation) [Evil]}} {{Level:= **Blackguard 3**, Cleric 4, Sorcerer 4, Wizard 4, Cloistered Cleric 4, Arcanist 4}} {{Components:= V, S, M, Devil}} {{Material Component:= }} {{Range:= Personal}} {{Target:=Caster}} {{Duration:=10 minutes/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster summons evil energy from the Nine Hells and bathes himself in its power.
+The caster gains a +2 deflection bonus to Armor Class, as well as an upgrade of his existing damage reduction by /+1 (DR 10/+1 becomes DR 10/+2, for example).
+Material Component: The heart of an elf child}}
+
+
+Investiture of the Amnizu(Fiendish Codex II: Tyrants of the Nine Hells): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Investiture of the Amnizu](https://dndtools.net/spells/fiendish-codex-ii-tyrants-of-the-nine-hells--67/investiture-of-the-amnizu--1174/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 3**, Cleric 4, Sorcerer 4, Wizard 4, Cloistered Cleric 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With a flash of red light and a sound like the screams of a thousand suffering souls, you invest the target with infernal energy, drawing power from an amnizu to power the spell.
+You infuse a target with the intellect-sapping power and slippery mind of an amnizu.
+While under the effect of this spell, the target can, each round as a standard action, make a single melee touch attack.
+A touched creature takes 1d4 points of Intelligence damage.
+The subject of this spell can use this touch attack once per two caster levels.
+The subject of this spell also becomes immune to any effect that would damage, drain, or otherwise reduce its own Intelligence score.
+In addition, the subject gains resistance to fire 5.
+This resistance stacks with the resistance granted by other evil investiture spells (but not with multiple castings of investiture of the amnizu).
+While this spell is in effect, magic weapons with the evil outsider bane special ability have full effect against the subject of the investiture.
+After the spell's duration expires (or if it is dispelled or ended through some other means), the subject is fatigued for 1 minute.
+Material Component: A fist-sized chunk of brimstone}}
+
+
+Investiture of the Erinyes(Fiendish Codex II: Tyrants of the Nine Hells): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Investiture of the Erinyes](https://dndtools.net/spells/fiendish-codex-ii-tyrants-of-the-nine-hells--67/investiture-of-the-erinyes--1178/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 3**, Cleric 4, Sorcerer 4, Wizard 4, Cloistered Cleric 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates (harmless); see text (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With the sound of flapping wings, you grant the target the power of an erinyes.
+The target gains the sinister allure of an erinyes.
+While the spell is in effect, the subject can beckon a creature it can see clearly, forcing it to approach unless the creature succeeds on a Will save against the spell's save DC.
+On a failed save, the creature can do nothing on its next action except to attempt to move closer to the subject of investiture of the erinyes.
+The beckoned creature will not take obviously suicidal actions, such as walking off the edge of a cliff.
+However, it will move normally through squares threatened by other creatures.
+This is a mind-affecting compulsion effect.
+Once the beckoned creature enters an adjacent square, or if it was already in an adjacent square, it takes no further action that round.
+The subject of this spell can use this effect once per three caster levels.
+In addition, the subject gains resistance to fire 5.
+This resistance stacks with the resistance granted by other evil investiture spells (but not with multiple castings of investiture of the erinyes).
+While this spell is in effect, magic weapons with the evil outsider bane special ability have full effect against the subject of the investiture.
+After the spell's duration expires (or if it is dispelled or ended through some other means), the subject is fatigued for 1 minute.
+Material Component: A fist-sized chunk of brimstone}}
+
+
+Investiture of the Harvester Devil(Fiendish Codex II: Tyrants of the Nine Hells): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Investiture of the Harvester Devil](https://dndtools.net/spells/fiendish-codex-ii-tyrants-of-the-nine-hells--67/investiture-of-the-harvester-devil--1179/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 3**, Cleric 4, Sorcerer 4, Wizard 4, Cloistered Cleric 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A deep chuckle sounds as you complete the incantation, and motes of violet light surround the target, imbuing it with infernal energy drawn from a harvester devil.
+The target of this spell deals horrific, lingering wounds with its melee attacks.
+If it successfully strikes an opponent with a melee attack, it causes an infernal wound that deals an extra 1d6 points of damage each round until the creature dies, or until the struck creature is the recipient of a DC 20 Heal check, a cure spell, or a heal spell.
+A creature can be affected by the lingering damage of only one such infernal wound at a time.
+In addition, the subject gains resistance to fire 5.
+This resistance stacks with the resistance granted by other evil investiture spells (but not with multiple castings of investiture of the harvester devil).
+While this spell is in effect, magic weapons with the evil outsider bane special ability have full effect against the subject of the investiture.
+After the spell's duration expires (or if it is dispelled or ended through some other means), the subject is fatigued for 1 minute.
+Material Component: A fist-sized chunk of brimstone}}
+
+
+Investiture of the Steel Devil(Fiendish Codex II: Tyrants of the Nine Hells): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Investiture of the Steel Devil](https://dndtools.net/spells/fiendish-codex-ii-tyrants-of-the-nine-hells--67/investiture-of-the-steel-devil--1188/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 3**, Cleric 4, Sorcerer 4, Wizard 4, Cloistered Cleric 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With the sound of low chanting, you invest the target with the power of a steel devil.
+While under the effect of this spell, the target is infused with the magical energy and deadly skill of a steel devil.
+While the spell is in effect, the target gains a +3 profane bonus on attack rolls and to Armor Class.
+This bonus increases by 1 for every adjacent creature that is also under the effect of an investiture of the steel devil spell.
+In addition, the subject gains resistance to fire 5.
+This resistance stacks with the resistance granted by other evil investiture spells (but not with multiple castings of investiture of the steel devil).
+While this spell is in effect, magic weapons with the evil outsider bane special ability have full effect against the subject of the investiture.
+After the spell's duration expires (or if it is dispelled or ended through some other means), the subject is fatigued for 1 minute.
+Material Component: A fist-sized chunk of brimstone}}
+
+
+Mantle of Evil(Spell Compendium): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mantle of Evil](https://dndtools.net/spells/spell-compendium--86/mantle-of-evil--4522/) }} {{School:= Abjuration  [Evil]}} {{Level:= **Blackguard 3**, Cleric 3, Hades 3, Cloistered Cleric 3}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 minutes/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You invoke the powers of evil, and a dark, wavering field of unholy energy wraps around you like a cloak.**
+This spell functions like <a href="/spells/spell-compendium--86/mantle-chaos--4519/">**mantle of chaos**</a>, except that mantle of evil grants spell resistance against spells with the good descriptor}}
+
+
+Masochism(Book of Vile Darkness): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Masochism](https://dndtools.net/spells/book-of-vile-darkness--37/masochism--164/) }} {{School:= Enchantment  [Evil]}} {{Level:= **Blackguard 3**, Sorcerer 2, Wizard 2, Assassin 3, Cleric 3, Cloistered Cleric 3, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=Caster}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=For every 10 points of damage the caster takes in a given round, he gains a +1 luck bonus on attack rolls, saving throws, and skill checks made in the following round.
+The more damage the caster takes, the greater the luck bonus.
+It's possible to get a luck bonus in multiple rounds if the caster takes damage in more than one round during the spell's duration.
+Material Component: A leather strap that has been soaked in the caster's blood}}
+
+
+Resurgence, Mass(Spell Compendium): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Resurgence, Mass](https://dndtools.net/spells/spell-compendium--86/resurgence-mass--4103/) }} {{School:= Abjuration  }} {{Level:= **Blackguard 3**, Cleric 3, Paladin 3, Cloistered Cleric 3}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level, no two of which are more than 30 ft. apart}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Throwing out your hand and calling upon your deity for favor, you give your allies a chance to free themselves of the baleful magic.**
+This spell functions like <a href="/spells/spell-compendium--86/resurgence--4102/">**resurgence**</a>, except as noted here. The spell grants a second save attempt against a single spell or ability chosen by you. For instance, if three of your allies have been mind blasted by mind flayers and two others have been turned into toads by baleful polymorph spells, you must choose to affect  either the mind blast (granting three new save attempts) or the baleful polymorphs (granting two new save attempts)}}
+
+
+Sadism(Book of Vile Darkness): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sadism](https://dndtools.net/spells/book-of-vile-darkness--37/sadism--169/) }} {{School:= Enchantment  [Evil]}} {{Level:= **Blackguard 3**, Sorcerer 2, Wizard 2, Assassin 3, Cleric 3, Pain 2, Cloistered Cleric 3, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=Caster}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=For every 10 points of damage the caster deals in a given round while under the effect of this spell, she gains a +1 luck bonus on attack rolls, saving throws, and skill checks in the next round.
+The more damage the caster deals, the greater the luck bonus.
+It's possible to get a luck bonus for multiple rounds if she deals damage in more than one round during the spell's duration.
+Material Component: A leather strap that has been soaked in human blood}}
+
+
+Spiritual Chariot(Spell Compendium): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Spiritual Chariot](https://dndtools.net/spells/spell-compendium--86/spiritual-chariot--4220/) }} {{School:= Conjuration (Creation) [Force]}} {{Level:= **Blackguard 3**, Paladin 2}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One special mount}} {{Duration:=1 hour/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You cast this spell, and a large and ornate chariot made of transparent, faintly glowing azure energy forms behind your special mount.**
+You conjure a chariot of force. When the chariot appears, your special mount is correctly harnessed to it. The chariot can hold one Medium creature or two small creatures plus the driver (usually the paladin).
+Although the chariot seems large and sturdy, it and its occupants have no weight for the purpose of the mount's load, so the mount can travel at full speed. If the chariot is ever unhitched from the special mount, it disappears. The driver of the spiritual chariot gains a +4 sacred bonus on Handle Animal checks. The chariot is made of magical force and has immunity to most types of damage. It interacts with other spells just as a <a href="/spells/players-handbook-v35--6/wall-of-force--2659/">**wall of force**</a> (PH 298) does. Those in the chariot have cover based on their size and the position of their attackers. In most situations, Medium creatures inside the chariot gain cover}}
+
+
+Summon Undead III(Spell Compendium): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Summon Undead III](https://dndtools.net/spells/spell-compendium--86/summon-undead-iii--4280/) }} {{School:= Conjuration (Summoning) [Evil]}} {{Level:= **Blackguard 3**, Cleric 3, Sorcerer 3, Wizard 3, DreadNecromancer 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A tiny bag, a small (not lit) candle, and a carved bone from any humanoid}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One or more summoned creatures, no two of which are more than 30 ft. apart}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/spell-compendium--86/summon-undead-i--3780/">**summon undead I**</a>, except that you can summon one undead from the 3rd-level list, two undead of the same kind from the 2nd-level list, or four undead of the same kind from the 1st-level list.
+<h4><span class="caps">SUMMON</span> <span class="caps">UNDEAD</span> <span class="caps">LISTS</span></h4><table><tr><th><strong>Spell Level</strong> </th><th><strong>Undead Creature</strong> </th></tr><tr><td> <strong>1st</strong> </td><td> <strong>Human warrior skeleton (MM 226)</strong>, <strong>kobold zombie (MM 266)</strong> </td></tr><tr><td> <strong>2nd</strong> </td><td> <strong>Owlbear skeleton (MM 226)</strong>, <strong>bugbear zombie (MM 267)</strong> </td></tr><tr><td> <strong>3rd</strong> </td><td> <strong>Ghoul (MM 118)</strong>, <strong>troll skeleton (MM 227)</strong>, <strong>ogre zombie (MM 267)</strong> </td></tr><tr><td> 4th </td><td> Allip (MM 10), ghast (MM 119), wyvern zombie (MM 267) </td></tr><tr><td> 5th </td><td> Mummy (MM 190), shadow (MM 221), vampire spawn (MM 253), wight (MM 255) </td></tr></table}}
+
+
+Unholy Storm(Spell Compendium): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Unholy Storm](https://dndtools.net/spells/spell-compendium--86/unholy-storm--4654/) }} {{School:= Conjuration (Creation) }} {{Level:= **Blackguard 3**, Cleric 3, Cloistered Cleric 3}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= }} {{Area:=Cylinder (20-ft. radius, 20 ft. high)}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You call upon the forces of evil, and a heavy rain begins to fall in the area you indicate, its raindrops foul and steaming.**
+A driving rain falls around you. It falls in a fixed area once created. The storm reduces hearing and visibility, resulting in a -4 penalty on Listen, Spot, and Search checks. It also applies a -4 penalty on ranged attacks made into, out of, or through the storm. Finally, it automatically extinguishes any unprotected flames and has a 50% chance to extinguish protected flames (such as those of lanterns). The rain damages good creatures, dealing 2d6 points of damage per round (good outsiders take double damage).
+Material Component: A flask of unholy water (25 gp)}}
+
+
+War-mount(Complete Champion): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [War-mount](https://dndtools.net/spells/complete-champion--57/war-mount--631/) }} {{School:= Transmutation  }} {{Level:= **Blackguard 3**, Paladin 3}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Special mount or fiendish companion touched}} {{Duration:=1 minute/level (D)}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=At your touch, your mount's flanks ripple, and its eyes blaze with newfound energy.
+You render the natural attacks of your mount or fiendish companion magical with a touch.
+The creature gains a +2 enhancement bonus on attack rolls and damage rolls with its natural weapons for the duration of the spell.
+They are treated as both magic and good-aligned (paladin) or evil-aligned (blackguard) weapons for the purpose of overcoming damage reduction.
+If you cast this spell in conjunction with master cavalier (page 124) and phantom charge (page 125), the three spells have a synergistic effect.
+See the master cavalier spell description for details}}
+
+
+Weapon of the Deity(Spell Compendium): - Blackguard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Weapon of the Deity](https://dndtools.net/spells/spell-compendium--86/weapon-of-the-deity--4764/) }} {{School:= Transmutation  }} {{Level:= **Blackguard 3**, Cleric 3, Paladin 3, Mysticism 4, Cloistered Cleric 3}} {{Components:= V, DF}} {{Range:= Touch}} {{Target:=Weapon touched}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude negates (object, harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Wielding the weapon your deity favors, you call upon that divine force to imbue it with power.**
+You must be holding your deity's favored weapon to cast this spell. You can use the weapon as if you had proficiency with it even if you normally do not. The weapon gains a +1 enhancement bonus on attack rolls and damage rolls and an additional special ability (see the list below). A double weapon gains this enhancement bonus and special ability for only one of its two ends, as chosen by you.
+When you reach caster level 9th, the enhancement bonus of the weapon increases to +2. At 12th level, the bonus rises to +3, at 15th level it is +4, and at 18th level it becomes +5.
+The list below includes deities from the core pantheon as well as other deities described in D&amp;D supplements, along with the five alignment components. If a cleric worshiping a different deity casts this spell, the DM should assign an appropriate weapon special ability of the same power level as those given here.
+<strong>DEITIES</strong>
+<strong>Bahamut:</strong> +1 frost heavy pick
+<strong>Boccob:</strong> +1 spell storing quarterstaff
+<strong>Corellon Larethian:</strong> +1 keen longsword
+<strong>Ehlonna:</strong> +1 frost longsword
+<strong>Erythnul:</strong> +1 mighty cleaving morningstar
+<strong>Fharlanghn:</strong> +1 defending quarterstaff
+<strong>Garl Glittergold:</strong> +1 throwing battleaxe
+<strong>Gruumsh:</strong> +1 returning shortspear
+<strong>Heironeous:</strong> +1 shock longsword
+<strong>Hextor:</strong> +1 mighty cleaving heavy flail
+<strong>Kord:</strong> +1 mighty cleaving greatsword
+<strong>Kurtulmak:</strong> +1 shock shortspear
+<strong>Lolth:</strong> +1 keen whip
+<strong>Moradin:</strong> +1 throwing warhammer
+<strong>Nerull:</strong> +1 keen scythe
+<strong>Obad-Hai:</strong> +1 defending quarterstaff
+<strong>Olidammara:</strong> +1 keen rapier
+<strong>Pelor:</strong> +1 flaming heavy mace
+<strong>St. Cuthbert:</strong> +1 mighty cleaving heavy mace
+<strong>Vecna:</strong> +1 frost dagger
+<strong>Wee Jas:</strong> dagger of venom
+<strong>Tiamat:</strong> +1 flaming heavy pick
+<strong>Yondalla:</strong> +1 defending short sword
+<strong>ALIGNMENTS</strong>
+<strong>Good:</strong> +1 frost warhammer
+<strong>Evil:</strong> +1 mighty cleaving light flail
+<strong>Neutral:</strong> +1 defending heavy mace
+<strong>Law:</strong> +1 flaming longsword
+<strong>Chaos:</strong> +1 shock battleax}}
+
+
+Aligned Aura(Complete Champion): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Aligned Aura](https://dndtools.net/spells/complete-champion--57/aligned-aura--581/) }} {{School:= Abjuration  }} {{Level:= **Blackguard 4**, Cleric 4, Paladin 4, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= 20 ft. or 60 ft.}} {{Area:=20-ft.-radius emanation or 60-ft.-radius burst, centered on you}} {{Duration:=1 round/level or until discharged}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc4}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A rush of divine energy flows through your holy symbol, infusing your body with the essence of the divine ethos. When you cast this spell, choose one non-neutral aspect of your own alignment&#8212;chaos, evil, good, or law. (If you are neutral, you can select whichever alignment you wish each time you cast this spell). You are immediately surrounded in a 20-foot aura of invisible energy associated with the chosen alignment component. Anyone in that area who shares that alignment component gains a bonus, and anyone with the opposed alignment component must make a Fortitude save or take a penalty. The values of these modifiers and the features to which they apply are given on the following table. These modifiers end when the affected creature leaves the spell's area.
+<table><tr><th>Alignment </th><th>Bonus </th><th>Penalty </th></tr><tr><td> Chaos </td><td> +1 on attack rolls </td><td> -1 on saving throws </td></tr><tr><td> Evil </td><td> +1 on damage rolls </td><td> -1 to Armor Class </td></tr><tr><td> Good </td><td> +1 on saving throws </td><td> -1 on attack rolls </td></tr><tr><td> Law </td><td> +1 to Armor Class </td><td> -1 on damage rolls </td></tr></table>At any point before the duration expires, you can choose to unleash the spell's remaining power in a 60-foot burst that deals 1d4 points of damage per round of duration remaining (maximum 15d4) to each creature of the opposed alignment in the area. Each affected creature can attempt a Fortitude save for half damage. The burst also heals 1 point of damage per round of duration remaining (maximum 15 points) for each creature of the same alignment in the area. Once this option is invoked, the spell ends immediately}}
+
+
+Bleed(Complete Champion): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Bleed](https://dndtools.net/spells/complete-champion--57/bleed--616/) }} {{School:= Necromancy  }} {{Level:= **Blackguard 4**, Cleric 5, Druid 5, Cloistered Cleric 5}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc4}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your touch thins the blood of your target, causing it to spill with unnatural ease.
+For the duration of the spell, the subject bleeds profusely through any open wound.
+Each new hit from a piercing or slashing weapon or effect that deals damage to the subject also deals 1 point of Constitution damage.
+This ability damage is not multiplied on a critical hit.
+Because this spell thins the subject's blood, repeated uses cause additional difficulty.
+In addition to the extra damage, a target subjected to a second use of this spell before the first has expired also takes a -4 penalty on Fortitude saves against disease, poison, or the sickened and nauseated conditions.
+Creatures with no discernible anatomy (such as plants and oozes) and those immune to critical hits (such as undead and constructs) are immune to this spell}}
+
+
+Chromatic Ray(Dragons of Faerun): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Chromatic Ray](https://dndtools.net/spells/dragons-of-faerun--26/chromatic-ray--1105/) }} {{School:= Evocation  [Evil]}} {{Level:= **Blackguard 4**, Cleric 5, Cloistered Cleric 5}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One good dragon or dragonblood creature}}{{Effect:=Ray}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You fire a brilliant ray of white, black, green, blue, and red at the dragon.
+This spell calls upon the might of evil dragonkind to suppress the powers of a good dragon or dragonblood creature.
+You must make a ranged touch attack to hit the target.
+If the attack is successful, the dragon must make a successful Will save or become unable to use all its racial supernatural and spell-like abilities.
+This does not include the spells a dragon casts from its sorcerer spell progression.
+Special: If you receive your divine spells from Mask or Tiamat, you receive a +1 profane bonus on the ranged touch attack}}
+
+
+Claws of the Savage(Book of Vile Darkness): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Claws of the Savage](https://dndtools.net/spells/book-of-vile-darkness--37/claws-of-the-savage--233/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 4**, Cleric 4, Druid 4, Bestial 4, Cloistered Cleric 4}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=One creature}} {{Duration:=10 minutes/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster grants one creature two long claws that replace its hands, tentacle tips, or whatever else is appropriate.
+The claws deal damage based on the creature's size.
+The creature can make attacks with both claws as if it were proficient with them.
+Just as with a creature that has natural weapons, the subject takes no penalty for making two claw attacks.
+The subject is treated as armed.
+Furthermore, these claws gain a +2 enhancement bonus on attack and damage rolls.
+If the creature already has claws, those claws gain a +2 enhancement bonus on attack and damage rolls, and the claws' damage increases as if the creature were two size categories larger}}
+
+
+Fracturing Weapon(The Forge of War): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fracturing Weapon](https://dndtools.net/spells/forge-war--105/fracturing-weapon--3548/) }} {{School:= Transmutation  }} {{Level:= **Blackguard 4**, Hexblade 3, Assassin 4, Duskblade 4, Paladin 4, Cleric 5, Cloistered Cleric 5}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Melee weapon touched}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Once per round for the spell?s duration, the wielder of the targeted weapon can declare a single melee attack to be a fracturing blow. If that attack successfully deals damage to an opponent, the foe takes a ?5 penalty to Armor Class and damage reduction (if any, to a minimum of 0).
+The penalties are applied after the damage from the fracturing weapon attack has been resolved. The penalties last for a single round, but the wielder can attack it again on his or her next turn and attempt to reinvoke the penalty.<}}
+
+
+Implacable Pursuer(Spell Compendium): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Implacable Pursuer](https://dndtools.net/spells/spell-compendium--86/implacable-pursuer--3891/) }} {{School:= Divination  }} {{Level:= **Blackguard 4**, Assassin 4, Ranger 4}} {{Components:= V, S}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Target:=One creature}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Divination}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**With this spell, you become an unerring tracker, instantly aware of your quarry's location whenever it's on the move.**
+The implacable pursuer spell gives you the direction and distance to the target creature whenever it finishes a turn more than 10 feet away from where it started. If you are a ranger, you apply your favored enemy bonus to the DC of the Will save.
+Once you successfully target a creature with implacable pursuer, you know its location as long as the subject is moving, no matter where it goes on the same plane. Even if it leaves the plane, implacable pursuer tells you what plane the subject creature went to. The spell then provides no further information until you and the subject creature are on the same plane, in which case the spell resumes functioning normally}}
+
+
+Investiture of the Barbed Devil(Fiendish Codex II: Tyrants of the Nine Hells): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Investiture of the Barbed Devil](https://dndtools.net/spells/fiendish-codex-ii-tyrants-of-the-nine-hells--67/investiture-of-the-barbed-devil--1175/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 4**, Cleric 6, Sorcerer 6, Wizard 6, Cloistered Cleric 6, Arcanist 6}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With brisk arcane gestures that glow with a fiery red light, you imbue a target with the might of a barbed devil, causing long thorns to sprout all over its body.
+You cause the target of this spell to grow a number of long barbs similar to those found on a barbed devil.
+While under the effect of the spell, the target does not provoke attacks of opportunity when initiating a grapple.
+If the subject already has improved grab or the Improved Grapple feat, it instead gains a +4 profane bonus on grapple checks.
+Whenever the subject successfully makes a grapple check to grab a foe, pin a foe, or deal damage, it impales its foe on its barbs, dealing extra damage based on its size.
+The subject also gains resistance to fire 10.
+This resistance stacks with the resistance granted by other evil investiture spells (but not with multiple castings of investiture of the barbed devil).
+While this spell is in effect, magic weapons with the evil outsider bane special ability have full effect against the subject of the investiture.
+After the spell's duration expires (or if it is dispelled or ended through some other means), the subject is fatigued for 1 minute.
+Material Component: A fist-sized chunk of brimstone.<table><tr><th>Size </th><th>Damage</th></tr><tr><td> Tiny or smaller </td><td> 1d8 </td></tr><tr><td> Small </td><td> 2d8 </td></tr><tr><td> Medium </td><td> 3d8 </td></tr><tr><td> Large </td><td> 4d8 </td></tr><tr><td> Huge </td><td> 5d8 </td></tr><tr><td> Gargantuan </td><td> 6d8 </td></tr><tr><td> Colossal </td><td> 7d8 </td></tr></table}}
+
+
+Investiture of the Malebranche(Fiendish Codex II: Tyrants of the Nine Hells): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Investiture of the Malebranche](https://dndtools.net/spells/fiendish-codex-ii-tyrants-of-the-nine-hells--67/investiture-of-the-malebranche--1183/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 4**, Cleric 6, Sorcerer 6, Wizard 6, Cloistered Cleric 6, Arcanist 6}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A fearsome roar splits the air when you conclude the arcane words that invest the target with hellish power drawn from a malebranche.
+You infuse a creature with the raw power of the mighty malebranche, causing it to grow twisted horns of blackened bone from of its brow.
+While under the effect of this spell, the subject deals extra damage whenever it successfully hits with a charge attack, depending on its size.
+In addition, the subject gains resistance to fire 10.
+This resistance stacks with the resistance granted by other evil investiture spells (but not with multiple castings of investiture of the malebranche).
+While this spell is in effect, magic weapons with the evil outsider bane special ability have full effect against the subject of the investiture.
+After the spell's duration expires (or if it is dispelled or ended through some other means), the subject is fatigued for 1 minute.
+Material Component: A fist-sized chunk of brimstone}}
+
+
+Investiture of the Narzugon(Fiendish Codex II: Tyrants of the Nine Hells): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Investiture of the Narzugon](https://dndtools.net/spells/fiendish-codex-ii-tyrants-of-the-nine-hells--67/investiture-of-the-narzugon--1184/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 4**, Cleric 5, Sorcerer 5, Wizard 5, Cloistered Cleric 5, Arcanist 5}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates (harmless); see text (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A moan precedes the transformation that results when you imbue the target with the baleful power of a narzugon.
+You bind the dread essence of a narzugon to a target creature, filling it with the misery and horror that defines the devil's existence.
+The subject of this spell can use a baleful gaze as a standard action.
+The gaze affects a single creature within 20 feet.
+That creature must succeed on a Will save against the spell's save DC or be immobilized for 1 round as if affected by a hold monster spell.
+Baatezu are immune to this gaze attack.
+Once a creature has successfully resisted this effect, it cannot be affected by this gaze from the same creature for 24 hours.
+The subject also gains resistance to fire 10.
+This resistance stacks with the resistance granted by other evil investiture spells (but not with multiple castings of investiture of the narzugon).
+While this spell is in effect, magic weapons with the evil outsider bane special ability have full effect against the subject of the investiture.
+After the spell's duration expires (or if it is dispelled or ended through some other means), the subject is fatigued for 1 minute.
+Material Component: A fist-sized chunk of brimstone}}
+
+
+Investiture of the Orthon(Fiendish Codex II: Tyrants of the Nine Hells): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Investiture of the Orthon](https://dndtools.net/spells/fiendish-codex-ii-tyrants-of-the-nine-hells--67/investiture-of-the-orthon--1185/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 4**, Cleric 5, Sorcerer 5, Wizard 5, Cloistered Cleric 5, Arcanist 5}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A dull humming noise sounds briefly, and the air crackles with the terrible power of an orthon.
+While under the effect of this spell, a creature is infused with the disruptive power of an orthon.
+As an immediate action, the subject of this spell can erect a 20-foot-radius field that disrupts teleportation spells or effects.
+All creatures in the area are prevented from using any spell, spell-like ability, or supernatural ability that provides such movement, as if they were in the area of a dimensional lock spell.
+Each use of this field lasts 1 round.
+In addition, the subject of the spell gains the benefit of a sonic shield for as long as the spell remains in effect.
+This shield functions like the fire shield spell, except that it deals sonic damage instead of cold or fire, and the subject takes half damage from acid-based attacks.
+If exposed to an acid attack that allows a Reflex save for half damage, the subject takes no damage on a successful save.
+The subject gains resistance to fire 10.
+This resistance stacks with the resistance granted by other evil investiture spells (but not with multiple castings of investiture of the orthon).
+While this spell is in effect, magic weapons with the evil outsider bane special ability have full effect against the subject of the investiture.
+After the spell's duration expires (or if it is dispelled or ended through some other means), the subject is fatigued for 1 minute.
+Material Component: A fist-sized chunk of brimstone}}
+
+
+Manifest Death(The Forge of War): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Manifest Death](https://dndtools.net/spells/forge-war--105/manifest-death--3552/) }} {{School:= Necromancy  }} {{Level:= **Blackguard 4**, Cleric 5, Cloistered Cleric 5}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Undead creature touched, then living creature or undead creature touched}} {{Duration:=Instantaneous/1 minute or until discharged; see text}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=To employ this spell, you must succeed on a melee touch attack against an undead creature. If you do so, your touch deals 1d6 points of damage per two caster levels (maximum 15d6). This damage represents negative energy that you draw from the subject, resulting in a ball of writhing shadow you hold in your hand. You can use this ball of negative energy in one of three ways.
+You can, in any following round, touch any other undead creature with that negative energy, as a standard action. The undead creature absorbs the energy, healing as many points of damage as you dealt to the initial subject, up to the new subject?s normal maximum hit points.
+<ul><li>You can use the ball of negative energy to make a melee touch against a living creature, dealing the same amount of damage you initially dealt.</li></ul><ul><li>You can use it to power a rebuke undead attempt. The next rebuke attempt you make, so long as it occurs before the spell?s duration expires, does not count against your daily limit.</li></ul>The ball of negative energy dissipates in 1 minute if not used, and it vanishes immediately if you use your hand for some other purpose.<}}
+
+
+Manifest Life(The Forge of War): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Manifest Life](https://dndtools.net/spells/forge-war--105/manifest-life--3553/) }} {{School:= Necromancy  }} {{Level:= **Blackguard 4**, Cleric 5, Cloistered Cleric 5}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Living creature touched, then living creature or undead creature touched}} {{Duration:=Instantaneous/1 minute or until discharged; see text}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=To employ this spell, you must succeed on a melee touch attack against a living creature. If you do so, your touch deals 1d6 points of damage per two caster levels (maximum 15d6). This damage represents actual life force that you take from the subject, resulting in a ball of positive energy you hold in your hand. You can use this ball of positive energy in one of three ways.
+<ul><li>You can, in any following round, touch yourself or any other living creature with that positive energy, as a standard action. The living creature absorbs the energy, healing as many points of damage as you dealt to the initial subject, up to the new subject?s full normal hit points.</li></ul><ul><li>You can use the ball of positive energy to make a melee touch against an undead creature, dealing the same amount of damage you initially dealt.</li></ul><ul><li>You can use it to power a turn undead attempt. The next turning attempt you make, so long as it occurs before the spell?s duration expires, does not count against your daily limit.</li></ul>The ball of positive energy dissipates in 1 minute if not used, and it vanishes immediately if you use your hand for some other purpose.<}}
+
+
+Phantom Charge(Complete Champion): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Phantom Charge](https://dndtools.net/spells/complete-champion--57/phantom-charge--598/) }} {{School:= Conjuration (Teleportation) }} {{Level:= **Blackguard 4**, Paladin 4}} {{Components:= V, S}} {{Range:= Personal and touch}} {{Target:=You and your special mount or fiendish companion}} {{Duration:=Instantaneous}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You and your mount utter a fierce call as one.
+The beating of its hooves grows almost deafening, and the world around you begins to shimmer.
+If you cast this spell while mounted on your special mount or mount-sized fiendish companion, you tap into the energies normally released only when you summon or dismiss that creature, creating a short-range teleportation effect.
+Between a single pair of steps, you and your mount can teleport directly forward once, moving up to 5 feet per two caster levels.
+Many paladins use this spell to attack over rough terrain that would normally prevent a charge.
+Because this spell can be cast while your mount is moving, the creature can move part of its speed both before and after the spell takes effect.
+If you cast this spell in conjunction with master cavalier (page 124) and war-mount (page 129), the three spells have a synergistic effect.
+See the master cavalier spell description for details}}
+
+
+Profane Item(Complete Champion): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Profane Item](https://dndtools.net/spells/complete-champion--57/profane-item--627/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Blackguard 4**, Cleric 4, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Object touched}} {{Duration:=Permanent until discharged}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Negative forces flow through your hands and into the object you hold, filling it with a darkly glowing power that gleams for a moment, then subsides.
+You imbue a touched object with latent negative energy.
+If the item thereafter touches or is touched by an animal or plant of any alignment, or by an outsider or shapechanger of good alignment, the negative energy discharges with a loud snap, dealing 1d4 points of negative energy damage per caster level (maximum 10d4) to that creature.
+If the creature discharging the item is an animal or plant, it must save against fear or flee in terror (or cower, if it cannot move) for 1d4 minutes.
+On a successful save, the creature is merely shaken for the same length of time.
+If the creature discharging the item is a shapechanger, an image of its natural form or most common alternate form appears for 1d4 rounds, superimposed over its body, revealing its true nature to all witnesses.
+Profane item counters and dispels sacred item (see below)}}
+
+
+Revenance(Spell Compendium): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Revenance](https://dndtools.net/spells/spell-compendium--86/revenance--4105/) }} {{School:= Conjuration (Healing) }} {{Level:= **Blackguard 4**, Cleric 4, Paladin 4, Bard 6, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Dead ally touched}} {{Duration:=1 minute/level}} {{Savingthrow:=None; see text (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You rush to your fallen companion amid the chaos of the battle and cry out the words that will bring her back for one last fight.**
+This spell brings a dead ally temporarily back to life. The subject can have been dead for up to 1 round per level. Your target functions as if a raise dead spell (PH 268) had been cast upon her, except that she does not lose a level and has half of her full normal hit points. She is alive (not undead) for the duration of the spell and can be healed normally, but dies as soon as the spell ends. While under the effect of this spell, the subject is not affected by spells that raise the dead.
+The subject gains a +1 morale bonus on attack rolls, damage rolls, saves, and checks against the creature that killed her}}
+
+
+Shadow of the Dark Queen(Dragons of Faerun): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shadow of the Dark Queen](https://dndtools.net/spells/dragons-of-faerun--26/shadow-of-the-dark-queen--1111/) }} {{School:= Evocation  [Evil]}} {{Level:= **Blackguard 4**, Cleric 5, Cloistered Cleric 5}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=One touched object}} {{Duration:=2 rounds/level}} {{Savingthrow:=Will partial; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The object begins to darken, imbued with the malice of the Dark Lady.
+The touched object radiates darkness with all the properties of a.
+deeper darkness spell, except that evil dragons and dragonblood creatures can see normally.
+The darkness from this spell also has a number of additional qualities:
+First, the darkened area acts as a desecrate spell.
+Second, a good dragon or dragonblood creature cannot enter the area of darkness unless it makes a Will save.
+If it makes the saving throw, it can enter the area, but each round that it remains in the area of darkness, it takes 2d6 points of damage and is dazed.
+A successful Will save halves the damage and negates the daze effect.
+Third, shadow of the Dark Queen counters and dispels light of Xymor, and it also counters and dispels any light spell of equal or lower level, including daylight and light.
+Special: Divine spellcasters who derive their power from Tiamat cast this spell at +1 caster level}}
+
+
+Soulbleed(Magic of Incarnum): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Soulbleed](https://dndtools.net/spells/magic-of-incarnum--74/soulbleed--1838/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Blackguard 4**, Assassin 4}} {{Components:= V}} {{Range:= Touch}} {{Target:=One melee weapon}} {{Duration:=1 round/3 levels}} {{Savingthrow:=None (object) or Fortitude negates; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Necromancy}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You invest your weapon with the power to bleed away part of the victim's essentia.
+Each time you hit a living creature with a weapon affected by soulbleed wounding, that creature loses 1 point of essentia unless it succeeds on a Fortitude save.
+You don't gain the essentia; it is simply lost.
+Spell resistance applies against this effect.
+If any round of the spell's duration goes by in which no living creature is affected by the spell (either because you didn't hit a living creature or because no saving throw was failed), you take 1d6 points of damage from the spell.
+No save or spell resistance is allowed to resist this effect.
+This spell works only as long as you wield the weapon affected.
+Any other wielder gains no benefit from the effect}}
+
+
+Summon Undead IV(Spell Compendium): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Summon Undead IV](https://dndtools.net/spells/spell-compendium--86/summon-undead-iv--4281/) }} {{School:= Conjuration (Summoning) [Evil]}} {{Level:= **Blackguard 4**, Cleric 4, Sorcerer 4, Wizard 4, DreadNecromancer 4, Cloistered Cleric 4, Arcanist 4}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A tiny bag, a small (not lit) candle, and a carved bone from any humanoid}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One or more summoned creatures, no two of which are more than 30 ft. apart}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/spell-compendium--86/summon-undead-i--3780/">**summon undead I**</a>, except that you can summon one undead from the 4th-level  list, two undead of the same kind from the 3rd-level list, or four undead of the same kind from a lower-level list.
+<h4><span class="caps">SUMMON</span> <span class="caps">UNDEAD</span> <span class="caps">LISTS</span></h4><table><tr><th><strong>Spell Level</strong> </th><th><strong>Undead Creature</strong> </th></tr><tr><td> <strong>1st</strong> </td><td> <strong>Human warrior skeleton (MM 226)</strong>, <strong>kobold zombie (MM 266)</strong> </td></tr><tr><td> <strong>2nd</strong> </td><td> <strong>Owlbear skeleton (MM 226)</strong>, <strong>bugbear zombie (MM 267)</strong> </td></tr><tr><td> <strong>3rd</strong> </td><td> <strong>Ghoul (MM 118)</strong>, <strong>troll skeleton (MM 227)</strong>, <strong>ogre zombie (MM 267)</strong> </td></tr><tr><td> <strong>4th</strong> </td><td> <strong>Allip (MM 10)</strong>, <strong>ghast (MM 119)</strong>, <strong>wyvern zombie (MM 267)</strong> </td></tr><tr><td> 5th </td><td> Mummy (MM 190), shadow (MM 221), vampire spawn (MM 253), wight (MM 255) </td></tr></table}}
+
+
+Vile Lance(Book of Vile Darkness): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Vile Lance](https://dndtools.net/spells/book-of-vile-darkness--37/vile-lance--188/) }} {{School:= Evocation  [Evil]}} {{Level:= **Blackguard 4**, Cleric 3, MortalHunter 3, Sorcerer 3, Wizard 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Effect:=One shortspear}} {{Duration:=10 minutes/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Vile lance creates a weapon of blackness that the caster (and only the caster) can wield with proficiency.
+The caster can throw it, but if he does, the spell ends after the ranged attack is resolved.
+The vile lance is treated in all ways like a +2 shortspear, except that the damage dealt is vile damage.
+Arcane Material Component: A bone fragment of a good-aligned creature}}
+
+
+Visage of the Deity, Lesser(Spell Compendium): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Visage of the Deity, Lesser](https://dndtools.net/spells/spell-compendium--86/visage-deity-lesser--4744/) }} {{School:= Transmutation  }} {{Level:= **Blackguard 4**, Cleric 3, Paladin 4, Mysticism 3, Cloistered Cleric 3}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**As you end your prayer, you can feel the hand of your deity upon you. Your appearance reflects her divine power, and her touch grants you resistance from some of the damage of this world.**
+You gain a +4 enhancement bonus to Charisma. You also gain resistance to acid 10, cold 10, and electricity 10 if you are good, or resistance to cold 10 and fire 10 if you are evil}}
+
+
+Winged Mount(Spell Compendium): - Blackguard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Winged Mount](https://dndtools.net/spells/spell-compendium--86/winged-mount--4774/) }} {{School:= Transmutation  }} {{Level:= **Blackguard 4**, Paladin 4}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Your touched special mount}} {{Duration:=10 minutes/level}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You touch your special mount and it sprouts giant, feathery white wings.**
+This spell grants your special mount a fly speed of 60 feet (good). The mount is slowed as normal because of weight carried, barding worn, and environmental factors}}

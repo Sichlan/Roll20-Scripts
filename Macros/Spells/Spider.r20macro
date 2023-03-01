@@ -1,0 +1,86 @@
+
+
+Spider Climb(Player's Handbook v.3.5): - Spider(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Spider Climb](https://dndtools.net/spells/players-handbook-v35--6/spider-climb--2877/) }} {{School:= Transmutation  }} {{Level:= **Spider 1**, SlayerofDomiel 1, Druid 2, UrbanDruid 2, Jester 2, DeathMaster 2, Sha'ir 2, WuJen 2, Duskblade 2, Beguiler 2, Fatemaker 2, EbonmarInfiltrator 2, Hoardstealer 2, Wizard 2, Sorcerer 2, CourtHerald 2, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=10 min./level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject can climb and travel on vertical surfaces or even traverse ceilings as well as a spider does.
+The affected creature must have its hands free to climb in this manner.
+The subject gains a climb speed of 20 feet; furthermore, it need not make Climb checks to traverse a vertical or horizontal surface (even upside down).
+A spider climbing creature retains its Dexterity bonus to Armor Class (if any) while climbing, and opponents get no special bonus to their attacks against it.
+It cannot, however, use the run action while climbing.
+Material Component: A drop of bitumen and a live spider, both of which must be eaten by the subject}}
+
+
+Summon Swarm(Player's Handbook v.3.5): - Spider(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Summon Swarm](https://dndtools.net/spells/players-handbook-v35--6/summon-swarm--2459/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Spider 2**, Bard 2, Druid 2, Sorcerer 2, Wizard 2, Sha'ir 2, DeathMaster 2, UrbanDruid 2, DreadNecromancer 2, Pestilence 2, Arcanist 2}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One swarm of bats, rats, or spiders}} {{Duration:=Concentration + 2 rounds}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You summon a swarm of bats, rats, or spiders (your choice), which attacks all other creatures within its area. (You may summon the swarm so that it shares the area of other creatures). If no living creatures are within its area, the swarm attacks or pursues the nearest creature as best it can. The caster has no control over its target or direction of travel.
+See the Monster Manual for details of bat, rat, and spider swarms.
+**Arcane Material Component:** A square of red cloth}}
+
+
+Phantom Steed(Player's Handbook v.3.5): - Spider(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Phantom Steed](https://dndtools.net/spells/players-handbook-v35--6/phantom-steed--2415/) }} {{School:= Conjuration (Creation) }} {{Level:= **Spider 3**, Bard 3, Sorcerer 3, Wizard 3, KnightoftheWeave 3, Sha'ir 3, Savant 3, DeathMaster 3, Arcanist 3}} {{Components:= V, S}} {{Range:= 0 ft.}} {{Effect:=One quasi-real, horselike creature}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You conjure a Large, quasi-real, horselike creature.
+The steed can be ridden only by you or by the one person for whom you specifically created the mount.
+A phantom steed has a black head and body, gray mane and tail, and smoke-colored, insubstantial hooves that make no sound.
+It has what seems to be a saddle, bit, and bridle.
+It does not fight, but animals shun it and refuse to attack it.
+The mount has an AC of 18 (-1 size, +4 natural armor, +5 Dex) and 7 hit points +1 hit point per caster level.
+If it loses all its hit points, the phantom steed disappears.
+A phantom steed has a speed of 20 feet per caster level, to a maximum of 240 feet.
+It can bear its rider's weight plus up to 10 pounds per caster level.
+These mounts gain certain powers according to caster level.
+A mount's abilities include those of mounts of lower caster levels.
+Thus, a mount created by a 12th-level caster has the 8th, 10th, and 12th caster level abilities.
+8th Level: The mount can ride over sandy, muddy, or even swampy ground without difficulty or decrease in speed.
+10th Level: The mount can use water walk at will (as the spell, no action required to activate this ability).
+12th Level: The mount can use air walk at will (as the spell, no action required to activate this ability) for up to 1 round at a time, after which it falls to the ground.
+14th Level: The mount can fly at its speed (average maneuverability).
+<strong>Special: When casting **phantom steed** as a Spider Domain spell, the steed has a vermin shape.</strong}}
+
+
+Giant Vermin(Player's Handbook v.3.5): - Spider(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Giant Vermin](https://dndtools.net/spells/players-handbook-v35--6/giant-vermin--2820/) }} {{School:= Transmutation  }} {{Level:= **Spider 4**, Cleric 4, Druid 4, DeathMaster 4, UrbanDruid 4, DreadNecromancer 4, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Up to three vermin, no two of which can be more than 30 ft. apart}} {{Duration:=1 min./level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You turn three normal-sized centipedes, two normal-sized spiders, or a single normal-sized scorpion into larger forms.
+Only one type of vermin can be transmuted (so a single casting cannot affect both a centipede and a spider), and all must be grown to the same size.
+The size to which the vermin can be grown depends on your level; see the table below.
+The Monster Manual has game statistics for centipedes, spiders, and scorpions, as well as other kinds of vermin.
+Any giant vermin created by this spell do not attempt to harm you, but your control of such creatures is limited to simple commands (&quot;Attack&quot;, &quot;Defend&quot;, &quot;Stop&quot;, and so forth).
+Orders to attack a certain creature when it appears or guard against a particular occurrence are too complex for the vermin to understand.
+Unless commanded to do otherwise, the giant vermin attack whoever or whatever is near them.
+The DM can extend this spell's effects to other kinds of insects, arachnids, or other vermin, such as ants, bees, beetles, praying mantises, and wasps, if he so chooses}}
+
+
+Insect Plague(Player's Handbook v.3.5): - Spider(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Insect Plague](https://dndtools.net/spells/players-handbook-v35--6/insect-plague--2402/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Spider 5**, Cleric 5, Druid 5, DeathMaster 5, DreadNecromancer 5, Cloistered Cleric 5}} {{Components:= V, S, DF}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Effect:=One swarm of locusts per three levels, each of which must be adjacent to at least one other swarm}} {{Duration:=1 min./level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You summon a number of swarms of locusts (one per three levels, to a maximum of six swarms at 18th level).
+The swarms must be summoned so that each one is adjacent to at least one other swarm (that is, the swarms must fill one contiguous area).
+You may summon the locust swarms so that they share the area of other creatures.
+Each swarm attacks any creatures occupying its area.
+The swarms are stationary after being summoned, and won't pursue creatures that flee.
+See the Monster Manual for details on locust swarms}}
+
+
+Spider Curse(Spell Compendium): - Spider(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Spider Curse](https://dndtools.net/spells/spell-compendium--86/spider-curse--4213/) }} {{School:= Transmutation  }} {{Level:= **Spider 6**}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One Medium or smaller humanoid}} {{Duration:=24 hours/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc6}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You pour the power of the spell into the body of another. That creature, now but a vessel of your will, takes the shape of a centaur-like spider creature called a drider.**
+You turn a humanoid into a creature resembling a drider (MM 89) that obeys your mental commands.
+The transmuted subject gains a spider's body with a humanoid head, arms, and torso, just like a drider.
+The subject has a drider's speed, natural armor, bite attack, and poison (but see below). The subject gains a +4 bonus to Strength, Dexterity, and Constitution. The subject becomes size Large, with a space of 10 feet and a reach of 5 feet. The subject gains a &#8212;1 penalty to AC and on attack rolls due to size. The subject retains its Intelligence, Wisdom, and Charisma scores, level and class, hit points (despite any change in Constitution), alignment, base attack bonus, and base saves. (New Strength, Dexterity, and Constitution scores might  affect final Armor Class, attack, and save bonuses.) The subject's equipment remains and continues to function as long as it fits a drider's body shape. Otherwise it is subsumed into the new form and ceases to function for the duration of the spell.  Retained items include anything worn on the upper body (head, neck, shoulders, hands, arms, and waist). Nonfunctioning items include anything worn on the legs, feet, or the whole body (armor, robes, vestments, and boots).
+The subject's bite delivers a poison with a Fortitude save DC of 16 + your Wisdom bonus. Initial and secondary damage is 1d6 points of Strength damage.
+Your control over the subject is like that provided by a <a href="/spells/players-handbook-v35--6/dominate-person--2547/">**dominate person**</a> spell (PH 224). (You telepathically control the creature as long as it remains within range.}}
+
+
+Stone Spiders(Spell Compendium): - Spider(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Stone Spiders](https://dndtools.net/spells/spell-compendium--86/stone-spiders--4239/) }} {{School:= Transmutation  }} {{Level:= **Spider 7**}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Three pebbles, no two of which are more than 30 ft. apart}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You imbue three small stones with magical power, causing them to twist and grow into large stone spiders.**
+This spell transforms three pebbles into stone constructs that resemble monstrous spiders. The constructs can be any size from Tiny to Huge as you decide, but all the constructs you create must be the same size. The constructs have the same statistics as monstrous spiders (MM 288) of the appropriate size, except as noted here.
+<ul><li>Their natural armor bonus increases by 6.</li><li>They have damage reduction 10/magic.</li><li>Their poison has a Fortitude save DC of 10 + 1/2 your caster level + your Wis modifier. Initial and secondary damage is 1d3 points of Strength damage.</li></ul>If the constructs can hear your commands, you can direct them not to attack, to attack particular enemies, or to perform other actions. Otherwise, they simply attack your enemies to the best of their ability}}
+
+
+Creeping Doom(Player's Handbook v.3.5): - Spider(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Creeping Doom](https://dndtools.net/spells/players-handbook-v35--6/creeping-doom--2377/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Spider 8**, Druid 7, DeathMaster 7, UrbanDruid 7, Scalykind 7}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One swarm of centipedes per two levels}} {{Duration:=1 min./level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you utter the spell of creeping doom, you call forth a mass of centipede swarms (one per two caster levels, to a maximum of ten swarms at 20th level), which need not appear adjacent to one another.
+(See the Monster Manual for details on centipede swarms).
+You may summon the centipede swarms so that they share the area of other creatures.
+The swarms remain stationary, attacking any creatures in their area, unless you command the creeping doom to move (a standard action).
+As a standard action, you can command any number of the swarms to move toward any prey within 100 feet of you.
+You cannot command any swarm to move more than 100 feet away from you, and if you move more than 100 feet from any swarm, that swarm remains stationary, attacking any creatures in its area (but it can be commanded again if you move within 100 feet).
+<strong>Special: When casting **creeping doom** as a Scalykind Domain spell, the swarm is composed of tiny snakes.</strong}}
+
+
+Spider Shapes(Spell Compendium): - Spider(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Spider Shapes](https://dndtools.net/spells/spell-compendium--86/spider-shapes--4215/) }} {{School:= Transmutation  }} {{Level:= **Spider 9**}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One willing creature/level, all within 30 ft. of each other}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=None; see text (harmless)}} {{Save DC:=[[@{spelldc9}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You channel the power of the spell into the willing masses before you, granting them the blessed forms of spiders.**
+This spell functions like <a href="/spells/players-handbook-v35--6/polymorph--2854/">**polymorph**</a> (PH 283),  except that you polymorph up to one willing creature per level into a monstrous spider (MM 288) of any size from Tiny to Huge as you decide. Unlike with polymorph, this spell allows the subjects to gain a spider's poisonous bite. All the creatures you transmute must become spiders of the same size.
+Subjects remain in the spider form until the spell expires or you dismiss the spell for all subjects. In addition, an individual subject can choose to resume its normal form as a full-round action. Doing so ends the spell for that creature only}}

@@ -1,0 +1,4 @@
+
+
+Commune With Greater Spirit(Complete Arcane): - Divination(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Commune With Greater Spirit](https://dndtools.net/spells/complete-arcane--55/commune-with-greater-spirit--484/) }} {{School:= Divination  }} {{Level:= **Divination 5**, WuJen 7, Shaman 5, Celestial 5, Nature 5}} {{Components:= V, S, M, XP}} {{Material Component:= Incense and a small offering worth 25 gp}} {{XP-Cost= 100 XP}} {{Range:= }} {{Target:=One spirit}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As commune with lesser spirit, except this spell can contact any spirit creature regardless of Hit Dice, and you can ask one question per caster level}}

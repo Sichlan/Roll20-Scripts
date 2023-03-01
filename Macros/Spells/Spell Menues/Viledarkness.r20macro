@@ -1,0 +1,6 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;2:=[View](~Viledarkness-Spell-Level-2)}} {{Spelllevel&nbsp;4:=[View](~Viledarkness-Spell-Level-4)}} {{Spelllevel&nbsp;8:=[View](~Viledarkness-Spell-Level-8)}} 
+
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-Viledarkness)}} {{Darkbolt:=[View](~Viledarkness-Darkbolt-Description) [Send](~Viledarkness-Darkbolt-Cast)}} ]
+[4, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 4 }} {{subtags=[Back to Main Menu](~Spells-Main-Viledarkness)}} {{Damning Darkness:=[View](~Viledarkness-Damning-Darkness-Description) [Send](~Viledarkness-Damning-Darkness-Cast)}} ]
+[8, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 8 }} {{subtags=[Back to Main Menu](~Spells-Main-Viledarkness)}} {{Utterdark:=[View](~Viledarkness-Utterdark-Description) [Send](~Viledarkness-Utterdark-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

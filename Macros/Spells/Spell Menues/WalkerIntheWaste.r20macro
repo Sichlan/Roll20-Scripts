@@ -1,0 +1,4 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;3:=[View](~WalkerIntheWaste-Spell-Level-3)}} 
+
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-WalkerIntheWaste)}} {{Bite of the Wererat:=[View](~WalkerIntheWaste-Bite-of-the-Wererat-Description) [Send](~WalkerIntheWaste-Bite-of-the-Wererat-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

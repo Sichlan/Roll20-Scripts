@@ -1,0 +1,76 @@
+
+
+Magic Weapon(Player's Handbook v.3.5): - War(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Magic Weapon](https://dndtools.net/spells/players-handbook-v35--6/magic-weapon--2838/) }} {{School:= Transmutation  }} {{Level:= **War 1**, Cleric 1, Sha'ir 1, WuJen 1, Duskblade 1, KnightoftheChalice 1, KnightoftheWeave 1, HunteroftheDead 1, DiscipleofThrym 1, Wizard 1, Sorcerer 1, Paladin 1, DeathMaster 1, Dwarf 1, Metal 1, ReveredAncestor 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Weapon touched}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Magic weapon gives a weapon a +1 enhancement bonus on attack and damage rolls. (An enhancement bonus does not stack with a masterwork weapon's +1 bonus on attack rolls). 
+You can't cast this spell on a natural weapon, such as an unarmed strike (instead, see magic fang). A monk's unarmed strike is considered a weapon, and thus it can be enhanced by this spell}}
+
+
+Spiritual Weapon(Player's Handbook v.3.5): - War(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Spiritual Weapon](https://dndtools.net/spells/players-handbook-v35--6/spiritual-weapon--2651/) }} {{School:= Evocation  [Force]}} {{Level:= **War 2**, Cleric 2, KnightoftheChalice 2, Mysticism 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Magic weapon of force}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A weapon made of pure force springs into existence and attacks opponents at a distance, as you direct it, dealing 1d8 force damage per hit, +1 point per three caster levels (maximum +5 at 15th level). The weapon takes the shape of a weapon favored by your deity or a weapon with some spiritual significance or symbolism to you (see below) and has the same threat range and critical multipliers as a real weapon of its form. It strikes the opponent you designate, starting with one attack in the round the spell is cast and continuing each round thereafter on your turn. It uses your base attack bonus (possibly allowing it multiple attacks per round in subsequent rounds) plus your Wisdom modifier as its attack bonus. It strikes as a spell, not as a weapon, so, for example, it can damage creatures that have damage reduction. As a force effect, it can strike incorporeal creatures without the normal miss chance associated with incorporeality. The weapon always strikes from your direction. It does not get a  flanking bonus or help a combatant get one. Your feats (such as Weapon Focus) or combat actions (such as charge) do not affect the weapon. If the weapon goes beyond the spell range, if it goes out of your sight, or if you are not directing it, the weapon returns to you and hovers. 
+Each round after the first, you can use a move action to redirect the weapon to a new target. If you do not, the weapon continues to attack the previous round's target. On any round that the weapon switches targets, it gets one attack. Subsequent rounds of attacking that target allow the weapon to make multiple attacks if your base attack bonus would allow it to. Even if the spiritual weapon is a ranged weapon, use the spell's range, not the weapon's normal range increment, and switching targets still is a move action.
+A spiritual weapon cannot be attacked or harmed by physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it. A spiritual weapon's AC against touch attacks is 12 (10 + size bonus for Tiny object). 
+If an attacked creature has spell resistance, you make a caster level check (1d20 + caster level) against that spell resistance the first time the spiritual weapon strikes it. If the weapon is successfully resisted, the spell is dispelled. If not, the weapon has its normal full effect on that creature for the duration of the spell.
+The weapon that you get is often a force replica of your deity's own personal weapon, many of which have individual names. A cleric without a deity gets a weapon based on his alignment. A neutral cleric without a deity can create a spiritual weapon of any alignment, provided he is acting at least generally in accord with that alignment at the time.
+The weapons associated with each deity or alignment are as follows.
+**Boccob:** Quarterstaff, &quot;Staff of Boccob&quot;
+**Corellon Larethian:** Longsword, &quot;Sahandrian&quot;
+**Ehlonna:** Longsword, &quot;Jenevier&quot;
+**Erythnul:** Morningstar, &quot;Agony&quot;
+**Fharlanghn:** Quarterstaff, &quot;Traveler's Friend&quot;
+**Garl Glittergold:** Battleaxe, &quot;Arumdina&quot;
+**Gruumsh:** Spear, &quot;Bloodspear&quot;
+**Heironeous:** Longsword, &quot;Justice-bringer&quot;
+**Hextor:** Flail, &quot;Executioner&quot;
+**Kord:** Greatsword, &quot;Kelmar&quot;
+**Moradin:** Warhammer, &quot;Soulhammer&quot;
+**Nerull:** Scythe, &quot;Lifecutter&quot;
+**Obad-Hai:** Quarterstaff, &quot;Stormstouch&quot;
+**Olidammara:** Rapier, &quot;Swiftstrike&quot;
+**Pelor:** Heavy Mace, &quot;Sunscepter&quot;
+**St. Cuthbert:** Heavy Mace, &quot;The Mace of Cuthbert&quot;
+**Vecna:** Dagger, &quot;Afterthought&quot;
+**Wee Jas:** Dagger, &quot;Discretion&quot;
+**Yondalla:** Short sword, &quot;Hornblade&quot;
+**Chaos:** Battleaxe, &quot;The Blade of Change&quot;
+**Evil:** Light flail, &quot;The Scourge of Souls&quot;
+**Good:** Warhammer, &quot;The Hammer of Justice&quot;
+**Law:** Sword, &quot;The Sword of Truth&quot}}
+
+
+Magic Vestment(Player's Handbook v.3.5): - War(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Magic Vestment](https://dndtools.net/spells/players-handbook-v35--6/magic-vestment--2837/) }} {{School:= Transmutation  }} {{Level:= **War 3**, Cleric 3, KnightoftheChalice 3, Savant 3, Strength 3, Celestia 3, Halfling 3, Nobility 3, Cloistered Cleric 3}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Armor or shield touched}} {{Duration:=1 hour/level}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You imbue a suit of armor or a shield with an enhancement bonus of +1 per four caster levels (maximum +5 at 20th level).
+An outfit of regular clothing counts as armor that grants no AC bonus for the purpose of this spell}}
+
+
+Divine Power(Player's Handbook v.3.5): - War(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Divine Power](https://dndtools.net/spells/players-handbook-v35--6/divine-power--2607/) }} {{School:= Evocation  }} {{Level:= **War 4**, RunescarredBerserker 3, Cleric 4, VassalofBahamut 4, Savant 4, Celestia 4, Competition 4, Orc 4, Pride 4, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Calling upon the divine power of your patron, you imbue yourself with strength and skill in combat. Your base attack bonus becomes equal to your character level (which may give you additional attacks), you gain a +6 enhancement bonus to Strength, and you gain 1 temporary hit point per caster level}}
+
+
+Flame Strike(Player's Handbook v.3.5): - War(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Flame Strike](https://dndtools.net/spells/players-handbook-v35--6/flame-strike--2614/) }} {{School:= Evocation  [Fire]}} {{Level:= **War 5**, Druid 4, Blighter 4, Cleric 5, Warmage 5, NarDemonbinder 5, NentyarHunter 5, Sun 5, Cloistered Cleric 5}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=Cylinder (10-ft. radius, 40 ft. high)}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex half }} {{Save DC:=[[@{spelldc5}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A flame strike produces a vertical column of divine fire roaring downward.
+The spell deals 1d6 points of damage per caster level (maximum 15d6).
+Half the damage is fire damage, but the other half results directly from divine power and is therefore not subject to being reduced by resistance to fire-based attacks, such as that granted by protection from energy (fire), fire shield (chill shield), and similar magic}}
+
+
+Blade Barrier(Player's Handbook v.3.5): - War(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Blade Barrier](https://dndtools.net/spells/players-handbook-v35--6/blade-barrier--2588/) }} {{School:= Evocation  [Force]}} {{Level:= **War 6**, Cleric 6, Warmage 6, DeathMaster 6, Good 6, Celestia 6, Metal 6, Cloistered Cleric 6}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Wall of whirling blades up to 20 ft. long/level, or a ringed wall of whirling blades with a radius of up to 5 ft. per two levels; either form 20 ft. high}} {{Duration:=1 min./level (D)}} {{Savingthrow:=Reflex half or Reflex negates; see text }} {{Save DC:=[[@{spelldc6}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An immobile, vertical curtain of whirling blades shaped of pure force springs into existence.
+Any creature passing through the wall takes 1d6 points of damage per caster level (maximum 15d6), with a Reflex save for half damage.
+If you evoke the barrier so that it appears where creatures are, each creature takes damage as if passing through the wall.
+Each such creature can avoid the wall (ending up on the side of its choice) and thus take no damage by making a successful Reflex save.
+A blade barrier provides cover (+4 bonus to AC, +2 bonus on Reflex saves) against attacks made through it}}
+
+
+Power Word Blind(Player's Handbook v.3.5): - War(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Power Word Blind](https://dndtools.net/spells/players-handbook-v35--6/power-word-blind--2566/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **War 7**, Sorcerer 7, Wizard 7, Beguiler 7, WuJen 7, Sha'ir 7, DeathMaster 7, Darkness 8, Slime 8, Arcanist 7}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature with 200 hp or less}} {{Duration:=See text}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You utter a single word of power that causes one creature of your choice to become blinded, whether the creature can hear the word or not.
+The duration of the spell depends on the target's current hit point total.
+Any creature that currently has 201 or more hit points is unaffected by power word blind}}
+
+
+Power Word Stun(Player's Handbook v.3.5): - War(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Power Word Stun](https://dndtools.net/spells/players-handbook-v35--6/power-word-stun--2568/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **War 8**, Sorcerer 8, Wizard 8, Beguiler 8, WuJen 8, Sha'ir 8, DeathMaster 8, Celestia 8, Dream 8, Arcanist 8}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature with 150 hp or less}} {{Duration:=See text}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You utter a single word of power that instantly causes one creature of your choice to become stunned, whether the creature can hear the word or not.
+The duration of the spell depends on the target's current hit point total.
+Any creature that currently has 151 or more hit points is unaffected by power word stun}}
+
+
+Power Word Kill(Player's Handbook v.3.5): - War(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Power Word Kill](https://dndtools.net/spells/players-handbook-v35--6/power-word-kill--2567/) }} {{School:= Enchantment (Compulsion) [Death]}} {{Level:= **War 9**, Sorcerer 9, Wizard 9, Beguiler 9, WuJen 9, Sha'ir 9, DeathMaster 9, Darkness 9, Orc 9, Arcanist 9}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature with 100 hp or less}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You utter a single word of power that instantly kills one creature of your choice, whether the creature can hear the word or not. Any creature that currently has 101 or more hit points is unaffected by **power word kill**}}

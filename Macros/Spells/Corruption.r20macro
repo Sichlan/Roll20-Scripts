@@ -1,0 +1,42 @@
+
+
+Morality Undone(Fiendish Codex I: Hordes of the Abyss): - Corruption(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Morality Undone](https://dndtools.net/spells/fiendish-codex-i-hordes-of-the-abyss--66/morality-undone--1152/) }} {{School:= Enchantment  [Evil]}} {{Level:= **Corruption 4**, Bard 5, Cleric 5, MortalHunter 4, Cloistered Cleric 5}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One non-evil living creature}} {{Duration:=10 minutes/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With a cruel utterance and a complex set of hand signs, you cause great evil to swell within the targeted creature, overwhelming and confusing its sense of morality like a magnet touching a compass.
+You temporarily turn one creature evil.
+The chaotic/neutral/lawful component of the subject's alignment remains unchanged.
+The subject retains whatever outlook, allegiances, and relationships it had before, as long as they do not conflict with its new alignment.
+Otherwise, it acts with its new selfish, bloodthirsty, and cruel outlook in all matters.
+For example, a wizard affected by this spell might not immediately turn on her fighter companion, particularly in the middle of a combat when they're fighting on the same side.
+But she might allow her friend to be hurt or killed if he is carrying a valuable item that she could recover later, or she might use spells to control or deceive him in order to get what she wants.
+She might even decide to betray or attack her friend at a later time if significant potential gain is involved.
+An atonement spell restores the subject's original alignment, but a remove curse spell has no effect.
+Arcane Material Component: A powdered or splintered holy symbol}}
+
+
+Pox(Fiendish Codex I: Hordes of the Abyss): - Corruption(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Pox](https://dndtools.net/spells/fiendish-codex-i-hordes-of-the-abyss--66/pox--1155/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Corruption 6**, Druid 6, Pain 6}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Up to one living creature/level, no two of which can be more than 10 ft. apart.}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc6}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You shout, &quot;A pox on you!&quot;With a mere gesture, lesions erupt on the flesh of your enemies, and their pallor turns a sickly yellow.
+Each affected creature takes 1d4 points of Constitution drain}}
+
+
+Befoul(Fiendish Codex I: Hordes of the Abyss): - Corruption(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Befoul](https://dndtools.net/spells/fiendish-codex-i-hordes-of-the-abyss--66/befoul--1159/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Corruption 8**, Cleric 8, Ooze 8, Cloistered Cleric 8}} {{Components:= V, S, M}} {{Material Component:= A dead fish and a drop of poison}} {{Range:= Touch}} {{Area:=Water in a volume of 100 ft./level by 100 ft./level by 10 ft./level (S)}} {{Duration:=Permanent; see text}} {{Savingthrow:=None; see text }} {{Save DC:=[[@{spelldc8}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You wave a hand over a body of water, and it instantly takes on the color, odor, and consistency of a filth-ridden cesspool.
+The caster makes water (or other liquid) foul and mildly poisonous.
+A creature that drinks the affected water must succeed on a Fortitude saving throw or take 1d4 points of Constitution damage.
+Any creature with 2 or more Hit Dice that swims or immerses itself halfway or more in the water must attempt a saving throw as if drinking it; a creature with fewer than 2 HD dies immediately if immersed to such a degree.
+If the spell can affect only part of a larger body of water, the befouled water mixes with the pure water.
+If the entire body of water is no more than four times the size of the affected area, all the water is befouled 24 hours later, but the damage from drinking or swimming in it is only 1d2 points of Constitution damage.
+If the body of water is more than four times but less than twenty times the affected area, all the water tastes foul after 24 hours but has no damaging effect.
+If the entire body is larger than twenty times the affected area, the fouled water mixes with the clean water and loses all effect after 24 hours}}
+
+
+Despoil(Fiendish Codex I: Hordes of the Abyss): - Corruption(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Despoil](https://dndtools.net/spells/fiendish-codex-i-hordes-of-the-abyss--66/despoil--1162/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Corruption 9**, Cleric 9, Cloistered Cleric 9}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Area:=100 ft./level-radius spread}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude partial (plants) or Fortitude negates (other living creatures) }} {{Save DC:=[[@{spelldc9}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The rotting plant matter melts away in your hand as a wave of sickly green energy washes over the ground, withering plants and weakening all creatures and objects in its wake.
+You blight and corrupt a vast area of land.
+Any plant creature in the area that has more than 1 Hit Die must succeed on a Fortitude saving throw or die.
+Even with a successful save, it takes 5d6 points of damage.
+Less hardy plants simply shrivel and die, and the ground cannot support such plant life ever again.
+Every other living creature in the area (other than you) must succeed on a Fortitude saving throw or take 1d4 points of Strength damage.
+Every unattended object in the area, including structural features such as walls and doors, grows brittle and loses half its hardness (rounded down, to a minimum of 1), then takes 1d6 points of damage, which automatically bypass any remaining hardness.
+Only a wish or miracle spell will enable normal plants to grow in the area ravaged by a despoil spell.
+Damaged objects can be repaired with mending spells.
+Material Component: The fresh or preserved corpse of a living creature}}

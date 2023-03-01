@@ -1,0 +1,866 @@
+
+
+Addiction(Book of Vile Darkness): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Addiction](https://dndtools.net/spells/book-of-vile-darkness--37/addiction--158/) }} {{School:= Enchantment  }} {{Level:= **Assassin 1**, Bard 2, Cleric 2, Sorcerer 2, Wizard 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S, Drug}} {{Range:= Touch}} {{Target:=One living creature}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc1}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster gives the subject an addiction to a drug (see the Drugs section of Chapter 3 for descriptions of drugs and information on addiction).
+A caster of less than 5th level can force the subject to become addicted to any drug with a low addiction rating.
+A 6th- to 10th-level caster can force addiction to any drug with a medium addiction rating, and an 11th- to 15th-level caster can force addiction to a drug with a high addiction rating.
+Casters of 16th level or higher can give the subject an addiction to a drug with an extreme addiction rating.
+Drug Component: The chosen drug for the addiction}}
+
+
+Angry Ache(Book of Vile Darkness): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Angry Ache](https://dndtools.net/spells/book-of-vile-darkness--37/angry-ache--198/) }} {{School:= Necromancy  }} {{Level:= **Assassin 1**, Cleric 1, Pain 1, Cloistered Cleric 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 minute/level}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster temporarily strains the subject's muscles in a very specific way. The subject feels a sharp pain whenever she makes an attack. All her attack rolls have a -2 circumstance penalty for every four caster levels (maximum penalty -10)}}
+
+
+Black Bag(Book of Vile Darkness): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Black Bag](https://dndtools.net/spells/book-of-vile-darkness--37/black-bag--132/) }} {{School:= Conjuration (Creation) [Evil]}} {{Level:= **Assassin 1**, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S, M}} {{Material Component:= A strip of black leather soaked in the blood of a willing masochist}} {{Range:= Touch}} {{Effect:=A black leather bag}} {{Duration:=24 hours}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates a bag full of knives, scalpels, and other small torture implements.
+If the implements are removed from the bag by anyone other than the caster, or if they leave the caster's possession after he removes them, they disintegrate after 1 round.
+The bag and its magically created contents weigh only 1 pound.
+Evil magic items, including items that deal unholy damage, and items with an evil spell as a prerequisite for their creation can be placed in the bag as if it had 10 cubic feet of space.
+These additional items add no weight to the bag.
+Nonevil items added to the black bag fall through as if the bag had no bottom, so they cannot be stored in the bag}}
+
+
+Blade of Blood(Player's Handbook II): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blade of Blood](https://dndtools.net/spells/players-handbook-ii--80/blade-of-blood--2991/) }} {{School:= Necromancy  }} {{Level:= **Assassin 1**, Blackguard 1, Cleric 1, Duskblade 1, Sorcerer 1, Wizard 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Weapon touched}} {{Duration:=1 round/level or until discharged}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Red blood erupts along the weapon's blade, bludgeon, or point.
+The blood drips to spatter in thick, viscous drops upon the ground.
+This spell infuses the weapon touched with baleful energy.
+The next time this weapon strikes a living creature, blade of blood discharges.
+The spell deals an extra 1d6 points of damage against the target of the attack.
+You can voluntarily take 5 hit points of damage to empower the weapon to deal an extra 2d6 points of damage (for a total of 3d6 points of extra damage).
+The weapon loses this property if its wielder drops it or otherwise loses contact with it}}
+
+
+Bloodletting(Complete Mage): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Bloodletting](https://dndtools.net/spells/complete-mage--58/bloodletting--849/) }} {{School:= Necromancy  }} {{Level:= **Assassin 1**, Hexblade 1}} {{Components:= S}} {{Range:= Touch}} {{Target:=One light weapon you hold}} {{Duration:=See text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With a simple flourish you turn a small weapon into a deadly implement.
+You imbue a light weapon you hold in your hand with the power to wound grievously.
+The next time that weapon deals damage to a living creature, the wound continues to bleed, dealing an extra 1d6 points of damage each round for the remainder of the spell's duration.
+A successful DC 15 Heal check or at least 1 point of magical healing stops this additional damage.
+A creature that is struck by the weapon but takes no damage from the initial attack (such as because of damage reduction) doesn't trigger the spell's effect.
+Check to overcome a target's spell resistance when you first strike the creature.
+If the check fails, the spell has no effect and is discharged, but the weapon still deals damage normally.
+The spell lasts for 3 rounds.
+If you don't deal damage to a living creature during the 3 rounds after casting the spell, it ends with no effect.
+The bleeding effect begins in the round when the creature is struck by the ensorcelled weapon and lasts until the spell ends (if struck on the first round after casting, the subject bleeds for 3 rounds; if struck in the second round after casting, the subject bleeds for 2 rounds, and so on).
+The spell ends immediately if the weapon leaves your hand}}
+
+
+Catsfeet(Complete Mage): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Catsfeet](https://dndtools.net/spells/complete-mage--58/catsfeet--870/) }} {{School:= Transmutation  }} {{Level:= **Assassin 1**, Bard 1, Hexblade 1}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=Instantaneous}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As you complete this spell, you feel as lithe and quick as a cat.
+When you cast this spell, you can immediately reroll a Balance, Climb, Jump, or Move Silently check that you have just rolled.
+This second roll gains a +5 insight bonus.
+You must abide by the second result, even if it is worse than the first}}
+
+
+Combat Readiness(Drow of the Underdark): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Combat Readiness](https://dndtools.net/spells/drow-of-the-underdark--93/combat-readiness--1121/) }} {{School:= Divination  }} {{Level:= **Assassin 1**, Bard 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Divination}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The target's eyes widen, and shine briefly with a white light.
+The touched creature gains a +1 insight bonus on initiative checks for every three caster levels you have (minimum +1, maximum +6).
+In addition, if the target is flanked, its opponents gain no bonus on attack rolls (but still gain any other benefits derived from flanking, such as extra sneak attack damage)}}
+
+
+Critical Strike(Spell Compendium): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Critical Strike](https://dndtools.net/spells/spell-compendium--86/critical-strike--4260/) }} {{School:= Divination  }} {{Level:= **Assassin 1**, Bard 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Upon uttering the ancient phrase that completes the spell, you feel the weapon in your hand drawn toward a creature standing nearby.**
+Whenever you make a melee attack agains a flanked foe or against a foe denied its Dexterity bonus, you deal an extra 1d6 points of damage, your weapon's threat range is doubled(as if under the effect of **keen edge**), and you gain a +4 insight bonus on rolls made to confirm critical threats. The increased threat range granted by this spell doesn't stack with any other effect that increases your weapon's threat range. Creatures immune to extra damage from sneak attacks are immne to the extra damage dealt by your attacks}}
+
+
+Dead End(Spell Compendium): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dead End](https://dndtools.net/spells/spell-compendium--86/dead-end--4342/) }} {{School:= Illusion (Shadow) }} {{Level:= **Assassin 1**, Bard 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=One creature/level touched}} {{Duration:=10 minutes/level (D)}} {{Savingthrow:=Will negates (harmless) or Will disbelief (if interacted with); see text }} {{Save DC:=[[@{spelldc1}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Sprinkling spice on the ground, you complete the final step of the spell. Upon touching your intended targets, you note with satisfaction that the area around all of you seems a little cleaner and less tread upon.**
+This spell flawlessly disguises the spoor left by the subjects, concealing their tracks, scent, and other signs of their passage with an illusion that defeats even the senses of taste and touch. Any creature making a Search check, using the scent ability, or using the Survival skill to track a creature affected by this spell interacts with the illusion and can make a will save to disbelieve. Creatures that succeed on the save can detect the subjects normally. Creatures merely passing through an area the subjects passed through do not count as interacting with the illusion.
+Targets of this spell can make a Will save to negate it, and spell resistance applies.
+**Material Component:** A pinch of some odoriferous spice}}
+
+
+Death Grimace(Book of Vile Darkness): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Death Grimace](https://dndtools.net/spells/book-of-vile-darkness--37/death-grimace--205/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Assassin 1**, Blackguard 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= S}} {{Range:= Touch}} {{Target:=One corpse}} {{Duration:=Permanent}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster marks a corpse with a particular magical &quot;signature&quot;, thus identifying himself (truthfully or falsely) as the murderer.
+Some assassins use this signature as a sort of calling card, while others use it as a way to prove that they earned their pay.
+The signature can take many forms: a specific expression on the face of the corpse (hence the name of the spell), an actual rune, a word written on the corpse's flesh, a discoloration of one eye, and so on}}
+
+
+Detect Poison(Player's Handbook v.3.5): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Detect Poison](https://dndtools.net/spells/players-handbook-v35--6/detect-poison--2490/) }} {{School:= Divination  }} {{Level:= **Assassin 1**, Cleric 0, UrbanDruid 0, DeathMaster 0, Sha'ir 0, WuJen 0, CourtHerald 0, Blighter 0, Healer 0, Wizard 0, Sorcerer 0, Druid 0, NentyarHunter 1, Ranger 1, Paladin 1, DeathDelver 1, Cloistered Cleric 0, Arcanist 0}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature, one object, or a 5-ft. cube}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You determine whether a creature, object, or area has been poisoned or is poisonous.
+You can determine the exact type of poison with a DC 20 Wisdom check.
+A character with the Craft (alchemy) skill may try a DC 20 Craft (alchemy) check if the Wisdom check fails, or may try the Craft (alchemy) check prior to the Wisdom check.
+The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it}}
+
+
+Disguise Self(Player's Handbook v.3.5): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Disguise Self](https://dndtools.net/spells/players-handbook-v35--6/disguise-self--2666/) }} {{School:= Illusion (Glamer) }} {{Level:= **Assassin 1**, Bard 1, Savant 1, Jester 1, Sha'ir 1, Beguiler 1, Vigilante 1, Fatemaker 1, EbonmarInfiltrator 1, Wizard 1, Sorcerer 1, Trickery 1, Baator 1, Envy 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 min./level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You make yourself&#8212;including clothing, armor, weapons, and equipment&#8212;look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your body type. For example, a human caster could look human, humanoid, or like any other human-shaped bipedal creature. Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person. The spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile (touch) or audible (sound) properties of you or your equipment. A battleaxe made to look like a dagger still functions as a battleaxe.
+If you use this spell to create a disguise, you get a +10 bonus on the Disguise check.
+A creature that interacts with the glamer gets a Will save to recognize it as an illusion. For example, a creature that touched you and realized that the tactile sensation did not match the visual one would be entitled to such a save}}
+
+
+Distract Assailant(Spell Compendium): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Distract Assailant](https://dndtools.net/spells/spell-compendium--86/distract-assailant--4404/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Assassin 1**, Sorcerer 1, Wizard 1, Hexblade 1, Arcanist 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 round}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Buzzing under your breath like a fly, you swat at the sky and toss the fly's wing in your hand into the air. The target of your spell becomes distracted, starting at shadows and looking about for unseen assailants.**
+A creature affected by this spell is flat-footed until the beginning of its next turn.
+**Material Component:** The dried wing of a fly}}
+
+
+Ebon Eyes(Spell Compendium): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Ebon Eyes](https://dndtools.net/spells/spell-compendium--86/ebon-eyes--3544/) }} {{School:= Transmutation  }} {{Level:= **Assassin 1**, Cleric 1, Sorcerer 1, Wizard 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=10 minutes/level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject of this spell gains the ability to see normally in natural and magical darkness, although it does not otherwise improve the subject's ability to see in natural dark or shadowy conditions. The subject ignores the miss chance due to lack of illumination other than total darkness. While the spell is in effect, a jet· black film covers the subject's eyes, a visual effect that gives the spell its name.
+**Material Component:** A pinch of powdered black gemstone of any type.</}}
+
+
+False Peacebond(CityScape): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [False Peacebond](https://dndtools.net/spells/cityscape--53/false-peacebond--359/) }} {{School:= Transmutation  }} {{Level:= **Assassin 1**, Blackguard 1, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The weapon glows with a faint aura.
+For just a moment, your companion shimmers to match, before the light fades.
+This spell functions as peacebond (see the facing page), except that you can choose a single individual who can draw the weapon freely.
+This individual might be yourself, or anyone else present at the time of casting.
+Once this individual draws the weapon, the false peacebond
+effect ends; resheathing the weapon does not reactivate the spell}}
+
+
+Feather Fall(Player's Handbook v.3.5): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Feather Fall](https://dndtools.net/spells/players-handbook-v35--6/feather-fall--2813/) }} {{School:= Transmutation  }} {{Level:= **Assassin 1**, Bard 1, Sorcerer 1, Wizard 1, Vigilante 1, Jester 1, Savant 1, Sha'ir 1, CourtHerald 1, Arcanist 1}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One Medium or smaller freefalling object or creature/level, no two of which may be more than 20 ft. apart}} {{Duration:=Until landing or 1 round/level}} {{Savingthrow:=Will negates (harmless) or Will negates (object) }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The affected creatures or objects fall slowly, though faster than feathers typically do.
+Feather fall instantly changes the rate at which the targets fall to a mere 60 feet per round (equivalent to the end of a
+fall froma few feet), and the subjects take no damage upon landing while the spell is in effect.
+However, when the spell duration expires, a normal rate of falling resumes.
+The spell affects one or more Medium or smaller creatures (including gear and carried objects up to each creature's maximum load) or objects, or the equivalent in larger creatures: A Large creature or object counts as two Medium creatures or objects, a Huge creature or object counts as two Large creatures or objects, and so forth.
+You can cast this spell with an instant utterance, quickly enough to save yourself if you unexpectedly fall.
+Casting the spell is a free action, like casting a quickened spell, and it counts toward the normal limit of one quickened spell per round.
+You may even cast this spell when it isn't your turn.
+This spell has no special effect on ranged weapons unless they are falling quite a distance.
+If the spell is cast on a falling item, such as a boulder dropped from the top of a castle wall, the object does half normal damage based on its weight, with no bonus for the height of the drop.
+(See the Dungeon Master's Guide for information on falling objects).
+Feather fall works only upon free-falling objects.
+It does not affect a sword blow or a charging or flying creature}}
+
+
+Ghost Sound(Player's Handbook v.3.5): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Ghost Sound](https://dndtools.net/spells/players-handbook-v35--6/ghost-sound--2670/) }} {{School:= Illusion (Figment) }} {{Level:= **Assassin 1**, Bard 0, Sorcerer 0, Wizard 0, Adept 0, DeathMaster 0, Sha'ir 0, WuJen 0, Blighter 0, Beguiler 0, Vigilante 1, SlayerofDomiel 1, EbonmarInfiltrator 1, Hoardstealer 1, Arcanist 0}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=Illusory sounds}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will disbelief (if interacted with) }} {{Save DC:=[[@{spelldc1}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place.
+You choose what type of sound ghost sound creates when casting it and cannot thereafter change the sound's basic character.
+The volume of sound created depends on your level.
+You can produce as much noise as four normal humans per caster level (maximum twenty humans).
+Thus, talking, singing, shouting, walking, marching, or running sounds can be created.
+The noise a ghost sound spell produces can be virtually any type of sound within the volume limit.
+A horde of rats running and squeaking is about the same volume as eight humans running and shouting.
+A roaring lion is equal to the noise from sixteen humans, while a roaring dire tiger is equal to the noise from twenty humans.
+Ghost sound can enhance the effectiveness of a silent image spell.
+Ghost sound can be made permanent with a permanency spell.
+Material Component: A bit of wool or a small lump of wax}}
+
+
+Healer's Vision(Complete Scoundrel): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Healer's Vision](https://dndtools.net/spells/complete-scoundrel--60/healers-vision--902/) }} {{School:= Divination  }} {{Level:= **Assassin 1**, Cleric 1, Cloistered Cleric 1}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Every thrumming vein, every strained muscle, and every pulsing organ of those nearby becomes visible to your eyes, showing you exactly where to place a healing hand&#8230; or a deadly strike.
+You gain a macabre change to your vision that seemingly peels away skin and sinew to reveal the flesh beneath.
+You gain a +5 insight bonus on Heal checks, and any cure spell you cast on a living creature heals 1 extra point of damage per level of the spell.
+You also gain a +2 bonus on attack rolls and damage rolls when making a precision-based attack (such as a sneak attack or a sudden strike) against a living creature, since you are able to pick out your target's most vital points.
+(This effect makes the spell popular among less benevolent casters).
+Healer's vision does not grant you the ability to make a precision-based attack if you don't already have that ability, nor does it allow you to make such attacks against creatures normally unaffected by them.
+This spell does not reveal the true forms of creatures affected by illusions or other magical disguises, so it grants no benefit to Heal checks or attacks against such creatures}}
+
+
+Insightful Feint(Spell Compendium): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Insightful Feint](https://dndtools.net/spells/spell-compendium--86/insightful-feint--3782/) }} {{School:= Divination  }} {{Level:= **Assassin 1**, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With a chuckle you whisper the words that will make your ruse more effective.
+You gain a +10 insight bonus on the next single <a href="/skills/bluff/">Bluff</a> check that you make to feint in combat (if it is made before the start of your next turn). You can make the feint as a move action, or once as a free action if you have the <a href="/feats/players-handbook-v35--6/improved-feint--1491/">Improved Feint feat</a>}}
+
+
+Instant Locksmith(Spell Compendium): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Instant Locksmith](https://dndtools.net/spells/spell-compendium--86/instant-locksmith--3915/) }} {{School:= Divination  }} {{Level:= **Assassin 1**, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You point at a mechanism, twist your hand, and make a clicking sound with your tongue. You now have a better idea of how the mechanism works.**
+You can make one Disable Device check or one Open Lock check in this round as a free action. You gain a +2 insight bonus on the check}}
+
+
+Instant Search(Spell Compendium): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Instant Search](https://dndtools.net/spells/spell-compendium--86/instant-search--3917/) }} {{School:= Divination  }} {{Level:= **Assassin 1**, Ranger 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**By pointing at a small area nearby and whistling briefly, you release the power of the spell, granting you knowledge of the area you indicated.**
+You can make one Search check in this round as a free action. You gain a +2 insight bonus on the check}}
+
+
+Jump(Player's Handbook v.3.5): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Jump](https://dndtools.net/spells/players-handbook-v35--6/jump--2827/) }} {{School:= Transmutation  }} {{Level:= **Assassin 1**, Druid 1, UrbanDruid 1, Savant 1, Jester 1, Sha'ir 1, NentyarHunter 1, Duskblade 1, Fatemaker 1, EbonmarInfiltrator 1, Wizard 1, Sorcerer 1, Ranger 1, Arcanist 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 min./level (D)}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject gets a +10 enhancement bonus on Jump checks.
+The enhancement bonus increases to +20 at caster level 5th, and to +30 (the maximum) at caster level 9th.
+Material Component: A grasshopper's hind leg, which you break when the spell is cast}}
+
+
+Lightfoot(Spell Compendium): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Lightfoot](https://dndtools.net/spells/spell-compendium--86/lightfoot--4371/) }} {{School:= Transmutation  }} {{Level:= **Assassin 1**, Ranger 1}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You mutter the words of this short spell and dive down the hallway, dancing between the armed guards and out the gate.**
+You provoke no attacks of opportunity when moving}}
+
+
+Low-light Vision(Spell Compendium): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Low-light Vision](https://dndtools.net/spells/spell-compendium--86/low-light-vision--3781/) }} {{School:= Transmutation  }} {{Level:= **Assassin 1**, Druid 1, Ranger 1, Sorcerer 1, Wizard 1, HarperScout 1, Hathran 1, RunescarredBerserker 1, Arcanist 1}} {{Components:= V, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 hour/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You pass your hand over the subject's eyes and murmur the arcane words. Its eyes grow larger, and when it opens them, the pupils are speckled with tiny silvers of starlight.**
+The subject creature gains low-light vision.
+Arcane Material Component: A small candle}}
+
+
+Mask Aberrant Dragonmark(Dragonmarked): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mask Aberrant Dragonmark](https://dndtools.net/spells/dragonmarked--7/mask-aberrant-dragonmark--4880/) }} {{School:= Transmutation  }} {{Level:= **Assassin 1**, Bard 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S, Dragonmark}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You reshape your aberrant dragonmark to make it look like a true dragonmark.**
+This spell physically alters your aberrant dragonmark to look like one of the twelve true dragonmarks (your choice). You do not gain any of the spell-like abilities of the true dragonmark, but you are treated as having that particular dragonmark for the purpose of being able to cast spells or use magic items that require you to have a mark of that type. You can continue to use your aberrant dragonmark spell-like abilities as normal.
+If you have a base aberrant dragonmark, you can reshape it into the form of any least true dragonmark. If you have a lesser or greater aberrant dragonmark, you can reshape it into a lesser or greater true dragonmark, respectively.
+This spell taxes the body. At the end of the spell's duration, you are nauseated for 1d10 rounds.
+**Dragonmark:** Any aberrant dragonmark}}
+
+
+Mimicry(Complete Scoundrel): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mimicry](https://dndtools.net/spells/complete-scoundrel--60/mimicry--915/) }} {{School:= Transmutation  }} {{Level:= **Assassin 1**, Bard 1}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You feel a brief tingle in your throat.
+When you open your mouth, your voice is no longer your own.
+You can perfectly mimic familiar sounds, voices, and accents.
+These sounds can be any that you've heard before, and must be within the range of noises your voice is capable of creating.
+For example, a normal human voice could recreate the roar of a lion&#8212;being roughly equivalent to a scream&#8212;or approximate the sound of shattering glass.
+It could not reproduce the rumble of a collapsing building or a high-pitched noise audible only to bats.
+This spell does not allow you to speak languages you can't normally speak.
+You can duplicate a specific individual's voice by making a Bluff check; a listener familiar with the voice being imitated must succeed on an opposed Sense Motive check to discern that the voice is not genuine}}
+
+
+Obscuring Mist(Player's Handbook v.3.5): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Obscuring Mist](https://dndtools.net/spells/players-handbook-v35--6/obscuring-mist--2414/) }} {{School:= Conjuration (Creation) }} {{Level:= **Assassin 1**, Cleric 1, UrbanDruid 1, Jester 1, DeathMaster 1, Sha'ir 1, WuJen 1, Duskblade 1, Beguiler 1, SlayerofDomiel 1, EbonmarInfiltrator 1, DiscipleofThrym 1, Adept 1, Wizard 1, Sorcerer 1, Druid 1, Air 1, Water 1, Darkness 1, Windstorm 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S}} {{Range:= 20 ft.}} {{Effect:=Cloud spreads in 20-ft. radius from you, 20 ft. high}} {{Duration:=1 min./level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A misty vapor arises around you. It is stationary once created. The vapor obscures all sight, including darkvision, beyond 5 feet. A creature 5 feet away has concealment (attacks have a 20% miss chance).  Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target).
+A moderate wind (11+ mph), such as from a <a href="/spells/players-handbook-v35--6/gust-of-wind--2618/">gust of wind spell</a>, disperses the fog in 4 rounds. A strong wind (21+ mph) disperses the fog in 1 round. A <a href="/spells/players-handbook-v35--6/fireball--2612/">fireball</a>, <a href="/spells/players-handbook-v35--6/flame-strike--2614/">flame strike</a>, or similar spell burns away the fog in the explosive or fiery spell's area. A <a href="/spells/players-handbook-v35--6/wall-of-fire--2658/">wall of fire</a> burns away the fog in the area into which it deals damage. This spell does not function underwater}}
+
+
+Reaving Aura(Complete Mage): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Reaving Aura](https://dndtools.net/spells/complete-mage--58/reaving-aura--858/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Assassin 1**, Cleric 1, Hexblade 1, Sorcerer 1, Wizard 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V}} {{Range:= 10 ft.}} {{Area:=10-ft.-radius emanation, centered on you}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The air around you turns black as it floods with negative energy.
+This spell deals 1 point of damage to every creature in the area that has 0 or fewer hit points.
+Stable creatures that were at -1 to -8 hit points become dying, while creatures at -9 hit points die immediately.
+This spell has no effect on creatures that have 0 or more hit points}}
+
+
+Rooftop Strider(Races of Destiny): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Rooftop Strider](https://dndtools.net/spells/races-of-destiny--81/rooftop-strider--3052/) }} {{School:= Transmutation  }} {{Level:= **Assassin 1**, City 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 min./level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can run across rooftops or similar uneven surfaces much more easily than normal.
+You gain a +5 competence bonus on Balance and Jump checks.
+You automatically succeed on all Jump checks to clear a horizontal distance of 5 feet or less.
+You do not need to make Balance checks for running or charging across a sloped surface.
+Material Component: A chip of roof tile}}
+
+
+Secret Weapon(CityScape): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Secret Weapon](https://dndtools.net/spells/cityscape--53/secret-weapon--358/) }} {{School:= Illusion (Glamer) }} {{Level:= **Assassin 1**, Bard 1, Blackguard 1, EbonmarInfiltrator 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Weapon touched}} {{Duration:=10 min./level (D)}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Illusion}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=At your touch, the weapon seems to disappear from view.
+You enable someone to hide a weapon on his person.
+The weapon does not become truly invisible so much as easily overlooked.
+Secret weapon adds +20 to the Sleight of Hand check to conceal a light weapon, and +10 to the check to conceal a larger weapon (even one normally too large to conceal).
+A &quot;weapon&quot; is defined as any manufactured weapon.
+With the aid of this spell, you can attempt to hide a weapon even if you do not possess the Sleight of Hand skill.
+Additionally, you can hide the presence of a weapon from detection spells, although true seeing penetrates the glamer.
+Material Component: A thin black cloth}}
+
+
+Shadow Double(Drow of the Underdark): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shadow Double](https://dndtools.net/spells/drow-of-the-underdark--93/shadow-double--1123/) }} {{School:= Illusion (Shadow) }} {{Level:= **Assassin 1**, Hexblade 2, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One shadowy duplicate}} {{Duration:=1 round/level}} {{Savingthrow:=Will disbelief }} {{Save DC:=[[@{spelldc1}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You complete the incantation and nearby shadows gather together, assuming your approximate size and shape.
+You create a shadowy duplicate of yourself at a place you indicate within range.
+The shadow double attacks any adjacent target (regardless of the weapon it appears to wield), as you desire, starting in the round when you cast the spell.
+It attacks on your turn once each round, striking with an attack bonus equal to your base attack bonus + the modifier for your spell save DCs.
+Each hit deals 1 point of Strength damage to the target.
+The first time a target is hit, it can attempt a Will save to disbelieve the effect; this negates the damage and renders it immune to further attacks by the shadow double.
+The shadow double occupies a space identical to yours.
+It is not incorporeal, and thus can't share a space with another creature or object.
+It can provide a flanking bonus against any creature that hasn't yet saved successfully against it.
+The shadow double can strike incorporeal creatures, but not ethereal creatures.
+Each round after the first, you can use a standard action to direct the shadow double to attack any other target.
+To attack this new target, the shadow double can move to any new legal space within 30 feet (it moves by instantaneous teleportation).
+If it is not commanded to switch targets, it continues to attack the same target.
+A shadow double can be attacked.
+It has an Armor Class equal to 10 + your size modifier + a deflection bonus equal to the modifier for your spell save DCs, and has one-fifth of your full normal hit points.
+If the shadow double is reduced to 0 hit points, or if you create a second shadow double when the first still exists, the spell ends}}
+
+
+Shock and Awe(Spell Compendium): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shock and Awe](https://dndtools.net/spells/spell-compendium--86/shock-and-awe--4163/) }} {{School:= Enchantment  }} {{Level:= **Assassin 1**, Bard 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level, no two of which are more than 30 ft. apart}} {{Duration:=1 round}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Upon completing this spell, you feel a nagging compulsion to divert your attention from your enemies.  Shaking off the feeling, you note with satisfaction that your targeted enemies seem even more  distracted than you.**
+This spell distracts its targets, preventing them from reacting with the deftness they might otherwise possess. Only effective when cast in the surprise round of combat and against flat-footed creatures, this spell causes those it affects to take a -10 penalty on their next initiative check. Targets that cannot be caught flat-footed (such as a rogue with uncanny dodge) cannot be affected by this spell}}
+
+
+Silent Portal(Spell Compendium): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Silent Portal](https://dndtools.net/spells/spell-compendium--86/silent-portal--4169/) }} {{School:= Illusion (Glamer) }} {{Level:= **Assassin 1**, Sorcerer 0, Wizard 0, Arcanist 0}} {{Components:= S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One portal}} {{Duration:=1 minute/level (D)}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc1}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**The door squeaks slightly as you force it. You pause and wave your finger in a pattern along the opening and it silences.**
+This simple cantrip negates the sound of opening and closing a single portal (door, window, gate, drawer, chest lid, or the like). Even the squeakiest door opens without a sound when under the effect of this spell. Silent portal covers only the normal means of opening and closing the targeted portal. Breaking a window or kicking in a door still makes noise, but opening a door that is loosely hanging by its hinges does not (since this is the normal way a door would be opened). Portals composed of magical energy are not affected by this spell.
+In the case of magic or even intelligent portals, spell resistance and a Will save (DC 10 + caster's ability modifier + other modifiers as appropriate) apply}}
+
+
+Sleep(Player's Handbook v.3.5): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sleep](https://dndtools.net/spells/players-handbook-v35--6/sleep--2571/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Assassin 1**, Bard 1, Sorcerer 1, Wizard 1, Adept 1, Beguiler 1, WuJen 1, Sha'ir 1, Jester 1, Dream 1, Arcanist 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=One or more living creatures within a 10-ft.-radius burst}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A sleep spell causes a magical slumber to come upon 4 Hit Dice of creatures.
+Creatures with the fewest HD are affected first.
+Among creatures with equal HD, those who are closest to the spell's point of origin are affected first.
+Hit Dice that are not sufficient to affect a creature are wasted.
+For example, Mialee casts sleep at one rat (1/4 HD), one kobold (1 HD), two gnolls (2 HD), and an ogre (4 HD).
+The rat, the kobold, and one gnoll are affected (1/4 + 1 + 2 = 3-1/4 HD).
+The remaining 3/4 HD is not enough to affect the last gnoll or the ogre.
+Mialee can't choose to have sleep affect the ogre or the two gnolls.
+Sleeping creatures are helpless.
+Slapping or wounding awakens an affected creature, but normal noise does not.
+Awakening a creature is a standard action (an application of the aid another action).
+Sleep does not target unconscious creatures, constructs, or undead creatures.
+Material Component: A pinch of fine sand, rose petals, or a live cricket}}
+
+
+Sniper's Shot(Spell Compendium): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sniper's Shot](https://dndtools.net/spells/spell-compendium--86/snipers-shot--4186/) }} {{School:= Divination  }} {{Level:= **Assassin 1**, Ranger 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**While muttering a short chant you focus your awareness, looking only at the areas of your foe that seem most vital to its survival.**
+Your ranged attacks made before the start of your next turn can be sneak attacks regardless of the distance between you and your target. You must still fulfill the other conditions for making a sneak attack against the target.
+This spell doesn't grant you the ability to make a sneak attack if you don't already have that ability}}
+
+
+Snuff the Light(Drow of the Underdark): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Snuff the Light](https://dndtools.net/spells/drow-of-the-underdark--93/snuff-the-light--1128/) }} {{School:= Transmutation  }} {{Level:= **Assassin 1**, Bard 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One nonmagical light source}} {{Duration:=Instantaneous or 1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With a gesture, the light goes out.
+Snuff the light extinguishes a single non-magical light source, such as a candle, torch, or lantern.
+Against alchemical light sources, such as sunrods, you
+suppress the light for 1 round per caster level}}
+
+
+Spring Sheath(Song and Silence: A Guidebook to Bards and Rogues): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Spring Sheath](https://dndtools.net/spells/song-and-silence-a-guidebook-to-bards-and-rogues--48/spring-sheath--3328/) }} {{School:= Transmutation  }} {{Level:= **Assassin 1**}} {{Components:= V, S}} {{Range:= Touch}} {{Effect:=One sheath, buckle, or strap}} {{Duration:=10 minutes/level}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can use this spell to turn an ordinary weapon sheath into a helpful magic device.
+Any quick hand motion in front of the affected weapon-holding device (a free action) causes the weapon inside to shoot forth of its own volition and settle into your hand.
+The overall effect is the same as that of the Quick Draw feat.
+Although this spell is usually cast on a sword sheath, it also works on the straps, buckles, and pockets that hold other weapons.
+You could, for example, cast spring sheath on the strap of the backpack that usually holds your longbow to make that weapon fly into your hand}}
+
+
+Sticky Fingers(Spell Compendium): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sticky Fingers](https://dndtools.net/spells/spell-compendium--86/sticky-fingers--4231/) }} {{School:= Transmutation  }} {{Level:= **Assassin 1**, Bard 1}} {{Components:= S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Your fingers exude a slightly viscous secretion and become more nimble. When touched together, your fingertips stick slightly.**
+This spell grants you a +10 bonus on Sleight of Hand checks}}
+
+
+Stupor(Book of Vile Darkness): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Stupor](https://dndtools.net/spells/book-of-vile-darkness--37/stupor--173/) }} {{School:= Enchantment  }} {{Level:= **Assassin 1**, Cleric 1, Sorcerer 1, Wizard 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= S, M}} {{Material Component:= }} {{Range:= Touch}} {{Area:=One helpless creature}} {{Duration:=1 hour/level}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc1}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster places one creature already helpless in a clouded, confused state that does not allow the subject to think clearly or take actions.
+The effect is similar to being drugged.
+The subject can be moved and even forced to walk on her own if dragged along, but she is unaware of what is going on around her.
+Material Component: A puffball mushroom}}
+
+
+True Strike(Player's Handbook v.3.5): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [True Strike](https://dndtools.net/spells/players-handbook-v35--6/true-strike--2521/) }} {{School:= Divination  }} {{Level:= **Assassin 1**, Sorcerer 1, Savant 1, Sha'ir 1, WuJen 1, ThayanSlaver 1, NentyarHunter 1, Duskblade 1, Fatemaker 1, RunescarredBerserker 1, Warmage 1, Wizard 1, Elf 1, Fate 1, Time 1, Arcanist 1}} {{Components:= V, AF}} {{Arcane Focus:= A small wooden replica of an archery target}} {{Range:= Personal}} {{Target:=You}} {{Duration:=See text}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You gain temporary, intuitive insight into the immediate future during your next attack. Your next single attack roll (if it is made before the end of the next round) gains a +20 insight bonus. Additionally, you are not affected by the miss chance that applies to attackers trying to strike a concealed target}}
+
+
+Vigilant Slumber(Complete Mage): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Vigilant Slumber](https://dndtools.net/spells/complete-mage--58/vigilant-slumber--806/) }} {{School:= Divination  }} {{Level:= **Assassin 1**, Bard 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=12 hours or until awakened}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Even as you prepare for sleep, you feel a strange alertness in the back of your mind.
+You set a specific condition under which you automatically wake up.
+This condition might be anything from &quot;If any Tiny or larger creature comes within 10 feet of me&quot; to &quot;When the moon is at its zenith&quot;.
+The condition must be something that you would normally be able to observe if you were awake.
+Thus, you can't set the spell to wake you when something happens elsewhere, or when an invisible foe sneaks into your campsite.
+You awaken fully alert and ready for action}}
+
+
+Woodwisp Arrow(Champions of Ruin): - Assassin(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Woodwisp Arrow](https://dndtools.net/spells/champions-of-ruin--27/woodwisp-arrow--298/) }} {{School:= Transmutation  }} {{Level:= **Assassin 1**, Druid 1, JusticeofWealdandWoe 1, Ranger 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=One masterwork arrow or bolt}} {{Duration:=1 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell is cast upon a masterwork arrow or bolt, enabling the missile to pass through wood as though it was air, negating any cover benefit the target might enjoy because of wooden doors, tables, or stockade walls, or negating the AC modifier of a wooden shield.
+The spell doesn't grant the spellcaster the ability to see through wooden obstructions, so unless a clairvoyance spell or similar magic is already in effect, the target is treated as having concealment instead of cover.
+The arrow or bolt must be fired during the same round the spell is cast, or the magic dissipates and is lost.
+The projectile is destroyed even if it misses its target}}
+
+
+Absorb Weapon(Spell Compendium): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Absorb Weapon](https://dndtools.net/spells/spell-compendium--86/absorb-weapon--3565/) }} {{School:= Transmutation  }} {{Level:= **Assassin 2**}} {{Components:= V, S}} {{Range:= Touch}} {{Effect:=One touched weapon not in  another creature?s possessio}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=Will negates (object);  see text }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The weapon you hold in your hand begins to fade from existence as you complete the spell. With the last words of the spell it disappears completely. At the same moment, a weapon-shaped red blotch appears on your arm.
+You can harmlessly absorb a weapon you are touching (even a poisoned one) into your arm, as long as it is not in another creature?s possession. The weapon must be a light weapon for you at the time you cast the spell. The absorbed weapon cannot be felt under the skin and doesn?t restrict your range of motion in any way. An absorbed weapon cannot be detected with even a careful search, although detect magic reveals the presence of a magical aura. The only evidence of its presence is a faint blotch on your skin shaped vaguely like the weapon.
+When you touch the spot (an action equivalent to drawing a weapon), or when the spell duration expires, the weapon appears in your hand and the spell ends. If you attack with the weapon in the same round that you retrieve it from its hiding place, you can attempt a Bluff check to feint in combat as a free action, and you gain a +4 bonus on the Bluff check. An intelligent magic weapon gets a saving throw against this spell, but other weapons do not.<}}
+
+
+Alter Self(Player's Handbook v.3.5): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Alter Self](https://dndtools.net/spells/players-handbook-v35--6/alter-self--2774/) }} {{School:= Transmutation  }} {{Level:= **Assassin 2**, Bard 2, Savant 2, Jester 2, DeathMaster 2, Sha'ir 2, WuJen 2, ThayanSlaver 2, Vigilante 2, SlayerofDomiel 2, Wizard 2, Sorcerer 2, Arcanist 2}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 min./level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You assume the form of a creature of the same type as your normal form (such as humanoid or magical beast).  The new form must be within one size category of your normal size.  The maximum HD of an assumed form is equal to your caster level, to a maximum of 5 HD at 5th level.  You can change into a member of your own kind or even into yourself.  You retain your own ability scores.  Your class and level, hit points, alignment, base attack bonus, and base save bonuses all remain the same.
+You retain all supernatural and spell-like special attacks and qualities of your normal form, except for those requiring a body part that the new form does not have (such as a mouth for a breath weapon or eyes for a gaze attack).  You keep all extraordinary special attacks and qualities derived from class levels (such as a barbarian's rage ability), but you lose any from your normal form that are not derived from class levels (such as a dragon's frightful presence ability).
+If the new form is capable of speech, you can communicate normally.  You retain any spellcasting ability you had in your original form, but the new form must be able to speak intelligibly (that is, speak a language) to use verbal components and must have limbs capable of fine manipulation to use somatic or material components.
+You acquire the physical qualities of the new form while retaining your own mind.  Physical qualities include natural size, mundane movement capabilities (such as burrowing, climbing, walking, swimming, and flight with wings, to a maximum speed of 120 feet for flying or 60 feet for nonflying movement), natural armor bonus, natural weapons (such as claws, bite, and so on), racial skill bonuses, racial bonus feats, and any gross physical qualities (presence or absence of wings, number of extremities, and so forth).  A body with extra limbs does not allow you to make more attacks (or more advantageous two-weapon attacks) than normal.
+You do not gain any extraordinary special attacks or special qualities not noted above under physical qualities, such as darkvision, low-light vision, blindsense, blindsight, fast healing, regeneration, scent, and so forth.
+You do not gain any supernatural special attacks, special qualities, or spell-like abilities of the new form.  Your creature type and subtype (if any) remain the same regardless of your new form.  You cannot take the form of any creature with a template, even if that template doesn't change the creature type or subtype.
+You can freely designate the new form's minor physical qualities (such as hair color, hair texture, and skin color) within the normal ranges for a creature of that kind.  The new form's significant physical qualities (such as height, weight, and gender) are also under your control, but they must fall within the norms for the new form's kind.  You are effectively disguised as an average member of the new form's race.  If you use this spell to create a disguise, you get a +10 bonus on your Disguise check.
+When the change occurs, your equipment, if any, either remains worn or held by the new form (if it is capable of wearing or holding the item), or melds into the new form and becomes nonfunctional.  When you revert to your true form, any objects previously melded into the new form reappear in the same location on your body they previously occupied and are once again functional.  Any new items you wore in the assumed form and can't wear in your normal form fall off and land at your feet; any that you could wear in either form or carry in a body part common to both forms (mouth, hands, or the like) at the time of reversion are still held in the same way.  Any part of the body or piece of equipment that is separated from the whole reverts to its true form}}
+
+
+Animate Weapon(Complete Mage): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Animate Weapon](https://dndtools.net/spells/complete-mage--58/animate-weapon--866/) }} {{School:= Transmutation  }} {{Level:= **Assassin 2**, Hexblade 2, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Weapon touched}} {{Duration:=Concentration + 1 round}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your weapon leaps from your hands, suddenly capable of fighting on its own.
+A weapon affected by this spell gains the ability to move and attack on its own and functions in most ways like an animated object of its size (MM 13).
+Treat a light weapon as an object two size categories smaller than its wielder, a one-handed weapon as one size category smaller than its wielder, and a two-handed weapon as an object of the same size as its wielder.
+However, the weapon deals its normal damage, not the damage noted for an animated object of its size, and it gains a bonus on attack rolls equal to the ability modifier used to set your spell save DCs.
+Diminutive or smaller objects are unaffected by the spell.
+An animated weapon attacks the nearest enemy to the best of its ability.
+You can use a move action to direct it to a different target, but if at the end of your turn you are more than 30 feet from the weapon, the spell ends.
+A weapon held or carried by another creature can't be affected by this spell.
+The weapon doesn't gain the benefit of any of your class features, feats, or other special abilities that would improve its combat ability.
+If the weapon has an enhancement bonus or other special properties, these apply as normal.
+For example, an animated +1 flaming longsword gains a +1 enhancement bonus on attack rolls and damage rolls and deals an extra 1d6 points of fire damage on a successful hit}}
+
+
+Blade of Pain and Fear(Spell Compendium): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blade of Pain and Fear](https://dndtools.net/spells/spell-compendium--86/blade-pain-and-fear--3959/) }} {{School:= Evocation  }} {{Level:= **Assassin 2**, Blackguard 2, Cleric 3, Sorcerer 3, Wizard 3, Deathbound 2, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, DF}} {{Range:= 0 ft}} {{Effect:=Swordlike column of gnashing teeth}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will partial }} {{Save DC:=[[@{spelldc2}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**A three-foot-long column of disembodied gnashing teeth springs forth from your hand.**
+For the duration of the spell, you can make melee touch attacks that deal 1d6 points of damage +1 point per two caster levels (maximum +10). Your Strength modifier does not apply to the  damage. A creature that you successfully deal damage to must also make a Will saving throw or become frightened for 1d4 rounds}}
+
+
+Brilliant Energy Arrow(Champions of Ruin): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Brilliant Energy Arrow](https://dndtools.net/spells/champions-of-ruin--27/brilliant-energy-arrow--290/) }} {{School:= Transmutation  }} {{Level:= **Assassin 2**, Ranger 2, JusticeofWealdandWoe 2}} {{Components:= V, M}} {{Material Component:= Masterwork arrow or bolt}} {{Range:= Touch}} {{Target:=One masterwork arrow or bolt}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell is cast upon a masterwork arrow or bolt, transforming its head into brilliant energy that gives off light as a torch (20-foot radius).
+A brilliant energy missile ignores nonliving matter.
+Armor bonuses to AC (including any enhancement bonuses to that armor) do not count against it because the missile passes through armor.
+It deals normal damage and has no effect on constructs, undead, and objects.
+The arrow or bolt must be fired during the same round the spell is cast, or the magic dissipates and is lost.
+The projectile is destroyed even if it misses its target}}
+
+
+Cat's Grace(Player's Handbook v.3.5): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Cat's Grace](https://dndtools.net/spells/players-handbook-v35--6/cats-grace--2790/) }} {{School:= Transmutation  }} {{Level:= **Assassin 2**, Trapsmith 1, Bard 2, UrbanDruid 2, Sha'ir 2, WuJen 2, Duskblade 2, Vigilante 2, Fatemaker 2, KnightoftheWeave 2, EbonmarInfiltrator 2, Hoardstealer 2, Adept 2, Wizard 2, Sorcerer 2, Ranger 2, Druid 2, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= A pinch of cat fur}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The transmuted creature becomes more graceful, agile, and coordinated.
+The spell grants a +4 enhancement bonus to Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the Dexterity modifier}}
+
+
+Darklight(Book of Vile Darkness): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Darklight](https://dndtools.net/spells/book-of-vile-darkness--37/darklight--179/) }} {{School:= Evocation  [Darkness]}} {{Level:= **Assassin 2**, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=One creature or object touched}} {{Duration:=1 minute/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster makes one creature or object radiate special darkness called darklight in a 5-foot-radius sphere.
+This spell is most useful in a large, naturally dark area.
+Within the darklight sphere, creatures that can normally see in the light can see, even though there is no light.
+Only creatures and objects in the sphere can be seen, and only creatures in the sphere can see within the sphere, unless other observers can naturally see in the dark.
+Thus, while two creatures in the sphere can see each other, a creature standing outside the sphere can neither see the creatures in the sphere (assuming it doesn't have darkvision), nor can it be seen by them.
+A creature with darkvision standing outside the sphere could see those within the sphere, but those inside could not discern the creature.
+The darklight spell's sphere is invisible in normal light and does not function in magical darkness}}
+
+
+Divest Essentia(Magic of Incarnum): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Divest Essentia](https://dndtools.net/spells/magic-of-incarnum--74/divest-essentia--1834/) }} {{School:= Necromancy  }} {{Level:= **Assassin 2**, Hexblade 2, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=By delivering a jolt of magical energy to your target, you scramble his personal essence, causing all essentia he has currently invested (with some exceptions; see below) to return to his essentia pool as if the target had set his essentia investment to 0.
+This doesn't prevent the target from reinvesting essentia normally on his next turn, but it might make him vulnerable in the meantime.
+Essentia invested in an incarnum feat or other receptacle that can't be reallocated by the target as a swift action can't be affected by this spell}}
+
+
+Fell the Greatest Foe(Spell Compendium): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fell the Greatest Foe](https://dndtools.net/spells/spell-compendium--86/fell-greatest-foe--3863/) }} {{School:= Transmutation  }} {{Level:= **Assassin 2**, Ranger 2, Paladin 2, Cleric 3, Cloistered Cleric 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You touch the creature, and its muscles ripple with yellow energy.**
+The subject gains the ability to deal greater damage against larger creatures.  For every size category of an opponent bigger than the subject of the spell, the subject deals an extra 1d6 points of damage on any successful melee attack.  For example, a Medium creature would deal an extra 1d6 points of damage against a Large creature, 2d6 against Huge, 3d6 against Gargantuan, or 4d6 against a Colossal creature.
+**Material Component:** A dragon's claw or a giant's fingernail}}
+
+
+Fire Shuriken(Spell Compendium): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fire Shuriken](https://dndtools.net/spells/spell-compendium--86/fire-shuriken--4498/) }} {{School:= Evocation  [Fire]}} {{Level:= **Assassin 2**}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= 0 ft.}} {{Effect:=One magical shuriken/3 levels}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**With dark intent you complet the quick motions of the spell and find in your hand several shuriken composed of flame.**
+This spell creates shuriken formed of magical fire that you can throw as a normal ranged attack. You are automatically considered proficient with the fire shuriken, which have a range increment of 10 feet, threaten a critical hit on a roll of 19-20, and deal 3d6 points of fire damage each on a succesful hit (althouch you and your possessions take no damage as the shuriken are thrown). Any additional damage dealt by the fire shuriken (including your Strength bonus and sneak attack damage) is also fire damage. The suriken disappear when they hit, so they cannot set fire to combustibles or damage objects. You can create one fire shurken per three caster levels, up to a maximum of six at 18th level.
+**Material Component:** A shuriken coated with pine sap and sulfur}}
+
+
+Getaway(Song and Silence: A Guidebook to Bards and Rogues): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Getaway](https://dndtools.net/spells/song-and-silence-a-guidebook-to-bards-and-rogues--48/getaway--3302/) }} {{School:= Enchantment  }} {{Level:= **Assassin 2**}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Area:=Up to 1 city block/level}} {{Duration:=10 minutes/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell helps you elude pursuers by causing them to run down blind alleys, make wrong turns at intersections, and
+bypass obvious directional indicators during a chase.
+Any pursuer who loses sight of you and fails a Will save has a 50% chance of making a wrong turn or heading in the wrong direction, even in the face of physical evidence (such as a dangling rope or an open door) as to your true path.
+Material Component: A fox's tail}}
+
+
+Ice Knife(Spell Compendium): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Ice Knife](https://dndtools.net/spells/spell-compendium--86/ice-knife--3883/) }} {{School:= Conjuration (Creation) [Cold]}} {{Level:= **Assassin 2**, Sorcerer 2, Wizard 2, WuJen 2, Warmage 2, Arcanist 2}} {{Components:= S, M}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Effect:=One icy missile}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude partial or Re?ex half; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You shake your hand as if to free it from some substance you disdain. As you do, a magical shard of ice blasts from your hand and speeds to its target, the sound of cracking ice following in its wake.**
+You must succeed on a normal ranged attack to hit (with a +2 bonus on the attack roll for every two caster levels). If it hits, an ice knife deals 2d8 points of cold damage and 2 points of Dexterity damage (a successful Fortitude save negates the Dexterity damage). Creatures that have immunity to cold also take no Dexterity damage automatically.  A knife that misses creates a shower of ice crystals in a 10-foot-radius burst (see Missing with a Thrown Weapon, PH 158, to determine where the shard hits). The icy burst deals 1d8 points of cold damage to all creatures within the area (Reflex half).
+**Material Component**: A drop of water or piece of ice}}
+
+
+Increase Virulence(Player's Handbook II): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Increase Virulence](https://dndtools.net/spells/players-handbook-ii--80/increase-virulence--3018/) }} {{School:= Transmutation  }} {{Level:= **Assassin 2**, Bard 2, Blackguard 2, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Vial of poison or creature touched}} {{Duration:=1 minute/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Ribbons of green and black energy engulf your hand and pass into the vial or creature you touch.
+You make the poison in a vial or a creature more lethal.
+The DCs for all saving throws against the poison increase by 2.
+Material Component: Licorice root}}
+
+
+Invisibility, Swift(Spell Compendium): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Invisibility, Swift](https://dndtools.net/spells/spell-compendium--86/invisibility-swift--3921/) }} {{School:= Illusion (Glamer) }} {{Level:= **Assassin 2**, Bard 1, Duskblade 2, Vigilante 2, Initiateofbaravarcloakshadow 1}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**With a whispered syllable you complete the spell. You notice that others look past you as if you weren't there.**
+This spell functions like invisibility (PH 245), except as noted above}}
+
+
+Iron Silence(Spell Compendium): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Iron Silence](https://dndtools.net/spells/spell-compendium--86/iron-silence--3924/) }} {{School:= Transmutation  }} {{Level:= **Assassin 2**, Bard 2, Cleric 2, Vigilante 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=One suit of armor touched/3 levels}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**As you imitate a clanking noise you brush your hand over the armor you wish to silence. The armor glows softly orange for a moment before the glow fades. A closer look reveals what looks like orange grease in the joints of the armor.**
+While this spell is in effect, the armor check penalty from the affected suit or suits of armor does not apply on Hide and Move Silently checks. Only wearers proficient in the armor's use get this benefit when  wearing the affected armor. The armor check penalty still applies to other skill checks as normal}}
+
+
+Marked Object(Spell Compendium): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Marked Object](https://dndtools.net/spells/spell-compendium--86/marked-object--4543/) }} {{School:= Divination  }} {{Level:= **Assassin 2**, Ranger 1, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V, S, AF}} {{Arcane Focus:= An object owned by the creature or a piece of the creature to be tracked, such as a tuft of hair or a fingernail}} {{Range:= Personal}} {{Target:=You}} {{Duration:=24 hours/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**By holding the small item to your nose and reciting the ancient words of power you unleash the spell. You immediately have a sense of the object's owner such that you believe you could find further indications of the creature's passage.**
+Upon casting this spell, you become attuned to the specific creature that owns the spell's focus item. (A creature is considered to own an item if it was the last creature to carry the item on its person for 24 hours or more. You do not count when considering what creature was last to carry an item.) This attunement grants you a +10 bonus on Search and Survival checks made to track the item's owner or find evidence of the owner's passage. This spell does not give you insight into who or what the creature you are attuned to is or where that creature ultimately might be. Also, the spell does not provide a trail that is not already there nor provide you with the benefit of the Track feat}}
+
+
+Near Horizon(Complete Mage): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Near Horizon](https://dndtools.net/spells/complete-mage--58/near-horizon--803/) }} {{School:= Divination  }} {{Level:= **Assassin 2**, Ranger 2}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=3 rounds}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The horizon seems to lurch nearer to you as your eyes attain superhuman acuity.
+You gain a mystical insight into targets most people can barely see.
+For the duration of the spell, you take no range penalties when using ranged weapons, though they are still limited to their normal maximum distance}}
+
+
+Phantom Foe(Spell Compendium): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Phantom Foe](https://dndtools.net/spells/spell-compendium--86/phantom-foe--4627/) }} {{School:= Illusion (Phantasm) }} {{Level:= **Assassin 2**, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V, S, AF}} {{Arcane Focus:= A tiny pewter figure of a warrior that is worth 10 gp}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 round/level}} {{Savingthrow:=Will disbelief }} {{Save DC:=[[@{spelldc2}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**By waving around a tiny pewter figurine and picturing in your mind the figurine attacking the target creature, you complete the spell. You feel a phantasmal force leap from the figurine toward your target.**
+If the target creature fails its saving throw, this spell creates in the subject's mind an illusory double of whichever creature currently threatens it that it deems most dangerous. The form of this phantom foe changes as appropriate whenever the target perceives a different threatening creature more dangerous than the last. This illusory double provides two effects.
+First, the subject believes it is being flanked by the phantom foe and the real creature the foe duplicates. Thus, the duplicated creature is always considered to be flanking the subject in melee. A creature that can't be flanked is immune to this aspect of the spell.
+Second, the subject of the spell is unable to determine that the phantom foe is not a real threat, and whenever the subject attempts to attack the creature duplicated by the phantom foe, that creature benefits from a 50% miss chance against attacks from the subject of the spell. Because this miss chance comes from the subject's inability to tell the phantom foe from the original, it is rolled separately from any miss chance that applies due to displacement or concealment.
+Creatures other than the subject cannot see the phantom foe, although they can attempt to guess its location by how the target acts. If the subject is not threatened by any creature at the start of its turn, the spell ends}}
+
+
+Returning Weapon(Races of the Wild): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Returning Weapon](https://dndtools.net/spells/races-of-the-wild--84/returning-weapon--3118/) }} {{School:= Transmutation  }} {{Level:= **Assassin 2**, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V}} {{Range:= Touch}} {{Target:=One thrown weapon}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=No (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The weapon targeted by this spell gains the ability to return to the hand of its thrower (as the returning special ability described on page 225 of the Dungeon Master's Guide)}}
+
+
+Sacrificial Skill(Book of Vile Darkness): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sacrificial Skill](https://dndtools.net/spells/book-of-vile-darkness--37/sacrificial-skill--168/) }} {{School:= Enchantment  [Evil]}} {{Level:= **Assassin 2**, Cleric 1, Sorcerer 1, Wizard 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=Caster}} {{Duration:=1 minute/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster gains a +5 bonus on all Knowledge (religion) checks that have to do with sacrifices made to evil gods.
+See Sacrifices in Chapter 2 for the Knowledge (religion) check DCs required to gain boons from evil gods.
+Material Component: A lock of hair taken from an unwilling humanoid}}
+
+
+Smoke Stairs(Complete Scoundrel): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Smoke Stairs](https://dndtools.net/spells/complete-scoundrel--60/smoke-stairs--917/) }} {{School:= Transmutation  [Air]}} {{Level:= **Assassin 2**, Druid 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You step into intangible smoke and ascend as nimbly as if it were a flight of steps.
+You gain the ability to run up columns of smoke as if they were normal stairs.
+Casting this spell successfully requires smoke from a natural fire large enough to fill a 5-foot square, such as a normal campfire, bonfire, or any significant amount of burning debris (torch f lames or creatures made of fire or smoke do not suffice).
+After casting this spell, you can move into the column of smoke produced by such fires and can ascend vertically into a square filled with smoke.
+To your eyes the smoke coalesces into ghostly steps, though other observers see nothing different.
+When stepping into the column you are considered to be in the smoke above the flame and take no damage from the fire.
+Every 5 feet of upward movement costs 2 squares of movement.
+For example, an assassin with a speed of 30 feet casts smoke stairs on himself, then moves 10 feet across the ground to a smoking fire and ascends 10 feet vertically in a single move action.
+If anything dissipates the column of smoke while you are moving though it using this spell, you lose your footing and fall.
+Examples include a gust of wind spell and an air elemental's whirlwind form.
+If the fire creating the smoke is extinguished, the smoke stairs effect lingers for 1 round before dispersing.
+Material Component: A handful of dried leaves}}
+
+
+Soul Blight(Magic of Incarnum): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Soul Blight](https://dndtools.net/spells/magic-of-incarnum--74/soul-blight--1836/) }} {{School:= Necromancy  }} {{Level:= **Assassin 2**, Hexblade 2, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One creature}} {{Duration:=Instantaneous}} {{Savingthrow:=Will half }} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You rip away some of the target's personal essence, temporarily damaging the target's essentia pool.
+You deal 1d4 points of essentia damage plus 1 additional point for every three caster levels, to a maximum of 1d4+3 points at caster level 9th.
+Creatures that do not have essentia pools suffer no ill effects from this spell.
+Material Component: A tiny crystal vial}}
+
+
+Spellslayer Arrow(Champions of Ruin): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Spellslayer Arrow](https://dndtools.net/spells/champions-of-ruin--27/spellslayer-arrow--294/) }} {{School:= Transmutation  }} {{Level:= **Assassin 2**, JusticeofWealdandWoe 2, Ranger 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=One masterwork arrow or bolt}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell is cast upon a masterwork arrow or bolt, transforming it into a glowing missile that destabilizes other forms of magic.
+In addition to dealing normal damage, a spellslayer arrow deals an extra 1d4 points of damage for each ongoing spell currently in effect on the target.
+For example, an arrow would deal an extra 3d4 points of damage to a creature under the effects of bull's strength,
+haste, and mage armor.
+The arrow or bolt must be fired during the same round the spell is cast, or the magic dissipates and is lost.
+The projectile is destroyed even if it misses its target.
+Material Component:Masterwork arrow or bolt}}
+
+
+Summon Weapon(Complete Mage): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Summon Weapon](https://dndtools.net/spells/complete-mage--58/summon-weapon--791/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Assassin 2**, Bard 2}} {{Components:= V, S}} {{Range:= 0 ft.}} {{Effect:=Nonmagical light weapon}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A weapon appears in your hand, ready for use.
+You conjure a nonmagical light weapon sized for you.
+The weapon is normal in every respect.
+It can't be made of any unusual metal, nor is it masterwork}}
+
+
+Swift Ready(The Forge of War): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Swift Ready](https://dndtools.net/spells/forge-war--105/swift-ready--3562/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Assassin 2**, Artificer 2, Bard 2, Duskblade 2, Hexblade 2}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=One, two, or three specific objects; see text}} {{Duration:=24 hours or until invoked; see text}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can cast this spell on one or more of the following groups of items:
+<ul><li>One suit of armor or other item of clothing (such as a robe or cloak); plus either</li></ul><ul><li>One or two weapons, tools, or magic items, each small enough to be wielded in a single hand; or</li></ul><ul><li>One weapon, tool, or magic item that is normally wielded in both hands.</li></ul>Thus, for instance, you could cast the spell on a robe and a staff, or on a suit of armor, a longsword, and a shield. At any time before the spell expires, you can, as a swift action, cause the affected equipment to instantly appear on your body or in your grasp, as though you had taken the time to properly don and prepare it. You must have line of sight to the equipment, and it cannot be in the possession of any other creature. Invoking the spell causes the duration to end instantly}}
+
+
+Veil of Shadow(Spell Compendium): - Assassin(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Veil of Shadow](https://dndtools.net/spells/spell-compendium--86/veil-shadow--4722/) }} {{School:= Evocation  [Darkness]}} {{Level:= **Assassin 2**, Blackguard 2, Cleric 2, Sorcerer 2, Wizard 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You speak the words of this spell, and tendrils of purple darkness rise from the ground, surrounding you and concealing you from your foes.**
+Swirling wisps of darkness obscure your form, granting you concealment. The 20% miss chance is in effect even if the attacker has darkvision.
+This spell effect is dispelled in daylight or in the area of a <a href="/spells/descriptors/light/">light</a> spell of 3rd level or higher.
+<a href="/spells/players-handbook-v35--6/see-invisibility--2514/">**See invisibility**</a> does not counter a **veil of shadow**'s concealment effect, but a <a href="/spells/players-handbook-v35--6/true-seeing--2520/">**true seeing**</a> spell does}}
+
+
+Amorphous Form(Spell Compendium): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Amorphous Form](https://dndtools.net/spells/spell-compendium--86/amorphous-form--3820/) }} {{School:= Transmutation  }} {{Level:= **Assassin 3**, Sorcerer 3, Wizard 3, PrimeUnderdarkGuide 3, Arcanist 3}} {{Components:= S, M}} {{Material Component:= A pinch of gelatin.}} {{Range:= Touch}} {{Target:=Willing corporeal creature touched}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You dust your ally with gelatin and silently evoke the spell. Immediately her bones begin to soften and she and her belongings slump, becoming malleable ooze.**
+The subject and all its gear become amorphous and oozelike. This new form is boneless and fluid, enabling the subject to pass through holes or narrow openings as small as 2 inches in diameter. While amorphous, the subject is immune to poison, polymorphing, and stunning, it cannot be flanked,  and it is not subject to extra damage from critical hits. It gains a swim speed (if it does not have one already) equal to its land speed. The subject can remain submerged as long as desired without breathing.
+The subject's armor (including natural armor) becomes worthless, though its modifiers for size, Dexterity, and deflection still apply to Armor Class, as do armor bonuses from force effects (for example, from the **mage armor** spell). While amorphous, the subject can't attack or cast spells that require verbal, somatic, material, or focus components. (This limitation does not rule out the casting of any spells that the subject might have prepared using the metamagic feats **Eschew Materials**, **Silent Spell**, and **Still Spell**.) The subject loses all supernatural abilities while in amorphous form, and its magic items, aside from those bonuses noted above, cease functioning as long as it remains amorphous}}
+
+
+Arrowsplit(Champions of Ruin): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Arrowsplit](https://dndtools.net/spells/champions-of-ruin--27/arrowsplit--266/) }} {{School:= Conjuration (Creation) }} {{Level:= **Assassin 3**, Ranger 3, JusticeofWealdandWoe 3}} {{Components:= V, M}} {{Material Component:= Masterwork arrow or bolt}} {{Range:= Touch}} {{Target:=One masterwork arrow or bolt}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell is cast upon a masterwork arrow or bolt, causing it to split in mid-flight into 1d4+1 identical masterwork arrows or bolts.
+All the missiles strike the same target, and you must make a separate attack roll for each missile.
+The arrow or bolt must be fired during the same round the spell is cast, or the magic dissipates and is lost.
+The projectile is destroyed even if it misses its target}}
+
+
+Blunt Natural Weapons(Dragons of Faerun): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blunt Natural Weapons](https://dndtools.net/spells/dragons-of-faerun--26/blunt-natural-weapons--1114/) }} {{School:= Transmutation  }} {{Level:= **Assassin 3**, Bard 3, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The target's bite, claws, and other natural weapons appear to grow smaller and weaker.
+This spell weakens the natural weapons of the target creature.
+All the damage dice of the target's natural weapons are decreased by 1 step for every five levels of the caster.
+You cannot reduce the target's natural weapon damage to less than 1d2 points of damage.
+Special: Dragonblood creatures cast this spell at +1 caster level}}
+
+
+Create Fetch(Complete Scoundrel): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Create Fetch](https://dndtools.net/spells/complete-scoundrel--60/create-fetch--898/) }} {{School:= Conjuration (Creation) }} {{Level:= **Assassin 3**, Bard 3, Sorcerer 4, Wizard 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= One of your own hairs}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=A duplicate of yourself}} {{Duration:=10 minutes/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Plucking out one of your own hairs, you make a beckoning motion.
+A double of you appears nearby.
+You create a fetch, a perfect replica of your form at the time you cast this spell.
+Little more than an animated reproduction, a fetch is mindless but capable of performing simple tasks or imitating you.
+The creation is the same size as you and occupies space just as a living creature does.
+You have a mental connection with your fetch and can give it new orders as a standard action.
+The fetch duplicates your form in every way but texture.
+You must make a Disguise check when you cast the spell to determine how good the likeness is; this result is opposed by observers' Spot checks as normal.
+Anyone touching the fetch finds it rubbery and soft, and in so doing immediately realizes its magical nature.
+The fetch's body includes useless versions of all the equipment you possess: A weapon wielded by the fetch is too flimsy to deal damage, and tools it carries are fragile and imprecise.
+Items created with a fetch are part of its form and dissipate if separated from it.
+At your order, the fetch can retrieve things for you, open unstuck doors, hold chairs, and the like, as well as perform menial tasks such as cleaning and mending.
+The fetch can't perform any task that requires a skill check with a DC higher than 10 or that requires a skill that can't be used untrained.
+It can perform only one activity at a time, but it repeats the same activity tirelessly if ordered to do so as long as you remain within the spell's range.
+You can have the fetch imitate you, such as by sitting at a desk and pretending to write, lying in bed and breathing deeply, or skulking with a weapon drawn.
+It can even imitate tasks it can't actually perform, though it automatically fails any attempt at such performance&#8212;for instance, even though a fetch can pretend to decipher an ancient text, it can't actually do it.
+The fetch weighs roughly the same as you do, so it can trigger any traps you would if you were to pass through the same space, setting off tripwires, pressure plates, some magical forms of detection, and similar devices.
+Its land speed is normal for a creature of your kind (for example, 30 feet for a human or 20 feet for a halfling).
+Even if you normally have other modes of movement available (such as a fly or swim speed), the fetch can't use those.
+The fetch automatically fails any saving throw required of it.
+If you attempt to send it beyond the spell's range (measured from your current position), it ceases to exist.
+The fetch has an effective Strength score of 6, so it can lift 60 pounds or drag 300 pounds.
+Its Dexterity is 10, so it has an AC of 10 (plus size modifier).
+It gains no AC benefit from any equipment or effect on you when the spell is cast (such as armor you wear, since the armor created for it is part of its form), though it can then wear real armor or other items to increase its Armor Class.
+It has no Constitution score and 10 hit points; if reduced to 0 hit points, it is destroyed.
+It can't be healed, nor can it benefit from temporary hit points.
+The fetch has no Intelligence, Wisdom, or Charisma score.
+You can command it to make noise, but it can't communicate in any way, nor can it understand instructions other than the simple orders you give it telepathically.
+The fetch cannot attack in any way; it is never allowed an attack roll.
+Even if armed, it doesn't threaten an area around it and thus can't flank an enemy, nor can it use the aid another action to improve your Armor Class or attack rolls.
+The fetch has the same alignment aura as you do.
+Detect thoughts does not register its existence (since it has no Intelligence), but detect magic reveals it as a magical effect}}
+
+
+Darkflame Arrow(Champions of Ruin): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Darkflame Arrow](https://dndtools.net/spells/champions-of-ruin--27/darkflame-arrow--279/) }} {{School:= Evocation  }} {{Level:= **Assassin 3**, JusticeofWealdandWoe 3, Ranger 3}} {{Components:= V, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=One masterwork arrow or bolt}} {{Duration:=Instantaneous; see text}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell is cast upon a masterwork arrow or bolt, engulfing its head in black fire.
+The arrow deals normal damage and wreaths the target in black flame that deals an extra 2d6 points of damage.
+The black flames continue to engulf the victim for 2 more rounds, dealing 2d6 points of damage each subsequent round (at the start of your turn), and they cannot be extinguished (although they can be dispelled).
+The arrow or bolt must be fired during the same round the spell is cast, or the magic dissipates and is lost.
+Creatures with immunity or resistance to fire take full damage from the black flames.
+The projectile is destroyed even if it misses its target.
+Material Component:Masterwork arrow or bolt}}
+
+
+Ebon Ray of Doom(Lost Empires of Faerun): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Ebon Ray of Doom](https://dndtools.net/spells/lost-empires-of-faerun--30/ebon-ray-of-doom--1566/) }} {{School:= Necromancy  }} {{Level:= **Assassin 3**, Sorcerer 4, Wizard 4, Arcanist 4}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=Ray}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude partial; see text }} {{Save DC:=[[@{spelldc3}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You fire a ray of black energy that drastically slows down the rate at which the subject can recover hit points.
+Any creature attempting to restore hit points to the subject by means of any sort of healing magic must succeed on a caster level check (DC 15 + your caster level), or the healing effect fails.
+A subject with fast healing or a regeneration ability must make a Fortitude save at the beginning of its turn each round.
+Failure indicates that the ability does not function in that round}}
+
+
+Enduring Scrutiny(Complete Mage): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Enduring Scrutiny](https://dndtools.net/spells/complete-mage--58/enduring-scrutiny--800/) }} {{School:= Divination  }} {{Level:= **Assassin 3**, Bard 3, Paladin 3, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 day/level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You sense a sudden, empathic connection with the subject, as though you were constantly a mere step or two behind.
+You designate a particular action when casting this spell.
+If the subject engages in or commits that particular action during the spell's duration, you are instantly alerted of that fact, regardless of the distance between you and the subject (and even if the subject is on another plane).
+For instance, you could command the spell to alert you if the subject casts a spell or kills someone.
+You do not necessarily know the precise details of when or how the subject committed the designated action; you only know, instantly, that he did so}}
+
+
+Fangs of the Vampire King(Spell Compendium): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fangs of the Vampire King](https://dndtools.net/spells/spell-compendium--86/fangs-vampire-king--4476/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Assassin 3**, Blackguard 3, Corrupt 2, Deathbound 3}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Hissing an evil laugh, you sprout sharp fangs to drain the blood of your foes.**
+You grow vampirelike fangs that allow you to make bite attacks as natural attacks. Your bite attack deals 1d6 points of damage + your strength modifier, and 1 point of Constitution damage. If you make a full attack with other weapons, you can make a bite attack as a natural secondary attack (-5 penalty on the attack roll)}}
+
+
+Find the gap(Spell Compendium): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Find the gap](https://dndtools.net/spells/spell-compendium--86/find-gap--4494/) }} {{School:= Divination  }} {{Level:= **Assassin 3**, Paladin 3, Ranger 3}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You speak the words of this spell, and a blue mark that only you can see appears on your opponent, highlighting a weak spot in her defense.**
+You gain the ability to perceive weak points in your opponent's armor. Your first melee or ranged attack each round is resolved as a touch attack, disregarding the subject's armor, shield, and natural armor bonuses (including any enhancement bonuses) to Armor Class. Other AC bonuses, such as dodge bonuses, deflection bonuses, and luck bonuses, still apply}}
+
+
+Find the Gap(Draconomicon): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Find the Gap](https://dndtools.net/spells/draconomicon--92/find-the-gap--1007/) }} {{School:= Divination  }} {{Level:= **Assassin 3**, Paladin 3, Ranger 3}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You gain the ability to perceive weak points in your opponent's armor.
+Once per round, one of your melee or ranged attacks may disregard the target's armor, shield, and natural armor bonuses (including any enhancement bonuses) to Armor Class.
+Other AC bonuses, such as dodge bonuses, deflection bonuses, and luck bonuses, still apply}}
+
+
+Masochism(Book of Vile Darkness): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Masochism](https://dndtools.net/spells/book-of-vile-darkness--37/masochism--164/) }} {{School:= Enchantment  [Evil]}} {{Level:= **Assassin 3**, Sorcerer 2, Wizard 2, Blackguard 3, Cleric 3, Cloistered Cleric 3, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=Caster}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=For every 10 points of damage the caster takes in a given round, he gains a +1 luck bonus on attack rolls, saving throws, and skill checks made in the following round.
+The more damage the caster takes, the greater the luck bonus.
+It's possible to get a luck bonus in multiple rounds if the caster takes damage in more than one round during the spell's duration.
+Material Component: A leather strap that has been soaked in the caster's blood}}
+
+
+Nightmare Terrain(Complete Mage): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Nightmare Terrain](https://dndtools.net/spells/complete-mage--58/nightmare-terrain--843/) }} {{School:= Illusion (Shadow) }} {{Level:= **Assassin 3**, Bard 3, Hexblade 3, Sorcerer 4, Wizard 4, Arcanist 4}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=Five 10-ft. cubes + one 10-ft. cube/level (S)}} {{Duration:=1 round/level}} {{Savingthrow:=Will disbelief (if interacted with) }} {{Save DC:=[[@{spelldc3}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You cloak your surroundings with phantasmagoric figures, creating a horrific dreamscape.
+You make any terrain look, sound, and smell like something out of a nightmare.
+Writhing vegetation, disembodied limbs, animated corpses, and smoking pits cover every surface.
+Miasmic vapors fill the air, along with various foul stenches.
+The nightmare terrain you create is mostly illusory, but the obstacles are partially real.
+Creatures within, entering, or viewing the area are entitled to Will saves to discern the illusion.
+Creatures that fail their saves become entangled.
+Regardless of the outcome of the save, creatures within 5 feet have concealment, while those 10 feet or farther away have total concealment.
+Furthermore, as long as you are within the area of this spell, you can attempt Hide checks even while being observed.
+(Other creatures don't gain this benefit)}}
+
+
+Pall of Twilight(Complete Mage): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Pall of Twilight](https://dndtools.net/spells/complete-mage--58/pall-of-twilight--844/) }} {{School:= Illusion (Pattern) [Darkness]}} {{Level:= **Assassin 3**, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=20-ft.-radius spread}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc3}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A creeping pall of darkness covers the area like running ink, muting sound and color alike.
+This spell reduces illumination in the area to shadowy; these shadows are mental as well as physical.
+All creatures in the area take a -10 penalty on Listen, Search, Sense Motive, and Spot checks.
+A successful Will save negates these penalties, but not the effect of the darkness}}
+
+
+Rend Essentia(Magic of Incarnum): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Rend Essentia](https://dndtools.net/spells/magic-of-incarnum--74/rend-essentia--1835/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Assassin 3**, Hexblade 3, Sorcerer 4, Wizard 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc3}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast this spell, you consume a small portion of your enemy's soul to strengthen your own personal essence and become stronger.
+You deal 1d4 points of Charisma damage plus 1 additional point for every three caster levels, to a maximum of 1d4+5 points at caster level 15th.
+If the target has an essentia pool, he instead loses essentia equal to the Charisma damage that would be dealt (if the damage is larger than the target's essentia pool, any leftover points of damage are dealt as Charisma damage).
+This spell can't reduce a target's Charisma below 1.
+You gain 1 point of temporary essentia for every point of essentia or Charisma damage you deal to the subject.
+This temporary essentia remains in your pool for 1 minute, after which it dissipates.
+While you have it, you can use your temporary essentia just like normal essentia.
+Material Component: A black pearl worth at least 100 gp}}
+
+
+Rusted Blade(Complete Mage): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Rusted Blade](https://dndtools.net/spells/complete-mage--58/rusted-blade--882/) }} {{School:= Transmutation  }} {{Level:= **Assassin 3**, Druid 3, Sorcerer 4, Wizard 4, WuJen 4, Arcanist 4}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=One weapon touched}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will negates (object, harmless) and Fortitude negates }} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your touch corrupts the substance beneath your fingers.
+Where once it gleamed, it now grows dull and pitted.
+You cause a rustlike patina to temporarily cover the target weapon.
+(Despite its name, the spell can affect any kind of weapon regardless of material).
+For the duration of the spell, any living creature damaged by the weapon must succeed on a Fortitude save or contract filth fever (<span class="caps">DMG</span> 292).
+Use the spell's normal save DC for the initial saving throw, but use filth fever's normal DC 12 for later saves.
+Multiple applications of the disease do not stack, but even a creature that succeeds on one or more saves must continue to save each time it takes damage from the weapon.
+Despite the change in appearance, this spell has no ill effect on the target weapon}}
+
+
+Sadism(Book of Vile Darkness): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sadism](https://dndtools.net/spells/book-of-vile-darkness--37/sadism--169/) }} {{School:= Enchantment  [Evil]}} {{Level:= **Assassin 3**, Sorcerer 2, Wizard 2, Blackguard 3, Cleric 3, Pain 2, Cloistered Cleric 3, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=Caster}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=For every 10 points of damage the caster deals in a given round while under the effect of this spell, she gains a +1 luck bonus on attack rolls, saving throws, and skill checks in the next round.
+The more damage the caster deals, the greater the luck bonus.
+It's possible to get a luck bonus for multiple rounds if she deals damage in more than one round during the spell's duration.
+Material Component: A leather strap that has been soaked in human blood}}
+
+
+Spectral Weapon(Spell Compendium): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Spectral Weapon](https://dndtools.net/spells/spell-compendium--86/spectral-weapon--4202/) }} {{School:= Illusion (Shadow) }} {{Level:= **Assassin 3**, Sorcerer 3, Wizard 3, Bard 4, Vigilante 4, Arcanist 3}} {{Components:= V, S}} {{Range:= 0 ft.}} {{Effect:=One shadowy blade}} {{Duration:=1 round/level (D)}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc3}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You summon forth semisolid shadow-stuff and force it to coalesce into a shape only you can wield. The shadow-formed weapon looks real at first glance, though it appears darkened as if perpetually in shadows. Wisps of shadow tendrils constantly follow the weapon as you move it about.**
+Using material from the Plane of Shadow, you can fashion a quasi-real melee weapon of any type with which you are proficient. This spectral weapon appears in your hand and behaves as a normal weapon of its type, with two exceptions. First, you resolve attacks with your spectral weapon as melee touch attacks instead of melee attacks. Second, any foe you hit is entitled to a Will save to recognize the  weapon's shadowy, semi-insubstantial nature. If the save is successful, that opponent takes only half damage from the weapon on that attack and all subsequent attacks, and is only 50% likely to suffer any special effects of your attacks (such as a death attack delivered with the weapon).
+You can maintain only one spectral weapon at a time, and only you can wield it. The weapon dissipates when you let go of it or when the spell's duration expires, whichever comes first}}
+
+
+Spider Poison(Magic of Faerun): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Spider Poison](https://dndtools.net/spells/magic-of-faerun--20/spider-poison--1722/) }} {{School:= Necromancy  }} {{Level:= **Assassin 3**, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous (see text)}} {{Savingthrow:=Fortitude negates (see text) }} {{Save DC:=[[@{spelldc3}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Similar to the divine spell poison, you inflict a paralyzing poison upon the subject by making a successful melee touch attack.
+The poison deals 1d6 points of temporary Strength damage immediately and another 1d6 points of temporary Strength damage 1 minute later.
+Each instance of damage can be negated by a Fortitude save (DC 10 + one-half caster level + caster's Intelligence or Charisma modifier, for wizards and sorcerers, respectively).
+Material Component: A poisonous spider, alive or dead}}
+
+
+Toxic Tongue(Complete Mage): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Toxic Tongue](https://dndtools.net/spells/complete-mage--58/toxic-tongue--794/) }} {{School:= Conjuration (Creation) }} {{Level:= **Assassin 3**}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A sickly black fluid dribbles from the corner of your mouth.
+You gain the ability to create a virulent poison in your mouth.
+You can then either spit the poison at a foe or apply it to a weapon.
+In either case, a Fortitude save negates each instance of damage, as normal for poison.
+Spitting the poison at a foe requires a standard action and a successful ranged touch attack; the range is 30 feet.
+In this form, the poison deals 1d3 points of Constitution damage as its initial and secondary damage.
+Applying the poison to a weapon requires a swift action (and requires you to touch the weapon).
+This form of the poison deals 1d6 points of Constitution damage as its initial and secondary damage.
+You can apply the poison either to a manufactured or natural weapon, including your own bite attack (if you have one).
+The poison remains on your weapon until you make a successful attack or until the spell's duration ends, whichever comes first.
+Each dose of poison you create reduces the remaining duration of the spell by 1 minute.
+The poison has no effect if ingested}}
+
+
+Unbind Chakra(Magic of Incarnum): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Unbind Chakra](https://dndtools.net/spells/magic-of-incarnum--74/unbind-chakra--1839/) }} {{School:= Necromancy  }} {{Level:= **Assassin 3**, Hexblade 3, Sorcerer 4, Wizard 4, Arcanist 4}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc3}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You temporarily sever one or more chakra binds between the target and his soulmelds and/or magic items.
+This affects one chakra bind for every four caster levels, to a maximum of three binds at 12th level.
+For the spell's duration, the target creature loses all benefits of the severed chakra binds.
+The target also takes 1d6 points of damage per chakra bind severed.
+At the time of casting, you can choose particular chakra binds to sever (such as arms or soul).
+If you do not choose specific chakra binds, the DM randomly determines which chakra binds are affected.
+Essentia: Every point of essentia you invest in this spell adds +1d6 to the damage dealt per chakra bind severed}}
+
+
+Vital Strike(Complete Mage): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Vital Strike](https://dndtools.net/spells/complete-mage--58/vital-strike--807/) }} {{School:= Divination  }} {{Level:= **Assassin 3**}} {{Components:= S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=One attack}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You suddenly see two versions of your target, one a split second ahead of the other, allowing you to target the holes in his defenses.
+You gain temporary, intuitive insight into the actions of your foes.
+Your next single attack roll (if it is made before the end of the next round) is considered a sneak attack, even if your foe is neither flat-footed nor flanked.
+This spell does not allow you to sneak attack creatures normally immune to such attacks, nor does it allow you to make use of other abilities&#8212;such as certain feats&#8212;that deal ability damage, or otherwise grant you extra benefits, when you make a sneak attack}}
+
+
+Wraithstrike(Spell Compendium): - Assassin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wraithstrike](https://dndtools.net/spells/spell-compendium--86/wraithstrike--3779/) }} {{School:= Transmutation  }} {{Level:= **Assassin 3**, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**By presenting your weapon with an overly dramatic flourish and calling out with a sickly-sounding moan, you complete the spell. As you do so, your weapon becomes translucent almost to the point that you cannot see it, though it still weighs as heavily in your hand.**
+While this spell is in effect, your melee attacks are resolved as melee touch attacks rather than normal melee attacks}}
+
+
+Assassin's Darkness(Complete Scoundrel): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Assassin's Darkness](https://dndtools.net/spells/complete-scoundrel--60/assassins-darkness--905/) }} {{School:= Evocation  [Darkness]}} {{Level:= **Assassin 4**}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=40-ft.-radius spherical emanation}} {{Duration:=1 minute/level (D)}} {{Savingthrow:=No }} {{Save DC:=[[@{spelldc4}+@{sf-Evocation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Covering your eyes and spitting a harsh whisper, you conjure a globe of absolute blackness before you.
+As you step forward, your sight alone pierces the darkness, showing you your disoriented victims within.
+You call a globe of absolute darkness into being, which only you can see through.
+All other creatures within or who enter this spell's area are blinded while they remain in the area.
+Even creatures that have darkvision cannot see through this magical obscurement, although creatures capable of seeing in magical darkness (such as devils) are not affected by it.
+While you are outside the sphere, you can see nothing within, and every creature within has total concealment.
+Upon entering the spell's area, however, you can see as if the area were illuminated by bright light and can interact with those within as normal, even though they cannot see you}}
+
+
+Bloodfreeze Arrow(Champions of Ruin): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Bloodfreeze Arrow](https://dndtools.net/spells/champions-of-ruin--27/bloodfreeze-arrow--288/) }} {{School:= Transmutation  }} {{Level:= **Assassin 4**, Ranger 4, JusticeofWealdandWoe 4}} {{Components:= V, M}} {{Material Component:= Masterwork arrow or bolt}} {{Range:= Touch}} {{Target:=One masterwork arrow or bolt}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude partial; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell is cast upon a masterwork arrow or bolt, transforming its head into blue ice.
+In addition to taking normal damage from the missile, the target takes 2d6 points of cold damage and is paralyzed.
+A successful Fortitude save negates the paralysis, and the target can make a new save each round (at the start of the caster's turn)}}
+
+
+Cursed Blade(Spell Compendium): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Cursed Blade](https://dndtools.net/spells/spell-compendium--86/cursed-blade--4277/) }} {{School:= Necromancy  }} {{Level:= **Assassin 4**, Hexblade 4}} {{Components:= V}} {{Range:= Touch}} {{Target:=One melee weapon}} {{Duration:=1 minute/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Drawing upon dark powers, you whisper a vehement curse and draw your finger down the weapon.**
+A weapon affected by this spell deals wounds that can't be healed in the usual fashion. Any damage dealt by the weapon (not including damage from special weapon properties such as flaming, holy, wounding, and so on) cannot be dured by any means until the damaged individual has received a **remove curse** spell (or some other effect that neutralizes a curse).
+If a creature is slain by a weapon that is under the effect of this spell, it can't be raised from the dead unless a **remove curse** spell (or similar effect) is cast on the body or a **true resurrection** spell is used}}
+
+
+Deathsight(Complete Mage): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Deathsight](https://dndtools.net/spells/complete-mage--58/deathsight--798/) }} {{School:= Divination  }} {{Level:= **Assassin 4**}} {{Components:= S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=One attack}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The vital spots on your foe seem to call out to you, guiding your weapon of their own accord.
+You gain temporary, intuitive insight into the actions and physiology of your foes.
+Your next attack (if it is made before the end of your next turn) is considered a death attack, without the need for the standard 3 rounds of observation.
+All other rules for a death attack, such as determining success and damage dealt, apply as normal.
+If you don't have the ability to deliver a death attack, this spell has no effect}}
+
+
+Ferocity of Sanguine Rage(Dragon Magic): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Ferocity of Sanguine Rage](https://dndtools.net/spells/dragon-magic--62/ferocity-of-sanguine-rage--1070/) }} {{School:= Transmutation/Divination  }} {{Level:= **Assassin 4**, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level or until expended}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Blood seems to pour from your eyes as an irregular red glow whirls around you chaotically.
+This spell imbues you with a supernatural ferocity, giving you an edge in melee combat.
+You gain a morale bonus on your melee damage rolls (with weapons or natural attacks) equal to 1/2 your caster level.
+This has no impact on your ability to cast spells or perform other actions.
+Furthermore, while this spell is active, you can activate a true strike effect (as the spell) on yourself as a standard action.
+This effect lasts for the normal duration of the true strike spell (a single attack), after which the entire spell's duration ends.
+Special: if you are of the dragonblood subtype (see page 4), you cast this spell at +1 caster level}}
+
+
+Flesh Armor(Book of Vile Darkness): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Flesh Armor](https://dndtools.net/spells/book-of-vile-darkness--37/flesh-armor--122/) }} {{School:= Abjuration  [Evil]}} {{Level:= **Assassin 4**}} {{Components:= V, S, M, AF}} {{Material Component:= A bit of flesh torn from the caster's body during the casting (dealing 1 point of damage)}} {{Arcane Focus:= The entire freshly harvested skin of another creature of the caster's size}} {{Range:= Personal}} {{Target:=Caster}} {{Duration:=10 minutes/level or until discharged}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Prior to casting flesh armor, the caster flays the skin from a creature of his size and lays it upon his own flesh, wearing it like clothing or armor.
+Once the caster casts flesh armor, his skin develops resistance to blows, cuts, stabs, and slashes.
+The caster gains damage reduction 10/+1.
+Once the spell has prevented a total of 5 points of damage per caster level (maximum 50 points), it is discharged, and the skin slowly rots, shedding in patches like the skin of a molting snake}}
+
+
+Fracturing Weapon(The Forge of War): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fracturing Weapon](https://dndtools.net/spells/forge-war--105/fracturing-weapon--3548/) }} {{School:= Transmutation  }} {{Level:= **Assassin 4**, Hexblade 3, Blackguard 4, Duskblade 4, Paladin 4, Cleric 5, Cloistered Cleric 5}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Melee weapon touched}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Once per round for the spell?s duration, the wielder of the targeted weapon can declare a single melee attack to be a fracturing blow. If that attack successfully deals damage to an opponent, the foe takes a ?5 penalty to Armor Class and damage reduction (if any, to a minimum of 0).
+The penalties are applied after the damage from the fracturing weapon attack has been resolved. The penalties last for a single round, but the wielder can attack it again on his or her next turn and attempt to reinvoke the penalty.<}}
+
+
+Heart Ripper(Spell Compendium): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Heart Ripper](https://dndtools.net/spells/spell-compendium--86/heart-ripper--4694/) }} {{School:= Necromancy  [Death]}} {{Level:= **Assassin 4**, WuJen 4, Maho 4}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc4}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**With a sweep of your hand, invisible magic slams into your target. With a bloody pop and squelch, the heart of your target bursts out its back, dropping the creature like a discarded rag doll.**
+Invisible bolts of force instantly slay the target you designate by driving its heart from its body unless it succeeds on a Fortitude save. If the target has HD higher than your caster level, it does not die on a failed saving throw, but instead is stunned for 1d4 rounds. Creatures that don't depend on their hearts for survival, creatures with no anatomy, and creatures immune to extra damage from critical hits are unaffected by the spell}}
+
+
+Hide from Dragons(Spell Compendium): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Hide from Dragons](https://dndtools.net/spells/spell-compendium--86/hide-from-dragons--4703/) }} {{School:= Abjuration  }} {{Level:= **Assassin 4**, Bard 5, Sorcerer 7, Wizard 7, Hoardstealer 4, Arcanist 7}} {{Components:= S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=One creature touched/2 levels}} {{Duration:=10 minutes/level (D)}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Silently you make the motions and the dragon's scale smolders in your hand. The rising smoke wraps around you and sinks into your skin.**
+Dragons cannot see, hear, or smell the warded creatures, even with blindsense. They act as though the warded creatures are not there. Warded creatures could stand before the hungriest of red dragons and not be molested or even noticed. If a warded character touches or attacks a dragon or the dragon's hoard, even with a spell, the spell ends for all recipients.
+Material Component: A dragon scale}}
+
+
+Implacable Pursuer(Spell Compendium): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Implacable Pursuer](https://dndtools.net/spells/spell-compendium--86/implacable-pursuer--3891/) }} {{School:= Divination  }} {{Level:= **Assassin 4**, Blackguard 4, Ranger 4}} {{Components:= V, S}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Target:=One creature}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Divination}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**With this spell, you become an unerring tracker, instantly aware of your quarry's location whenever it's on the move.**
+The implacable pursuer spell gives you the direction and distance to the target creature whenever it finishes a turn more than 10 feet away from where it started. If you are a ranger, you apply your favored enemy bonus to the DC of the Will save.
+Once you successfully target a creature with implacable pursuer, you know its location as long as the subject is moving, no matter where it goes on the same plane. Even if it leaves the plane, implacable pursuer tells you what plane the subject creature went to. The spell then provides no further information until you and the subject creature are on the same plane, in which case the spell resumes functioning normally}}
+
+
+Mordenkainen's Trusted Bloodhound(Complete Mage): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mordenkainen's Trusted Bloodhound](https://dndtools.net/spells/complete-mage--58/mordenkainens-trusted-bloodhound--785/) }} {{School:= Conjuration (Creation) }} {{Level:= **Assassin 4**, Sorcerer 6, Wizard 6, Arcanist 6}} {{Components:= }} {{Range:= }} {{Effect:=Phantom bloodhound}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You conjure a phantom hound, that can track and bring down your prey.
+This spell functions like Mordenkainen's faithful hound,
+except that the phantom bloodhound created can also track a creature as if it had the Track feat.
+Its Survival modifier is equal to your caster level for this purpose, but it can't use the Survival skill for any other tasks.
+A trusted bloodhound has a land speed equal to yours, and can move at full speed without taking a penalty on Survival checks to track.
+A trusted bloodhound can't attack, provide a flank, or have any other effect on combat.
+However, as a standard action, you can instruct a trusted bloodhound to serve as a watchdog; in this role it functions identically to Mordenkainen's faithful hound, except that its attack bonus equals your caster level.
+You can command a trusted bloodhound to resume its tracking again as a standard action}}
+
+
+Shadow Arrow(Champions of Ruin): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shadow Arrow](https://dndtools.net/spells/champions-of-ruin--27/shadow-arrow--285/) }} {{School:= Necromancy  }} {{Level:= **Assassin 4**, JusticeofWealdandWoe 4, Ranger 4}} {{Components:= V, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=One masterwork arrow or bolt}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell is cast upon a masterwork arrow or bolt, transforming it into pure black shadow.
+Make a ranged touch attack with the missile instead of a normal ranged attack.
+Instead of dealing normal damage, a shadow arrow deals 1d6 points of Strength damage.
+The arrow or bolt must be fired during the same round the spell is cast, or the magic dissipates and is lost.
+The projectile is destroyed even if it misses its target.
+Material Component:Masterwork arrow or bolt}}
+
+
+Shadow Form(Spell Compendium): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shadow Form](https://dndtools.net/spells/spell-compendium--86/shadow-form--4143/) }} {{School:= Illusion (Shadow) }} {{Level:= **Assassin 4**, Sorcerer 5, Wizard 5, Arcanist 5}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Shadows rise from the ground to envelop you. The shadows easily move with you, guiding your steps and how to hold your body.**
+While this spell is in effect, you gain a number of benefits. The shadows wrapping your form grant you a +4 competence bonus on Escape Artist, Hide, and Move Silently checks. Your shadowy form also  provides you with concealment. This shadowy concealment is not negated by a see invisibility spell, but a true seeing spell counteracts the effect. Standing within the radius of a daylight spell or in bright  natural sunlight temporarily suppresses the concealment effect.
+In addition, if you have 5 ranks in Escape Artist, you can attempt to slip through a solid object or barrier up to 5 feet thick with a DC 20 Escape Artist check, though doing this ends the spell as soon as the attempt is completed (regardless of success). If you have 10 ranks in Escape Artist, you can attempt to pass through an object or barrier up to 10 feet thick. If you have 15 ranks in Escape Artist, you can attempt to pass through a barrier composed of magical force (or similar magical obstacles).
+Material Component: A small piece of black cloth taken from a funeral shroud}}
+
+
+Shadow Phase(Spell Compendium): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shadow Phase](https://dndtools.net/spells/spell-compendium--86/shadow-phase--4146/) }} {{School:= Transmutation  }} {{Level:= **Assassin 4**, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Your hand becomes slightly translucent as you complete the arcane gestures of the spell. As you touch the intended recipient, your hand appears solid again, while the subject's flesh takes on a dark, wispy, insubstantial appearance.**
+The spell temporarily transposes some of the subject's tissue with shadow-stuff, making the subject partially incorporeal. This partially incorporeal state does not allow the subject to pass through walls or other solid objects.
+Nonmagical physical attacks directed against the spell's subject suffer a 50% miss chance. Magical attacks, such as supernatural and spell-like abilities, spells, and magic weapons, suffer a 20% miss chance}}
+
+
+Sniper's Eye(Spell Compendium): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sniper's Eye](https://dndtools.net/spells/spell-compendium--86/snipers-eye--4185/) }} {{School:= Transmutation  }} {{Level:= **Assassin 4**}} {{Components:= V, S, AF}} {{Arcane Focus:= A magnifying glass lens}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Holding the glass lens before you, you take a series of slow, deep breaths. Whispered words of arcane power seep past your lips with each exhalation. As you complete the spell you feel infused with deadly ability.**
+When you cast sniper's eye, you gain the following benefits:
+- +10 competence bonus on Spot checks.
+- Darkvision out to 60 feet.
+- The ability to make a ranged sneak attack at a range of up to 60 feet, rather than 30 feet.
+- The ability to make a death attack with a ranged weapon rather than just with a melee weapon. The target must be within 60 feet.
+- This spell doesn't grant you the ability to make a sneak attack or death attack if you don't already have that ability.
+Sniper's eye attunes you completely to the vantage point you had when you cast the spell. You understand the nuances of the breeze and every angle and shadow - from that spot. If you move even 5 feet from the place where you cast the spell, you lose the benefits of sniper's eye until you return to that spot}}
+
+
+Soulbleed(Magic of Incarnum): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Soulbleed](https://dndtools.net/spells/magic-of-incarnum--74/soulbleed--1838/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Assassin 4**, Blackguard 4}} {{Components:= V}} {{Range:= Touch}} {{Target:=One melee weapon}} {{Duration:=1 round/3 levels}} {{Savingthrow:=None (object) or Fortitude negates; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Necromancy}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You invest your weapon with the power to bleed away part of the victim's essentia.
+Each time you hit a living creature with a weapon affected by soulbleed wounding, that creature loses 1 point of essentia unless it succeeds on a Fortitude save.
+You don't gain the essentia; it is simply lost.
+Spell resistance applies against this effect.
+If any round of the spell's duration goes by in which no living creature is affected by the spell (either because you didn't hit a living creature or because no saving throw was failed), you take 1d6 points of damage from the spell.
+No save or spell resistance is allowed to resist this effect.
+This spell works only as long as you wield the weapon affected.
+Any other wielder gains no benefit from the effect}}
+
+
+Stop Heart(Book of Vile Darkness): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Stop Heart](https://dndtools.net/spells/book-of-vile-darkness--37/stop-heart--221/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Assassin 4**, Cleric 4, Sorcerer 5, Wizard 5, Cloistered Cleric 4, Arcanist 5}} {{Components:= S, Drug}} {{Range:= Touch}} {{Area:=One living humanoid or animal}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc4}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Channeling hatred and spite, the caster calls upon dark power to give the subject a massive heart attack.
+The subject suddenly drops to -8 hit points, then -9 hit points at the end of this round.
+If someone immediately makes a successful Heal check (DC 15) or somehow gives the subject more hit points, she stabilizes.
+Otherwise, at the end of the next round, the subject reaches -10 hit points and dies.
+Drug Component: Baccaran}}
+
+
+Unseen Strike(Complete Mage): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Unseen Strike](https://dndtools.net/spells/complete-mage--58/unseen-strike--847/) }} {{School:= Illusion (Glamer) }} {{Level:= **Assassin 4**, Hexblade 4}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 hour/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You strike your foe, then immediately fade from sight.
+This spell has no immediate effect upon you.
+However, the next time you deliver a successful melee attack, you instantly turn invisible (as the invisibility spell).
+If you do not make a successful melee attack within 1 hour per level of casting the spell, the effect ends}}
+
+
+Vulnerability(Spell Compendium): - Assassin(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Vulnerability](https://dndtools.net/spells/spell-compendium--86/vulnerability--4756/) }} {{School:= Transmutation  }} {{Level:= **Assassin 4**, Cleric 5, Sorcerer 5, Wizard 5, Shaman 6, Cloistered Cleric 5, Arcanist 5}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You invoke the power of this spell and a purple mist swirls around your opponent, weakening its mystic protections.**
+This spell lowers the subject's damage reduction by 5 (to a minimum of 5). For instance, if you successfully cast **vulnerability** on a dragon with damage reduction 10/magic, its damage reduction becomes 5/magic.
+For every four caster levels beyond 9th, the subject's damage reduction lowers by an additional 5: a reduction of 10 at caster level 15th and a reduction of 15 at caster level 19th}}

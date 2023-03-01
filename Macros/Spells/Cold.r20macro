@@ -1,0 +1,100 @@
+
+
+Chill Touch(Player's Handbook v.3.5): - Cold(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Chill Touch](https://dndtools.net/spells/players-handbook-v35--6/chill-touch--2717/) }} {{School:= Necromancy  }} {{Level:= **Cold 1**, Sorcerer 1, Wizard 1, DreadNecromancer 1, Warmage 1, Duskblade 1, TelflammarShadowlord 1, Sha'ir 1, DeathMaster 1, Blighter 2, Arcanist 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature or creatures touched (up to one/level)}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude partial or Will negates; see text }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A touch from your hand, which glows with blue energy, disrupts the life force of living creatures.
+Each touch channels negative energy that deals 1d6 points of damage.
+The touched creature also takes 1 point of Strength damage unless it makes a successful Fortitude saving throw.
+You can use this melee touch attack up to one time per level.
+An undead creature you touch takes no damage of either sort, but it must make a successful Will saving throw or flee as if panicked for 1d4 rounds +1 round per caster level}}
+
+
+Chill Metal(Player's Handbook v.3.5): - Cold(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Chill Metal](https://dndtools.net/spells/players-handbook-v35--6/chill-metal--2793/) }} {{School:= Transmutation  [Cold]}} {{Level:= **Cold 2**, Druid 2, DiscipleofThrym 2, Blighter 2, DeathMaster 2, UrbanDruid 2}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Metal equipment of one creature per two levels, no two of which can be more than 30 ft. apart; or 25 lb. of metal/level, none of which can be more than 30 ft. away from any of the rest}} {{Duration:=7 rounds}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Chill metal makes metal extremely cold.
+Unattended, nonmagical metal gets no saving throw.
+Magical metal is allowed a saving throw against the spell (Magic item's saving throws are covered in the Dungeon Master's Guide).
+An item in a creature's possession uses the creature's saving throw bonus unless its own is higher.
+A creature takes cold damage if its equipment is chilled.
+It takes full damage if its armor is affected or if it is holding, touching, wearing, or carrying metal weighing one-fifth of its weight.
+The creature takes minimum damage (1 point or 2 points; see the table) if it's not wearing metal armor and the metal that it's carrying weighs less than one-fifth of its weight.
+On the first round of the spell, the metal becomes chilly and uncomfortable to touch but deals no damage.
+The same effect also occurs on the last round of the spell's duration.
+During the second (and also the next-to-last) round, icy coldness causes pain and damage.
+In the third, fourth, and fifth rounds, the metal is freezing cold, causing more damage, as shown on the table below.
+Any heat intense enough to damage the creature negates cold damage from the spell (and vice versa) on a point-for-point basis.
+For example, if the damage roll from a chill metal spell indicates 5 points of cold damage and the subject plunges through a wall of fire in the same round and takes 8 points of fire damage, it winds up taking no cold damage and only 3 points of fire damage.
+Underwater, chill metal deals no damage, but ice immediately forms around the affected metal, making it more buoyant.
+Chill metal counters and dispels heat metal}}
+
+
+Sleet Storm(Player's Handbook v.3.5): - Cold(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sleet Storm](https://dndtools.net/spells/players-handbook-v35--6/sleet-storm--2436/) }} {{School:= Conjuration (Creation) [Cold]}} {{Level:= **Cold 3**, Druid 3, Sorcerer 3, Wizard 3, DiscipleofThrym 3, Warmage 3, Sha'ir 3, Savant 3, Storm 4, Arcanist 3}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=Cylinder (40-ft. radius, 20 ft. high)}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Driving sleet blocks all sight (even darkvision) within it and causes the ground in the area to be icy.
+A creature can walk within or through the area of sleet at half normal speed with a DC 10 Balance check.
+Failure means it can't move in that round, while failure by 5 or more means it falls (see the Balance skill for details).
+The sleet extinguishes torches and small fires.
+Arcane Material Component: A pinch of dust and a few drops of water}}
+
+
+Ice Storm(Player's Handbook v.3.5): - Cold(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Ice Storm](https://dndtools.net/spells/players-handbook-v35--6/ice-storm--2624/) }} {{School:= Evocation  [Cold]}} {{Level:= **Cold 4**, Warmage 3, Druid 4, Sorcerer 4, Wizard 4, WuJen 4, Sha'ir 4, DeathMaster 4, Savant 4, DiscipleofThrym 5, Winter 4, Windstorm 4, Water 5, Storm 5, Arcanist 4}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=Cylinder (20-ft. radius, 40 ft. high)}} {{Duration:=1 full round}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Great magical hailstones pound down for 1 full round, dealing 3d6 points of bludgeoning damage and 2d6 points of cold damage to every creature in the area. A -4 penalty applies to each Listen check made within the ice storm's effect, and all land movement within its area is at half speed. At the end of the duration, the hail disappears, leaving no aftereffects (other than the damage dealt).
+**Arcane Material Component**: A pinch of dust and a few drops of water}}
+
+
+Wall of Ice(Player's Handbook v.3.5): - Cold(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wall of Ice](https://dndtools.net/spells/players-handbook-v35--6/wall-of-ice--2660/) }} {{School:= Evocation  [Cold]}} {{Level:= **Cold 5**, Sorcerer 4, Wizard 4, WuJen 4, Sha'ir 4, DeathMaster 4, DiscipleofThrym 5, Ocean 5, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= A small piece of quartz or similar rock crystal}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Anchored plane of ice, up to one 10-ft. square/level, or hemisphere of ice with a radius of up to 3 ft. + 1 ft./level}} {{Duration:=1 min./level}} {{Savingthrow:=Reflex negates; see text }} {{Save DC:=[[@{spelldc5}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates an anchored plane of ice or a hemisphere of ice, depending on the version selected.
+A wall of ice cannot form in an area occupied by physical objects or creatures.
+Its surface must be smooth and unbroken when created.
+Any creature adjacent to the wall when it is created may attempt a Reflex save to disrupt the wall as it is being formed.
+A successful save indicates that the spell automatically fails.
+Fire, including a fireball spell and red dragon breath, can melt a wall of ice, and it deals full damage to the wall (instead of the normal half damage taken by objects).
+Suddenly melting a wall of ice creates a great cloud of steamy fog that lasts for 10 minutes.
+Ice Plane: A sheet of strong, hard ice appears.
+The wall is 1 inch thick per caster level.
+It covers up to a 10-foot-square area per caster level (so a 10th-level wizard can create a wall of ice 100 feet long and 10 feet high, a wall 50 feet long and 20 feet high, or some other combination of length and height that does not exceed 1,000 square feet).
+The plane can be oriented in any fashion as long as it is anchored.
+A vertical wall need only be anchored on the floor, while a horizontal or slanting wall must be anchored on two opposite sides.
+The wall is primarily defensive in nature and is used to stop pursuers from following you and the like.
+Each 10-foot square of wall has 3 hit points per inch of thickness.
+Creatures can hit the wall automatically.
+A section of wall whose hit points drop to 0 is breached.
+If a creature tries to break through the wall with a single attack, the DC for the Strength check is 15 + caster level.
+Even when the ice has been broken through, a sheet of frigid air remains.
+Any creature stepping through it (including the one who broke through the wall) takes 1d6 points of cold damage +1 point per caster level (no save).
+Hemisphere: The wall takes the form of a hemisphere whose maximum radius is 3 feet + 1 foot per caster level.
+Thus, a 7th-level caster can create a hemisphere 10 feet in radius.
+The hemisphere is as hard to break through as the ice plane form, but it does not deal damage to those who go through a breach}}
+
+
+Cone of Cold(Player's Handbook v.3.5): - Cold(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Cone of Cold](https://dndtools.net/spells/players-handbook-v35--6/cone-of-cold--2595/) }} {{School:= Evocation  [Cold]}} {{Level:= **Cold 6**, Sorcerer 5, Wizard 5, Warmage 5, WuJen 5, Sha'ir 5, DeathMaster 5, Blightbringer 5, Water 6, Arcanist 5}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= 60 ft.}} {{Area:=Cone-shaped burst}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex half }} {{Save DC:=[[@{spelldc6}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Cone of cold creates an area of extreme cold, originating at your hand and extending outward in a cone.
+It drains heat, dealing 1d6 points of cold damage per caster level (maximum 15d6).
+Arcane Material Component: A very small crystal or glass cone}}
+
+
+Control Weather(Player's Handbook v.3.5): - Cold(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Control Weather](https://dndtools.net/spells/players-handbook-v35--6/control-weather--2797/) }} {{School:= Transmutation  }} {{Level:= **Cold 7**, WuJen 6, Cleric 7, Druid 7, Sorcerer 7, Wizard 7, Blighter 7, Sha'ir 7, UrbanDruid 7, Air 7, Storm 7, Winter 7, Elysium 7, Windstorm 7, Cloistered Cleric 7, Arcanist 7}} {{Components:= V, S}} {{Range:= 2 miles}} {{Area:=2-mile-radius circle, centered on you; see text}} {{Duration:=4d12 hours; see text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You change the weather in the local area.
+It takes 10 minutes to cast the spell and an additional 10 minutes for the effects to manifest.
+The current, natural weather conditions are determined by the DM.
+You can call forth weather appropriate to the climate and season of the area you are in.
+You control the general tendencies of the weather, such as the direction and intensity of the wind.
+You cannot control specific applications of the weather&#8212;
+where lightning strikes, for example, or the exact path of a tornado.
+When you select a certain weather condition to occur, the weather assumes that condition 10 minutes later (changing gradually, not abruptly).
+The weather continues as you left it for the duration, or until you use a standard action to designate a new kind of weather (which fully manifests itself 10 minutes later).
+Contradictory conditions are not possible simultaneously&#8212;fog and strong wind, for example.
+Control weather can do away with atmospheric phenomena (naturally occurring or otherwise) as well as create them.
+A druid casting this spell doubles the duration and affects a circle with a 3-mile radius}}
+
+
+Polar Ray(Player's Handbook v.3.5): - Cold(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Polar Ray](https://dndtools.net/spells/players-handbook-v35--6/polar-ray--2639/) }} {{School:= Evocation  [Cold]}} {{Level:= **Cold 8**, Duskblade 5, Sorcerer 8, Wizard 8, Warmage 8, Sha'ir 8, Arcanist 8}} {{Components:= V, S, AF}} {{Arcane Focus:= A small, white ceramic cone or prism}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=Ray}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A blue-white ray of freezing air and ice springs from your hand.
+You must succeed on a ranged touch attack with the ray to deal damage to a target.
+The ray deals 1d6 points of cold damage per caster level (maximum 25d6)}}
+
+
+Obedient Avalanche(Spell Compendium): - Cold(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Obedient Avalanche](https://dndtools.net/spells/spell-compendium--86/obedient-avalanche--4599/) }} {{School:= Conjuration (Creation) [Cold]}} {{Level:= **Cold 9**, Sorcerer 9, Wizard 9, Arcanist 9}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=20-ft.-radius avalanche of snow centered on a point in space; see text}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex half or Reflex negates; see text }} {{Save DC:=[[@{spelldc9}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You summon an avalanche of snow out of a rift in midair, burying your foes and sending them to a frosty death.**
+An obedient avalanche spell affects creatures differently, depending on where they are in relation to the avalanche.
+<strong>Within 20 feet of the Center Point:</strong> Creatures take 1d8 points of damage per two caster levels (maximum 10d8) and an additional 1d6 points of cold damage per two caster levels. A successful Reflex save halves the damage. Creatures who fail their saves are also buried (<span class="caps">DMG</span> 90). All squares within 20 feet of the center point are covered in heavy snow (<span class="caps">DMG</span> 94), which persists as long as ordinary snow would. A buried creature can free itself with a DC 20 Strength check as a full-round action, and can be dug free by others (a single creature working alone requires 1 minute to free a trapped creature). A trapped creature is unable to move, and cannot cast spells with somatic components, and any material components must be in hand.
+<strong>Between 20 feet and 40 feet of the Center Point:</strong> Creatures take half as much damage from the impact of the avalanche as the creatures nearer the center point took (Reflex negates). Creatures who fail their saves must also resist the force of the snow moving past them as if they were being bull rushed. The snow has a +13 attack bonus (+5 for effective Strength of 20 and +8 for effectively being Huge) on the bull rush check, and it pushes characters away from the center point of the spell. All squares in the 20-foot to 40-foot ring are covered in snow (<span class="caps">DMG</span> 94), which persists as long as ordinary snow would.
+<strong>Terrain and Structures:</strong> The avalanche uproots small trees and other vegetation automatically, and it leaves a trail of light rubble (<span class="caps">DMG</span> 91) even after the snow melts. Structures struck by an obedient avalanche take 1d6×10 points of damage.
+An obedient avalanche extinguishes all flames it touches, whether they are normal or magical}}

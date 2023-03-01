@@ -1,0 +1,7 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;2:=[View](~Summer-Spell-Level-2)}} {{Spelllevel&nbsp;3:=[View](~Summer-Spell-Level-3)}} {{Spelllevel&nbsp;4:=[View](~Summer-Spell-Level-4)}} {{Spelllevel&nbsp;5:=[View](~Summer-Spell-Level-5)}} 
+
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-Summer)}} {{Sunstroke:=[View](~Summer-Sunstroke-Description) [Send](~Summer-Sunstroke-Cast)}} ]
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-Summer)}} {{Protection from Dessication:=[View](~Summer-Protection-from-Dessication-Description) [Send](~Summer-Protection-from-Dessication-Cast)}} ]
+[4, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 4 }} {{subtags=[Back to Main Menu](~Spells-Main-Summer)}} {{Skin of the Cactus:=[View](~Summer-Skin-of-the-Cactus-Description) [Send](~Summer-Skin-of-the-Cactus-Cast)}} ]
+[5, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 5 }} {{subtags=[Back to Main Menu](~Spells-Main-Summer)}} {{Unearthly Heat:=[View](~Summer-Unearthly-Heat-Description) [Send](~Summer-Unearthly-Heat-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

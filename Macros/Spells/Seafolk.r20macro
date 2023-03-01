@@ -1,0 +1,81 @@
+
+
+Quickswim(Stormwrack): - Seafolk(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Quickswim](https://dndtools.net/spells/stormwrack--87/quickswim--3363/) }} {{School:= Transmutation  }} {{Level:= **Seafolk 1**, Bard 1, Druid 1, Ranger 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 hour/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell increases your base swim speed by 10 feet; this adjustment counts as an enhancement bonus.
+It has no effect on other modes of movement, such as land speed, burrow, climb, or fly.
+If you do not have a swim speed, you gain no benefit from this spell.
+Arcane Material Component: A scale from any fish}}
+
+
+Fins to Feet(Stormwrack): - Seafolk(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Fins to Feet](https://dndtools.net/spells/stormwrack--87/fins-to-feet--3359/) }} {{School:= Transmutation  }} {{Level:= **Seafolk 2**, Druid 2, Sorcerer 2, Wizard 2, Cleric 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Willing creature touched}} {{Duration:=1 hour/level}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell transforms tails, tentacles, or finned extremities into humanoid legs and feet.
+Creatures so affected lose any natural swim speed they possess but gain a land speed instead.
+Transmuted Medium creatures have a base land speed of 30 feet, Small and smaller creatures have a base land speed of 20 feet, and Large or larger creatures have a base land speed of 40 feet.
+The creature loses any natural attacks based on its tail or tentacles}}
+
+
+Scales of the Sealord(Stormwrack): - Seafolk(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Scales of the Sealord](https://dndtools.net/spells/stormwrack--87/scales-of-the-sealord--3364/) }} {{School:= Transmutation  }} {{Level:= **Seafolk 3**, Druid 3, Ranger 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 hour/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You transform yourself into a form better suited to the watery environment, growing shimmering scales and gaining webbed hands and feet.
+For the duration of the spell, your swim speed increases by 10 feet.
+If you had no swim speed, you gain a swim speed of 15 feet, gaining a +8 racial bonus on any Swim check to perform some special action or avoid a hazard.
+You can always choose to take 10 on a Swim check, even if distracted or endangered.
+You can use the run action while swimming, provided you swim in a straight line.
+Finally, you gain a natural armor bonus +1/three caster levels, maximum of +5.
+However, because of your strange appearance, you gain a penalty to Charisma-based checks equal to the natural armor bonus when dealing with nonaquatic creatures.
+Material Component:Handful of thick scales}}
+
+
+Commune With Nature(Player's Handbook v.3.5): - Seafolk(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Commune With Nature](https://dndtools.net/spells/players-handbook-v35--6/commune-with-nature--2480/) }} {{School:= Divination  }} {{Level:= **Seafolk 5**, Ranger 4, NentyarHunter 4, Druid 5, Animal 5, Elf 5}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=Instantaneous}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You become one with nature, attaining knowledge of the surrounding territory.
+You instantly gain knowledge of as many as three facts from among the following subjects: the ground or terrain, plants, minerals, bodies of water, people, general animal population, presence of woodland creatures, presence of
+powerful unnatural creatures, or even the general state of the natural setting.
+For example, you could determine the location of any powerful undead creatures, the location of all major sources of safe drinking water, and the location of any buildings (which register as blind spots).
+In outdoor settings, the spell operates in a radius of 1 mile per caster level.
+In natural underground settings&#8212;caves, caverns, and the like&#8212;the radius is limited to 100 feet per caster level.
+The spell does not function where nature has been replaced by construction or settlement, such as in dungeons and towns}}
+
+
+Airy Water(Stormwrack): - Seafolk(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Airy Water](https://dndtools.net/spells/stormwrack--87/airy-water--3357/) }} {{School:= Transmutation  [Air][Water]}} {{Level:= **Seafolk 6**, Sorcerer 5, Wizard 5, Arcanist 5}} {{Components:= S, M}} {{Material Component:= A small handful of alkaline salts.}} {{Range:= 0 ft.}} {{Area:=20-ft.-radius emanation centered on you}} {{Duration:=10 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell turns normal water (or watery solutions) into a frothy substance that is as breathable as air.
+Both air-breathing and water-breathing creatures within the area can breathe normally.
+Moving through airy water is easier than moving through normal water.
+Swimmers make a DC 10 Swim check once per round; they swim at their normal speed on a success, or half their normal speed on a failure.
+Creatures with a swim speed can simply use their swim speed without penalty.
+Creatures can instead use their land speed to move along the bottom at their normal speed.
+Creatures walking on the bottom do not pay any movement penalty for walking on sand, stone, or pebble seafloor and only pay 2 squares of movement per square of muck or mud entered (see Marine Dungeon Terrain on page 21).
+Finally, airy water negates underwater combat penalties for all melee attacks, although ranged attacks still take the normal underwater penalty.
+The spell does not filter or purify solid particles, so casting airy water on very turbid liquids, for example, would produce an area filled with dust or smoke (and impose similar penalties)}}
+
+
+Megalodon Empowerment(Stormwrack): - Seafolk(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Megalodon Empowerment](https://dndtools.net/spells/stormwrack--87/megalodon-empowerment--3362/) }} {{School:= Transmutation  }} {{Level:= **Seafolk 7**, Druid 8}} {{Components:= V, S, M}} {{Material Component:= A potion of water breathing and three teeth from a shark of at least Large size}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 hour/level or 1 round/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The mighty megalodon is a terror to most things that swim.
+However, it is also undeniably perfect in its form, made to be the ultimate huntingmachine.
+When this spell is cast, you take on some of the essence of this greatest of sharks.
+You become a predator without peer, capable of finding and destroying your prey.
+When the spell is initially cast, you take what is called the Form of the Hunter: your features undergo a subtle change, becoming more angular.
+Your skin darkens to a blue-black hue and becomes slightly rough to the touch.
+Your sense of smell sharpens, granting you the scent special ability and a +10 racial bonus to Survival checks for the purpose of tracking by scent.
+Additionally, your swim speed increases by 10 feet; if you do not already possess a swim speed then you gain a swim speed equal to your normal land movement.
+You also gain the ability to breathe water.
+You can retain this form for up to 1 hour per caster level (as noted above).
+At any time during the spell's duration, you can shift into the terrible Form of the Killer as a standard action.
+Doing so dramatically reduces the remaining time of the spell, however, reducing it to 1 round per caster level, regardless of how much time was originally remaining.
+In the Form of the Killer, you swell in size, increasing by one size category (see page 291 of the Monster Manual for guidelines on changes to abilities and traits for such a change).
+You retain the scent and swim speed benefits of the Form of the Hunter, and the rough hide of the megalodon fully manifests&#8212;those who strike you with unarmed or natural attacks must make a Reflex save or take 1d4 points of damage.
+You also gain bite and claw natural attacks and are considered to have the Multiattack feat for the purpose of using them.
+These natural attacks deal damage according to your new size (see page 296 of the Monster Manual for details): for a Medium caster, this gives a bite attack for 1d8 points of damage and two claw attacks for 1d6 points of damage).
+Finally, your base attack bonus equals your character level, you gain a +4 natural armor bonus (in addition to that gained from the size increase), and you gain a +3 competence bonus on Fortitude and Reflex saves.
+You lose the ability to cast spells (but not to use spell-like abilities).
+If you possess the wild shape ability, you can assume the shapes of animals one size category larger than normal.
+Assuming the Form of the Killer lasts for the duration of the spell - once it has been done, you cannot return to the Form of the Hunter without recasting}}
+
+
+Depthsurge(Stormwrack): - Seafolk(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Depthsurge](https://dndtools.net/spells/stormwrack--87/depthsurge--3346/) }} {{School:= Evocation  [Water]}} {{Level:= **Seafolk 8**, Druid 8, Sorcerer 8, Wizard 8, Arcanist 8}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=20 ft. radius}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc8}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The water within the area suddenly explodes outward in a massive surge, as if driven by a powerful explosion.
+Each creature or object in the area is subject to damage equal to 2d6 + caster level.
+Any creature struck by this attack must then succeed on a Fortitude save or be driven 10 feet away from the center of the blast.
+If a ship is in the area, the captain must immediately make a sinking check (DC equal to spell save DC).
+See Sinking, page 32.
+At least half of the spell's area must contain water at least 10 feet deep, or else the spell fails.
+You must center the effect at or below the water's surface.
+Material Component: A sphere of volcanic rock}}

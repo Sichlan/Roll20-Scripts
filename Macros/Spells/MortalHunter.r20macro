@@ -1,0 +1,88 @@
+
+
+Heartache(Book of Vile Darkness): - MortalHunter(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Heartache](https://dndtools.net/spells/book-of-vile-darkness--37/heartache--163/) }} {{School:= Enchantment  [Evil]}} {{Level:= **MortalHunter 1**, Cleric 1, Cloistered Cleric 1}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 round}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster fills the subject with heart-wrenching sorrow that renders it incapacitated for 1 round.
+The subject cannot move or take actions and is helpless for that round}}
+
+
+Unnerving Gaze(Book of Vile Darkness): - MortalHunter(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Unnerving Gaze](https://dndtools.net/spells/book-of-vile-darkness--37/unnerving-gaze--196/) }} {{School:= Illusion (Phantasm) }} {{Level:= **MortalHunter 1**, Sorcerer 0, Wizard 0, Demonologist 1, Arcanist 0}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One humanoid creature}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster makes his face resemble one of the opponent's departed loved ones or bitter enemies.
+The subject takes a -1 morale penalty on attack rolls for the duration of the spell}}
+
+
+Evil Eye(Book of Vile Darkness): - MortalHunter(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Evil Eye](https://dndtools.net/spells/book-of-vile-darkness--37/evil-eye--161/) }} {{School:= Enchantment  [Evil]}} {{Level:= **MortalHunter 2**, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=Instantaneous (see text)}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster focuses malevolent wishes through her gaze and curses someone with bad luck.
+The subject takes a -4 luck penalty on all attack rolls, saves, and checks.
+The spell ends at the next sunrise, when dismissed, when a remove curse is cast on the subject, or when the caster takes at least 1 point of damage from the subject}}
+
+
+Wither Limb(Spell Compendium): - MortalHunter(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wither Limb](https://dndtools.net/spells/spell-compendium--86/wither-limb--4780/) }} {{School:= Necromancy  [Evil]}} {{Level:= **MortalHunter 2**, Cleric 2, Sorcerer 2, Wizard 2, Deathbound 4, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Limbs of one humanoid}} {{Duration:=Permanent}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Uttering a rumbling phrase, you point at your foe and watch with delight as its limbs wither and twist, becoming useless.**
+You choose to wither either the arms or the legs of a humanoid. Withered legs force a subject to fall prone while at the same time reducing the subject's land speed to 5 feet. Withered arms make it impossible for the subject to use objects or cast spells with somatic components.
+A withered limb can be restored to normal by a successful dispel magic from a spellcaster of a level higher than the level of the wither limb caster}}
+
+
+Flesh Ripper(Book of Vile Darkness): - MortalHunter(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Flesh Ripper](https://dndtools.net/spells/book-of-vile-darkness--37/flesh-ripper--181/) }} {{School:= Evocation  [Evil]}} {{Level:= **MortalHunter 3**, Cleric 3, Cloistered Cleric 3}} {{Components:= V, S, Fiend}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster evokes pure evil power in the form of a black claw that flies at the target. If a ranged touch attack roll succeeds, the claw deals 1d8 points of damage per caster level (maximum 10d8). On a critical hit, in addition to dealing double damage, the wound bleeds for 1 point of damage per round until it is magically healed}}
+
+
+Mirror Sending(Book of Vile Darkness): - MortalHunter(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mirror Sending](https://dndtools.net/spells/book-of-vile-darkness--37/mirror-sending--185/) }} {{School:= Evocation  }} {{Level:= **MortalHunter 3**, Sorcerer 4, Wizard 4, Arcanist 4}} {{Components:= V, S, AF}} {{Arcane Focus:= A mirror of finely wrought and highly polished silver costing not less than 1,000 gp.
+The mirror must be at least 2 feet by 4 feet}} {{Range:= See text}} {{Target:=One living creature}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster sends her image through a mirror into another mirror or mirrored surface that the chosen target looks into.
+The caster casts the spell, then stares into her mirror until the target sees his reflection in another mirror, or until the caster tires and gives up.
+The caster can see the subject and his surroundings in her mirror whenever the subject looks at his mirror.
+From the subject's perspective, the caster appears to be staring out of the mirror, replacing the subject's own reflection or appearing right behind him (caster's choice).
+The caster can have her image say up to one word per caster level before it disappears, if she chooses.
+The image remains for only 1 round.
+Subjects not expecting a mirror sending can be greatly unnerved by this spell}}
+
+
+Vile Lance(Book of Vile Darkness): - MortalHunter(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Vile Lance](https://dndtools.net/spells/book-of-vile-darkness--37/vile-lance--188/) }} {{School:= Evocation  [Evil]}} {{Level:= **MortalHunter 3**, Cleric 3, Sorcerer 3, Wizard 3, Blackguard 4, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Effect:=One shortspear}} {{Duration:=10 minutes/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Vile lance creates a weapon of blackness that the caster (and only the caster) can wield with proficiency.
+The caster can throw it, but if he does, the spell ends after the ranged attack is resolved.
+The vile lance is treated in all ways like a +2 shortspear, except that the damage dealt is vile damage.
+Arcane Material Component: A bone fragment of a good-aligned creature}}
+
+
+Wrack(Spell Compendium): - MortalHunter(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wrack](https://dndtools.net/spells/spell-compendium--86/wrack--4787/) }} {{School:= Necromancy  [Evil]}} {{Level:= **MortalHunter 3**, Cleric 4, Sorcerer 5, Wizard 5, Pain 3, Cloistered Cleric 4, Arcanist 5}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One humanoid}} {{Duration:=1 round/level + 3d10 minutes; see text}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc3}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**With the final word of the spell, your chosen foe is wracked with such pain that it doubles over and collapses. Its face and hands blister and drip fluid, and its eyes cloud with blood, rendering it blind.**
+This spell causes your target to experience excruciating pain. For the duration of the spell, the subject falls prone and is blinded and helpless. Even when the spell ends, the subject is still shaken for 3d10 minutes}}
+
+
+Call Dretch Horde(Book of Vile Darkness): - MortalHunter(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Call Dretch Horde](https://dndtools.net/spells/book-of-vile-darkness--37/call-dretch-horde--133/) }} {{School:= Conjuration (Calling) [Evil]}} {{Level:= **MortalHunter 4**, Demonologist 3, Sorcerer 5, Wizard 5, Arcanist 5}} {{Components:= V, S, Soul}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=2d4 dretches}} {{Duration:=One year}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster calls 2d4 dretches from the Abyss to where she is, offering them the soul that she has prepared.
+In exchange, they will serve the caster for one year as guards, slaves, or whatever else she needs them for.
+They are profoundly stupid, so the caster cannot give them more complicated tasks than can be described in about ten words.
+No matter how many times the caster casts this spell, she can control no more than 2 HD worth of fiends per caster level.
+If she exceeds this number, all the newly called creatures fall under the caster's control, and any excess from previous castings become uncontrolled.
+The caster chooses which creatures to release}}
+
+
+Call Lemure Horde(Book of Vile Darkness): - MortalHunter(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Call Lemure Horde](https://dndtools.net/spells/book-of-vile-darkness--37/call-lemure-horde--134/) }} {{School:= Conjuration (Calling) [Evil]}} {{Level:= **MortalHunter 4**, Sorcerer 5, Wizard 5, Arcanist 5}} {{Components:= V, S, Soul}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=3d4 lemures}} {{Duration:=One year}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster calls 3d4 lemures from the Nine Hells to where he is, offering them the soul that he has prepared.
+In exchange, they will serve the caster for one year as guards, slaves, or whatever else he needs them for.
+They are nonintelligent, so the caster cannot give them more complicated tasks than can be described in about five words.
+No matter how many times the caster casts this spell, he can control no more than 2 HD worth of fiends per caster level.
+If he exceeds this number, all the newly called creatures fall under the caster's control, and any excess from previous castings become uncontrolled.
+The caster chooses which creatures to release}}
+
+
+Morality Undone(Fiendish Codex I: Hordes of the Abyss): - MortalHunter(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Morality Undone](https://dndtools.net/spells/fiendish-codex-i-hordes-of-the-abyss--66/morality-undone--1152/) }} {{School:= Enchantment  [Evil]}} {{Level:= **MortalHunter 4**, Bard 5, Cleric 5, Corruption 4, Cloistered Cleric 5}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One non-evil living creature}} {{Duration:=10 minutes/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With a cruel utterance and a complex set of hand signs, you cause great evil to swell within the targeted creature, overwhelming and confusing its sense of morality like a magnet touching a compass.
+You temporarily turn one creature evil.
+The chaotic/neutral/lawful component of the subject's alignment remains unchanged.
+The subject retains whatever outlook, allegiances, and relationships it had before, as long as they do not conflict with its new alignment.
+Otherwise, it acts with its new selfish, bloodthirsty, and cruel outlook in all matters.
+For example, a wizard affected by this spell might not immediately turn on her fighter companion, particularly in the middle of a combat when they're fighting on the same side.
+But she might allow her friend to be hurt or killed if he is carrying a valuable item that she could recover later, or she might use spells to control or deceive him in order to get what she wants.
+She might even decide to betray or attack her friend at a later time if significant potential gain is involved.
+An atonement spell restores the subject's original alignment, but a remove curse spell has no effect.
+Arcane Material Component: A powdered or splintered holy symbol}}
+
+
+Resonating Resistance(Book of Vile Darkness): - MortalHunter(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Resonating Resistance](https://dndtools.net/spells/book-of-vile-darkness--37/resonating-resistance--251/) }} {{School:= Transmutation  }} {{Level:= **MortalHunter 4**, Cleric 5, Sorcerer 5, Wizard 5, Cloistered Cleric 5, Arcanist 5}} {{Components:= V, Fiend}} {{Range:= Personal}} {{Target:=Caster}} {{Duration:=1 minute/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster improves his spell resistance.
+Each time a foe attempts to bypass the caster's spell resistance, it must make a spell resistance check twice.
+If either check fails, the foe fails to bypass the spell resistance.
+The caster must have spell resistance as an extraordinary ability for resonating resistance to function.
+Spell resistance granted by a magic item or the spell resistance spell does not improve}}

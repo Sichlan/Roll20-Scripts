@@ -1,0 +1,7 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;3:=[View](~Initiateofbane-Spell-Level-3)}} {{Spelllevel&nbsp;5:=[View](~Initiateofbane-Spell-Level-5)}} {{Spelllevel&nbsp;6:=[View](~Initiateofbane-Spell-Level-6)}} {{Spelllevel&nbsp;7:=[View](~Initiateofbane-Spell-Level-7)}} 
+
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofbane)}} {{Mystic Lash:=[View](~Initiateofbane-Mystic-Lash-Description) [Send](~Initiateofbane-Mystic-Lash-Cast)}} ]
+[5, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 5 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofbane)}} {{Battletide:=[View](~Initiateofbane-Battletide-Description) [Send](~Initiateofbane-Battletide-Cast)}} ]
+[6, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 6 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofbane)}} {{Stone Walk:=[View](~Initiateofbane-Stone-Walk-Description) [Send](~Initiateofbane-Stone-Walk-Cast)}} ]
+[7, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 7 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofbane)}} {{Undeath After Death:=[View](~Initiateofbane-Undeath-After-Death-Description) [Send](~Initiateofbane-Undeath-After-Death-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

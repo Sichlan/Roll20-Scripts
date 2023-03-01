@@ -1,0 +1,18 @@
+
+
+Animate Fire(Spell Compendium): - Flame(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Animate Fire](https://dndtools.net/spells/spell-compendium--86/animate-fire--3832/) }} {{School:= Transmutation  [Fire]}} {{Level:= **Flame 3**, Druid 1}} {{Components:= V, S, M}} {{Material Component:= A handful of charcoal, sulfur, and soda ash}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One Small fire}} {{Duration:=Concentration, up to 1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**By casting the mixture in your hand at the fire, you complete the spell. Immediately thereafter, a part of the flame coalesces into a vaguely humanoid shape more solid looking than the rest.**
+You animate a fire, which must be approximately the size of a campfire. The animated fire has the statistics of a Small fire elemental (MM 98), and attacks as you direct. It cannot move beyond the range of its source fire (25 ft. + 5 ft./2 levels)}}
+
+
+Fire Breath(Complete Arcane): - Flame(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fire Breath](https://dndtools.net/spells/complete-arcane--55/fire-breath--498/) }} {{School:= Evocation  [Fire]}} {{Level:= **Flame 5**, WuJen 5}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As a standard action, you can breathe a gout of flame once per round for the duration of the spell.
+You make a ranged touch attack with the flame (to a maximum range of 15 feet), dealing 1d8 points of fire damage per two caster levels (maximum 10d8) on a successful hit.
+Fire breath ignites combustibles and damages objects in the area, and it can melt metals with low melting points (such as lead, gold, copper, silver, and bronze).
+The spell does not function underwater}}
+
+
+Internal Fire(Complete Arcane): - Flame(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Internal Fire](https://dndtools.net/spells/complete-arcane--55/internal-fire--505/) }} {{School:= Evocation  [Fire]}} {{Level:= **Flame 9**, WuJen 9}} {{Components:= V, S, AF}} {{Arcane Focus:= An iron brazier filled with red-hot charcoal}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=Up to 1 HD/level of creatures, no two of which can be more than 20 ft. apart}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc9}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates a deadly raging heat in the internal organs of the targets, causing them to burst into flame from within.
+Targets that fail a Fortitude save die instantly.
+Those who save successfully take 6d6 points of fire damage +1 point per caster level (maximum +20) instead}}

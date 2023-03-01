@@ -1,0 +1,239 @@
+
+
+Create Water(Player's Handbook v.3.5): - DivineBard(0)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Create Water](https://dndtools.net/spells/players-handbook-v35--6/create-water--2376/) }} {{School:= Conjuration (Creation) [Water]}} {{Level:= **DivineBard 0**, Cleric 0, Druid 0, Adept 0, Healer 0, Jester 0, UrbanDruid 0, Paladin 1, Creation 1, Cloistered Cleric 0}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=Up to 2 gallons of water/level}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell generates wholesome, drinkable water, just like clean rain water.
+Water can be created in an area as small as will actually contain the liquid, or in an area three times as large&#8212;
+possibly creating a downpour or filling many small receptacles.
+Note: Conjuration spells can't create substances or objects within a creature.
+Water weighs about 8 pounds per gallon.
+One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds}}
+
+
+Cure Minor Wounds(Player's Handbook v.3.5): - DivineBard(0)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Cure Minor Wounds](https://dndtools.net/spells/players-handbook-v35--6/cure-minor-wounds--2382/) }} {{School:= Conjuration (Healing) }} {{Level:= **DivineBard 0**, Cleric 0, Druid 0, Adept 0, Healer 0, UrbanDruid 0, Cloistered Cleric 0}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like cure light wounds, except that it cures only 1 point of damage}}
+
+
+Detect Evil(Player's Handbook v.3.5): - DivineBard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Detect Evil](https://dndtools.net/spells/players-handbook-v35--6/detect-evil--2486/) }} {{School:= Divination  }} {{Level:= **DivineBard 1**, Cleric 1, Adept 1, EbonmarInfiltrator 1, KnightoftheChalice 1, WuJen 1, DeathMaster 1, Savant 1, Cloistered Cleric 1}} {{Components:= V, S, DF}} {{Range:= 60 ft.}} {{Area:=Cone-shaped emanation}} {{Duration:=Concentration, up to 10 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can sense the presence of evil. The amount of information revealed depends on how long you study a particular area or subject.
+**1st Round:** Presence or absence of evil.
+**2nd Round:** Number of evil auras (creatures, objects, or spells) in the area and the power of the most potent evil aura present. If you are of good alignment, and the strongest evil aura's power is overwhelming (see below), and the HD or level of the aura's source is at least twice your character level, you are stunned for 1 round and the spell ends.
+**3rd Round:** The power and location of each aura. If an aura is outside your line of sight, then you discern its direction but not its exact location. 
+**Aura Power:** An evil aura's power depends on the type of evil creature or object that you're detecting and its HD, caster level, or (in the case of a cleric) class level; see the accompanying table. If an aura falls into more than one strength category, the spell indicates the stronger of the two. 
+For example, as indicated on the table, an evil outsider with 12 HD has an overwhelming aura of evil. A good cleric who casts this spell and directs it at the location of such a creature for longer than 1  round loses the spell and is stunned for 1 round if his character level is 6th or lower.
+<table><tr><th></th><th style="text-align:center;" colspan="4">Aura Power </th></tr><tr><th style="text-align:center;">Creature/Object </th><th style="text-align:center;">Faint </th><th style="text-align:center;">Moderate </th><th style="text-align:center;">Strong </th><th style="text-align:center;">Overwhelming </th></tr><tr><td> Evil creature <sup>1</sup> (HD) </td><td> 10 or lower </td><td> 11-25 </td><td> 26-50 </td><td> 51 or higher </td></tr><tr><td> Undead (HD) </td><td> 2 or lower </td><td> 3-8 </td><td> 9-20 </td><td> 21 or higher </td></tr><tr><td> Evil outsider (HD) </td><td> 1 or lower </td><td> 2-4 </td><td> 5-10 </td><td> 11 or higher </td></tr><tr><td> Cleric of an evil deity <sup>2</sup> (class levels) </td><td> 1 </td><td> 2-4 </td><td> 5-10 </td><td> 11 or higher </td></tr><tr><td> Evil magic ittem or spell (caster level) </td><td>2nd or lower </td><td> 3rd-8th </td><td> 9th-20th </td><td> 21st or higher </td></tr><tr><td colspan="5"><sup>1</sup> Except for undead and evil outsiders, who have their own entries on the table. </td></tr><tr><td colspan="5"><sup>2</sup> Some Characters who are not clerics may radiate an aura of an equivalent power. The class description will indicate whether this applies. </td></tr></table>**Lingering Aura:** An evil aura lingers after its original source dissipates (in the case of a spell) or is  destroyed (in the case of a creature or magic item). If **detect evil** is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power: Animals, traps, poisons, and other potential perils are not evil, and as such this spell does not detect them. 
+<table><tr><th>Original Strength </th><th>Duration of Lingering Aura </th></tr><tr><td> Faint </td><td> 1d6 rounds </td></tr><tr><td>Moderate </td><td> 1d6 minutes </td></tr><tr><td> Strong </td><td> 1d6 &#215; 10 minutes </td></tr><tr><td> Overwhelming </td><td> 1d6 days </td></tr></table>Each round, you can turn to detect evil in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it}}
+
+
+Detect Good(Player's Handbook v.3.5): - DivineBard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Detect Good](https://dndtools.net/spells/players-handbook-v35--6/detect-good--2487/) }} {{School:= Divination  }} {{Level:= **DivineBard 1**, Cleric 1, Adept 1, EbonmarInfiltrator 1, WuJen 1, DeathMaster 1, Savant 1, Cloistered Cleric 1}} {{Components:= V, S, DF}} {{Range:= 60 ft.}} {{Area:=Cone-shaped emanation}} {{Duration:=Concentration, up to 10 min./ level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/detect-evil--2486/">**detect evil**</a>, except that it detects the auras of good creatures, <a href="/classes/cleric/">clerics</a> or <a href="/classes/paladin/">paladins</a> of good deities, <a href="/spells/descriptors/good/">good</a> spells, and good magic items, and you are vulnerable to an overwhelming good aura if you are evil. Healing potions, antidotes, and similar beneficial items are not good}}
+
+
+Detect Law(Player's Handbook v.3.5): - DivineBard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Detect Law](https://dndtools.net/spells/players-handbook-v35--6/detect-law--2488/) }} {{School:= Divination  }} {{Level:= **DivineBard 1**, Cleric 1, Adept 1, EbonmarInfiltrator 1, WuJen 1, DeathMaster 1, Savant 1, Cloistered Cleric 1}} {{Components:= V, S, DF}} {{Range:= 60 ft.}} {{Area:=Cone-shaped emanation}} {{Duration:=Concentration, up to 10 min./ level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/detect-evil--2486/">**detect evil**</a>, except that it detects the auras of lawful creatures, clerics of lawful deities, lawful spells, and lawful magic items, and you are vulnerable to an overwhelming lawful aura if you are chaotic}}
+
+
+Protection from Evil(Player's Handbook v.3.5): - DivineBard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Protection from Evil](https://dndtools.net/spells/players-handbook-v35--6/protection-from-evil--2348/) }} {{School:= Abjuration  [Good]}} {{Level:= **DivineBard 1**, Cleric 1, Savant 1, Sha'ir 1, KnightoftheChalice 1, VassalofBahamut 1, RunescarredBerserker 1, Healer 1, Adept 1, Wizard 1, Sorcerer 1, Paladin 1, Demonologist 1, Good 1, Elysium 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 min./level (D)}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.
+First, the subject gains a +2 deflection bonus to AC and a +2 resistance bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures.
+Second, the barrier blocks any attempt to possess the warded creature (by a magic jar attack, for example) or to exercise mental control over the creature (including enchantment (charm) effects and enchantment (compulsion) effects that grant the caster ongoing control over the subject, such as dominate person). The protection does not prevent such effects from targeting the protected creature, but it suppresses the effect for the duration of the protection from evil effect. If the protection from evil effect ends before the effect granting mental control does, the would-be controller would then be able to mentally command the controlled creature. Likewise, the barrier keeps out a possessing life force but does not expel one if it is in place before the spell is cast. This second effect works regardless of alignment.
+Third, the spell prevents bodily contact by summoned creatures. This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. Good summoned creatures are immune to this effect. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature. Spell resistance can allow a creature to overcome this protection and touch the warded creature.
+**Arcane Material Component:** A little powdered silver with which you trace a 3-foot -diameter circle on the floor (or ground) around the creature to be warded}}
+
+
+Protection from Good(Player's Handbook v.3.5): - DivineBard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Protection from Good](https://dndtools.net/spells/players-handbook-v35--6/protection-from-good--2349/) }} {{School:= Abjuration  [Evil]}} {{Level:= **DivineBard 1**, Cleric 1, DeathMaster 1, Savant 1, Sha'ir 1, RunescarredBerserker 1, DiscipleofThrym 1, Adept 1, Wizard 1, Sorcerer 1, Demonologist 1, Evil 1, Hades 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/protection-from-evil--2348/">protection from evil</a>, except that the deflection and resistance bonuses apply to attacks from good creatures, and good summoned creatures cannot touch the subject}}
+
+
+Protection from Law(Player's Handbook v.3.5): - DivineBard(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Protection from Law](https://dndtools.net/spells/players-handbook-v35--6/protection-from-law--2350/) }} {{School:= Abjuration  [Chaotic]}} {{Level:= **DivineBard 1**, Cleric 1, Sorcerer 1, Wizard 1, Adept 1, DiscipleofThrym 1, RunescarredBerserker 1, Sha'ir 1, Savant 1, Chaos 1, Limbo 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature Touched}}  {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/protection-from-evil--2348/">**protection from evil**</a>, except that the deflection and resistance bonuses apply to attacks from lawful creatures, and lawful summoned creatures cannot touch the subject}}
+
+
+Consecrate(Player's Handbook v.3.5): - DivineBard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Consecrate](https://dndtools.net/spells/players-handbook-v35--6/consecrate--2596/) }} {{School:= Evocation  [Good]}} {{Level:= **DivineBard 2**, Cleric 2, KnightoftheChalice 2, Celestial 2, Cloistered Cleric 2}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=20-ft.-radius emanation}} {{Duration:=2 hours/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell blesses an area with positive energy. Each Charisma check made to turn undead within this area gains a +3 sacred bonus. Every undead creature entering a consecrated area suffers minor disruption, giving it a -1 penalty on attack rolls, damage rolls, and saves. Undead cannot be created within or summoned into a consecrated area.
+If the consecrated area contains an altar, shrine, or other permanent fixture dedicated to your deity, pantheon, or aligned higher power, the modifiers given above are doubled (+6 sacred bonus on turning  checks, -2 penalties for undead in the area). You cannot consecrate an area with a similar fixture of a deity other than your own patron.
+If the area does contain an altar, shrine, or other permanent fixture of a deity, pantheon, or higher power other than your patron, the consecrate spell instead curses the area, cutting off its connection with the associated deity or power. This secondary function, if used, does not also grant the bonuses and penalties relating to undead, as given above. Consecrate counters and dispels desecrate.
+Material Component: A vial of holy water and 25 gp worth (5 pounds) of silver dust, all of which must be sprinkled around the area}}
+
+
+Desecrate(Player's Handbook v.3.5): - DivineBard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Desecrate](https://dndtools.net/spells/players-handbook-v35--6/desecrate--2604/) }} {{School:= Evocation  [Evil]}} {{Level:= **DivineBard 2**, Cleric 2, DeathMaster 2, Blighter 3, Evil 2, Undeath 2, Cloistered Cleric 2}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=20-ft.-radius emanation}} {{Duration:=2 hours/level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell imbues an area with negative energy.
+Each Charisma check made to turn undead within this area takes a -3 profane penalty, and every undead creature entering a desecrated area gains a +1 profane bonus on attack rolls, damage rolls, and saving throws.
+An undead creature created within or summoned into such an area gains +1 hit points per HD.
+If the desecrated area contains an altar, shrine, or other permanent fixture dedicated to your deity or aligned higher power, the modifiers given above are doubled (-6 profane penalty on turning checks, +2 profane bonus and +2 hit points per HD for undead in the area).
+Furthermore, anyone who casts animate dead within this area may create as many as double the normal amount of undead (that is, 4 HD per caster level rather than 2 HD per caster level).
+If the area contains an altar, shrine, or other permanent fixture of a deity, pantheon, or higher power other than your patron, the desecrate spell instead curses the area, cutting off its connection with the associated deity or power.
+This secondary function, if used, does not also grant the bonuses and penalties relating to undead, as given above.
+Desecrate counters and dispels consecrate.
+Material Component: A vial of unholy water and 25 gp worth (5 pounds) of silver dust, all of which must be sprinkled around the area}}
+
+
+Gentle Repose(Player's Handbook v.3.5): - DivineBard(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Gentle Repose](https://dndtools.net/spells/players-handbook-v35--6/gentle-repose--2738/) }} {{School:= Necromancy  }} {{Level:= **DivineBard 2**, Cleric 2, Savant 2, DeathMaster 2, SlayerofDomiel 2, Healer 2, DreadNecromancer 2, Wizard 3, Sorcerer 3, Sha'ir 3, Time 2, Cloistered Cleric 2, Arcanist 3}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Corpse touched}} {{Duration:=One day/level}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You preserve the remains of a dead creature so that they do not decay.
+Doing so effectively extends the time limit on raising that creature from the dead (see raise dead).
+Days spent under the influence of this spell don't count against the time limit.
+Additionally, this spell makes transporting a fallen comrade more pleasant.
+The spell also works on severed body parts and the like.
+Arcane Material Component: A pinch of salt, and a copper piece for each eye the corpse has (or had)}}
+
+
+Magic Circle Against Evil(Player's Handbook v.3.5): - DivineBard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Magic Circle Against Evil](https://dndtools.net/spells/players-handbook-v35--6/magic-circle-against-evil--2335/) }} {{School:= Abjuration  [Good]}} {{Level:= **DivineBard 3**, Cleric 3, Savant 3, WuJen 3, KnightoftheChalice 3, VassalofBahamut 3, Wizard 3, Sorcerer 3, Paladin 3, Sha'ir 3, Good 3, Elysium 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, M, DF}} {{Material Component:= A little powdered silver with which you trace a 3-footdiameter circle on the floor (or ground) around the creature to be warded}} {{Range:= Touch}} {{Area:=10-ft.-radius emanation from touched creature}} {{Duration:=10 min./level}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc3}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=All creatures within the area gain the effects of a protection from evil spell, and no nongood summoned creatures can enter the area either.
+You must overcome a creature's spell resistance in order to keep it at bay (as in the third function of protection from evil), but the deflection and resistance bonuses and the protection from mental control apply regardless of enemies' spell resistance.
+This spell has an alternative version that you may choose when casting it.
+A magic circle against evil can be focused inward rather than outward.
+When focused inward, the spell binds a nongood called creature (such as those called by the lesser planar binding, planar binding, and greater planar binding spells) for a maximum of 24 hours per caster level, provided that you cast the spell that calls the creature within 1 round of casting the magic circle.
+The creature cannot cross the circle's boundaries.
+If a creature too large to fit into the spell's area is the subject of the spell, the spell acts as a normal protection from evil spell for that creature only.
+A magic circle leaves much to be desired as a trap.
+If the circle of powdered silver laid down in the process of spellcasting is broken, the effect immediately ends.
+The trapped creature can do nothing that disturbs the circle, directly or indirectly, but other creatures can.
+If the called creature has spell resistance, it can test the trap once a day.
+If you fail to overcome its spell resistance, the creature breaks free, destroying the circle.
+A creature capable of any form of dimensional travel (astral projection, blink, dimension door, etherealness, gate, plane shift, shadow walk, teleport, and similar abilities) can simply leave the circle through that means.
+You can prevent the creature's extradimensional escape by casting a dimensional anchor spell on it, but you must cast the spell before the creature acts.
+If you are successful, the anchor effect lasts as long as the magic circle does.
+The creature cannot reach across the magic circle, but its ranged attacks (ranged weapons, spells, magical abilities, and the like) can.
+The creature can attack any target it can reach with its ranged attacks except for the circle itself.
+You can add a special diagram (a two-dimensional bounded figure with no gaps along its circumference, augmented with various magical sigils) to make the magic circle more secure.
+Drawing the diagram by hand takes 10 minutes and requires a DC 20 Spellcraft check.
+The DM makes this check secretly.
+If the check fails, the diagram is ineffective.
+You can take 10 (see page 65) when drawing the diagram if you are under no particular time pressure to complete the task.
+This task also takes 10 full minutes.
+If time is no factor at all, and you devote 3 hours and 20 minutes to the task, you can take 20.
+A successful diagram allows you to cast a dimensional anchor spell on the magic circle during the round before casting any summoning spell.
+The anchor holds any called creatures in the magic circle for 24 hours per caster level.
+A creature cannot use its spell resistance against a magic circle prepared with a diagram, and none of its abilities or attacks can cross the diagram.
+If the creature tries a Charisma check to break free of the trap (see the lesser planar binding spell), the DC increases by 5.
+The creature is immediately released if anything disturbs the diagram&#8212;even a straw laid across it.
+However, the creature itself cannot disturb the diagram either directly or indirectly, as noted above.
+This spell is not cumulative with protection from evil and vice versa}}
+
+
+Magic Circle Against Good(Player's Handbook v.3.5): - DivineBard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Magic Circle Against Good](https://dndtools.net/spells/players-handbook-v35--6/magic-circle-against-good--2336/) }} {{School:= Abjuration  [Evil]}} {{Level:= **DivineBard 3**, Cleric 3, Sorcerer 3, Wizard 3, WuJen 3, Sha'ir 3, Savant 3, DeathMaster 3, NarDemonbinder 4, Evil 3, Hades 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like magic circle against evil, except that it is similar to protection from good instead of protection from evil, and it can imprison a nonevil called creature}}
+
+
+Magic Circle Against Law(Player's Handbook v.3.5): - DivineBard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Magic Circle Against Law](https://dndtools.net/spells/players-handbook-v35--6/magic-circle-against-law--2337/) }} {{School:= Abjuration  [Chaotic]}} {{Level:= **DivineBard 3**, Cleric 3, Sorcerer 3, Wizard 3, WuJen 3, Sha'ir 3, Savant 3, Chaos 3, Limbo 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like magic circle against evil, except that it is similar to protection from law instead of protection from evil, and it can imprison a nonchaotic called creature}}
+
+
+Prayer(Player's Handbook v.3.5): - DivineBard(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Prayer](https://dndtools.net/spells/players-handbook-v35--6/prayer--2569/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **DivineBard 3**, Cleric 3, Paladin 3, KnightoftheChalice 3, Community 3, Competition 3, Orc 3, Cloistered Cleric 3}} {{Components:= V, S, DF}} {{Range:= 40 ft.}} {{Area:=All allies and foes within a 40-ft.-radius burst centered on you}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You bring special favor upon yourself and your allies while bringing disfavor to your enemies. You and your each of your allies gain a +1 luck bonus on attack rolls, weapon damage rolls, saves, and skill checks, while each of your foes takes a -1 penalty on such rolls}}
+
+
+Remove Disease(Player's Handbook v.3.5): - DivineBard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Remove Disease](https://dndtools.net/spells/players-handbook-v35--6/remove-disease--2428/) }} {{School:= Conjuration (Healing) }} {{Level:= **DivineBard 4**, Healer 2, NentyarHunter 2, Cleric 3, Druid 3, Ranger 3, Adept 3, DeathDelver 3, UrbanDruid 3, Renewal 3, Cloistered Cleric 3}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Remove disease cures all diseases that the subject is suffering from.
+The spell also kills parasites, including green slime and others.
+Certain special diseases may not be countered by this spell or may be countered only by a caster of a certain level or higher.
+Note: Since the spell's duration is instantaneous, it does not prevent reinfection after a new exposure to the same
+disease at a later date}}
+
+
+Sending(Player's Handbook v.3.5): - DivineBard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sending](https://dndtools.net/spells/players-handbook-v35--6/sending--2645/) }} {{School:= Evocation  }} {{Level:= **DivineBard 4**, Cleric 4, Savant 4, Sorcerer 5, Wizard 5, Beguiler 5, Sha'ir 5, CourtHerald 5, Trade 4, Herald 4, Cloistered Cleric 4, Arcanist 5}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= See text}} {{Target:=One creature}} {{Duration:=1 round; see text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You contact a particular creature with which you are familiar and send a short message of twenty-five words or less to the subject.
+The subject recognizes you if it knows you.
+It can answer in like manner immediately.
+A creature with an Intelligence score as low as 1 can understand the sending, though the subject's ability to react is limited as normal by its Intelligence score.
+Even if the sending is received, the subject is not obligated to act upon it in any manner.
+If the creature in question is not on the same plane of existence as you are, there is a 5% chance that the sending does not arrive.
+(Local conditions on other planes may worsen this chance considerably, at the option of the DM).
+Arcane Material Component: A short piece of fine copper wire}}
+
+
+Speak With Dead(Player's Handbook v.3.5): - DivineBard(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Speak With Dead](https://dndtools.net/spells/players-handbook-v35--6/speak-with-dead--2760/) }} {{School:= Necromancy  }} {{Level:= **DivineBard 4**, Cleric 3, UrbanDruid 3, Savant 3, DeathMaster 3, DreadNecromancer 3, DeathDelver 3, SlayerofDomiel 3, HunteroftheDead 3, WuJen 6, Pact 3, Retribution 3, Cloistered Cleric 3}} {{Components:= V, S, DF}} {{Range:= 10 ft.}} {{Target:=One dead creature}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Necromancy}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You grant the semblance of life and intellect to a corpse, allowing it to answer several questions that you put to it. You may ask one question per two caster levels. Unasked questions are wasted if the duration expires. The corpse's knowledge is limited to what the creature knew during life, including the languages it spoke (if any). Answers are usually brief, cryptic, or repetitive. If the creature's alignment was different from yours, the corpse gets a Will save to resist the spell as if it were alive.
+If the corpse has been subject to **speak with dead** within the past week, the new spell fails. You can cast this spell on a corpse that has been deceased for any amount of time, but the body must be mostly intact to be able to respond. A damaged corpse may be able to give partial answers or partially correct answers, but it must at least have a mouth in order to speak at all.
+This spell does not let you actually speak to the person (whose soul has departed). It instead draws on the imprinted knowledge stored in the corpse. The partially animated body retains the imprint of the soul that once inhabited it, and thus it can speak with all the knowledge that the creature had while alive. The corpse, however, cannot learn new information. Indeed, it can't even remember being questioned.
+This spell does not affect a corpse that has been turned into an undead creature}}
+
+
+Divination(Player's Handbook v.3.5): - DivineBard(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Divination](https://dndtools.net/spells/players-handbook-v35--6/divination--3543/) }} {{School:= Divination  }} {{Level:= **DivineBard 5**, Cleric 4, VassalofBahamut 4, Savant 4, Oracle 3, Knowledge 4, Pact 4, Cloistered Cleric 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=Instantaneous}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Similar to <a href="/spells/players-handbook-v35--6/augury--2478/">**augury**</a> but more powerful, a **divination** spell can provide you with a useful piece of advice in reply to a question concerning a specific goal, event, or activity that is to occur within one week. The advice can be as simple as a short phrase, or it might take the form of a cryptic rhyme or omen.
+For example, suppose the question is &quot;Will we do well if we venture into the ruined temple of Erythnul?&quot; The DM knows that a terrible troll guarding 10,000 gp and a **+1 shield** lurks near the entrance but estimates that your party could beat the troll after a hard fight. Therefore the divination response might be: &quot;Ready oil and open flame light your way to wealth.&quot; In all cases, the DM controls what information you receive. If your party doesn't act on the information, the conditions may change so that the information is no longer useful. (For example, the troll could move away and take the treasure with it.)
+The base chance for a correct **divination** is 70% + 1% per caster level, to a maximum of 90%. The DM adjusts the chance if unusual circumstances require it (if, for example, unusual precautions against divination spells have been taken). If the dice roll fails, you know the spell failed, unless specific magic yielding false information is at work.
+As with <a href="/spells/players-handbook-v35--6/augury--2478/">**augury**</a>, multiple **divinations** about the same topic by the same caster use the same dice result as the first **divination** spell and yield the same answer each time.
+**Material Component**: Incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp}}
+
+
+Restoration(Player's Handbook v.3.5): - DivineBard(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Restoration](https://dndtools.net/spells/players-handbook-v35--6/restoration--2430/) }} {{School:= Conjuration (Healing) }} {{Level:= **DivineBard 5**, Healer 3, Cleric 4, DeathDelver 4, Fatemaker 4, KnightoftheWeave 4, HunteroftheDead 4, RunescarredBerserker 4, Adept 4, Paladin 4, Cloistered Cleric 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like lesser restoration, except that it also dispels negative levels and restores one experience level to a creature who has had a level drained. The drained level is restored only if the time since the creature lost the level is equal to or less than one day per caster level. Thus, if a 10th-level character has been struck by a wight and drained to 9th level, restoration brings the character up to exactly the minimum number of experience points necessary to restore him to 10th level (45,000 XP), gaining him an additional Hit Die and level functions accordingly.
+Restoration cures all temporary ability damage, and it restores all points permanently drained from a single ability score (your choice if more than one is drained). It also eliminates any fatigue or exhaustion suffered by the target.
+Restoration does not restore levels or Constitution points lost due to death.
+Material Component: Diamond dust worth 100 gp that is sprinkled over the target}}
+
+
+Commune(Player's Handbook v.3.5): - DivineBard(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Commune](https://dndtools.net/spells/players-handbook-v35--6/commune--2481/) }} {{School:= Divination  }} {{Level:= **DivineBard 6**, Cleric 5, Adept 5, Oracle 5, Cloistered Cleric 5}} {{Components:= V, S, M, DF, XP}} {{Material Component:= Holy (or unholy) water and incense}} {{XP-Cost= 100 XP}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You contact your deity - or agents thereof - and ask questions that can be answered by a simple yes or no.
+(A cleric of no particular deity contacts a philosophically allied deity).
+You are allowed one such question per caster level.
+The answers given are correct within the limits of the entity's knowledge.
+"Unclear" is a legitimate answer, because powerful beings of the Outer Planes are not necessarily omniscient.
+In cases where a one-word answer would be misleading or contrary to the deity's interests, the DM should give a short phrase (five words or less) as an answer instead.
+The spell, at best, provides information to aid character decisions.
+The entities contacted structure their answers to further their own purposes.
+If you lag, discuss the answers, or go off to do anything else, the spell ends}}
+
+
+Hallow(Player's Handbook v.3.5): - DivineBard(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Hallow](https://dndtools.net/spells/players-handbook-v35--6/hallow--2619/) }} {{School:= Evocation  [Good]}} {{Level:= **DivineBard 6**, Cleric 5, Druid 5, UrbanDruid 5, Cloistered Cleric 5}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Area:=40-ft. radius emanating from the touched point}} {{Duration:=Instantaneous}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc6}+@{sf-Evocation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Hallow makes a particular site, building, or structure a holy site.
+This has four major effects.
+First, the site or structure is guarded by a magic circle against evil effect.
+Second, all Charisma checks made to turn undead gain a +4 sacred bonus, and Charisma checks to command undead take a -4 penalty.
+Spell resistance does not apply to this effect.
+(This provision does not apply to the druid version of the spell).
+Third, any dead body interred in a hallowed site cannot be turned into an undead creature.
+Finally, you may choose to fix a single spell effect to the hallowed site.
+The spell effect lasts for one year and functions throughout the entire site, regardless of the normal duration and area or effect.
+You may designate whether the effect applies to all creatures, creatures who share your faith or alignment, or creatures who adhere to another faith or alignment.
+For example, you may create a bless effect that aids all creatures of your alignment or faith in the area, or a bane effect that hinders creatures of the opposed alignment or an enemy faith.
+At the end of the year, the chosen effect lapses, but it can be renewed or replaced simply by casting hallow again.
+Spell effects that may be tied to a hallowed site include aid, bane, bless, cause fear, darkness, daylight, death ward, deeper darkness, detect evil, detect magic, dimensional anchor, discern lies, dispel magic, endure elements, freedom of movement, invisibility purge, protection from energy, remove fear, resist energy, silence, tongues, and zone of truth.
+Saving throws and spell resistance might apply to these spells' effects.
+(See the individual spell descriptions for details).
+An area can receive only one hallow spell (and its associated spell effect) at a time.
+Hallow counters but does not dispel unhallow.
+Material Component:Herbs, oils, and incense worth at least 1,000 gp, plus 1,000 gp per level of the spell to be included in the hallowed area}}
+
+
+Raise Dead(Player's Handbook v.3.5): - DivineBard(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Raise Dead](https://dndtools.net/spells/players-handbook-v35--6/raise-dead--2424/) }} {{School:= Conjuration (Healing) }} {{Level:= **DivineBard 6**, Cleric 5, Healer 5, Adept 5, Cloistered Cleric 5}} {{Components:= V, S, M, DF}} {{Material Component:= Diamonds worth a total of least 5,000 gp}} {{Range:= Touch}} {{Target:=Dead creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=None; see text (harmless)}} {{Save DC:=[[@{spelldc6}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You restore life to a deceased creature.
+You can raise a creature that has been dead for no longer than one day per caster level.
+In addition, the subject's soul must be free and willing to return (see Bringing Back the Dead, page 171).
+If the subject's soul is not willing to return, the spell does not work; therefore, a subject that wants to return receives no saving throw.
+Coming back from the dead is an ordeal.
+The subject of the spell loses one level (or 1 Hit Die) when it is raised, just as if it had lost a level or a Hit Die to an energy-draining creature.
+If the subject is 1st level, it loses 2 points of Constitution instead (if this would reduce its Con to 0 or less, it can't be raised).
+This level/HD loss or Constitution loss cannot be repaired by any means.
+A character who died with spells prepared has a 50% chance of losing any given spell upon being raised, in addition to losing spells for losing a level.
+A spellcasting creature that doesn't prepare spells (such as a sorcerer) has a 50% chance of losing any given unused spell slot as if it had been used to cast a spell, in addition to losing spell slots for losing a level.
+A raised creature has a number of hit points equal to its current Hit Dice.
+Any ability scores damaged to 0 are raised to 1.
+Normal poison and normal disease are cured in the process of raising the subject, but magical diseases and curses are not undone.
+While the spell closes mortal wounds and repairs lethal damage of most kinds, the body of the creature to be raised must be whole.
+Otherwise, missing parts are still missing when the creature is brought back to life.
+None of the dead creature's equipment or possessions are affected in any way by this spell.
+A creature who has been turned into an undead creature or killed by a death effect can't be raised by this spell.
+Constructs, elementals, outsiders, and undead creatures can't be raised.
+The spell cannot bring back a creature that has died of old age}}
+
+
+Unhallow(Player's Handbook v.3.5): - DivineBard(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Unhallow](https://dndtools.net/spells/players-handbook-v35--6/unhallow--2656/) }} {{School:= Evocation  [Evil]}} {{Level:= **DivineBard 6**, Blighter 4, Cleric 5, Druid 5, UrbanDruid 5, DeathMaster 5, DreadNecromancer 5, Cloistered Cleric 5}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Area:=40-ft. radius emanating from the touched point}} {{Duration:=Instantaneous}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc6}+@{sf-Evocation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Unhallow makes a particular site, building, or structure an unholy site.
+This has three major effects.
+First, the site or structure is guarded by a magic circle against good effect.
+Second, all turning checks made to turn undead take a -4 penalty, and turning checks to rebuke undead gain a +4 profane bonus.
+Spell resistance does not apply to this effect.
+(This provision does not apply to the druid version of the spell).
+Finally, you may choose to fix a single spell effect to the unhallowed site.
+The spell effect lasts for one year and functions throughout the entire site, regardless of its normal duration and area or effect.
+You may designate whether the effect applies to all creatures, creatures that share your faith or alignment, or creatures that adhere to another faith or alignment.
+For example, you may create a bless effect that aids all creatures of like alignment or faith in the area, or a bane effect that hinders creatures of the opposite alignment or an enemy faith.
+At the end of the year, the chosen effect lapses, but it can be renewed or replaced simply by casting unhallow again.
+Spell effects that may be tied to an unhallowed site include aid, bane, bless, cause fear, darkness, daylight, death ward, deeper darkness, detect magic, detect good, dimensional anchor, discern lies, dispel magic, endure elements, freedom of movement,
+invisibility purge, protection from energy, remove fear, resist energy, silence, tongues, and zone of truth.
+Saving throws and spell resistance might apply to these spells' effects.
+(See the individual spell descriptions for details).
+An area can receive only one unhallow spell (and its associated spell effect) at a time.
+Unhallow counters but does not dispel hallow.
+Material Component:Herbs, oils, and incense worth at least 1,000 gp, plus 1,000 gp per level of the spell to be tied to the unhallowed area}}

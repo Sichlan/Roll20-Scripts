@@ -1,0 +1,6 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;3:=[View](~Flame-Spell-Level-3)}} {{Spelllevel&nbsp;5:=[View](~Flame-Spell-Level-5)}} {{Spelllevel&nbsp;9:=[View](~Flame-Spell-Level-9)}} 
+
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-Flame)}} {{Animate Fire:=[View](~Flame-Animate-Fire-Description) [Send](~Flame-Animate-Fire-Cast)}} ]
+[5, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 5 }} {{subtags=[Back to Main Menu](~Spells-Main-Flame)}} {{Fire Breath:=[View](~Flame-Fire-Breath-Description) [Send](~Flame-Fire-Breath-Cast)}} ]
+[9, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 9 }} {{subtags=[Back to Main Menu](~Spells-Main-Flame)}} {{Internal Fire:=[View](~Flame-Internal-Fire-Description) [Send](~Flame-Internal-Fire-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

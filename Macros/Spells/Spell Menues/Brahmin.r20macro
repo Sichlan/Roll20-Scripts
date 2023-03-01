@@ -1,0 +1,4 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;3:=[View](~Brahmin-Spell-Level-3)}} 
+
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-Brahmin)}} {{That Art Thou:=[View](~Brahmin-That-Art-Thou-Description) [Send](~Brahmin-That-Art-Thou-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

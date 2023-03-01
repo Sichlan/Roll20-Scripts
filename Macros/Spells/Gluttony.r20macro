@@ -1,0 +1,74 @@
+
+
+Goodberry(Player's Handbook v.3.5): - Gluttony(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Goodberry](https://dndtools.net/spells/players-handbook-v35--6/goodberry--2822/) }} {{School:= Transmutation  }} {{Level:= **Gluttony 1**, Druid 1, Healer 1}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=2d4 fresh berries touched}} {{Duration:=One day/level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Casting goodberry upon a handful of freshly picked berries makes 2d4 of them magical.
+You (as well as any other druid of 3rd or higher level) can immediately discern which berries are affected.
+Each transmuted berry provides nourishment as if it were a normal meal for a Medium creature.
+The berry also cures 1 point of damage when eaten, subject to a maximum of 8 points of such curing in any 24-hour period}}
+
+
+Death Knell(Player's Handbook v.3.5): - Gluttony(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Death Knell](https://dndtools.net/spells/players-handbook-v35--6/death-knell--2726/) }} {{School:= Necromancy  [Death][Evil]}} {{Level:= **Gluttony 2**, Cleric 2, Blighter 2, DeathMaster 2, DreadNecromancer 2, Death 2, Abyss 2, Cloistered Cleric 2}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=Instantaneous/10 minutes per HD of subject; see text}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You draw forth the ebbing life force of a creature and use it to fuel your own power.
+Upon casting this spell, you touch a living creature that has -1 or fewer hit points.
+If the subject fails its saving throw, it dies, and you gain 1d8 temporary hit points and a +2 bonus to Strength.
+Additionally, your effective caster level goes up by +1, improving spell effects dependent on caster level.
+(This increase in effective caster level does not grant you access to more spells).
+These effects last for 10 minutes per HD of the subject creature}}
+
+
+Create Food and Water(Player's Handbook v.3.5): - Gluttony(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Create Food and Water](https://dndtools.net/spells/players-handbook-v35--6/create-food-and-water--2375/) }} {{School:= Conjuration (Creation) }} {{Level:= **Gluttony 3**, Cleric 3, Healer 3, Savant 3, Creation 3, Cloistered Cleric 3}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=Food and water to sustain three humans or one horse/level for 24 hours}} {{Duration:=24 hours; see text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The food that this spell creates is simple fare of your choice&#8212;highly nourishing, if rather bland.
+Food so created decays and becomes inedible within 24 hours, although it can be kept fresh for another 24 hours by casting a purify food and water spell on it.
+The water created by this spell is just like clean rain water, and it doesn't go bad as the food does}}
+
+
+Vampiric Touch(Player's Handbook v.3.5): - Gluttony(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Vampiric Touch](https://dndtools.net/spells/players-handbook-v35--6/vampiric-touch--2768/) }} {{School:= Necromancy  }} {{Level:= **Gluttony 4**, TelflammarShadowlord 2, Sorcerer 3, Wizard 3, Duskblade 3, Blighter 3, Sha'ir 3, DeathMaster 3, DreadNecromancer 3, Envy 4, Arcanist 3}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=Instantaneous/1 hour; see text}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You must succeed on a melee touch attack.
+Your touch deals 1d6 points of damage per two caster levels (maximum 10d6).
+You gain temporary hit points equal to the damage you deal.
+However, you can't gain more than the subject's current hit
+points +10, which is enough to kill the subject.
+The temporary hit points disappear 1 hour later}}
+
+
+Baleful Polymorph(Player's Handbook v.3.5): - Gluttony(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Baleful Polymorph](https://dndtools.net/spells/players-handbook-v35--6/baleful-polymorph--2781/) }} {{School:= Transmutation  }} {{Level:= **Gluttony 5**, Druid 5, Sorcerer 5, Wizard 5, Adept 5, WuJen 5, Sha'ir 5, DeathMaster 5, Limbo 5, Arcanist 5}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=Permanent}} {{Savingthrow:=Fortitude negates, Will partial; see text }} {{Save DC:=[[@{spelldc5}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You change the subject into a Small or smaller animal of no more than 1 HD (such as a dog, lizard, monkey, or toad). The subject takes on all the statistics and special abilities of an average member of the new form in place of its own except as follows:
+<ul><li>The target retains its own alignment (and personality, within the limits of the new form's ability scores).</li><li>If the target has the shapechanger subtype, it retains that subtype.</li><li>The target retains its own hit points.</li><li>The target is treated has having its normal Hit Dice for purpose of adjudicating effects based on HD, such as the sleep spell, though it uses the new form's base attack bonus, base save bonuses, and all other statistics derived from Hit Dice.</li><li>The target also retains the ability to understand (but not to speak) the languages it understood in its original form. It can write in the languages it understands, but only the form is capable of writing in some manner (such as drawing in the dirt with a paw).</li></ul>With those exceptions, the target's normal game statistics are replaced by those of the new form. The target loses all the special abilities it has in its normal form, including its class features.
+All items worn or carried by the subject fall to the ground at its feet, even if they could be worn or carried by the new form.
+If the new form would prove fatal to the creature (for example, if you polymorphed a landbound target into a fish, or an airborne target into a toad), the subject gets a +4 bonus on the save.
+If the subject remains in the new form for 24 consecutive hours, it must attempt a Will save. If this save fails, it loses its ability to understand language, as well as all other memories of its previous form,  and its Hit Dice and hit points change to match an average creature of its new form. These abilities and  statistics return to normal if the effect is later ended.
+Incorporeal or gaseous creatures are immune to baleful polymorph, and a creature with the shapechanger subtype (such as a lycanthrope or a doppelganger) can revert to its natural form as a standard action (which ends the spell's effect)}}
+
+
+Stone to Flesh(Player's Handbook v.3.5): - Gluttony(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Stone to Flesh](https://dndtools.net/spells/players-handbook-v35--6/stone-to-flesh--2882/) }} {{School:= Transmutation  }} {{Level:= **Gluttony 7**, Healer 5, Sorcerer 6, Wizard 6, WuJen 6, Sha'ir 6, UrbanDruid 6, Arcanist 6}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One petrified creature or a cylinder of stone from 1 ft. to 3 ft. in diameter and up to 10 ft. long}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates (object); see text }} {{Save DC:=[[@{spelldc7}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell restores a petrified creature to its normal state, restoring life and goods.
+The creature must make a DC 15 Fortitude save to survive the process.
+Any petrified creature, regardless of size, can be restored.
+The spell also can convert a mass of stone into a fleshy
+substance.
+Such flesh is inert and lacking a vital life force unless a life force or magical energy is available.
+(For example, this spell would turn a stone golem into a flesh golem, but an ordinary statue would become a corpse).
+You can affect an object that fits within a cylinder from 1 foot to 3 feet in diameter and up to 10 feet long or a cylinder of up to those dimensions in a larger mass of stone.
+Material Component: A pinch of earth and a drop of blood}}
+
+
+Bite of the King(Spell Compendium): - Gluttony(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Bite of the King](https://dndtools.net/spells/spell-compendium--86/bite-king--3949/) }} {{School:= Necromancy  }} {{Level:= **Gluttony 8**, Hunger 8}} {{Components:= V}} {{Range:= Touch}} {{Target:=One living creature of a size that does not exceed the caster}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc8}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Your mouth opens impossibly wide and engulfs your foe. You swallow loudly and your mouth returns to normal size, leaving no trace of your foe behind.**
+When you cast this spell, you can send a creature to a pocket &quot;stomach&quot; dimension with a successful melee touch attack. The target you touch must make a successful Fortitude save. If it fails its saving throw, the creature is sent to the stomach dimension. The victim takes 2d8+12 points of bludgeoning damage and 12 points of acid damage per round while in the stomach dimension. The victim can cut its way out by using a light slashing or piercing weapon to deal 35 points of damage to the stomach dimension (AC 21). A creature that successfully exits appears to cut its way free from thin air, appearing in a space adjacent to you.
+Each time you cast this spell, you create a separate temporary stomach dimension}}
+
+
+Trap the Soul(Player's Handbook v.3.5): - Gluttony(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Trap the Soul](https://dndtools.net/spells/players-handbook-v35--6/trap-the-soul--2465/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Gluttony 9**, Sorcerer 8, Wizard 8, Sha'ir 8, DeathMaster 8, Lust 9, Arcanist 8}} {{Components:= V, S, M, AF}} {{Material Component:= Before the actual casting of trap the soul, you must procure a gem of at least 1,000 gp value for every Hit Die possessed by the creature to be trapped}} {{Arcane Focus:= If the trigger object method is used, a special trigger object, prepared as described above, is needed}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=Permanent; see text}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc9}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Trap the soul forces a creature's life force (and its material body) into a gem.
+The gem holds the trapped entity indefinitely or until the gem is broken and the life force is released, which allows the material body to reform.
+If the trapped creature is a powerful creature from another plane (which could mean a character trapped by an inhabitant of another plane when the character is not on the Material Plane), it can be required to perform a service immediately upon being freed.
+Otherwise, the creature can go free once the gem imprisoning it is broken.
+Depending on the version selected, the spell can be triggered in one of two ways.
+Spell Completion: First, the spell can be completed by speaking its final word as a standard action as if you were casting a regular spell at the subject.
+This allows spell resistance (if any) and a Will save to avoid the effect.
+If the creature's name is spoken as well, any spell resistance is ignored and the save DC increases by 2.
+If the save or spell resistance is successful, the gem shatters.
+Trigger Object: The second method is far more insidious, for it tricks the subject into accepting a trigger object inscribed with the final spell word, automatically placing the creature's soul in the trap.
+To use this method, both the creature's name and the trigger word must be inscribed on the trigger object when the gem is enspelled.
+A sympathy spell can also be placed on the trigger object.
+As soon as the subject picks up or accepts the trigger object, its life force is automatically transferred to the gem without the benefit of spell resistance or a save}}

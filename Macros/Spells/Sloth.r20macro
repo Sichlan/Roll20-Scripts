@@ -1,0 +1,98 @@
+
+
+Touch of Fatigue(Player's Handbook v.3.5): - Sloth(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Touch of Fatigue](https://dndtools.net/spells/players-handbook-v35--6/touch-of-fatigue--2766/) }} {{School:= Necromancy  }} {{Level:= **Sloth 1**, Sorcerer 0, Wizard 0, Adept 0, Duskblade 0, Blighter 0, Sha'ir 0, DeathMaster 0, Arcanist 0}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You channel negative energy through your touch, fatiguing the target.
+You must succeed on a touch attack to strike a target.
+The subject is immediately fatigued for the spell's duration.
+This spell has no effect on a creature that is already fatigued.
+Unlike with normal fatigue, the effect ends as soon as the spell's duration expires.
+Material Component: A drop of sweat}}
+
+
+Unseen Servant(Player's Handbook v.3.5): - Sloth(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Unseen Servant](https://dndtools.net/spells/players-handbook-v35--6/unseen-servant--2468/) }} {{School:= Conjuration (Creation) }} {{Level:= **Sloth 2**, Bard 1, Savant 1, Jester 1, DeathMaster 1, Sha'ir 1, WuJen 1, Hoardstealer 1, Wizard 1, Sorcerer 1, CourtHerald 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One invisible, mindless, shapeless servant}} {{Duration:=1 hour/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An unseen servant is an invisible, mindless, shapeless force that performs simple tasks at your command.
+It can run and fetch things, open unstuck doors, and hold chairs, as well as clean and mend.
+The servant can perform only one activity at a time, but it repeats the same activity over and over again if told to do so, thus allowing you to command it to clean the floor and then turn your attention elsewhere as long as you remain within range.
+It can open only normal doors, drawers, lids, and the like.
+It has an effective Strength score of 2 (so it can lift 20 pounds or drag 100 pounds).
+It can trigger traps and such, but it can exert only 20 pounds of force, which is not enough to activate certain pressure plates and other devices.
+It can't perform any task that requires a skill check with a DC higher than 10 or that requires a check using a skill that can't be used untrained.
+Its speed is 15 feet.
+The servant cannot attack in any way; it is never allowed an attack roll.
+It cannot be killed, but it dissipates if it takes 6 points of damage from area attacks.
+(It gets no saves against attacks).
+If you attempt to send it beyond the spell's range (measured from your current position), the servant ceases to exist.
+Material Component: A piece of string and a bit of wood}}
+
+
+Deep Slumber(Player's Handbook v.3.5): - Sloth(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Deep Slumber](https://dndtools.net/spells/players-handbook-v35--6/deep-slumber--2543/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Sloth 3**, Bard 3, Sorcerer 3, Wizard 3, Beguiler 3, DeathDelver 3, Sha'ir 3, DeathMaster 3, Dream 3, Arcanist 3}} {{Components:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like sleep, except that it affects 10 HD of creatures}}
+
+
+Slow(Player's Handbook v.3.5): - Sloth(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Slow](https://dndtools.net/spells/players-handbook-v35--6/slow--2873/) }} {{School:= Transmutation  }} {{Level:= **Sloth 4**, Bard 3, Sorcerer 3, Wizard 3, Vigilante 3, Beguiler 3, Sha'ir 3, DeathMaster 3, Jester 3, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level, no two of which can be more than 30 ft. apart}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An affected creature moves and attacks at a drastically slowed rate.
+A slowed creature can take only a single move action or standard action each turn, but not both (nor may it take full-round actions).
+Additionally, it takes a -1 penalty on attack rolls, AC, and Reflex saves.
+A slowed creature moves at half its normal speed (round down to the next 5-foot increment), which affects the creature's jumping distance as normal for decreased speed.
+Multiple slow effects don't stack.
+Slow counters and dispels haste.
+Material Component: A drop of molasses}}
+
+
+Symbol of Sleep(Player's Handbook v.3.5): - Sloth(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Symbol of Sleep](https://dndtools.net/spells/players-handbook-v35--6/symbol-of-sleep--2577/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Sloth 5**, Cleric 5, Sorcerer 5, Wizard 5, WuJen 5, Sha'ir 5, CourtHerald 5, Cloistered Cleric 5, Arcanist 5}} {{Components:= }} {{Range:= }}   {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc5}+@{sf-Enchantment}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like symbol of death, except that all creatures of 10 HD or less within 60 feet of the symbol of sleep instead fall into a catatonic slumber for 3d6&#215;10 minutes.
+Unlike with the sleep spell, sleeping creatures cannot be awakened by nonmagical means before this time expires.
+Unlike symbol of death, symbol of sleep has no hit point limit; once triggered, a symbol of sleep simply remains active for 10 minutes per caster level.
+Note:Magic traps such as symbol of sleep are hard to detect and disable.
+A rogue (only) can use the Search skill to find a symbol of sleep and Disable Device to thwart it.
+The DC in each case is 25 + spell level, or 30 for symbol of sleep.
+Material Component:Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 1,000 gp}}
+
+
+Waves of Fatigue(Player's Handbook v.3.5): - Sloth(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Waves of Fatigue](https://dndtools.net/spells/players-handbook-v35--6/waves-of-fatigue--2771/) }} {{School:= Necromancy  }} {{Level:= **Sloth 6**, Sorcerer 5, Wizard 5, Duskblade 5, Blighter 5, Sha'ir 5, DeathMaster 5, DreadNecromancer 5, Hades 6, Arcanist 5}} {{Components:= V, S}} {{Range:= 30 ft.}} {{Area:=Cone-shaped burst}} {{Duration:=Instantaneous}} {{Savingthrow:=No }} {{Save DC:=[[@{spelldc6}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Waves of negative energy render all living creatures in the spell's area fatigued.
+This spell has no effect on a creature that is already fatigued}}
+
+
+Shadow Walk(Player's Handbook v.3.5): - Sloth(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Shadow Walk](https://dndtools.net/spells/players-handbook-v35--6/shadow-walk--2703/) }} {{School:= Illusion (Shadow) }} {{Level:= **Sloth 7**, Bard 5, Sorcerer 6, Wizard 6, Beguiler 6, Sha'ir 6, DeathMaster 6, Halfling 7, Arcanist 6}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Up to one touched creature/level}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc7}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=To use the shadow walk spell, you must be in an area of shadowy illumination.
+You and any creature you touch are then transported along a coiling path of shadowstuff to the edge of the Material Plane where it borders the Plane of Shadow.
+The effect is largely illusory, but the path is quasi-real.
+You can take more than one creature along with you (subject to your level limit), but all must be touching each other.
+In the region of shadow, you move at a rate of 50 miles per hour, moving normally on the borders of the Plane of Shadow but much more rapidly relative to the Material Plane.
+Thus, you can use this spell to travel rapidly by stepping onto the Plane of Shadow, moving the desired distance, and then stepping back onto the Material Plane.
+Because of the blurring of reality between the Plane of Shadow and the Material Plane, you can't make out details of the terrain or areas you pass over during transit, nor can you predict perfectly where your travel will end.
+It's impossible to judge distances accurately, making the spell virtually useless for scouting or spying.
+Furthermore, when the spell effect ends, you are shunted 1d10&#215;100 feet in a random horizontal direction from your desired endpoint.
+If this would place you within a solid object, you are shunted 1d10&#215;1,000 feet in the same direction.
+If this would still place you within a solid object, you (and any creatures with you) are shunted to the nearest empty space available, but the strain of this activity renders each creature fatigued (no save).
+Shadow walk can also be used to travel to other planes that border on the Plane of Shadow, but this usage requires the transit of the Plane of Shadow to arrive at a border with another plane of reality.
+The transit of the Plane of Shadow requires 1d4 hours.
+Any creatures touched by you when shadow walk is cast also make the transition to the borders of the Plane of Shadow.
+They may opt to follow you, wander off through the plane, or stumble back into the Material Plane (50% chance for either of the latter results if they are lost or abandoned by you).
+Creatures unwilling to accompany you into the Plane of Shadow receive a Will saving throw, negating the effect if successful}}
+
+
+Waves of Exhaustion(Player's Handbook v.3.5): - Sloth(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Waves of Exhaustion](https://dndtools.net/spells/players-handbook-v35--6/waves-of-exhaustion--2770/) }} {{School:= Necromancy  }} {{Level:= **Sloth 8**, DreadNecromancer 6, Sorcerer 7, Wizard 7, Warmage 7, Sha'ir 7, DeathMaster 7, Blighter 8, Hades 8, Arcanist 7}} {{Components:= V, S}} {{Range:= 60 ft.}} {{Area:=Cone-shaped burst}} {{Duration:=Instantaneous}} {{Savingthrow:=No }} {{Save DC:=[[@{spelldc8}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Waves of negative energy cause all living creatures in the spell's area to become exhausted.
+This spell has no effect on a creature that is already exhausted}}
+
+
+Astral Projection(Player's Handbook v.3.5): - Sloth(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Astral Projection](https://dndtools.net/spells/players-handbook-v35--6/astral-projection--2712/) }} {{School:= Necromancy  }} {{Level:= **Sloth 9**, Cleric 9, Sorcerer 9, Wizard 9, WuJen 9, Sha'ir 9, DeathMaster 9, Travel 9, Mentalism 9, Cloistered Cleric 9, Arcanist 9}} {{Components:= V, S, M}} {{Material Component:= A jacinth worth at least 1,000 gp, plus a silver bar worth 5 gp for each person to be affected}} {{Range:= Touch}} {{Target:=You plus one additional willing creature touched per two caster levels}} {{Duration:=See text}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=By freeing your spirit from your physical body, this spell allows you to project an astral body onto another plane altogether.
+You can bring the astral forms of other willing creatures with you, provided that these subjects are linked in a circle with you at the time of the casting.
+These fellow travelers are dependent upon you and must accompany you at all times.
+If something happens to you during the journey, your companions are stranded wherever you left them.
+You project your astral self onto the Astral Plane, leaving your physical body behind on the Material Plane in a state of suspended animation.
+The spell projects an astral copy of you and all you wear or carry onto the Astral Plane.
+Since the Astral Plane touches upon other planes, you can travel astrally to any of these other planes as you will.
+To enter one, you leave the Astral Plane, forming a new physical body (and equipment) on the plane of existence you have chosen to enter.
+While you are on the Astral Plane, your astral body is connected at all times to your physical body by a silvery cord.
+If the cord is broken, you are killed, astrally and physically.
+Luckily, very few things can destroy a silver cord (see the Dungeon Master's Guide for more information).
+When a second body is formed on a different plane, the incorporeal silvery cord remains invisibly attached to the new body.
+If the second body or the astral form is slain, the cord simply returns to your body where it rests on the Material Plane, thereby reviving it from its state of suspended animation.
+Although astral projections are able to function on the Astral Plane, their actions affect only creatures existing on the Astral Plane; a physical body must be materialized on other planes.
+You and your companions may travel through the Astral Plane indefinitely.
+Your bodies simply wait behind in a state of suspended animation until you choose to return your spirits to them.
+The spell lasts until you desire to end it, or until it is terminated by some outside means, such as dispel magic cast upon either the physical body or the astral form, the breaking of the silver cord, or the destruction of your body back on the Material Plane (which kills you)}}

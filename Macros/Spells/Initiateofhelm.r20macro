@@ -1,0 +1,25 @@
+
+
+Warning(Player's Guide to Faerûn): - Initiateofhelm(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Warning](https://dndtools.net/spells/players-guide-to-faerun--22/warning--2240/) }} {{School:= Divination  }} {{Level:= **Initiateofhelm 2**, Shaman 2, Sohei 2, Guardian 2}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=10 min./level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Divination}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell heightens the subject's senses and awareness of danger.
+The subject gains a +4 insight bonus on Listen and Spot checks and gains uncanny dodge for the duration of the spell, retaining its Dexterity bonus to AC (if any) regardless of being caught flat-footed or struck by an invisible attacker.
+(The subject still loses its Dexterity bonus to AC if immobilized)}}
+
+
+Forceward(Spell Compendium): - Initiateofhelm(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Forceward](https://dndtools.net/spells/spell-compendium--86/forceward--3795/) }} {{School:= Abjuration  [Force]}} {{Level:= **Initiateofhelm 3**, Sorcerer 4, Wizard 4, Paladin 3, KnightoftheWeave 3, Arcanist 4}} {{Components:= V, S}} {{Range:= 15 ft.}} {{Effect:=15-ft.-radius sphere centered on you}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc3}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Waving your arm about your head to trace the curve of a dome, you call up a hemisphere of force as clear as glass.**
+You create an unmoving, transparent sphere of force centered on you.  The sphere negates force effects and provides an impassable barrier against incorporeal creatures.  Spells with the force descriptor do not affect anything within the sphere, and any force spell that overlaps the area, such as wall of force, is automatically countered.  Incorporeal creatures, or creatures with the force descriptor must make a Will save to enter the area of the sphere.
+**Forceward** does not push a creature out of the way if you move toward an incorporeal creature or force effect and such creatures are treated as if they automatically succeeded on their saving throws against this spell}}
+
+
+Mace of Odo(Player's Guide to Faerûn): - Initiateofhelm(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mace of Odo](https://dndtools.net/spells/players-guide-to-faerun--22/mace-of-odo--2256/) }} {{School:= Evocation  [Force]}} {{Level:= **Initiateofhelm 3**}} {{Components:= V, S, DF}} {{Range:= 0 ft.}} {{Effect:=Mace of force}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude negates; see text }} {{Save DC:=[[@{spelldc3}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create a glowing mace of force that appears in your hand.
+You must make a melee touch attack to strike a target with the mace.
+If it hits, the mace of Odo deals 1d6 points of force damage per caster level (maximum 10d6).
+An undead target takes an additional +1 point of damage per caster level (maximum +10).
+Any creature struck by the mace must make a Fortitude save or be paralyzed for 1 round.
+You may attack once with the mace of Odo on the same round that you summoned it.
+The mace occupies your hand but does not disappear if you cast another spell.
+If you are targeted with a spell while holding the mace, you may choose to have the mace absorb that spell.
+When the mace strikes a creature, or is used to absorb a spell, or is removed from your grasp for any reason, it vanishes.
+The point in space where it vanished glows as though under the effect of a light spell for the remainder of the duration}}

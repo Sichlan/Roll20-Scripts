@@ -1,0 +1,84 @@
+
+
+Detect Chaos(Player's Handbook v.3.5): - Inquisition(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Detect Chaos](https://dndtools.net/spells/players-handbook-v35--6/detect-chaos--2485/) }} {{School:= Divination  }} {{Level:= **Inquisition 1**, Cleric 1, Adept 1, EbonmarInfiltrator 1, KnightoftheChalice 1, WuJen 1, DeathMaster 1, Savant 1, Cloistered Cleric 1}} {{Components:= V, S, DF}} {{Range:= 60 ft.}} {{Area:=Cone-shaped emanation}} {{Duration:=Concentration, up to 10 min./ level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/detect-evil--2486/">**detect evil**</a>, except that it detects the auras of chaotic creatures, clerics of chaotic deities, chaotic spells, and chaotic magic items, and you are vulnerable to an overwhelming chaotic aura if you are lawful}}
+
+
+Zone of Truth(Player's Handbook v.3.5): - Inquisition(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Zone of Truth](https://dndtools.net/spells/players-handbook-v35--6/zone-of-truth--2582/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Inquisition 2**, Cleric 2, Paladin 2, Savant 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=20-ft.-radius emanation}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Creatures within the emanation area (or those who enter it) can't speak any deliberate and intentional lies.
+Each potentially affected creature is allowed a save to avoid the effects when the spell is cast or when the creature first enters the emanation area.
+Affected creatures are aware of this enchantment.
+Therefore, they may avoid answering questions to which they would normally respond with a lie, or they may be evasive as long as they remain within the boundaries of the truth.
+Creatures who leave the area are free to speak as they choose}}
+
+
+Detect Thoughts(Player's Handbook v.3.5): - Inquisition(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Detect Thoughts](https://dndtools.net/spells/players-handbook-v35--6/detect-thoughts--2494/) }} {{School:= Divination  }} {{Level:= **Inquisition 3**, ThayanSlaver 1, UrbanDruid 2, Savant 2, DeathMaster 2, Sha'ir 2, WuJen 2, Bard 2, Beguiler 2, Vigilante 2, EbonmarInfiltrator 2, Wizard 2, Sorcerer 2, CourtHerald 2, Knowledge 2, Mentalism 2, Mind 2, Baator 3, Arcanist 2}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A copper piece}} {{Range:= 60 ft.}} {{Area:=Cone-shaped emanation}} {{Duration:=Concentration, up to 1 min./level (D)}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc3}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You detect surface thoughts.
+The amount of information revealed depends on how long you study a particular area or subject.
+1st Round: Presence or absence of thoughts (from conscious creatures with Intelligence scores of 1 or higher).
+2nd Round:Number of thinking minds and the Intelligence score of each.
+If the highest Intelligence is 26 or higher (and at least 10 points higher than your own Intelligence score), you are stunned for 1 round and the spell ends.
+This spell does not let you determine the location of the thinking minds if you can't see the creatures whose thoughts you are detecting.
+3rd Round: Surface thoughts of any mind in the area.
+A target's Will save prevents you from reading its thoughts, and you must cast detect thoughts again to have another chance.
+Creatures of animal intelligence (Int 1 or 2) have simple, instinctual thoughts that you can pick up.
+Each round, you can turn to detect thoughts in a new area.
+The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it}}
+
+
+Discern Lies(Player's Handbook v.3.5): - Inquisition(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Discern Lies](https://dndtools.net/spells/players-handbook-v35--6/discern-lies--2496/) }} {{School:= Divination  }} {{Level:= **Inquisition 4**, Paladin 3, VassalofBahamut 3, Cleric 4, KnightoftheChalice 4, Savant 4, Tyranny 3, Mechanus 4, Drow 4, Mind 4, Nobility 4, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level, no two of which can be more than 30 ft. apart}} {{Duration:=Concentration, up to 1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Each round, you concentrate on one subject, who must be within range.
+You know if the subject deliberately and knowingly speaks a lie by discerning disturbances in its aura caused by lying.
+The spell does not reveal the truth, uncover unintentional inaccuracies, or necessarily reveal evasions.
+Each round, you may concentrate on a different subject}}
+
+
+True Seeing(Player's Handbook v.3.5): - Inquisition(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [True Seeing](https://dndtools.net/spells/players-handbook-v35--6/true-seeing--2520/) }} {{School:= Divination  }} {{Level:= **Inquisition 5**, Cleric 5, KnightoftheWeave 5, Adept 5, Healer 5, Wizard 6, Sorcerer 6, Beguiler 6, WuJen 6, Sha'ir 6, CourtHerald 6, Druid 7, DeathMaster 7, UrbanDruid 7, Knowledge 5, Dragon 5, Trade 6, Cloistered Cleric 5, Arcanist 6}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc5}+@{sf-Divination}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You confer on the subject the ability to see all things as they actually are. The subject sees through normal and magical darkness, notices secret doors hidden by magic, sees the exact locations of creatures or objects under blur or displacement effects, sees invisible creatures or objects normally, sees through illusions, and sees the true form of polymorphed, changed, or transmuted things. Further, the subject can focus its vision to see into the Ethereal Plane (but not into extradimensional spaces). The range of true seeing conferred is 120 feet.
+True seeing, however, does not penetrate solid objects. It in no way confers X-ray vision or its equivalent. It does not negate concealment, including that caused by fog and the like. True seeing does  not help the viewer see through mundane disguises, spot creatures who are simply hiding, or notice secret doors hidden by mundane means. In addition, the spell effects cannot be further enhanced with known magic, so one cannot use true seeing through a crystal ball or in conjunction with clairaudience/clairvoyance.
+Material Component: An ointment for the eyes that costs 250 gp and is made from mushroom powder, saffron, and fat}}
+
+
+Geas/quest(Player's Handbook v.3.5): - Inquisition(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Geas/quest](https://dndtools.net/spells/players-handbook-v35--6/geasquest--2551/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Inquisition 6**, Bard 6, Cleric 6, Sorcerer 6, Wizard 6, WuJen 6, Sha'ir 6, DreadNecromancer 6, Domination 6, Charm 6, Fate 6, Nobility 6, Tyranny 6, Cloistered Cleric 6, Arcanist 6}} {{Components:= }} {{Range:= }} {{Target:=One living creature}}  {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions similarly to lesser geas, except that it affects a creature of any HD and allows no saving throw.
+Instead of taking penalties to ability scores (as with lesser geas), the subject takes 3d6 points of damage each day it does not attempt to follow the geas/quest.
+Additionally, each day it must make a Fortitude saving throw or become sickened.
+These effects end 24 hours after the creature attempts to resume the geas/quest.
+A remove curse spell ends a geas/quest spell only if its caster level is at least two higher than your caster level.
+Break enchantment does not end a geas/quest, but limited wish, miracle, and wish do.
+Bards, sorcerers, and wizards usually refer to this spell as geas, while clerics call the same spell quest}}
+
+
+Dictum(Player's Handbook v.3.5): - Inquisition(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dictum](https://dndtools.net/spells/players-handbook-v35--6/dictum--2605/) }} {{School:= Evocation  [Lawful][Sonic]}} {{Level:= **Inquisition 7**, Cleric 7, Law 7, Mechanus 7, Dwarf 7, Cloistered Cleric 7}} {{Components:= V}} {{Range:= 40 ft.}} {{Area:=Nonlawful creatures in a 40-ft.-radius spread centered on you}} {{Duration:=Instantaneous}} {{Savingthrow:=None or Will negates; see text }} {{Save DC:=[[@{spelldc7}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Any nonlawful creature within the area of a dictum spell suffers the following ill effects.
+The effects are cumulative and concurrent.
+No saving throw is allowed against these effects.
+Deafened: The creature is deafened for 1d4 rounds.
+Slowed: The creature is slowed, as by the slow spell, for 2d4 rounds.
+Paralyzed: The creature is paralyzed and helpless for 1d10 minutes.
+Killed: Living creatures die.
+Undead creatures are destroyed.
+Furthermore, if you are on your home plane when you cast this spell, nonlawful extraplanar creatures within the area are instantly banished back to their home planes.
+Creatures so banished cannot return for at least 24 hours.
+This effect takes place regardless of whether the creatures hear the dictum.
+The banishment effect allows a Will save (at a -4 penalty) to negate.
+Creatures whose HD exceed your caster level are unaffected by dictum}}
+
+
+Shield of Law(Player's Handbook v.3.5): - Inquisition(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shield of Law](https://dndtools.net/spells/players-handbook-v35--6/shield-of-law--2362/) }} {{School:= Abjuration  [Lawful]}} {{Level:= **Inquisition 8**, Cleric 8, Law 8, Celestia 8, Mechanus 8, Cloistered Cleric 8}} {{Components:= V, S, AF}} {{Arcane Focus:= A tiny reliquary containing some sacred relic, such as a scrap of parchment from a lawful text.
+The reliquary costs at least 500 gp}} {{Range:= 20 ft.}} {{Target:=One creature/level in a 20-ft.-radius burst centered on you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=See text (harmless)}} {{Save DC:=[[@{spelldc8}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A dim, blue glow surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by chaotic creatures, and slowing chaotic creatures when they strike the subjects.
+This abjuration has four effects.
+First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves.
+Unlike protection from chaos, this benefit applies against all attacks, not just against attacks by chaotic creatures.
+Second, a warded creature gains spell resistance 25 against chaotic spells and spells cast by chaotic creatures.
+Third, the abjuration blocks possession and mental influence, just as protection from chaos does.
+Finally, if a chaotic creature succeeds on a melee attack against a warded creature, the attacker is slowed (Will save negates, as the slow spell, but against shield of law's save DC)}}
+
+
+Imprisonment(Player's Handbook v.3.5): - Inquisition(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Imprisonment](https://dndtools.net/spells/players-handbook-v35--6/imprisonment--2333/) }} {{School:= Abjuration  }} {{Level:= **Inquisition 9**, Sorcerer 9, Wizard 9, WuJen 9, Sha'ir 9, UrbanDruid 9, Baator 9, Cavern 9, Arcanist 9}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc9}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast imprisonment and touch a creature, it is entombed in a state of suspended animation (see the temporal stasis spell) in a small sphere far beneath the surface of the earth.
+The subject remains there unless a freedom spell is cast at the locale where the imprisonment took place.
+Magical search by a crystal ball, a locate object spell, or some other similar divination does not reveal the fact that a creature is imprisoned, but discern location does.
+A wish or miracle spell will not free the recipient, but will reveal where it is entombed.
+If you know the target's name and some facts about its life, the target takes a -4 penalty on its save}}

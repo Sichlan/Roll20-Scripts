@@ -1,0 +1,78 @@
+
+
+Cause Fear(Player's Handbook v.3.5): - Blackwater(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Cause Fear](https://dndtools.net/spells/players-handbook-v35--6/cause-fear--2716/) }} {{School:= Necromancy  [Fear]}} {{Level:= **Blackwater 1**, Bard 1, DeathMaster 1, Sha'ir 1, DeathDelver 1, Duskblade 1, Vigilante 1, DiscipleofThrym 1, Adept 1, DreadNecromancer 1, Wizard 1, Sorcerer 1, Cleric 1, Jester 1, Death 1, Abyss 1, Orc 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature with 5 or fewer HD}} {{Duration:=1d4 rounds or 1 round; see text}} {{Savingthrow:=Will partial }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The affected creature becomes frightened. If the subject succeeds on a Will save, it is shaken for 1 round. Creatures with 6 or more Hit Dice are immune to this effect.
+**Cause fear** counters and dispels <a href="/spells/players-handbook-v35--6/remove-fear--2353/">**remove fear**</a>}}
+
+
+Pressure Sphere(Stormwrack): - Blackwater(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Pressure Sphere](https://dndtools.net/spells/stormwrack--87/pressure-sphere--3348/) }} {{School:= Evocation  [Water]}} {{Level:= **Blackwater 2**, Druid 2, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=20-ft.-radius spread}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude half }} {{Save DC:=[[@{spelldc2}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell suddenly causes the water around a target to take on the terrible, bone-crushing pressure of the deepest ocean trenches.
+This pressure deals 4d6 points of damage (Fortitude save for half).
+The area of the spell can be constrained by the available water; it has no effect on creatures or objects that are within the radius but not in the water, or on squares of water that are not at least 5 feet deep.
+The spell must be centered at or below the surface of the water}}
+
+
+Transformation of the Deeps(Stormwrack): - Blackwater(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Transformation of the Deeps](https://dndtools.net/spells/stormwrack--87/transformation-of-the-deeps--3369/) }} {{School:= Transmutation  }} {{Level:= **Blackwater 4**, Druid 5, Sorcerer 5, Wizard 5, Arcanist 5}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=One creature/3 levels}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=None (harmless)}}  {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The creature you touch undergoes a transformation that allows it to survive in the terrible lightless depths of the oceans.
+This creates subtle changes in the spell's target, whose eyes become completely black and whose flesh becomes hard and cold.
+The target of this spell gains the ability to breathe water and is rendered immune to damage from both the temperature and the pressure in extreme depths of water.
+Additionally, she gains darkvision out to 60 feet.
+Material Component: A bit of stone or mud from a deep ocean trench}}
+
+
+Blackwater Tentacle(Stormwrack): - Blackwater(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blackwater Tentacle](https://dndtools.net/spells/stormwrack--87/blackwater-tentacle--3331/) }} {{School:= Conjuration (Creation) [Evil][Water]}} {{Level:= **Blackwater 5**, Druid 5, Sorcerer 5, Wizard 5, Arcanist 5}} {{Components:= V, S, M}} {{Material Component:= Powdered squid beak and a single dried sucker from a kraken's tentacle}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One tentacle}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc5}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create a tentacle-shaped mass of blackwater, drawn from the deepest ocean trenches, to attack an enemy as you direct it.
+The tentacle appears at a particular point within range and can't move from that location.
+It attacks the opponent you designate once each round, starting with the round the spell is cast.
+It has a reach of 20 feet (though it can't make attacks of opportunity).
+Its attack bonus is equal to your caster level plus the ability modifier you would normally use to set the save DC (Wisdom for cleric or druid, Intelligence for wizard, Charisma for sorcerer).
+The tentacle deals 2d8 + caster level (max.
++20) points of damage with a successful hit.
+Any Large or smaller creature hit by a blackwater tentacle must succeed on a Fortitude save or gain a negative level.
+Multiple hits by the same tentacle are cumulative, but the negative levels last only for the duration of the spell.
+The tentacle never provides nor benefits from a flanking bonus.
+Once a tentacle has been directed to attack a foe, it continues to do so until the spell is redirected to a new target (a move action).
+The tentacle has 5 hit points per caster level and an AC of 10 + your caster level.
+It automatically fails all saves.
+If reduced to 0 hp, the tentacle is destroyed}}
+
+
+Blackwater Taint(Stormwrack): - Blackwater(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blackwater Taint](https://dndtools.net/spells/stormwrack--87/blackwater-taint--3353/) }} {{School:= Necromancy  [Evil][Water]}} {{Level:= **Blackwater 6**, Sorcerer 6, Wizard 6, Arcanist 6}} {{Components:= V, S, M}} {{Material Component:= Bone or scale of a fish that dwells in the deep, sunless parts of the ocean}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=20-ft. radius}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc6}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=In the dark, sunless abysses of the deep ocean, shadows gather, the cold beckons, and the corpses of many things in the oceans lie slowly rotting.
+These black waters are often poisoned with the energies of undeath.
+When this spell is cast, you call up the cold blackness of those stygian depths, infusing the waters in the spell's area with negative energy.
+Those in or entering the area must make a Fortitude save to resist its terrible power.
+Those who fail the save are chilled to the bone, taking 1d6 points of damage per two levels (to a maximum of 10d6) and gain a negative level.
+Those who make the save take half damage and avoid the negative level.
+All undead in the area are healed of 1d6 points of damage per two caster levels (maximum of 10d6).
+Furthermore, the spell's area is treated as though there were a desecrate spell active within it.
+This area of blackwater remains in place for the spell's duration, affecting creatures who enter the area in subsequent rounds.
+A creature can only be affected once by the spell, regardless of success or failure on the saving throw, so creatures who leave and reenter the area take no additional effect (although the desecrate effect remains throughout the spell's duration)}}
+
+
+Dark Tide(Stormwrack): - Blackwater(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dark Tide](https://dndtools.net/spells/stormwrack--87/dark-tide--3354/) }} {{School:= Necromancy  [Evil][Water]}} {{Level:= **Blackwater 7**}} {{Components:= V, S, DF}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=One-half mile radius spread}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=Fortitude half }} {{Save DC:=[[@{spelldc7}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You infuse the target area with the enervating essence of the blackwater depths, creating a tide of blackwater that spreads out from the designated point of origin at a rate of 100 feet per round until it fills the entire area.
+The water is black and terribly chilling, and its touch causes a sense of fear in those affected by it.
+Those within the area must make a Fortitude save when they first enter the blackwater (or when it first surrounds
+them).
+Failure indicates that they take 1 point of Strength damage.
+Additionally, every creature in the area takes 1d6 points of negative energy damage for every hour they remain in the dark, murky waters (no save).
+Spells that protect against negative energy damage will prevent the Strength damage.
+Creatures who take damage from the dark tide are considered shaken as long as they remain in the area.
+This spell is a favored first move by sahuagin and other blackwater-dwelling creatures before they attack the settlements of their enemies}}
+
+
+Maelstrom(Spell Compendium): - Blackwater(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Maelstrom](https://dndtools.net/spells/spell-compendium--86/maelstrom--4459/) }} {{School:= Conjuration (Creation) [Water]}} {{Level:= **Blackwater 8**, Druid 8, Ocean 8}} {{Components:= V, S, DF}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Effect:=A whirlpool 120 ft. wide and 60 ft. deep}} {{Duration:=1 round/level}} {{Savingthrow:=Reflex negates; see text }} {{Save DC:=[[@{spelldc8}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Whirling about your hand and pulling it down, your magic reaches out and does the same to the water but on a titanic scale, creating a vortex of sucking waves.**
+Maelstrom causes a deadly vortex to form in water. A body of water in which you form the maelstrom must be at least 120 feet wide and 60 feet deep, or the spell is wasted.
+Waterborne creatures or objects within 50 feet of the vortex (below and on all sides) must make successful Reflex saves or be sucked in. Trained swimmers can attempt Swim checks instead if their skill modifier is higher than their Reflex save bonus. Waterborne vessels avoid being sucked in if their operators make Profession (sailor) checks against the same DC as the spell's saving throw. These creatures and objects take 3d8 points of damage upon being sucked in.
+Once inside, creatures and objects take 3d8 points of bludgeoning damage each round at the beginning of your turn. They remain trapped for 2d4 rounds, after which time they are ejected to any square adjacent to the bottom of the vortex (your choice). Ejected subjects might be sucked back into the vortex, but they receive a new Reflex save. Subjects of Large or smaller size are ejected from the bottom of the vortex. Larger subjects are ejected from the top}}
+
+
+Doom of the Seas(Stormwrack): - Blackwater(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Doom of the Seas](https://dndtools.net/spells/stormwrack--87/doom-of-the-seas--3332/) }} {{School:= Conjuration (Summoning) [Evil]}} {{Level:= **Blackwater 9**, Druid 9}} {{Components:= V, S, DF, XP}} {{XP-Cost= 500 XP}} {{Range:= Touch}} {{Effect:=One summoned creature}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=It is said that in the deepest recesses of blackwater caverns dwell krakens of immense power, horrific creatures touched by malevolent extraplanar powers.
+Though this might certainly be true, it is likely that most experiences with such creatures comes as a result of this spell.
+With this spell, you summon a fiendish kraken from the depths.
+(The statistics block for this creature appears below).
+The doom of the seas obeys you for the duration of the spell.
+XP Cost: }}

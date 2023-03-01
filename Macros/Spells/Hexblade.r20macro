@@ -1,0 +1,367 @@
+
+
+Armor Lock(Complete Scoundrel): - Hexblade(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Armor Lock](https://dndtools.net/spells/complete-scoundrel--60/armor-lock--910/) }} {{School:= Transmutation  }} {{Level:= **Hexblade 1**, Bard 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature wearing armor}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The plates and joints of your opponent's armor become as rigid as stone, encumbering his movement.
+You cause the target's armor to swell and stiffen, slowing the wearer's movement and trapping him within.
+The target's land speed is reduced to 10 feet.
+If the target has a burrow, climb, or swim speed, these are also reduced to 10 feet.
+The target also loses any Dexterity bonus to AC for the duration of the spell.
+While affected by this spell, the target cannot remove his armor; its joints are too tight and restrictive to escape from.
+This spell has no effect on unarmored opponents, creatures with only natural armor or an AC bonus from items other than armor, or those using only shields}}
+
+
+Augment Familiar(Spell Compendium): - Hexblade(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Augment Familiar](https://dndtools.net/spells/spell-compendium--86/augment-familiar--3853/) }} {{School:= Transmutation  }} {{Level:= **Hexblade 1**, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Your familiar}} {{Duration:=Concentration + 1 round/level}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Reaching out with magic, you empower your familiar, making it quicker and stronger.**
+This spell grants your familiar a +4 enhancement bonus to Strength, Dexterity, and Constitution, damage reduction 5/magic, and a +2 resistance bonus on saving throws}}
+
+
+Bloodletting(Complete Mage): - Hexblade(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Bloodletting](https://dndtools.net/spells/complete-mage--58/bloodletting--849/) }} {{School:= Necromancy  }} {{Level:= **Hexblade 1**, Assassin 1}} {{Components:= S}} {{Range:= Touch}} {{Target:=One light weapon you hold}} {{Duration:=See text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With a simple flourish you turn a small weapon into a deadly implement.
+You imbue a light weapon you hold in your hand with the power to wound grievously.
+The next time that weapon deals damage to a living creature, the wound continues to bleed, dealing an extra 1d6 points of damage each round for the remainder of the spell's duration.
+A successful DC 15 Heal check or at least 1 point of magical healing stops this additional damage.
+A creature that is struck by the weapon but takes no damage from the initial attack (such as because of damage reduction) doesn't trigger the spell's effect.
+Check to overcome a target's spell resistance when you first strike the creature.
+If the check fails, the spell has no effect and is discharged, but the weapon still deals damage normally.
+The spell lasts for 3 rounds.
+If you don't deal damage to a living creature during the 3 rounds after casting the spell, it ends with no effect.
+The bleeding effect begins in the round when the creature is struck by the ensorcelled weapon and lasts until the spell ends (if struck on the first round after casting, the subject bleeds for 3 rounds; if struck in the second round after casting, the subject bleeds for 2 rounds, and so on).
+The spell ends immediately if the weapon leaves your hand}}
+
+
+Catsfeet(Complete Mage): - Hexblade(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Catsfeet](https://dndtools.net/spells/complete-mage--58/catsfeet--870/) }} {{School:= Transmutation  }} {{Level:= **Hexblade 1**, Assassin 1, Bard 1}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=Instantaneous}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As you complete this spell, you feel as lithe and quick as a cat.
+When you cast this spell, you can immediately reroll a Balance, Climb, Jump, or Move Silently check that you have just rolled.
+This second roll gains a +5 insight bonus.
+You must abide by the second result, even if it is worse than the first}}
+
+
+Death's Call(Complete Mage): - Hexblade(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Death's Call](https://dndtools.net/spells/complete-mage--58/deaths-call--852/) }} {{School:= Necromancy  [Sonic]}} {{Level:= **Hexblade 1**, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V}} {{Range:= 10 ft.}} {{Area:=10-ft.-radius burst, centered on you}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You release a scream that chills the air with deathly energy.
+All living creatures within the area (other than you) take 1 point of damage per caster level (maximum 5) and become fatigued.
+A successful Fortitude save negates the fatigue.
+Any swarm in the area of death's call instead takes 1d4 points of damage per caster level (maximum 5d4) and becomes fatigued (Fortitude save negates fatigue).
+This supersedes the normal +50% damage dealt to a swarm by an area spell}}
+
+
+Detect Weaponry(CityScape): - Hexblade(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Detect Weaponry](https://dndtools.net/spells/cityscape--53/detect-weaponry--357/) }} {{School:= Divination  }} {{Level:= **Hexblade 1**, Bard 1, Cleric 1, EbonmarInfiltrator 1, Paladin 1, Sorcerer 1, Wizard 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=Cone-shaped emanation}} {{Duration:=Concentration, up to 10 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With your final utterance, tiny bits of the world around you begin to glow.
+The points of light grow in brightness and size, finally taking the general dimensions of swords, axes, and other implements of death.
+You can detect the presence of weapons in a cone emanating out from you in whatever direction you face.
+A &quot;weapon&quot; is generally defined as any manufactured weapon.
+The spell detects improvised weapons such as bottles or pitchforks only if the wielder actively intends to use such an item as a weapon.
+The amount of information revealed by this spell depends on how long you search a particular area.
+1st Round: Presence or absence of weapons.
+2nd Round: Number of weapons in the area.
+3rd Round: Specific locations of the weapons and the type of damage they deal (bludgeoning, piercing, or slashing).
+This spell does not reveal if weapons are magical, or anything else about them.
+Weapons hidden by secret weapon, or borne by individuals who are under the effect of a nondetection spell, do not register.
+Each round, you can turn to detect weapons in a new area.
+The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet or wood or dirt blocks it}}
+
+
+Distract Assailant(Spell Compendium): - Hexblade(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Distract Assailant](https://dndtools.net/spells/spell-compendium--86/distract-assailant--4404/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Hexblade 1**, Assassin 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 round}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Buzzing under your breath like a fly, you swat at the sky and toss the fly's wing in your hand into the air. The target of your spell becomes distracted, starting at shadows and looking about for unseen assailants.**
+A creature affected by this spell is flat-footed until the beginning of its next turn.
+**Material Component:** The dried wing of a fly}}
+
+
+Karmic Aura(Complete Mage): - Hexblade(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Karmic Aura](https://dndtools.net/spells/complete-mage--58/karmic-aura--765/) }} {{School:= Abjuration  }} {{Level:= **Hexblade 1**, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V}} {{Range:= 20 ft.}} {{Area:=20-ft.-radius emanation, centered on you}} {{Duration:=1 round/level}} {{Savingthrow:=Will partial }} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You feel the currents of fate flow through you, tugging on the strings of chance.
+While this spell is in effect, any creature within range that deals damage to you with an attack, spell, or other effect becomes fatigued for 3 rounds. A successful Will save indicates that the attacker is unaffected and immune to the spell's effect until the start of your next turn, but must save again if he damages you after that point. An attacker already fatigued suffers no additional effect from this spell.
+**Karmic aura**, <a href="/spells/complete-mage--58/karmic-backlash--767/">**karmic backlash**</a>, and <a href="/spells/complete-mage--58/karmic-retribution--766/">**karmic retribution**</a> interact in an unusual fashion. If you have more than one of these spells active at once, the subject must save against each spell in descending order of spell level. If he fails any of these saves, he is automatically fails any save against any lower-level spell of the set that you have active. (Spell resistance still applies to each effect separately).
+For example, suppose you have all three spells active when a foe strikes you. He first attempts to save  against karmic retribution. If that save fails, he is treated as if he had failed his saving throws against all three spells. If the first save succeeds, but the save against karmic backlash fails, he is treated as if  he had failed his saves against both that spell and karmic aura. Only if he succeeds on both of the first two saves is he entitled to a save against karmic aura}}
+
+
+Mage Burr(Complete Scoundrel): - Hexblade(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mage Burr](https://dndtools.net/spells/complete-scoundrel--60/mage-burr--914/) }} {{School:= Transmutation  }} {{Level:= **Hexblade 1**, Bard 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature wearing armor or using a shield}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Sharp ridges, split leather, and cracking patches of rust spread over your enemy's armor like an angry, irritating disease.
+Jagged edges and rough surfaces break forth all over the target creature's armor and shield.
+These protrusions deal no damage and are little more than an uncomfortable annoyance.
+Arcane spellcasters, however, find the effect most distracting, incurring double the normal arcane spell failure chance for armor and shields.
+In addition, any creature affected by this spell takes a -5 penalty on Concentration checks.
+The check penalty does not worsen if an affected creature is both wearing armor and using a shield.
+For example, a wizard wearing chainmail and carrying a light steel shield would normally have a 35% chance of arcane spell failure.
+That wizard, if targeted by this spell, would incur a 70% chance of arcane spell failure, as well as taking a -5 penalty on Concentration checks.
+This spell has no effect on unarmored opponents or on creatures with only natural armor or an AC bonus from items other than armor}}
+
+
+Peacebond(CityScape): - Hexblade(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Peacebond](https://dndtools.net/spells/cityscape--53/peacebond--361/) }} {{School:= Transmutation  }} {{Level:= **Hexblade 1**, Cleric 1, Paladin 1, Sorcerer 1, Wizard 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, M}} {{Material Component:= A small strip of cloth or a leather thong}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One weapon}} {{Duration:=10 min./level (D)}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The weapon glows faintly, and seems to settle more firmly into its sheathe.
+The weapon targeted by this spell remains stuck in its sheath, holder, quiver, or whatever object is used to hold it when not in use.
+A "weapon" is defined as any manufactured weapon.
+No amount of physical effort can draw it forth before the spell expires or is dispelled.
+The precise nature of the holder doesn't matter; it can be an ornate sheath, or simply a belt through which the weapon has been stuck.
+The weapon glows faintly for the duration of the spell.
+This spell has no effect on weapons currently held in the hand or otherwise not contained in some sort of holder.
+If the bearer of the targeted weapon is attacked, he is immediately entitled to a second save to overcome the effect and draw the weapon.
+The bearer can repeat this save in every round that the assault continues}}
+
+
+Phantom Threat(Spell Compendium): - Hexblade(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Phantom Threat](https://dndtools.net/spells/spell-compendium--86/phantom-threat--4629/) }} {{School:= Illusion (Phantasm) }} {{Level:= **Hexblade 1**, Bard 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Reaching out to your foe's mind, you cause him to feel as though a threat looms close behind no matter which way he turns.**
+You create the sensation in the subject's mind that it is threatened by more foes than it actually faces. Though the subject doesn't actually perceive any additional enemies (and thus doesn't waste any attacks on the phantasm), a creature affected by this spell is considered flanked, even if not threatened by other creatures. No amount of convincing by others can help the subject of this spell avoid its effect&#8212;only a successful saving throw against the spell when initially cast can help the target. A creature that can't be flanked is immune to this spell}}
+
+
+Reaving Aura(Complete Mage): - Hexblade(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Reaving Aura](https://dndtools.net/spells/complete-mage--58/reaving-aura--858/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Hexblade 1**, Assassin 1, Cleric 1, Sorcerer 1, Wizard 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V}} {{Range:= 10 ft.}} {{Area:=10-ft.-radius emanation, centered on you}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The air around you turns black as it floods with negative energy.
+This spell deals 1 point of damage to every creature in the area that has 0 or fewer hit points.
+Stable creatures that were at -1 to -8 hit points become dying, while creatures at -9 hit points die immediately.
+This spell has no effect on creatures that have 0 or more hit points}}
+
+
+Adoration of the Frightful(Dragon Magic): - Hexblade(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Adoration of the Frightful](https://dndtools.net/spells/dragon-magic--62/adoration-of-the-frightful--1062/) }} {{School:= Enchantment (Charm) }} {{Level:= **Hexblade 2**, Bard 3, Cleric 3, Sorcerer 3, Wizard 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V}} {{Range:= 60 ft.}} {{Area:=60-ft. radius emanation, centered on you}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A thunderous rumble echoes from within you, washing over cowed creatures and forcing them to show you respect.
+Upon casting this spell, you radiate a magical aura that causes fearful creatures to shy away from harming you. While this spell is in effect, any creature within the spell's area that is shaken, frightened, or panicked has its attitude toward you shifted to friendly (see Influencing <span class="caps">NPC</span> Attitudes, PH 72).
+This effect ends for a given creature if the fear effect is removed, or if you or an ally attacks the creature or otherwise takes any hostile act toward it.
+Special: A character who learns this spell gains a +1 competence bonus on Diplomacy checks}}
+
+
+Animate Weapon(Complete Mage): - Hexblade(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Animate Weapon](https://dndtools.net/spells/complete-mage--58/animate-weapon--866/) }} {{School:= Transmutation  }} {{Level:= **Hexblade 2**, Assassin 2, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Weapon touched}} {{Duration:=Concentration + 1 round}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your weapon leaps from your hands, suddenly capable of fighting on its own.
+A weapon affected by this spell gains the ability to move and attack on its own and functions in most ways like an animated object of its size (MM 13).
+Treat a light weapon as an object two size categories smaller than its wielder, a one-handed weapon as one size category smaller than its wielder, and a two-handed weapon as an object of the same size as its wielder.
+However, the weapon deals its normal damage, not the damage noted for an animated object of its size, and it gains a bonus on attack rolls equal to the ability modifier used to set your spell save DCs.
+Diminutive or smaller objects are unaffected by the spell.
+An animated weapon attacks the nearest enemy to the best of its ability.
+You can use a move action to direct it to a different target, but if at the end of your turn you are more than 30 feet from the weapon, the spell ends.
+A weapon held or carried by another creature can't be affected by this spell.
+The weapon doesn't gain the benefit of any of your class features, feats, or other special abilities that would improve its combat ability.
+If the weapon has an enhancement bonus or other special properties, these apply as normal.
+For example, an animated +1 flaming longsword gains a +1 enhancement bonus on attack rolls and damage rolls and deals an extra 1d6 points of fire damage on a successful hit}}
+
+
+Arcane Turmoil(Complete Mage): - Hexblade(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Arcane Turmoil](https://dndtools.net/spells/complete-mage--58/arcane-turmoil--761/) }} {{School:= Abjuration  }} {{Level:= **Hexblade 2**, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= A broken eggshell}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=Instantaneous}} {{Savingthrow:=None or Will partial; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As you make the final spell gesture, the look in your rival's eyes gives evidence enough of the chaos rampaging through his mind.
+You affect the subject of the spell as if by the targeted variant of dispel magic.
+Additionally, if the subject is a spellcaster who fails a Will save, she loses one randomly determined prepared spell or spell slot from her highest level of available spells remaining.
+This spell or spell slot is lost as if it had been cast or used for the day}}
+
+
+Bothersome Babble(Complete Mage): - Hexblade(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Bothersome Babble](https://dndtools.net/spells/complete-mage--58/bothersome-babble--808/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Hexblade 2**, Bard 2, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=3 rounds}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A sudden confused look appears on your target's face as the words coining from his mouth become nonsense.
+The subject can't make himself understood through verbal communication.
+No matter how hard he tries, he can't speak a language, but only utters nonsense sounds.
+His ability to write is unimpeded.
+To cast a spell with a verbal component, the subject must succeed on a Concentration check; the DC equals this spell's save DC + level of the spell to be cast.
+If you cast bothersome babble on a creature currently affected by a previous casting of the spell, the second spell has a different effect.
+As long as both spells' durations last, the subject's speech is physically painful to it.
+In any round in which the creature speaks, it takes 1d8 points of damage.
+Treat this as continuous damage for the purpose of making Concentration checks to cast spells.
+When the first duration ends, this secondary effect is replaced by the normal effect of the spell}}
+
+
+Crisis of Confidence(Heroes of Battle): - Hexblade(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Crisis of Confidence](https://dndtools.net/spells/heroes-of-battle--69/crisis-of-confidence--1405/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Hexblade 2**, Bard 3}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You strip away the target's leadership qualities, leaving the creature virtually incapable of commanding troops.
+The target may not add its Charisma bonus (if any) to rally checks.
+The target's commander rating (if any) is reduced to 0, and it loses any commander aura(s) it possesses.
+The target can add its commander rating (if any) as a bonus on its Will save.
+See Chapter 4 for more details on rally checks, commander ratings, and commander auras}}
+
+
+Divest Essentia(Magic of Incarnum): - Hexblade(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Divest Essentia](https://dndtools.net/spells/magic-of-incarnum--74/divest-essentia--1834/) }} {{School:= Necromancy  }} {{Level:= **Hexblade 2**, Assassin 2, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=By delivering a jolt of magical energy to your target, you scramble his personal essence, causing all essentia he has currently invested (with some exceptions; see below) to return to his essentia pool as if the target had set his essentia investment to 0.
+This doesn't prevent the target from reinvesting essentia normally on his next turn, but it might make him vulnerable in the meantime.
+Essentia invested in an incarnum feat or other receptacle that can't be reallocated by the target as a swift action can't be affected by this spell}}
+
+
+Karmic Backlash(Complete Mage): - Hexblade(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Karmic Backlash](https://dndtools.net/spells/complete-mage--58/karmic-backlash--767/) }} {{School:= Abjuration  }} {{Level:= **Hexblade 2**, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your magic influences the flow of fate, doing harm to all who would dare attack you.
+This spell functions like <a href="/spells/complete-mage--58/karmic-aura--765/">**karmic aura**</a>, except that any creature that damages you and fails its Will save becomes exhausted for 2 rounds}}
+
+
+Magical Backlash(Drow of the Underdark): - Hexblade(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Magical Backlash](https://dndtools.net/spells/drow-of-the-underdark--93/magical-backlash--1119/) }} {{School:= Abjuration  }} {{Level:= **Hexblade 2**, Bard 2, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude half }} {{Save DC:=[[@{spelldc2}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With a word and a gesture, the target flares with crackling, violet-colored energy.
+Magical backlash causes any spells affecting the target to resonate painfully.
+For each spell currently in effect on the target (not counting magical backlash itself), magical backlash deals 2 points of damage per level of that spell.
+For example, a creature targeted by magical backlash that is under the effects of bull's strength, blur, and mage armor spells would take 4 points of damage for bull's strength, 4 for blur, and 2 more for mage armor for a total of 10 points of damage}}
+
+
+Shadow Double(Drow of the Underdark): - Hexblade(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shadow Double](https://dndtools.net/spells/drow-of-the-underdark--93/shadow-double--1123/) }} {{School:= Illusion (Shadow) }} {{Level:= **Hexblade 2**, Assassin 1, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One shadowy duplicate}} {{Duration:=1 round/level}} {{Savingthrow:=Will disbelief }} {{Save DC:=[[@{spelldc2}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You complete the incantation and nearby shadows gather together, assuming your approximate size and shape.
+You create a shadowy duplicate of yourself at a place you indicate within range.
+The shadow double attacks any adjacent target (regardless of the weapon it appears to wield), as you desire, starting in the round when you cast the spell.
+It attacks on your turn once each round, striking with an attack bonus equal to your base attack bonus + the modifier for your spell save DCs.
+Each hit deals 1 point of Strength damage to the target.
+The first time a target is hit, it can attempt a Will save to disbelieve the effect; this negates the damage and renders it immune to further attacks by the shadow double.
+The shadow double occupies a space identical to yours.
+It is not incorporeal, and thus can't share a space with another creature or object.
+It can provide a flanking bonus against any creature that hasn't yet saved successfully against it.
+The shadow double can strike incorporeal creatures, but not ethereal creatures.
+Each round after the first, you can use a standard action to direct the shadow double to attack any other target.
+To attack this new target, the shadow double can move to any new legal space within 30 feet (it moves by instantaneous teleportation).
+If it is not commanded to switch targets, it continues to attack the same target.
+A shadow double can be attacked.
+It has an Armor Class equal to 10 + your size modifier + a deflection bonus equal to the modifier for your spell save DCs, and has one-fifth of your full normal hit points.
+If the shadow double is reduced to 0 hit points, or if you create a second shadow double when the first still exists, the spell ends}}
+
+
+Soul Blight(Magic of Incarnum): - Hexblade(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Soul Blight](https://dndtools.net/spells/magic-of-incarnum--74/soul-blight--1836/) }} {{School:= Necromancy  }} {{Level:= **Hexblade 2**, Assassin 2, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One creature}} {{Duration:=Instantaneous}} {{Savingthrow:=Will half }} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You rip away some of the target's personal essence, temporarily damaging the target's essentia pool.
+You deal 1d4 points of essentia damage plus 1 additional point for every three caster levels, to a maximum of 1d4+3 points at caster level 9th.
+Creatures that do not have essentia pools suffer no ill effects from this spell.
+Material Component: A tiny crystal vial}}
+
+
+Suppress Magic(Magic of Incarnum): - Hexblade(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Suppress Magic](https://dndtools.net/spells/magic-of-incarnum--74/suppress-magic--1813/) }} {{School:= Abjuration  }} {{Level:= **Hexblade 2**, Cleric 2, Sorcerer 2, Wizard 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One object or soulmeld}} {{Duration:=1 round/level (D)}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc2}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You attempt to suppress the functioning of a single magic item or soulmeld.
+If you succeed on a caster level check against the item or soulmeld (against a DC of 11 + meldshaper level), the item or soulmeld loses all magical properties for the duration of the spell.
+This is identical to the effect of a dispel magic spell targeted on an object, except for duration and your ability to invest essentia to improve your caster level check.
+This spell has no effect on ongoing spell effects, even if those effects are on items (such as greater magic weapon).
+Essentia: Every point of essentia invested in this spell grants you a +2 insight bonus on your caster level check to suppress the item.
+If the spell fails to affect the item, the invested essentia immediately returns to your pool}}
+
+
+Swift Ready(The Forge of War): - Hexblade(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Swift Ready](https://dndtools.net/spells/forge-war--105/swift-ready--3562/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Hexblade 2**, Artificer 2, Assassin 2, Bard 2, Duskblade 2}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=One, two, or three specific objects; see text}} {{Duration:=24 hours or until invoked; see text}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can cast this spell on one or more of the following groups of items:
+<ul><li>One suit of armor or other item of clothing (such as a robe or cloak); plus either</li></ul><ul><li>One or two weapons, tools, or magic items, each small enough to be wielded in a single hand; or</li></ul><ul><li>One weapon, tool, or magic item that is normally wielded in both hands.</li></ul>Thus, for instance, you could cast the spell on a robe and a staff, or on a suit of armor, a longsword, and a shield. At any time before the spell expires, you can, as a swift action, cause the affected equipment to instantly appear on your body or in your grasp, as though you had taken the time to properly don and prepare it. You must have line of sight to the equipment, and it cannot be in the possession of any other creature. Invoking the spell causes the duration to end instantly}}
+
+
+Fracturing Weapon(The Forge of War): - Hexblade(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fracturing Weapon](https://dndtools.net/spells/forge-war--105/fracturing-weapon--3548/) }} {{School:= Transmutation  }} {{Level:= **Hexblade 3**, Assassin 4, Blackguard 4, Duskblade 4, Paladin 4, Cleric 5, Cloistered Cleric 5}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Melee weapon touched}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Once per round for the spell?s duration, the wielder of the targeted weapon can declare a single melee attack to be a fracturing blow. If that attack successfully deals damage to an opponent, the foe takes a ?5 penalty to Armor Class and damage reduction (if any, to a minimum of 0).
+The penalties are applied after the damage from the fracturing weapon attack has been resolved. The penalties last for a single round, but the wielder can attack it again on his or her next turn and attempt to reinvoke the penalty.<}}
+
+
+Hood of the Cobra(Complete Mage): - Hexblade(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Hood of the Cobra](https://dndtools.net/spells/complete-mage--58/hood-of-the-cobra--839/) }} {{School:= Illusion (Phantasm) [Fear]}} {{Level:= **Hexblade 3**, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 round/3 levels; see text}} {{Savingthrow:=Will disbelief, then Fortitude negates }} {{Save DC:=[[@{spelldc3}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=In the mind of your victim, the hood of a king cobra spreads from your head, neck, and back, your eyes become those of a great serpent, and dripping fangs sprout from your jaws.
+The subject perceives that you have grown serpentine features, including a cobra's hood, a snake's slitted eyes, and venomous fangs.
+A successful Will save allows him to recognize the illusion as unreal, which ends the spell's effect.
+However, if the Will save fails, the subject is shaken for as long as he can see you.
+Closing his eyes negates this effect but also effectively blinds him.
+In addition, if you make a successful melee touch attack (a standard action) against the target while the spell's duration lasts, he believes that he has been bitten by a venomous serpent and takes 1d6 points of Constitution damage (Fortitude negates).
+Unlike normal poison, this attack has no secondary damage, though you can continue to &quot;bite&quot; the subject each round.
+Immunity or resistance to poison applies normally against this effect, even though it isn't real poison (the subject and his body both believe it to be real)}}
+
+
+Hound of Doom(Complete Warrior): - Hexblade(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Hound of Doom](https://dndtools.net/spells/complete-warrior--61/hound-of-doom--924/) }} {{School:= Illusion (Shadow) }} {{Level:= **Hexblade 3**}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=Shadowy hound}} {{Duration:=1 minute/level (D) or until destroyed}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You shape the essence of the Plane of Shadow to create a powerful doglike companion that serves you loyally for the duration of the spell.
+The hound of doom has the statistics of a dire wolf (see page 65 of the Monster Manual) with the following adjustments: It gains a deflection bonus to Armor Class equal to your Charisma bonus, its hit points when created are equal to your full normal hit points, and it uses your base attack bonus instead of its own (adding its +7 bonus from Strength and -1 penalty from size as normal).
+You can command a hound of doom as a move action just as if it were fully trained to perform all the tricks listed in the Handle Animal skill (see page 74 of the Player's Handbook).
+If a hound of doom's hit points are reduced to 0, it is destroyed.
+A hound of doom is treated as a magical beast for the purpose of spells and effects, but it can also be dispelled.
+You can only have one hound of doom in existence at a time.
+If you cast a second hound of doom spell while the first is still active, the first hound is instantly dispelled}}
+
+
+Nightmare Terrain(Complete Mage): - Hexblade(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Nightmare Terrain](https://dndtools.net/spells/complete-mage--58/nightmare-terrain--843/) }} {{School:= Illusion (Shadow) }} {{Level:= **Hexblade 3**, Assassin 3, Bard 3, Sorcerer 4, Wizard 4, Arcanist 4}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=Five 10-ft. cubes + one 10-ft. cube/level (S)}} {{Duration:=1 round/level}} {{Savingthrow:=Will disbelief (if interacted with) }} {{Save DC:=[[@{spelldc3}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You cloak your surroundings with phantasmagoric figures, creating a horrific dreamscape.
+You make any terrain look, sound, and smell like something out of a nightmare.
+Writhing vegetation, disembodied limbs, animated corpses, and smoking pits cover every surface.
+Miasmic vapors fill the air, along with various foul stenches.
+The nightmare terrain you create is mostly illusory, but the obstacles are partially real.
+Creatures within, entering, or viewing the area are entitled to Will saves to discern the illusion.
+Creatures that fail their saves become entangled.
+Regardless of the outcome of the save, creatures within 5 feet have concealment, while those 10 feet or farther away have total concealment.
+Furthermore, as long as you are within the area of this spell, you can attempt Hide checks even while being observed.
+(Other creatures don't gain this benefit)}}
+
+
+Phantasmal Strangler(Complete Mage): - Hexblade(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Phantasmal Strangler](https://dndtools.net/spells/complete-mage--58/phantasmal-strangler--845/) }} {{School:= Illusion (Phantasm) [Fear]}} {{Level:= **Hexblade 3**, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One living creature}} {{Duration:=5 rounds}} {{Savingthrow:=Will disbelief }} {{Save DC:=[[@{spelldc3}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You delve into your subject's mind and call forth a clinging, choking horror that drapes itself over him like a vile net.
+You fashion a nightmare creature from the subject's mind.
+Only the subject can sense the assailant, which exists only in the subject's mind.
+When you cast the spell, the subject gets an immediate Will save to recognize the attacker as unreal, which ends the spell.
+If that save fails, the subject is treated as if it were grappling the phantasmal strangles.
+Each round on your turn, a phantasmal strangler deals 2d6 points of damage to the subject.
+If the subject is reduced to -1 or fewer hit points, the spell ends.
+Each round on the subject's turn, it can attempt any of the actions normally allowed to a grappling character.
+Treat a phantasmal strangler's grapple modifier as equal to that of the subject (including modifiers for Strength, size, and all other factors).
+A phantasmal strangler can't be damaged, nor can it be pinned.
+If the subject escapes from the phantasmal strangler's grasp, the spell ends}}
+
+
+Rend Essentia(Magic of Incarnum): - Hexblade(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Rend Essentia](https://dndtools.net/spells/magic-of-incarnum--74/rend-essentia--1835/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Hexblade 3**, Assassin 3, Sorcerer 4, Wizard 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc3}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast this spell, you consume a small portion of your enemy's soul to strengthen your own personal essence and become stronger.
+You deal 1d4 points of Charisma damage plus 1 additional point for every three caster levels, to a maximum of 1d4+5 points at caster level 15th.
+If the target has an essentia pool, he instead loses essentia equal to the Charisma damage that would be dealt (if the damage is larger than the target's essentia pool, any leftover points of damage are dealt as Charisma damage).
+This spell can't reduce a target's Charisma below 1.
+You gain 1 point of temporary essentia for every point of essentia or Charisma damage you deal to the subject.
+This temporary essentia remains in your pool for 1 minute, after which it dissipates.
+While you have it, you can use your temporary essentia just like normal essentia.
+Material Component: A black pearl worth at least 100 gp}}
+
+
+Trance of the Verdant Domain(Dragon Magic): - Hexblade(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Trance of the Verdant Domain](https://dndtools.net/spells/dragon-magic--62/trance-of-the-verdant-domain--1064/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Hexblade 3**, Sorcerer 4, Wizard 4, Arcanist 4}} {{Components:= V, S}} {{Range:= 30 ft.}} {{Target:=One creature}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc3}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A halo of green-gold light surrounds you, and then snakes outward into the mind of a nearby foe.
+You project an instantaneous surge of mental energy that overwhelms a weak-minded foe.
+The target stops and stares blankly, fascinated for 3 rounds.
+In addition, any creature under the effect of this spell takes a -2 penalty on saves against mind-affecting effects you create.
+Special: A green dragon capable of casting 6th-level sorcerer spells can cast this spell as a swift action}}
+
+
+Unbind Chakra(Magic of Incarnum): - Hexblade(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Unbind Chakra](https://dndtools.net/spells/magic-of-incarnum--74/unbind-chakra--1839/) }} {{School:= Necromancy  }} {{Level:= **Hexblade 3**, Assassin 3, Sorcerer 4, Wizard 4, Arcanist 4}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc3}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You temporarily sever one or more chakra binds between the target and his soulmelds and/or magic items.
+This affects one chakra bind for every four caster levels, to a maximum of three binds at 12th level.
+For the spell's duration, the target creature loses all benefits of the severed chakra binds.
+The target also takes 1d6 points of damage per chakra bind severed.
+At the time of casting, you can choose particular chakra binds to sever (such as arms or soul).
+If you do not choose specific chakra binds, the DM randomly determines which chakra binds are affected.
+Essentia: Every point of essentia you invest in this spell adds +1d6 to the damage dealt per chakra bind severed}}
+
+
+Cursed Blade(Spell Compendium): - Hexblade(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Cursed Blade](https://dndtools.net/spells/spell-compendium--86/cursed-blade--4277/) }} {{School:= Necromancy  }} {{Level:= **Hexblade 4**, Assassin 4}} {{Components:= V}} {{Range:= Touch}} {{Target:=One melee weapon}} {{Duration:=1 minute/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Drawing upon dark powers, you whisper a vehement curse and draw your finger down the weapon.**
+A weapon affected by this spell deals wounds that can't be healed in the usual fashion. Any damage dealt by the weapon (not including damage from special weapon properties such as flaming, holy, wounding, and so on) cannot be dured by any means until the damaged individual has received a **remove curse** spell (or some other effect that neutralizes a curse).
+If a creature is slain by a weapon that is under the effect of this spell, it can't be raised from the dead unless a **remove curse** spell (or similar effect) is cast on the body or a **true resurrection** spell is used}}
+
+
+Early Twilight(Heroes of Battle): - Hexblade(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Early Twilight](https://dndtools.net/spells/heroes-of-battle--69/early-twilight--1411/) }} {{School:= Evocation  [Darkness]}} {{Level:= **Hexblade 4**, Cleric 4, Sorcerer 4, Wizard 4, Cloistered Cleric 4, Arcanist 4}} {{Components:= V, M, DF}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=80-ft.-radius cylinder, 40 ft. high}} {{Duration:=10 minutes/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Early twilight suppresses light in its area, even casting a shadow over daylight.
+This effect reduces the illumination in the area by one category (from bright light to shadowy, or from shadowy to darkness).
+It does not stack with other magical darkness effects.
+Unlike other spells with the darkness descriptor, early twilight counters and dispels battlefield illumination (see page 125) but not other light spells.
+Arcane Material Component: A black veil}}
+
+
+Fear(Player's Handbook v.3.5): - Hexblade(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fear](https://dndtools.net/spells/players-handbook-v35--6/fear--2736/) }} {{School:= Necromancy  [Fear]}} {{Level:= **Hexblade 4**, ThayanSlaver 2, Bard 3, Vigilante 3, Wizard 4, DeathDelver 4, Sorcerer 4, Sha'ir 4, DeathMaster 4, Jester 4, DreadNecromancer 4, Blightbringer 4, Moon 4, Tyranny 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= 30 ft.}} {{Area:=Cone-shaped burst}} {{Duration:=1 round/level or 1 round; see text}} {{Savingthrow:=Will partial }} {{Save DC:=[[@{spelldc4}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An invisible cone of terror causes each living creature in the area to become panicked unless it succeeds on a Will save. If cornered, a panicked creature begins cowering. (See the Dungeon Master's Guide for more information on fear-panicked creatures). If the Will save succeeds, the creature is shaken for 1 round.
+Material Component: Either the heart of a hen or a white feather}}
+
+
+Finger of Agony(Complete Mage): - Hexblade(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Finger of Agony](https://dndtools.net/spells/complete-mage--58/finger-of-agony--854/) }} {{School:= Necromancy  }} {{Level:= **Hexblade 4**, Sorcerer 4, Wizard 4, Arcanist 4}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=3 rounds}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc4}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As you crook your finger, your enemy feels his vitals rupture within him.
+You magically disrupt the subject's internal organs, causing it great pain.
+Each round on your turn, the subject takes 3d6 points of damage and becomes nauseated for 1 round.
+A successful Fortitude save halves the damage and lessens the nauseated condition to sickened}}
+
+
+Horrid Sickness(Complete Mage): - Hexblade(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Horrid Sickness](https://dndtools.net/spells/complete-mage--58/horrid-sickness--855/) }} {{School:= Necromancy  }} {{Level:= **Hexblade 4**, Sorcerer 4, Wizard 4, Arcanist 4}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature/3 levels, no two of which are more than 30 ft. apart}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc4}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your victim's eyes water and her flesh pales as a wave of sickness washes over her.
+Waves of pain and sickness wrack the subjects, rendering themnauseated.
+A successful Fortitude save negates this effect.
+If a subject fails the initial Fortitude save, she can attempt a Fortitude save as a move action each round on her turn; success indicates that she is instead sickened for the duration of the spell}}
+
+
+Karmic Retribution(Complete Mage): - Hexblade(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Karmic Retribution](https://dndtools.net/spells/complete-mage--58/karmic-retribution--766/) }} {{School:= Abjuration  }} {{Level:= **Hexblade 4**, Sorcerer 6, Wizard 6, Arcanist 6}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=By manipulating fate itself, you ensure that any who attack you suffer greatly for their insolence.
+This spell functions like <a href="/spells/complete-mage--58/karmic-aura--765/">**karmic aura**</a>, except that any creature that damages you and fails its Will save becomes stunned for 1 round}}
+
+
+Phantasmal Killer(Player's Handbook v.3.5): - Hexblade(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Phantasmal Killer](https://dndtools.net/spells/players-handbook-v35--6/phantasmal-killer--2691/) }} {{School:= Illusion (Phantasm) [Fear]}} {{Level:= **Hexblade 4**, Sorcerer 4, Wizard 4, Warmage 4, Duskblade 4, DeathMaster 4, Sha'ir 4, DreadNecromancer 4, Dream 4, Illusion 4, Madness 6, Arcanist 4}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One living creature}} {{Duration:=Instantaneous}} {{Savingthrow:=Will disbelief (if interacted with), then Fortitude partial; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create a phantasmal image of the most fearsome creature imaginable to the subject simply by forming the fears of the subject's subconscious mind into something that its conscious mind can visualize: this most horrible beast. Only the spell's subject can see the phantasmal killer. You see only a vague shape. The target first gets a Will save to recognize the image as unreal. If that save fails, the phantasm touches the subject, and the subject must succeed on a Fortitude save or die from fear. Even if the Fortitude save is successful, the subject takes 3d6 points of damage.
+If the subject of a phantasmal killer attack succeeds in disbelieving and is wearing a helm of telepathy, the beast can be turned upon you. You must then disbelieve it or become subject to its deadly fear attack}}
+
+
+Spell Theft(Complete Scoundrel): - Hexblade(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Spell Theft](https://dndtools.net/spells/complete-scoundrel--60/spell-theft--896/) }} {{School:= Abjuration  }} {{Level:= **Hexblade 4**, Bard 4, Sorcerer 5, Wizard 5, Arcanist 5}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Winding your magical grip around the dweomers that augment your opponent, you rip them away and feel their energy rise around you.
+You attempt to steal an opponent's beneficial spell effects for yourself.
+Upon casting this spell, you instantly discern all spells currently affecting the target (including their effects).
+For each spell so discerned, you can make a dispel check (1d20 + your caster level, maximum +15) against a DC of 11 + the spell's caster level.
+If the check succeeds, you gain the effect of the spell for the remainder of its duration, as if it had been cast on you instead of the original target, and the opponent loses that effect.
+Only spells capable of being dispelled can be affected by spell theft.
+In addition, if you are not a legal target of the spell to be stolen, your dispel check automatically fails.
+For example, if you cast spell theft on a dire bear affected by bull's strength and animal growth, you could steal only the effect of the first spell unless you were also of the animal type}}
+
+
+Suppress Legacy(Weapons of Legacy): - Hexblade(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Suppress Legacy](https://dndtools.net/spells/weapons-of-legacy--91/suppress-legacy--3526/) }} {{School:= Necromancy  }} {{Level:= **Hexblade 4**, Sorcerer 5, Wizard 5, WuJen 5, Arcanist 5}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You temporarily disrupt the bond between the target creature and a single legacy item it possesses.
+The target loses access to all legacy abilities granted by that item.
+For the duration of the spell, it cannot activate any of the item's legacy abilities, nor do any continuous effects of the legacy item grant any benefit to the target.
+If the target has more than one legacy item, determine randomly which one is affected.
+This effect cannot be dispelled, but it can be negated by break enchantment, remove curse, or any other effect that removes a curse}}
+
+
+Unseen Strike(Complete Mage): - Hexblade(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Unseen Strike](https://dndtools.net/spells/complete-mage--58/unseen-strike--847/) }} {{School:= Illusion (Glamer) }} {{Level:= **Hexblade 4**, Assassin 4}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 hour/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You strike your foe, then immediately fade from sight.
+This spell has no immediate effect upon you.
+However, the next time you deliver a successful melee attack, you instantly turn invisible (as the invisibility spell).
+If you do not make a successful melee attack within 1 hour per level of casting the spell, the effect ends}}

@@ -1,0 +1,105 @@
+
+
+Disguise Self(Player's Handbook v.3.5): - Envy(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Disguise Self](https://dndtools.net/spells/players-handbook-v35--6/disguise-self--2666/) }} {{School:= Illusion (Glamer) }} {{Level:= **Envy 1**, Bard 1, Savant 1, Jester 1, Sha'ir 1, Beguiler 1, Vigilante 1, Fatemaker 1, EbonmarInfiltrator 1, Wizard 1, Sorcerer 1, Assassin 1, Trickery 1, Baator 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 min./level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You make yourself&#8212;including clothing, armor, weapons, and equipment&#8212;look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your body type. For example, a human caster could look human, humanoid, or like any other human-shaped bipedal creature. Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person. The spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile (touch) or audible (sound) properties of you or your equipment. A battleaxe made to look like a dagger still functions as a battleaxe.
+If you use this spell to create a disguise, you get a +10 bonus on the Disguise check.
+A creature that interacts with the glamer gets a Will save to recognize it as an illusion. For example, a creature that touched you and realized that the tactile sensation did not match the visual one would be entitled to such a save}}
+
+
+Ray of Enfeeblement(Player's Handbook v.3.5): - Envy(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Ray of Enfeeblement](https://dndtools.net/spells/players-handbook-v35--6/ray-of-enfeeblement--2755/) }} {{School:= Necromancy  }} {{Level:= **Envy 2**, Sorcerer 1, Wizard 1, DreadNecromancer 1, Duskblade 1, Blighter 1, ThayanSlaver 1, Sha'ir 1, DeathMaster 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=Ray}} {{Duration:=1 min./level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A coruscating ray springs from your hand.
+You must succeed on a ranged touch attack to strike a target.
+The subject takes a penalty to Strength equal to 1d6+1 per two caster levels (maximum 1d6+5).
+The subject's Strength score cannot drop below 1}}
+
+
+Touch of Idiocy(Player's Handbook v.3.5): - Envy(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Touch of Idiocy](https://dndtools.net/spells/players-handbook-v35--6/touch-of-idiocy--2581/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Envy 3**, Sorcerer 2, Wizard 2, Sha'ir 2, DeathMaster 2, Jester 2, Savant 2, Duskblade 2, Beguiler 2, Arcanist 2}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=10 min./level}} {{Savingthrow:=No }} {{Save DC:=[[@{spelldc3}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With a touch, you reduce the target's mental faculties. Your successful melee touch attack applies a 1d6 penalty to the target's Intelligence, Wisdom, and Charisma scores. This penalty can't reduce any of these scores below 1.
+This spell's effect may make it impossible for the target to cast some or all of its spells, if the requisite ability score drops below the minimum required to cast spells of that level}}
+
+
+Vampiric Touch(Player's Handbook v.3.5): - Envy(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Vampiric Touch](https://dndtools.net/spells/players-handbook-v35--6/vampiric-touch--2768/) }} {{School:= Necromancy  }} {{Level:= **Envy 4**, TelflammarShadowlord 2, Sorcerer 3, Wizard 3, Duskblade 3, Blighter 3, Sha'ir 3, DeathMaster 3, DreadNecromancer 3, Gluttony 4, Arcanist 3}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=Instantaneous/1 hour; see text}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You must succeed on a melee touch attack.
+Your touch deals 1d6 points of damage per two caster levels (maximum 10d6).
+You gain temporary hit points equal to the damage you deal.
+However, you can't gain more than the subject's current hit
+points +10, which is enough to kill the subject.
+The temporary hit points disappear 1 hour later}}
+
+
+Crushing Despair(Player's Handbook v.3.5): - Envy(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Crushing Despair](https://dndtools.net/spells/players-handbook-v35--6/crushing-despair--2540/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Envy 5**, Bard 3, Jester 3, DreadNecromancer 3, Sorcerer 4, Wizard 4, Beguiler 4, WuJen 4, Sha'ir 4, DeathMaster 4, Hades 5, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= 30 ft.}} {{Area:=Cone-shaped burst}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc5}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An invisible cone of despair causes great sadness in the subjects.
+Each affected creature takes a -2 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls.
+Crushing despair counters and dispels good hope.
+Material Component: A vial of tears}}
+
+
+Magic Jar(Player's Handbook v.3.5): - Envy(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Magic Jar](https://dndtools.net/spells/players-handbook-v35--6/magic-jar--2752/) }} {{School:= Necromancy  }} {{Level:= **Envy 6**, Sorcerer 5, Wizard 5, Sha'ir 5, DeathMaster 5, DreadNecromancer 5, Arcanist 5}} {{Components:= V, S, AF}} {{Arcane Focus:= A gem or crystal worth at least 100 gp}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One creature}} {{Duration:=1 hour/level or until you return to your body}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc6}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=By casting magic jar, you place your soul in a gem or large crystal (known as the magic jar), leaving your body lifeless.
+Then you can attempt to take control of a nearby body, forcing its soul into the magic jar.
+You may move back to the jar (thereby returning the trapped soul to its body) and attempt to possess another body.
+The spell ends when you send your soul back to your own body, leaving the receptacle empty.
+To cast the spell, the magic jar must be within spell range and you must know where it is, though you do not need line of sight or line of effect to it.
+When you transfer your soul upon casting, your body is, as near as anyone can tell, dead.
+While in the magic jar, you can sense and attack any life force within 10 feet per caster level (and on the same plane of existence).
+You do need line of effect from the jar to the creatures.
+You cannot determine the exact creature types or positions of these creatures.
+In a group of life forces, you can sense a difference of 4 or more Hit Dice between one creature and another and can determine whether a life force is powered by positive or negative energy.
+(Undead creatures are powered by negative energy.
+Only sentient undead creatures have, or are, souls).
+For example, if two 10th-level characters are attacking a hill giant (12 HD) and four ogres (4 HD), you could determine that there are three stronger and four weaker life forces within the range, all powered by positive energy.
+You could choose to take over either a stronger or a weaker creature, but which particular stronger or weaker creature you attempt to possess is determined randomly.
+Attempting to possess a body is a fullround action.
+It is blocked by protection from evil or a similar ward.
+You possess the body and force the creature's soul into the magic jar unless the subject succeeds on a Will save.
+Failure to take over the host leaves your life force in the magic jar, and the target automatically succeeds on further saving throws if you attempt to possess its body again.
+If you are successful, your life force occupies the host body, and the host's life force is imprisoned in the magic jar.
+You keep your Intelligence, Wisdom, Charisma, level, class, base attack bonus, base save bonuses, alignment, and mental abilities.
+The body retains its Strength, Dexterity, Constitution, hit points, natural abilities, and automatic abilities.
+For example, a fish's body breathes water and a troll's body regenerates.
+A body with extra limbs does not allow you to make more attacks (or more advantageous two-weapon attacks) than normal.
+You can't choose to activate the body's extraordinary or supernatural abilities.
+The creature's spells and spell-like abilities do not stay with the body.
+As a standard action, you can shift freely from a host to the magic jar if within range, sending the trapped soul back to its body.
+The spell ends when you shift from the jar to your own body.
+If the host body is slain, you return to the magic jar, if within range, and the life force of the host departs (it is dead).
+If the host body is slain beyond the range of the spell, both you and the host die.
+Any life force with nowhere to go is treated as slain.
+If the spell ends while you are in the magic jar, you return to your body (or die if your body is out of range or destroyed).
+If the spell ends while you are in a host, you return to your body (or die, if it is out of range of your current position), and the soul in the magic jar returns to its body (or dies if it is out of range).
+Destroying the receptacle ends the spell, and the spell can be dispelled at either the magic jar or at the host's location}}
+
+
+Limited Wish(Player's Handbook v.3.5): - Envy(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Limited Wish](https://dndtools.net/spells/players-handbook-v35--6/limited-wish--2899/) }} {{School:= Universal  }} {{Level:= **Envy 7**, Sorcerer 7, Wizard 7, WuJen 7, Sha'ir 7, Spell 7, Arcanist 7}} {{Components:= V, S, XP}} {{XP-Cost= 300 XP or more (see below)}} {{Range:= See text}} {{Target:=See text}} {{Duration:=See text}} {{Savingthrow:=None; see text }} {{Save DC:=[[@{spelldc7}+@{sf-Universal}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A limited wish lets you create nearly any type of effect.
+For example, a limited wish can do any of the following things.
+- Duplicate any sorcerer/wizard spell of 6th level or lower, provided the spell is not of a school prohibited to you.
+- Duplicate any other spell of 5th level or lower, provided the spell is not of a school prohibited to you.
+- Duplicate any sorcerer/wizard spell of 5th level or lower, even if it's of a prohibited school.
+- Duplicate any other spell of 4th level or lower, even if it's of a prohibited school.
+- Undo the harmful effects of many spells, such as geas/quest or insanity.
+- Produce any other effect whose power level is in line with the above effects, such as a single creature automatically hitting on its next attack or taking a -7 penalty on its next saving throw.
+A duplicated spell allows saving throws and spell resistance as normal (but the save DC is for a 7th-level spell). When a limited wish duplicates a spell that has an XP cost, you must pay that cost or 300 XP, whichever is more. When a limited wish spell duplicates a spell with a material component that costs more than 1,000 gp, you must provide that component}}
+
+
+Simulacrum(Player's Handbook v.3.5): - Envy(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Simulacrum](https://dndtools.net/spells/players-handbook-v35--6/simulacrum--2706/) }} {{School:= Illusion (Shadow) }} {{Level:= **Envy 8**, Sorcerer 7, Wizard 7, Sha'ir 7, Arcanist 7}} {{Components:= V, S, M, XP}} {{Material Component:= The spell is cast over the rough snow or ice form, and some piece of the creature to be duplicated (hair, nail, or the like) must be placed inside the snow or ice.
+Additionally, the spell requires powdered ruby worth 100 gp per HD of the simulacrum to be created}} {{XP-Cost= 100 XP per HD of the simulacrum to be created (minimum 1,000 XP)}} {{Range:= 0 ft.}} {{Effect:=One duplicate creature}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Simulacrum creates an illusory duplicate of any creature.
+The duplicate creature is partially real and formed from ice or snow.
+It appears to be the same as the original, but it has only one-half of the real creature's levels or Hit Dice (and the appropriate hit points, feats, skill ranks, and special abilities for a creature of that level or HD).
+You can't create a simulacrum of a creature whose Hit Dice or levels exceed twice your caster level.
+You must make a Disguise check when you cast the spell to determine how good the likeness is.
+A creature familiar with the original might detect the ruse with a successful Spot check (opposed by the caster's Disguise check) or a DC 20 Sense Motive check.
+At all times the simulacrum remains under your absolute command.
+No special telepathic link exists, so command must be exercised in some other manner.
+A simulacrum has no ability to become more powerful.
+It cannot increase its level or abilities.
+If reduced to 0 hit points or otherwise destroyed, it reverts to snow and melts instantly into nothingness.
+A complex process requiring at least 24 hours, 100 gp per hit point, and a fully equipped magical laboratory can repair damage to a simulacrum}}
+
+
+Wish(Player's Handbook v.3.5): - Envy(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wish](https://dndtools.net/spells/players-handbook-v35--6/wish--2902/) }} {{School:= Universal  }} {{Level:= **Envy 9**, Sorcerer 9, Wizard 9, WuJen 9, Sha'ir 9, Arcanist 9}} {{Components:= V, XP}} {{XP-Cost= The minimum XP cost for casting **wish** is 5,000 XP. When a **wish** duplicates a spell that has an XP cost, you must pay 5,000 XP or that cost, whichever is more. When a **wish** creates or improves a magic item, you must pay twice the normal XP cost for crafting or improving the item, plus an additional 5,000 XP}} {{Range:= See text}} {{Target:=See text}} {{Duration:=See text}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc9}+@{sf-Universal}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Wish** is the mightiest spell a wizard or sorcerer can cast. By simply speaking aloud, you can alter reality to better suit you. Even **wish**, however, has its limits.
+A **wish** can produce any one of the following effects.
+<ul><li>Duplicate any wizard or sorcerer spell of 8th level or lower, provided the spell is not of a school prohibited to you.</li><li>Duplicate any other spell of 6th level or lower, provided the spell is not of a school prohibited to you.</li><li>Duplicate any wizard or sorcerer spell of 7th level or lower even if it's of a prohibited school.</li><li>Duplicate any other spell of 5th level or lower even if it's of a prohibited school.</li><li>Undo the harmful effects of many other spells, such as **geas/quest** or **insanity**.</li><li>Create a nonmagical item of up to 25,000 gp in value.</li><li>Create a magic item, or add to the powers of an existing magic item.</li><li>Grant a creature a +1 inherent bonus to an ability score. Two to five **wish** spells cast in immediate succession can grant a creature a +2 to +5 inherent bonus to an ability score (two wishes for a +2 inherent bonus, three for a +3 inherent bonus, and so on). Inherent bonuses are instantaneous, so they cannot be dispelled. Note: An inherent bonus may not exceed +5 for a single ability score, and inherent bonuses to a particular ability score do not stack, so only the best one applies.</li><li>Remove injuries and afflictions. A single **wish** can aid one creature per caster level, and all subjects are cured of the same kind of affliction. For example, you could heal all the damage you and your companions have taken, or remove all poison effects from everyone in the party, but not do both with the same **wish**. A **wish** can never restore the experience point loss from casting a spell or the level or Constitution loss from being raised from the dead.</li><li>Revive the dead. A **wish** can bring a dead creature back to life by duplicating a resurrection spell. A **wish** can revive a dead creature whose body has been destroyed, but the task takes two **wish**, one to recreate the body and another to infuse the body with life again. A **wish** cannot prevent a character who was brought back to life from losing an experience level.</li><li>Transport travelers. A **wish** can lift one creature per caster level from anywhere on any plane and place those creatures anywhere else on any plane regardless of local conditions. An unwilling target gets a Will save to negate the effect, and spell resistance (if any) applies.</li><li>Undo misfortune. A **wish** can undo a single recent event. The **wish** forces a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a **wish** could undo an opponent's successful save, a foe's successful critical hit (either the attack roll or the critical roll), a friend's failed save, and so on. The reroll, however, may be as bad as or worse than the original roll. An unwilling target gets a Will save to negate the effect, and spell resistance (if any) applies.</li></ul>You may try to use a **wish** to produce greater effects than these, but doing so is dangerous. Such a **wish** gives the DM the opportunity to fulfil your request without fulfilling it completely. (The **wish** may pervert your intent into a literal but undesirable fulfillment or only a partial fulfillment). For example, wishing for a **staff of the** magi might get you instantly transported to the presence of the staff's current owner. Wishing to be immortal could get you imprisoned in a hidden extradimensional space (as by an imprisonment spell), where you could &quot;live&quot; indefinitely.
+Duplicated spells allow saves and spell resistance as normal (but save DCs are for 9th-level spells)}}

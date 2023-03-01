@@ -1,0 +1,60 @@
+
+
+Faerie Fire(Player's Handbook v.3.5): - Fey(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Faerie Fire](https://dndtools.net/spells/players-handbook-v35--6/faerie-fire--2609/) }} {{School:= Evocation  [Light]}} {{Level:= **Fey 1**, Druid 1, UrbanDruid 1, Moon 1}} {{Components:= V, S, DF}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=Creatures and objects within a 5-ft.-radius burst}} {{Duration:=1 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A pale glow surrounds and outlines the subjects.
+Outlined subjects shed light as candles.
+Outlined creatures do not benefit from the concealment normally provided by darkness (though a 2nd-level or
+higher magical darkness effect functions normally), blur, displacement, invisibility, or similar effects.
+The light is too dim to have any special effect on undead or darkdwelling creatures vulnerable to light.
+The faerie fire can be blue, green, or violet, according to your choice at the time of casting.
+The faerie fire does not cause any harm to the objects or creatures thus outlined}}
+
+
+Charm Person(Player's Handbook v.3.5): - Fey(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Charm Person](https://dndtools.net/spells/players-handbook-v35--6/charm-person--2535/) }} {{School:= Enchantment (Charm) }} {{Level:= **Fey 2**, Bard 1, UrbanDruid 1, Jester 1, WuJen 1, Beguiler 1, Fatemaker 1, KnightoftheWeave 1, Wizard 1, Sorcerer 1, Sha'ir 1, Temptation 1, Elysium 1, Charm 1, Lust 1, Renewal 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One humanoid creature}} {{Duration:=1 hour/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This charm makes a humanoid creature regard you as its trusted friend and ally (treat the target's attitude as friendly; see Influencing <span class="caps">NPC</span> Attitudes, page 72). If the creature is currently being threatened or attacked by you or your allies, however, it receives a +5 bonus on its saving throw.
+The spell does not enable you to control the charmed person as if it were an automaton, but it perceives your words and actions in the most favorable way. You can try to give the subject orders, but you must win an opposed Charisma check to convince it to do anything it wouldn't ordinarily do. (Retries are not allowed). An affected creature never obeys suicidal or obviously harmful orders, but a charmed fighter, for example, might believe you if you assured him that the only chance to save your life is for him to hold back an onrushing red dragon for &quot;just a few seconds&quot;. Any act by you or your apparent allies that threatens the charmed person breaks the spell. You must speak the person's language to communicate your commands, or else be good at pantomiming}}
+
+
+Inspired Aim(Book of Exalted Deeds): - Fey(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Inspired Aim](https://dndtools.net/spells/book-of-exalted-deeds--52/inspired-aim--50/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Fey 3**, Cleric 3, Ranger 3, Bard 4, Cloistered Cleric 3}} {{Components:= V}} {{Range:= 40 ft.}} {{Target:=Allies with 40-ft.-radius emanation centered on you}} {{Duration:=Concentration}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You inspire allies within the spell's area to focus their minds on hitting their intended targets.
+All affected allies gain a +2 insight bonus on all ranged attacks}}
+
+
+Blinding Beauty(Book of Exalted Deeds): - Fey(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blinding Beauty](https://dndtools.net/spells/book-of-exalted-deeds--52/blinding-beauty--100/) }} {{School:= Transmutation  [Good]}} {{Level:= **Fey 4**, BelovedofValarian 4, Bard 4, Druid 4, Ranger 4}} {{Components:= V, S, Abstinence}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You gain the physical beauty of a nymph, with some of the supernatural accompaniment.
+All humanoids within 60 feet of you who look directly at you must succeed on a Fortitude save or be blinded permanently as though by the blindness spell.
+During the duration of the spell, you can suppress or resume this effect as a free action, while remaining stunningly attractive.
+Abstinence Component: You must abstain from sexual intercourse for one week before casting this spell}}
+
+
+Tree Stride(Player's Handbook v.3.5): - Fey(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Tree Stride](https://dndtools.net/spells/players-handbook-v35--6/tree-stride--2466/) }} {{School:= Conjuration (Teleportation) }} {{Level:= **Fey 5**, Ranger 4, NentyarHunter 4, Druid 5, Elf 4, Celerity 5}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 hour/level or until expended; see text}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You gain the ability to enter trees and move from inside one tree to inside another tree.
+The first tree you enter and all others you enter must be of the same kind, must be living, and must have girth at least equal to yours.
+By moving into an oak tree (for example), you instantly know the location of all other oak trees within transport range (see below) and may choose whether you want to pass into one or simply step back out of the tree you moved into.
+You may choose to pass to any tree of the appropriate kind within the transport range as shown on the following table.
+You may move into a tree up to one time per caster level (passing from one tree to another counts only as moving into one tree).
+The spell lasts until the duration expires or you exit a tree.
+This means that in a thick oak forest, a 10th-level druid
+could make ten transports over the course of 10 rounds, traveling as far as 30,000 feet (about 6 miles) in doing so.
+Each transport is a full-round action.
+You can, at your option, remain within a tree without transporting yourself, but you are forced out when the spell ends.
+If the tree in which you are concealed is chopped down or burned, you are slain if you do not exit before the process is complete}}
+
+
+Liveoak(Player's Handbook v.3.5): - Fey(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Liveoak](https://dndtools.net/spells/players-handbook-v35--6/liveoak--2831/) }} {{School:= Transmutation  }} {{Level:= **Fey 7**, Druid 6, Elf 7}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Tree touched}} {{Duration:=One day/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell turns an oak tree into a protector or guardian.
+The spell can be cast on only a single tree at a time; while liveoak is in effect, you can't cast it again on another tree.
+The tree on which the spell is cast must be within 10 feet of your dwelling place, within a place sacred to you, or within 300 feet of something that you wish to guard or protect.
+Liveoak must be cast on a healthy, Huge oak.
+A triggering phrase of up to one word per caster level is placed on the targeted oak.
+For instance, &quot;Attack any persons who come near without first saying 'sacred mistletoe'&quot; is an eleven-word trigger phrase that you could use at 11th level or higher.
+The liveoak spell triggers the tree into animating as a treant (see the Monster Manual).
+At the DM's option, you can extrapolate statistics for a smaller tree from the treant statistics if you cast liveoak on a smaller oak.
+If liveoak is dispelled, the tree takes root immediately, wherever it happens to be.
+If released by you, the tree tries to return to its original location before taking root}}
+
+
+Unearthly Beauty(Book of Exalted Deeds): - Fey(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Unearthly Beauty](https://dndtools.net/spells/book-of-exalted-deeds--52/unearthly-beauty--120/) }} {{School:= Transmutation  [Good]}} {{Level:= **Fey 8**, Druid 8}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As blinding beauty, but at any time during the duration of the spell, you can evoke an additional effect as a free action.
+When you choose, any creature within 30 feet of you that is looking directly at you must succeed on a Will save or die.
+Abstinence Component: You must abstain from sexual intercourse for one month before casting this spell}}

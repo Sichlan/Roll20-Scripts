@@ -1,0 +1,117 @@
+
+
+Waste Strider(Sandstorm): - Sand(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Waste Strider](https://dndtools.net/spells/sandstorm--85/waste-strider--3185/) }} {{School:= Transmutation  }} {{Level:= **Sand 1**, Druid 1, Ranger 1}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=One touched creature/level}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject can move through desert environments without hindrance, ignoring movement penalties and penalties on skill checks for all types of desert and waste terrain.
+This spell does not grant a subject immunity to other ill effects of waste environments, such as heat and sun}}
+
+
+Black Sand(Sandstorm): - Sand(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Black Sand](https://dndtools.net/spells/sandstorm--85/black-sand--3162/) }} {{School:= Necromancy  [Darkness][Evil]}} {{Level:= **Sand 2**, Cleric 3, Cloistered Cleric 3}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=20-ft.-radius spread}} {{Duration:=1 min./level}} {{Savingthrow:=Reflex negates; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates an area of black sand (see page 20), infused with shadowstuff and negative energy.
+A region of black sand literally swallows light, emitting magical darkness rising to a height of 20 feet over the surface.
+Creatures that come in contact with the sand take 1d4 points of damage per round from negative energy (no save).
+Those reduced to 0 hit points crumble into black sand themselves.
+Creatures can make Reflex saves to avoid being caught in the area upon which the spell is first cast.
+Only the surface of the sand is affected by the spell, so creatures burrowing beneath an area of black sand are unaffected unless they break its surface.
+Creatures that do so immediately take damage from the spell.
+Black sand can be made permanent with a permanency spell}}
+
+
+Haboob(Sandstorm): - Sand(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Haboob](https://dndtools.net/spells/sandstorm--85/haboob--3133/) }} {{School:= Conjuration (Creation) [Air][Earth]}} {{Level:= **Sand 3**, Cleric 3, Druid 3, Ranger 3, Sorcerer 3, Wizard 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Abrasive dust spreads in 20-ft. radius, 20 ft. high}} {{Duration:=1 min./level}} {{Savingthrow:=None or Reflex half; see text }} {{Save DC:=[[@{spelldc3}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A thick haze of swirling dust and sand swirls out from the point you designate.
+The effect obscures all sight, including darkvision, beyond 5 feet.
+A creature within 5 feet has concealment.
+Creatures farther away have total concealment.
+Unprotected, nonmagical flames are automatically extinguished, and there is a 50% chance that protected flames will be snuffed.
+In addition to obscuring sight, the swirling dust abrades any creature within it or attempting to move through it.
+Any creature passing through the haze takes 1d4 points of damage per two caster levels (maximum 5d4), with no save allowed.
+If you conjure haboob so that it appears where creatures are located, each creature takes damage as if passing through the haze.
+Such creatures take half damage with a successful Reflex save, but if these creatures do not leave the affected area at their next opportunity, they take full damage from the abrading sands (no save) as if they had voluntarily entered the area.
+Any creature that remains within the affected area for more than 1 round likewise takes damage automatically (no save).
+A moderate wind (11+ mph) disperses the dust in 8 rounds; a strong wind (21+ mph) disperses it in 4 rounds.
+This spell does not function underwater.
+Material Component: A pinch of ash, dust, or sand}}
+
+
+Blast of Sand(Sandstorm): - Sand(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Blast of Sand](https://dndtools.net/spells/sandstorm--85/blast-of-sand--3130/) }} {{School:= Conjuration (Creation) [Earth]}} {{Level:= **Sand 4**, Druid 4, Sorcerer 4, Wizard 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= A pinch of sand}} {{Range:= 30 ft.}} {{Area:=Cone-shaped burst}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex half }} {{Save DC:=[[@{spelldc4}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Sand sprays from your outstretched palm with enough force to strip flesh from bone and scour surfaces.
+The spell deals 1d6 points of damage per caster level (maximum 10d6).
+Do not divide damage from sand scour by four when applying it to objects}}
+
+
+Flaywind Burst(Sandstorm): - Sand(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Flaywind Burst](https://dndtools.net/spells/sandstorm--85/flaywind-burst--3156/) }} {{School:= Evocation  [Air][Earth]}} {{Level:= **Sand 5**, Cleric 5, Druid 5, Sorcerer 5, Wizard 5, Cloistered Cleric 5, Arcanist 5}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= 60 ft.}} {{Area:=Cone-shaped burst}} {{Duration:=Instantaneous}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc5}+@{sf-Evocation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell produces a brief windstorm (approximately 70 mph), filled with scouring, supernatural grit that literally strips flesh.
+In addition to the possible effects of the wind, creatures within the area of a flaywind burst spell take 1d6 points of damage per caster level (maximum 10d6) from the scouring sands.
+A successful Reflex save halves this damage.
+A creature within the area of flaywind burst must make a Fortitude save or experience the effects of the wind's force.
+A Small or smaller creature is knocked down and rolled 1d4&#215;10 feet, taking 1d4 points of nonlethal damage per 10 feet.
+If flying, a Small or smaller creature is blown back 2d6&#215;10 feet and takes 2d6 points of nonlethal damage.
+Medium creatures are knocked prone, or if flying are blown back 1d6&#215;10 feet.
+Large or Huge creatures are unable to move forward against the force of the blast, or if flying are blown back 1d6&#215;5 feet.
+Gargantuan or larger creatures can move normally within a flaywind burst.
+Flaywind burst can't move a creature beyond its range.
+In addition to the effects noted, flaywind burst can do anything else that a windstorm-force sandstorm would be expected to do, such as briefly obscure vision, heel over a boat, or blow gases and vapors to the limit of its area.
+Material Component: A pinch of sand and the wing feather of a vulture}}
+
+
+Awaken Sand(Sandstorm): - Sand(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Awaken Sand](https://dndtools.net/spells/sandstorm--85/awaken-sand--3170/) }} {{School:= Transmutation  }} {{Level:= **Sand 6**, Druid 6}} {{Components:= V, S, DF, XP}} {{XP-Cost= 500 XP}} {{Range:= Touch}} {{Target:=15-ft. area of sand touched}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You awaken a region of sand, or similar material, to humanlike sentience.
+To succeed, you must make a DC 18 Will save.
+The awakened sand is friendly toward you.
+You have no special empathy or connection with sand you awaken, although it serves you in specific tasks or endeavors if you communicate your desire to it.
+The sand creature you awaken has the same statistics as a Huge animated object with a base land speed of 40 feet and a burrow speed of 20 feet.
+Unlike normal animated objects, awakened sand beings have the earth subtype, and their Intelligence, Wisdom, and Charisma scores are each 3d6.
+A sand being has immunity to polymorphing.
+The awakened sand can speak one language you know, plus one additional language that you know per point of Intelligence bonus (if any) it has.
+A sand creature can engulf Large or smaller creatures as a standard action.
+It cannot make a slam attack during a round in which it engulfs.
+The sand creature merely has to move over the opponents, affecting as many as it can cover.
+Opponents can make attacks of opportunity against the creature, but if they do so they are not entitled to a saving throw.
+Those who do not attempt attacks of opportunity must succeed on a DC 19 Reflex save or be engulfed; on a success, they are pushed back or aside (opponent's choice) as the creature moves forward.
+Engulfed opponents are considered grappled and are trapped within the sand creature's body.
+The sand creature deals 1d6+3 points of damage to trapped opponents each round after the one in which it engulfed them.
+Opponents that need to breathe risk suffocation (see page 304 of the Dungeon Master's Guide).
+The save DC is Strength-based.
+Sand creatures are amorphous and can do anything sand would be expected to do&#8212;hide perfectly atop other sand, form into dunes and drifts, and pour through small openings (although passing through an opening two size categories smaller than the creature takes a full-round action)}}
+
+
+Vitrify(Sandstorm): - Sand(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Vitrify](https://dndtools.net/spells/sandstorm--85/vitrify--3184/) }} {{School:= Transmutation  [Earth]}} {{Level:= **Sand 7**, Sorcerer 7, Wizard 7, Arcanist 7}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=Up to one 10-ft. cube/5 levels (S)}} {{Duration:=Permanent}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc7}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell transforms normal sand of any depth into crude glass.
+The sand is instantly heated to the melting point and then slowly hardens in its new form.
+Objects on or in the sand sink into the hot glass.
+A creature is allowed a Reflex save to escape before the area is changed.
+A creature that fails its save and that is unable to levitate, fly, or otherwise free itself sinks partway into the molten glass, reducing its speed to 5 feet and giving it a -2 penalty on attack rolls and to AC.
+Creatures of the earth subtype can move only 10 feet per round slower in molten glass.
+If a creature is only partially in the area (such as a Large or larger creature on the edge of the effect), it still takes full damage, but its speed is reduced only by half (instead of to 5 feet).
+A creature caught in molten glass takes 10d6 points of fire damage on the first round.
+The transmuted material cools over a period of 10 rounds.
+Each round, the number of dice of damage the cooling glass deals is reduced by one, until it deals no damage.
+The glass is solid enough to trap creatures by the sixth round.
+Creatures unable to escape the glass before it hardens become trapped and must be broken out.
+A creature so caught can break free by making a Strength check to break the glass or by dealing damage to the glass.
+Glass has hardness 1, 1 hit point per inch of thickness, and a break DC of 12, + 1 per inch of thickness.
+A creature partially caught in the glass takes a -2 penalty on attack rolls, a -4 penalty to Dexterity, and is unable to move.
+When breaking glass, a creature takes 1d6 points of damage each time it makes a successful Strength check to break free.
+If broken free by others, the creature takes 1d6 points of damage from broken glass.
+A creature trapped beneath the surface of the glass might begin to suffocate (see page 304 of the Dungeon Master's Guide).
+Arcane Material Component: A small glass marble}}
+
+
+Desert Binding(Sandstorm): - Sand(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Desert Binding](https://dndtools.net/spells/sandstorm--85/desert-binding--3151/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Sand 8**, Sorcerer 8, Wizard 8, Arcanist 8}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=See text (D)}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc8}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like binding (see page 204 of the Player's Handbook), except as noted here.
+Sand in the Hourglass: The subject assumes the form of a minute portion of sand, each grain of which looks like its head.
+Held in a clear glass container, usually an hourglass, the subject remains aware of its surroundings (from multiple viewpoints) and can speak (from multiple, tiny mouths), but cannot leave the hourglass, attack, or use any other abilities.
+The subject does not need to breathe, eat, or drink while subject to sand in the hourglass, nor does it age.
+Shattering the hourglass before the spell ends slays the bound creature, and its body remains sand (effectively destroyed).
+The duration is one year per caster level, after which time the victim reforms into its original shape, destroying the hourglass.
+Reduce the save DC by 4.
+Wind in the Waste: The subject is transformed into a howling wind blowing across the waste.
+The victim retains knowledge of its prior existence, but has no abilities other than to howl with the wind.
+Because of its insubstantial nature, the subject is nearly impossible to define or specifically locate.
+The DM might allow the victim to be found through special means or through powerful magic (such as limited wish).
+The duration is one year per caster level, after which time the subject returns to its original shape in the location where it was first subjected to wind in the waste.
+Reduce the save DC by 4.
+Material Component: As the binding spell; see page 204 of the Player's Handbook}}
+
+
+Summon Desert Ally Ix(Sandstorm): - Sand(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Summon Desert Ally Ix](https://dndtools.net/spells/sandstorm--85/summon-desert-ally-ix--3145/) }} {{School:= Conjuration  }} {{Level:= **Sand 9**, Druid 9}} {{Components:= }} {{Range:= }} {{Effect:=One or more creatures, no two of which can be more than 30 ft. apart}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like summon desert ally I, except that you can summon one 9th-level creature, 1d3 8th-level creatures of the same kind, or 1d4+1 lower-level creatures of th}}

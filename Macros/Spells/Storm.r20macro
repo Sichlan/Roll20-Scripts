@@ -1,0 +1,102 @@
+
+
+Entropic Shield(Player's Handbook v.3.5): - Storm(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Entropic Shield](https://dndtools.net/spells/players-handbook-v35--6/entropic-shield--2318/) }} {{School:= Abjuration  }} {{Level:= **Storm 1**, Cleric 1, DeathMaster 1, Jester 1, Savant 1, Luck 1, Limbo 2, Cloistered Cleric 1}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 min./level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A magical field appears around you, glowing with a chaotic blast of multicolored hues.
+This field deflects incoming arrows, rays, and other ranged attacks.
+Each ranged attack directed at you for which the attacker must make an attack roll (including arrows, magic arrows, Melf's acid arrow, ray of enfeeblement, and so forth) has a 20% miss chance (similar to the effects of concealment).
+Other attacks that simply work at a distance, such as a dragon's breath weapon, are not affected}}
+
+
+Gust of Wind(Player's Handbook v.3.5): - Storm(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Gust of Wind](https://dndtools.net/spells/players-handbook-v35--6/gust-of-wind--2618/) }} {{School:= Evocation  [Air]}} {{Level:= **Storm 2**, Druid 2, Sorcerer 2, Wizard 2, NentyarHunter 2, Sha'ir 2, Warmage 3, Arcanist 2}} {{Components:= V, S}} {{Range:= 60 ft.}} {{Effect:=Line-shaped gust of severe wind emanating out from you to the extreme of the range}} {{Duration:=1 round}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc2}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates a severe blast of air (approximately 50 mph) that originates from you, affecting all creatures in its path.
+A Tiny or smaller creature on the ground is knocked down and rolled 1d4&#215;10 feet, taking 1d4 points of nonlethal damage per 10 feet.
+If flying, a Tiny or smaller creature is blown back 2d6&#215;10 feet and takes 2d6 points of nonlethal damage due to battering and buffeting.
+Small creatures are knocked prone by the force of the wind, or if flying are blown back 1d6&#215;10 feet.
+Medium creatures are unable to move forward against the force of the wind, or if flying are blown back 1d6&#215;5 feet.
+Large or larger creatures may move normally within a gust of wind effect.
+A gust of wind can't move a creature beyond the limit of its range.
+Any creature, regardless of size, takes a -4 penalty on ranged attacks and Listen checks in the area of a gust of wind.
+The force of the gust automatically extinguishes candles, torches, and similar unprotected flames.
+It causes protected flames, such as those of lanterns, to dance wildly and has a 50% chance to extinguish those lights.
+In addition to the effects noted, a gust of wind can do anything that a sudden blast of wind would be expected to do.
+It can create a stinging spray of sand or dust, fan a large fire, overturn delicate awnings or hangings, heel over a small boat, and blow gases or vapors to the edge of its range.
+Gust of wind can be made permanent with a permanency spell}}
+
+
+Call Lightning(Player's Handbook v.3.5): - Storm(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Call Lightning](https://dndtools.net/spells/players-handbook-v35--6/call-lightning--2592/) }} {{School:= Evocation  [Electricity]}} {{Level:= **Storm 3**, Druid 3, UrbanDruid 3, Windstorm 3}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=One or more 30-ft.-long vertical lines of lightning}} {{Duration:=1 min./level}} {{Savingthrow:=Reflex half }} {{Save DC:=[[@{spelldc3}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Immediately upon completion of the spell, and once per round thereafter, you may call down a 5-foot-wide, 30-foot-long, vertical bolt of lightning that deals 3d6 points of electricity damage.
+The bolt of lightning flashes down in a vertical stroke at whatever target point you choose within the spell's range (measured from your position at the time).
+Any creature in the target square or in the path of the bolt is affected.
+You need not call a bolt of lightning immediately; other actions, even spellcasting, can be performed.
+However, each round after the first you may use a standard action (concentrating on the spell) to call a bolt.
+You may call a total number of bolts equal to your caster level (maximum 10 bolts).
+If you are outdoors and in a stormy area&#8212;a rain shower, clouds and wind, hot and cloudy conditions, or even a tornado (including a whirlwind formed by a djinni or an air elemental of at least Large size; see the Monster Manual)&#8212;
+each bolt deals 3d10 points of electricity damage instead of 3d6.
+This spell functions indoors or underground but not underwater}}
+
+
+Sleet Storm(Player's Handbook v.3.5): - Storm(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Sleet Storm](https://dndtools.net/spells/players-handbook-v35--6/sleet-storm--2436/) }} {{School:= Conjuration (Creation) [Cold]}} {{Level:= **Storm 4**, Druid 3, Sorcerer 3, Wizard 3, DiscipleofThrym 3, Warmage 3, Sha'ir 3, Savant 3, Cold 3, Arcanist 3}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=Cylinder (40-ft. radius, 20 ft. high)}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Driving sleet blocks all sight (even darkvision) within it and causes the ground in the area to be icy.
+A creature can walk within or through the area of sleet at half normal speed with a DC 10 Balance check.
+Failure means it can't move in that round, while failure by 5 or more means it falls (see the Balance skill for details).
+The sleet extinguishes torches and small fires.
+Arcane Material Component: A pinch of dust and a few drops of water}}
+
+
+Ice Storm(Player's Handbook v.3.5): - Storm(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Ice Storm](https://dndtools.net/spells/players-handbook-v35--6/ice-storm--2624/) }} {{School:= Evocation  [Cold]}} {{Level:= **Storm 5**, Warmage 3, Druid 4, Sorcerer 4, Wizard 4, WuJen 4, Sha'ir 4, DeathMaster 4, Savant 4, DiscipleofThrym 5, Cold 4, Winter 4, Windstorm 4, Water 5, Arcanist 4}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=Cylinder (20-ft. radius, 40 ft. high)}} {{Duration:=1 full round}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Great magical hailstones pound down for 1 full round, dealing 3d6 points of bludgeoning damage and 2d6 points of cold damage to every creature in the area. A -4 penalty applies to each Listen check made within the ice storm's effect, and all land movement within its area is at half speed. At the end of the duration, the hail disappears, leaving no aftereffects (other than the damage dealt).
+**Arcane Material Component**: A pinch of dust and a few drops of water}}
+
+
+Call Lightning Storm(Player's Handbook v.3.5): - Storm(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Call Lightning Storm](https://dndtools.net/spells/players-handbook-v35--6/call-lightning-storm--2591/) }} {{School:= Evocation  [Electricity]}} {{Level:= **Storm 6**, Druid 5, UrbanDruid 5}} {{Components:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like call lightning, except that each bolt deals 5d6 points of electricity damage (or 5d10 if created outdoors in a stormy area), and you may call a maximum of 15 bolts}}
+
+
+Control Weather(Player's Handbook v.3.5): - Storm(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Control Weather](https://dndtools.net/spells/players-handbook-v35--6/control-weather--2797/) }} {{School:= Transmutation  }} {{Level:= **Storm 7**, WuJen 6, Cleric 7, Druid 7, Sorcerer 7, Wizard 7, Blighter 7, Sha'ir 7, UrbanDruid 7, Air 7, Cold 7, Winter 7, Elysium 7, Windstorm 7, Cloistered Cleric 7, Arcanist 7}} {{Components:= V, S}} {{Range:= 2 miles}} {{Area:=2-mile-radius circle, centered on you; see text}} {{Duration:=4d12 hours; see text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You change the weather in the local area.
+It takes 10 minutes to cast the spell and an additional 10 minutes for the effects to manifest.
+The current, natural weather conditions are determined by the DM.
+You can call forth weather appropriate to the climate and season of the area you are in.
+You control the general tendencies of the weather, such as the direction and intensity of the wind.
+You cannot control specific applications of the weather&#8212;
+where lightning strikes, for example, or the exact path of a tornado.
+When you select a certain weather condition to occur, the weather assumes that condition 10 minutes later (changing gradually, not abruptly).
+The weather continues as you left it for the duration, or until you use a standard action to designate a new kind of weather (which fully manifests itself 10 minutes later).
+Contradictory conditions are not possible simultaneously&#8212;fog and strong wind, for example.
+Control weather can do away with atmospheric phenomena (naturally occurring or otherwise) as well as create them.
+A druid casting this spell doubles the duration and affects a circle with a 3-mile radius}}
+
+
+Whirlwind(Player's Handbook v.3.5): - Storm(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Whirlwind](https://dndtools.net/spells/players-handbook-v35--6/whirlwind--2661/) }} {{School:= Evocation  [Air]}} {{Level:= **Storm 8**, Druid 8, WuJen 8, Air 8, Windstorm 8}} {{Components:= V, S, DF}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Effect:=Cyclone 10 ft. wide at base, 30 ft. wide at top, and 30 ft. tall}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Reflex negates; see text }} {{Save DC:=[[@{spelldc8}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates a powerful cyclone of raging wind that moves through the air, along the ground, or over water at a speed of 60 feet per round.
+You can concentrate on controlling the cyclone's every movement or specify a simple program, such as move straight ahead, zigzag, circle, or the like.
+Directing the cyclone's movement or changing its programmed movement is a standard action for you.
+The cyclone always moves during your turn.
+If the cyclone exceeds the spell's range, it moves in a random, uncontrolled fashion for 1d3 rounds&#8212;possibly endangering you or your allies&#8212;and then dissipates.
+(You can't regain control of the cyclone, even if comes back within range).
+Any Large or smaller creature that comes in contact with the spell effect must succeed on a Reflex save or take 3d6 points of damage.
+A Medium or smaller creature that fails its first save must succeed on a second one or be picked up bodily by the cyclone and held suspended in its powerful winds, taking 1d8 points of damage each round on your turn with no save allowed.
+You may direct the cyclone to eject any carried creatures whenever you wish, depositing the hapless souls wherever the cyclone happens to be when they are released}}
+
+
+Storm of Vengeance(Player's Handbook v.3.5): - Storm(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Storm of Vengeance](https://dndtools.net/spells/players-handbook-v35--6/storm-of-vengeance--2439/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Storm 9**, Druid 9, Cleric 9, Blighter 9, UrbanDruid 9, Nobility 9, Retribution 9, Wrath(BE) 9, Wrath(SpC) 9, Cloistered Cleric 9}} {{Components:= V, S}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Effect:=360-ft.-radius storm cloud}} {{Duration:=Concentration (maximum 10 rounds) (D)}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc9}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates an enormous black storm cloud.
+Lightning and crashing claps of thunder appear within the storm.
+Each creature beneath the cloud must succeed on a Fortitude save or be deafened for 1d4&#215;10 minutes.
+If you do not maintain concentration on the spell after casting it, the spell ends.
+If you continue to concentrate, the spell generates additional effects in each following round, as noted below.
+Each effect occurs during your turn.
+2nd Round: Acid rains down in the area, dealing 1d6 points of acid damage (no save).
+3rd Round: You call six bolts of lightning down from the cloud.
+You decide where the bolts strike.
+No two bolts may be directed at the same target.
+Each bolt deals 10d6 points of electricity damage.
+A creature struck can attempt a Reflex save for half damage.
+4th Round:Hailstones rain down in the area, dealing 5d6 points of bludgeoning damage (no save).
+5th through 10th Rounds: Violent rain and wind gusts reduce visibility.
+The rain obscures all sight, including darkvision, beyond 5 feet.
+A creature 5 feet away has concealment (attacks have a 20% miss chance).
+Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target).
+Speed is reduced by three-quarters.
+Ranged attacks within the area of the storm are impossible.
+Spells cast within the area are disrupted unless the caster succeeds on a Concentration check against a DC equal to the storm of vengeance's save DC + the level of the spell the caster is trying to cast}}

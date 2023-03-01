@@ -1,0 +1,39 @@
+
+
+Eyes of the Avoral(Book of Exalted Deeds): - BelovedofValarian(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Eyes of the Avoral](https://dndtools.net/spells/book-of-exalted-deeds--52/eyes-of-the-avoral--108/) }} {{School:= Transmutation  }} {{Level:= **BelovedofValarian 1**, ApostleofPeace 1, Cleric 1, Druid 1, Ranger 1, Sorcerer 1, Wizard 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= S}} {{Range:= Touch}} {{Target:=One creature}} {{Duration:=10 minutes/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject gains an avoral's sharp eyesight, receiving a +8 racial bonus on Spot checks for the duration of the spell}}
+
+
+Ease Pain(Book of Exalted Deeds): - BelovedofValarian(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Ease Pain](https://dndtools.net/spells/book-of-exalted-deeds--52/ease-pain--26/) }} {{School:= Conjuration (Healing) }} {{Level:= **BelovedofValarian 2**, ApostleofPeace 2, Cleric 2, Cloistered Cleric 2}} {{Components:= S, DF}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Ease pain immediately removes any lingering effects of pain, including penalties imposed by symbol of pain, angry ache, and similar spells.
+It does not heal any damage or other effects not directly related to pain.
+If the target creature is under some effect that causes continuing damage, the pain is eased only for a moment.
+Ease pain cannot bypass the need for a Concentration check to cast a spell under such circumstances, nor can it allow a creature subject to death by thorns to act normally (since the spell's damage is ongoing)}}
+
+
+Remove Addiction(Book of Exalted Deeds): - BelovedofValarian(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Remove Addiction](https://dndtools.net/spells/book-of-exalted-deeds--52/remove-addiction--31/) }} {{School:= Conjuration (Healing) }} {{Level:= **BelovedofValarian 2**, Cleric 2, Druid 2, Cloistered Cleric 2}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=One creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Remove addiction cures all addictions that the target suffers from (see Drugs in the Book of Vile Darkness for more information about addictions).
+Since the spell's duration is instantaneous, it does not prevent new addiction to the same drug at a later date}}
+
+
+Heart's Ease(Book of Exalted Deeds): - BelovedofValarian(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Heart's Ease](https://dndtools.net/spells/book-of-exalted-deeds--52/hearts-ease--48/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **BelovedofValarian 3**, Cleric 3, Cloistered Cleric 3}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level}} {{Duration:=Permanent}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Heart's ease cures emotional wounds in the same way that heal wipes away physical ones.
+The subjects are cured of any fear effect, despair effect (such as the crushing despair spell), or similar mindaffecting condition, excluding charms and compulsions (such as charm person, dominate person, and similar spells).
+It removes any lingering psychological effects of torture (including the increased effectiveness of torture devices, as described in the Book of Vile Darkness).
+It cures confusion and insanity, restores 2d4 points of Wisdom damage (but not permanent Wisdom drain), and leaves the targets feeling refreshed and at peace}}
+
+
+Blinding Beauty(Book of Exalted Deeds): - BelovedofValarian(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blinding Beauty](https://dndtools.net/spells/book-of-exalted-deeds--52/blinding-beauty--100/) }} {{School:= Transmutation  [Good]}} {{Level:= **BelovedofValarian 4**, Bard 4, Druid 4, Ranger 4, Fey 4}} {{Components:= V, S, Abstinence}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You gain the physical beauty of a nymph, with some of the supernatural accompaniment.
+All humanoids within 60 feet of you who look directly at you must succeed on a Fortitude save or be blinded permanently as though by the blindness spell.
+During the duration of the spell, you can suppress or resume this effect as a free action, while remaining stunningly attractive.
+Abstinence Component: You must abstain from sexual intercourse for one week before casting this spell}}
+
+
+Spear of Valarian(Book of Exalted Deeds): - BelovedofValarian(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Spear of Valarian](https://dndtools.net/spells/book-of-exalted-deeds--52/spear-of-valarian--116/) }} {{School:= Transmutation  }} {{Level:= **BelovedofValarian 4**, Ranger 4, Druid 5}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=One nonmagical weapon touched}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Fortitude negates (object, harmless) }} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The spear of Valarian spell transforms one nonmagical weapon into a shimmering silver spear.
+You must be carrying the weapon and have it drawn for the spell to work.
+The shimmering spear functions as a +1 silvered spear.
+Against magical beasts, the weapon becomes a +3 silvered spear that deals +2d6 points of bonus damage (as the bane special property).
+If the spear of Valarian is sundered, the original weapon breaks as the spell suddenly ends.
+If the wielder relinquishes the spear, willingly or not, it immediately reverts to its previous state and the spell ends}}

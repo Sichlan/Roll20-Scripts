@@ -1,0 +1,73 @@
+
+
+Rooftop Strider(Races of Destiny): - City(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Rooftop Strider](https://dndtools.net/spells/races-of-destiny--81/rooftop-strider--3052/) }} {{School:= Transmutation  }} {{Level:= **City 1**, Assassin 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 min./level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can run across rooftops or similar uneven surfaces much more easily than normal.
+You gain a +5 competence bonus on Balance and Jump checks.
+You automatically succeed on all Jump checks to clear a horizontal distance of 5 feet or less.
+You do not need to make Balance checks for running or charging across a sloped surface.
+Material Component: A chip of roof tile}}
+
+
+City Lights(Races of Destiny): - City(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [City Lights](https://dndtools.net/spells/races-of-destiny--81/city-lights--3042/) }} {{School:= Evocation  [Light]}} {{Level:= **City 2**, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= 60 ft.}} {{Area:=60-ft.-radius burst}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc2}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You temporarily absorb all nearby artificial light and release it as a flare.
+Any artificial light (including magical and mundane sources) flickers out momentarily, then a burst of light flares from you.
+All creatures within the area (except you) are blinded for 1 round if they fail a Fortitude save; regardless of the saving throws success, all creatures in the area are dazzled for 1 minute.
+Afterward, the lights return to normal.
+Sightless creatures are unaffected.
+The spell only functions if at least four active artificial light sources (torches, lanterns, light spells, and so forth) are within 60 feet of the caster.
+The spell's name refers to its most common use (in well-lit city streets), but it can function in any area with sufficient lighting.
+City lights counters or dispels any darkness spell of equal or lower level, such as darkness.
+Material Component: A pinch of tinder}}
+
+
+Winding Alleys(Races of Destiny): - City(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Winding Alleys](https://dndtools.net/spells/races-of-destiny--81/winding-alleys--3047/) }} {{School:= Illusion (Phantasm) }} {{Level:= **City 3**, Bard 3}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc3}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject suddenly feels as if the walls of the city are closing in around him.
+If the subject fails a Will save, he believes he is trapped in a maze of narrow city alleys that twist and turn in circles.
+The subject remains in his current location, but is effectively stunned as long as the spell lasts.
+Each round at the end of his turn, the subject may attempt a DC 15 Intelligence check to escape the maze and end the effect.
+If the subject takes any damage, the spell immediately ends.
+The spell must be cast in a community no smaller than a small town, otherwise it has no effect}}
+
+
+Commune With City(Races of Destiny): - City(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Commune With City](https://dndtools.net/spells/races-of-destiny--81/commune-with-city--3034/) }} {{School:= Divination  }} {{Level:= **City 4**}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=Instantaneous}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You become one with a community that you are in, attaining knowledge of the surrounding community.
+You instantly gain knowledge of as many as three facts from among the following subjects: the population of the community, the dominant race within the community and the percentage of the population it encompasses, any given race's percentage of the total population, the level of the highest-level character in a given class, the type and alignment of one of the community's power centers (if the community has more than one, roll randomly), a significant economic factor affecting trade within the city, or a major news item within the city (see Gather Information, page 74 of the Player's Handbook)}}
+
+
+Skyline Runner(Races of Destiny): - City(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Skyline Runner](https://dndtools.net/spells/races-of-destiny--81/skyline-runner--3053/) }} {{School:= Transmutation  }} {{Level:= **City 5**}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 hour/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can walk normally on any city surface as if it were level ground.
+This includes perfectly vertical walls, glass windows, and even clothes-drying lines.
+Your movement speed remains unchanged, even when walking straight up a wall}}
+
+
+City Stride(Races of Destiny): - City(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [City Stride](https://dndtools.net/spells/races-of-destiny--81/city-stride--3030/) }} {{School:= Conjuration (Teleportation) }} {{Level:= **City 6**, Bard 6}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=You and touched objects or touched willing creatures}} {{Duration:=Instantaneous}} {{Savingthrow:=None and Will negates (object) }} {{Save DC:=[[@{spelldc6}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell instantly transports you from one community to a second designated community.
+Each community must be at least as large as a small city (see page 137 of the Dungeon Master's Guide).
+The destination city may be as distant as 100 miles per caster level.
+Interplanar travel is not possible.
+You can bring along objects as long as their weight doesn't exceed your maximum load.
+You may also bring along one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent (see below) per three caster levels.
+A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth.
+All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you.
+Only objects held or in use (attended) by another person receive saving throws and spell resistance.
+You must have visited the destination city at some point in the past.
+You do not have precise control over your arrival point; you appear at a randomly determined safe location within the borders of the city (not within a building).
+Material Component: A chip of city stone or brick from the selected destination}}
+
+
+Urban Shield(Races of Destiny): - City(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Urban Shield](https://dndtools.net/spells/races-of-destiny--81/urban-shield--3029/) }} {{School:= Abjuration  }} {{Level:= **City 7**}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The city itself shields you from harm, leaning in to protect you with its walls, lampposts, and other structures.
+You gain cover (+4 bonus to AC, +2 bonus on Reflex saves) against all attacks and spells.
+At the same time, the city reshapes itself to accommodate your attacks.
+Against your attacks and spells, enemies within the city never benefit from cover that would be gained from the walls, objects, or other parts of the city and its structures.
+You must be within a community no smaller than a small city to cast this spell.
+Material Component: A chip of stone or brick}}
+
+
+Animate City(Races of Destiny): - City(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Animate City](https://dndtools.net/spells/races-of-destiny--81/animate-city--3049/) }} {{School:= Transmutation  }} {{Level:= **City 9**}} {{Components:= V, S, DF}} {{Range:= 60 ft.}} {{Area:=60-ft.-radius emanation, centered on you}} {{Duration:=1 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The buildings and other structures of the city attack your enemies.
+Every round on your turn, every enemy within the spell's area is subject to one melee attack as if from a Gargantuan animated object (slam +15 melee, 2d8+10 damage).
+The animated city's attacks disregard cover and concealment (even invisibility is useless).
+In addition, all enemies within the area of the spell move at half normal speed (regardless of their mode of movement).
+Damage dealt to the animated city structures has no effect.
+You may cast this spell only when within a community at least as large as a small city (see page 137 of the Dungeon Master's Guide)}}

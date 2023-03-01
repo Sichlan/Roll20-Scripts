@@ -1,0 +1,5 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;2:=[View](~Initiateofhelm-Spell-Level-2)}} {{Spelllevel&nbsp;3:=[View](~Initiateofhelm-Spell-Level-3)}} 
+
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofhelm)}} {{Warning:=[View](~Initiateofhelm-Warning-Description) [Send](~Initiateofhelm-Warning-Cast)}} ]
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofhelm)}} {{Forceward:=[View](~Initiateofhelm-Forceward-Description) [Send](~Initiateofhelm-Forceward-Cast)}} {{Mace of Odo:=[View](~Initiateofhelm-Mace-of-Odo-Description) [Send](~Initiateofhelm-Mace-of-Odo-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

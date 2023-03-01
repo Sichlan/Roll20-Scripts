@@ -1,0 +1,62 @@
+
+
+Black Talon(Player's Guide to Faerûn): - Initiateofcyric(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Black Talon](https://dndtools.net/spells/players-guide-to-faerun--22/black-talon--2269/) }} {{School:= Necromancy  }} {{Level:= **Initiateofcyric 2**}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:=No; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=One of your arms transforms into a retractable, rubbery appendage ending in a taloned claw.
+You can attack with this claw as if your natural reach were 5 feet longer than it is.
+(Thus, the spell provides a 10-foot natural reach for most Medium casters).
+You gain a +1 profane bonus on attack rolls with the black talon, and this bonus increases by 1 per four caster levels (to +2 at 5th level, +3 at 9th level, and so forth).
+The talon deals 1d6 points of slashing damage +1 point of negative energy damage per caster level (maximum +10).
+A successful Will save reduces the negative energy damage by half.
+You can also use the talon to make touch attacks, and the profane bonus on attack rolls applies to these as well.
+A successful touch attack deals only the negative energy damage.
+As with similar effects, the negative energy damage from this spell heals undead creatures}}
+
+
+Dread Blast(Player's Guide to Faerûn): - Initiateofcyric(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dread Blast](https://dndtools.net/spells/players-guide-to-faerun--22/dread-blast--2270/) }} {{School:= Necromancy  }} {{Level:= **Initiateofcyric 4**}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Ray}} {{Duration:=Instantaneous}} {{Savingthrow:=Will half; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Necromancy}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You fire a black ray of negative energy at a single target as a ranged touch attack.
+Any creature struck by this ray takes 4d8 points of damage +1 point per caster level (up to +20) and becomes dazed for 1 round.
+A successful Will save halves the damage and negates the dazed effect.
+The spell has no effect on constructs or inanimate objects.
+Since undead are powered by negative energy, this spell cures them of as much damage as it would ordinarily deal}}
+
+
+Skull of Secrets(Player's Guide to Faerûn): - Initiateofcyric(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Skull of Secrets](https://dndtools.net/spells/players-guide-to-faerun--22/skull-of-secrets--2267/) }} {{School:= Illusion (Shadow) }} {{Level:= **Initiateofcyric 4**}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=Intangible skull}} {{Duration:=Permanent until discharged}} {{Savingthrow:=None; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create an intangible image of a floating skull that trails black flames.
+The skull and its flames are illusory, so they neither deal damage nor take damage from attacks.
+The skull has a fly speed of 40 feet (perfect), but it cannot move more than 20 feet from its point of origin.
+It simply floats about aimlessly but threateningly within its available space until the spell is discharged.
+Upon casting this spell, you set two triggering conditions for the skull.
+The first activates a message that the skull delivers as if it were a magic mouth.
+The second causes the skull to spit a line of flame 10 feet long that deals 1d8 points of fire damage per two caster levels (maximum 5d8) at the creature that triggered it.
+A target can attempt a Reflex saving throw for half damage.
+Anyone failing this save must succeed on a Fortitude saving throw or be dazed for 1 round.
+The triggering conditions for the two effects can be
+different, or they can be the same.
+In the latter case, the skull would spit flame and speak its message at the same time.
+Once the triggering conditions for both effects have been met, the skull disappears.
+The skull can produce each effect only once, so if it has already spoken its message, it does not speak it again even if the message trigger occurs a second time}}
+
+
+Skull Eyes(Player's Guide to Faerûn): - Initiateofcyric(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Skull Eyes](https://dndtools.net/spells/players-guide-to-faerun--22/skull-eyes--2292/) }} {{School:= Transmutation  }} {{Level:= **Initiateofcyric 5**}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/three levels}} {{Savingthrow:=None; see text }} {{Save DC:=[[@{spelldc5}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You gain a gaze attack out to close range (25 ft. + 5 ft./2 levels) that lasts for the duration of the spell.
+Each creature within range that can see you must attempt a Will saving throw every round at the beginning of its turn to avoid the effect.
+In addition, you can actively gaze as an attack action by choosing a target within range.
+Depending on the foe's Hit Dice, the gaze attack may have either of two effects, as follows.
+While this spell is in effect, your eyes are black and have skull-shaped irises}}
+
+
+Triple Mask(Player's Guide to Faerûn): - Initiateofcyric(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Triple Mask](https://dndtools.net/spells/players-guide-to-faerun--22/triple-mask--2268/) }} {{School:= Illusion (Shadow) }} {{Level:= **Initiateofcyric 7**}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Three shadow duplicates}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will disbelief (if interacted with) }} {{Save DC:=[[@{spelldc7}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create three shadow duplicates of yourself.
+These images look, sound, and smell like you but are intangible.
+You can switch your perceptions to any shadow or your own body as a free action on your turn.
+When you use the perceptions of a shadow, it mimics your actions (including speech) unless you concentrate on making it act differently.
+Any shadows you are not controlling remain motionless and unreactive.
+If you desire, any spell you cast whose range is touch or greater can originate from a controlled shadow instead of from you.
+(The shadows are quasi-real&#8212;just real enough to cast spells that you originate).
+A shadow can cast only spells that affect shadows on itself.
+The shadows behave like the servant conjured by an unseen servant spell.
+They are mindless, so while they can perform simple tasks such as opening doors, they cannot perform complex tasks such as puzzle solving.
+A controlled shadow can also be programmed to move in a particular direction or to a location you know.
+It moves at your speed and continues to move in this manner until either it reaches its destination or you shift your perceptions to it and program it to go somewhere else.
+If you use dimension door, teleport, plane shift, or a similar spell that removes you from the same plane as the shadows, even momentarily, the spell ends.
+Normally this spell is used to give you several false bodies&#8212;one that acts as a safe haven for casting spells (similar to project image) and the other two as distractions}}

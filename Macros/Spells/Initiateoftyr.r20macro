@@ -1,0 +1,15 @@
+
+
+Sword and Hammer(Player's Guide to Faerûn): - Initiateoftyr(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sword and Hammer](https://dndtools.net/spells/players-guide-to-faerun--22/sword-and-hammer--2264/) }} {{School:= Evocation  [Force]}} {{Level:= **Initiateoftyr 4**}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like spiritual weapon, except as indicated here.
+When you cast the spell, two weapons made of force come into being: a longsword and a warhammer.
+Both weapons grant you a +1 bonus on attack rolls.
+If you direct the weapons to attack the same foe, they flank that opponent, and each gains the appropriate bonus (+2) on attack rolls for flanking.
+The weapons do not deal sneak attack damage even if you have levels in a class that grants the sneak attack ability}}
+
+
+Sword and Hammer, Greater(Player's Guide to Faerûn): - Initiateoftyr(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sword and Hammer, Greater](https://dndtools.net/spells/players-guide-to-faerun--22/sword-and-hammer-greater--2265/) }} {{School:= Evocation  [Force]}} {{Level:= **Initiateoftyr 6**}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like sword and hammer, except as indicated here.
+The longsword and warhammer are sized for Large creatures, and each deals 2d6 points of force damage +1 point per three caster levels (maximum +10) on a successful hit.
+Each weapon grants a +2 bonus on attack rolls.
+Furthermore, each threatens critical hits as if you had the Improved Critical feat (the longsword on a roll of 17-20, and the warhammer on a roll of 19-20)}}

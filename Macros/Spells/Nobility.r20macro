@@ -1,0 +1,96 @@
+
+
+Divine Favor(Player's Handbook v.3.5): - Nobility(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Divine Favor](https://dndtools.net/spells/players-handbook-v35--6/divine-favor--2606/) }} {{School:= Evocation  }} {{Level:= **Nobility 1**, Cleric 1, Paladin 1, DiscipleofThrym 1, RunescarredBerserker 1, SlayerofDomiel 1, VassalofBahamut 1, KnightoftheWeave 1, KnightoftheChalice 1, Mysticism 1, Cloistered Cleric 1}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Calling upon the strength and wisdom of a deity, you gain a +1 luck bonus on attack and weapon damage rolls for every three caster levels you have (at least +1, maximum +3). The bonus doesn't apply to spell damage}}
+
+
+Enthrall(Player's Handbook v.3.5): - Nobility(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Enthrall](https://dndtools.net/spells/players-handbook-v35--6/enthrall--2548/) }} {{School:= Enchantment (Charm) [Sonic]}} {{Level:= **Nobility 2**, Bard 2, Cleric 2, Jester 2, UrbanDruid 2, Domination 2, Elysium 2, Tyranny 2, Herald 2, Cloistered Cleric 2}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=Any number of creatures}} {{Duration:=1 hour or less}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=If you have the attention of a group of creatures, you can use this spell to hold them spellbound.
+To cast the spell, you must speak or sing without interruption for 1 full round.
+Thereafter, those affected give you their undivided attention, ignoring their surroundings.
+They are considered to have an attitude of friendly while under the effect of the spell (see the Dungeon Master's Guide for information about <span class="caps">NPC</span> attitudes).
+Any potentially affected creature of a race or religion unfriendly to yours gets a +4 bonus on the saving throw.
+A creature with 4 or more HD or with a Wisdom score of 16 or higher remains aware of its surroundings and has an attitude of indifferent.
+It gains a new saving throw if it witnesses actions that it opposes.
+The effect lasts as long as you speak or sing, to a maximum of 1 hour.
+Those enthralled by your words take no action while you speak or sing and for 1d3 rounds thereafter while they discuss the topic or performance.
+Those entering the area during the performance must also successfully save or become enthralled.
+The speech ends (but the 1d3-round delay still applies) if you lose concentration or do anything other than speak or sing.
+If those not enthralled have unfriendly or hostile attitudes toward you, they can collectively make a Charisma check to try to end the spell by jeering and heckling.
+For this check, use the Charisma bonus of the creature with the highest Charisma in the group; others may make Charisma checks to assist (as described in Aid Another, page 65).
+The heckling ends the spell if this check result beats your Charisma check result.
+Only one such challenge is allowed per use of the spell.
+If any member of the audience is attacked or subjected to some other overtly hostile act, the spell ends and the previously enthralled members become immediately unfriendly toward you.
+Each creature with 4 or more HD or with a Wisdom score of 16 or higher becomes hostile}}
+
+
+Magic Vestment(Player's Handbook v.3.5): - Nobility(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Magic Vestment](https://dndtools.net/spells/players-handbook-v35--6/magic-vestment--2837/) }} {{School:= Transmutation  }} {{Level:= **Nobility 3**, Cleric 3, KnightoftheChalice 3, Savant 3, Strength 3, War 3, Celestia 3, Halfling 3, Cloistered Cleric 3}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Armor or shield touched}} {{Duration:=1 hour/level}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You imbue a suit of armor or a shield with an enhancement bonus of +1 per four caster levels (maximum +5 at 20th level).
+An outfit of regular clothing counts as armor that grants no AC bonus for the purpose of this spell}}
+
+
+Discern Lies(Player's Handbook v.3.5): - Nobility(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Discern Lies](https://dndtools.net/spells/players-handbook-v35--6/discern-lies--2496/) }} {{School:= Divination  }} {{Level:= **Nobility 4**, Paladin 3, VassalofBahamut 3, Cleric 4, KnightoftheChalice 4, Savant 4, Tyranny 3, Inquisition 4, Mechanus 4, Drow 4, Mind 4, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level, no two of which can be more than 30 ft. apart}} {{Duration:=Concentration, up to 1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Each round, you concentrate on one subject, who must be within range.
+You know if the subject deliberately and knowingly speaks a lie by discerning disturbances in its aura caused by lying.
+The spell does not reveal the truth, uncover unintentional inaccuracies, or necessarily reveal evasions.
+Each round, you may concentrate on a different subject}}
+
+
+Command, Greater(Player's Handbook v.3.5): - Nobility(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Command, Greater](https://dndtools.net/spells/players-handbook-v35--6/command-greater--2537/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Nobility 5**, ThayanSlaver 3, Cleric 5, DeathMaster 5, Jester 5, Domination 5, Tyranny 5, Herald 5, Cloistered Cleric 5}} {{Components:= }} {{Range:= }} {{Target:=One creature/level, no two of which can be more than 30 ft. apart}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/command--2536/">**command**</a>, except that up to one creature per level may be affected, and the activities continue beyond 1 round. At the start of each  commanded creature's action after the first, it gets another Will save to attempt to break free from the spell. Each creature must receive the same command}}
+
+
+Geas/quest(Player's Handbook v.3.5): - Nobility(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Geas/quest](https://dndtools.net/spells/players-handbook-v35--6/geasquest--2551/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Nobility 6**, Bard 6, Cleric 6, Sorcerer 6, Wizard 6, WuJen 6, Sha'ir 6, DreadNecromancer 6, Domination 6, Inquisition 6, Charm 6, Fate 6, Tyranny 6, Cloistered Cleric 6, Arcanist 6}} {{Components:= }} {{Range:= }} {{Target:=One living creature}}  {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions similarly to lesser geas, except that it affects a creature of any HD and allows no saving throw.
+Instead of taking penalties to ability scores (as with lesser geas), the subject takes 3d6 points of damage each day it does not attempt to follow the geas/quest.
+Additionally, each day it must make a Fortitude saving throw or become sickened.
+These effects end 24 hours after the creature attempts to resume the geas/quest.
+A remove curse spell ends a geas/quest spell only if its caster level is at least two higher than your caster level.
+Break enchantment does not end a geas/quest, but limited wish, miracle, and wish do.
+Bards, sorcerers, and wizards usually refer to this spell as geas, while clerics call the same spell quest}}
+
+
+Repulsion(Player's Handbook v.3.5): - Nobility(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Repulsion](https://dndtools.net/spells/players-handbook-v35--6/repulsion--2356/) }} {{School:= Abjuration  }} {{Level:= **Nobility 7**, Sorcerer 6, Wizard 6, Beguiler 6, WuJen 6, Sha'ir 6, Cleric 7, Healer 7, Blighter 7, DeathMaster 7, Force 6, Protection 7, Baator 7, Cloistered Cleric 7, Arcanist 6}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A pair of small iron bars attached to two small canine statuettes, one black and one white, the whole array worth 50 gp}} {{Range:= Up to 10 ft./level}} {{Area:=Up to 10-ft.-radius/level emanation centered on you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc7}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An invisible, mobile field surrounds you and prevents creatures from approaching you.
+You decide how big the field is at the time of casting (to the limit your level allows).
+Any creature within or entering the field must attempt a save.
+If it fails, it becomes unable to move toward you for the duration of the spell.
+Repelled creatures' actions are not otherwise restricted.
+They can fight other creatures and can cast spells and attack you with ranged weapons.
+If you move closer to an affected creature, nothing happens.
+(The creature is not forced back).
+The creature is free to make melee attacks against you if you come within reach.
+If a repelled creature moves away from you and then tries to turn back toward you, it cannot move any closer if it is still within the spell's area}}
+
+
+Demand(Player's Handbook v.3.5): - Nobility(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Demand](https://dndtools.net/spells/players-handbook-v35--6/demand--2544/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Nobility 8**, Sorcerer 8, Wizard 8, Beguiler 8, Sha'ir 8, Baator 8, Charm 8, Arcanist 8}} {{Components:= }} {{Range:= }}   {{Savingthrow:=Will partial }} {{Save DC:=[[@{spelldc8}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like sending, but the message can also contain a suggestion (see the suggestion spell), which the subject does its best to carry out.
+A successful Will save negates the suggestion effect but not the contact itself.
+The demand, if received, is understood even if the subject's Intelligence score is as low as 1.
+If the message is impossible or meaningless according to the circumstances that exist for the subject at the time the demand is issued, the message is understood but the suggestion is ineffective.
+The demand's message to the creature must be twenty-five words or less, including the suggestion.
+The creature can also give a short reply immediately.
+Material Component: A short piece of copper wire and some small part of the subject&#8212;a hair, a bit of nail, or the like}}
+
+
+Storm of Vengeance(Player's Handbook v.3.5): - Nobility(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Storm of Vengeance](https://dndtools.net/spells/players-handbook-v35--6/storm-of-vengeance--2439/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Nobility 9**, Druid 9, Cleric 9, Blighter 9, UrbanDruid 9, Storm 9, Retribution 9, Wrath(BE) 9, Wrath(SpC) 9, Cloistered Cleric 9}} {{Components:= V, S}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Effect:=360-ft.-radius storm cloud}} {{Duration:=Concentration (maximum 10 rounds) (D)}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc9}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates an enormous black storm cloud.
+Lightning and crashing claps of thunder appear within the storm.
+Each creature beneath the cloud must succeed on a Fortitude save or be deafened for 1d4&#215;10 minutes.
+If you do not maintain concentration on the spell after casting it, the spell ends.
+If you continue to concentrate, the spell generates additional effects in each following round, as noted below.
+Each effect occurs during your turn.
+2nd Round: Acid rains down in the area, dealing 1d6 points of acid damage (no save).
+3rd Round: You call six bolts of lightning down from the cloud.
+You decide where the bolts strike.
+No two bolts may be directed at the same target.
+Each bolt deals 10d6 points of electricity damage.
+A creature struck can attempt a Reflex save for half damage.
+4th Round:Hailstones rain down in the area, dealing 5d6 points of bludgeoning damage (no save).
+5th through 10th Rounds: Violent rain and wind gusts reduce visibility.
+The rain obscures all sight, including darkvision, beyond 5 feet.
+A creature 5 feet away has concealment (attacks have a 20% miss chance).
+Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target).
+Speed is reduced by three-quarters.
+Ranged attacks within the area of the storm are impossible.
+Spells cast within the area are disrupted unless the caster succeeds on a Concentration check against a DC equal to the storm of vengeance's save DC + the level of the spell the caster is trying to cast}}

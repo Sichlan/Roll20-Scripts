@@ -1,0 +1,22 @@
+
+
+Substitution(Oriental Adventures): - Fortune(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Substitution](https://dndtools.net/spells/oriental-adventures--96/substitution--2026/) }} {{School:= Abjuration  }} {{Level:= **Fortune 3**, Shaman 3, Celestial 3, Guardian 3}} {{Components:= V, S, M, AF}} {{Material Component:= Offerings to a spirit you revere worth 10 gp}} {{Arcane Focus:= A figure of a spirit you revere, made of glass, wood, stone, or iron.
+The statue's hit points and cost depend on the substance of which it is made.
+A glass figure has 10 hit points and costs 25 gp, a wood figure has 25 hit points and costs 250 gp, a stone figure has 50 hit points and costs 375 gp, and an iron figure has 100 hit points and costs 750 gp.
+You may use this figure for multiple castings of this spell, but you cannot repair it or restore its lost hit points}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 hour/level or until discharged (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates a mystic connection between you and a specially prepared figure representing your deity or a spirit you revere.
+For the duration of the spell, you take only half damage from all wounds and attacks (including those inflicted by special abilities) that deal you hit point damage.
+The amount of damage not taken by you is taken by the figure instead.
+Forms of harm that do not involve hit points, such as charm effects, temporary ability damage, level draining, and disintegration, are not affected.
+If you suffer a reduction of hit points from a lowered Constitution score, the reduction is not split with the figure because it is not hit point damage.
+The spell is discharged when the figure runs out of hit points (i.e. when they reach 0).
+When the spell ends, subsequent damage is no longer divided between you and the figure, but damage already split is not reassigned to you}}
+
+
+Surelife(Player's Guide to Faerûn): - Fortune(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Surelife](https://dndtools.net/spells/players-guide-to-faerun--22/surelife--2222/) }} {{School:= Abjuration  }} {{Level:= **Fortune 8**, Repose 8, WuJen 8, Guardian 8}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 min./level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell protects you against some condition&#8212;such as being immersed in boiling oil or being buried under an avalanche&#8212;that would ordinarily cause certain death.
+You can protect yourself only against a natural occurrence or a nonmagical condition, not against a spell or the direct attack of a creature (such as the breath of a dragon or the swords of a group of bandits).
+At the time of casting, you must specify the condition against which you wish to protect yourself.
+Should you be subjected to that condition during the duration of the spell, you feel no discomfort and take no damage from the condition, though the spell does not protect any items carried on your person.
+If you are still subject to the condition at the end of the spell's duration, you suffer its full normal effects.
+Material Component: An ointment of peach syrup and cinnabar}}

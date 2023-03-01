@@ -1,0 +1,13 @@
+
+
+Wieldskill(Magic of Faerun): - Initiateofgond(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wieldskill](https://dndtools.net/spells/magic-of-faerun--20/wieldskill--1645/) }} {{School:= Divination  }} {{Level:= **Initiateofgond 1**, Cleric 1, Cloistered Cleric 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 minute/level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell imbues the subject with a touch of divine guidance.
+The subject gains a +10 competence bonus on a skill check of your choice.
+If the target has no ranks in the skill, she functions as if she had a half rank in the skill, and therefore is considered trained in the skill (although this half rank adds nothing to her rolls with that skill).
+Alternatively, the target gains proficiency with a single weapon (simple, martial, or exotic) or type of armor (light, medium, heavy, or shield) as if she had the appropriate feat}}
+
+
+Understand Device(Player's Guide to Faerûn): - Initiateofgond(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Understand Device](https://dndtools.net/spells/players-guide-to-faerun--22/understand-device--2239/) }} {{School:= Divination  }} {{Level:= **Initiateofgond 3**}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=You}} {{Duration:=1 min./level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You gain an intuitive insight into the weaknesses and flaws of mechanical objects.
+You can make untrained Disable Device and Open Lock checks as if you had 1/2 rank in each skill.
+You gain an insight bonus equal to your caster level (maximum +15) on Disable Device and Open Lock checks}}

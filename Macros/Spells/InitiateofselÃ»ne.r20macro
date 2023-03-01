@@ -1,0 +1,40 @@
+
+
+Handfire(Player's Guide to Faerûn): - InitiateofselÃ»ne(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Handfire](https://dndtools.net/spells/players-guide-to-faerun--22/handfire--2252/) }} {{School:= Evocation  [Light]}} {{Level:= **InitiateofselÃ»ne 1**, Druid 1, HarperScout 1, Hathran 1, Ranger 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You surround your hand with winking motes of light that resemble a cluster of constantly renewed sparks.
+The lights can be any color you choose, but the color cannot be changed once the spell is cast.
+Handfire provides illumination equal to that of a candle, but it does not give off heat and cannot ignite objects.
+Handfire can be used as a melee touch attack up to once per two caster levels.
+Against a living creature, this attack deals 1d8 points of damage +1 point per caster level (maximum +5).
+Against undead, handfire deals 2d6 points of damage +1 point per caster level (maximum +5).
+It has no effect on targets that are neither living nor undead (such as constructs)}}
+
+
+Strength of the Beast(Player's Guide to Faerûn): - InitiateofselÃ»ne(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Strength of the Beast](https://dndtools.net/spells/players-guide-to-faerun--22/strength-of-the-beast--2296/) }} {{School:= Transmutation  }} {{Level:= **InitiateofselÃ»ne 4**, Initiateofmalar 4}} {{Components:= V, AF}} {{Arcane Focus:= A lock of hair from your animal form}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions only if you are a lycanthrope, and it benefits you only while you are in your humanoid form.
+While under the effect of this spell, you gain certain characteristics of your animal form while remaining in humanoid form.
+You gain the same damage reduction you have in animal form (normally 5/silver or 10/silver), the scent special quality, and the feats you have access to in animal form.
+In addition, you gain one-half the adjustment for each ability score that you gain in animal form, rounded down to the nearest multiple of 2.
+For example, if you are a werebear, you gain Str +8 (half of your animal form's +16) and Con +4 (half of +8), but no adjustment to your Dexterity because half of +2, rounded down to the nearest multiple of 2, is +0.
+If you must make a Control Shape check while under the effect of this spell, you take a -4 penalty on your check}}
+
+
+Wall of Moonlight(Player's Guide to Faerûn): - InitiateofselÃ»ne(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Wall of Moonlight](https://dndtools.net/spells/players-guide-to-faerun--22/wall-of-moonlight--2266/) }} {{School:= Evocation  [Good][Light]}} {{Level:= **InitiateofselÃ»ne 4**}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Vertical plane with an area up to one 5-ft. square/level}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An immobile, shimmering tapestry of swirling, pearl-white light springs into existence.
+This wall need not be anchored to any surface, and creatures can readily pass through it.
+Any undead creature that comes into contact with the wall takes 4d12 points of damage.
+A creature of evil alignment, or any creature carrying the holy symbol of Shar or Umberlee, takes 2d10 points of damage.
+Magic items that come into contact with the wall glow with a red faerie fire effect for 1d4+1 rounds.
+The wall sheds bright light for 20 feet in all directions and creates shadowy illumination in a 40-foot radius.
+The wall of moonlight counters and dispels any darkness spell of 4th level or lower within 40 feet of any part of it.
+If you evoke the wall so that it appears in a spot occupied by creatures, each creature takes damage as if passing through the wall.
+Wall of moonlight can be made permanent with a permanency spell by a caster of at least 12th level at a cost of 2,000 XP}}
+
+
+Moonweb(Player's Guide to Faerûn): - InitiateofselÃ»ne(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Moonweb](https://dndtools.net/spells/players-guide-to-faerun--22/moonweb--2214/) }} {{School:= Abjuration  }} {{Level:= **InitiateofselÃ»ne 5**}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Effect:=10-ft.-high barrier of force in a 5-ft.-diameter circle or 10-ft.-long line}} {{Duration:=10 min./level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create an immobile barrier of force that glows as though with moonlight.
+You can form the barrier either as a circular shield 5 feet in diameter and 10 feet high around a willing creature, or as a flat, 10-foot-square plane placed either horizontally (across a doorway, for example) or vertically (covering a pit or trap door), as long as it is anchored along at least one edge.
+The barrier has an inside and an outside.
+From the inside, it is transparent and passable; any creature can move through it.
+From the outside, it is opaque and virtually impassable&#8212;no creature or attack can pass through from this direction.
+Creatures inside the moonweb have cover and total concealment against attacks that originate on the outside}}

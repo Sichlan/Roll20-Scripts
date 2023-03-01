@@ -1,0 +1,47 @@
+
+
+Divine Sacrifice(Spell Compendium): - ChampionofGwynharwyf(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Divine Sacrifice](https://dndtools.net/spells/spell-compendium--86/divine-sacrifice--4410/) }} {{School:= Evocation  }} {{Level:= **ChampionofGwynharwyf 1**, Blackguard 1, Paladin 1}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Giving up some of your life force to win the battle, you empower your next blow against your foe.**
+Your first attack each round for the duration of the spell deals an extra 5d6 points of damage if it hits, and you take 10 points of damage each time you make such an attack, whether or not the attack is successful}}
+
+
+Warcry(Book of Exalted Deeds): - ChampionofGwynharwyf(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Warcry](https://dndtools.net/spells/book-of-exalted-deeds--52/warcry--57/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **ChampionofGwynharwyf 2**, Bard 3, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= V}} {{Range:= 30 ft.}} {{Effect:=Cone-shaped burst}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You unleash a tremendous battle cry that causes creatures
+within a 30-foot cone to cower in fear for 1d4 rounds.
+Any creature that fails its Fortitude save loses its Dexterity bonus to AC and can take no actions.
+Foes gain a +2 bonus to hit cowering creatures}}
+
+
+Blessed Sight(Book of Exalted Deeds): - ChampionofGwynharwyf(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blessed Sight](https://dndtools.net/spells/book-of-exalted-deeds--52/blessed-sight--36/) }} {{School:= Divination  }} {{Level:= **ChampionofGwynharwyf 3**, ApostleofPeace 3, Cleric 3, Paladin 3, SlayerofDomiel 3, Celestial 3, Cloistered Cleric 3}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell makes your eyes glow with white light and allows you to see evil auras within 120 feet of you.
+The effect is similar to a detect evil spell, but does not require concentration and discerns aura location and strength more quickly.
+You know the location and strength of all evil auras within your sight.
+An aura's strength depends on the type and Hit Dice of any evil creature, as noted in the description of the detect evil spell in the Player's Handbook}}
+
+
+Blood of the Martyr(Book of Exalted Deeds): - ChampionofGwynharwyf(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blood of the Martyr](https://dndtools.net/spells/book-of-exalted-deeds--52/blood-of-the-martyr--87/) }} {{School:= Necromancy (Healing) [Good]}} {{Level:= **ChampionofGwynharwyf 4**, ApostleofPeace 4, Cleric 4, Paladin 4, Cloistered Cleric 4}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=Willing creature}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You may transfer your own hit points directly to a target creature within range.
+You must transfer at least 20 points.
+Transferred hit points are damage to you.
+The creature takes your transferred hit points as if receiving a cure wounds spell and cannot gain more hit points than its maximum allows; any excess points are lost.
+This spell transfers only actual hit points, not temporary hit points.
+An unconscious target is considered a &quot;willing creature&quot; for purposes of this spell}}
+
+
+Glory of the Martyr(Player's Guide to Faerûn): - ChampionofGwynharwyf(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Glory of the Martyr](https://dndtools.net/spells/players-guide-to-faerun--22/glory-of-the-martyr--2212/) }} {{School:= Abjuration  [Good]}} {{Level:= **ChampionofGwynharwyf 4**, Paladin 4, Initiateofilmater 4}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A platinum ring worth at least 50 gp worn by you and each subject of the spell}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Like shield other, this spell wards the subjects, creating a mystic connection between them and you that transfers some of their wounds to you.
+Each subject gains a +1 deflection bonus to AC and a +1 resistance bonus on all saving throws.
+In addition, each subject takes only one-half the normal hit point damage from any attack, and you take the remainder.
+Forms of harm that do not involve hit points, such as charm effects, ability damage, level draining, and disintegration, are not affected.
+If a subject's hit points are reduced because of a lowered Constitution score, that reduction is not split with you because it is not hit point damage.
+When the spell ends, any subsequent damage is no longer divided between you and the subjects, but the damage you took for the subjects is not reassigned to them.
+If you die while glory of the martyr is in effect, the spell ends in a burst of positive energy that restores 1d8 hit points to each subject.
+If a subject dies or moves out of range of the spell, that subject's connection to you is severed, but the spell remains in force with respect to other subjects.
+If your connection with all subjects is severed, the spell ends}}
+
+
+Sword of Conscience(Book of Exalted Deeds): - ChampionofGwynharwyf(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sword of Conscience](https://dndtools.net/spells/book-of-exalted-deeds--52/sword-of-conscience--54/) }} {{School:= Enchantment (Compulsion) [Good]}} {{Level:= **ChampionofGwynharwyf 4**, Cleric 4, ExaltedArcanist 4, Paladin 4, SlayerofDomiel 4, Cloistered Cleric 4}} {{Components:= V, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One evil creature}} {{Duration:=Instantaneous; see text}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The target creature, which must be evil, is struck by pangs of conscience and remorse.
+The creature instantaneously takes Wisdom and Charisma damage according to the magnitude of its evil.
+The creature regains lost abilities normally; they do not automatically return when the spell's duration expires.
+This effect is not language-dependent}}

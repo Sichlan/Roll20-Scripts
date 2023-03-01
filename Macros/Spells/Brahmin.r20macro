@@ -1,0 +1,7 @@
+
+
+That Art Thou(Oriental Adventures): - Brahmin(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [That Art Thou](https://dndtools.net/spells/oriental-adventures--96/that-art-thou--2051/) }} {{School:= Divination  }} {{Level:= **Brahmin 3**}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You extend your senses to become one with all beings and objects within a 30-foot-radius sphere centered on you.
+You see and feel everything sensed by every person, creature, and object in that area.
+The onrush of sensory information gives you a +20 bonus on your Search, Spot, and Listen checks for the duration of the spell.
+In addition, you are never considered flat-footed while the spell duration lasts, and you cannot be flanked unless every other creature within 30 feet of you is also flanked}}

@@ -1,0 +1,285 @@
+
+
+Detect Disease(Oriental Adventures): - Shaman(0)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Detect Disease](https://dndtools.net/spells/oriental-adventures--96/detect-disease--2046/) }} {{School:= Divination  }} {{Level:= **Shaman 0**}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature, one object, or a 5-ft. cube}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You determine whether a creature, object, or area is infected with disease or carries disease.
+You can determine the exact type of disease with a successful Wisdom check (DC 20).
+A character with the Heal skill may try a Heal check (DC 20) if the Wisdom check fails, or may try the Heal check prior to the Wisdom check.
+Note: The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it}}
+
+
+Attraction(Oriental Adventures): - Shaman(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Attraction](https://dndtools.net/spells/oriental-adventures--96/attraction--2102/) }} {{School:= Transmutation  }} {{Level:= **Shaman 1**, Sohei 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=2 rounds/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast this spell, a mystical aura surrounds the subject creature, drawing attacks to the creature and making successful attacks more effective.
+The subject takes an additional +1 point of damage per caster level (max +5) from each melee or ranged attack that deals damage to it.
+This spell does not increase damage from spells}}
+
+
+Trance(Oriental Adventures): - Shaman(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Trance](https://dndtools.net/spells/oriental-adventures--96/trance--2052/) }} {{School:= Divination  }} {{Level:= **Shaman 1**, Nature 1}} {{Components:= V, S}} {{Range:= 120 ft.}} {{Area:=120 ft. spread, centered on you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You place yourself in a deep trance, during which you cannot move, speak, or take any action.
+In the trance, you are highly attuned to the powers and forces in the immediate area.
+You can sense certain magical creatures and effects within the spell's area.
+Each round you remain in the trance, you feel the presence of any one lesser spirit, greater spirit, curse, permanent magical effect, or haunting within the spell's area.
+You can determine the general type of thing contacted (such as natural spirit, evil haunting), but cannot communicate with it in any way or gain any other information about it.
+Using this spell does give you enough information to subsequently cast commune with lesser spirit or a similar spell to communicate with the spirit you desire to contact}}
+
+
+Weapon Bless(Oriental Adventures): - Shaman(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Weapon Bless](https://dndtools.net/spells/oriental-adventures--96/weapon-bless--2133/) }} {{School:= Transmutation  }} {{Level:= **Shaman 1**, Sohei 1, Fury 1}} {{Components:= V, S, AF}} {{Arcane Focus:= A writing brush and ink}} {{Range:= Touch}} {{Target:=Weapon touched}} {{Duration:=Permanent until discharged}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You prepare one weapon for combat against a particular foe.
+While casting the spell, you write the identity of the foe on the weapon, along with spirit invocations to give the weapon power.
+Although you do not need to know the exact name of the intended victim, you must still identify the creature specifically.
+You cannot, for example, bless a weapon for use against &quot;a kappa&quot;, but you can bless it for use against &quot;the kappa who lives in Ch'i Sheng's pond&quot;.
+The first time the blessed weapon is used against the target creature, its wielder gains a +5 enhancement bonus on the first attack roll and a +5 bonus on damage if the first attack is successful.
+After the first attack, or if the weapon is used against another foe before it is used against the target creature, the writings on the blade disappear and the spell effect ends}}
+
+
+Ancestral Vengeance(Oriental Adventures): - Shaman(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Ancestral Vengeance](https://dndtools.net/spells/oriental-adventures--96/ancestral-vengeance--2029/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Shaman 2**, Ancestor 2}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude half }} {{Save DC:=[[@{spelldc2}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast this spell, you call out to an ancestral spirit, listing the crimes of your target and urging your ancestor to punish the miscreant.
+(The target's alignment is irrelevant to the success of the spell).
+The ancestral spirit imposes this punishment in the form of a sharp blow to the target.
+This attack hits automatically and deals 1d6 points of damage per two caster levels (maximum 5d6), or 1d6 points per caster level (maximum 10d6) if the target is undead.
+A successful Fortitude saving throw reduces the damage by half}}
+
+
+Commune With Lesser Spirit(Complete Arcane): - Shaman(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Commune With Lesser Spirit](https://dndtools.net/spells/complete-arcane--55/commune-with-lesser-spirit--485/) }} {{School:= Divination  }} {{Level:= **Shaman 2**, WuJen 3, Celestial 2, Nature 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= 10 ft.}} {{Target:=One lesser spirit}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You contact any local spirit creature with 4 or fewer Hit Dice and can ask it up to one question per two caster levels.
+You must know the identity of the spirit, and you must be within 10 feet of the spirit's location.
+The spirit's knowledge is limited to matters within its immediate area (so that the spirit of a great tree in a village cannot answer questions about events outside the village, for example), and you must ask questions that could typically have one-word answers.
+&quot;Unclear&quot; is a legitimate answer, because spirits are not necessarily omniscient, but in cases where a one-word answer would be misleading or contrary to the spirit's interests, the DM can respond with a short phrase (five words or less) instead.
+If the spirit has been subject to commune with lesser spirit (or commune with greater spirit) within the past week, this spell fails.
+As well, if the spirit's alignment is different from yours, it gets a Will save to resist the spell.
+Unasked questions are wasted if the spell's duration expires.
+Material Component: Incense and a small offering worth 10 gp}}
+
+
+Create Spring(Oriental Adventures): - Shaman(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Create Spring](https://dndtools.net/spells/oriental-adventures--96/create-spring--2105/) }} {{School:= Transmutation  }} {{Level:= **Shaman 2**}} {{Components:= V, S, AF}} {{Arcane Focus:= A bamboo cane}} {{Range:= Touch}} {{Effect:=A spring of water}} {{Duration:=Permanent}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A spring of water bubbles forth from the natural rock or earth you touch.
+The spring cannot arise from creatures, plants, or artificial constructions such as buildings.
+The spring puts forth six gallons of water per hour.
+The water is fresh, clear (at the source), and cool.
+No more than one spring may be created every 100 yards}}
+
+
+Invisibility to Spirits(Oriental Adventures): - Shaman(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Invisibility to Spirits](https://dndtools.net/spells/oriental-adventures--96/invisibility-to-spirits--2019/) }} {{School:= Abjuration  }} {{Level:= **Shaman 2**}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=One touched creature/level}} {{Duration:=10 minutes/level (D)}} {{Savingthrow:=Will negates (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=If a spirit fails its saving throw, it can't perceive the warded creatures and acts as though the warded creatures are not there.
+The warded creatures can move freely among spirits without being noticed, although they are perfectly visible to all other types of creatures.
+If a warded creature touches or attacks a spirit (even with a spell), the spell ends for all recipients.
+Note: A spirit gets one saving throw against the spell.
+It either sees all the warded creatures or none of them.
+Material Component: Red ink, with which you write prayers and scriptures on each warded creature}}
+
+
+Know Motivation(Oriental Adventures): - Shaman(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Know Motivation](https://dndtools.net/spells/oriental-adventures--96/know-motivation--2050/) }} {{School:= Divination  }} {{Level:= **Shaman 2**}} {{Components:= V, S, AF}} {{Arcane Focus:= A prayer written on a strip of cloth and tied around your forehead}} {{Range:= 60 ft.}} {{Area:=Quarter circle emanating from you to the extreme of the range}} {{Duration:=Concentration, up to 1 minute/level (D)}} {{Savingthrow:=Will negates (see text) }} {{Save DC:=[[@{spelldc2}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can sense the basic needs, drives, and emotions of creatures within the spell area.
+Each round, you can focus your attention on one creature within the area and learn what is currently motivating its actions - for example, hunger, thirst, fear, fatigue, pain, uncertainty, rage, hatred, curiosity, hostility, friendliness, love, and so on}}
+
+
+Protection from Spirits(Oriental Adventures): - Shaman(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Protection from Spirits](https://dndtools.net/spells/oriental-adventures--96/protection-from-spirits--2023/) }} {{School:= Abjuration  }} {{Level:= **Shaman 2**}} {{Components:= V, S, AF}} {{Arcane Focus:= A gingko wand with paper prayer strips attached}} {{Range:= Touch}} {{Area:=Emanates 5 ft. from touched creature}} {{Duration:=1 minute/level (D)}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc2}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates a magical barrier around the subject at a distance of 5 feet.
+The barrier moves with the subject and has two major effects.
+First, the subject gets a +2 deflection bonus to AC and a +2 resistance bonus on saves against attacks made by spirits.
+Second, the barrier prevents spirits from entering the area.
+This protection ends if the warded creature makes an attack against or tries to force the barrier against a blocked spirit.
+Spell resistance can allow a spirit to overcome this protection and enter the circle}}
+
+
+Rebuke(Spell Compendium): - Shaman(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Rebuke](https://dndtools.net/spells/spell-compendium--86/rebuke--4074/) }} {{School:= Enchantment (Compulsion) [Fear]}} {{Level:= **Shaman 2**, Sorcerer 2, Wizard 2, Hades 2, Arcanist 2}} {{Components:= V, S, AF}} {{Arcane Focus:= A stick at least 1 foot long}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You rap the switch in your hand and then sharply against your thigh, finishing the final gesture that will bring discomfort to your foe.**
+When the spell is cast, the subject is dazed for 1 round and shaken for the duration of the spell. Furthermore, a spellcaster targeted by rebuke must make a successful Concentration check (DC equal to the save DC for this spell + the level of the spell being cast) to cast spells while under its effect}}
+
+
+Warning(Player's Guide to Faerûn): - Shaman(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Warning](https://dndtools.net/spells/players-guide-to-faerun--22/warning--2240/) }} {{School:= Divination  }} {{Level:= **Shaman 2**, Sohei 2, Guardian 2, Initiateofhelm 2}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=10 min./level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Divination}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell heightens the subject's senses and awareness of danger.
+The subject gains a +4 insight bonus on Listen and Spot checks and gains uncanny dodge for the duration of the spell, retaining its Dexterity bonus to AC (if any) regardless of being caught flat-footed or struck by an invisible attacker.
+(The subject still loses its Dexterity bonus to AC if immobilized)}}
+
+
+Castigate(Spell Compendium): - Shaman(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Castigate](https://dndtools.net/spells/spell-compendium--86/castigate--4013/) }} {{School:= Evocation  [Sonic]}} {{Level:= **Shaman 3**, Cleric 4, Paladin 4, Purification 4, Sohei 3, Fury 3, Cloistered Cleric 4}} {{Components:= V}} {{Range:= 10 ft.}} {{Area:=10-ft.-radius burst centered on you}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude half }} {{Save DC:=[[@{spelldc3}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Shouting your deity's teachings, you rebuke your foes with the magic of your sacred words.**
+This spell has no effect on creatures that cannot hear. All creatures whose alignment differs from yours on both the law&#8212;chaos and the good&#8212;evil axes take 1d4 points of damage per caster level (maximum 10d4). All creatures whose alignment differs from yours on one component take half damage, and this spell does not deal damage to those who share your alignment. For example, a lawful good cleric who casts this spell deals full damage to any creature that is not lawful and not good, half damage to any creature that is lawful or good (but not both), and no damage to lawful good creatures.
+A Fortitude saving throw reduces damage by half}}
+
+
+Detect Curse(Oriental Adventures): - Shaman(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Detect Curse](https://dndtools.net/spells/oriental-adventures--96/detect-curse--2045/) }} {{School:= Divination  }} {{Level:= **Shaman 3**}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature, one object, or a 5-ft. cube}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You determine whether a creature, object, or area has been cursed or carries a curse.
+You can determine the general nature of the curse with a successful Spellcraft check (DC 20).
+In scanning a cursed scroll, you could learn that the curse causes misfortune to the reader, but you could not tell the specific effects.
+If you succeed at the Spellcraft check, you receive a +4 bonus to your effective level when casting remove curse on the item or person analyzed with this spell.
+Note: The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
+Material Component: A small gem worth at least 10 gp}}
+
+
+Invisibility to Enemies(Oriental Adventures): - Shaman(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Invisibility to Enemies](https://dndtools.net/spells/oriental-adventures--96/invisibility-to-enemies--2018/) }} {{School:= Abjuration  }} {{Level:= **Shaman 3**}} {{Components:= V, S, AF}} {{Arcane Focus:= A white robe covered with handwritten symbols and verses}} {{Range:= }} {{Target:=Creature touched}} {{Duration:=3 rounds/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As invisibility to spirits, but the warded creature is invisible to all creatures who may have hostile intentions against it.
+Mindless creatures are not affected by the spell and can see the warded creature normally, since they are incapable of forming hostile intentions.
+Animals and other creatures with Intelligence scores lower than 5 are also not affected, since their motivations are based on survival, not on hostile intent}}
+
+
+Mental Strength(Oriental Adventures): - Shaman(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Mental Strength](https://dndtools.net/spells/oriental-adventures--96/mental-strength--2056/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Shaman 3**, Sohei 3}} {{Components:= V, S, AF}} {{Arcane Focus:= The tail of a white fox}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You imbue the recipient with magical energy that fortifies her will, granting her a +8 resistance bonus on all Will saves}}
+
+
+Mental Weakness(Oriental Adventures): - Shaman(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Mental Weakness](https://dndtools.net/spells/oriental-adventures--96/mental-weakness--2057/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Shaman 3**, Maho 3}} {{Components:= V, S, AF}} {{Arcane Focus:= The tail of a red fox}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc3}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell weakens the subject's mental resistance, giving him a -4 penalty on all Will saves}}
+
+
+Possess Animal(Player's Guide to Faerûn): - Shaman(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Possess Animal](https://dndtools.net/spells/players-guide-to-faerun--22/possess-animal--2275/) }} {{School:= Necromancy  }} {{Level:= **Shaman 3**, Nature 3, Initiateofmalar 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One animal}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc3}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You project your spirit into the body of an animal, forcing it to behave as you direct.
+The target must be a normal animal (not a magical beast, vermin, or other monster type), and your caster level must exceed its Hit Dice.
+The animal's soul remains in its body but has no control over it while your spirit is there.
+Your own body lies comatose for the duration of the spell.
+While in the animal's body, you keep your Intelligence, Wisdom, Charisma, level, classes, base attack bonus, base save bonuses, alignment, and mental abilities.
+You can cast spells while you possess the animal only if you have the Natural Spell feat or an equivalent ability, and you can't activate the body's extraordinary or supernatural abilities.
+Furthermore, for every 2 points of damage taken by the animal body while you are possessing it, you take 1 point of damage.
+If the animal body is killed while you are possessing it, you must make a DC 10 Fortitude save or die as well.
+If your body is destroyed while your spirit is in the animal's body, you die at the end of the spell's duration.
+Material Component: A bowl of incense and a morsel of food appealing to the target animal}}
+
+
+Substitution(Oriental Adventures): - Shaman(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Substitution](https://dndtools.net/spells/oriental-adventures--96/substitution--2026/) }} {{School:= Abjuration  }} {{Level:= **Shaman 3**, Celestial 3, Fortune 3, Guardian 3}} {{Components:= V, S, M, AF}} {{Material Component:= Offerings to a spirit you revere worth 10 gp}} {{Arcane Focus:= A figure of a spirit you revere, made of glass, wood, stone, or iron.
+The statue's hit points and cost depend on the substance of which it is made.
+A glass figure has 10 hit points and costs 25 gp, a wood figure has 25 hit points and costs 250 gp, a stone figure has 50 hit points and costs 375 gp, and an iron figure has 100 hit points and costs 750 gp.
+You may use this figure for multiple castings of this spell, but you cannot repair it or restore its lost hit points}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 hour/level or until discharged (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates a mystic connection between you and a specially prepared figure representing your deity or a spirit you revere.
+For the duration of the spell, you take only half damage from all wounds and attacks (including those inflicted by special abilities) that deal you hit point damage.
+The amount of damage not taken by you is taken by the figure instead.
+Forms of harm that do not involve hit points, such as charm effects, temporary ability damage, level draining, and disintegration, are not affected.
+If you suffer a reduction of hit points from a lowered Constitution score, the reduction is not split with the figure because it is not hit point damage.
+The spell is discharged when the figure runs out of hit points (i.e. when they reach 0).
+When the spell ends, subsequent damage is no longer divided between you and the figure, but damage already split is not reassigned to you}}
+
+
+Discern Shapechanger(Spell Compendium): - Shaman(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Discern Shapechanger](https://dndtools.net/spells/spell-compendium--86/discern-shapechanger--4493/) }} {{School:= Divination  }} {{Level:= **Shaman 4**, Sorcerer 2, Wizard 2, WuJen 3, Sohei 4, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**The smell of wet animal dander assaults your nose even as the perfume of the material component fades. You feel suddenly more suspicious of beings around you, as if some of them might not be what they seem.**
+By taking a standard action to concentrate, you can see the true form of creatures within 60 feet. Each round, you can examine one creature you can see to determine whether it is polymorphed, disguised, or transmuted, and what its true form is. If you look at a shapechanger in its true form, you immediately sense its shapechanging ability, but you can't determine what other forms it might be capable of assuming.
+For the purpose of this spell, a shapechanger is any creature with the shapechanger type or a supernatural or extraordinary ability that allows it to assume an alternate form. A wizard who knows <a href="/spells/players-handbook-v35--6/alter-self--2774/">**alter**</a> self is not a shapechanger (since a spell is not a supernatural or extraordinary ability), but a barghest is (since it has the supernatural ability to assume alternate forms, even though its type is outsider).
+Material Component: A balm of honey and lotus flower costing 25 gp, smeared on your eyelids}}
+
+
+Dream Sight(Spell Compendium): - Shaman(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Dream Sight](https://dndtools.net/spells/spell-compendium--86/dream-sight--4421/) }} {{School:= Divination  }} {{Level:= **Shaman 4**, Dream 6, Oneiromancy 7}} {{Components:= S, DF}} {{Range:= See text}} {{Target:=You}} {{Duration:=1 minute/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**In sleep your spirit rises to travel about and observe the world.**
+You fall into a deep sleep while your spirit leaves your body invisibly in incorporeal form and travels to distant locations. Your spirit can move 100 feet per round, and can see and hear anything you could if you were in the same location. The spirit can be blocked by any spell that wards incorporeal creatures, and it can be detected and attacked in the same way as incorporeal creatures can. Your spirit can do nothing bu move and observe &#8211; it cannot speak, attack, cast spells, or perform any other action.
+At the end of the spell, your spirit instantaneously return to your body and you wake up. If your body is disturbed or attacked while your spirit is wandering, the spell ends immediately}}
+
+
+Fatigue(Oriental Adventures): - Shaman(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Fatigue](https://dndtools.net/spells/oriental-adventures--96/fatigue--2109/) }} {{School:= Transmutation  }} {{Level:= **Shaman 4**, Sohei 4, Maho 4}} {{Components:= S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=See text}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject becomes fatigued, suffering an effective penalty of -2 to Strength and Dexterity.
+A fatigued character cannot run or charge and becomes exhausted by doing something that would normally cause fatigue.
+If the subject is already fatigued when you cast the spell, it becomes exhausted, moving at half normal speed and suffering an effective penalty of -6 to Strength and Dexterity.
+The subject can negate the effects of the spell through normal rest.
+The creature must rest for 8 hours to remove the fatigue}}
+
+
+Reanimation(Complete Arcane): - Shaman(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Reanimation](https://dndtools.net/spells/complete-arcane--55/reanimation--473/) }} {{School:= Conjuration (Healing) }} {{Level:= **Shaman 4**, WuJen 7}} {{Components:= V, S, M, AF}} {{Material Component:= A white shawl and incense}} {{Arcane Focus:= A golden amulet shaped like a phoenix}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 day/level}} {{Savingthrow:=None (harmless)}}  {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You restore a semblance of life to a deceased creature, putting the reanimated subject in a state of half life but not fully binding the soul back into the body.
+Creatures that have been dead no more than one day per caster level can be reanimated so long as their souls are free and willing to return (see Bringing Back the Dead, page 171 of the Player's Handbook).
+The reanimated creature has 1 hit point and can take only a single move action each round (and so is unable to attack, use spells, or activate magic items).
+Its speech (if it could speak while alive) is slow and slurred, and the creature's memory is cloudy, making it difficult for the subject to remember even the basic details of its past life.
+If left unwatched, the creature is prone to wander off randomly.
+It can gain temporary hit points but cannot increase its 1 hit point by means of a Constitution increase or any other method (though if it is wounded, healing can bring the creature back to 1 hit point again).
+The creature can be killed again (and reanimated again if possible), and can be restored to full life by any spell that would restore a fully dead creature to life (such as raise dead).
+As with gentle repose, time spent reanimated does not count against the time limit on raising the creature from the dead, and the reanimated body does not decay.
+A reanimated creature is not undead, and it cannot be turned, harmed by positive energy or holy water, or healed by negative energy.
+A greater restoration spell fully restores the creature's memory but does not improve its physical state}}
+
+
+Remove Fatigue(Book of Exalted Deeds): - Shaman(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Remove Fatigue](https://dndtools.net/spells/book-of-exalted-deeds--52/remove-fatigue--111/) }} {{School:= Transmutation  }} {{Level:= **Shaman 4**, ApostleofPeace 4, Cleric 4, Pleasure 4, Sohei 4, Cloistered Cleric 4}} {{Components:= S}} {{Range:= Touch}} {{Target:=Up to one living creature touched per two levels}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The creatures you touch gain the benefits of 8 hours of restful sleep.
+If a subject was fatigued, the fatigue and its penalties are removed.
+If a subject was exhausted, the exhaustion becomes fatigue, but the subject only needs to rest for 1 more hour to eliminate the fatigue.
+If a subject was already well rested, it does not need to rest or sleep during the next 24 hours.
+Arcane spellcasters must still rest their minds for 8 hours in order to prepare or ready their spells}}
+
+
+Snake Barrier(Oriental Adventures): - Shaman(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Snake Barrier](https://dndtools.net/spells/oriental-adventures--96/snake-barrier--2025/) }} {{School:= Abjuration  }} {{Level:= **Shaman 4**, Guardian 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Invisible barrier whose area is up to one 5-ft. square/level (S)}} {{Duration:=3 rounds/level}} {{Savingthrow:=Will negates or Fortitude half (see text) }} {{Save DC:=[[@{spelldc4}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates an invisible barrier that prevents reptiles, reptilian creatures, and dragons from crossing it.
+Affected creatures are aware of the barrier's presence and purpose, and reptiles that are not overtly hostile avoid the barrier and those protected by it.
+Reptilian creatures with hostile intent may try to penetrate the barrier.
+Affected creatures with 4 or fewer Hit Dice must make a successful Will saving throw to cross at all.
+Any affected creature that crosses the barrier takes 1d4 points of damage per caster level (maximum 10d4), with a successful Fortitude saving throw reducing the damage by half.
+Intelligent reptilian creatures that encounter the barrier usually find it infuriating, and are much less likely to befriend and aid the caster.
+Material Component: A shed snakeskin}}
+
+
+Spirit Ally, Lesser(Oriental Adventures): - Shaman(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Spirit Ally, Lesser](https://dndtools.net/spells/oriental-adventures--96/lesser-spirit-ally--2035/) }} {{School:= Conjuration (Calling) }} {{Level:= **Shaman 4**, Celestial 4}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One summoned spirit of up to 8 HD}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=By casting this spell, you request the services of a spirit (of up to 8 HD) that shares your philosophical alignment.
+If you know an individual spirit's name, you may request that individual by speaking the name during the casting of
+the spell (though you might get a different creature anyway).
+You may ask the spirit to perform one task for you, and the spirit may request some service in return.
+The more demanding your request, the greater return favor the spirit asks for.
+This bargaining takes at least 1 round, so any actions by the spirit begin in the round after it arrives.
+If you agree to the service, the spirit performs the task you requested, reports back to you afterward (if possible), and returns to its home.
+You are honor bound to perform the return favor.
+A spirit may accept some form of payment, such as a magic item, in return for its service.
+The spirit may keep it or may deliver the item to another shaman somewhere else, where it can help the spirit's cause.
+Note: When you use a calling spell that calls an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+For example, lesser spirit ally is a fire spell when it calls a fire elemental}}
+
+
+Sustain(Book of Exalted Deeds): - Shaman(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Sustain](https://dndtools.net/spells/book-of-exalted-deeds--52/sustain--117/) }} {{School:= Transmutation  }} {{Level:= **Shaman 4**, ApostleofPeace 4, Cleric 4, Endurance 4, Sohei 4, Cloistered Cleric 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Up to one living creature touched/two levels}} {{Duration:=6 hours/level}} {{Savingthrow:=None (harmless)}}  {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell instantly relieves the negative effects of hunger and thirst and allows the targets to go without food or water for the duration of the spell, suffering no ill effects from the deprivation.
+An affected creature can eat or drink normally without difficulty.
+When the spell ends, the creatures must resume normal eating and drinking habits, but do not feel any adverse effects from the missed meals.
+The size of the creature is not a factor; a Tiny lizard and a Colossal dragon are both fully nourished by the spell.
+Material Component: A flask of warm wine and a loaf of bread}}
+
+
+Advice(Oriental Adventures): - Shaman(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Advice](https://dndtools.net/spells/oriental-adventures--96/advice--2054/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Shaman 5**}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 hour/level or until completed}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc5}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You influence the actions of the targeted creature by offering profound and thoughtful advice grounded in your wisdom and experience.
+You must word your advice in such a manner as to make it sound reasonable, even if it is not, but you are not limited to a few sentences.
+If the target creature fails its saving throw, it does its best to follow your advice, carrying out the suggested course of action to the best of its ability.
+If the action would place the creature in great peril or cause its death, the victim can attempt a second saving throw&#8212;
+this time with a +4 circumstance bonus&#8212;just before taking the final plunge to its doom}}
+
+
+Blood of Fire(Oriental Adventures): - Shaman(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Blood of Fire](https://dndtools.net/spells/oriental-adventures--96/blood-of-fire--2087/) }} {{School:= Necromancy  }} {{Level:= **Shaman 5**, Maho 5}} {{Components:= V, S, M}} {{Material Component:= Your blood.
+Cutting the pattern in your palm deals 2 points of damage to you}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=Up to four creatures}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex negates (see text) }} {{Save DC:=[[@{spelldc5}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast this spell, you cut a mystic pattern into one palm with a knife and enchant your own blood.
+The spell creates one missile of blood per three caster levels (maximum of five missiles).
+You can then send these missiles of blood streaking from the upturned palm, which explode on impact.
+You can choose a separate target for each missile, but you must make a ranged touch attack for each missile.
+A direct hit deals 2d8 points of damage with no saving throw allowed.
+Creatures within 5 feet of a creature struck by a missile must make successful Reflex saves or take the same damage.
+(Missiles that miss their target do not cause damage to any creature)}}
+
+
+Commune With Greater Spirit(Complete Arcane): - Shaman(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Commune With Greater Spirit](https://dndtools.net/spells/complete-arcane--55/commune-with-greater-spirit--484/) }} {{School:= Divination  }} {{Level:= **Shaman 5**, WuJen 7, Celestial 5, Divination 5, Nature 5}} {{Components:= V, S, M, XP}} {{Material Component:= Incense and a small offering worth 25 gp}} {{XP-Cost= 100 XP}} {{Range:= }} {{Target:=One spirit}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As commune with lesser spirit, except this spell can contact any spirit creature regardless of Hit Dice, and you can ask one question per caster level}}
+
+
+Possess(Oriental Adventures): - Shaman(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Possess](https://dndtools.net/spells/oriental-adventures--96/possess--2093/) }} {{School:= Necromancy  }} {{Level:= **Shaman 5**}} {{Components:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One creature}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As possess animal, but you can take over the body of any creature.
+The possessed creature retains no memory of actions performed during the possession or knowledge of who possessed it.
+Material Component: A bowl of incense}}
+
+
+Force Shapechange(Races of Eberron): - Shaman(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Force Shapechange](https://dndtools.net/spells/races-of-eberron--10/force-shapechange--4812/) }} {{School:= Abjuration  }} {{Level:= **Shaman 6**, Truth 6}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One creature/level}} {{Duration:=1 round/level}} {{Savingthrow:=Will partial }} {{Save DC:=[[@{spelldc6}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast this spell, you specify targets you know or believe to be shapechangers. Any shapechanger targeted by the spell takes 3d10 points of damage from wracking pain and reverts to its true form for the duration of the spell. A successful save negates the reversion and halves the damage dealt.
+For the purpose of this spell, a shapechanger is any creature with the shapechanger type or a supernatural or extraordinary ability that allows it to assume an alternate form. A wizard who knows alter self is not a shapechanger (since a spell is not a supernatural or extraordinary ability), but a barghest is (since it has the supernatural ability to assume alternate forms, even though its type is outsider)}}
+
+
+Spirit Ally(Oriental Adventures): - Shaman(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Spirit Ally](https://dndtools.net/spells/oriental-adventures--96/spirit-ally--2040/) }} {{School:= Conjuration (Calling) }} {{Level:= **Shaman 6**, Celestial 6}} {{Components:= }} {{Range:= }} {{Target:=Up to 16 HD worth of summoned spirits, no two of which can be more than 30 ft. apart when they appear}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As lesser spirit ally, except you may call a single spirit of up to 16 HD or a number of spirits of the same type whose HD total no more than 16.
+The spirits, as a group, agree to perform one task for you and request one favor in return}}
+
+
+Vulnerability(Spell Compendium): - Shaman(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Vulnerability](https://dndtools.net/spells/spell-compendium--86/vulnerability--4756/) }} {{School:= Transmutation  }} {{Level:= **Shaman 6**, Assassin 4, Cleric 5, Sorcerer 5, Wizard 5, Cloistered Cleric 5, Arcanist 5}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc6}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You invoke the power of this spell and a purple mist swirls around your opponent, weakening its mystic protections.**
+This spell lowers the subject's damage reduction by 5 (to a minimum of 5). For instance, if you successfully cast **vulnerability** on a dragon with damage reduction 10/magic, its damage reduction becomes 5/magic.
+For every four caster levels beyond 9th, the subject's damage reduction lowers by an additional 5: a reduction of 10 at caster level 15th and a reduction of 15 at caster level 19th}}
+
+
+Compel(Oriental Adventures): - Shaman(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Compel](https://dndtools.net/spells/oriental-adventures--96/compel--2055/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Shaman 8**, Ancestor 8}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=Permanent}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc8}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You force the subject of the spell to change alignment, specifying the creature's new alignment.
+Creatures whose alignments are listed as &quot;always&quot; a specific alignment, and characters who would lose class abilities if
+they changed to the alignment you specify, gain a +4 bonus on their saving throws against the spell.
+Outsiders with an alignment-based type modifier (Chaotic, Evil, Good, or Lawful) are immune to the effects of this spell.
+Alteration in alignment is mental as well as moral, and the individual changed by the spell thoroughly enjoys his new outlook.
+If the subject's comrades have an alignment outlook that differs significantly from his, he may abandon them or even take actions against them.
+This is up to the discretion of the DM; the spell has no effect on determining this, as it is more a matter of conscience.
+Another compel spell, a wish, or a miracle is required to reverse the effects of the spell; the subject makes no attempt to return to the former alignment.
+In fact, he views the prospect with horror and avoids it in any way possible.
+Thus, if a spellcaster were to cast compel upon him again, causing him to revert to his former alignment or following a new one, he would again receive a saving throw as outlined above}}
+
+
+Spirit Ally, Greater(Oriental Adventures): - Shaman(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Spirit Ally, Greater](https://dndtools.net/spells/oriental-adventures--96/greater-spirit-ally--2031/) }} {{School:= Conjuration (Calling) }} {{Level:= **Shaman 8**, Celestial 8}} {{Components:= }} {{Range:= }} {{Target:=Up to 24 HD worth of spirits, no two of which can be more than 30 ft. apart when they appear}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As lesser spirit ally, except you may call a single spirit of up to 24 HD or a number of spirits of the same type whose HD total no more than 24.
+The spirits agree to help you and request your return favor together}}

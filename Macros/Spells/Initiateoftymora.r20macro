@@ -1,0 +1,10 @@
+
+
+Fleeting Fortune(Champions of Valor): - Initiateoftymora(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fleeting Fortune](https://dndtools.net/spells/champions-of-valor--28/fleeting-fortune--326/) }} {{School:= Transmutation  }} {{Level:= **Initiateoftymora 1**}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 round or until discharged}} {{Savingthrow:=Yes (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You imbue the subject with a bit of Tymora's luck, granting her a +5 luck bonus on a single skill check of her choice.
+Activating the luck bonus requires no action but must be declared before the skill check is rolled}}
+
+
+Favor of Tymora(Champions of Valor): - Initiateoftymora(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Favor of Tymora](https://dndtools.net/spells/champions-of-valor--28/favor-of-tymora--300/) }} {{School:= Abjuration  }} {{Level:= **Initiateoftymora 2**}} {{Components:= V, S, AF}} {{Arcane Focus:= A gold piece}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 round/3 levels}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates a glistening aura of golden magical energy around the target creature.
+The creature gains a +2 luck bonus to AC}}

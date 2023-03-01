@@ -1,0 +1,5 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;4:=[View](~Diabolic-Spell-Level-4)}} {{Spelllevel&nbsp;7:=[View](~Diabolic-Spell-Level-7)}} 
+
+[4, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 4 }} {{subtags=[Back to Main Menu](~Spells-Main-Diabolic)}} {{Hellfire:=[View](~Diabolic-Hellfire-Description) [Send](~Diabolic-Hellfire-Cast)}} ]
+[7, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 7 }} {{subtags=[Back to Main Menu](~Spells-Main-Diabolic)}} {{Hellfire Storm:=[View](~Diabolic-Hellfire-Storm-Description) [Send](~Diabolic-Hellfire-Storm-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

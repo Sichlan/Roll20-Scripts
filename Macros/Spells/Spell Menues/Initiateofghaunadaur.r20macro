@@ -1,0 +1,5 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;5:=[View](~Initiateofghaunadaur-Spell-Level-5)}} {{Spelllevel&nbsp;7:=[View](~Initiateofghaunadaur-Spell-Level-7)}} 
+
+[5, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 5 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofghaunadaur)}} {{Slime Hurl:=[View](~Initiateofghaunadaur-Slime-Hurl-Description) [Send](~Initiateofghaunadaur-Slime-Hurl-Cast)}} ]
+[7, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 7 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofghaunadaur)}} {{Mantle of the Slime Lord:=[View](~Initiateofghaunadaur-Mantle-of-the-Slime-Lord-Description) [Send](~Initiateofghaunadaur-Mantle-of-the-Slime-Lord-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

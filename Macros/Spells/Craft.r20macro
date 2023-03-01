@@ -1,0 +1,93 @@
+
+
+Animate Rope(Player's Handbook v.3.5): - Craft(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Animate Rope](https://dndtools.net/spells/players-handbook-v35--6/animate-rope--2779/) }} {{School:= Transmutation  }} {{Level:= **Craft 1**, Bard 1, Sorcerer 1, Wizard 1, Vigilante 1, WuJen 1, Sha'ir 1, Jester 1, UrbanDruid 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One ropelike object, length up to 50 ft. + 5 ft./level; see text}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can animate a nonliving ropelike object, such as string, yarn, cord, line, rope, or even a cable. The maximum length assumes a rope with a 1-inch diameter. Reduce the maximum length by 50% for every additional inch of thickness, and increase it by 50% for each reduction of the rope's diameter by half.
+The possible commands are &quot;coil&quot; (form a neat, coiled stack), &quot;coil and knot&quot;, &quot;loop&quot;, &quot;loop and knot&quot;, &quot;tie and knot&quot;, and the opposites of all of the above (&quot;uncoil&quot;, and so forth). You can give one command each round as a move action, as if directing an active spell.
+The rope can enwrap only a creature or an object within 1 foot of it&#8212;it does not snake outward&#8212;so it must be thrown near the intended target. Doing so requires a successful ranged touch attack roll (range increment 10 feet). A typical 1-inchdiameter hempen rope has 2 hit points, AC 10, and requires a DC 23 Strength check to burst it. The rope does not deal damage, but it can be used as a trip line or to cause a single opponent that fails a Reflex saving throw to become entangled. A creature capable of spellcasting that is bound by this spell must make a DC 15 Concentration check to cast a spell. An entangled creature can slip free with a DC 20 Escape Artist check.
+The rope itself and any knots tied in it are not magical.
+This spell grants a +2 bonus on any Use Rope checks you make when using the transmuted rope.
+The spell cannot animate objects carried or worn by a creature}}
+
+
+Wood Shape(Player's Handbook v.3.5): - Craft(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wood Shape](https://dndtools.net/spells/players-handbook-v35--6/wood-shape--2897/) }} {{School:= Transmutation  }} {{Level:= **Craft 2**, Druid 2, WuJen 2, UrbanDruid 2}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=One touched piece of wood no larger than 10 cu. ft. + 1 cu. ft./level}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Wood shape enables you to form one existing piece of wood into any shape that suits your purpose.
+For example, you can make a wooden weapon, fashion a special trapdoor, or sculpt a crude idol.
+This spell also permits you to reshape a wood door to make an exit where one didn't exist or to seal a door shut.
+While it is possible to make crude coffers, doors, and so forth, fine detail isn't possible.
+There is a 30% chance that any shape that includes moving parts simply doesn't work}}
+
+
+Stone Shape(Player's Handbook v.3.5): - Craft(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Stone Shape](https://dndtools.net/spells/players-handbook-v35--6/stone-shape--2881/) }} {{School:= Transmutation  [Earth]}} {{Level:= **Craft 3**, Trapsmith 2, Cleric 3, Druid 3, DeathMaster 3, Sorcerer 4, Wizard 4, Sha'ir 4, WuJen 5, Earth 3, Cloistered Cleric 3, Arcanist 4}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Stone or stone object touched, up to 10 cu. ft. + 1 cu. ft./level}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can form an existing piece of stone into any shape that suits your purpose.
+For example, you can make a stone weapon, a special trapdoor, or a crude idol.
+Stone shape also permits you to reshape a stone door to make an exit where one didn't exist or to seal a door shut.
+While it's possible to make crude coffers, doors, and so forth with stone shape, fine detail isn't possible.
+There is a 30% chance that any shape including moving parts simply doesn't work.
+Arcane Material Component: Soft clay, which must be worked into roughly the desired shape of the stone object and then touched to the stone while the verbal component is uttered}}
+
+
+Minor Creation(Player's Handbook v.3.5): - Craft(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Minor Creation](https://dndtools.net/spells/players-handbook-v35--6/minor-creation--2409/) }} {{School:= Conjuration (Creation) }} {{Level:= **Craft 4**, Sorcerer 4, Wizard 4, Adept 4, WuJen 4, Sha'ir 4, Jester 4, UrbanDruid 4, Savant 4, CourtHerald 4, Creation 4, Gnome 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= 0 ft.}} {{Effect:=Unattended, nonmagical object of nonliving plant matter, up to 1 cu. ft./level}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create a nonmagical, unattended object of nonliving, vegetable matter&#8212;linen clothes, a hemp rope, a wooden ladder, and so forth.
+The volume of the item created cannot exceed 1 cubic foot per caster level.
+You must succeed on an appropriate skill check to make a complex item, such as Craft (bowmaking) check to make straight arrow shafts.
+Attempting to use any created object as a material component causes the spell to fail.
+Material Component: A tiny piece of matter of the same sort of item you plan to create with minor creation&#8212;a bit of twisted hemp to create rope, and so forth}}
+
+
+Wall of Stone(Player's Handbook v.3.5): - Craft(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wall of Stone](https://dndtools.net/spells/players-handbook-v35--6/wall-of-stone--2470/) }} {{School:= Conjuration (Creation) [Earth]}} {{Level:= **Craft 5**, Trapsmith 3, UrbanDruid 5, Sha'ir 5, WuJen 5, Cleric 5, Adept 5, Wizard 5, Sorcerer 5, DeathMaster 5, Druid 6, Earth 5, Cloistered Cleric 5, Arcanist 5}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Stone wall whose area is up to one 5-ft. square/level (S)}} {{Duration:=Instantaneous}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc5}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates a wall of rock that merges into adjoining rock surfaces.
+It is typically employed to close passages, portals, and breaches against opponents.
+A wall of stone is 1 inch thick per four caster levels and composed of up to one 5-foot square per level.
+You can double the wall's area by halving its thickness.
+The wall cannot be conjured so that it occupies the same space as a creature or another object.
+Unlike a wall of iron, you can create a wall of stone in almost any shape you desire.
+The wall created need not be vertical, nor rest upon any firm foundation; however, it must merge with and be solidly supported by existing stone.
+It can be used to bridge a chasm, for instance, or as a ramp.
+For this use, if the span is more than 20 feet, the wall must be arched and buttressed.
+This requirement reduces the spell's area by half.
+Thus, a 20th-level caster can create span with a surface area of ten 5-foot squares.
+The wall can be crudely shaped to allow crenellations, battlements, and so forth by likewise reducing the area.
+Like any other stone wall, this one can be destroyed by a disintegrate spell or by normal means such as breaking and chipping.
+Each 5-foot square of the wall has 15 hit points per inch of thickness and hardness 8.
+A section of wall whose hit points drop to 0 is breached.
+If a creature tries to break through the wall with a single attack, the DC for the Strength check is 20 + 2 per inch of thickness.
+It is possible, but difficult, to trap mobile opponents within or under a wall of stone, provided the wall is shaped so it can hold the creatures.
+Creatures can avoid entrapment with successful Reflex saves.
+Arcane Material Component: A small block of granite}}
+
+
+Fantastic Machine(Spell Compendium): - Craft(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fantastic Machine](https://dndtools.net/spells/spell-compendium--86/fantastic-machin--4477/) }} {{School:= Conjuration (Creation) }} {{Level:= **Craft 6**, Gnome 6}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=A 10-ft. machine}} {{Duration:=1 minute/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Your spell generates an illusory, many-armed noisy, massive mechanical construct of impressive appearance.**
+This spell creates a bizarre, but useful,, machine that you can command to perform any simple, physical task that can be described in twenty-five words or less. You can order the machine to perform the same task over and over, but you can't change the task. You must specify the task when yo cast the spell. The machine always acts on your turn in the initiative order. (It can act during the turn you cast the spell.)
+The machine functions as a Large animated object (**MM** 13). It trundles over the ground at a speed of 40 feet. It can swim or fly at a speed of 10 feet (clumsy). It has 22 hit points, AC 14 (-1 size, +5 natural), and hardness 10. Its saving throw modifiers are Fortitude +1, Reflex +1, Will -4.
+The machine has a Strength of 16. A light load for the machine is up to 172 pounds; a medium load is 173-346 pounds; and a heavy load is 347-520 pounds. The machine can fly or swim only when lightly loaded. The machine can lift a weight of up to 1,040 pounds to a height of 15 feet. It can push or drag 2,600 pounds. It can excavate 7,000 pounds of loose rock each minute (which is sufficient to clear a 5-by-5 foot space in 3 rounds). It can excavate sand or loose soil at twice that rate.
+The machine has an attack bonus of +5 and can make one slam attack each round that deals 1d8 +4 points of damage. It deals triple slam damage (3d8+12) against stone or metal. The machine can hurl Small rocks (if any are at hand) with an attack bonus of +3. Its range increment is 150 feet, and it can throw a rock up to 10 range increments. A thrown rock deals 2d6+4 points of damage}}
+
+
+Major Creation(Player's Handbook v.3.5): - Craft(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Major Creation](https://dndtools.net/spells/players-handbook-v35--6/major-creation--2406/) }} {{School:= Conjuration (Creation) }} {{Level:= **Craft 7**, Sorcerer 5, Wizard 5, Adept 5, WuJen 5, Sha'ir 5, UrbanDruid 5, CourtHerald 5, Creation 5, Arcanist 5}} {{Components:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}}  {{Duration:=See text}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/minor-creation--2409/">**minor creation**</a>, except that you can also create an object of mineral nature: stone, crystal, metal, or the like.
+The duration of the created item varies with its relative hardness and rarity, as indicated on the following table}}
+
+
+Forcecage(Player's Handbook v.3.5): - Craft(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Forcecage](https://dndtools.net/spells/players-handbook-v35--6/forcecage--2617/) }} {{School:= Evocation  [Force]}} {{Level:= **Craft 8**, Sorcerer 7, Wizard 7, Sha'ir 7, Force 7, Arcanist 7}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=Barred cage (20-ft. cube) or windowless cell (10-ft. cube)}} {{Duration:=2 hours/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This powerful spell brings into being an immobile, invisible cubical prison composed of either bars of force or solid walls of force (your choice).
+Creatures within the area are caught and contained unless they are too big to fit inside, in which case the spell automatically fails.
+Teleportation and other forms of astral travel provide a means of escape, but the force walls or bars extend into the Ethereal Plane, blocking ethereal travel.
+Like a wall of force spell, a forcecage resists dispel magic, but it is vulnerable to a disintegrate spell, and it can be destroyed by a sphere of annihilation or a rod of cancellation.
+Barred Cage: This version of the spell produces a 20-foot cube made of bands of force (similar to a wall of force spell) for bars.
+The bands are a half-inch wide, with half-inch gaps between them.
+Any creature capable of passing through such a small space can escape; others are confined.
+You can't attack a creature in a barred cage with a weapon unless the weapon can fit between the gaps.
+Even against such weapons (including arrows and similar ranged attacks), a creature in the barred cage has cover.
+All spells and breath weapons can pass through the gaps in the bars.
+Windowless Cell: This version of the spell produces a 10-foot cube with no way in and no way out.
+Solid walls of force form its six sides.
+Material Component: Ruby dust worth 1,500 gp, which is tossed into the air and disappears when you cast the spell}}
+
+
+Fantastic Machine, Greater(Spell Compendium): - Craft(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fantastic Machine, Greater](https://dndtools.net/spells/spell-compendium--86/fantastic-machine--4478/) }} {{School:= Conjuration (Creation) }} {{Level:= **Craft 9**}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=A 10-ft. machine}} {{Duration:=1 minute/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like **fantastic machine**, but you can concentrate on controlling the machine's every action or specify a simple program, such as to collect all the logs in an area and stack them in a neat pile, plow a field, drive piles, or the like. The machine can perform only fairly simple physical tasks. Directing the machine's action or changing its programmed movement is a standard action for you. The machine always acts on your turn in the initiative order. (It can act during the turn you cast the spell.)
+Except where noted below, the machine functions as a Large animated object (**MM** 14) construct from adamantine. It trundles over the ground at a speed of 60 feet. It can swim or fly at a speed of 20 feet (poor). It has 16 HD, 88 hit points, AC 20 (-1 size, +11 natural), and hardness 20. Its saving throw modifiers are Fortitude +5, Reflex +5, and Will +0.
+The machine has Strength of 22. A light load for the machine is up to 346 pounds, a medium load is 347-692 pounds, and a heavy load is 693-1,040 pounds. The machine can fly or swim only when lightly loaded.
+The machine can lift a weight of up to  2,080 pounds to a height of 15 feet. It can push or drag 5,200 pounds. It can excavate 20,000 pounds of loose rock each minute (which is sufficient to clear a 5-by-5-by-5-foot space in 1 round). It can excavate sand or loose soil at twice that rate.
+The machine makes slam attacks with an attack bonus of +17/+12 for 1d8+9 damage. it deals triple slam damage (3d8+27) against stone or metal. The machine can hurl Small rocks (if any are at hand) with an attack bonus of +12/+7. Its range increment is 150 feet, and it can throw a rock up to 10 range increments. A thrown rock deals 2d6+9 points of damage}}

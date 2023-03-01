@@ -1,0 +1,4 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;4:=[View](~Ardent-Spell-Level-4)}} 
+
+[4, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 4 }} {{subtags=[Back to Main Menu](~Spells-Main-Ardent)}} {{Cure Critical Wounds:=[View](~Ardent-Cure-Critical-Wounds-Description) [Send](~Ardent-Cure-Critical-Wounds-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

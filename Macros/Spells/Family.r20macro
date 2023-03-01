@@ -1,0 +1,78 @@
+
+
+Bless(Player's Handbook v.3.5): - Family(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Bless](https://dndtools.net/spells/players-handbook-v35--6/bless--2529/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Family 1**, Cleric 1, Paladin 1, Adept 1, VassalofBahamut 1, KnightoftheWeave 1, DeathDelver 1, Savant 1, Community 1, Cloistered Cleric 1}} {{Components:= V, S, DF}} {{Range:= 50 ft.}} {{Area:=The caster and all allies within a 50-ft. burst, centered on the caster}} {{Duration:=1 min./level}} {{Savingthrow:=None (harmless)}}  {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Bless fills your allies with courage.
+Each ally gains a +1 morale bonus on attack rolls and on saving throws against fear effects.
+Bless counters and dispels bane}}
+
+
+Shield Other(Player's Handbook v.3.5): - Family(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shield Other](https://dndtools.net/spells/players-handbook-v35--6/shield-other--2363/) }} {{School:= Abjuration  }} {{Level:= **Family 2**, Cleric 2, Paladin 2, VassalofBahamut 2, KnightoftheWeave 2, Savant 2, Protection 2, Pact 2, Celestia 2, Cloistered Cleric 2}} {{Components:= V, S, AF}} {{Arcane Focus:= A pair of platinum rings (worth at least 50 gp each) worn by both you and the warded creature}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell wards the subject and creates a mystic connection between you and the subject so that some of its wounds are transferred to you. The subject gains a +1 deflection bonus to AC and a +1 resistance bonus on saves. Additionally, the subject takes only half damage from all wounds and attacks (including that dealt by special abilities) that deal hit point damage. The amount of damage not taken by the warded creature is taken by you. Forms of harm that do not involve hit points, such as charm effects, temporary ability damage, level draining, and death effects, are not affected. If the subject suffers a reduction of hit points from a lowered Constitution score, the reduction is not split with you because it is not hit point damage. When the spell ends, subsequent damage is no longer divided between the subject and you, but damage already split is not reassigned to the subject.
+If you and the subject of the spell move out of range of each other, the spell ends}}
+
+
+Helping Hand(Player's Handbook v.3.5): - Family(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Helping Hand](https://dndtools.net/spells/players-handbook-v35--6/helping-hand--2620/) }} {{School:= Evocation  }} {{Level:= **Family 3**, Cleric 3, Savant 3, Cloistered Cleric 3}} {{Components:= V, S, DF}} {{Range:= 5 miles}} {{Effect:=Ghostly hand}} {{Duration:=1 hour/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create the ghostly image of a hand, which you can send to find a creature within 5 miles.
+The hand then beckons to that creature and leads it to you if the creature is willing to follow.
+When the spell is cast, the hand appears in front of you.
+You then specify a person (or any creature) by physical description, which can include race, gender, and appearance but not ambiguous factors such as level, alignment, or class.
+When the description is complete, the hand streaks off in search of a subject that fits the description.
+The amount of time it takes to find the subject depends on how far away she is.
+Once the hand locates the subject, it beckons the creature to follow it.
+If the subject does so, the hand points in your direction, indicating the most direct feasible route.
+The hand hovers 10 feet in front of the subject, moving before it at a speed of asmuch as 240 feet per round.
+Once the hand leads the subject back to you, it disappears.
+The subject is not compelled to follow the hand or act in any particular way toward you.
+If the subject chooses not to follow, the hand continues to beckon for the duration of the spell, then disappears.
+If the spell expires while the subject is en route to you, the hand disappears; the subject must then rely on her own devices to locate you.
+If more than one subject in a 5-mile radius meets the description, the hand locates the closest creature.
+If that creature refuses to follow the hand, the hand does not seek out a second subject.
+If, at the end of 4 hours of searching, the hand has found no subject that matches the description within 5 miles, it returns to you, displays an outstretched palm (indicating that no such creature was found), and disappears.
+The ghostly hand has no physical form.
+It is invisible to anyone except you and a potential subject.
+It cannot engage in combat or execute any other task aside from locating a subject and leading it back to you.
+The hand can't pass through solid objects but can ooze through small cracks and slits.
+The hand cannot travel more than 5 miles from the spot it appeared when you cast the spell}}
+
+
+Imbue With Spell Ability(Player's Handbook v.3.5): - Family(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Imbue With Spell Ability](https://dndtools.net/spells/players-handbook-v35--6/imbue-with-spell-ability--2625/) }} {{School:= Evocation  }} {{Level:= **Family 4**, Cleric 4, Magic 4, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Creature touched; see text}} {{Duration:=Permanent until discharged (D)}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Evocation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You transfer some of your currently prepared spells, and the ability to cast them, to another creature.
+Only a creature with an Intelligence score of at least 5 and a Wisdom score of at least 9 can receive this bestowal.
+Only cleric spells from the schools of abjuration, divination, and conjuration (healing) can be transferred.
+The number and level of spells that the subject can be granted depends on its Hit Dice; even multiple castings of imbue with spell ability can't exceed this limit.
+The transferred spell's variable characteristics (range, duration, area, and the like) function according to your level, not the level of the recipient.
+Once you cast imbue with spell ability, you cannot prepare a new 4th-level spell to replace it until the recipient uses the imbued spells or is slain, or until you dismiss the imbue with spell ability spell.
+In the meantime, you remain responsible to your deity or your principles for the use to which the spell is put.
+If the number of 4th-level spells you can cast decreases, and that number drops below your current number of active imbue with spell ability spells, the more recently cast imbued spells are dispelled.
+To cast a spell with a verbal component, the subject must be able to speak.
+To cast a spell with a somatic component, it must have humanlike hands.
+To cast a spell with a material component or focus, it must have the materials or focus}}
+
+
+Refuge(Player's Handbook v.3.5): - Family(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Refuge](https://dndtools.net/spells/players-handbook-v35--6/refuge--2425/) }} {{School:= Conjuration (Teleportation) }} {{Level:= **Family 7**, Cleric 7, Sorcerer 9, Wizard 9, Sha'ir 9, Community 7, Liberation 7, Lust 7, Cloistered Cleric 7, Arcanist 9}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Object touched}} {{Duration:=Permanent until discharged}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create powerful magic in some specially prepared object&#8212;a statuette, a jeweled rod, a gem, or the like.
+This object contains the power to instantly transport its possessor across any distance within the same plane to your abode.
+Once the item is transmuted, you must give it willingly to a creature and at the same time inform it of a command word to be spoken when the item is used.
+To make use of the item, the subject speaks the command word at the same time that it rends or breaks the item (a standard action).
+When this is done, the individual and all objects it is wearing and carrying (to a maximum of the character's heavy load) are instantly transported to your abode.
+No other creatures are affected (aside from a familiar that is touching the subject).
+You can alter the spell when casting it so that it transports you to within 10 feet of the possessor of the item when it is broken and the command word spoken.
+You will have a general idea of the location and situation of the item possessor at the time the refuge spell is discharged, but once you decide to alter the spell in this fashion, you have no choice whether or not to be transported.
+Material Component: The specially prepared object, whose construction requires gems worth 1,500 gp}}
+
+
+Protection from Spells(Player's Handbook v.3.5): - Family(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Protection from Spells](https://dndtools.net/spells/players-handbook-v35--6/protection-from-spells--2351/) }} {{School:= Abjuration  }} {{Level:= **Family 8**, Sorcerer 8, Wizard 8, Sha'ir 8, Magic 8, Balance 8, Dwarf 8, Arcanist 8}} {{Components:= V, S, M, AF}} {{Material Component:= A diamond of at least 500 gp value, which must be crushed and sprinkled over the targets}} {{Arcane Focus:= One 1,000 gp diamond per creature to be granted the protection.
+Each subject must carry one such gem for the duration of the spell.
+If a subject loses the gem, the spell ceases to affect him}} {{Range:= Touch}} {{Target:=Up to one creature touched per four levels}} {{Duration:=10 min./level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc8}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject gains a +8 resistance bonus on saving throws against spells and spell-like abilities (but not against supernatural and extraordinary abilities)}}
+
+
+Prismatic Sphere(Player's Handbook v.3.5): - Family(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Prismatic Sphere](https://dndtools.net/spells/players-handbook-v35--6/prismatic-sphere--2343/) }} {{School:= Abjuration  }} {{Level:= **Family 9**, Sorcerer 9, Wizard 9, Warmage 9, Sha'ir 9, Protection 9, Sun 9, Arcanist 9}} {{Components:= V}} {{Range:= 10 ft.}} {{Effect:=10-ft.-radius sphere centered on you}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like prismatic wall, except you conjure up an immobile, opaque globe of shimmering, multicolored light that surrounds you and protects you from all forms of attack.
+The sphere flashes in all colors of the visible spectrum.
+The sphere's blindness effect on creatures with less than 8 HD lasts 2d4&#215;10 minutes.
+You can pass into and out of the prismatic sphere and remain near it without harm. However, when you're inside it, the sphere blocks any attempt to project something through the sphere (including spells). Other creatures that attempt to attack you or pass through suffer the effects of each color, one at a time.
+Typically, only the upper hemisphere of the globe will exist, since you are at the center of the sphere, so the lower half is usually excluded by the floor surface you are standing on.
+The colors of the sphere have the same effects as the colors of a prismatic wall.
+Prismatic sphere can be made permanent with a permanency spell.
+<table><tr><th>Color </th><th>Order </th><th>Effect of Color </th><th>Negated By </th></tr><tr><td> Red </td><td> 1st </td><td> Stops nonmagical ranged weapons. </td><td> **Cone of cold** </td></tr><tr><td> </td><td> </td><td> Deals 20 points of fire damage (Relfex half). </td><td> </td></tr><tr><td> Orange </td><td> 2nd </td><td> Stops magical ranged weapons. </td><td> **Gust of wind** </td></tr><tr><td> </td><td> </td><td> Deals 40 points of acid damage (Reflex half). </td><td> </td></tr><tr><td> Yellow </td><td> 3rd </td><td> Stops poisons, gases and petrification. </td><td> **Disintegrate** </td></tr><tr><td> </td><td> </td><td> Deals 80 points of electricity damage (Reflex half). </td><td> </td></tr><tr><td> Green </td><td> 4th </td><td> Stops breath weapons </td><td> **Passwall** </td></tr><tr><td> </td><td> </td><td> Poison (Kills; Fortitude partial for 1d6 points of Con damage instead). </td><td> </td></tr><tr><td> Blue </td><td> 5th </td><td> Stops divination and mental attacks. </td><td> **Magic missle** </td></tr><tr><td> </td><td> </td><td> Turned to stone (Fortitude negates). </td><td> </td></tr><tr><td> Indigo </td><td> 6th </td><td> Stops all spells. </td><td> **Daylight** </td></tr><tr><td> </td><td> </td><td> Will save or become insane (as insanity spell). </td><td> </td></tr><tr><td> Violet </td><td> 7th </td><td> Energy field destroys all objects and effects. </td><td> **Dispel magic** </td></tr><tr><td> </td><td> </td><td> Creatures sent to another plane (Will negates). </td><td> </td></tr></table>Note: The violet effect makes the special effects of the other six colors redundant, but these six effects are included here because certain magic items can create prismatic effects one color at a time, and spell resistance might render some colors ineffective (see above)}}

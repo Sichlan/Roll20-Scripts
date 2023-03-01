@@ -1,0 +1,20 @@
+
+
+Disk of Solar Vengeance(Champions of Valor): - Initiateofhorus-re(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Disk of Solar Vengeance](https://dndtools.net/spells/champions-of-valor--28/disk-of-solar-vengeance--313/) }} {{School:= Evocation  [Fire]}} {{Level:= **Initiateofhorus-re 1**}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level or until discharged (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates a disk of sunlike flames behind your head.
+The flames give you resistance to cold 5.
+In addition, if any creature strikes you with a natural attack, an unarmed strike, or a melee weapon that is not a reach weapon, it takes 1d6 points of fire damage +1 point per caster level (maximum +5) after dealing its normal damage to you.
+This instantly discharges the spell.
+If the attacker has spell resistance, it applies to this effect.
+Creatures wielding reach weapons, such as longspears, trigger this effect but are not subject to this damage if they attack you.
+You can also use the spell to attack as if it were a touch spell (a successful hit discharges the spell)}}
+
+
+Stormvoice(Champions of Valor): - Initiateofhorus-re(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Stormvoice](https://dndtools.net/spells/champions-of-valor--28/stormvoice--320/) }} {{School:= Evocation  [Sonic]}} {{Level:= **Initiateofhorus-re 2**}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level (D) or until discharged}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your voice is amplified greatly.
+Subtract 10 from the DC of Listen checks made to hear you talking (even whispering).
+You also gain a +2 competence bonus on Intimidate checks.
+While this spell is active, you can use a swift action to create a 15-foot-long cone-shaped burst of intense sound with a shout.
+Every creature in the area takes 1d8 points of sonic damage and must succeed on a Fortitude save to avoid being stunned for 1 round.
+Doing this discharges the spell.
+Creatures that cannot hear are not stunned but are still damaged}}

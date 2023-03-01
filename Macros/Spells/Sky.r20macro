@@ -1,0 +1,37 @@
+
+
+Summon Dire Hawk(Races of the Wild): - Sky(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Summon Dire Hawk](https://dndtools.net/spells/races-of-the-wild--84/summon-dire-hawk--3111/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Sky 2**, Druid 2}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One summoned dire hawk}} {{Duration:=1 minute/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell summons a dire hawk (see page 189).
+It appears where you designate and acts immediately, on your turn.
+You may command the dire hawk telepathically as a free action, allowing you to direct its actions as you desire}}
+
+
+Enduring Flight(Races of the Wild): - Sky(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Enduring Flight](https://dndtools.net/spells/races-of-the-wild--84/enduring-flight--3115/) }} {{School:= Transmutation  }} {{Level:= **Sky 3**, Sorcerer 4, Wizard 4, Arcanist 4}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=See text}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can carry more weight aloft while flying, and your flight lasts longer than normal.
+You can fly at normal speed when wearing medium armor or carrying up to a medium load.
+If your ability to fly (whether natural or magical) has a limited duration, that duration is doubled.
+This spell lasts as long as you remain airborne; it ends the moment you land}}
+
+
+Aerial Alacrity(Races of the Wild): - Sky(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Aerial Alacrity](https://dndtools.net/spells/races-of-the-wild--84/aerial-alacrity--3113/) }} {{School:= Transmutation  }} {{Level:= **Sky 4**, Sorcerer 4, Wizard 4, Arcanist 4}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You become quicker and more maneuverable while airborne.
+Your fly speed increases by 30 feet, and your maneuverability when flying improves by one category, to a maximum of perfect (see page 20 of the Dungeon Master's Guide).
+While airborne, you gain a +1 dodge bonus to Armor Class and on Reflex saves}}
+
+
+Mastery of the Sky(Races of the Wild): - Sky(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Mastery of the Sky](https://dndtools.net/spells/races-of-the-wild--84/mastery-of-the-sky--3116/) }} {{School:= Transmutation  [Air]}} {{Level:= **Sky 8**}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The air around you shapes itself to assist you and interfere with your foes' attacks.
+While airborne, you gain a +2 competence bonus on attack rolls and damage rolls.
+Your maneuverability becomes perfect, and your movement (whether airborne or not) is unaffected by winds of less than hurricane strength (see page 95 of the Dungeon Master's Guide).
+The winds whipping around you (the equivalent of a windstorm) cause ranged weapon attacks made against you to automatically miss, and even siege weapons take a -4 penalty on attack rolls.
+Melee attacks made against you by Huge or smaller creatures have a 50% miss chance.
+Medium or smaller creatures cannot enter your space (such as to bull rush you or tumble through your space).
+This spell has no effect if cast underwater or in an airless environment}}
+
+
+Summon Devoted Roc(Races of the Wild): - Sky(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Summon Devoted Roc](https://dndtools.net/spells/races-of-the-wild--84/summon-devoted-roc--3110/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Sky 9**}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One summoned roc}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell summons a particularly powerful roc.
+It appears where you designate (assuming the space is large enough to hold a Gargantuan creature) and acts immediately, on your turn.
+You may command the roc telepathically as a free action, allowing you to direct its actions as you desire.
+The roc has normal statistics for a creature of its kind (see page 215 of the Monster Manual), with the addition of a +5 enhancement bonus on its attack rolls, damage rolls, and saving throws.
+Its natural weapons are treated as magic weapons for the purpose of overcoming damage reduction}}

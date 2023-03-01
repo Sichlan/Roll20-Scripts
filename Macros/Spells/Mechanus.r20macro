@@ -1,0 +1,129 @@
+
+
+Command(Player's Handbook v.3.5): - Mechanus(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Command](https://dndtools.net/spells/players-handbook-v35--6/command--2536/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Mechanus 1**, Cleric 1, Adept 1, KnightoftheWeave 1, ThayanSlaver 1, DeathMaster 1, Jester 1, Domination 1, Pact 1, Tyranny 1, Cloistered Cleric 1}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 round}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You give the subject a single command, which it obeys to the best of its ability at its earliest opportunity. You may select from the following options.
+**Approach:** On its turn, the subject moves toward you as quickly and directly as possible for 1 round. The creature may do nothing but move during its turn, and it provokes attacks of opportunity for this movement as normal.
+**Drop:** On its turn, the subject drops whatever it is holding. It can't pick up any dropped item until its next turn.
+**Fall:** On its turn, the subject falls to the ground and remains prone for 1 round. It may act normally while prone but takes any appropriate penalties.
+**Flee:** On its turn, the subject moves away from you as quickly as possible for 1 round. It may do nothing but move during its turn, and it provokes attacks of opportunity for this movement as normal.
+**Halt:** The subject stands in place for 1 round. It may not take any actions but is not considered helpless. 
+If the subject can't carry out your command on its next turn, the spell automatically fails}}
+
+
+Protection from Chaos(Player's Handbook v.3.5): - Mechanus(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Protection from Chaos](https://dndtools.net/spells/players-handbook-v35--6/protection-from-chaos--2346/) }} {{School:= Abjuration  [Lawful]}} {{Level:= **Mechanus 1**, Cleric 1, Paladin 1, Sorcerer 1, Wizard 1, Adept 1, RunescarredBerserker 1, Sha'ir 1, Savant 1, Law 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature Touched}}  {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/protection-from-evil--2348/">**protection from evil**</a>, except that the deflection and resistance bonuses apply to attacks from chaotic creatures, and chaotic summoned creatures cannot touch the subject}}
+
+
+Calm Emotions(Player's Handbook v.3.5): - Mechanus(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Calm Emotions](https://dndtools.net/spells/players-handbook-v35--6/calm-emotions--2531/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Mechanus 2**, Bard 2, Cleric 2, Healer 2, Savant 2, UrbanDruid 2, Law 2, Balance 2, Charm 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=Creatures in a 20-ft.-radius spread}} {{Duration:=Concentration, up to 1 round/level (D)}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell calms agitated creatures.
+You have no control over the affected creatures, but calm emotions can stop raging creatures from fighting or joyous ones from reveling.
+Creatures so affected cannot take violent actions (although they can defend themselves) or do anything destructive.
+Any aggressive action against or damage dealt to a calmed creature immediately breaks the spell on all calmed creatures.
+This spell automatically suppresses (but does not dispel) any morale bonuses granted by spells such as bless, good hope, and rage, as well as negating a bard's ability to inspire courage or a barbarian's rage ability.
+It also suppresses any fear effects and removes the confused condition from all targets.
+While the spell lasts, a suppressed spell or effect has no effect.
+When the calm emotions spell ends, the original spell or
+effect takes hold of the creature again, provided that its duration has not expired in the meantime}}
+
+
+Mechanus Mind(Spell Compendium): - Mechanus(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mechanus Mind](https://dndtools.net/spells/spell-compendium--86/mechanus-mind--4565/) }} {{School:= Enchantment (Compulsion) [Lawful]}} {{Level:= **Mechanus 2**, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 minute/level}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You speak the words of the spell and your mind feels clearer and more organized, as if it were mere drawers where everything was put in its proper place. Your face grows calmer and unexpressive, but your thoughts are more rational and ordered.**
+The subject gains a +4 resistance bonus on Will saving throws to resist mind-affecting spells and abilities.
+While in the grip of Mechanus mind, the subject also becomes more analytical and less emotional. The subject gains a +2 competence bonus on Intelligence-based checks, but takes a -2 penalty on Charisma-based checks}}
+
+
+Magic Circle Against Chaos(Player's Handbook v.3.5): - Mechanus(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Magic Circle Against Chaos](https://dndtools.net/spells/players-handbook-v35--6/magic-circle-against-chaos--2334/) }} {{School:= Abjuration  [Lawful]}} {{Level:= **Mechanus 3**, Cleric 3, Paladin 3, Sorcerer 3, Wizard 3, WuJen 3, Savant 3, Sha'ir 3, Law 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like magic circle against evil, except that it is similar to protection from chaos instead of protection from evil, and it can imprison a nonlawful called creature}}
+
+
+Mantle of Law(Spell Compendium): - Mechanus(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mantle of Law](https://dndtools.net/spells/spell-compendium--86/mantle-of-law--4529/) }} {{School:= Abjuration  }} {{Level:= **Mechanus 3**, Cleric 3, Paladin 3, Cloistered Cleric 3}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 minutes/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You invoke the powers of law, and a constant blue field of axiomatic energy surrounds you.**
+This spell functions like <a href="/spells/spell-compendium--86/mantle-chaos--4519/">**mantle of chaos**</a>, except that mantle of law grants spell resistance against spells with the chaotic descriptor}}
+
+
+Discern Lies(Player's Handbook v.3.5): - Mechanus(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Discern Lies](https://dndtools.net/spells/players-handbook-v35--6/discern-lies--2496/) }} {{School:= Divination  }} {{Level:= **Mechanus 4**, Paladin 3, VassalofBahamut 3, Cleric 4, KnightoftheChalice 4, Savant 4, Tyranny 3, Inquisition 4, Drow 4, Mind 4, Nobility 4, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level, no two of which can be more than 30 ft. apart}} {{Duration:=Concentration, up to 1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Each round, you concentrate on one subject, who must be within range.
+You know if the subject deliberately and knowingly speaks a lie by discerning disturbances in its aura caused by lying.
+The spell does not reveal the truth, uncover unintentional inaccuracies, or necessarily reveal evasions.
+Each round, you may concentrate on a different subject}}
+
+
+Dispel Chaos(Player's Handbook v.3.5): - Mechanus(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dispel Chaos](https://dndtools.net/spells/players-handbook-v35--6/dispel-chaos--2311/) }} {{School:= Abjuration  [Lawful]}} {{Level:= **Mechanus 5**, Paladin 4, Cleric 5, Law 5, Cloistered Cleric 5}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like dispel evil, except that you are surrounded by constant, blue, lawful energy, and the spell affects chaotic creatures and spells rather than evil ones}}
+
+
+Mark of Justice(Player's Handbook v.3.5): - Mechanus(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mark of Justice](https://dndtools.net/spells/players-handbook-v35--6/mark-of-justice--2753/) }} {{School:= Necromancy  }} {{Level:= **Mechanus 5**, Paladin 4, KnightoftheWeave 4, Cleric 5, Fate 5, Retribution 5, Cloistered Cleric 5}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Permanent; see text}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When moral persuasion fails to win a criminal over to right conduct, you can use mark of justice to encourage the miscreant to walk the straight and narrow path.
+You draw an indelible mark on the subject and state some behavior on the part of the subject that will activate the mark.
+When activated, the mark curses the subject.
+Typically, you designate some sort of criminal behavior that activates the mark, but you can pick any act you please.
+The effect of the mark is identical with the effect of bestow curse.
+Since this spell takes 10 minutes to cast and involves writing on the target, you can cast it only on a creature that is willing or restrained.
+Like the effect of bestow curse, a mark of justice cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell.
+Remove curse works only if its caster level is equal to or higher than your mark of justice caster level.
+These restrictions apply regardless of whether the mark has activated}}
+
+
+Hold Monster(Player's Handbook v.3.5): - Mechanus(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Hold Monster](https://dndtools.net/spells/players-handbook-v35--6/hold-monster--2556/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Mechanus 6**, ThayanSlaver 3, UrbanDruid 4, Bard 4, Beguiler 5, Duskblade 5, Wizard 5, WuJen 5, Sorcerer 5, Sha'ir 5, DeathMaster 5, Jester 5, Law 6, Arcanist 5}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= }} {{Target:=One living creature}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like hold person, except that it affects any living creature that fails its Will save.
+Arcane Material Component:One hard metal bar or rod, which can be as small as a three-penny nail}}
+
+
+Wall of Gears(Spell Compendium): - Mechanus(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wall of Gears](https://dndtools.net/spells/spell-compendium--86/wall-of-gears--4740/) }} {{School:= Conjuration (Creation) }} {{Level:= **Mechanus 6**, Sorcerer 6, Wizard 6, Arcanist 6}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=A straight wall of moving gears whose area is up to one 10-ft. square/level; see text}} {{Duration:=1 minute/level}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc6}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You pop the gear into your mouth and make a humming, buzzing incantation. The sound takes on a life of its own, and springing from the ground is a huge wall made of machinery, all spinning, clattering and moving about, endangering all who are close to it.**
+This spell creates a 6-inch-thick wall of moving iron cogs, wheels, gears, pistons, and assorted mechanical parts. Each 5-foot square of the wall's surface has hardness 10 and 90 hit points. Both sides of the wall have hundreds of moving parts that flail out, dealing 1d6 points of damage per two caster levels (maximum 15d6) to all creatures within 10 feet. A successful Reflex save halves this damage.
+Material Component: A small gear}}
+
+
+Dictum(Player's Handbook v.3.5): - Mechanus(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dictum](https://dndtools.net/spells/players-handbook-v35--6/dictum--2605/) }} {{School:= Evocation  [Lawful][Sonic]}} {{Level:= **Mechanus 7**, Cleric 7, Law 7, Inquisition 7, Dwarf 7, Cloistered Cleric 7}} {{Components:= V}} {{Range:= 40 ft.}} {{Area:=Nonlawful creatures in a 40-ft.-radius spread centered on you}} {{Duration:=Instantaneous}} {{Savingthrow:=None or Will negates; see text }} {{Save DC:=[[@{spelldc7}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Any nonlawful creature within the area of a dictum spell suffers the following ill effects.
+The effects are cumulative and concurrent.
+No saving throw is allowed against these effects.
+Deafened: The creature is deafened for 1d4 rounds.
+Slowed: The creature is slowed, as by the slow spell, for 2d4 rounds.
+Paralyzed: The creature is paralyzed and helpless for 1d10 minutes.
+Killed: Living creatures die.
+Undead creatures are destroyed.
+Furthermore, if you are on your home plane when you cast this spell, nonlawful extraplanar creatures within the area are instantly banished back to their home planes.
+Creatures so banished cannot return for at least 24 hours.
+This effect takes place regardless of whether the creatures hear the dictum.
+The banishment effect allows a Will save (at a -4 penalty) to negate.
+Creatures whose HD exceed your caster level are unaffected by dictum}}
+
+
+Hold Person, Mass(Player's Handbook v.3.5): - Mechanus(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Hold Person, Mass](https://dndtools.net/spells/players-handbook-v35--6/hold-person-mass--2559/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Mechanus 7**, Sorcerer 7, Wizard 7, Beguiler 7, Sha'ir 7, DeathMaster 7, Arcanist 7}} {{Components:= }} {{Range:= }} {{Target:=One or more humanoid creatures, no two of which can be more than 30 ft. apart}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like hold person, except as noted above}}
+
+
+Iron Body(Player's Handbook v.3.5): - Mechanus(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Iron Body](https://dndtools.net/spells/players-handbook-v35--6/iron-body--2825/) }} {{School:= Transmutation  }} {{Level:= **Mechanus 8**, Sorcerer 8, Wizard 8, Sha'ir 8, DeathMaster 8, UrbanDruid 8, Earth 8, Metal 8, Endurance 9, Arcanist 8}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 min./level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell transforms your body into living iron, which grants you several powerful resistances and abilities.
+You gain damage reduction 15/adamantine.
+You are immune to blindness, critical hits, ability score damage, deafness, disease, drowning, electricity, poison, stunning, and all spells or attacks that affect your physiology or respiration, because you have no physiology or respiration while this spell is in effect.
+You take only half damage from acid and fire of all kinds.
+However, you also become vulnerable to all special attacks that affect iron golems.
+You gain a +6 enhancement bonus to your Strength score, but you take a -6 penalty to Dexterity as well (to a minimum Dexterity score of 1), and your speed is reduced to half normal.
+You have an arcane spell failure chance of 50% and a -8 armor check penalty, just as if you were clad in full plate armor.
+You cannot drink (and thus can't use potions) or play wind instruments.
+Your unarmed attacks deal damage equal to a club sized for you (1d4 for Small characters or 1d6 for Medium characters), and you are considered armed when making unarmed attacks.
+Your weight increases by a factor of ten, causing you to sink in water like a stone.
+However, you could survive the crushing pressure and lack of air at the bottom of the ocean&#8212;at least until the spell duration expires.
+Arcane Material Component: A small piece of iron that was once part of either an iron golem, a hero's armor, or a war machine}}
+
+
+Shield of Law(Player's Handbook v.3.5): - Mechanus(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shield of Law](https://dndtools.net/spells/players-handbook-v35--6/shield-of-law--2362/) }} {{School:= Abjuration  [Lawful]}} {{Level:= **Mechanus 8**, Cleric 8, Law 8, Inquisition 8, Celestia 8, Cloistered Cleric 8}} {{Components:= V, S, AF}} {{Arcane Focus:= A tiny reliquary containing some sacred relic, such as a scrap of parchment from a lawful text.
+The reliquary costs at least 500 gp}} {{Range:= 20 ft.}} {{Target:=One creature/level in a 20-ft.-radius burst centered on you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=See text (harmless)}} {{Save DC:=[[@{spelldc8}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A dim, blue glow surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by chaotic creatures, and slowing chaotic creatures when they strike the subjects.
+This abjuration has four effects.
+First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves.
+Unlike protection from chaos, this benefit applies against all attacks, not just against attacks by chaotic creatures.
+Second, a warded creature gains spell resistance 25 against chaotic spells and spells cast by chaotic creatures.
+Third, the abjuration blocks possession and mental influence, just as protection from chaos does.
+Finally, if a chaotic creature succeeds on a melee attack against a warded creature, the attacker is slowed (Will save negates, as the slow spell, but against shield of law's save DC)}}
+
+
+Call Marut(Spell Compendium): - Mechanus(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Call Marut](https://dndtools.net/spells/spell-compendium--86/call-marut--4008/) }} {{School:= Conjuration (Calling) [Lawful]}} {{Level:= **Mechanus 9**, Cleric 9, Sorcerer 9, Wizard 9, Cloistered Cleric 9, Arcanist 9}} {{Components:= V, S, DF, XP}} {{XP-Cost= 500 XP}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One called marut}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You call across the boundaries of the multiverse, and the powers of Mechanus respond. The marut warps into place in an eyeblink with a whirling throb of thunder. &quot;Who denies death?&quot; it asks with the voice of an avalanche.**
+By casting this spell, you receive the aid of a marut inevitable (**MM** 159). If you know an individual marut's name, you can request that individual by speaking the name during the spell (though you might get a different creature, 
+anyway).
+You can ask the marut to perform one duty for you. The task must take no more than 1 hour to complete. The inevitable does not ask for any payment for the task.
+**XP Cost:** }}

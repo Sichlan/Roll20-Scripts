@@ -1,0 +1,5 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;1:=[View](~Grave-Spell-Level-1)}} {{Spelllevel&nbsp;4:=[View](~Grave-Spell-Level-4)}} 
+
+[1, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 1 }} {{subtags=[Back to Main Menu](~Spells-Main-Grave)}} {{Ghost Light:=[View](~Grave-Ghost-Light-Description) [Send](~Grave-Ghost-Light-Cast)}} ]
+[4, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 4 }} {{subtags=[Back to Main Menu](~Spells-Main-Grave)}} {{Wall of Bones:=[View](~Grave-Wall-of-Bones-Description) [Send](~Grave-Wall-of-Bones-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

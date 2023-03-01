@@ -1,0 +1,4 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;5:=[View](~Divination-Spell-Level-5)}} 
+
+[5, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 5 }} {{subtags=[Back to Main Menu](~Spells-Main-Divination)}} {{Commune With Greater Spirit:=[View](~Divination-Commune-With-Greater-Spirit-Description) [Send](~Divination-Commune-With-Greater-Spirit-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

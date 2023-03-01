@@ -1,0 +1,100 @@
+
+
+Obscuring Mist(Player's Handbook v.3.5): - Air(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Obscuring Mist](https://dndtools.net/spells/players-handbook-v35--6/obscuring-mist--2414/) }} {{School:= Conjuration (Creation) }} {{Level:= **Air 1**, Cleric 1, UrbanDruid 1, Jester 1, DeathMaster 1, Sha'ir 1, WuJen 1, Duskblade 1, Beguiler 1, SlayerofDomiel 1, EbonmarInfiltrator 1, DiscipleofThrym 1, Adept 1, Wizard 1, Sorcerer 1, Druid 1, Assassin 1, Water 1, Darkness 1, Windstorm 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S}} {{Range:= 20 ft.}} {{Effect:=Cloud spreads in 20-ft. radius from you, 20 ft. high}} {{Duration:=1 min./level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A misty vapor arises around you. It is stationary once created. The vapor obscures all sight, including darkvision, beyond 5 feet. A creature 5 feet away has concealment (attacks have a 20% miss chance).  Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target).
+A moderate wind (11+ mph), such as from a <a href="/spells/players-handbook-v35--6/gust-of-wind--2618/">gust of wind spell</a>, disperses the fog in 4 rounds. A strong wind (21+ mph) disperses the fog in 1 round. A <a href="/spells/players-handbook-v35--6/fireball--2612/">fireball</a>, <a href="/spells/players-handbook-v35--6/flame-strike--2614/">flame strike</a>, or similar spell burns away the fog in the explosive or fiery spell's area. A <a href="/spells/players-handbook-v35--6/wall-of-fire--2658/">wall of fire</a> burns away the fog in the area into which it deals damage. This spell does not function underwater}}
+
+
+Wind Wall(Player's Handbook v.3.5): - Air(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Wind Wall](https://dndtools.net/spells/players-handbook-v35--6/wind-wall--2662/) }} {{School:= Evocation  [Air]}} {{Level:= **Air 2**, Ranger 2, Cleric 3, Druid 3, Sorcerer 3, Wizard 3, NentyarHunter 3, Sha'ir 3, DeathMaster 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Wall up to 10 ft./level long and 5 ft./level high (S)}} {{Duration:=1 round/level}} {{Savingthrow:=None; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An invisible vertical curtain of wind appears. It is 2 feet thick and of considerable strength. It is a roaring blast sufficient to blow away any bird smaller than an eagle, or tear papers and similar materials from unsuspecting hands. (A Reflex save allows a creature to maintain its grasp on an object). Tiny and Small flying creatures cannot pass through the barrier. Loose materials and cloth garments fly upward when caught in a wind wall. Arrows and bolts are deflected upward and miss, while any other normal ranged weapon passing through the wall has a 30% miss chance. (A giant-thrown boulder, a siege engine projectile, and other massive ranged weapons are not affected). Gases,  most gaseous breath weapons, and creatures in gaseous form cannot pass through the wall (although it  is no barrier to incorporeal creatures).
+While the wall must be vertical, you can shape it in any continuous path along the ground that you like. It is possible to create cylindrical or square wind walls to enclose specific points. A 5th-level caster can create a wall up to 50 feet long and up to 25 feet high, sufficient to form a cylinder of wind 15 feet in diameter.
+Arcane Material Component: A tiny fan and a feather of exotic origin}}
+
+
+Gaseous Form(Player's Handbook v.3.5): - Air(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Gaseous Form](https://dndtools.net/spells/players-handbook-v35--6/gaseous-form--2819/) }} {{School:= Transmutation  }} {{Level:= **Air 3**, Trapsmith 1, Bard 3, Sorcerer 3, Wizard 3, Vigilante 3, WuJen 3, Sha'ir 3, DeathMaster 3, Jester 3, Arcanist 3}} {{Components:= S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Willing corporeal creature touched}} {{Duration:=2 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject and all its gear become insubstantial, misty, and translucent.
+Its material armor (including natural armor) becomes worthless, though its size, Dexterity, deflection bonuses, and armor bonuses from force effects (for example, from the mage armor spell) still apply.
+The subject gains damage reduction 10/magic and becomes immune to poison and critical hits.
+It can't attack or cast spells with verbal, somatic, material, or focus components while in gaseous form.
+(This does not rule out the use of certain spells that the subject may have prepared using the feats Silent Spell, Still Spell, and Eschew Materials).
+The subject also loses supernatural abilities while in gaseous form.
+If it has a touch spell ready to use, that spell is discharged harmlessly when the gaseous form spell takes effect.
+A gaseous creature can't run, but it can fly at a speed of 10 feet (maneuverability perfect).
+It can pass through small holes or narrow openings, even mere cracks, with all it was wearing or holding in its hands, as long as the spell persists.
+The creature is subject to the effects of wind, and it can't enter water or other liquid.
+It also can't manipulate objects or activate items, even those carried along with its gaseous form.
+Continuously active items remain active, though in some cases their effects may be moot (such as those that supply armor or natural armor bonuses).
+Arcane Material Component: A bit of gauze and a wisp of smoke}}
+
+
+Air Walk(Player's Handbook v.3.5): - Air(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Air Walk](https://dndtools.net/spells/players-handbook-v35--6/air-walk--2772/) }} {{School:= Transmutation  [Air]}} {{Level:= **Air 4**, TelflammarShadowlord 2, RunescarredBerserker 3, Cleric 4, Druid 4, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Creature (Gargantuan or smaller) touched}} {{Duration:=10 min./level}} {{Savingthrow:=None (harmless)}}  {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject can tread on air as if walking on solid ground. Moving upward is similar to walking up a hill. The maximum upward or downward angle possible is 45 degrees, at a rate equal to one-half the air walker's normal speed.
+A strong wind (21+ mph) can push the subject along or hold it back. At the end of its turn each round, the wind blows the air walker 5 feet for each 5 miles per hour of wind speed. The creature can, at the DM's option, be subject to additional penalties in exceptionally strong or turbulent winds, such as loss of control over movement or physical damage from being buffeted about.
+Should the spell duration expire while the subject is still aloft, the magic fails slowly.  The subject floats downward 60 feet per round for 1d6 rounds.  If it reaches the ground in that amount of time, it lands safely.  If not, it falls the rest of the distance, taking 1d6 points of damage per 10 feet of fall. Since dispelling a spell effectively ends it, the subject also descends in this way if the air walk spell is dispelled, but not if it is negated by an antimagic field.
+You can cast air walk on a specially trained mount so it can be ridden through the air.  You can train a mount to move with the aid of air walk (counts as a trick; see page 74) with one week of work and a DC 25 Handle Animal check}}
+
+
+Control Winds(Player's Handbook v.3.5): - Air(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Control Winds](https://dndtools.net/spells/players-handbook-v35--6/control-winds--2798/) }} {{School:= Transmutation  [Air]}} {{Level:= **Air 5**, NentyarHunter 4, Druid 5, UrbanDruid 5}} {{Components:= V, S}} {{Range:= 40 ft./level}} {{Area:=40 ft./level radius cylinder 40 ft. high}} {{Duration:=10 min./level}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc5}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You alter wind force in the area surrounding you.
+You can make the wind blow in a certain direction or manner, increase its strength, or decrease its strength.
+The new wind direction and strength persist until the spell ends or until you choose to alter your handiwork, which requires concentration.
+You may create an &quot;eye&quot; of calm air up to 80 feet in diameter at the center of the area if you so desire, and you may choose to limit the area to any cylindrical area less than your full limit (for example, a 20-foot-diameter tornado centered 100 feet away).
+Wind Direction: You may choose one of four basic wind patterns to function over the spell's area.<ul><li>A downdraft blows from the center outward in equal strength in all directions.</li><li>An updraft blows from the outer edges in toward the center in equal strength from all directions, veering upward before impinging on the eye in the center.</li><li>A rotation causes the winds to circle the center in clockwise or counter-clockwise fashion.</li><li>A blast simply causes the winds to blow in one direction across the entire area from one side to the other.</li></ul>
+Wind Strength: For every three caster levels, you can increase or decrease wind strength by one level.
+(The categories of wind strength are briefly described below, with more detail to be found in the Dungeon Master's Guide).
+Each round on your turn, a creature in the wind must make a Fortitude save or suffer the effect of being in the windy area.
+Strong winds (21+ mph) make sailing difficult.
+A severe wind (31+ mph) causes minor ship and building damage.
+A windstorm (51+ mph) drives most flying creatures from the skies, uproots small trees, knocks down light wooden structures, tears off roofs, and endangers ships.
+Hurricane force winds (75+ mph) destroy wooden buildings, sometimes uproot even large trees, and cause most ships to founder.
+A tornado (175+ mph) destroys all nonfortified buildings and often uproots large trees}}
+
+
+Chain Lightning(Player's Handbook v.3.5): - Air(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Chain Lightning](https://dndtools.net/spells/players-handbook-v35--6/chain-lightning--2593/) }} {{School:= Evocation  [Electricity]}} {{Level:= **Air 6**, Duskblade 5, Sorcerer 6, Wizard 6, Warmage 6, Sha'ir 6, Arcanist 6}} {{Components:= V, S, AF}} {{Arcane Focus:= A bit of fur; a piece of amber, glass, or a crystal rod; plus one silver pin for each of your caster levels}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Target:=One primary target, plus one secondary target/level (each of which must be within 30 ft. of the primary target)}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex half }} {{Save DC:=[[@{spelldc6}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates an electrical discharge that begins as a single stroke commencing from your fingertips.
+Unlike lightning bolt, chain lightning strikes one object or creature initially, then arcs to other targets.
+The bolt deals 1d6 points of electricity damage per caster level (maximum 20d6) to the primary target.
+After it strikes, lightning can arc to a number of secondary targets equal to your caster level (maximum 20).
+The secondary bolts each strike one target and deal half as much damage as the primary one did (rounded down).
+For example, a 19th-level sorcerer generates a primary bolt (19d6 points of damage) and as many as nineteen secondary bolts (each of which deals half as much as the primary bolt dealt).
+Each target can attempt a Reflex saving throw for half damage.
+You choose secondary targets as you like, but they must all be within 30 feet of the primary target, and no target can be struck more than once.
+You can choose to affect fewer secondary targets than the maximum (to avoid allies in the area, for example)}}
+
+
+Control Weather(Player's Handbook v.3.5): - Air(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Control Weather](https://dndtools.net/spells/players-handbook-v35--6/control-weather--2797/) }} {{School:= Transmutation  }} {{Level:= **Air 7**, WuJen 6, Cleric 7, Druid 7, Sorcerer 7, Wizard 7, Blighter 7, Sha'ir 7, UrbanDruid 7, Storm 7, Cold 7, Winter 7, Elysium 7, Windstorm 7, Cloistered Cleric 7, Arcanist 7}} {{Components:= V, S}} {{Range:= 2 miles}} {{Area:=2-mile-radius circle, centered on you; see text}} {{Duration:=4d12 hours; see text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You change the weather in the local area.
+It takes 10 minutes to cast the spell and an additional 10 minutes for the effects to manifest.
+The current, natural weather conditions are determined by the DM.
+You can call forth weather appropriate to the climate and season of the area you are in.
+You control the general tendencies of the weather, such as the direction and intensity of the wind.
+You cannot control specific applications of the weather&#8212;
+where lightning strikes, for example, or the exact path of a tornado.
+When you select a certain weather condition to occur, the weather assumes that condition 10 minutes later (changing gradually, not abruptly).
+The weather continues as you left it for the duration, or until you use a standard action to designate a new kind of weather (which fully manifests itself 10 minutes later).
+Contradictory conditions are not possible simultaneously&#8212;fog and strong wind, for example.
+Control weather can do away with atmospheric phenomena (naturally occurring or otherwise) as well as create them.
+A druid casting this spell doubles the duration and affects a circle with a 3-mile radius}}
+
+
+Whirlwind(Player's Handbook v.3.5): - Air(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Whirlwind](https://dndtools.net/spells/players-handbook-v35--6/whirlwind--2661/) }} {{School:= Evocation  [Air]}} {{Level:= **Air 8**, Druid 8, WuJen 8, Storm 8, Windstorm 8}} {{Components:= V, S, DF}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Effect:=Cyclone 10 ft. wide at base, 30 ft. wide at top, and 30 ft. tall}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Reflex negates; see text }} {{Save DC:=[[@{spelldc8}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates a powerful cyclone of raging wind that moves through the air, along the ground, or over water at a speed of 60 feet per round.
+You can concentrate on controlling the cyclone's every movement or specify a simple program, such as move straight ahead, zigzag, circle, or the like.
+Directing the cyclone's movement or changing its programmed movement is a standard action for you.
+The cyclone always moves during your turn.
+If the cyclone exceeds the spell's range, it moves in a random, uncontrolled fashion for 1d3 rounds&#8212;possibly endangering you or your allies&#8212;and then dissipates.
+(You can't regain control of the cyclone, even if comes back within range).
+Any Large or smaller creature that comes in contact with the spell effect must succeed on a Reflex save or take 3d6 points of damage.
+A Medium or smaller creature that fails its first save must succeed on a second one or be picked up bodily by the cyclone and held suspended in its powerful winds, taking 1d8 points of damage each round on your turn with no save allowed.
+You may direct the cyclone to eject any carried creatures whenever you wish, depositing the hapless souls wherever the cyclone happens to be when they are released}}
+
+
+Elemental Swarm(Player's Handbook v.3.5): - Air(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Elemental Swarm](https://dndtools.net/spells/players-handbook-v35--6/elemental-swarm--2390/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Air 9**, Druid 9, Warmage 9, Earth 9, Fire 9, Water 9, Ocean 9, Dwarf 9}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Two or more summoned creatures, no two of which can be more than 30 ft. apart}} {{Duration:=10 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell opens a portal to an Elemental Plane and summons elementals from it. A druid can choose the plane (Air, Earth, Fire, or Water); a cleric opens a portal to the plane matching his domain.
+When the spell is complete, 2d4 Large elementals appear. Ten minutes later, 1d4 Huge elementals appear. Ten minutes after that, one greater elemental appears. Each elemental has maximum hit points per HD. Once these creatures appear, they serve you for the duration of the spell.
+The elementals obey you explicitly and never attack you, even if someone else manages to gain control over them. You do not need to concentrate to maintain control over the elementals. You can dismiss them singly or in groups at any time.
+When you use a summoning spell to summon an air, earth, fire, or water creature, it is a spell of that type. For example, elemental swarm is a fire spell when you cast it to summon fire elementals and a water spell when you use it to summon water elementals.
+<h4>Special</h4>When casting **elemental swarm** as an Air Domain spell, only Air elementals may be summoned.
+When casting **elemental swarm** as an Earth or Dwarf Domain spell, only Earth elementals may be summoned.
+When casting **elemental swarm** as a Fire Domain spell, only Fire elementals may be summoned.
+When casting **elemental swarm** as a Water or Ocean Domain spell, only Water elementals may be summoned}}

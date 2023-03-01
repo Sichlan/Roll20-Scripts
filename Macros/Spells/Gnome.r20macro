@@ -1,0 +1,57 @@
+
+
+Silent Image(Player's Handbook v.3.5): - Gnome(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Silent Image](https://dndtools.net/spells/players-handbook-v35--6/silent-image--2705/) }} {{School:= Illusion (Figment) }} {{Level:= **Gnome 1**, Bard 1, Sorcerer 1, Wizard 1, Vigilante 1, Beguiler 1, WuJen 1, Sha'ir 1, Jester 1, CourtHerald 1, Illusion 1, Arcanist 1}} {{Components:= V, S, AF}} {{Arcane Focus:= A bit of fleece}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Effect:=Visual figment that cannot extend beyond four 10-ft. cubes + one 10-ft. cube/level (S)}} {{Duration:=Concentration}} {{Savingthrow:=Will disbelief (if interacted with) }} {{Save DC:=[[@{spelldc1}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates the visual illusion of an object, creature, or force, as visualized by you.
+The illusion does not create sound, smell, texture, or temperature.
+You can move the image within the limits of the size of the effect}}
+
+
+Gembomb(Spell Compendium): - Gnome(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Gembomb](https://dndtools.net/spells/spell-compendium--86/gembomb--3878/) }} {{School:= Evocation  [Force]}} {{Level:= **Gnome 2**, Trade 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Gem touchted}} {{Duration:=10 minutes / level or until used}} {{Savingthrow:=Reflex half }} {{Save DC:=[[@{spelldc2}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You place a small spark of energy in the heart of a valuable gem.**
+You turn a gem into a bomb that you (and only you) can lob at enemies. You must hold the gem in your hand when casting the spell. 
+You can toss the bomb with perfect accuracy anywhere within 60 feet. The gembomb explodes in a 5-foot radius burst dealing 1d8 points of force damage per two caster levels (maximum 5d8). Tossing a gembomb is a standard action. 
+**Material Component:** A gem worth at least 1 gp}}
+
+
+Minor Image(Player's Handbook v.3.5): - Gnome(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Minor Image](https://dndtools.net/spells/players-handbook-v35--6/minor-image--2682/) }} {{School:= Illusion (Figment) }} {{Level:= **Gnome 3**, Bard 2, Sorcerer 2, Wizard 2, Vigilante 2, Beguiler 2, WuJen 2, Sha'ir 2, Jester 2, CourtHerald 2, Creation 2, Illusion 2, Arcanist 2}} {{Components:= }} {{Range:= }}  {{Duration:=Concentration +2 rounds}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like silent image, except that minor image includes some minor sounds but not understandable speech}}
+
+
+Minor Creation(Player's Handbook v.3.5): - Gnome(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Minor Creation](https://dndtools.net/spells/players-handbook-v35--6/minor-creation--2409/) }} {{School:= Conjuration (Creation) }} {{Level:= **Gnome 4**, Sorcerer 4, Wizard 4, Adept 4, WuJen 4, Sha'ir 4, Jester 4, UrbanDruid 4, Savant 4, CourtHerald 4, Creation 4, Craft 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= 0 ft.}} {{Effect:=Unattended, nonmagical object of nonliving plant matter, up to 1 cu. ft./level}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create a nonmagical, unattended object of nonliving, vegetable matter&#8212;linen clothes, a hemp rope, a wooden ladder, and so forth.
+The volume of the item created cannot exceed 1 cubic foot per caster level.
+You must succeed on an appropriate skill check to make a complex item, such as Craft (bowmaking) check to make straight arrow shafts.
+Attempting to use any created object as a material component causes the spell to fail.
+Material Component: A tiny piece of matter of the same sort of item you plan to create with minor creation&#8212;a bit of twisted hemp to create rope, and so forth}}
+
+
+Hallucinatory Terrain(Player's Handbook v.3.5): - Gnome(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Hallucinatory Terrain](https://dndtools.net/spells/players-handbook-v35--6/hallucinatory-terrain--2671/) }} {{School:= Illusion (Glamer) }} {{Level:= **Gnome 5**, Bard 4, Sorcerer 4, Wizard 4, Vigilante 4, Sha'ir 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=One 30-ft. cube/level (S)}} {{Duration:=2 hours/level (D)}} {{Savingthrow:=Will disbelief (if interacted with) }} {{Save DC:=[[@{spelldc5}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You make natural terrain look, sound, and smell like some other sort of natural terrain.
+Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain.
+A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road.
+Structures, equipment, and creatures within the area are not hidden or changed in appearance.
+Material Component: A stone, a twig, and a bit of green plant}}
+
+
+Fantastic Machine(Spell Compendium): - Gnome(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fantastic Machine](https://dndtools.net/spells/spell-compendium--86/fantastic-machin--4477/) }} {{School:= Conjuration (Creation) }} {{Level:= **Gnome 6**, Craft 6}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=A 10-ft. machine}} {{Duration:=1 minute/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Your spell generates an illusory, many-armed noisy, massive mechanical construct of impressive appearance.**
+This spell creates a bizarre, but useful,, machine that you can command to perform any simple, physical task that can be described in twenty-five words or less. You can order the machine to perform the same task over and over, but you can't change the task. You must specify the task when yo cast the spell. The machine always acts on your turn in the initiative order. (It can act during the turn you cast the spell.)
+The machine functions as a Large animated object (**MM** 13). It trundles over the ground at a speed of 40 feet. It can swim or fly at a speed of 10 feet (clumsy). It has 22 hit points, AC 14 (-1 size, +5 natural), and hardness 10. Its saving throw modifiers are Fortitude +1, Reflex +1, Will -4.
+The machine has a Strength of 16. A light load for the machine is up to 172 pounds; a medium load is 173-346 pounds; and a heavy load is 347-520 pounds. The machine can fly or swim only when lightly loaded. The machine can lift a weight of up to 1,040 pounds to a height of 15 feet. It can push or drag 2,600 pounds. It can excavate 7,000 pounds of loose rock each minute (which is sufficient to clear a 5-by-5 foot space in 3 rounds). It can excavate sand or loose soil at twice that rate.
+The machine has an attack bonus of +5 and can make one slam attack each round that deals 1d8 +4 points of damage. It deals triple slam damage (3d8+12) against stone or metal. The machine can hurl Small rocks (if any are at hand) with an attack bonus of +3. Its range increment is 150 feet, and it can throw a rock up to 10 range increments. A thrown rock deals 2d6+4 points of damage}}
+
+
+Screen(Player's Handbook v.3.5): - Gnome(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Screen](https://dndtools.net/spells/players-handbook-v35--6/screen--2696/) }} {{School:= Illusion (Glamer) }} {{Level:= **Gnome 7**, Sorcerer 8, Wizard 8, Beguiler 8, Sha'ir 8, Trickery 7, Illusion 8, Arcanist 8}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=30-ft. cube/level (S)}} {{Duration:=24 hours}} {{Savingthrow:=None or Will disbelief (if interacted with); see text }} {{Save DC:=[[@{spelldc7}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell combines several elements to create a powerful protection from scrying and direct observation.
+When casting the spell, you dictate what will and will not be observed in the spell's area.
+The illusion created must be stated in general terms.
+Thus, you could specify the illusion of yourself and another character playing chess for the duration of the spell, but you could not have the illusory chess players take a break, make dinner, and then resume their game.
+You could have a crossroads appear quiet and empty even while an army is actually passing through the area.
+You could specify that no one be seen (including passing strangers), that your troops be undetected, or even that every fifth person or unit should be visible.
+Once the conditions are set, they cannot be changed.
+Attempts to scry the area automatically detect the image stated by you with no save allowed.
+Sight and sound are appropriate to the illusion created.
+A band of people standing in a meadow could be concealed as an empty meadow with birds chirping, for instance.
+Direct observation may allow a save (as per a normal illusion), if there is cause to disbelieve what is seen.
+Certainly onlookers in the area would become suspicious if a marching army disappeared at one point to reappear at another.
+Even entering the area does not cancel the illusion or necessarily allow a save, assuming that hidden beings take care to stay out of the way of those affected by the illusion}}

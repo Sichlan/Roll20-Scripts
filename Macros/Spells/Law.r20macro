@@ -1,0 +1,66 @@
+
+
+Protection from Chaos(Player's Handbook v.3.5): - Law(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Protection from Chaos](https://dndtools.net/spells/players-handbook-v35--6/protection-from-chaos--2346/) }} {{School:= Abjuration  [Lawful]}} {{Level:= **Law 1**, Cleric 1, Paladin 1, Sorcerer 1, Wizard 1, Adept 1, RunescarredBerserker 1, Sha'ir 1, Savant 1, Mechanus 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature Touched}}  {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/protection-from-evil--2348/">**protection from evil**</a>, except that the deflection and resistance bonuses apply to attacks from chaotic creatures, and chaotic summoned creatures cannot touch the subject}}
+
+
+Calm Emotions(Player's Handbook v.3.5): - Law(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Calm Emotions](https://dndtools.net/spells/players-handbook-v35--6/calm-emotions--2531/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Law 2**, Bard 2, Cleric 2, Healer 2, Savant 2, UrbanDruid 2, Mechanus 2, Balance 2, Charm 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=Creatures in a 20-ft.-radius spread}} {{Duration:=Concentration, up to 1 round/level (D)}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell calms agitated creatures.
+You have no control over the affected creatures, but calm emotions can stop raging creatures from fighting or joyous ones from reveling.
+Creatures so affected cannot take violent actions (although they can defend themselves) or do anything destructive.
+Any aggressive action against or damage dealt to a calmed creature immediately breaks the spell on all calmed creatures.
+This spell automatically suppresses (but does not dispel) any morale bonuses granted by spells such as bless, good hope, and rage, as well as negating a bard's ability to inspire courage or a barbarian's rage ability.
+It also suppresses any fear effects and removes the confused condition from all targets.
+While the spell lasts, a suppressed spell or effect has no effect.
+When the calm emotions spell ends, the original spell or
+effect takes hold of the creature again, provided that its duration has not expired in the meantime}}
+
+
+Magic Circle Against Chaos(Player's Handbook v.3.5): - Law(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Magic Circle Against Chaos](https://dndtools.net/spells/players-handbook-v35--6/magic-circle-against-chaos--2334/) }} {{School:= Abjuration  [Lawful]}} {{Level:= **Law 3**, Cleric 3, Paladin 3, Sorcerer 3, Wizard 3, WuJen 3, Savant 3, Sha'ir 3, Mechanus 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like magic circle against evil, except that it is similar to protection from chaos instead of protection from evil, and it can imprison a nonlawful called creature}}
+
+
+Dispel Chaos(Player's Handbook v.3.5): - Law(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dispel Chaos](https://dndtools.net/spells/players-handbook-v35--6/dispel-chaos--2311/) }} {{School:= Abjuration  [Lawful]}} {{Level:= **Law 5**, Paladin 4, Cleric 5, Mechanus 5, Cloistered Cleric 5}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like dispel evil, except that you are surrounded by constant, blue, lawful energy, and the spell affects chaotic creatures and spells rather than evil ones}}
+
+
+Hold Monster(Player's Handbook v.3.5): - Law(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Hold Monster](https://dndtools.net/spells/players-handbook-v35--6/hold-monster--2556/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Law 6**, ThayanSlaver 3, UrbanDruid 4, Bard 4, Beguiler 5, Duskblade 5, Wizard 5, WuJen 5, Sorcerer 5, Sha'ir 5, DeathMaster 5, Jester 5, Mechanus 6, Arcanist 5}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= }} {{Target:=One living creature}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like hold person, except that it affects any living creature that fails its Will save.
+Arcane Material Component:One hard metal bar or rod, which can be as small as a three-penny nail}}
+
+
+Dictum(Player's Handbook v.3.5): - Law(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dictum](https://dndtools.net/spells/players-handbook-v35--6/dictum--2605/) }} {{School:= Evocation  [Lawful][Sonic]}} {{Level:= **Law 7**, Cleric 7, Inquisition 7, Mechanus 7, Dwarf 7, Cloistered Cleric 7}} {{Components:= V}} {{Range:= 40 ft.}} {{Area:=Nonlawful creatures in a 40-ft.-radius spread centered on you}} {{Duration:=Instantaneous}} {{Savingthrow:=None or Will negates; see text }} {{Save DC:=[[@{spelldc7}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Any nonlawful creature within the area of a dictum spell suffers the following ill effects.
+The effects are cumulative and concurrent.
+No saving throw is allowed against these effects.
+Deafened: The creature is deafened for 1d4 rounds.
+Slowed: The creature is slowed, as by the slow spell, for 2d4 rounds.
+Paralyzed: The creature is paralyzed and helpless for 1d10 minutes.
+Killed: Living creatures die.
+Undead creatures are destroyed.
+Furthermore, if you are on your home plane when you cast this spell, nonlawful extraplanar creatures within the area are instantly banished back to their home planes.
+Creatures so banished cannot return for at least 24 hours.
+This effect takes place regardless of whether the creatures hear the dictum.
+The banishment effect allows a Will save (at a -4 penalty) to negate.
+Creatures whose HD exceed your caster level are unaffected by dictum}}
+
+
+Shield of Law(Player's Handbook v.3.5): - Law(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shield of Law](https://dndtools.net/spells/players-handbook-v35--6/shield-of-law--2362/) }} {{School:= Abjuration  [Lawful]}} {{Level:= **Law 8**, Cleric 8, Inquisition 8, Celestia 8, Mechanus 8, Cloistered Cleric 8}} {{Components:= V, S, AF}} {{Arcane Focus:= A tiny reliquary containing some sacred relic, such as a scrap of parchment from a lawful text.
+The reliquary costs at least 500 gp}} {{Range:= 20 ft.}} {{Target:=One creature/level in a 20-ft.-radius burst centered on you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=See text (harmless)}} {{Save DC:=[[@{spelldc8}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A dim, blue glow surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by chaotic creatures, and slowing chaotic creatures when they strike the subjects.
+This abjuration has four effects.
+First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves.
+Unlike protection from chaos, this benefit applies against all attacks, not just against attacks by chaotic creatures.
+Second, a warded creature gains spell resistance 25 against chaotic spells and spells cast by chaotic creatures.
+Third, the abjuration blocks possession and mental influence, just as protection from chaos does.
+Finally, if a chaotic creature succeeds on a melee attack against a warded creature, the attacker is slowed (Will save negates, as the slow spell, but against shield of law's save DC)}}
+
+
+Summon Monster IX(Player's Handbook v.3.5): - Law(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Summon Monster IX](https://dndtools.net/spells/players-handbook-v35--6/summon-monster-ix--2449/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Law 9**, Cleric 9, Sorcerer 9, Wizard 9, WuJen 9, Sha'ir 9, Chaos 9, Evil 9, Good 9, Celestia 9, Abyss 9, Arborea 9, Baator 9, Cloistered Cleric 9, Arcanist 9}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A tiny bag and a small (not necessarily lit) candle}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One or more summoned creatures, no two of which can be more than 30 ft. apart}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/summon-monster-i--2441/">**summon monster I**</a>, except that you can summon one creature from the 9th-level list, 1d3 creatures of the same kind from the 8th-level list, or 1d4+1 creatures of the same kind from a lower-level list.
+Arcane Focus: A tiny bag and a small (not necessarily lit) candle.
+<h4>Special</h4>When casting **Summon Monster IX** as a Abyss Domain spell, only Chaotic Evil creatures may be summoned.
+When casting **Summon Monster IX** as a Arborea Domain spell, only Chaotic Good creatures may be summoned.
+When casting **Summon Monster IX** as a Baator Domain spell, only Lawful Evil creatures may be summoned.
+When casting **Summon Monster IX** as a Celestia Domain spell, only Lawful Good creatures may be summoned.
+<h4>9TH <span class="caps">LEVEL</span></h4><table><tr><th><strong>Monster</strong> </th><th><strong>Alignement</strong> </th></tr><tr><td> Couatl </td><td> LG </td></tr><tr><td> Leonal (guardinal) </td><td> NG </td></tr><tr><td> Celestial roc </td><td> CG </td></tr><tr><td> Elemental, elder (any) </td><td> N </td></tr><tr><td> Slaad, green </td><td> CN </td></tr><tr><td> Devil, barbed </td><td> LE </td></tr><tr><td> Fiendish dire shark <sup>1</sup> </td><td> NE </td></tr><tr><td> Fiendish monstrous scorpion, Gargantuan </td><td> NE </td></tr><tr><td> Night hag </td><td> NE </td></tr><tr><td> Bebilith (demon) </td><td> CE </td></tr><tr><td> Fiendish monstrous spider, Colossal </td><td> CE </td></tr><tr><td> Hezrou (demon) </td><td> CE </td></tr><tr><td colspan="2"><sup>1</sup> may be summoned only into an aquatic or watery environment </td></tr></table}}

@@ -1,0 +1,819 @@
+
+
+Accelerated Movement(Spell Compendium): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Accelerated Movement](https://dndtools.net/spells/spell-compendium--86/accelerated-movement--3800/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 1**, Bard 1, Ranger 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= S, M}} {{Material Component:= A dead cockroach.}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=While this spell is in effect, you can move at your normal speed when using Balance, Climb, Hide, Move Silently, and Tumble without taking any penalty on your check. This spell does not affect the penalty for using these skills while running or charging}}
+
+
+Alarm(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Alarm](https://dndtools.net/spells/players-handbook-v35--6/alarm--2299/) }} {{School:= Abjuration  }} {{Level:= **Vigilante 1**, Bard 1, UrbanDruid 1, Savant 1, DeathMaster 1, Sha'ir 1, ThayanSlaver 1, Wizard 1, Sorcerer 1, Ranger 1, CourtHerald 1, Wealth 1, Arcanist 1}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A tiny bell and a piece of very fine silver wire.}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=20-ft.-radius emanation centered on a point in space}} {{Duration:=2 hours/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Alarm** sounds a mental or audible alarm each time a creature of Tiny or larger size enters the warded area or touches it. A creature that speaks the password (determined by you at the time of casting) does not set off the **alarm**. You decide at the time of casting whether the **alarm** will be mental or audible.
+**Mental Alarm:** A mental **alarm** alerts you (and only you) so long as you remain within 1 mile of the warded area. You note a single mental &quot;ping&quot; that awakens you from normal sleep but does not otherwise disturb concentration. A **silence** spell has no effect on a mental alarm.
+**Audible Alarm:** An audible **alarm** produces the sound of a hand bell, and anyone within 60 feet of the warded area can hear it clearly. Reduce the distance by 10 feet for each interposing closed door and by 20 feet for each substantial interposing wall. In quiet conditions, the ringing can be heard faintly as far as 180 feet away. The sound lasts for 1 round. Creatures within a **silence** spell cannot hear the ringing.
+Ethereal or astral creatures do not trigger the **alarm**.
+**Alarm** can be made permanent with a **permanency** spell}}
+
+
+Animate Rope(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Animate Rope](https://dndtools.net/spells/players-handbook-v35--6/animate-rope--2779/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 1**, Bard 1, Sorcerer 1, Wizard 1, WuJen 1, Sha'ir 1, Jester 1, UrbanDruid 1, Craft 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One ropelike object, length up to 50 ft. + 5 ft./level; see text}} {{Duration:=1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can animate a nonliving ropelike object, such as string, yarn, cord, line, rope, or even a cable. The maximum length assumes a rope with a 1-inch diameter. Reduce the maximum length by 50% for every additional inch of thickness, and increase it by 50% for each reduction of the rope's diameter by half.
+The possible commands are &quot;coil&quot; (form a neat, coiled stack), &quot;coil and knot&quot;, &quot;loop&quot;, &quot;loop and knot&quot;, &quot;tie and knot&quot;, and the opposites of all of the above (&quot;uncoil&quot;, and so forth). You can give one command each round as a move action, as if directing an active spell.
+The rope can enwrap only a creature or an object within 1 foot of it&#8212;it does not snake outward&#8212;so it must be thrown near the intended target. Doing so requires a successful ranged touch attack roll (range increment 10 feet). A typical 1-inchdiameter hempen rope has 2 hit points, AC 10, and requires a DC 23 Strength check to burst it. The rope does not deal damage, but it can be used as a trip line or to cause a single opponent that fails a Reflex saving throw to become entangled. A creature capable of spellcasting that is bound by this spell must make a DC 15 Concentration check to cast a spell. An entangled creature can slip free with a DC 20 Escape Artist check.
+The rope itself and any knots tied in it are not magical.
+This spell grants a +2 bonus on any Use Rope checks you make when using the transmuted rope.
+The spell cannot animate objects carried or worn by a creature}}
+
+
+Cause Fear(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Cause Fear](https://dndtools.net/spells/players-handbook-v35--6/cause-fear--2716/) }} {{School:= Necromancy  [Fear]}} {{Level:= **Vigilante 1**, Bard 1, DeathMaster 1, Sha'ir 1, DeathDelver 1, Duskblade 1, DiscipleofThrym 1, Adept 1, DreadNecromancer 1, Wizard 1, Sorcerer 1, Cleric 1, Jester 1, Death 1, Blackwater 1, Abyss 1, Orc 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature with 5 or fewer HD}} {{Duration:=1d4 rounds or 1 round; see text}} {{Savingthrow:=Will partial }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The affected creature becomes frightened. If the subject succeeds on a Will save, it is shaken for 1 round. Creatures with 6 or more Hit Dice are immune to this effect.
+**Cause fear** counters and dispels <a href="/spells/players-handbook-v35--6/remove-fear--2353/">**remove fear**</a>}}
+
+
+Comprehend Languages(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Comprehend Languages](https://dndtools.net/spells/players-handbook-v35--6/comprehend-languages--2482/) }} {{School:= Divination  }} {{Level:= **Vigilante 1**, Bard 1, UrbanDruid 1, DeathMaster 1, Savant 1, Sha'ir 1, WuJen 1, Beguiler 1, KnightoftheWeave 1, EbonmarInfiltrator 1, Adept 1, Wizard 1, Sorcerer 1, Cleric 1, CourtHerald 1, Mind 1, Herald 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 min./level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can understand the spoken words of creatures or read otherwise incomprehensible written messages.
+In either case, you must touch the creature or the writing.
+The ability to read does not necessarily impart insight into the material, merely its literal meaning.
+The spell enables you to understand or read an unknown language, not speak or write it.
+Written material can be read at the rate of one page (250 words) per minute.
+Magical writing cannot be read, though the spell reveals that it is magical, but comprehend languages is often useful when deciphering treasure maps.
+This spell can be foiled by certain warding magic (such as the secret page and illusory script spells).
+It does not decipher codes or reveal messages concealed in otherwise normal text.
+Comprehend languages can be made permanent with a permanency spell.
+Arcane Material Component: A pinch of soot and a few grains of salt}}
+
+
+Detect Magic(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Detect Magic](https://dndtools.net/spells/players-handbook-v35--6/detect-magic--2489/) }} {{School:= Divination  }} {{Level:= **Vigilante 1**, Bard 0, UrbanDruid 0, Jester 0, DeathMaster 0, Sha'ir 0, WuJen 0, Blighter 0, Beguiler 0, CourtHerald 0, Cleric 0, Healer 0, Adept 0, Druid 0, Sorcerer 0, Wizard 0, EbonmarInfiltrator 1, DreadNecromancer 1, NentyarHunter 1, Hoardstealer 1, Cloistered Cleric 0, Arcanist 0}} {{Components:= V, S}} {{Range:= 60 ft.}} {{Area:=Cone-shaped emanation}} {{Duration:=Concentration, up to 1 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject.
+**1st Round:** Presence or absence of magical auras.
+**2nd Round:** Number of different magical auras and the power of the most potent aura.
+**3rd Round:** The strength and location of each aura. If the items or creatures bearing the auras are in  line of sight, you can make Spellcraft skill checks to determine the school of magic involved in each. (Make one check per aura; DC 15 + spell level, or 15 + half caster level for a nonspell effect).
+Magical areas, multiple types of magic, or strong local magical emanations may distort or conceal weaker auras.
+**Aura Strength:** An aura's power depends on a spell's functioning spell level or an item's caster level. If an aura falls into more than one category, detect magic indicates the stronger of the two. 
+<table><tr><th colspan="1"></th><th style="text-align:center;" colspan="4">Aura Power </th></tr><tr><th>Spell or Object </th><th>Faint </th><th>Moderate </th><th>Strong </th><th>Overwhelming </th></tr><tr><td> Functioning spell (spell level) </td><td> 3rd or lower </td><td> 4th-6th </td><td> 7th-9th </td><td> 10th+ (deity level) </td></tr><tr><td> Magic Item (caster level) </td><td> 5th or lower </td><td> 6th-11th </td><td> 12th-20th </td><td> 21st+ (artifact) </td></tr></table>Lingering Aura: A magical aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a magic item). If detect magic is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:
+<table><tr><th>Original Strength </th><th>Duration of Lingering Aura </th></tr><tr><td> Faint</td><td> 1d6 rounds </td></tr><tr><td> Moderate</td><td> 1d6 minutes </td></tr><tr><td> Strong</td><td> 1d6×10 minutes </td></tr><tr><td> Overwhelming</td><td> 1d6 days </td></tr></table>Outsiders and elementals are not magical in themselves, but if they are summoned, the conjuration spell registers.
+Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
+Detect magic can be made permanent with a permanency spell}}
+
+
+Detect Secret Doors(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Detect Secret Doors](https://dndtools.net/spells/players-handbook-v35--6/detect-secret-doors--2492/) }} {{School:= Divination  }} {{Level:= **Vigilante 1**, Bard 1, Savant 1, Sha'ir 1, Beguiler 1, EbonmarInfiltrator 1, Hoardstealer 1, Wizard 1, Sorcerer 1, UrbanDruid 1, Knowledge 1, Cavern 1, Arcanist 1}} {{Components:= V, S}} {{Range:= 60 ft.}} {{Area:=Cone-shaped emanation}} {{Duration:=Concentration, up to 1 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can detect secret doors, compartments, caches, and so forth.
+Only passages, doors, or openings that have been specifically constructed to escape detection are detected by this spell&#8212;an ordinary trapdoor underneath a pile of crates would not be detected.
+The amount of information revealed depends on how long you study a particular area or subject.
+1st Round: Presence or absence of secret doors.
+2nd Round:Number of secret doors and the location of each.
+If an aura is outside your line of sight, then you discern its direction but not its exact location.
+Each Additional Round: The mechanism or trigger for one particular secret portal closely examined by you.
+Each round, you can turn to detect secret doors in a new area.
+The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it}}
+
+
+Disguise Self(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Disguise Self](https://dndtools.net/spells/players-handbook-v35--6/disguise-self--2666/) }} {{School:= Illusion (Glamer) }} {{Level:= **Vigilante 1**, Bard 1, Savant 1, Jester 1, Sha'ir 1, Beguiler 1, Fatemaker 1, EbonmarInfiltrator 1, Wizard 1, Sorcerer 1, Assassin 1, Trickery 1, Baator 1, Envy 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 min./level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You make yourself&#8212;including clothing, armor, weapons, and equipment&#8212;look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your body type. For example, a human caster could look human, humanoid, or like any other human-shaped bipedal creature. Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person. The spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile (touch) or audible (sound) properties of you or your equipment. A battleaxe made to look like a dagger still functions as a battleaxe.
+If you use this spell to create a disguise, you get a +10 bonus on the Disguise check.
+A creature that interacts with the glamer gets a Will save to recognize it as an illusion. For example, a creature that touched you and realized that the tactile sensation did not match the visual one would be entitled to such a save}}
+
+
+Distort Speech(Spell Compendium): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Distort Speech](https://dndtools.net/spells/spell-compendium--86/distort-speech--4402/) }} {{School:= Transmutation  [Sonic]}} {{Level:= **Vigilante 1**, Bard 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**By pointing and making a number of loud, nonsensical sounds you release the power of the spell. The target attempts to speak, but spews forth only gibberish instead.**
+For the duration of this spell, the subject has a 50% chance to miscast spells that have verbal components, and any time the subject speaks (including the use of magic items activated by command words), there is a 50% chance that the utterance is completely incomprehensible and therefore ineffective}}
+
+
+Erase(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Erase](https://dndtools.net/spells/players-handbook-v35--6/erase--2808/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 1**, Bard 1, Sorcerer 1, Wizard 1, Sha'ir 1, Savant 1, CourtHerald 1, Rune 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One scroll or two pages}} {{Duration:=Instantaneous}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Erase removes writings of either magical or mundane nature from a scroll or from one or two pages of paper, parchment, or similar surfaces.
+With this spell, you can remove explosive runes, a glyph of warding, a sepia snake sigil, or an arcane mark, but not illusory script or a symbol spell.
+Nonmagical writing is automatically erased if you touch it and no one else is holding it.
+Otherwise, the chance of erasing nonmagical writing is 90%.
+Magic writing must be touched to be erased, and you also must succeed on a caster level check (1d20 + caster level) against DC 15.
+(A natural 1 or 2 is always a failure on this check).
+If you fail to erase explosive runes, a glyph of warding, or a sepia snake sigil, you accidentally activate that writing instead}}
+
+
+Expeditious Retreat(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Expeditious Retreat](https://dndtools.net/spells/players-handbook-v35--6/expeditious-retreat--2811/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 1**, Bard 1, DeathMaster 1, Jester 1, Savant 1, Beguiler 1, Fatemaker 1, EbonmarInfiltrator 1, Hoardstealer 1, Wizard 1, Sorcerer 1, Sha'ir 1, Celerity 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 min./level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell increases your base land speed by 30 feet.
+(This adjustment is treated as an enhancement bonus).
+There is no effect on other modes of movement, such as burrow, climb, fly, or swim.
+As with any effect that increases your speed, this spell affects your jumping distance (see the Jump skill, page 77).
+This spell need not be used as part of a retreat; the name of the spell merely hints at the typical wizard's attitude towards combat}}
+
+
+Expeditious Retreat, Swift(Spell Compendium): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Expeditious Retreat, Swift](https://dndtools.net/spells/spell-compendium--86/expeditious-retreat-swift--4466/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 1**, Bard 1, Sorcerer 1, Wizard 1, Duskblade 1, Arcanist 1}} {{Components:= V}} {{Range:= }}  {{Duration:=1 round}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=_This spell functions like **expeditious retreat** (**PH** 228), except as noted above}}
+
+
+Feather Fall(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Feather Fall](https://dndtools.net/spells/players-handbook-v35--6/feather-fall--2813/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 1**, Bard 1, Sorcerer 1, Wizard 1, Jester 1, Savant 1, Sha'ir 1, Assassin 1, CourtHerald 1, Arcanist 1}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One Medium or smaller freefalling object or creature/level, no two of which may be more than 20 ft. apart}} {{Duration:=Until landing or 1 round/level}} {{Savingthrow:=Will negates (harmless) or Will negates (object) }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The affected creatures or objects fall slowly, though faster than feathers typically do.
+Feather fall instantly changes the rate at which the targets fall to a mere 60 feet per round (equivalent to the end of a
+fall froma few feet), and the subjects take no damage upon landing while the spell is in effect.
+However, when the spell duration expires, a normal rate of falling resumes.
+The spell affects one or more Medium or smaller creatures (including gear and carried objects up to each creature's maximum load) or objects, or the equivalent in larger creatures: A Large creature or object counts as two Medium creatures or objects, a Huge creature or object counts as two Large creatures or objects, and so forth.
+You can cast this spell with an instant utterance, quickly enough to save yourself if you unexpectedly fall.
+Casting the spell is a free action, like casting a quickened spell, and it counts toward the normal limit of one quickened spell per round.
+You may even cast this spell when it isn't your turn.
+This spell has no special effect on ranged weapons unless they are falling quite a distance.
+If the spell is cast on a falling item, such as a boulder dropped from the top of a castle wall, the object does half normal damage based on its weight, with no bonus for the height of the drop.
+(See the Dungeon Master's Guide for information on falling objects).
+Feather fall works only upon free-falling objects.
+It does not affect a sword blow or a charging or flying creature}}
+
+
+Ghost Sound(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Ghost Sound](https://dndtools.net/spells/players-handbook-v35--6/ghost-sound--2670/) }} {{School:= Illusion (Figment) }} {{Level:= **Vigilante 1**, Bard 0, Sorcerer 0, Wizard 0, Adept 0, DeathMaster 0, Sha'ir 0, WuJen 0, Blighter 0, Beguiler 0, SlayerofDomiel 1, EbonmarInfiltrator 1, Hoardstealer 1, Assassin 1, Arcanist 0}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=Illusory sounds}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will disbelief (if interacted with) }} {{Save DC:=[[@{spelldc1}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place.
+You choose what type of sound ghost sound creates when casting it and cannot thereafter change the sound's basic character.
+The volume of sound created depends on your level.
+You can produce as much noise as four normal humans per caster level (maximum twenty humans).
+Thus, talking, singing, shouting, walking, marching, or running sounds can be created.
+The noise a ghost sound spell produces can be virtually any type of sound within the volume limit.
+A horde of rats running and squeaking is about the same volume as eight humans running and shouting.
+A roaring lion is equal to the noise from sixteen humans, while a roaring dire tiger is equal to the noise from twenty humans.
+Ghost sound can enhance the effectiveness of a silent image spell.
+Ghost sound can be made permanent with a permanency spell.
+Material Component: A bit of wool or a small lump of wax}}
+
+
+Identify(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Identify](https://dndtools.net/spells/players-handbook-v35--6/identify--2502/) }} {{School:= Divination  }} {{Level:= **Vigilante 1**, Bard 1, Sorcerer 1, Wizard 1, Hoardstealer 1, Sha'ir 1, DeathMaster 1, Savant 1, CourtHerald 1, Oracle 1, Magic 2, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=One touched object}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The spell determines all magic properties of a single magic item, including how to activate those functions (if appropriate), and how many charges are left (if any).
+Identify does not function when used on an artifact (see the Dungeon Master's Guide for details on artifacts).
+Arcane Material Component: A pearl of at least 100 gp value, crushed and stirred into wine with an owl feather; the infusion must be drunk prior to spellcasting}}
+
+
+Joyful Noise(Spell Compendium): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Joyful Noise](https://dndtools.net/spells/spell-compendium--86/joyful-noise--4671/) }} {{School:= Abjuration  }} {{Level:= **Vigilante 1**, Bard 1}} {{Components:= S}} {{Range:= 10 ft.}} {{Area:=10-ft.-radius emanation centered on you}} {{Duration:=Concentration, see text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You stomp your foot on the ground, creating a ripple of noise that unleashes suppressed sounds behind it.**
+You create sonic vibrations that negate any magical silence effect in the area. This zone of negation moves with you and lasts as long as you continue to concentrate.
+The silence effect is not dispelled but simply held in abeyance; it remains in effect outside the area of the joyful noise effect}}
+
+
+Know Direction(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Know Direction](https://dndtools.net/spells/players-handbook-v35--6/know-direction--2503/) }} {{School:= Divination  }} {{Level:= **Vigilante 1**, Bard 0, Druid 0, UrbanDruid 0}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=Instantaneous}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You instantly know the direction of north from your current position.
+The spell is effective in any environment in which &quot;north&quot;
+exists, but it may not work in extraplanar settings.
+Your knowledge of north is correct at the moment of casting, but you can get lost again within moments if you
+don't find some external reference point to help you keep track of direction}}
+
+
+Mage Hand(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Mage Hand](https://dndtools.net/spells/players-handbook-v35--6/mage-hand--2833/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 1**, Bard 0, Sorcerer 0, Wizard 0, WuJen 0, Sha'ir 0, DeathMaster 0, Jester 0, CourtHerald 0, Arcanist 0}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One nonmagical, unattended object weighing up to 5 lb.}} {{Duration:=Concentration}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You point your finger at an object and can lift it and move it at will from a distance.
+As a move action, you can propel the object as far as 15 feet in any direction, though the spell ends if the distance between you and the object ever exceeds the spell's range}}
+
+
+Magic Mouth(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Magic Mouth](https://dndtools.net/spells/players-handbook-v35--6/magic-mouth--2680/) }} {{School:= Illusion (Glamer) }} {{Level:= **Vigilante 1**, Bard 1, Sorcerer 2, Wizard 2, Sha'ir 2, CourtHerald 2, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= A small bit of honeycomb and jade dust worth 10 gp}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature or object}} {{Duration:=Permanent until discharged}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc1}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell imbues the chosen object or creature with an enchanted mouth that suddenly appears and speaks its message the next time a specified event occurs.
+The message, which must be twenty-five or fewer words long, can be in any language known by you and can be delivered over a period of 10 minutes.
+The mouth cannot utter verbal components, use command words, or activate magical effects.
+It does, however, move according to the words articulated; if it were placed upon a statue, the mouth of the statue would move and appear to speak.
+Of course, magic mouth can be placed upon a tree, rock, or any other object or creature.
+The spell functions when specific conditions are fulfilled according to your command as set in the spell.
+Commands can be as general or as detailed as desired, although only visual and audible triggers can be used, such as the following: &quot;Speak only when a venerable female human carrying a sack sits cross-legged within a distance of one foot&quot;.
+Triggers react to what appears to be the case.
+Disguises and illusions can fool them.
+Normal darkness does not defeat a visual trigger, but magical darkness or invisibility does.
+Silent movement or magical silence defeats audible triggers.
+Audible triggers can be keyed to general types of noises (footsteps, metal clanking) or to a specific noise or spoken word (when a pin drops, or when anyone says &quot;Boo&quot;).
+Actions can serve as triggers if they are visible or audible.
+For example, &quot;Speak when any creature touches the statue&quot;
+is an acceptable command if the creature is visible.
+A magic mouth cannot distinguish alignment, level, Hit Dice, or class except by external garb.
+The range limit of a trigger is 15 feet per caster level, so a 6th-level caster can command a magic mouth to respond to triggers as far as 90 feet away.
+Regardless of range, the mouth can respond only to visible or audible triggers and actions in line of sight or within hearing distance.
+Magic mouth can be made permanent with a permanency spell}}
+
+
+Mending(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Mending](https://dndtools.net/spells/players-handbook-v35--6/mending--2842/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 1**, Bard 0, UrbanDruid 0, Jester 0, DeathMaster 0, Sha'ir 0, WuJen 0, CourtHerald 0, Healer 0, Adept 0, Wizard 0, Sorcerer 0, Druid 0, Cleric 0, Cloistered Cleric 0, Arcanist 0}} {{Components:= V, S}} {{Range:= 10 ft.}} {{Target:=One object of up to 1 lb.}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Mending repairs small breaks or tears in objects (but not warps, such as might be caused by a warp wood spell).
+It will weld broken metallic objects such as a ring, a chain link, a medallion, or a slender dagger, providing but one break exists.
+Ceramic or wooden objects with multiple breaks can be invisibly rejoined to be as strong as new.
+A hole in a leather sack or a wineskin is completely healed over by mending.
+The spell can repair a magic item, but the item's magical abilities are not restored.
+(For restoring a broken magic item's abilities, see the item creation feats in Chapter 5: Feats).
+The spell cannot mend broken magic rods, staffs, or wands, nor does it affect creatures (including constructs)}}
+
+
+Message(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Message](https://dndtools.net/spells/players-handbook-v35--6/message--2843/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 1**, Bard 0, Sorcerer 0, Wizard 0, Beguiler 0, WuJen 0, Sha'ir 0, Trade 1, Cloistered Cleric 0, Arcanist 0}} {{Components:= V, S, AF}} {{Arcane Focus:= A short piece of copper wire}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One creature/level}} {{Duration:=10 min./level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can whisper messages and receive whispered replies with little chance of being overheard. You point your finger at each creature you want to receive the message. When you whisper, the whispered message is audible to all targeted creatures within range. Magical silence, 1 foot of stone, 1 inch of common metal (or a thin sheet of lead), or 3 feet of wood or dirt blocks the spell. The message does not have to travel in a straight line. It can circumvent a barrier if there is an open path between you and the subject, and the path's entire length lies within the spell's range. The creatures that receive the message can whisper a reply that you hear. The spell transmits sound, not meaning. It doesn't transcend language barriers.
+Note: To speak a message, you must mouth the words and whisper, possibly allowing observers the opportunity to read your lips}}
+
+
+Nystul's Magic Aura(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Nystul's Magic Aura](https://dndtools.net/spells/players-handbook-v35--6/nystuls-magic-aura--2688/) }} {{School:= Illusion (Glamer) }} {{Level:= **Vigilante 1**, Bard 1, Sorcerer 1, Wizard 1, Hoardstealer 1, Sha'ir 1, Jester 1, Arcanist 1}} {{Components:= V, S, AF}} {{Arcane Focus:= A small square of silk that must be passed over the object that receives the aura}} {{Range:= Touch}} {{Target:=One touched object weighing up to 5 lb./level}} {{Duration:=One day/level (D)}} {{Savingthrow:=None; see text }} {{Save DC:=[[@{spelldc1}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You alter an item's aura so that it registers to detect spells (and spells with similar capabilities) as though it were nonmagical, or a magic item of a kind you specify, or the subject of a spell you specify.
+You could make an ordinary sword register as a +2 vorpal sword as far as magical detection is concerned or make a +2 vorpal sword register as if it were a +1 sword or even a nonmagical sword.
+If the object bearing Nystul's magic aura has identify cast on it or is similarly examined, the examiner recognizes that the aura is false and detects the object's actual qualities if he succeeds on a Will save.
+Otherwise, he believes the aura and no amount of testing reveals what the true magic is.
+If the targeted item's own aura is exceptionally powerful (if it is an artifact, for instance), Nystul's magic aura doesn't work.
+**Note:** A magic weapon, shield, or suit of armor must be a masterwork item, so a sword of average make, for example, looks suspicious if it has a magical aura}}
+
+
+Obscure Object(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Obscure Object](https://dndtools.net/spells/players-handbook-v35--6/obscure-object--2342/) }} {{School:= Abjuration  }} {{Level:= **Vigilante 1**, Bard 1, UrbanDruid 1, Sorcerer 2, Wizard 2, Sha'ir 2, CourtHerald 2, Cleric 3, Wealth 2, Cloistered Cleric 3, Arcanist 2}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=One object touched of up to 100 lb./level}} {{Duration:=8 hours (D)}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell hides an object from location by divination (scrying) effects, such as the scrying spell or a crystal ball.
+Such an attempt automatically fails (if the divination is targeted on the object) or fails to perceive the object (if the divination is targeted on a nearby location, object, or person).
+Arcane Material Component: A piece of chameleon skin}}
+
+
+Open/close(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Open/close](https://dndtools.net/spells/players-handbook-v35--6/openclose--2846/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 1**, Bard 0, Sorcerer 0, Wizard 0, Beguiler 0, WuJen 0, Sha'ir 0, Jester 0, CourtHerald 0, Arcanist 0}} {{Components:= V, S, AF}} {{Arcane Focus:= A brass key}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Object weighing up to 30 lb. or portal that can be opened or closed}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can open or close (your choice) a door, chest, box, window, bag, pouch, bottle, barrel, or other container.
+If anything resists this activity (such as a bar on a door or a lock on a chest), the spell fails.
+In addition, the spell can only open and close things weighing 30 pounds or less.
+Thus, doors, chests, and similar objects sized for enormous creatures may be beyond this spell's ability to affect}}
+
+
+Prestidigitation(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Prestidigitation](https://dndtools.net/spells/players-handbook-v35--6/prestidigitation--2901/) }} {{School:= Universal  }} {{Level:= **Vigilante 1**, Bard 0, Sorcerer 0, Wizard 0, WuJen 0, Sha'ir 0, DeathMaster 0, Jester 0, Arcanist 0}} {{Components:= V, S}} {{Range:= 10 ft.}} {{Target:=See text}} {{Duration:=1 hour}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc1}+@{sf-Universal}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Prestidigitations are minor tricks that novice spellcasters use for practice.
+Once cast, a prestidigitation spell enables you to perform simple magical effects for 1 hour.
+The effects are minor and have severe limitations.
+A prestidigitation can slowly lift 1 pound of material.
+It can color, clean, or soil items in a 1-foot cube each round.
+It can chill, warm, or flavor 1 pound of nonliving material.
+It cannot deal damage or affect the concentration of spellcasters.
+Prestidigitation can create small objects, but they look crude and artificial.
+The materials created by a prestidigitation spell are extremely fragile, and they cannot be used as tools, weapons, or spell components.
+Finally, a prestidigitation lacks the power to duplicate any other spell effects.
+Any actual change to an object (beyond just moving, cleaning, or soiling it) persists only 1 hour.
+Characters typically use prestidigitation spells to impress common folk, amuse children, and brighten dreary lives.
+Common tricks with prestidigitations include producing tinklings of ethereal music, brightening faded flowers, creating glowing balls that float over your hand, generating puffs of wind to flicker candles, spicing up aromas and flavors of bland food, and making little whirlwinds to sweep dust under rugs}}
+
+
+Read Magic(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Read Magic](https://dndtools.net/spells/players-handbook-v35--6/read-magic--2511/) }} {{School:= Divination  }} {{Level:= **Vigilante 1**, Bard 0, UrbanDruid 0, DeathMaster 0, Sha'ir 0, WuJen 0, Blighter 0, Beguiler 0, CourtHerald 0, Healer 0, Adept 0, Cleric 0, Druid 0, Wizard 0, Sorcerer 0, Paladin 1, Ranger 1, KnightoftheWeave 1, Hoardstealer 1, Cloistered Cleric 0, Arcanist 0}} {{Components:= V, S, AF}} {{Arcane Focus:= A clear crystal or mineral prism}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 min./level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=By means of read magic, you can decipher magical inscriptions on objects&#8212;books, scrolls, weapons, and the like&#8212;that would otherwise be unintelligible.
+This deciphering does not normally invoke the magic contained in the writing, although it may do so in the case of a cursed scroll.
+Furthermore, once the spell is cast and you have read the magical inscription, you are thereafter able to read that particular writing without recourse to the use of read magic.
+You can read at the rate of one page (250 words) per minute.
+The spell allows you to identify a glyph of warding with a DC 13 Spellcraft check, a greater glyph of warding with a DC 16 Spellcraft check, or any symbol spell with a Spellcraft check (DC 10 + spell level).
+Read magic can be made permanent with a permanency spell}}
+
+
+Remove Fear(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Remove Fear](https://dndtools.net/spells/players-handbook-v35--6/remove-fear--2353/) }} {{School:= Abjuration  }} {{Level:= **Vigilante 1**, Bard 1, Cleric 1, Healer 1, HunteroftheDead 1, KnightoftheChalice 1, DeathDelver 1, Competition 1, Courage 1, Pleasure 1, Cloistered Cleric 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature plus one additional creature per four levels, no two of which can be more than 30 ft. apart}} {{Duration:=10 minutes; see text}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You instill courage in the subject, granting it a +4 morale bonus against fear effects for 10 minutes. If the subject is under the influence of a fear effect when receiving the spell, that effect is suppressed for the duration of the spell.
+Remove fear counters and dispels cause fear}}
+
+
+Resistance(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Resistance](https://dndtools.net/spells/players-handbook-v35--6/resistance--2358/) }} {{School:= Abjuration  }} {{Level:= **Vigilante 1**, Bard 0, DeathMaster 0, Sha'ir 0, WuJen 0, Wizard 0, Sorcerer 0, Druid 0, Cleric 0, UrbanDruid 0, Paladin 1, Cloistered Cleric 0, Arcanist 0}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 minute}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance bonus on saves.
+Resistance can be made permanent with a permanency spell.
+Arcane Material Component: A miniature cloak}}
+
+
+Silent Image(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Silent Image](https://dndtools.net/spells/players-handbook-v35--6/silent-image--2705/) }} {{School:= Illusion (Figment) }} {{Level:= **Vigilante 1**, Bard 1, Sorcerer 1, Wizard 1, Beguiler 1, WuJen 1, Sha'ir 1, Jester 1, CourtHerald 1, Gnome 1, Illusion 1, Arcanist 1}} {{Components:= V, S, AF}} {{Arcane Focus:= A bit of fleece}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Effect:=Visual figment that cannot extend beyond four 10-ft. cubes + one 10-ft. cube/level (S)}} {{Duration:=Concentration}} {{Savingthrow:=Will disbelief (if interacted with) }} {{Save DC:=[[@{spelldc1}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates the visual illusion of an object, creature, or force, as visualized by you.
+The illusion does not create sound, smell, texture, or temperature.
+You can move the image within the limits of the size of the effect}}
+
+
+Undetectable Alignment(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Undetectable Alignment](https://dndtools.net/spells/players-handbook-v35--6/undetectable-alignment--2370/) }} {{School:= Abjuration  }} {{Level:= **Vigilante 1**, Bard 1, Beguiler 1, DreadNecromancer 1, DeathMaster 2, KnightoftheChalice 2, VassalofBahamut 2, EbonmarInfiltrator 2, Paladin 2, Cleric 2, Jester 2, Liberation 2, Cloistered Cleric 2}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature or object}} {{Duration:=24 hours}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An undetectable alignment spell conceals the alignment of an object or a creature from all forms of divination}}
+
+
+Ventriloquism(Player's Handbook v.3.5): - Vigilante(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Ventriloquism](https://dndtools.net/spells/players-handbook-v35--6/ventriloquism--2708/) }} {{School:= Illusion (Figment) }} {{Level:= **Vigilante 1**, Bard 1, Sorcerer 1, Wizard 1, WuJen 1, Sha'ir 1, Jester 1, Arcanist 1}} {{Components:= V, AF}} {{Arcane Focus:= A parchment rolled up into a small cone}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=Intelligible sound, usually speech}} {{Duration:=1 min./level (D)}} {{Savingthrow:=Will disbelief (if interacted with) }} {{Save DC:=[[@{spelldc1}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can make your voice (or any sound that you can normally make vocally) seem to issue from someplace else, such as from another creature, a statue, from behind a door, down a passage, etc.
+You can speak in any language you know.
+With respect to such voices and sounds, anyone who hears the sound and rolls a successful save recognizes it as illusory (but still hears it)}}
+
+
+Alter Self(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Alter Self](https://dndtools.net/spells/players-handbook-v35--6/alter-self--2774/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 2**, Bard 2, Savant 2, Jester 2, DeathMaster 2, Sha'ir 2, WuJen 2, ThayanSlaver 2, SlayerofDomiel 2, Wizard 2, Sorcerer 2, Assassin 2, Arcanist 2}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 min./level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You assume the form of a creature of the same type as your normal form (such as humanoid or magical beast).  The new form must be within one size category of your normal size.  The maximum HD of an assumed form is equal to your caster level, to a maximum of 5 HD at 5th level.  You can change into a member of your own kind or even into yourself.  You retain your own ability scores.  Your class and level, hit points, alignment, base attack bonus, and base save bonuses all remain the same.
+You retain all supernatural and spell-like special attacks and qualities of your normal form, except for those requiring a body part that the new form does not have (such as a mouth for a breath weapon or eyes for a gaze attack).  You keep all extraordinary special attacks and qualities derived from class levels (such as a barbarian's rage ability), but you lose any from your normal form that are not derived from class levels (such as a dragon's frightful presence ability).
+If the new form is capable of speech, you can communicate normally.  You retain any spellcasting ability you had in your original form, but the new form must be able to speak intelligibly (that is, speak a language) to use verbal components and must have limbs capable of fine manipulation to use somatic or material components.
+You acquire the physical qualities of the new form while retaining your own mind.  Physical qualities include natural size, mundane movement capabilities (such as burrowing, climbing, walking, swimming, and flight with wings, to a maximum speed of 120 feet for flying or 60 feet for nonflying movement), natural armor bonus, natural weapons (such as claws, bite, and so on), racial skill bonuses, racial bonus feats, and any gross physical qualities (presence or absence of wings, number of extremities, and so forth).  A body with extra limbs does not allow you to make more attacks (or more advantageous two-weapon attacks) than normal.
+You do not gain any extraordinary special attacks or special qualities not noted above under physical qualities, such as darkvision, low-light vision, blindsense, blindsight, fast healing, regeneration, scent, and so forth.
+You do not gain any supernatural special attacks, special qualities, or spell-like abilities of the new form.  Your creature type and subtype (if any) remain the same regardless of your new form.  You cannot take the form of any creature with a template, even if that template doesn't change the creature type or subtype.
+You can freely designate the new form's minor physical qualities (such as hair color, hair texture, and skin color) within the normal ranges for a creature of that kind.  The new form's significant physical qualities (such as height, weight, and gender) are also under your control, but they must fall within the norms for the new form's kind.  You are effectively disguised as an average member of the new form's race.  If you use this spell to create a disguise, you get a +10 bonus on your Disguise check.
+When the change occurs, your equipment, if any, either remains worn or held by the new form (if it is capable of wearing or holding the item), or melds into the new form and becomes nonfunctional.  When you revert to your true form, any objects previously melded into the new form reappear in the same location on your body they previously occupied and are once again functional.  Any new items you wore in the assumed form and can't wear in your normal form fall off and land at your feet; any that you could wear in either form or carry in a body part common to both forms (mouth, hands, or the like) at the time of reversion are still held in the same way.  Any part of the body or piece of equipment that is separated from the whole reverts to its true form}}
+
+
+Bladeweave(Spell Compendium): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Bladeweave](https://dndtools.net/spells/spell-compendium--86/bladeweave--3962/) }} {{School:= Illusion (Pattern) }} {{Level:= **Vigilante 2**, Bard 2, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level (D)}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc2}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**With a shout you unleash the power of the spell, causing every movement you make with your weapon to seem beautiful and full of flourish.**
+Once per round, choose one target that you successfully attacked with a melee weapon. That creature must succeed on a Will save or be dazed for 1 round. Spell resistance applies to this effect}}
+
+
+Blindness/Deafness(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Blindness/Deafness](https://dndtools.net/spells/players-handbook-v35--6/blindnessdeafness--2715/) }} {{School:= Necromancy  }} {{Level:= **Vigilante 2**, TelflammarShadowlord 1, Bard 2, Sorcerer 2, Wizard 2, Sha'ir 2, DeathMaster 2, DreadNecromancer 2, Cleric 3, Darkness 2, Cloistered Cleric 3, Arcanist 2}} {{Components:= V}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One living creature}} {{Duration:=Permanent (D)}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You call upon the powers of unlife to render the subject blinded or deafened, as you choose}}
+
+
+Blur(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Blur](https://dndtools.net/spells/players-handbook-v35--6/blur--2664/) }} {{School:= Illusion (Glamer) }} {{Level:= **Vigilante 2**, Bard 2, Jester 2, DeathMaster 2, Sha'ir 2, WuJen 2, NentyarHunter 2, Beguiler 2, Wizard 2, Sorcerer 2, CourtHerald 2, Celerity 3, Arcanist 2}} {{Components:= V}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 min./level (D)}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Illusion}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject's outline appears blurred, shifting and wavering.
+This distortion grants the subject concealment (20% miss chance).
+A see invisibility spell does not counteract the blur effect, but a true seeing spell does.
+Opponents that cannot see the subject ignore the spell's effect (though fighting an unseen opponent carries penalties of its own; see page 151)}}
+
+
+Cat's Grace(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Cat's Grace](https://dndtools.net/spells/players-handbook-v35--6/cats-grace--2790/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 2**, Trapsmith 1, Bard 2, UrbanDruid 2, Sha'ir 2, WuJen 2, Duskblade 2, Fatemaker 2, KnightoftheWeave 2, EbonmarInfiltrator 2, Hoardstealer 2, Adept 2, Wizard 2, Sorcerer 2, Ranger 2, Druid 2, Assassin 2, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= A pinch of cat fur}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The transmuted creature becomes more graceful, agile, and coordinated.
+The spell grants a +4 enhancement bonus to Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the Dexterity modifier}}
+
+
+Detect Thoughts(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Detect Thoughts](https://dndtools.net/spells/players-handbook-v35--6/detect-thoughts--2494/) }} {{School:= Divination  }} {{Level:= **Vigilante 2**, ThayanSlaver 1, UrbanDruid 2, Savant 2, DeathMaster 2, Sha'ir 2, WuJen 2, Bard 2, Beguiler 2, EbonmarInfiltrator 2, Wizard 2, Sorcerer 2, CourtHerald 2, Knowledge 2, Mentalism 2, Mind 2, Inquisition 3, Baator 3, Arcanist 2}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A copper piece}} {{Range:= 60 ft.}} {{Area:=Cone-shaped emanation}} {{Duration:=Concentration, up to 1 min./level (D)}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You detect surface thoughts.
+The amount of information revealed depends on how long you study a particular area or subject.
+1st Round: Presence or absence of thoughts (from conscious creatures with Intelligence scores of 1 or higher).
+2nd Round:Number of thinking minds and the Intelligence score of each.
+If the highest Intelligence is 26 or higher (and at least 10 points higher than your own Intelligence score), you are stunned for 1 round and the spell ends.
+This spell does not let you determine the location of the thinking minds if you can't see the creatures whose thoughts you are detecting.
+3rd Round: Surface thoughts of any mind in the area.
+A target's Will save prevents you from reading its thoughts, and you must cast detect thoughts again to have another chance.
+Creatures of animal intelligence (Int 1 or 2) have simple, instinctual thoughts that you can pick up.
+Each round, you can turn to detect thoughts in a new area.
+The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it}}
+
+
+Eagle's Splendor(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Eagle's Splendor](https://dndtools.net/spells/players-handbook-v35--6/eagles-splendor--2803/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 2**, Bard 2, UrbanDruid 2, Jester 2, Sha'ir 2, Fatemaker 2, KnightoftheWeave 2, DiscipleofThrym 2, Wizard 2, Sorcerer 2, Paladin 2, Cleric 2, CourtHerald 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The transmuted creature becomes more poised, articulate, and personally forceful. The spell grants a +4 enhancement bonus to Charisma, adding the usual benefits to Charisma-based skill checks and other uses of the Charisma modifier. <a href="/classes/sorcerer/">Sorcerers</a> and <a href="/classes/bard/">bards</a> (and other spellcasters who rely on Charisma) affected by this spell do not gain any additional bonus spells for the increased Charisma, but the save DCs for spells they cast while under this spell's effect do increase.
+**Arcane Material Component:** A few feathers or a pinch of droppings from an eagle}}
+
+
+Fly, Swift(Spell Compendium): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Fly, Swift](https://dndtools.net/spells/spell-compendium--86/fly-swift--4523/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 2**, Bard 2, Sorcerer 2, Wizard 2, Druid 3, Duskblade 2, Arcanist 2}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You squawk twice like and eagle and suddenly long for the freedom of the skies.**
+This spell functions like **fly** (**PH** 232), except as noted above}}
+
+
+Fox's Cunning(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Fox's Cunning](https://dndtools.net/spells/players-handbook-v35--6/foxs-cunning--2817/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 2**, Trapsmith 1, Bard 2, Sorcerer 2, Wizard 2, EbonmarInfiltrator 2, Fatemaker 2, Sha'ir 2, Jester 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The transmuted creature becomes smarter.
+The spell grants a +4 enhancement bonus to Intelligence, adding the usual benefits to Intelligence-based skill checks and other uses of the Intelligence modifier.
+Wizards (and other spellcasters who rely on Intelligence) affected by this spell do not gain any additional bonus spells for the increased Intelligence, but the save DCs for spells they cast while under this spell's effect do increase.
+This spell doesn't grant extra skill points.
+Arcane Material Component: A few hairs, or a pinch of dung, from a fox}}
+
+
+Hypnotic Pattern(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Hypnotic Pattern](https://dndtools.net/spells/players-handbook-v35--6/hypnotic-pattern--2672/) }} {{School:= Illusion (Pattern) }} {{Level:= **Vigilante 2**, Bard 2, Sorcerer 2, Wizard 2, Beguiler 2, WuJen 2, Sha'ir 2, Jester 2, Arcanist 2}} {{Components:= V, S, M, Seetext}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Colorful lights in a 10-ft.-radius spread}} {{Duration:=Concentration + 2 rounds}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A twisting pattern of subtle, shifting colors weaves through the air, fascinating creatures within it.
+Roll 2d4 and add your caster level (maximum 10) to determine the total number of Hit Dice of creatures affected.
+Creatures with the fewest HD are affected first; and, among creatures with equal HD, those who are closest to the spell's point of origin are affected first.
+Hit Dice that are not sufficient to affect a creature are wasted.
+Affected creatures become fascinated by the pattern of colors.
+Sightless creatures are not affected.
+A wizard or sorcerer need not utter a sound to cast this spell, but a bard must sing, play music, or recite a rhyme as a verbal component.
+Material Component: A glowing stick of incense or a crystal rod filled with phosphorescent material}}
+
+
+Invisibility(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Invisibility](https://dndtools.net/spells/players-handbook-v35--6/invisibility--2676/) }} {{School:= Illusion (Glamer) }} {{Level:= **Vigilante 2**, TelflammarShadowlord 1, Bard 2, Jester 2, Sha'ir 2, WuJen 2, ThayanSlaver 2, Beguiler 2, Fatemaker 2, RunescarredBerserker 2, EbonmarInfiltrator 2, Hoardstealer 2, Adept 2, Wizard 2, Sorcerer 2, CourtHerald 2, SlayerofDomiel 3, NentyarHunter 3, Trickery 2, Lust 2, Arcanist 2}} {{Components:= V, S, M, DF}} {{Material Component:= An eyelash encased in a bit of gum arabic}} {{Range:= Personal or touch}} {{Target:=You or a creature or object weighing no more than 100 lb./level}} {{Duration:=1 min./level (D)}} {{Savingthrow:=Will negates (harmless) or Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Illusion}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The creature or object touched becomes invisible, vanishing from sight, even from darkvision. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.
+Items dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light can become so (thus, the effect is that of a light with no visible source). Any part of an item that the subject carries but that extends more than 10 feet from it becomes visible, such as a trailing rope.
+Of course, the subject is not magically silenced, and certain other conditions can render the recipient detectable (such as stepping in a puddle). The spell ends if the subject attacks any creature. For purposes of this spell, an attack includes any spell targeting a foe or whose area or effect includes a foe. (Exactly who is a foe depends on the invisible character's perceptions). Actions directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. Thus, an invisible being can open doors, talk, eat, climb stairs, summon monsters and have them attack, cut the ropes holding a rope bridge while enemies are on the bridge, remotely trigger traps, open a portcullis to release attack dogs, and so forth. If the subject attacks directly, however, it immediately becomes visible along with all its gear. Spells such as bless that specifically affect allies but not foes are not attacks for this purpose, even when they include foes in their area. See Table 8-5: Attack Roll Modifiers and Table 8-6: Armor Class Modifiers, page 151, for the effects of invisibility on combat.
+Invisibility can be made permanent (on objects only) with a permanency spell}}
+
+
+Invisibility, Swift(Spell Compendium): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Invisibility, Swift](https://dndtools.net/spells/spell-compendium--86/invisibility-swift--3921/) }} {{School:= Illusion (Glamer) }} {{Level:= **Vigilante 2**, Bard 1, Assassin 2, Duskblade 2, Initiateofbaravarcloakshadow 1}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**With a whispered syllable you complete the spell. You notice that others look past you as if you weren't there.**
+This spell functions like invisibility (PH 245), except as noted above}}
+
+
+Iron Silence(Spell Compendium): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Iron Silence](https://dndtools.net/spells/spell-compendium--86/iron-silence--3924/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 2**, Assassin 2, Bard 2, Cleric 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=One suit of armor touched/3 levels}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**As you imitate a clanking noise you brush your hand over the armor you wish to silence. The armor glows softly orange for a moment before the glow fades. A closer look reveals what looks like orange grease in the joints of the armor.**
+While this spell is in effect, the armor check penalty from the affected suit or suits of armor does not apply on Hide and Move Silently checks. Only wearers proficient in the armor's use get this benefit when  wearing the affected armor. The armor check penalty still applies to other skill checks as normal}}
+
+
+Locate Object(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Locate Object](https://dndtools.net/spells/players-handbook-v35--6/locate-object--2506/) }} {{School:= Divination  }} {{Level:= **Vigilante 2**, Bard 2, Savant 2, UrbanDruid 2, DeathMaster 2, Sha'ir 2, WuJen 2, Hoardstealer 2, Wizard 2, Sorcerer 2, CourtHerald 2, EbonmarInfiltrator 3, Cleric 3, Travel 2, Cloistered Cleric 3, Arcanist 2}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A forked twig}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=Circle, centered on you, with a radius of 400 ft. + 40 ft./level}} {{Duration:=1 min./level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You sense the direction of a well-known or clearly visualized object.
+The spell locates such objects as apparel, jewelry, furniture, tools, weapons, or even a ladder.
+You can search for general items such as a stairway, a sword, or a jewel, in which case you locate the nearest one of its kind if more than one is within range.
+Attempting to find a certain item, such as a particular piece of jewelry, requires a specific and accurate mental image; if the image is not close enough to the actual object, the spell fails.
+You cannot specify a unique item (such as &quot;Baron Vulden's signet ring&quot;) unless you have observed that particular item firsthand (not through divination).
+The spell is blocked by even a thin sheet of lead.
+Creatures cannot be found by this spell.
+Polymorph any object fools it}}
+
+
+Minor Image(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Minor Image](https://dndtools.net/spells/players-handbook-v35--6/minor-image--2682/) }} {{School:= Illusion (Figment) }} {{Level:= **Vigilante 2**, Bard 2, Sorcerer 2, Wizard 2, Beguiler 2, WuJen 2, Sha'ir 2, Jester 2, CourtHerald 2, Creation 2, Illusion 2, Gnome 3, Arcanist 2}} {{Components:= }} {{Range:= }}  {{Duration:=Concentration +2 rounds}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like silent image, except that minor image includes some minor sounds but not understandable speech}}
+
+
+Mirror Image(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Mirror Image](https://dndtools.net/spells/players-handbook-v35--6/mirror-image--2684/) }} {{School:= Illusion (Figment) }} {{Level:= **Vigilante 2**, Bard 2, Sorcerer 2, Wizard 2, Adept 2, Beguiler 2, Sha'ir 2, Jester 2, CourtHerald 2, Arcanist 2}} {{Components:= V, S}} {{Range:= Personal; see text}} {{Target:=You}} {{Duration:=1 min./level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Several illusory duplicates of you pop into being, making it difficult for enemies to know which target to attack.
+The figments stay near you and disappear when struck.
+Mirror image creates 1d4 images plus one image per three caster levels (maximum eight images total).
+These figments separate from you and remain in a cluster, each within 5 feet of at least one other figment or you.
+You can move into and through a mirror image.
+When you and the mirror image separate, observers can't use vision or hearing to tell which one is you and which the image.
+The figments may also move through each other.
+The figments mimic your actions, pretending to cast spells when you cast a spell, drink potions when you drink a potion, levitate when you levitate, and so on.
+Enemies attempting to attack you or cast spells at you must select from among indistinguishable targets.
+Generally, roll randomly to see whether the selected target is real or a figment.
+Any successful attack against an image destroys it.
+An image's AC is 10 + your sizemodifier + your Dex modifier.
+Figments seem to react normally to area spells (such as looking like they're burned or dead after being hit by a fireball).
+While moving, you can merge with and split off from figments so that enemies who have learned which image is real are again confounded.
+An attacker must be able to see the images to be fooled.
+If you are invisible or an attacker shuts his or her eyes, the spell has no effect.
+(Being unable to see carries the same penalties as being blinded)}}
+
+
+Misdirection(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Misdirection](https://dndtools.net/spells/players-handbook-v35--6/misdirection--2685/) }} {{School:= Illusion (Glamer) }} {{Level:= **Vigilante 2**, Bard 2, UrbanDruid 2, Jester 2, DeathMaster 2, Sha'ir 2, WuJen 2, ThayanSlaver 2, Beguiler 2, Wizard 2, Sorcerer 2, CourtHerald 2, SlayerofDomiel 3, EbonmarInfiltrator 3, Arcanist 2}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature or object, up to a 10-ft. cube in size}} {{Duration:=1 hour/level}} {{Savingthrow:=None or Will negates; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=By means of this spell, you misdirect the information from divination spells that reveal auras (detect evil, detect magic, discern lies, and the like).
+On casting the spell, you choose another object within range.
+For the duration of the spell, the subject of misdirection is detected as if it were the other object.
+(Neither the subject nor the other object gets a saving throw against this effect).
+Detection spells provide information based on the second object rather than on the actual target of the detection unless the caster of the detection succeeds on a Will save.
+For instance, you could make yourself detect as a tree if one were within range at casting: not evil, not lying, not magical, neutral in alignment, and so forth.
+This spell does not affect other types of divination magic (augury, detect thoughts, clairaudience/clairvoyance, and the like)}}
+
+
+Pyrotechnics(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Pyrotechnics](https://dndtools.net/spells/players-handbook-v35--6/pyrotechnics--2856/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 2**, Bard 2, Sorcerer 2, Wizard 2, Warmage 2, WuJen 2, Sha'ir 2, Jester 2, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Target:=One fire source, up to a 20-ft. cube}} {{Duration:=1d4+1 rounds, or 1d4+1 rounds after creatures leave the smoke cloud; see text}} {{Savingthrow:=Will negates or Fortitude negates; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Pyrotechnics turns a fire into either a burst of blinding fireworks or a thick cloud of choking smoke, depending on the version you choose.
+Fireworks: The fireworks are a flashing, fiery, momentary burst of glowing, colored aerial lights.
+This effect causes creatures within 120 feet of the fire source to become blinded for 1d4+1 rounds (Will negates).
+These creatures must have line of sight to the fire to be affected.
+Spell resistance can prevent blindness.
+Smoke Cloud: A writhing stream of smoke billows out from the source, forming a choking cloud.
+The cloud spreads 20 feet in all directions and lasts for 1 round per caster level.
+All sight, even darkvision, is ineffective in or through the cloud.
+All within the cloud take -4 penalties to Strength and Dexterity (Fortitude negates).
+These effects last for 1d4+1 rounds after the cloud dissipates or after the creature leaves the area of the cloud.
+Spell resistance does not apply.
+Material Component: The spell uses one fire source, which is immediately extinguished.
+A fire so large that it exceeds a 20-foot cube is only partly extinguished.
+Magical fires are not extinguished, although a fire-based creature (such as a fire elemental) used as a source takes 1 point of damage per caster level}}
+
+
+Scare(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Scare](https://dndtools.net/spells/players-handbook-v35--6/scare--2757/) }} {{School:= Necromancy  [Fear]}} {{Level:= **Vigilante 2**, Bard 2, Sorcerer 2, Wizard 2, Sha'ir 2, DeathMaster 2, Jester 2, DreadNecromancer 2, Hatred 2, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One living creature per three levels, no two of which can be more than 30 ft. apart}} {{Duration:=1 round/level or 1 round; see text for cause fear}} {{Savingthrow:=Will partial }} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like cause fear, except that it causes all targeted creatures of less than 6 HD to become frightened.
+Material Component: A bit of bone from an undead skeleton, zombie, ghoul, ghast, or mummy}}
+
+
+Silence(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Silence](https://dndtools.net/spells/players-handbook-v35--6/silence--2704/) }} {{School:= Illusion (Glamer) }} {{Level:= **Vigilante 2**, CourtHerald 1, Bard 2, Cleric 2, Beguiler 2, DeathMaster 2, Spell 2, Cloistered Cleric 2}} {{Components:= V, S}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=20-ft.-radius emanation centered on a creature, object, or point in space}} {{Duration:=1 min./level (D)}} {{Savingthrow:=Will negates; see text or none (object) }} {{Save DC:=[[@{spelldc2}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Upon the casting of this spell, complete silence prevails in the affected area.
+All sound is stopped: Conversation is impossible, spells with verbal components cannot be cast, and no noise whatsoever issues from, enters, or passes through the area.
+The spell can be cast on a point in space, but the effect is stationary unless cast on a mobile object.
+The spell can be centered on a creature, and the effect then radiates from the creature and moves as it moves.
+An unwilling creature can attempt a Will save to negate the spell and can use spell resistance, if any.
+Items in a creature's possession or magic items that emit sound receive the benefits of saves and spell resistance, but unattended objects and points in space do not.
+This spell provides a defense against sonic or language-based attacks, such as command, a harpy's captivating song, a horn of blasting, and the like}}
+
+
+Sonic Weapon(Spell Compendium): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Sonic Weapon](https://dndtools.net/spells/spell-compendium--86/sonic-weapon--4195/) }} {{School:= Transmutation  [Sonic]}} {{Level:= **Vigilante 2**, Bard 2, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V}} {{Range:= Touch}} {{Target:=Weapon touched}} {{Duration:=1 minute/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Holding the weapon to your mouth, you whisper the spell's arcane words, shrouding the weapon in visible sound like a thin sheen of water.**
+While the spell is in effect, the affected weapon deals an extra 1d6 points of sonic damage with each successful attack. The sonic energy does not harm the weapon's wielder. Bows, crossbows, and slings that are affected by this spell bestow the sonic energy upon their ammunition}}
+
+
+Tactical Precision(Spell Compendium): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Tactical Precision](https://dndtools.net/spells/spell-compendium--86/tactical-precision--4298/) }} {{School:= Divination  }} {{Level:= **Vigilante 2**, Bard 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level, no two of which are more than 30 ft. apart}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Divination}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You hold aloft a toy soldier and shake it at your allies, calling them to arms as you do so. The toy soldier dissipates, but you feel a connection to your allies as though you could hear each one whispering her intended actions before she performed them.**
+When you cast this spell, you grant your allies greater insight into one another's actions, allowing them to better coordinate their attacks. If two affected allies flank the same creature, each gains a +2 insight bonus on melee attack rolls and deals an extra 1d6 points of damage against the flanked creature. Creatures not subject to extra damage from sneak attacks are immune to this extra damage.
+Material Component: A toy soldier}}
+
+
+Tongues(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Tongues](https://dndtools.net/spells/players-handbook-v35--6/tongues--2519/) }} {{School:= Divination  }} {{Level:= **Vigilante 2**, Bard 2, Sorcerer 3, Savant 3, Jester 3, UrbanDruid 3, Sha'ir 3, WuJen 3, Fatemaker 3, EbonmarInfiltrator 3, Adept 3, Wizard 3, CourtHerald 3, Cleric 4, VassalofBahamut 4, DeathMaster 4, Herald 3, Community 4, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=10 min./level}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc2}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell grants the creature touched the ability to speak and understand the language of any intelligent creature, whether it is a racial tongue or a regional dialect.
+The subject can speak only one language at a time, although it may be able to understand several languages.
+Tongues does not enable the subject to speak with creatures who don't speak.
+The subject can make itself understood as far as its voice carries.
+This spell does not predispose any creature addressed toward the subject in any way.
+Tongues can be made permanent with a permanency spell.
+Arcane Material Component: A small clay model of a ziggurat, which shatters when the verbal component is pronounced}}
+
+
+Whispering Wind(Player's Handbook v.3.5): - Vigilante(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Whispering Wind](https://dndtools.net/spells/players-handbook-v35--6/whispering-wind--2895/) }} {{School:= Transmutation  [Air]}} {{Level:= **Vigilante 2**, Bard 2, Sorcerer 2, Wizard 2, WuJen 2, Sha'ir 2, Savant 2, CourtHerald 2, Arcanist 2}} {{Components:= V, S}} {{Range:= 1 mile/level}} {{Area:=10-ft.-radius spread}} {{Duration:=No more than 1 hour/level or until discharged (destination is reached)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You send a message or sound on the wind to a designated spot.
+The whispering wind travels to a specific location within range that is familiar to you, provided that it can find a way to the location.
+(It can't pass through walls, for instance).
+A whispering wind is as gentle and unnoticed as a zephyr until it reaches the location.
+It then delivers its whisper-quiet message or other sound.
+Note that the message is delivered regardless of whether anyone is present to hear it.
+The wind then dissipates.
+You can prepare the spell to bear a message of no more than twenty-five words, cause the spell to deliver other sounds for 1 round, or merely have the whispering wind seem to be a faint stirring of the air.
+You can likewise cause the whispering wind to move as slowly as 1 mile per hour or as quickly as 1 mile per 10 minutes.
+When the spell reaches its objective, it swirls and remains in place until the message is delivered.
+As with magic mouth, whispering wind cannot speak verbal components, use command words, or activate magical effects}}
+
+
+Allegro(Spell Compendium): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Allegro](https://dndtools.net/spells/spell-compendium--86/allegro--3819/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 3**, Bard 3}} {{Components:= V, S, M}} {{Material Component:= A tail feather from a bird of prey.}} {{Range:= 20 ft}} {{Area:=20-ft.-radius burst centered on you.}} {{Duration:=1 minute/level}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**With a quick wiggle of your fingers and a few arcane words, you release the feather in your hand to complete the spell. Suddenly, translucent blue motes burst outward from you and collect on yourself and your nearby allies before fading away.**
+Each creature within the spell's area gains a 30-foot enhancement bonus to its land speed, up to a maximum of double the creature's land speed. Affected creatures retain these effects for the duration of the spell, even if they leave the original area}}
+
+
+Blink(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Blink](https://dndtools.net/spells/players-handbook-v35--6/blink--2787/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 3**, Bard 3, Sorcerer 3, Wizard 3, Sha'ir 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Like a blink dog (see the Monster Manual), you &quot;blink&quot; back and forth between the Material Plane and the Ethereal Plane.
+You look as though you're winking in and out of reality very quickly and at random.
+Blinking has several effects, as follows.
+Physical attacks against you have a 50% miss chance, and the Blind-Fight feat doesn't help opponents, since you're ethereal and not merely invisible.
+If the attack is capable of striking ethereal creatures, the miss chance is only 20% (for concealment).
+If the attacker can see invisible creatures, the miss chance is also only 20%.
+(For an attacker who can both see and strike ethereal creatures, there is no miss chance).
+Likewise, your own attacks have a 20% miss chance, since you sometimes go ethereal just as you are about to strike.
+Any individually targeted spell has a 50% chance to fail against you while you're blinking unless your attacker can target invisible, ethereal creatures.
+Your own spells have a 20% chance to activate just as you go ethereal, in which case they typically do not affect the Material Plane.
+While blinking, you take only half damage from area attacks (but full damage from those that extend onto the Ethereal Plane).
+You strike as an invisible creature (with a +2 bonus on attack rolls), denying your target any Dexterity bonus to AC.
+You take only half damage from falling, since you fall only while you are material.
+While blinking, you can step through (but not see through) solid objects.
+For each 5 feet of solid material you walk through, there is a 50% chance that you become material.
+If this occurs, you are shunted off to the nearest open space and take 1d6 points of damage per 5 feet so traveled.
+You can move at only three-quarters speed (because movement on the Ethereal Plane is at half speed, and you spend about half your time there and half your time material).
+Since you spend about half your time on the Ethereal Plane, you can see and even attack ethereal creatures.
+You interact with ethereal creatures roughly the same way you interact with material ones.
+For instance, your spells against ethereal creatures are 20% likely to activate just as you go material and be lost.
+An ethereal creature is invisible, incorporeal, and capable of moving in any direction, even up or down.
+As an incorporeal creature, you can move through solid objects, including living creatures.
+An ethereal creature can see and hear the Material Plane, but everything looks gray and insubstantial.
+Sight and hearing on the Material Plane are limited to 60 feet.
+Force effects (such as magic missile and wall of force) and abjurations affect you normally.
+Their effects extend onto the Ethereal Plane from the Material Plane, but not vice versa.
+An ethereal creature can't attack material creatures, and spells you cast while ethereal affect only other ethereal things.
+Certain material creatures or objects have attacks or effects that work on the Ethereal Plane (such as the basilisk and its gaze attack.
+Treat other ethereal creatures and objects as material}}
+
+
+Clairaudience/Clairvoyance(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Clairaudience/Clairvoyance](https://dndtools.net/spells/players-handbook-v35--6/clairaudienceclairvoyance--2479/) }} {{School:= Divination (Scrying) }} {{Level:= **Vigilante 3**, Trapsmith 1, Bard 3, Savant 3, Sha'ir 3, Beguiler 3, CourtHerald 3, Hoardstealer 3, Wizard 3, Sorcerer 3, EbonmarInfiltrator 4, Knowledge 3, Arcanist 3}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A small horn (for hearing) or a glass eye (for seeing)}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Effect:=Magical sensor}} {{Duration:=1 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Clairaudience/clairvoyance** creates an invisible magical sensor at a specific location that enables you to hear or see (your choice) almost as if you were there. You don't need line of sight or line of effect, but the locale must be known&#8212;a place familiar to you or an obvious one, such as behind a door, around a corner, or in a grove of trees. Once you have selected the locale, the sensor doesn't move, but you can rotate it in all directions to view the area as desired. Unlike other <a href="/spells/sub-schools/scrying/">scrying</a> spells, this spell does not allow magically or supernaturally enhanced senses to work through it. If the chosen locale is magically dark, you see nothing. If it is naturally pitch black, you can see in a 10- foot radius around the center of the spell's effect. **Clairaudience/clairvoyance** functions only on the plane of existence you are currently occupying}}
+
+
+Dispel Magic(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Dispel Magic](https://dndtools.net/spells/players-handbook-v35--6/dispel-magic--2315/) }} {{School:= Abjuration  }} {{Level:= **Vigilante 3**, Trapsmith 1, Bard 3, DeathMaster 3, Sha'ir 3, WuJen 3, Blighter 3, Beguiler 3, KnightoftheChalice 3, KnightoftheWeave 3, Cleric 3, Paladin 3, Sorcerer 3, Wizard 3, Hoardstealer 3, CourtHerald 3, Duskblade 4, Druid 4, UrbanDruid 4, DreadNecromancer 4, Magic 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One spellcaster, creature, or object; or 20-ft.-radius burst}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Because magic is so powerful, so too is the ability to dispel magic.  You can use **dispel magic** to end ongoing spells that have been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, to end ongoing spells (or at least their effects) within an area, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by dispel magic. **Dispel magic** can dispel (but not counter) spell-like effects just as it does spells.
+Note: The effect of a spell with an instantaneous duration can't be dispelled, because the magical effect  is already over before the **dispel magic** can take effect. Thus, you can't use **dispel magic** to repair damage caused by a <a href="/spells/players-handbook-v35--6/fireball--2612/">**fireball**</a> or to turn a petrified character back to flesh. In these cases, the magic has departed, leaving only burned flesh or perfectly normal stone in its wake.
+You choose to use **dispel magic** in one of three ways: a targeted dispel, an area dispel, or a counterspell:
+**Targeted Dispel:** One object, creature, or spell is the target of the dispel magic spell. You make a dispel check (1d20 + your caster level, maximum +10) against the spell or against each ongoing spell currently in effect on the object or creature. The DC for this dispel check is 11 + the spell's caster level.
+For example, Mialee, at 5th level, targets **dispel magic** on a drow who is under the effects of <a href="/spells/players-handbook-v35--6/haste--2823/">**haste**</a>, <a href="/spells/players-handbook-v35--6/mage-armor--2405/">**mage armor**</a>, and <a href="/spells/players-handbook-v35--6/bulls-strength--2788/">**bull's strength**</a>. All three spells were cast on the drow by a 7th-level wizard. Mialee makes a dispel check (1d20 + 5 against DC 18) three times, once each for the **haste**, **mage armor**, and **bull's strength** effects. If she succeeds on a particular check, that spell is dispelled (the drow's spell resistance doesn't help him); if she fails, that spell remains in effect.
+If you target an object or creature that is the effect of an ongoing spell (such as a monster summoned by monster summoning), you make a dispel check to end the spell that conjured the object or creature.
+If the object that you target is a magic item, you make a dispel check against the item's caster level. If you succeed, all the item's magical properties are suppressed for 1d4 rounds, after which the item recovers on its own. A suppressed item becomes nonmagical for the duration of the effect. An interdimensional interface (such as a bag of holding) is temporarily closed. A magic item's physical properties are unchanged: A suppressed magic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal magic such as this.
+You automatically succeed on your dispel check against any spell that you cast yourself.
+**Area Dispel:** When **dispel magic** is used in this way, the spell affects everything within a 20-foot radius.
+For each creature within the area that is the subject of one or more spells, you make a dispel check against the spell with the highest caster level. If that check fails, you make dispel checks against progressively weaker spells until you dispel one spell (which discharges the dispel magic spell so far as that target is concerned) or until you fail all your checks. The creature's magic items are not affected.
+For each object within the area that is the target of one or more spells, you make dispel checks as with creatures. Magic items are not affected by an area dispel.
+For each ongoing area or effect spell whose point of origin is within the area of the **dispel magic** spell, you can make a dispel check to dispel the spell.
+For each ongoing spell whose area overlaps that of the **dispel magic** spell, you can make a dispel check to end the effect, but only within the overlapping area.
+If an object or creature that is the effect of an ongoing spell (such as a monster summoned by monster summoning) is in the area, you can make a dispel check to end the spell that conjured that object or creature (returning it whence it came) in addition to attempting to dispel spells targeting the creature or object.
+You may choose to automatically succeed on dispel checks against any spell that you have cast.
+**Counterspell:** When **dispel magic** is used in this way, the spell targets a spellcaster and is cast as a counterspell (page 170). Unlike a true counterspell, however, **dispel magic** may not work; you must make a dispel check to counter the other spellcaster's spell}}
+
+
+Displacement(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Displacement](https://dndtools.net/spells/players-handbook-v35--6/displacement--2667/) }} {{School:= Illusion (Glamer) }} {{Level:= **Vigilante 3**, TelflammarShadowlord 2, Bard 3, Sorcerer 3, Wizard 3, Beguiler 3, WuJen 3, Sha'ir 3, Jester 3, Illusion 3, Arcanist 3}} {{Components:= V, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Illusion}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Emulating the natural ability of the displacer beast (see the Monster Manual), the subject of this spell appears to be about 2 feet away from its true location.
+The creature benefits from a 50% miss chance as if it had total concealment.
+However, unlike actual total concealment, displacement does not prevent enemies from targeting the creature normally.
+True seeing reveals its true location.
+Material Component: A small strip of leather made from displacer beast hide, twisted into a loop}}
+
+
+Fear(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Fear](https://dndtools.net/spells/players-handbook-v35--6/fear--2736/) }} {{School:= Necromancy  [Fear]}} {{Level:= **Vigilante 3**, ThayanSlaver 2, Bard 3, Wizard 4, DeathDelver 4, Sorcerer 4, Hexblade 4, Sha'ir 4, DeathMaster 4, Jester 4, DreadNecromancer 4, Blightbringer 4, Moon 4, Tyranny 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= 30 ft.}} {{Area:=Cone-shaped burst}} {{Duration:=1 round/level or 1 round; see text}} {{Savingthrow:=Will partial }} {{Save DC:=[[@{spelldc3}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An invisible cone of terror causes each living creature in the area to become panicked unless it succeeds on a Will save. If cornered, a panicked creature begins cowering. (See the Dungeon Master's Guide for more information on fear-panicked creatures). If the Will save succeeds, the creature is shaken for 1 round.
+Material Component: Either the heart of a hen or a white feather}}
+
+
+Gaseous Form(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Gaseous Form](https://dndtools.net/spells/players-handbook-v35--6/gaseous-form--2819/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 3**, Trapsmith 1, Bard 3, Sorcerer 3, Wizard 3, WuJen 3, Sha'ir 3, DeathMaster 3, Jester 3, Air 3, Arcanist 3}} {{Components:= S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Willing corporeal creature touched}} {{Duration:=2 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject and all its gear become insubstantial, misty, and translucent.
+Its material armor (including natural armor) becomes worthless, though its size, Dexterity, deflection bonuses, and armor bonuses from force effects (for example, from the mage armor spell) still apply.
+The subject gains damage reduction 10/magic and becomes immune to poison and critical hits.
+It can't attack or cast spells with verbal, somatic, material, or focus components while in gaseous form.
+(This does not rule out the use of certain spells that the subject may have prepared using the feats Silent Spell, Still Spell, and Eschew Materials).
+The subject also loses supernatural abilities while in gaseous form.
+If it has a touch spell ready to use, that spell is discharged harmlessly when the gaseous form spell takes effect.
+A gaseous creature can't run, but it can fly at a speed of 10 feet (maneuverability perfect).
+It can pass through small holes or narrow openings, even mere cracks, with all it was wearing or holding in its hands, as long as the spell persists.
+The creature is subject to the effects of wind, and it can't enter water or other liquid.
+It also can't manipulate objects or activate items, even those carried along with its gaseous form.
+Continuously active items remain active, though in some cases their effects may be moot (such as those that supply armor or natural armor bonuses).
+Arcane Material Component: A bit of gauze and a wisp of smoke}}
+
+
+Glibness(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Glibness](https://dndtools.net/spells/players-handbook-v35--6/glibness--2821/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 3**, Bard 3, Beguiler 3, UrbanDruid 3}} {{Components:= S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 min./level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your speech becomes fluent and more believable.
+You gain a +30 bonus on Bluff checks made to convince another of the truth of your words.
+(This bonus doesn't apply to other uses of the Bluff skill, such as feinting in combat, creating a diversion to hide, or communicating a hidden message via innuendo).
+If a magical effect is used against you that would detect your lies or force you to speak the truth (such as discern lies or zone of truth), the user of the effect must succeed on a caster level check (1d20 + caster level) against a DC of 15 + your caster level to succeed.
+Failure means the effect does not detect your lies or force you to speak only the truth}}
+
+
+Haste(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Haste](https://dndtools.net/spells/players-handbook-v35--6/haste--2823/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 3**, Trapsmith 1, TelflammarShadowlord 2, Bard 3, Wizard 3, Sorcerer 3, Sha'ir 3, RunescarredBerserker 3, Jester 3, Fatemaker 3, Beguiler 3, WuJen 3, Time 3, Celerity 4, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level, no two of which can be more than 30 ft. apart}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The transmuted creatures move and act more quickly than normal. This extra speed has several effects.
+When making a full attack action, a hasted creature may make one extra attack with any weapon he is holding. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a weapon of speed, nor does it actually grant an extra action, so you can't use it to cast a second spell or otherwise take an extra action in the round).
+A hasted creature gains a +1 bonus on attack rolls and a +1 dodge bonus to AC and Reflex saves. Any condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses.
+All of the hasted creature's modes of movement (including land movement, burrow, climb, fly, and swim) increase by 30 feet, to a maximum of twice the subject's normal speed using that form of movement. This increase counts as an enhancement bonus, and it affects the creature's jumping distance as normal for increased speed.
+Multiple haste effects don't stack. Haste dispels and counters slow.
+Material Component: A shaving of licorice root}}
+
+
+Illusory Script(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Illusory Script](https://dndtools.net/spells/players-handbook-v35--6/illusory-script--2673/) }} {{School:= Illusion (Phantasm) }} {{Level:= **Vigilante 3**, EbonmarInfiltrator 2, Bard 3, Sorcerer 3, Wizard 3, WuJen 3, Sha'ir 3, Savant 3, CourtHerald 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=One touched object weighing no more than 10 lb.}} {{Duration:=One day/level (D)}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc3}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You write instructions or other information on parchment, paper, or any suitable writing material.
+The illusory script appears to be some form of foreign or magical writing.
+Only the person (or people) designated by you at the time of the casting are able to read the writing; it's unintelligible to any other character, although an illusionist recognizes it as illusory script.
+Any unauthorized creature attempting to read the script triggers a potent illusory effect and must make a saving throw.
+A successful saving throw means the creature can look away with only a mild sense of disorientation.
+Failure means the creature is subject to a suggestion implanted in the script by you at the time the illusory script spell was cast.
+The suggestion lasts only 30 minutes.
+Typical suggestions include &quot;Close the book and leave&quot;, &quot;Forget the existence of the book&quot;, and so forth.
+If successfully dispelled by dispel magic, the illusory script and its secret message disappear.
+The hidden message can be read by a combination of the true seeing spell with the read magic or comprehend languages spell.
+The casting time depends on how long a message you wish to write, but it is always at least 1 minute.
+Material Component: A lead-based ink (cost of not less than 50 gp)}}
+
+
+Invisibility Sphere(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Invisibility Sphere](https://dndtools.net/spells/players-handbook-v35--6/invisibility-sphere--2675/) }} {{School:= Illusion (Glamer) }} {{Level:= **Vigilante 3**, Bard 3, Sorcerer 3, Wizard 3, Beguiler 3, Sha'ir 3, Jester 3, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= }} {{Area:=10-ft.-radius emanation around the creature or object touched}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/invisibility--2676/">invisibility</a>, except that this spell confers invisibility upon all creatures within 10 feet of the recipient.
+The center of the effect is mobile with the recipient.
+Those affected by this spell can see each other and themselves as if unaffected by the spell.
+Any affected creature moving out of the area becomes visible, but creatures moving into the area after the spell is cast do not become invisible.
+Affected creatures (other than the recipient) who attack negate the invisibility only for themselves.
+If the spell recipient attacks, the invisibility sphere ends}}
+
+
+Major Image(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Major Image](https://dndtools.net/spells/players-handbook-v35--6/major-image--2681/) }} {{School:= Illusion (Figment) }} {{Level:= **Vigilante 3**, Bard 3, Sorcerer 3, Wizard 3, Beguiler 3, WuJen 3, Sha'ir 3, CourtHerald 3, Arcanist 3}} {{Components:= }} {{Range:= }}  {{Duration:=Concentration + 3 rounds}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like silent image, except that sound, smell, and thermal illusions are included in the spell effect.
+While concentrating, you can move the image within the range.
+The image disappears when struck by an opponent unless you cause the illusion to react appropriately}}
+
+
+Remove Curse(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Remove Curse](https://dndtools.net/spells/players-handbook-v35--6/remove-curse--2352/) }} {{School:= Abjuration  }} {{Level:= **Vigilante 3**, Bard 3, DeathMaster 3, WuJen 3, KnightoftheWeave 3, Adept 3, Healer 3, Paladin 3, Cleric 3, Wizard 4, Fatemaker 4, Sorcerer 4, Sha'ir 4, Savant 4, CourtHerald 4, Cloistered Cleric 3, Arcanist 4}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature or item touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Remove curse instantaneously removes all curses on an object or a creature.
+Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although the spell typically enables the creature afflicted with any such cursed item to remove and get rid of it.
+Certain special curses may not be countered by this spell or may be countered only by a caster of a certain level or higher.
+Remove curse counters and dispels bestow curse}}
+
+
+Scrying(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Scrying](https://dndtools.net/spells/players-handbook-v35--6/scrying--2512/) }} {{School:= Divination (Scrying) }} {{Level:= **Vigilante 3**, Bard 3, Druid 4, UrbanDruid 4, DeathMaster 4, Savant 4, Sha'ir 4, WuJen 4, EbonmarInfiltrator 4, Wizard 4, Sorcerer 4, CourtHerald 4, Cleric 5, Oracle 4, Lust 5, Cloistered Cleric 5, Arcanist 4}} {{Components:= V, S, M, AF, DF}} {{Material Component:= The eye of a hawk, an eagle, or a roc, plus nitric acid, copper, and zinc}} {{Arcane Focus:= A mirror of finely wrought and highly polished silver costing not less than 1,000 gp. The mirror must be at least 2 feet by 4 feet}} {{Range:= See text}} {{Effect:=Magical sensor}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc3}+@{sf-Divination}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can see and hear some creature, which may be at any distance. If the subject succeeds on a Will save, the scrying attempt simply fails. The difficulty of the save depends on how well you know the subject and what sort of physical connection (if any) you have to that creature. Furthermore, if the subject is on another plane, it gets a +5 bonus on its Will save.
+<table><tr><th>Knowledge </th><th>Will Save Modifier </th></tr><tr><td> None <sup>1</sup> </td><td> +10 </td></tr><tr><td> Secondhand (you have heard of the subject) </td><td> +5 </td></tr><tr><td> Firsthand (you have met the subject) </td><td> +0 </td></tr><tr><td> Familiar (you know the subject well) </td><td> &#8212;5 </td></tr></table><sup>1</sup> You must have some sort of connection to a creature you have no knowledge of. 
+<table><tr><th>Connection </th><th>Will Save Modifier </th></tr><tr><td> Likeness or picture </td><td> &#8212;2 </td></tr><tr><td> Possession or garment </td><td> &#8212;4 </td></tr><tr><td> Body part, lock of hair, bit of nail, etc. </td><td> &#8212;10 </td></tr></table>If the save fails, you can see and hear the subject and the subject's immediate surroundings (approximately 10 feet in all directions of the subject). If the subject moves, the sensor follows at a speed of up to 150 feet.
+As with all divination (scrying) spells, the sensor has your full visual acuity, including any magical effects. In addition, the following spells have a 5% chance per caster level of operating through the sensor: detect chaos, detect evil, detect good, detect law, detect magic, and message. 
+If the save succeeds, you can't attempt to scry on that subject again for at least 24 hours.
+**Cleric Focus:** A holy water font costing not less than 100 gp.
+**Druid Focus:** A natural pool of water}}
+
+
+Sculpt Sound(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Sculpt Sound](https://dndtools.net/spells/players-handbook-v35--6/sculpt-sound--2868/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 3**, Bard 3}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature or object/level, no two of which can be more than 30 ft. apart}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You change the sounds that creatures or objects make.
+You can create sounds where none exist (such as making trees sing), deaden sounds (such as making a party of adventurers silent), or transform sounds into other sounds (such as making a caster's voice sound like a pig snorting).
+All affected creatures or objects must be transmuted in the same way.
+Once the transmutation is made, you cannot change it.
+You can change the qualities of sounds but cannot create words with which you are unfamiliar yourself.
+For instance, you can't change your voice so that it sounds as though you are giving the command word to activate a magic item unless you know that command word.
+A spellcaster whose voice is changed dramatically (such as into that of the aforementioned snorting pig) is unable to cast spells with verbal components}}
+
+
+Secret Page(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Secret Page](https://dndtools.net/spells/players-handbook-v35--6/secret-page--2869/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 3**, Bard 3, Sorcerer 3, Wizard 3, EbonmarInfiltrator 3, Sha'ir 3, Savant 3, CourtHerald 3, Rune 2, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Page touched, up to 3 sq. ft. in size}} {{Duration:=Permanent}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Secret page alters the contents of a page so that they appear to be something entirely different.
+Thus, a map can be changed to become a treatise on burnishing ebony walking sticks.
+The text of a spell can be changed to show a ledger page or even another spell.
+Explosive runes or sepia snake sigil can be cast upon the secret page.
+A comprehend languages spell alone cannot reveal a secret page's contents.
+You are able to reveal the original contents by speaking a special word.
+You can then peruse the actual page, and return it to its secret page form at will.
+You can also remove the spell by double repetition of the special word.
+A detect magic spell reveals dim magic on the page in question but does not reveal its true contents.
+True seeing reveals the presence of the hidden material but does not reveal the contents unless cast in combination with comprehend languages.
+A secret page spell can be dispelled, and the hidden writings can be destroyed by means of an erase spell.
+Material Component: Powdered herring scales and will-o'-wisp essence}}
+
+
+See Invisibility(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [See Invisibility](https://dndtools.net/spells/players-handbook-v35--6/see-invisibility--2514/) }} {{School:= Divination  }} {{Level:= **Vigilante 3**, RunescarredBerserker 1, CourtHerald 2, Savant 2, DeathMaster 2, Sha'ir 2, WuJen 2, Duskblade 2, Beguiler 2, KnightoftheWeave 2, Adept 2, Wizard 2, Sorcerer 2, NentyarHunter 3, EbonmarInfiltrator 3, Bard 3, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 min./level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can see any objects or beings that are invisible within your range of vision, as well as any that are ethereal, as if they were normally visible. Such creatures are visible to you as translucent shapes, allowing you easily to discern the difference between visible, invisible, and ethereal creatures. 
+The spell does not reveal the method used to obtain invisibility. It does not reveal illusions or enable you to see through opaque objects. It does not reveal creatures who are simply hiding, concealed, or otherwise hard to see.
+See invisibility can be made permanent with a permanency spell.
+Material Component: A pinch of talc and a small sprinkling of powdered silver}}
+
+
+Slow(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Slow](https://dndtools.net/spells/players-handbook-v35--6/slow--2873/) }} {{School:= Transmutation  }} {{Level:= **Vigilante 3**, Bard 3, Sorcerer 3, Wizard 3, Beguiler 3, Sha'ir 3, DeathMaster 3, Jester 3, Sloth 4, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level, no two of which can be more than 30 ft. apart}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An affected creature moves and attacks at a drastically slowed rate.
+A slowed creature can take only a single move action or standard action each turn, but not both (nor may it take full-round actions).
+Additionally, it takes a -1 penalty on attack rolls, AC, and Reflex saves.
+A slowed creature moves at half its normal speed (round down to the next 5-foot increment), which affects the creature's jumping distance as normal for decreased speed.
+Multiple slow effects don't stack.
+Slow counters and dispels haste.
+Material Component: A drop of molasses}}
+
+
+Speak With Animals(Player's Handbook v.3.5): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Speak With Animals](https://dndtools.net/spells/players-handbook-v35--6/speak-with-animals--2515/) }} {{School:= Divination  }} {{Level:= **Vigilante 3**, Druid 1, Ranger 1, Healer 1, NentyarHunter 1, Bard 3}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 min./level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can comprehend and communicate with animals.
+You are able to ask questions of and receive answers from animals, although the spell doesn't make them any more friendly or cooperative than normal.
+Furthermore, wary and cunning animals are likely to be terse and evasive, while the more stupid ones make inane comments.
+If an animal is friendly toward you, it may do some favor or service for you (as determined by the DM)}}
+
+
+Speechlink(Spell Compendium): - Vigilante(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Speechlink](https://dndtools.net/spells/spell-compendium--86/speechlink--4203/) }} {{School:= Divination  }} {{Level:= **Vigilante 3**, Bard 3}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=You and one creature touched}} {{Duration:=10 minutes/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Tapping your finger to the side of your head and to your intended subject, you whisper words of greeting to complete the spell. You then hear your subject's voice as if it were speaking directly into your ear.**
+You and a willing subject can communicate verbally no matter how much distance you put between  yourselves on the same plane. Either participant can end the spell at any time. Speechlink allows you and your allies each to hear the other's vocalizations, whatever their volume. It does not transfer other sounds from either participant's location. This spell works on any creatures, including animals, but does  not convey any special language comprehension ability}}
+
+
+Break Enchantment(Player's Handbook v.3.5): - Vigilante(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Break Enchantment](https://dndtools.net/spells/players-handbook-v35--6/break-enchantment--2306/) }} {{School:= Abjuration  }} {{Level:= **Vigilante 4**, Trapsmith 3, Bard 4, NentyarHunter 4, DeathDelver 4, KnightoftheWeave 4, Paladin 4, Jester 5, Sha'ir 5, Cleric 5, Adept 5, Beguiler 5, Sorcerer 5, Wizard 5, Healer 5, CourtHerald 5, Luck 5, Arborea 5, Liberation 5, Spell 5, Cloistered Cleric 5, Arcanist 5}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Up to one creature per level, all within 30 ft. of each other}} {{Duration:=Instantaneous}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc4}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell frees victims from enchantments, transmutations, and curses.
+Break enchantment can reverse even an instantaneous effect, such as flesh to stone.
+For each such effect, you make a caster level check (1d20 + caster level, maximum +15) against a DC of 11 + caster level of the effect.
+Success means that the creature is free of the spell, curse, or effect.
+For a cursed magic item, the DC is 25.
+If the spell is one that cannot be dispelled by dispel magic, break enchantment works only if that spell is 5th level or lower.
+For instance, bestow curse cannot be dispelled by dispel magic, but break enchantment can dispel it.
+If the effect comes from some permanent magic item, such as a cursed sword, break enchantment does not remove the curse from the item, but it does frees the victim from the item's effects.
+For example, a cursed item can change the alignment of its user.
+Break enchantment allows the victim to be rid of the item and negates the alignment change, but the item's curse is intact and affects the next creature to pick up the item&#8212;
+even if it's the recent recipient of the break enchantment spell}}
+
+
+Detect Scrying(Player's Handbook v.3.5): - Vigilante(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Detect Scrying](https://dndtools.net/spells/players-handbook-v35--6/detect-scrying--2491/) }} {{School:= Divination  }} {{Level:= **Vigilante 4**, CourtHerald 3, TelflammarShadowlord 3, Wizard 4, EbonmarInfiltrator 4, Sorcerer 4, Sha'ir 4, Savant 4, DeathMaster 4, Bard 4, Wealth 4, Planning 5, Cloistered Cleric 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= 40 ft.}} {{Area:=40-ft.-radius emanation centered on you}} {{Duration:=24 hours}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You immediately become aware of any attempt to observe you by means of a <a href="/spells/sub-schools/scrying/">divination (scrying)</a> spell or effect. The spell's area radiates from you and moves as you move. You know the location of every magical sensor within the spell's area.
+If the scrying attempt originates within the area, you also know its location; otherwise, you and the scrier immediately make opposed caster level checks (1d20 + caster level). If you at least match the scrier's result, you get a visual image of the scrier and an accurate sense of his or her direction and distance from you.
+**Material Component:** A small piece of mirror and a miniature brass hearing trumpet}}
+
+
+Freedom of Movement(Player's Handbook v.3.5): - Vigilante(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Freedom of Movement](https://dndtools.net/spells/players-handbook-v35--6/freedom-of-movement--2322/) }} {{School:= Abjuration  }} {{Level:= **Vigilante 4**, NentyarHunter 3, RunescarredBerserker 3, Bard 4, UrbanDruid 4, Jester 4, DeathDelver 4, Beguiler 4, SlayerofDomiel 4, HunteroftheDead 4, EbonmarInfiltrator 4, Hoardstealer 4, Healer 4, Ranger 4, Druid 4, Cleric 4, Savant 4, Luck 4, Ocean 4, Halfling 4, Liberation 4, Time 4, Cloistered Cleric 4}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Personal or touch}} {{Target:=You or creature touched}} {{Duration:=10 min./level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell enables you or a creature you touch to move and attack normally for the duration of the spell, even under the influence of magic that usually impedes movement, such as paralysis, solid fog, slow, and web. The subject automatically succeeds on any grapple check made to resist a grapple attempt, as well as on grapple checks or Escape Artist checks made to escape a grapple or a pin.
+The spell also allows the subject to move and attack normally while underwater, even with slashing weapons such as axes and swords or with bludgeoning weapons such as flails, hammers, and maces, provided that the weapon is wielded in the hand rather than hurled. The freedom of movement spell does not, however, allow water breathing.
+Material Component: A leather thong, bound around the arm or a similar appendage}}
+
+
+Hallucinatory Terrain(Player's Handbook v.3.5): - Vigilante(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Hallucinatory Terrain](https://dndtools.net/spells/players-handbook-v35--6/hallucinatory-terrain--2671/) }} {{School:= Illusion (Glamer) }} {{Level:= **Vigilante 4**, Bard 4, Sorcerer 4, Wizard 4, Sha'ir 4, Gnome 5, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=One 30-ft. cube/level (S)}} {{Duration:=2 hours/level (D)}} {{Savingthrow:=Will disbelief (if interacted with) }} {{Save DC:=[[@{spelldc4}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You make natural terrain look, sound, and smell like some other sort of natural terrain.
+Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain.
+A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road.
+Structures, equipment, and creatures within the area are not hidden or changed in appearance.
+Material Component: A stone, a twig, and a bit of green plant}}
+
+
+Invisibility, Greater(Player's Handbook v.3.5): - Vigilante(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Invisibility, Greater](https://dndtools.net/spells/players-handbook-v35--6/invisibility-greater--2677/) }} {{School:= Illusion (Glamer) }} {{Level:= **Vigilante 4**, Bard 4, Jester 4, WuJen 4, Beguiler 4, SlayerofDomiel 4, RunescarredBerserker 4, EbonmarInfiltrator 4, Wizard 4, Sorcerer 4, Sha'ir 4, Arcanist 4}} {{Components:= V, S}} {{Range:= }} {{Target:=You or creature touched}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc4}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/invisibility--2676/">invisibility</a>, except that it doesn't end if the subject attacks}}
+
+
+Legend Lore(Player's Handbook v.3.5): - Vigilante(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Legend Lore](https://dndtools.net/spells/players-handbook-v35--6/legend-lore--2504/) }} {{School:= Divination  }} {{Level:= **Vigilante 4**, Bard 4, UrbanDruid 4, Sorcerer 6, Wizard 6, Sha'ir 6, CourtHerald 6, Oracle 6, Knowledge 7, Time 7, Arcanist 6}} {{Components:= V, S, M, AF}} {{Material Component:= Incense worth at least 250 gp}} {{Arcane Focus:= Four strips of ivory (worth 50 gp each) formed into a rectangle}} {{Range:= Personal}} {{Target:=You}} {{Duration:=See text}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Legend lore brings to your mind legends about an important person, place, or thing.
+If the person or thing is at hand, or if you are in the place in question, the casting time is only 1d4&#215;10 minutes.
+If you have only detailed information on the person, place, or thing, the casting time is 1d10 days, and the resulting lore is less complete and specific (though it often provides enough information to help you find the person, place, or thing, thus allowing a better legend lore result next time).
+If you know only rumors, the casting time is 2d6 weeks, and the resulting lore is vague and incomplete (though it often directs you to more detailed information, thus allowing a better legend lore result next time).
+During the casting, you cannot engage in other than routine activities: eating, sleeping, and so forth.
+When completed, the divination brings legends (if any) about the person, place, or things to your mind.
+These may be legends that are still current, legends that have been forgotten, or even information that has never been generally known.
+If the person, place, or thing is not of legendary importance, you gain no information.
+As a rule of thumb, characters who are 11th level and higher are &quot;legendary&quot;, as are the sorts of creatures they contend with, the major magic items they wield, and the places where they perform their key deeds.
+Examples of legend lore results include the following.
+A divination about a mysterious magic axe you have at hand: &quot;Woe to the evildoer whose hand touches the axe, for even the haft chops the hand of the evil ones.
+Only a true Son or Daughter of Stone, one who loves Moradin and whom Moradin loves, may awaken the true powers of the axe, and only with the sacred word 'Rudnogg'
+on the lips&quot;.
+A divination about a legendary paladin about whom you know many details: &quot;Vanashon has been denied the glory of death and the duty of life.
+He waits patiently beneath the Forbidden Mountain&quot;.
+(The paladin has been turned to stone in the caverns under the mountain).
+A divination about ancient ruins about which you have only a passing reference in a partially damaged tome: &quot;The sorcerer who called herself Ryth built a library without words and a temple without gods.
+Those who read and those who pray tore it down in a night and a day&quot;.
+(These clues may be enough for you to find out more and get details you need to cast a better legend lore)}}
+
+
+Listening Coin(Spell Compendium): - Vigilante(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Listening Coin](https://dndtools.net/spells/spell-compendium--86/listening-coin--4377/) }} {{School:= Divination (Scrying) }} {{Level:= **Vigilante 4**, Bard 3}} {{Components:= V, S, AF}} {{Arcane Focus:= The pair of coins}} {{Range:= Touch}} {{Effect:=Magical sensor}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Rubbing two coins together with your fingers, you whisper arcane words into them. Holding one to your ear surreptitiously, you hand over the other.**
+You turn two ordinary coins into magic listening devices&#8212;one a sensor and the other a receiver. After casting the spell, you simply give the sensor coin away, either surreptitiously or overtly. By holding the receiver coin up to your ear, you can hear whatever transpires near the sensor as if you were there (much like a <a href="/spells/players-handbook-v35--6/clairaudienceclairvoyance--2479/">clairaudience</a> effect). If the sensor coin is in a pocket, pouch, or sack, the DC of the Listen check increases by 5.
+The coins continue to function no matter how far apart they are, although they fall silent if they're on different planes}}
+
+
+Locate Creature(Player's Handbook v.3.5): - Vigilante(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Locate Creature](https://dndtools.net/spells/players-handbook-v35--6/locate-creature--2505/) }} {{School:= Divination  }} {{Level:= **Vigilante 4**, Bard 4, Sha'ir 4, Savant 4, UrbanDruid 4, WuJen 4, ThayanSlaver 4, Beguiler 4, EbonmarInfiltrator 4, Wizard 4, Sorcerer 4, CourtHerald 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= }}  {{Duration:=10 min./level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like locate object, except this spell locates a known or familiar creature.
+You slowly turn and sense when you are facing in the direction of the creature to be located, provided it is within range.
+You also know in which direction the creature is moving, if any.
+The spell can locate a creature of a specific kind (such as a human or a unicorn) or a specific creature known to you.
+It cannot find a creature of a certain type (such as humanoid or animal).
+To find a kind of creature, you must have seen such a creature up close (within 30 feet) at least once.
+Running water blocks the spell.
+It cannot detect objects.
+It can be fooled by mislead, nondetection, and polymorph spells.
+Material Component: A bit of fur from a bloodhound}}
+
+
+Rainbow Pattern(Player's Handbook v.3.5): - Vigilante(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Rainbow Pattern](https://dndtools.net/spells/players-handbook-v35--6/rainbow-pattern--2694/) }} {{School:= Illusion (Pattern) }} {{Level:= **Vigilante 4**, Bard 4, Sorcerer 4, Wizard 4, Beguiler 4, Jester 4, Sha'ir 4, CourtHerald 4, Arcanist 4}} {{Components:= V, S, M, AF, Seetext}} {{Material Component:= }} {{Arcane Focus:= A crystal prism}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Colorful lights with a 20-ft.-radius spread}} {{Duration:=Concentration +1 round/level (D)}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A glowing, rainbow-hued pattern of interweaving colors fascinates those within it.
+Rainbow pattern fascinates a maximum of 24 Hit Dice of creatures.
+Creatures with the fewest HD are affected first.
+Among creatures with equal HD, those who are closest to the spell's point of origin are affected first.
+An affected creature that fails its saves is fascinated by the pattern.
+With a simple gesture (a free action), you can make the rainbow pattern move up to 30 feet per round (moving its effective point of origin).
+All fascinated creatures follow the moving rainbow of light, trying to get or remain within the effect.
+Fascinated creatures who are restrained and removed from the pattern still try to follow it.
+If the pattern leads its subjects into a dangerous area (through flame, off a cliff, or the like), each fascinated creature gets a second save.
+If the view of the lights is completely blocked (by an obscuring mist spell, for instance), creatures who can't see them are no longer affected.
+The spell does not affect sightless creatures.
+Verbal Component: A wizard or sorcerer need not utter a sound to cast this spell, but a bard must sing, play music, or recite a rhyme as a verbal component.
+Material Component: A piece of phosphor}}
+
+
+Repel Vermin(Player's Handbook v.3.5): - Vigilante(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Repel Vermin](https://dndtools.net/spells/players-handbook-v35--6/repel-vermin--2355/) }} {{School:= Abjuration  }} {{Level:= **Vigilante 4**, Ranger 3, Bard 4, Cleric 4, Druid 4, Blighter 4, UrbanDruid 4, Cloistered Cleric 4}} {{Components:= V, S, DF}} {{Range:= 10 ft.}} {{Area:=10-ft.-radius emanation centered on you}} {{Duration:=10 min./level (D)}} {{Savingthrow:=None or Will negates; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An invisible barrier holds back vermin.
+A vermin with Hit Dice of less than one-third your level cannot penetrate the barrier.
+A vermin with Hit Dice of one-third your level or more can penetrate the barrier if it succeeds on a Will save.
+Even so, crossing the barrier deals the vermin 2d6 points of damage, and pressing against the barrier causes pain, which deters most vermin}}
+
+
+Shadow Conjuration(Player's Handbook v.3.5): - Vigilante(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Shadow Conjuration](https://dndtools.net/spells/players-handbook-v35--6/shadow-conjuration--2699/) }} {{School:= Illusion (Shadow) }} {{Level:= **Vigilante 4**, Bard 4, Sorcerer 4, Wizard 4, Sha'ir 4, Arcanist 4}} {{Components:= V, S}} {{Range:= See text}} {{Effect:=See text}} {{Duration:=See text}} {{Savingthrow:=Will disbelief (if interacted with); varies; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You use material from the Plane of Shadow to shape quasi-real illusions of one or more creatures, objects, or forces.
+Shadow conjuration can mimic any sorcerer or wizard conjuration (summoning) or conjuration (creation) spell of 3rd level or lower.
+Shadow conjurations are actually one-fifth (20%) as strong as the real things, though creatures who believe the shadow conjurations to be real are affected by them at full strength.
+Any creature that interacts with the conjured object, force, or creature can make a Will save to recognize its true nature.
+Spells that deal damage, such as Melf's acid arrow, have normal effects unless the affected creature succeeds on a Will save.
+Each disbelieving creature takes only one-fifth (20%) damage from the attack.
+If the disbelieved attack has a special effect other than damage, that effect is only 20% likely to occur.
+Regardless of the result of the save to disbelieve, an affected creature is also allowed any save that the spell being simulated allows, but the save DC is set according to shadow conjuration's level (5th) rather than the spell's normal level.
+In addition, any effect created by shadow conjuration allows spell resistance, even if the spell it is simulating does not.
+Shadow objects or substances, such as obscuring mist, have normal effects except against those who disbelieve them.
+Against disbelievers, they are 20% likely to work.
+A shadow creature has one-fifth the hit points of a normal creature of its kind (regardless of whether it's recognized as shadowy).
+It deals normal damage and has all normal abilities and weaknesses.
+Against a creature that recognizes it as a shadow creature, however, the shadow creature's damage is one-fifth (20%) normal, and all special abilities that do not deal lethal damage are only 20% likely to work.
+(Roll for each use and each affected character separately).
+Furthermore, the shadow creature's AC bonuses are one-fifth as large (so a +7 bonus resulting in AC 17 would change to a +1 total bonus for a new AC of 11).
+A creature that succeeds on its save sees the shadow conjurations as transparent images superimposed on vague, shadowy forms.
+Objects automatically succeed on their Will saves against this spell}}
+
+
+Speak With Plants(Player's Handbook v.3.5): - Vigilante(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Speak With Plants](https://dndtools.net/spells/players-handbook-v35--6/speak-with-plants--2516/) }} {{School:= Divination  }} {{Level:= **Vigilante 4**, Ranger 2, NentyarHunter 2, Druid 3, Bard 4}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 min./level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can comprehend and communicate with plants, including both normal plants and plant creatures.
+You are able to ask questions of and receive answers from plants.
+A regular plant's sense of its surroundings is limited, so it won't be able to give (or recognize) detailed descriptions of creatures or answer questions about events outside its immediate vicinity.
+The spell doesn't make plant creatures any more friendly or cooperative than normal.
+Furthermore, wary and cunning plant creatures are likely to be terse and evasive, while the more stupid ones may make inane comments.
+If a plant creature is friendly toward you, it may do some favor or service for you (as determined by the DM)}}
+
+
+Spectral Weapon(Spell Compendium): - Vigilante(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Spectral Weapon](https://dndtools.net/spells/spell-compendium--86/spectral-weapon--4202/) }} {{School:= Illusion (Shadow) }} {{Level:= **Vigilante 4**, Assassin 3, Sorcerer 3, Wizard 3, Bard 4, Arcanist 3}} {{Components:= V, S}} {{Range:= 0 ft.}} {{Effect:=One shadowy blade}} {{Duration:=1 round/level (D)}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc4}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You summon forth semisolid shadow-stuff and force it to coalesce into a shape only you can wield. The shadow-formed weapon looks real at first glance, though it appears darkened as if perpetually in shadows. Wisps of shadow tendrils constantly follow the weapon as you move it about.**
+Using material from the Plane of Shadow, you can fashion a quasi-real melee weapon of any type with which you are proficient. This spectral weapon appears in your hand and behaves as a normal weapon of its type, with two exceptions. First, you resolve attacks with your spectral weapon as melee touch attacks instead of melee attacks. Second, any foe you hit is entitled to a Will save to recognize the  weapon's shadowy, semi-insubstantial nature. If the save is successful, that opponent takes only half damage from the weapon on that attack and all subsequent attacks, and is only 50% likely to suffer any special effects of your attacks (such as a death attack delivered with the weapon).
+You can maintain only one spectral weapon at a time, and only you can wield it. The weapon dissipates when you let go of it or when the spell's duration expires, whichever comes first}}
+
+
+Zone of Silence(Player's Handbook v.3.5): - Vigilante(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Zone of Silence](https://dndtools.net/spells/players-handbook-v35--6/zone-of-silence--2710/) }} {{School:= Illusion (Glamer) }} {{Level:= **Vigilante 4**, Beguiler 3, Bard 4}} {{Components:= V, S}} {{Range:= Personal}} {{Area:=5-ft.-radius emanation centered on you}} {{Duration:=1 hour/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=By casting zone of silence, you manipulate sound waves in your immediate vicinity so that you and those within the spell's area can converse normally, yet no one outside can hear your voices or any other noises from within, including language-dependent or sonic spell effects (such as command or shout).
+This effect is centered on you and moves with you.
+Anyone who enters the zone immediately becomes subject to its effects, but those who leave are no longer affected.
+Note, however, that a successful Spot check to read lips can still reveal what's said inside a zone of silence}}

@@ -1,0 +1,4 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;4:=[View](~Initiateofilmater-Spell-Level-4)}} 
+
+[4, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 4 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofilmater)}} {{Favor of Ilmater:=[View](~Initiateofilmater-Favor-of-Ilmater-Description) [Send](~Initiateofilmater-Favor-of-Ilmater-Cast)}} {{Glory of the Martyr:=[View](~Initiateofilmater-Glory-of-the-Martyr-Description) [Send](~Initiateofilmater-Glory-of-the-Martyr-Cast)}} {{Pact of Martyrdom:=[View](~Initiateofilmater-Pact-of-Martyrdom-Description) [Send](~Initiateofilmater-Pact-of-Martyrdom-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

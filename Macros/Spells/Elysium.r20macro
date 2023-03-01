@@ -1,0 +1,198 @@
+
+
+Charm Person(Player's Handbook v.3.5): - Elysium(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Charm Person](https://dndtools.net/spells/players-handbook-v35--6/charm-person--2535/) }} {{School:= Enchantment (Charm) }} {{Level:= **Elysium 1**, Bard 1, UrbanDruid 1, Jester 1, WuJen 1, Beguiler 1, Fatemaker 1, KnightoftheWeave 1, Wizard 1, Sorcerer 1, Sha'ir 1, Temptation 1, Charm 1, Lust 1, Renewal 1, Fey 2, Arcanist 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One humanoid creature}} {{Duration:=1 hour/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This charm makes a humanoid creature regard you as its trusted friend and ally (treat the target's attitude as friendly; see Influencing <span class="caps">NPC</span> Attitudes, page 72). If the creature is currently being threatened or attacked by you or your allies, however, it receives a +5 bonus on its saving throw.
+The spell does not enable you to control the charmed person as if it were an automaton, but it perceives your words and actions in the most favorable way. You can try to give the subject orders, but you must win an opposed Charisma check to convince it to do anything it wouldn't ordinarily do. (Retries are not allowed). An affected creature never obeys suicidal or obviously harmful orders, but a charmed fighter, for example, might believe you if you assured him that the only chance to save your life is for him to hold back an onrushing red dragon for &quot;just a few seconds&quot;. Any act by you or your apparent allies that threatens the charmed person breaks the spell. You must speak the person's language to communicate your commands, or else be good at pantomiming}}
+
+
+Protection from Evil(Player's Handbook v.3.5): - Elysium(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Protection from Evil](https://dndtools.net/spells/players-handbook-v35--6/protection-from-evil--2348/) }} {{School:= Abjuration  [Good]}} {{Level:= **Elysium 1**, Cleric 1, Savant 1, Sha'ir 1, DivineBard 1, KnightoftheChalice 1, VassalofBahamut 1, RunescarredBerserker 1, Healer 1, Adept 1, Wizard 1, Sorcerer 1, Paladin 1, Demonologist 1, Good 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 min./level (D)}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.
+First, the subject gains a +2 deflection bonus to AC and a +2 resistance bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures.
+Second, the barrier blocks any attempt to possess the warded creature (by a magic jar attack, for example) or to exercise mental control over the creature (including enchantment (charm) effects and enchantment (compulsion) effects that grant the caster ongoing control over the subject, such as dominate person). The protection does not prevent such effects from targeting the protected creature, but it suppresses the effect for the duration of the protection from evil effect. If the protection from evil effect ends before the effect granting mental control does, the would-be controller would then be able to mentally command the controlled creature. Likewise, the barrier keeps out a possessing life force but does not expel one if it is in place before the spell is cast. This second effect works regardless of alignment.
+Third, the spell prevents bodily contact by summoned creatures. This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. Good summoned creatures are immune to this effect. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature. Spell resistance can allow a creature to overcome this protection and touch the warded creature.
+**Arcane Material Component:** A little powdered silver with which you trace a 3-foot -diameter circle on the floor (or ground) around the creature to be warded}}
+
+
+Enthrall(Player's Handbook v.3.5): - Elysium(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Enthrall](https://dndtools.net/spells/players-handbook-v35--6/enthrall--2548/) }} {{School:= Enchantment (Charm) [Sonic]}} {{Level:= **Elysium 2**, Bard 2, Cleric 2, Jester 2, UrbanDruid 2, Domination 2, Nobility 2, Tyranny 2, Herald 2, Cloistered Cleric 2}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=Any number of creatures}} {{Duration:=1 hour or less}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=If you have the attention of a group of creatures, you can use this spell to hold them spellbound.
+To cast the spell, you must speak or sing without interruption for 1 full round.
+Thereafter, those affected give you their undivided attention, ignoring their surroundings.
+They are considered to have an attitude of friendly while under the effect of the spell (see the Dungeon Master's Guide for information about <span class="caps">NPC</span> attitudes).
+Any potentially affected creature of a race or religion unfriendly to yours gets a +4 bonus on the saving throw.
+A creature with 4 or more HD or with a Wisdom score of 16 or higher remains aware of its surroundings and has an attitude of indifferent.
+It gains a new saving throw if it witnesses actions that it opposes.
+The effect lasts as long as you speak or sing, to a maximum of 1 hour.
+Those enthralled by your words take no action while you speak or sing and for 1d3 rounds thereafter while they discuss the topic or performance.
+Those entering the area during the performance must also successfully save or become enthralled.
+The speech ends (but the 1d3-round delay still applies) if you lose concentration or do anything other than speak or sing.
+If those not enthralled have unfriendly or hostile attitudes toward you, they can collectively make a Charisma check to try to end the spell by jeering and heckling.
+For this check, use the Charisma bonus of the creature with the highest Charisma in the group; others may make Charisma checks to assist (as described in Aid Another, page 65).
+The heckling ends the spell if this check result beats your Charisma check result.
+Only one such challenge is allowed per use of the spell.
+If any member of the audience is attacked or subjected to some other overtly hostile act, the spell ends and the previously enthralled members become immediately unfriendly toward you.
+Each creature with 4 or more HD or with a Wisdom score of 16 or higher becomes hostile}}
+
+
+Planar Tolerance(Spell Compendium): - Elysium(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Planar Tolerance](https://dndtools.net/spells/spell-compendium--86/planar-tolerance--4637/) }} {{School:= Abjuration  }} {{Level:= **Elysium 2**, Cleric 4, Druid 4, Ranger 4, Sorcerer 5, Wizard 5, Cloistered Cleric 4, Arcanist 5}} {{Components:= V}} {{Range:= 20 ft.}} {{Target:=One creature/level in a 20-ft.-radius burst centered on you}} {{Duration:=1 hour/level}} {{Savingthrow:=None (harmless)}}  {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You have barely time to bark out a few elder words of power, but then the pressure subsides, and you know you are safe long enough to complete your mission.**
+This spell functions like <a href="/spells/spell-compendium--86/avoid-planar-effects--3864/">**avoid planar effects**</a> (page 19), except as noted above}}
+
+
+Magic Circle Against Evil(Player's Handbook v.3.5): - Elysium(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Magic Circle Against Evil](https://dndtools.net/spells/players-handbook-v35--6/magic-circle-against-evil--2335/) }} {{School:= Abjuration  [Good]}} {{Level:= **Elysium 3**, Cleric 3, Savant 3, WuJen 3, DivineBard 3, KnightoftheChalice 3, VassalofBahamut 3, Wizard 3, Sorcerer 3, Paladin 3, Sha'ir 3, Good 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, M, DF}} {{Material Component:= A little powdered silver with which you trace a 3-footdiameter circle on the floor (or ground) around the creature to be warded}} {{Range:= Touch}} {{Area:=10-ft.-radius emanation from touched creature}} {{Duration:=10 min./level}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc3}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=All creatures within the area gain the effects of a protection from evil spell, and no nongood summoned creatures can enter the area either.
+You must overcome a creature's spell resistance in order to keep it at bay (as in the third function of protection from evil), but the deflection and resistance bonuses and the protection from mental control apply regardless of enemies' spell resistance.
+This spell has an alternative version that you may choose when casting it.
+A magic circle against evil can be focused inward rather than outward.
+When focused inward, the spell binds a nongood called creature (such as those called by the lesser planar binding, planar binding, and greater planar binding spells) for a maximum of 24 hours per caster level, provided that you cast the spell that calls the creature within 1 round of casting the magic circle.
+The creature cannot cross the circle's boundaries.
+If a creature too large to fit into the spell's area is the subject of the spell, the spell acts as a normal protection from evil spell for that creature only.
+A magic circle leaves much to be desired as a trap.
+If the circle of powdered silver laid down in the process of spellcasting is broken, the effect immediately ends.
+The trapped creature can do nothing that disturbs the circle, directly or indirectly, but other creatures can.
+If the called creature has spell resistance, it can test the trap once a day.
+If you fail to overcome its spell resistance, the creature breaks free, destroying the circle.
+A creature capable of any form of dimensional travel (astral projection, blink, dimension door, etherealness, gate, plane shift, shadow walk, teleport, and similar abilities) can simply leave the circle through that means.
+You can prevent the creature's extradimensional escape by casting a dimensional anchor spell on it, but you must cast the spell before the creature acts.
+If you are successful, the anchor effect lasts as long as the magic circle does.
+The creature cannot reach across the magic circle, but its ranged attacks (ranged weapons, spells, magical abilities, and the like) can.
+The creature can attack any target it can reach with its ranged attacks except for the circle itself.
+You can add a special diagram (a two-dimensional bounded figure with no gaps along its circumference, augmented with various magical sigils) to make the magic circle more secure.
+Drawing the diagram by hand takes 10 minutes and requires a DC 20 Spellcraft check.
+The DM makes this check secretly.
+If the check fails, the diagram is ineffective.
+You can take 10 (see page 65) when drawing the diagram if you are under no particular time pressure to complete the task.
+This task also takes 10 full minutes.
+If time is no factor at all, and you devote 3 hours and 20 minutes to the task, you can take 20.
+A successful diagram allows you to cast a dimensional anchor spell on the magic circle during the round before casting any summoning spell.
+The anchor holds any called creatures in the magic circle for 24 hours per caster level.
+A creature cannot use its spell resistance against a magic circle prepared with a diagram, and none of its abilities or attacks can cross the diagram.
+If the creature tries a Charisma check to break free of the trap (see the lesser planar binding spell), the DC increases by 5.
+The creature is immediately released if anything disturbs the diagram&#8212;even a straw laid across it.
+However, the creature itself cannot disturb the diagram either directly or indirectly, as noted above.
+This spell is not cumulative with protection from evil and vice versa}}
+
+
+Mantle of Good(Spell Compendium): - Elysium(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mantle of Good](https://dndtools.net/spells/spell-compendium--86/mantle-of-good--4524/) }} {{School:= Abjuration  [Good]}} {{Level:= **Elysium 3**, Cleric 3, Paladin 3, Cloistered Cleric 3}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 minutes/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You invoke the powers of good, and a shimmering white field of holy energy swaddles you.**
+This spell functions like <a href="/spells/spell-compendium--86/mantle-chaos--4519/">**mantle of chaos**</a>, except that mantle of good grants spell resistance against spells with the evil descriptor}}
+
+
+Charm Monster(Player's Handbook v.3.5): - Elysium(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Charm Monster](https://dndtools.net/spells/players-handbook-v35--6/charm-monster--2533/) }} {{School:= Enchantment (Charm) }} {{Level:= **Elysium 4**, Bard 3, UrbanDruid 3, DeathMaster 4, Sha'ir 4, WuJen 4, Beguiler 4, Fatemaker 4, Wizard 4, Sorcerer 4, Jester 4, Temptation 4, Charm 5, Arcanist 4}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=One day/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/charm-person--2535/">**charm person**</a>, except that the effect is not restricted by creature type or size}}
+
+
+Holy Smite(Player's Handbook v.3.5): - Elysium(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Holy Smite](https://dndtools.net/spells/players-handbook-v35--6/holy-smite--2621/) }} {{School:= Evocation  [Good]}} {{Level:= **Elysium 4**, KnightoftheChalice 4, Good 4, Glory 4}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=20-ft.-radius burst}} {{Duration:=Instantaneous (1 round); see text}} {{Savingthrow:=Will partial; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You draw down holy power to smite your enemies.
+Only evil and neutral creatures are harmed by the spell; good creatures are unaffected.
+The spell deals 1d8 points of damage per two caster levels (maximum 5d8) to each evil creature in the area (or 1d6 points of damage per caster level, maximum 10d6, to an evil outsider) and causes it to become blinded for 1 round.
+A successful Will saving throw reduces damage to half and negates the blinded effect.
+The spell deals only half damage to creatures who are neither good nor evil, and they are not blinded.
+Such a creature can reduce that damage by half (down to one-quarter of the roll) with a successful Will save}}
+
+
+Cure Light Wounds, Mass(Player's Handbook v.3.5): - Elysium(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Cure Light Wounds, Mass](https://dndtools.net/spells/players-handbook-v35--6/cure-light-wounds-mass--2381/) }} {{School:= Conjuration (Healing) }} {{Level:= **Elysium 5**, Healer 4, Bard 5, Cleric 5, Druid 6, UrbanDruid 6, Healing 5, Cloistered Cleric 5}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level, no two of which can be more than 30 ft. apart}} {{Duration:=Instantaneous}} {{Savingthrow:=Will half (harmless) or Will half; see text (harmless)}} {{Save DC:=[[@{spelldc5}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You channel positive energy to cure 1d8 points of damage +1 point per caster level (maximum +25) in each selected creature.
+Like other cure spells, mass cure light wounds deals damage to undead in its area rather than curing them. Each affected undead may attempt a Will save for half damage}}
+
+
+Dispel Evil(Player's Handbook v.3.5): - Elysium(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dispel Evil](https://dndtools.net/spells/players-handbook-v35--6/dispel-evil--2312/) }} {{School:= Abjuration  [Good]}} {{Level:= **Elysium 5**, Paladin 4, VassalofBahamut 4, KnightoftheChalice 4, Cleric 5, Good 5, Cloistered Cleric 5}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=You and a touched evil creature from another plane; or you and an enchantment or evil spell on a touched creature or object}} {{Duration:=1 round/level or until discharged, whichever comes first}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc5}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Shimmering, white, holy energy surrounds you.
+This power has three effects.
+First, you gain a +4 deflection bonus to AC against attacks by evil creatures.
+Second, on making a successful melee touch attack against an evil creature from another plane, you can choose to drive that creature back to its home plane.
+The creature can negate the effects with a successful Will save (spell resistance applies).
+This use discharges and ends the spell.
+Third, with a touch you can automatically dispel any one enchantment spell cast by an evil creature or any one evil spell.
+Exception: Spells that can't be dispelled by dispel magic also can't be dispelled by dispel evil.
+Saving throws and spell resistance do not apply to this effect.
+This use discharges and ends the spell}}
+
+
+Find the Path(Player's Handbook v.3.5): - Elysium(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Find the Path](https://dndtools.net/spells/players-handbook-v35--6/find-the-path--2498/) }} {{School:= Divination  }} {{Level:= **Elysium 6**, NentyarHunter 5, Bard 6, Cleric 6, Druid 6, UrbanDruid 6, Knowledge 6, Travel 6, Cavern 6, Elf 6, Cloistered Cleric 6}} {{Components:= V, S, AF}} {{Arcane Focus:= A set of divination counters of the sort you favor - bones, ivory counters, sticks, carved runes, or the like}} {{Range:= Personal or touch}} {{Target:=You or creature touched}} {{Duration:=10 min./level}} {{Savingthrow:=None or Will negates (harmless) }} {{Save DC:=[[@{spelldc6}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The recipient of this spell can find the shortest, most direct physical route to a specified destination, be it the way into or out of a locale.
+The locale can be outdoors, underground, or even inside a maze spell.
+Find the path works with respect to locations, not objects or creatures at a locale.
+Thus, the subject could not find the way to &quot;a forest where a green dragon lives&quot; or &quot;a hoard of platinum pieces&quot;, but it could find the exit to a labyrinth.
+The location must be on the same plane as you are at the time of casting.
+The spell enables the subject to sense the correct direction that will eventually lead it to its destination, indicating at appropriate times the exact path to follow or physical actions to take.
+For example, the spell enables the subject to sense trip wires or the proper word to bypass a glyph of warding.
+The spell ends when the destination is reached or the duration expires, whichever comes first.
+Find the path can be used to remove the subject and its companions from the effect of a maze spell in a single round.
+This divination is keyed to the recipient, not its companions, and its effect does not predict or allow for the actions of creatures (including guardians)}}
+
+
+Mind Fog(Player's Handbook v.3.5): - Elysium(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mind Fog](https://dndtools.net/spells/players-handbook-v35--6/mind-fog--2563/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Elysium 6**, ThayanSlaver 4, Bard 5, Sorcerer 5, Wizard 5, Beguiler 5, Sha'ir 5, Jester 5, Mentalism 5, Hades 6, Arcanist 5}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Fog spreads in 20-ft. radius, 20 ft. high}} {{Duration:=30 minutes and 2d6 rounds; see text}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc6}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Mind fog produces a bank of thin mist that weakens the mental resistance of those caught in it.
+Creatures in the mind fog take a -10 competence penalty on Wisdom checks and Will saves.
+(A creature that successfully saves against the fog is not affected and need not make further saves even if it remains in the fog).
+Affected creatures take the penalty as long as they remain in the fog and for 2d6 rounds thereafter.
+The fog is stationary and lasts for 30 minutes (or until dispersed by wind).
+A moderate wind (11+ mph) disperses the fog in four rounds; a strong wind (21+ mph) disperses the fog in 1 round.
+The fog is thin and does not significantly hamper vision}}
+
+
+Control Weather(Player's Handbook v.3.5): - Elysium(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Control Weather](https://dndtools.net/spells/players-handbook-v35--6/control-weather--2797/) }} {{School:= Transmutation  }} {{Level:= **Elysium 7**, WuJen 6, Cleric 7, Druid 7, Sorcerer 7, Wizard 7, Blighter 7, Sha'ir 7, UrbanDruid 7, Air 7, Storm 7, Cold 7, Winter 7, Windstorm 7, Cloistered Cleric 7, Arcanist 7}} {{Components:= V, S}} {{Range:= 2 miles}} {{Area:=2-mile-radius circle, centered on you; see text}} {{Duration:=4d12 hours; see text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You change the weather in the local area.
+It takes 10 minutes to cast the spell and an additional 10 minutes for the effects to manifest.
+The current, natural weather conditions are determined by the DM.
+You can call forth weather appropriate to the climate and season of the area you are in.
+You control the general tendencies of the weather, such as the direction and intensity of the wind.
+You cannot control specific applications of the weather&#8212;
+where lightning strikes, for example, or the exact path of a tornado.
+When you select a certain weather condition to occur, the weather assumes that condition 10 minutes later (changing gradually, not abruptly).
+The weather continues as you left it for the duration, or until you use a standard action to designate a new kind of weather (which fully manifests itself 10 minutes later).
+Contradictory conditions are not possible simultaneously&#8212;fog and strong wind, for example.
+Control weather can do away with atmospheric phenomena (naturally occurring or otherwise) as well as create them.
+A druid casting this spell doubles the duration and affects a circle with a 3-mile radius}}
+
+
+Holy Word(Player's Handbook v.3.5): - Elysium(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Holy Word](https://dndtools.net/spells/players-handbook-v35--6/holy-word--2623/) }} {{School:= Evocation  [Good][Sonic]}} {{Level:= **Elysium 7**, Cleric 7, Good 7, Mysticism 7, Cloistered Cleric 7}} {{Components:= V}} {{Range:= 40 ft.}} {{Area:=Nongood creatures in a 40-ft.-radius spread centered on you}} {{Duration:=Instantaneous}} {{Savingthrow:=None or Will negates; see text }} {{Save DC:=[[@{spelldc7}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Any nongood creature within the area that hears the holy word suffers the following ill effects.
+The effects are cumulative and concurrent.
+No saving throw is allowed against these effects.
+Deafened: The creature is deafened for 1d4 rounds.
+Blinded: The creature is blinded for 2d4 rounds.
+Paralyzed: The creature is paralyzed and helpless for 1d10 minutes.
+Killed: Living creatures die.
+Undead creatures are destroyed.
+Furthermore, if you are on your home plane when you cast this spell, nongood extraplanar creatures within the area are instantly banished back to their home planes.
+Creatures so banished cannot return for at least 24 hours.
+This effect takes place regardless of whether the creatures hear the holy word.
+The banishment effect allows a Will save (at a -4 penalty) to negate.
+Creatures whose HD exceed your caster level are unaffected by holy word}}
+
+
+Holy Aura(Player's Handbook v.3.5): - Elysium(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Holy Aura](https://dndtools.net/spells/players-handbook-v35--6/holy-aura--2332/) }} {{School:= Abjuration  [Good]}} {{Level:= **Elysium 8**, Cleric 8, Healer 8, Good 8, Mysticism 8, Celestial 8, Cloistered Cleric 8}} {{Components:= V, S, AF}} {{Arcane Focus:= A tiny reliquary containing some sacred relic, such as a scrap of cloth from a saint's robe or a piece of parchment from a holy text. The reliquary costs at least 500 gp}} {{Range:= 20 ft.}} {{Target:=One creature/level in a 20-ft.-radius burst centered on you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=See text (harmless)}} {{Save DC:=[[@{spelldc8}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A brilliant divine radiance surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by evil creatures, and causing evil creatures to become blinded when they strike the subjects. This abjuration has four effects.
+First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike protection from evil, this benefit applies against all attacks, not just against attacks by evil creatures.
+Second, each warded creature gains spell resistance 25 against evil spells and spells cast by evil creatures.
+Third, the abjuration blocks possession and mental influence, just as protection from evil does.
+Finally, if an evil creature succeeds on a melee attack against a warded creature, the offending attacker is blinded (Fortitude save negates, as blindness/deafness, but against holy aura's save DC)}}
+
+
+Sunburst(Player's Handbook v.3.5): - Elysium(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sunburst](https://dndtools.net/spells/players-handbook-v35--6/sunburst--2653/) }} {{School:= Evocation  [Light]}} {{Level:= **Elysium 8**, Druid 8, Sorcerer 8, Wizard 8, Warmage 8, Sha'ir 8, Sun 8, Purification 8, Elf 8, Arcanist 8}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=80-ft.-radius burst}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex partial; see text }} {{Save DC:=[[@{spelldc8}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Sunburst causes a globe of searing radiance to explode silently from a point you select.
+All creatures in the globe are blinded and take 6d6 points of damage.
+A creature to which sunlight is harmful or unnatural takes double damage.
+A successful Reflex save negates the blindness and reduces the damage by half.
+An undead creature caught within the globe takes 1d6 points of damage per caster level (maximum 25d6), or half damage if a Reflex save is successful.
+In addition, the burst results in the destruction of any undead creature specifically harmed by bright light (such as a vampire) if it fail its save.
+The ultraviolet light generated by the spell deals damage to fungi, mold, oozes, and slimes just as if they were undead creatures.
+Sunburst dispels any darkness spells of lower than 9th level within its area.
+Arcane Material Component: A piece of sunstone and a naked flame}}
+
+
+Heal, Mass(Player's Handbook v.3.5): - Elysium(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Heal, Mass](https://dndtools.net/spells/players-handbook-v35--6/heal-mass--2399/) }} {{School:= Conjuration (Healing) }} {{Level:= **Elysium 9**, Healer 8, Cleric 9, Healing 9, Community 9, Cloistered Cleric 9}} {{Components:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One or more creatures, no two of which can be more than 30 ft. apart}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like heal, except as noted above.
+The maximum number of hit points restored to each creature is 250}}
+
+
+Moment of Prescience(Player's Handbook v.3.5): - Elysium(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Moment of Prescience](https://dndtools.net/spells/players-handbook-v35--6/moment-of-prescience--2507/) }} {{School:= Divination  }} {{Level:= **Elysium 9**, Sorcerer 8, Wizard 8, Beguiler 8, Sha'ir 8, Luck 8, Destiny 8, Competition 8, Arcanist 8}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 hour/level or until discharged}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell grants you a powerful sixth sense in relation to yourself.
+Once during the spell's duration, you may choose to use its effect.
+This spell grants you an insight bonus equal to your caster level (maximum +25) on any single attack roll, opposed ability or skill check, or saving throw.
+Alternatively, you can apply the insight bonus to your AC against a single attack (even if flat-footed).
+Activating the effect doesn't take an action; you can even activate it on another character's turn if needed.
+You must choose to use the moment of prescience before you make the roll it is to modify.
+Once used, the spell ends.
+You can't have more than one moment of prescience active on you at the same time}}

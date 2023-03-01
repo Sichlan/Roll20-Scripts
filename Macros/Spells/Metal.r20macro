@@ -1,0 +1,115 @@
+
+
+Magic Weapon(Player's Handbook v.3.5): - Metal(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Magic Weapon](https://dndtools.net/spells/players-handbook-v35--6/magic-weapon--2838/) }} {{School:= Transmutation  }} {{Level:= **Metal 1**, Cleric 1, Sha'ir 1, WuJen 1, Duskblade 1, KnightoftheChalice 1, KnightoftheWeave 1, HunteroftheDead 1, DiscipleofThrym 1, Wizard 1, Sorcerer 1, Paladin 1, DeathMaster 1, War 1, Dwarf 1, ReveredAncestor 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Weapon touched}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Magic weapon gives a weapon a +1 enhancement bonus on attack and damage rolls. (An enhancement bonus does not stack with a masterwork weapon's +1 bonus on attack rolls). 
+You can't cast this spell on a natural weapon, such as an unarmed strike (instead, see magic fang). A monk's unarmed strike is considered a weapon, and thus it can be enhanced by this spell}}
+
+
+Heat Metal(Player's Handbook v.3.5): - Metal(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Heat Metal](https://dndtools.net/spells/players-handbook-v35--6/heat-metal--2824/) }} {{School:= Transmutation  [Fire]}} {{Level:= **Metal 2**, Druid 2, Blighter 2, UrbanDruid 2, Sun 2}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Metal equipment of one creature per two levels, no two of which can be more than 30 ft. apart; or 25 lb. of metal/level, all of which must be within a 30-ft. circle}} {{Duration:=7 rounds}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc2}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Heat metal makes metal extremely warm.
+Unattended, nonmagical metal gets no saving throw.
+Magical metal is allowed a saving throw against the spell.
+(Magic item's saving throws are covered in the Dungeon Master's Guide).
+An item in a creature's possession uses the creature's saving throw bonus unless its own is higher.
+A creature takes fire damage if its equipment is heated.
+It takes full damage if its armor is affected or if it is holding, touching, wearing, or carrying metal weighing one-fifth of its weight.
+The creature takes minimum damage (1 point or 2 points; see the table) if it's not wearing metal armor and the metal that it's carrying weighs less than one-fifth of its weight.
+On the first round of the spell, the metal becomes warm and uncomfortable to touch but deals no damage.
+The same effect also occurs on the last round of the spell's duration.
+During the second (and also the next-to-last) round, intense heat causes pain and damage.
+In the third, fourth, and fifth rounds, the metal is searing hot, causing more damage, as shown on the table below.
+Any cold intense enough to damage the creature negates fire damage from the spell (and vice versa) on a point-for-point basis.
+For example, if the damage roll from a heat metal spell indicates 2 points of fire damage and the subject is hit by a ray of frost in the same round and takes 3 points of cold damage, it winds up taking no fire damage and only 1 point of cold damage.
+If cast underwater, heat metal deals half damage and boils the surrounding water.
+Heat metal counters and dispels chill metal}}
+
+
+Keen Edge(Player's Handbook v.3.5): - Metal(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Keen Edge](https://dndtools.net/spells/players-handbook-v35--6/keen-edge--2828/) }} {{School:= Transmutation  }} {{Level:= **Metal 3**, RunescarredBerserker 2, Sorcerer 3, Wizard 3, Duskblade 3, NentyarHunter 3, WuJen 3, Sha'ir 3, UrbanDruid 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One weapon or fifty projectiles, all of which must be in contact with each other at the time of casting}} {{Duration:=10 min./level}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell makes a weapon magically keen, improving its ability to deal telling blows. This transmutation doubles the threat range of the weapon. A threat range of 20 becomes 19-20, a threat range of 19-20 becomes 17-20, and a threat range of 18-20 becomes 15-20. The spell can be cast only on piercing or slashing weapons. If cast on arrows or crossbow bolts, the keen edge on a particular projectile ends after one use, whether or not the missile strikes its intended target. (Treat shuriken as arrows, rather than as thrown weapons, for the purpose of this spell).
+Multiple effects that increase a weapon's threat range (such as the keen edge spell and the Improved Critical feat) don't stack. You can't cast this spell on a natural weapon, such as a claw}}
+
+
+Rusting Grasp(Player's Handbook v.3.5): - Metal(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Rusting Grasp](https://dndtools.net/spells/players-handbook-v35--6/rusting-grasp--2867/) }} {{School:= Transmutation  }} {{Level:= **Metal 4**, Druid 4, Blighter 4, WuJen 4, UrbanDruid 4, Slime 4}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=One nonmagical ferrous object (or the volume of the object within 3 ft. of the touched point) or one ferrous creature}} {{Duration:=See text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Any iron or iron alloy item you touch becomes instantaneously rusted, pitted, and worthless, effectively destroyed.
+If the item is so large that it cannot fit within a 3-foot radius (a large iron door or a wall of iron), a 3-foot-radius volume of the metal is rusted and destroyed.
+Magic items made of metal are immune to this spell.
+You may employ rusting grasp in combat with a successful melee touch attack.
+Rusting grasp used in this way instantaneously destroys 1d6 points of Armor Class gained from metal armor (to the maximum amount of protection the armor offered) through corrosion.
+For example, full plate armor (AC +8) could be reduced to +7 or as low as +2 in protection, depending on the die roll.
+Weapons in use by an opponent targeted by the spell are more difficult to grasp.
+You must succeed on a melee touch attack against the weapon.
+A metal weapon that is hit is destroyed.
+Note: Striking at an opponent's weapon provokes an attack of opportunity.
+Also, you must touch the weapon and not the other way around.
+Against a ferrous creature, rusting grasp instantaneously deals 3d6 points of damage +1 per caster level (maximum +15) per successful attack.
+The spell lasts for 1 round per level, and you can make one melee touch attack per round}}
+
+
+Wall of Iron(Player's Handbook v.3.5): - Metal(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wall of Iron](https://dndtools.net/spells/players-handbook-v35--6/wall-of-iron--2469/) }} {{School:= Conjuration (Creation) }} {{Level:= **Metal 5**, Sorcerer 6, Wizard 6, WuJen 6, Sha'ir 6, UrbanDruid 6, Arcanist 6}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Iron wall whose area is up to one 5-ft. square/level; see text}} {{Duration:=Instantaneous}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc5}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You cause a flat, vertical iron wall to spring into being.
+This wall can be used to seal off a passage or close a breach, for the wall inserts itself into any surrounding nonliving material if its area is sufficient to do so.
+The wall cannot be conjured so that it occupies the same space as a creature or another object.
+It must always be a flat plane, though you can shape its edges to fit the available space.
+A wall of iron is 1 inch thick per four caster levels.
+You can double the wall's area by halving its thickness.
+Each 5-foot square of the wall has 30 hit points per inch of thickness and hardness 10.
+A section of wall whose hit points drop to 0 is breached.
+If a creature tries to break through the wall with a single attack, the DC for the Strength check is 25 + 2 per inch of thickness.
+If you desire, the wall can be created vertically resting on a flat surface but not attached to the surface, so that it can be tipped over to fall on and crush creatures beneath it.
+The wall is 50% likely to tip in either direction if left unpushed.
+Creatures can push the wall in one direction rather than letting it fall randomly.
+A creature must make a DC 40 Strength check to push the wall over.
+Creatures with room to flee the falling wall may do so by making successful Reflex saves.
+Any Large or smaller creature that fails takes 10d6 points of damage.
+The wall cannot crush Huge and larger creatures.
+Like any iron wall, this wall is subject to rust, perforation, and other natural phenomena.
+Material Component: A small piece of sheet iron plus gold dust worth 50 gp (1 pound of gold dust)}}
+
+
+Blade Barrier(Player's Handbook v.3.5): - Metal(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blade Barrier](https://dndtools.net/spells/players-handbook-v35--6/blade-barrier--2588/) }} {{School:= Evocation  [Force]}} {{Level:= **Metal 6**, Cleric 6, Warmage 6, DeathMaster 6, Good 6, War 6, Celestia 6, Cloistered Cleric 6}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Wall of whirling blades up to 20 ft. long/level, or a ringed wall of whirling blades with a radius of up to 5 ft. per two levels; either form 20 ft. high}} {{Duration:=1 min./level (D)}} {{Savingthrow:=Reflex half or Reflex negates; see text }} {{Save DC:=[[@{spelldc6}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An immobile, vertical curtain of whirling blades shaped of pure force springs into existence.
+Any creature passing through the wall takes 1d6 points of damage per caster level (maximum 15d6), with a Reflex save for half damage.
+If you evoke the barrier so that it appears where creatures are, each creature takes damage as if passing through the wall.
+Each such creature can avoid the wall (ending up on the side of its choice) and thus take no damage by making a successful Reflex save.
+A blade barrier provides cover (+4 bonus to AC, +2 bonus on Reflex saves) against attacks made through it}}
+
+
+Transmute Metal to Wood(Player's Handbook v.3.5): - Metal(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Transmute Metal to Wood](https://dndtools.net/spells/players-handbook-v35--6/transmute-metal-to-wood--2887/) }} {{School:= Transmutation  }} {{Level:= **Metal 7**, Druid 7, WuJen 7, UrbanDruid 7}} {{Components:= V, S, DF}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=All metal objects within a 40-ft.-radius burst}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell enables you to change all metal objects within its area to wood.
+Weapons, armor, and other metal objects carried by creatures are affected as well.
+A magic object made of metal effectively has spell resistance equal to 20 + its caster level against this spell.
+Artifacts cannot be transmuted.
+Weapons converted from metal to wood take a -2 penalty on attack and damage rolls.
+The armor bonus of any armor converted from metal to wood is reduced by 2.
+Weapons changed by this spell splinter and break on any natural attack roll of 1 or 2, and armor changed by this spell loses an additional point of armor bonus every time it is struck with a natural attack roll of 19 or 20.
+Only limited wish, miracle, wish, or similar magic can restore a transmuted object to its metallic state.
+Otherwise, for example, a metal door changed to wood is forevermore a wooden door}}
+
+
+Iron Body(Player's Handbook v.3.5): - Metal(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Iron Body](https://dndtools.net/spells/players-handbook-v35--6/iron-body--2825/) }} {{School:= Transmutation  }} {{Level:= **Metal 8**, Sorcerer 8, Wizard 8, Sha'ir 8, DeathMaster 8, UrbanDruid 8, Earth 8, Mechanus 8, Endurance 9, Arcanist 8}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 min./level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell transforms your body into living iron, which grants you several powerful resistances and abilities.
+You gain damage reduction 15/adamantine.
+You are immune to blindness, critical hits, ability score damage, deafness, disease, drowning, electricity, poison, stunning, and all spells or attacks that affect your physiology or respiration, because you have no physiology or respiration while this spell is in effect.
+You take only half damage from acid and fire of all kinds.
+However, you also become vulnerable to all special attacks that affect iron golems.
+You gain a +6 enhancement bonus to your Strength score, but you take a -6 penalty to Dexterity as well (to a minimum Dexterity score of 1), and your speed is reduced to half normal.
+You have an arcane spell failure chance of 50% and a -8 armor check penalty, just as if you were clad in full plate armor.
+You cannot drink (and thus can't use potions) or play wind instruments.
+Your unarmed attacks deal damage equal to a club sized for you (1d4 for Small characters or 1d6 for Medium characters), and you are considered armed when making unarmed attacks.
+Your weight increases by a factor of ten, causing you to sink in water like a stone.
+However, you could survive the crushing pressure and lack of air at the bottom of the ocean&#8212;at least until the spell duration expires.
+Arcane Material Component: A small piece of iron that was once part of either an iron golem, a hero's armor, or a war machine}}
+
+
+Repel Metal Or Stone(Player's Handbook v.3.5): - Metal(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Repel Metal Or Stone](https://dndtools.net/spells/players-handbook-v35--6/repel-metal-or-stone--2354/) }} {{School:= Abjuration  [Earth]}} {{Level:= **Metal 9**, Blighter 7, Druid 8, WuJen 8, UrbanDruid 8}} {{Components:= V, S}} {{Range:= 60 ft.}} {{Area:=60-ft. line from you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Like repel wood, this spell creates waves of invisible and intangible energy that roll forth from you.
+All metal or stone objects in the path of the spell are pushed away from you to the limit of the range.
+Fixed metal or stone objects larger than 3 inches in diameter and loose objects weighing more than 500 pounds are not affected.
+Anything else, including animated objects, small boulders, and creatures in metal armor, moves back.
+Fixed objects 3 inches in diameter or smaller bend or break, and the pieces move with the wave of energy.
+Objects affected by the spell are repelled at the rate of 40 feet per round.
+Objects such as metal armor, swords, and the like are pushed back, dragging their bearers with them.
+Even magic items with metal components are repelled, although an antimagic field blocks the effects.
+The waves of energy continue to sweep down the set path for the spell's duration.
+After you cast the spell, the path is set, and you can then do other things or go elsewhere without affecting the spell's
+power}}

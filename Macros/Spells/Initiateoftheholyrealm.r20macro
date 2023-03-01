@@ -1,0 +1,26 @@
+
+
+Horrible Taste(Spell Compendium): - Initiateoftheholyrealm(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Horrible Taste](https://dndtools.net/spells/spell-compendium--86/horrible-taste--4713/) }} {{School:= Transmutation  }} {{Level:= **Initiateoftheholyrealm 1**, Druid 1, Ranger 1, Sorcerer 1, Wizard 1, Arcanist 1}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature or object touched}} {{Duration:=10 minutes/level}} {{Savingthrow:=Fortitude negates; see text }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**After a few mystic words, you touch a piece of rotten meat to the subject and it sinks inside the creature's body.**
+Any creature that bites the spell's subject must succeed on a Fortitude saving throw or be nauseated until the end of its next turn.
+If a creature of animal Intelligence (2 or lower) fails its saving throw, it will not willingly bite the subject a second time; someone trying to direct the creature to bite the subject again must make a Handle Animal check as if he was trying to &quot;push&quot; the creature. This check must be made every time he tries to make the creature bite.
+Creatures that are immune to poison or that lack the ability to taste are unaffected by this spell.
+Material Component: A pinch of rotten meat}}
+
+
+Love Bite(Champions of Valor): - Initiateoftheholyrealm(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Love Bite](https://dndtools.net/spells/champions-of-valor--28/love-bite--316/) }} {{School:= Evocation  [Force]}} {{Level:= **Initiateoftheholyrealm 1**}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One creature}} {{Duration:=Instantaneous; see text}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell originated in Sune's faith.
+You determine at the time of casting what effect it takes.
+Fleeting Kiss: The target feels the sensation of a brief, tender kiss on a visible part of her body or on her mouth if her body is completely covered.
+This effect is often used as a signal.
+Love Bite: The target takes 1 point of damage.
+In either case, if you are holding the charge on a touch spell of 2nd level or lower when you cast love bite, this spell also delivers the touch spell to the target as if you had touched it directly (normal saving throws and spell resistance for the touch spell applies, if applicable).
+You must make a melee touch attack as normal with a +2 bonus.
+This form of the spell always attacks from your direction and cannot flank targets as a creature can.
+Using this spell to deliver a held charge is an exception to the normal rule that casting another spell while holding a charge dissipates the held spell}}
+
+
+Lionheart(Spell Compendium): - Initiateoftheholyrealm(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Lionheart](https://dndtools.net/spells/spell-compendium--86/lionheart--4373/) }} {{School:= Abjuration  }} {{Level:= **Initiateoftheholyrealm 2**, Paladin 1, Initiateofnobanion 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You touch your ally while intoning the spell. Where your finger touches, a warm glow appears, then fades.**
+The subject gains immunity to fear effects.
+Material Component: A hair from a lion's mane}}

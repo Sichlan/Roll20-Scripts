@@ -1,0 +1,61 @@
+
+
+Angry Ache(Book of Vile Darkness): - Pain(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Angry Ache](https://dndtools.net/spells/book-of-vile-darkness--37/angry-ache--198/) }} {{School:= Necromancy  }} {{Level:= **Pain 1**, Assassin 1, Cleric 1, Cloistered Cleric 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 minute/level}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster temporarily strains the subject's muscles in a very specific way. The subject feels a sharp pain whenever she makes an attack. All her attack rolls have a -2 circumstance penalty for every four caster levels (maximum penalty -10)}}
+
+
+Sadism(Book of Vile Darkness): - Pain(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sadism](https://dndtools.net/spells/book-of-vile-darkness--37/sadism--169/) }} {{School:= Enchantment  [Evil]}} {{Level:= **Pain 2**, Sorcerer 2, Wizard 2, Assassin 3, Blackguard 3, Cleric 3, Cloistered Cleric 3, Arcanist 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Personal}} {{Target:=Caster}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=For every 10 points of damage the caster deals in a given round while under the effect of this spell, she gains a +1 luck bonus on attack rolls, saving throws, and skill checks in the next round.
+The more damage the caster deals, the greater the luck bonus.
+It's possible to get a luck bonus for multiple rounds if she deals damage in more than one round during the spell's duration.
+Material Component: A leather strap that has been soaked in human blood}}
+
+
+Wrack(Spell Compendium): - Pain(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wrack](https://dndtools.net/spells/spell-compendium--86/wrack--4787/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Pain 3**, Cleric 4, Sorcerer 5, Wizard 5, MortalHunter 3, Cloistered Cleric 4, Arcanist 5}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One humanoid}} {{Duration:=1 round/level + 3d10 minutes; see text}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc3}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**With the final word of the spell, your chosen foe is wracked with such pain that it doubles over and collapses. Its face and hands blister and drip fluid, and its eyes cloud with blood, rendering it blind.**
+This spell causes your target to experience excruciating pain. For the duration of the spell, the subject falls prone and is blinded and helpless. Even when the spell ends, the subject is still shaken for 3d10 minutes}}
+
+
+Liquid Pain(Book of Vile Darkness): - Pain(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Liquid Pain](https://dndtools.net/spells/book-of-vile-darkness--37/liquid-pain--211/) }} {{School:= Necromancy  }} {{Level:= **Pain 4**, Sorcerer 4, Wizard 4, Arcanist 4}} {{Components:= V, S, AF}} {{Arcane Focus:= A jar, vial, or other container for the liquid pain}} {{Range:= Touch}} {{Target:=One living creature}} {{Duration:=Permanent}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc4}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Over the course of one day, the caster takes a subject already in great pain&#8212;wracked with disease, the victim of torture, or dying of a wound, for example - and captures its pain in liquid form.
+This physical manifestation of agony can be used to create magic items or enhance spells (see Pain as Power in Chapter 2).
+It can also be used as a potent drug}}
+
+
+Thousand Needles(Book of Vile Darkness): - Pain(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Thousand Needles](https://dndtools.net/spells/book-of-vile-darkness--37/thousand-needles--145/) }} {{School:= Conjuration (Creation) [Evil]}} {{Level:= **Pain 5**}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Clr 6
+Components: V, S, M
+Casting Time: 1 action
+Range:Medium (100 ft. + 10 ft./levels)
+Target: One living creature
+Duration: 1 minute/level
+Saving Throw: Fortitude partial
+Spell Resistance: Yes
+A thousand needles surround the subject and pierce his flesh, worming through armor or any type of protection, although creatures with damage reduction are immune to this spell.
+The subject takes 2d6 points of damage immediately and takes a -4 circumstance penalty on attack rolls, saving throws, skill checks, and ability checks for the rest of the spell's duration.
+A successful Fortitude save reduces damage to half and negates the circumstance penalty.
+Material Component: A handful of needles, all of which have drawn blood}}
+
+
+Pox(Fiendish Codex I: Hordes of the Abyss): - Pain(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Pox](https://dndtools.net/spells/fiendish-codex-i-hordes-of-the-abyss--66/pox--1155/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Pain 6**, Druid 6, Corruption 6}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Up to one living creature/level, no two of which can be more than 10 ft. apart.}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc6}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You shout, &quot;A pox on you!&quot;With a mere gesture, lesions erupt on the flesh of your enemies, and their pallor turns a sickly yellow.
+Each affected creature takes 1d4 points of Constitution drain}}
+
+
+Wave of Pain(Book of Vile Darkness): - Pain(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wave of Pain](https://dndtools.net/spells/book-of-vile-darkness--37/wave-of-pain--223/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Pain 7**, Bard 6}} {{Components:= S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=Cone}} {{Duration:=1 round/2 levels}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc7}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=All living creatures within the cone are overcome with pain and suffering.
+They are stunned for the duration of the spell.
+A creature with no discernible anatomy is unaffected by this spell.
+Material Component: A needle}}
+
+
+Eternity of Torture(Book of Vile Darkness): - Pain(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Eternity of Torture](https://dndtools.net/spells/book-of-vile-darkness--37/eternity-of-torture--207/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Pain 9**}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=Permanent}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc9}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject's body is twisted and warped, wracked forever with excruciating pain.
+The subject is rendered helpless, but&#8212;as long as the spell continues&#8212;it is sustained and has no need for food, drink, or air.
+The subject does not age&#8212;all the better to ensure a true eternity of unimaginable torture.
+The subject takes 1 point of drain to each ability score each day until all scores are reduced to 0 (except Constitution, which stays at 1).
+The subject cannot heal or regenerate.
+Lastly, the subject is completely unaware of its surroundings, insensate to anything but the excruciating pain.
+A single Fortitude saving throw is all that stands between a target and this horrible spell.
+However, even if the saving throw is successful, the target still feels terrible (but temporary) pain.
+The target takes 5d6 points of damage immediately and takes a -4 circumstance penalty on attack rolls, saving throws, skill checks, and ability checks for 1 round per level of the caster}}

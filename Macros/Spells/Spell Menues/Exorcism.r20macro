@@ -1,0 +1,4 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;9:=[View](~Exorcism-Spell-Level-9)}} 
+
+[9, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 9 }} {{subtags=[Back to Main Menu](~Spells-Main-Exorcism)}} {{Unbinding:=[View](~Exorcism-Unbinding-Description) [Send](~Exorcism-Unbinding-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

@@ -1,0 +1,6 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;2:=[View](~Initiateofgruumsh-Spell-Level-2)}} {{Spelllevel&nbsp;3:=[View](~Initiateofgruumsh-Spell-Level-3)}} {{Spelllevel&nbsp;5:=[View](~Initiateofgruumsh-Spell-Level-5)}} 
+
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofgruumsh)}} {{Battle Line:=[View](~Initiateofgruumsh-Battle-Line-Description) [Send](~Initiateofgruumsh-Battle-Line-Cast)}} ]
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofgruumsh)}} {{Bloodspear:=[View](~Initiateofgruumsh-Bloodspear-Description) [Send](~Initiateofgruumsh-Bloodspear-Cast)}} ]
+[5, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 5 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofgruumsh)}} {{Pocket Cave:=[View](~Initiateofgruumsh-Pocket-Cave-Description) [Send](~Initiateofgruumsh-Pocket-Cave-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

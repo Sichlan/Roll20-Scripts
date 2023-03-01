@@ -1,0 +1,87 @@
+
+
+True Strike(Player's Handbook v.3.5): - Elf(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [True Strike](https://dndtools.net/spells/players-handbook-v35--6/true-strike--2521/) }} {{School:= Divination  }} {{Level:= **Elf 1**, Sorcerer 1, Savant 1, Sha'ir 1, WuJen 1, ThayanSlaver 1, NentyarHunter 1, Duskblade 1, Fatemaker 1, RunescarredBerserker 1, Warmage 1, Wizard 1, Assassin 1, Fate 1, Time 1, Arcanist 1}} {{Components:= V, AF}} {{Arcane Focus:= A small wooden replica of an archery target}} {{Range:= Personal}} {{Target:=You}} {{Duration:=See text}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You gain temporary, intuitive insight into the immediate future during your next attack. Your next single attack roll (if it is made before the end of the next round) gains a +20 insight bonus. Additionally, you are not affected by the miss chance that applies to attackers trying to strike a concealed target}}
+
+
+Snare(Player's Handbook v.3.5): - Elf(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Snare](https://dndtools.net/spells/players-handbook-v35--6/snare--2874/) }} {{School:= Transmutation  }} {{Level:= **Elf 3**, NentyarHunter 1, Ranger 2, Druid 3}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Touched nonmagical circle of vine, rope, or thong with a 2 ft. diameter + 2 ft./level}} {{Duration:=Until triggered or broken}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell enables you to make a snare that functions as a magic trap.
+The snare can be made from any supple vine, a thong, or a rope.
+When you cast snare upon it, the cordlike object blends with its surroundings (Search DC 23 for a character with the trapfinding ability to locate).
+One end of the snare is tied in a loop that contracts around one or more of the limbs of any creature stepping inside the circle.
+(The head of a worm or a snake could be thus ensnared, for example).
+If a strong and supple tree is nearby, the snare can be fastened to it.
+The spell causes the tree to bend and then straighten when the loop is triggered, dealing 1d6 points of damage to the creature trapped and lifting it off the ground by the trapped limb or limbs.
+If no such tree is available, the cordlike object tightens around the creature, dealing no damage but causing it to be entangled.
+The snare is magical.
+To escape, a trapped creature must make a DC 23 Escape Artist check or a DC 23 Strength check that is a full-round action.
+The snare has AC 7 and 5 hit points.
+A successful escape from the snare breaks the loop and ends the spell}}
+
+
+Tree Stride(Player's Handbook v.3.5): - Elf(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Tree Stride](https://dndtools.net/spells/players-handbook-v35--6/tree-stride--2466/) }} {{School:= Conjuration (Teleportation) }} {{Level:= **Elf 4**, Ranger 4, NentyarHunter 4, Druid 5, Celerity 5, Fey 5}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 hour/level or until expended; see text}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You gain the ability to enter trees and move from inside one tree to inside another tree.
+The first tree you enter and all others you enter must be of the same kind, must be living, and must have girth at least equal to yours.
+By moving into an oak tree (for example), you instantly know the location of all other oak trees within transport range (see below) and may choose whether you want to pass into one or simply step back out of the tree you moved into.
+You may choose to pass to any tree of the appropriate kind within the transport range as shown on the following table.
+You may move into a tree up to one time per caster level (passing from one tree to another counts only as moving into one tree).
+The spell lasts until the duration expires or you exit a tree.
+This means that in a thick oak forest, a 10th-level druid
+could make ten transports over the course of 10 rounds, traveling as far as 30,000 feet (about 6 miles) in doing so.
+Each transport is a full-round action.
+You can, at your option, remain within a tree without transporting yourself, but you are forced out when the spell ends.
+If the tree in which you are concealed is chopped down or burned, you are slain if you do not exit before the process is complete}}
+
+
+Commune With Nature(Player's Handbook v.3.5): - Elf(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Commune With Nature](https://dndtools.net/spells/players-handbook-v35--6/commune-with-nature--2480/) }} {{School:= Divination  }} {{Level:= **Elf 5**, Ranger 4, NentyarHunter 4, Druid 5, Animal 5, Seafolk 5}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=Instantaneous}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You become one with nature, attaining knowledge of the surrounding territory.
+You instantly gain knowledge of as many as three facts from among the following subjects: the ground or terrain, plants, minerals, bodies of water, people, general animal population, presence of woodland creatures, presence of
+powerful unnatural creatures, or even the general state of the natural setting.
+For example, you could determine the location of any powerful undead creatures, the location of all major sources of safe drinking water, and the location of any buildings (which register as blind spots).
+In outdoor settings, the spell operates in a radius of 1 mile per caster level.
+In natural underground settings&#8212;caves, caverns, and the like&#8212;the radius is limited to 100 feet per caster level.
+The spell does not function where nature has been replaced by construction or settlement, such as in dungeons and towns}}
+
+
+Find the Path(Player's Handbook v.3.5): - Elf(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Find the Path](https://dndtools.net/spells/players-handbook-v35--6/find-the-path--2498/) }} {{School:= Divination  }} {{Level:= **Elf 6**, NentyarHunter 5, Bard 6, Cleric 6, Druid 6, UrbanDruid 6, Knowledge 6, Travel 6, Elysium 6, Cavern 6, Cloistered Cleric 6}} {{Components:= V, S, AF}} {{Arcane Focus:= A set of divination counters of the sort you favor - bones, ivory counters, sticks, carved runes, or the like}} {{Range:= Personal or touch}} {{Target:=You or creature touched}} {{Duration:=10 min./level}} {{Savingthrow:=None or Will negates (harmless) }} {{Save DC:=[[@{spelldc6}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The recipient of this spell can find the shortest, most direct physical route to a specified destination, be it the way into or out of a locale.
+The locale can be outdoors, underground, or even inside a maze spell.
+Find the path works with respect to locations, not objects or creatures at a locale.
+Thus, the subject could not find the way to &quot;a forest where a green dragon lives&quot; or &quot;a hoard of platinum pieces&quot;, but it could find the exit to a labyrinth.
+The location must be on the same plane as you are at the time of casting.
+The spell enables the subject to sense the correct direction that will eventually lead it to its destination, indicating at appropriate times the exact path to follow or physical actions to take.
+For example, the spell enables the subject to sense trip wires or the proper word to bypass a glyph of warding.
+The spell ends when the destination is reached or the duration expires, whichever comes first.
+Find the path can be used to remove the subject and its companions from the effect of a maze spell in a single round.
+This divination is keyed to the recipient, not its companions, and its effect does not predict or allow for the actions of creatures (including guardians)}}
+
+
+Liveoak(Player's Handbook v.3.5): - Elf(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Liveoak](https://dndtools.net/spells/players-handbook-v35--6/liveoak--2831/) }} {{School:= Transmutation  }} {{Level:= **Elf 7**, Druid 6, Fey 7}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Tree touched}} {{Duration:=One day/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell turns an oak tree into a protector or guardian.
+The spell can be cast on only a single tree at a time; while liveoak is in effect, you can't cast it again on another tree.
+The tree on which the spell is cast must be within 10 feet of your dwelling place, within a place sacred to you, or within 300 feet of something that you wish to guard or protect.
+Liveoak must be cast on a healthy, Huge oak.
+A triggering phrase of up to one word per caster level is placed on the targeted oak.
+For instance, &quot;Attack any persons who come near without first saying 'sacred mistletoe'&quot; is an eleven-word trigger phrase that you could use at 11th level or higher.
+The liveoak spell triggers the tree into animating as a treant (see the Monster Manual).
+At the DM's option, you can extrapolate statistics for a smaller tree from the treant statistics if you cast liveoak on a smaller oak.
+If liveoak is dispelled, the tree takes root immediately, wherever it happens to be.
+If released by you, the tree tries to return to its original location before taking root}}
+
+
+Sunburst(Player's Handbook v.3.5): - Elf(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sunburst](https://dndtools.net/spells/players-handbook-v35--6/sunburst--2653/) }} {{School:= Evocation  [Light]}} {{Level:= **Elf 8**, Druid 8, Sorcerer 8, Wizard 8, Warmage 8, Sha'ir 8, Sun 8, Purification 8, Elysium 8, Arcanist 8}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=80-ft.-radius burst}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex partial; see text }} {{Save DC:=[[@{spelldc8}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Sunburst causes a globe of searing radiance to explode silently from a point you select.
+All creatures in the globe are blinded and take 6d6 points of damage.
+A creature to which sunlight is harmful or unnatural takes double damage.
+A successful Reflex save negates the blindness and reduces the damage by half.
+An undead creature caught within the globe takes 1d6 points of damage per caster level (maximum 25d6), or half damage if a Reflex save is successful.
+In addition, the burst results in the destruction of any undead creature specifically harmed by bright light (such as a vampire) if it fail its save.
+The ultraviolet light generated by the spell deals damage to fungi, mold, oozes, and slimes just as if they were undead creatures.
+Sunburst dispels any darkness spells of lower than 9th level within its area.
+Arcane Material Component: A piece of sunstone and a naked flame}}
+
+
+Antipathy(Player's Handbook v.3.5): - Elf(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Antipathy](https://dndtools.net/spells/players-handbook-v35--6/antipathy--2526/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Elf 9**, Sorcerer 8, Wizard 8, WuJen 8, Sha'ir 8, DeathMaster 8, Druid 9, Blighter 9, UrbanDruid 9, Mentalism 7, Hatred 8, Wealth 9, Arcanist 8}} {{Components:= V, S, M, DF}} {{Material Component:= A lump of alum soaked in vinegar}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One location (up to a 10-ft. cube/level) or one object}} {{Duration:=2 hours/level (D)}} {{Savingthrow:=Will partial }} {{Save DC:=[[@{spelldc9}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You cause an object or location to emanate magical vibrations that repel either a specific kind of   intelligent creature or creatures of a particular alignment, as defined by you.  The kind of creature to be affected must be named specifically&#8212;for example, red dragons, hill giants, wererats, lammasus, cloakers, or vampires.  A creature subtype (such as goblinoid) is not specific enough.  Likewise, the specific alignment to be repelled must be named&#8212;for example, chaotic evil, chaotic good, lawful neutral, or neutral.
+Creatures of the designated kind or alignment feel an overpowering urge to leave the area or to avoid the affected item. A compulsion forces them to abandon the area or item, shunning it and never willingly returning to it while the spell is in effect.  A creature that makes a successful saving throw can stay in the area or touch the item but feels uncomfortable doing so.  This distracting discomfort reduces the creature's Dexterity score by 4 points.
+**Antipathy** counters and dispels **sympathy**}}

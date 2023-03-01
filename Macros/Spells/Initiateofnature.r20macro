@@ -1,0 +1,46 @@
+
+
+Mold Touch(Player's Guide to Faerûn): - Initiateofnature(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mold Touch](https://dndtools.net/spells/players-guide-to-faerun--22/mold-touch--2227/) }} {{School:= Conjuration (Creation) }} {{Level:= **Initiateofnature 3**}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Effect:=Patch of brown mold}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You cause a 5-foot-diameter patch of brown mold to appear, centered on the point you touch.
+You can cause it to appear on a living target by making a successful melee touch attack against that creature.
+As described on page 76 of the Dungeon Master's Guide, every living creature within 5 feet of the brown mold takes 3d6 points of nonlethal cold damage each round.
+Fire brought within 5 feet of the patch instantly doubles its size, and cold damage instantly destroys it}}
+
+
+Briartangle(Player's Guide to Faerûn): - Initiateofnature(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Briartangle](https://dndtools.net/spells/players-guide-to-faerun--22/briartangle--2281/) }} {{School:= Transmutation  }} {{Level:= **Initiateofnature 4**}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like entangle, except as follows.
+The entangling plants are changed to tangled briars covered with sharp thorns that grow to a height of 6 feet.
+Each entangled creature takes 1d8 points of piercing damage +1 point per two caster levels in the round it becomes entangled.
+In each subsequent round that it attempts to break free or move within the briars, it takes a like amount of damage.
+An entangled creature attempting to cast a spell within the briars must make a successful Concentration check (DC 20 + the spell's level) or lose the spell.
+The briars are thick and tall enough to grant cover to creatures within or behind them}}
+
+
+Thorn Spray(Player's Guide to Faerûn): - Initiateofnature(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Thorn Spray](https://dndtools.net/spells/players-guide-to-faerun--22/thorn-spray--2297/) }} {{School:= Transmutation  }} {{Level:= **Initiateofnature 4**}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Up to one creature/level}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You hurl a thorny plant in the direction of the targets.
+The spell transforms the plant's small thorns into a spray of thorns that deals damage to the targets you select.
+You make a normal ranged attack against each target separately, taking no penalty for lack of proficiency.
+The thorns deal a total of 1d6 points of damage per caster level (maximum 20d6), but you can divide this damage among the targets you select.
+You must choose how to divide the damage before making your attack rolls.
+Thus, an 8th-level caster can target a single creature with an attack that deals 8d6 points of damage on a successful hit, two creatures for 4d6 points of damage each, four creatures for 2d6 points of damage each, and so on.
+You may divide the damage as you wish.
+A creature that takes damage from the thorns is wracked with pain as though its body were covered with stinging nettles, and it is also sickened for 2d4 rounds.
+A successful Fortitude save negates the sickened effect}}
+
+
+Fireward(Spell Compendium): - Initiateofnature(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fireward](https://dndtools.net/spells/spell-compendium--86/fireward--4506/) }} {{School:= Transmutation  }} {{Level:= **Initiateofnature 5**, Druid 5}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=One 20-ft. cube/level (S)}} {{Duration:=1 hour/level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You stomp on the ground, and fire snuffs out all around you, rippling away to nothingness faster than you can blink.**
+This spell functions like **quench** (**PH** 267), except as noted above. In addition, it has the following effects.
+While **fireward** remains in effects, no magical fire effect can function inside its area. This effect is similar to that of an **antimagic field**, but only magical fire is suppressed. Any nonmagical fire created inside or brought into the spell's area is immediately extinguished as well}}
+
+
+Tree Healing(Player's Guide to Faerûn): - Initiateofnature(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Tree Healing](https://dndtools.net/spells/players-guide-to-faerun--22/tree-healing--2236/) }} {{School:= Conjuration (Healing) }} {{Level:= **Initiateofnature 5**}} {{Components:= V, S, DF}} {{Range:= Personal and touch}} {{Target:=You and one tree}} {{Duration:=1 day (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You enter a normal tree, which must be large enough to accommodate your body in all three dimensions.
+You can remain hidden within it for as long as you desire, up to 1 day.
+While you remain inside it, the tree nourishes and heals you.
+You have no need to breathe or eat, and you regain a number of lost hit points equal to your character level for each hour spent in the tree.
+If you remain inside for an entire day, you receive the benefit of a heal spell.
+The tree also grants you total cover and protects you from extreme heat or cold, rain, sunlight, snow, and all other environmental conditions.
+You can hear but not see what occurs outside the tree.
+Minor physical damage to the tree does not harm you, but its partial destruction (to the extent that you no longer fit within it) expels you and deals you 5d6 points of damage.
+If the tree is totally destroyed (by a forest fire or a blight spell, for example), you are expelled from the tree and instantly slain unless you succeed on a DC 18 Fortitude save}}

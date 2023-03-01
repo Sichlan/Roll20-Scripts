@@ -1,0 +1,7 @@
+
+
+Bite of the Wererat(Spell Compendium): - WalkerIntheWaste(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Bite of the Wererat](https://dndtools.net/spells/spell-compendium--86/bite-wererat--3952/) }} {{School:= Transmutation  }} {{Level:= **WalkerIntheWaste 3**, Druid 2, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= A rat's tail}} {{Range:= Touch}} {{Target:=Personal}} {{Duration:=1 round/level}} {{Savingthrow:=No }} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With a sneeze, you grow a whiskered snout
+and ratlike tail as fine gray fur covers your
+thickening skin.
+You gain a +6 enhancement bonus to Dexterity, a +2 enhancement bonus to Constitution, and a +3 enhancement bonus to natural armor. Your face lengthens into a ratlike snout, and you gain a bite attack that deals 1d4 points of damage (or 1d3 points if you are Small) + 1-1/2 times your Str modifier. You also gain the benefit of the Weapon Finesse feat. If your base attack bonus is +6 or higher, you do not gain any additional attacks}}

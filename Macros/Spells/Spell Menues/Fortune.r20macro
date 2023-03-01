@@ -1,0 +1,5 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;3:=[View](~Fortune-Spell-Level-3)}} {{Spelllevel&nbsp;8:=[View](~Fortune-Spell-Level-8)}} 
+
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-Fortune)}} {{Substitution:=[View](~Fortune-Substitution-Description) [Send](~Fortune-Substitution-Cast)}} ]
+[8, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 8 }} {{subtags=[Back to Main Menu](~Spells-Main-Fortune)}} {{Surelife:=[View](~Fortune-Surelife-Description) [Send](~Fortune-Surelife-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

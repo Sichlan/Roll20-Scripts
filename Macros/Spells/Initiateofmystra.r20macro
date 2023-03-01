@@ -1,0 +1,54 @@
+
+
+Spell Shield(Player's Guide to Faerûn): - Initiateofmystra(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Spell Shield](https://dndtools.net/spells/players-guide-to-faerun--22/spell-shield--2220/) }} {{School:= Abjuration  }} {{Level:= **Initiateofmystra 2**}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject gains a +3 resistance bonus on saving throws against spells and spell-like abilities, but not against supernatural or extraordinary abilities.
+At 11th level, you can cast this spell on yourself as a free action}}
+
+
+Spell Phylactery(Player's Guide to Faerûn): - Initiateofmystra(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Spell Phylactery](https://dndtools.net/spells/players-guide-to-faerun--22/spell-phylactery--2294/) }} {{School:= Transmutation  }} {{Level:= **Initiateofmystra 5**}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Scroll touched}} {{Duration:=Permanent until triggered}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create a set of triggering conditions for a scroll that bears a spell on your spell list.
+The spell must be one that affects your person, and it must be of a level no higher than one-fourth your caster level (rounded down, maximum 5th).
+Any limitations that would normally apply to your reading of the scroll (such as a minimum ability score or a caster level check) still apply.
+The conditions needed to bring the spell into effect must be clear as defined by the contingency spell description, although they can be general.
+For example, a spell phylactery used with a scroll of water breathing might prescribe that any time you are engulfed in water or any similar liquid, the water breathing spell instantly comes into effect.
+Or a spell phylactery used with a feather fall scroll could trigger any time you fall more than 4 feet.
+Complicated or convoluted conditions may cause the spell phylactery to fail when called upon.
+The scroll is activated based solely on the stated conditions, regardless of your wishes at the time.
+When the stated conditions are met, the spell on the scroll is cast upon you as if you had spent a standard action to use the scroll yourself.
+If the scroll contains a spell that is not on your spell list, or limitations on the spell that would prevent you from casting it at the time, it is not cast when the triggering condition occurs, and the magic of the spell phylactery dissipates.
+The scroll prepared with this spell must be bound to your arm or forehead (usually rolled tightly or placed in a small box for this purpose), and it counts as a bracer or headband in terms of space limitations for magic items.
+This spell must be cast once for each spell you wish to effect on a scroll.
+If another person wears the spell phylactery, the magic of this spell ends.
+You may remove and replace the spell phylactery without penalty, but if 24 hours pass without you wearing it, the magic of the spell phylactery ends.
+The termination of this spell does not harm the spell on the scroll}}
+
+
+Spellmantle(Player's Guide to Faerûn): - Initiateofmystra(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Spellmantle](https://dndtools.net/spells/players-guide-to-faerun--22/spellmantle--2221/) }} {{School:= Abjuration  }} {{Level:= **Initiateofmystra 6**}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=10 min./level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc6}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create a magical aura around the subject that protects it against certain spells.
+Upon casting, you must designate one spell of 4th level or lower per four caster levels you possess.
+These choices cannot be spells delivered by touch attacks.
+When the subject of this spell is the target of or within the area of one of the designated spells, the spellmantle absorbs the incoming spell's energy completely.
+The target can then direct this energy to one of the following two purposes.
+Healing: The subject immediately receives a cure wounds spell of the same level as the spell that was absorbed.
+The cure spell functions as if you had cast it upon the target.
+If the subject is unconscious, the incoming spell is automatically converted to a cure spell.
+Receive Spell: The incoming spell's energy can immediately trigger another spell upon the target.
+To allow the subject this option, you must designate one spell of 4th level or lower that you have prepared at the time of casting.
+This spell must be one that affects the target's person.
+Designating one of your spells for this purpose does not cause you to lose the prepared spell, either now or when the effect is triggered.
+If the level of the incoming spell is lower than that of your designated spell, the subject cannot activate this effect.
+Otherwise, if the subject chooses this option, your designated spell functions as if you had cast it.
+The duration of this triggered spell can outlast that of the spellmantle itself.
+For example, you could designate lightning bolt as one of the spells the spellmantle absorbs and choose magic circle against evil to be the spell the target receives.
+In that case, every time the subject is in the area of a lightning bolt (or any other spell of 3rd level or higher that you designate), it can choose to be immediately protected by magic circle against evil.
+The spellmantle can absorb from three to nine spell levels (1d4 +1 per four caster levels) of incoming spells.
+If the spellmantle lacks sufficient capacity to absorb a spell, the absorption does not occur.
+Once it has absorbed its capacity, it dissipates}}
+
+
+Holy Star(Spell Compendium): - Initiateofmystra(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Holy Star](https://dndtools.net/spells/spell-compendium--86/holy-star--4709/) }} {{School:= Abjuration  }} {{Level:= **Initiateofmystra 7**, Cleric 7, Cloistered Cleric 7}} {{Components:= V, S}} {{Range:= 0 ft.}} {{Effect:=Protective star of energy}} {{Duration:=3 rounds (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**By calling upon the power of your deity, you bring into existence a glowing mote of energy near your shoulder. While no brighter than a candle, the mote of light fills your body with an inner warmth and feeling of reassuring protection.**
+You create a glowing mote of energy that stays near your shoulder, providing light equal to that of a candle. This star has the following three functions, and you can designate which function to activate as a free action on your turn.
+<strong>Spell Turning:</strong> A holy star can turn a total of four to seven (1d4+3) spell levels, as the spell turning spell (PH 282). Any turning potential depleted through this use remains so for the duration of the spell; the holy star does not return to full capacity every time you choose this function. If its entire spell turning capacity is expended, this function no longer works, but the others do.
+<strong>Protection:</strong> A holy star gives you a +6 circumstance bonus to AC.
+<strong>Fire Bolt:</strong> A holy star lashes out with a beam of energy as a ranged touch attack against a creature (you choose the target) up to 90 feet away (no range increment). This attack uses your attack bonus and deals fire damage equal to 1d6 points per two caster levels (maximum 10d6)}}

@@ -1,0 +1,58 @@
+
+
+Vision of Heaven(Book of Exalted Deeds): - Joy(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Vision of Heaven](https://dndtools.net/spells/book-of-exalted-deeds--52/vision-of-heaven--55/) }} {{School:= Enchantment  }} {{Level:= **Joy 1**, ApostleofPeace 1, Cleric 1, ExaltedArcanist 1, SlayerofDomiel 1, Celestial 1, Cloistered Cleric 1}} {{Components:= V}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One evil creature}} {{Duration:=1 round}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your words allow the target creature the merest glimpse of the blessed joy of the SevenHeavens, spurring the target to a moment of regret for its evil deeds.
+For 1 round, the target is dazed.
+In addition, the creature is more susceptible to future redemption.
+For the next 24 hours, the creature takes a -1 penalty on all Will saves related to redemption (see Chapter 2)}}
+
+
+Elation(Book of Exalted Deeds): - Joy(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Elation](https://dndtools.net/spells/book-of-exalted-deeds--52/elation--45/) }} {{School:= Enchantment  }} {{Level:= **Joy 2**, Bard 2, Cleric 2, EmissaryofBarachiel 2, Sorcerer 3, Wizard 3, Cloistered Cleric 2, Arcanist 3}} {{Components:= V, S}} {{Range:= 80 ft.}} {{Target:=Allies in an 80-ft.-radius spread of you}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your allies become elated, full of energy and joy.
+Affected creatures gain a +2 morale bonus to effective Strength and Dexterity, and their speed increases by +5 feet.
+Elation does not remove the condition of fatigue, but it does offset most of the penalties for being fatigued}}
+
+
+Distilled Joy(Book of Exalted Deeds): - Joy(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Distilled Joy](https://dndtools.net/spells/book-of-exalted-deeds--52/distilled-joy--105/) }} {{School:= Transmutation  }} {{Level:= **Joy 3**, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= V, S, AF}} {{Arcane Focus:= A vial or similar container in which to contain the ambrosia}} {{Range:= Touch}} {{Target:=One living creature}} {{Duration:=Permanent}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You draw forth the material essence of joy from a creature experiencing great bliss.
+This physical manifestation of joy, called ambrosia, can be used in the creation of good magic items, as a special spell component, or as a druglike substance (with no addictive qualities).
+The Celestial Hebdomad, the rulers of the Seven Heavens, subsist entirely on ambrosia.
+The caster draws ambrosia from the target and contains it within a tiny receptacle, such as a vial.
+Ambrosia can only be drawn from a blissful creature; how the creature achieves this state of bliss can vary from one individual to the next.
+For example, distilled joy can be cast on a deliriously lovestruck character, a dryad dreaming near her tree, an artist crafting his life's masterpiece, or a character experiencing a moment of rapture or undiluted sexual pleasure.
+Good spellcasters can use ambrosia in magic item creation.
+Each dose provides the equivalent of 2 experience points needed to create the item.
+A dose of ambrosia can also be used as an optional spell component (see Chapter 3).
+A living creature that drinks a dose of ambrosia experiences a soothing sensation that wipes away minor aches and pains, takes the edge off grief and sadness, and cures 1 point of damage.
+These positive sensations and emotions persist for 1d4+1 hours}}
+
+
+Good Hope(Player's Handbook v.3.5): - Joy(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Good Hope](https://dndtools.net/spells/players-handbook-v35--6/good-hope--2552/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Joy 4**, Bard 3, WuJen 4, Charm 4}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One living creature/level, no two of which may be more than 30 ft. apart}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell instills powerful hope in the subjects.
+Each affected creature gains a +2 morale bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls.
+Good hope counters and dispels crushing despair}}
+
+
+Heroism, Greater(Player's Handbook v.3.5): - Joy(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Heroism, Greater](https://dndtools.net/spells/players-handbook-v35--6/heroism-greater--2554/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Joy 6**, Bard 5, Sorcerer 6, Wizard 6, Sha'ir 6, ReveredAncestor 6, Courage 7, Pride 7, Arborea 8, Arcanist 6}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc6}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/heroism--2553/">**heroism**</a>, except the creature gains a +4 morale bonus on attack rolls, saves, and skill checks, immunity to fear effects, and temporary hit points equal to your caster level (maximum 20)}}
+
+
+Starmantle(Book of Exalted Deeds): - Joy(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Starmantle](https://dndtools.net/spells/book-of-exalted-deeds--52/starmantle--13/) }} {{School:= Abjuration  }} {{Level:= **Joy 7**, Sorcerer 6, Wizard 6, Arcanist 6}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=One living creature touched}} {{Duration:=1 minute/level (D)}} {{Savingthrow:=None (harmless)}}  {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell manifests as a draping cloak of tiny, cascading stars that seem to flicker out before touching the ground.
+The cloak forms over the target's existing apparel and sheds light as a torch, although this is not the mantle's primary function.
+The starmantle renders the wearer impervious to nonmagical weapon attacks and transforms any nonmagical weapon or missile that strikes it into harmless light, destroying it forever.
+Contact with the starmantle does not destroy magic weapons or missiles, but the starmantle's wearer is entitled to a Reflex saving throw (DC 15) each time he is struck by such a weapon; success indicates that the wearer takes only half damage from the weapon (rounded down).
+Material Component: A pinch of dust from a pixie's wing (20 gp)}}
+
+
+Sympathy(Player's Handbook v.3.5): - Joy(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Sympathy](https://dndtools.net/spells/players-handbook-v35--6/sympathy--2579/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Joy 8**, Sorcerer 8, Wizard 8, WuJen 8, Sha'ir 8, Druid 9, UrbanDruid 9, Temptation 8, Lust 8, Community 8, Greed 9, Arcanist 8}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One location (up to a 10-ft. cube/level) or one object}} {{Duration:=2 hours/level (D)}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc8}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You cause an object or location to emanate magical vibrations that attract either a specific kind of intelligent creature or creatures of a particular alignment, as defined by you.
+The particular kind of creature to be affected must be named specifically&#8212;for example, red dragons, hill giants, wererats, lammasus, or vampires.
+A creature subtype (such as goblinoid) is not specific enough.
+Likewise, the specific alignment must be named&#8212;for example, chaotic evil, chaotic good, lawful neutral, or neutral.
+Creatures of the specified kind or alignment feel elated and pleased to be in the area or desire to touch or to possess the object.
+The compulsion to stay in the area or touch the object is overpowering.
+If the save is successful, the creature is released from the enchantment, but a subsequent save must be made 1d6&#215;10 minutes later.
+If this save fails, the affected creature attempts to return to the area or object.
+Sympathy counters and dispels antipathy.
+Material Component: 1,500 gp worth of crushed pearls and a drop of honey}}

@@ -1,0 +1,29 @@
+
+
+Vision of Entropy(Fiendish Codex I: Hordes of the Abyss): - Entropy(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Vision of Entropy](https://dndtools.net/spells/fiendish-codex-i-hordes-of-the-abyss--66/vision-of-entropy--1153/) }} {{School:= Illusion (Phantasm) [Fear]}} {{Level:= **Entropy 2**, Bard 2, Sorcerer 2, Wizard 2, Arcanist 2}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With a whisper and wave of your hand, you invite the targeted creature to behold the seething chaos of the infinite void surrounding the Abyss.
+Each round, the subject must make a successful Will save or be overwhelmed with madness and awe at the sight of the images of the Abyss forming in its mind.
+The subject becomes shaken on the first failure, frightened on the second, panicked on the third, and unconscious on the fourth.
+A creature that faints from the effect of this spell remains unconscious for 1 hour or until revived.
+Any successful saving throw merely spares the subject the effect of the next failure for that round; any already existing condition persists until the next failure changes it or until the spell ends}}
+
+
+Abyssal Rift(Fiendish Codex I: Hordes of the Abyss): - Entropy(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Abyssal Rift](https://dndtools.net/spells/fiendish-codex-i-hordes-of-the-abyss--66/abyssal-rift--1147/) }} {{School:= Conjuration (Calling) [Evil]}} {{Level:= **Entropy 9**, Sorcerer 9, Wizard 9, Arcanist 9}} {{Components:= V, S, M}} {{Material Component:= A miniature adamantine and gem-studded pickaxe worth at least 1,000 gp.}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Effect:=10-ft.-wide, 60-ft.-deep rift, up to 5 ft. long per caster level}} {{Duration:=3 rounds}} {{Savingthrow:=Reflex negates; see text }} {{Save DC:=[[@{spelldc9}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The ground trembles as you cast this spell.
+Suddenly, a yawning rift filled with black fire splits the ground, threatening to devour all.
+This spell creates a rectangular rift in the ground.
+You designate where the rift opens, but it must be in a straight line on relatively level ground.
+Throughout the spell's duration, any conjuration spells with the evil descriptor that are cast within 60 feet of the rift function at caster level +2.
+You cannot make the rift open beneath a fixed structure such as a tower, castle wall, or Daern's instant fortress.
+However, you can make it open underneath a wagon, tent, or similarly mobile object or lightweight structure.
+Untended objects wholly or partly in squares occupied by the rift fall in, taking 6d6 points of damage from the fall.
+Any creature standing wholly or partly in the area where the rift opens must succeed on a Reflex saving throw or fall into it as well, taking a like amount of damage.
+A successful save indicates that the creature avoids falling in by moving to the nearest safe square(s).
+Anything that falls into the rift is scorched by black fire that deals 6d6 points of fire damage per round and 6d6 points of divine energy damage per round.
+Energy resistance or immunity does not protect against the divine energy damage.
+On the second and third rounds of the spell's duration, black fire continues to fill the rift.
+In addition, the rift sprouts black fiery tentacles that reach out to all creatures within 60 feet of the rift's edge.
+Such creatures are entitled to a Reflex save each round to avoid the fiery tendrils; a creature that fails its save is lashed for 3d6 points of fire damage and 3d6 points of divine energy damage.
+At the end of the spell's duration, the rift closes.
+Anything still trapped inside the rift when it closes plane shifts (as the spell) to a random layer of the Abyss.
+All that remains of the rift is a permanent scar on the ground where it formed}}

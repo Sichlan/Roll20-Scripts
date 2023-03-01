@@ -1,0 +1,165 @@
+
+
+Divine Favor(Player's Handbook v.3.5): - Mysticism(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Divine Favor](https://dndtools.net/spells/players-handbook-v35--6/divine-favor--2606/) }} {{School:= Evocation  }} {{Level:= **Mysticism 1**, Cleric 1, Paladin 1, DiscipleofThrym 1, RunescarredBerserker 1, SlayerofDomiel 1, VassalofBahamut 1, KnightoftheWeave 1, KnightoftheChalice 1, Nobility 1, Cloistered Cleric 1}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Calling upon the strength and wisdom of a deity, you gain a +1 luck bonus on attack and weapon damage rolls for every three caster levels you have (at least +1, maximum +3). The bonus doesn't apply to spell damage}}
+
+
+Spiritual Weapon(Player's Handbook v.3.5): - Mysticism(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Spiritual Weapon](https://dndtools.net/spells/players-handbook-v35--6/spiritual-weapon--2651/) }} {{School:= Evocation  [Force]}} {{Level:= **Mysticism 2**, Cleric 2, KnightoftheChalice 2, War 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Magic weapon of force}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A weapon made of pure force springs into existence and attacks opponents at a distance, as you direct it, dealing 1d8 force damage per hit, +1 point per three caster levels (maximum +5 at 15th level). The weapon takes the shape of a weapon favored by your deity or a weapon with some spiritual significance or symbolism to you (see below) and has the same threat range and critical multipliers as a real weapon of its form. It strikes the opponent you designate, starting with one attack in the round the spell is cast and continuing each round thereafter on your turn. It uses your base attack bonus (possibly allowing it multiple attacks per round in subsequent rounds) plus your Wisdom modifier as its attack bonus. It strikes as a spell, not as a weapon, so, for example, it can damage creatures that have damage reduction. As a force effect, it can strike incorporeal creatures without the normal miss chance associated with incorporeality. The weapon always strikes from your direction. It does not get a  flanking bonus or help a combatant get one. Your feats (such as Weapon Focus) or combat actions (such as charge) do not affect the weapon. If the weapon goes beyond the spell range, if it goes out of your sight, or if you are not directing it, the weapon returns to you and hovers. 
+Each round after the first, you can use a move action to redirect the weapon to a new target. If you do not, the weapon continues to attack the previous round's target. On any round that the weapon switches targets, it gets one attack. Subsequent rounds of attacking that target allow the weapon to make multiple attacks if your base attack bonus would allow it to. Even if the spiritual weapon is a ranged weapon, use the spell's range, not the weapon's normal range increment, and switching targets still is a move action.
+A spiritual weapon cannot be attacked or harmed by physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it. A spiritual weapon's AC against touch attacks is 12 (10 + size bonus for Tiny object). 
+If an attacked creature has spell resistance, you make a caster level check (1d20 + caster level) against that spell resistance the first time the spiritual weapon strikes it. If the weapon is successfully resisted, the spell is dispelled. If not, the weapon has its normal full effect on that creature for the duration of the spell.
+The weapon that you get is often a force replica of your deity's own personal weapon, many of which have individual names. A cleric without a deity gets a weapon based on his alignment. A neutral cleric without a deity can create a spiritual weapon of any alignment, provided he is acting at least generally in accord with that alignment at the time.
+The weapons associated with each deity or alignment are as follows.
+**Boccob:** Quarterstaff, &quot;Staff of Boccob&quot;
+**Corellon Larethian:** Longsword, &quot;Sahandrian&quot;
+**Ehlonna:** Longsword, &quot;Jenevier&quot;
+**Erythnul:** Morningstar, &quot;Agony&quot;
+**Fharlanghn:** Quarterstaff, &quot;Traveler's Friend&quot;
+**Garl Glittergold:** Battleaxe, &quot;Arumdina&quot;
+**Gruumsh:** Spear, &quot;Bloodspear&quot;
+**Heironeous:** Longsword, &quot;Justice-bringer&quot;
+**Hextor:** Flail, &quot;Executioner&quot;
+**Kord:** Greatsword, &quot;Kelmar&quot;
+**Moradin:** Warhammer, &quot;Soulhammer&quot;
+**Nerull:** Scythe, &quot;Lifecutter&quot;
+**Obad-Hai:** Quarterstaff, &quot;Stormstouch&quot;
+**Olidammara:** Rapier, &quot;Swiftstrike&quot;
+**Pelor:** Heavy Mace, &quot;Sunscepter&quot;
+**St. Cuthbert:** Heavy Mace, &quot;The Mace of Cuthbert&quot;
+**Vecna:** Dagger, &quot;Afterthought&quot;
+**Wee Jas:** Dagger, &quot;Discretion&quot;
+**Yondalla:** Short sword, &quot;Hornblade&quot;
+**Chaos:** Battleaxe, &quot;The Blade of Change&quot;
+**Evil:** Light flail, &quot;The Scourge of Souls&quot;
+**Good:** Warhammer, &quot;The Hammer of Justice&quot;
+**Law:** Sword, &quot;The Sword of Truth&quot}}
+
+
+Aspect of the Deity, Lesser(Book of Exalted Deeds): - Mysticism(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Aspect of the Deity, Lesser](https://dndtools.net/spells/book-of-exalted-deeds--52/aspect-of-the-deity-lesser--98/) }} {{School:= Transmutation  [Good]}} {{Level:= **Mysticism 3**, ApostleofPeace 4, ExaltedArcanist 4, Paladin 4, KnightoftheChalice 4}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast this spell, your body changes into a form that is more like your deity (in a very limited fashion, of course).
+You gain a +4 enhancement bonus to your Charisma score.
+You also gain acid, cold, and electricity resistance 10}}
+
+
+Visage of the Deity, Lesser(Spell Compendium): - Mysticism(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Visage of the Deity, Lesser](https://dndtools.net/spells/spell-compendium--86/visage-deity-lesser--4744/) }} {{School:= Transmutation  }} {{Level:= **Mysticism 3**, Cleric 3, Blackguard 4, Paladin 4, Cloistered Cleric 3}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**As you end your prayer, you can feel the hand of your deity upon you. Your appearance reflects her divine power, and her touch grants you resistance from some of the damage of this world.**
+You gain a +4 enhancement bonus to Charisma. You also gain resistance to acid 10, cold 10, and electricity 10 if you are good, or resistance to cold 10 and fire 10 if you are evil}}
+
+
+Weapon of the Deity(Spell Compendium): - Mysticism(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Weapon of the Deity](https://dndtools.net/spells/spell-compendium--86/weapon-of-the-deity--4764/) }} {{School:= Transmutation  }} {{Level:= **Mysticism 4**, Blackguard 3, Cleric 3, Paladin 3, Cloistered Cleric 3}} {{Components:= V, DF}} {{Range:= Touch}} {{Target:=Weapon touched}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude negates (object, harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Wielding the weapon your deity favors, you call upon that divine force to imbue it with power.**
+You must be holding your deity's favored weapon to cast this spell. You can use the weapon as if you had proficiency with it even if you normally do not. The weapon gains a +1 enhancement bonus on attack rolls and damage rolls and an additional special ability (see the list below). A double weapon gains this enhancement bonus and special ability for only one of its two ends, as chosen by you.
+When you reach caster level 9th, the enhancement bonus of the weapon increases to +2. At 12th level, the bonus rises to +3, at 15th level it is +4, and at 18th level it becomes +5.
+The list below includes deities from the core pantheon as well as other deities described in D&amp;D supplements, along with the five alignment components. If a cleric worshiping a different deity casts this spell, the DM should assign an appropriate weapon special ability of the same power level as those given here.
+<strong>DEITIES</strong>
+<strong>Bahamut:</strong> +1 frost heavy pick
+<strong>Boccob:</strong> +1 spell storing quarterstaff
+<strong>Corellon Larethian:</strong> +1 keen longsword
+<strong>Ehlonna:</strong> +1 frost longsword
+<strong>Erythnul:</strong> +1 mighty cleaving morningstar
+<strong>Fharlanghn:</strong> +1 defending quarterstaff
+<strong>Garl Glittergold:</strong> +1 throwing battleaxe
+<strong>Gruumsh:</strong> +1 returning shortspear
+<strong>Heironeous:</strong> +1 shock longsword
+<strong>Hextor:</strong> +1 mighty cleaving heavy flail
+<strong>Kord:</strong> +1 mighty cleaving greatsword
+<strong>Kurtulmak:</strong> +1 shock shortspear
+<strong>Lolth:</strong> +1 keen whip
+<strong>Moradin:</strong> +1 throwing warhammer
+<strong>Nerull:</strong> +1 keen scythe
+<strong>Obad-Hai:</strong> +1 defending quarterstaff
+<strong>Olidammara:</strong> +1 keen rapier
+<strong>Pelor:</strong> +1 flaming heavy mace
+<strong>St. Cuthbert:</strong> +1 mighty cleaving heavy mace
+<strong>Vecna:</strong> +1 frost dagger
+<strong>Wee Jas:</strong> dagger of venom
+<strong>Tiamat:</strong> +1 flaming heavy pick
+<strong>Yondalla:</strong> +1 defending short sword
+<strong>ALIGNMENTS</strong>
+<strong>Good:</strong> +1 frost warhammer
+<strong>Evil:</strong> +1 mighty cleaving light flail
+<strong>Neutral:</strong> +1 defending heavy mace
+<strong>Law:</strong> +1 flaming longsword
+<strong>Chaos:</strong> +1 shock battleax}}
+
+
+Righteous Might(Player's Handbook v.3.5): - Mysticism(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Righteous Might](https://dndtools.net/spells/players-handbook-v35--6/righteous-might--2865/) }} {{School:= Transmutation  }} {{Level:= **Mysticism 5**, RunescarredBerserker 4, Cleric 5, NentyarHunter 5, Strength 5, Celestia 5, Competition 5, Hatred 5, Wrath(BE) 5, Wrath(SpC) 5, Cloistered Cleric 5}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your height immediately doubles, and your weight increases by a factor of eight. This increase changes your size category to the next larger one, and you gain a +8 size bonus to Strength and a +4 size bonus to Constitution. You gain a +4 enhancement bonus to your natural armor. You gain damage reduction 5/evil (if you normally channel positive energy) or damage reduction 5/good (if you normally channel negative energy). At 12th level this damage reduction becomes 10/evil or 10/good, and at 15th level it becomes 15/evil or 15/good (the maximum). Your size modifier for AC and attacks changes as appropriate to your new size category (if your original size was Diminutive, Tiny, Small, Medium, or Large, the modifier decreases by 1; otherwise see Size Modifier, page 134). Use Table 8-4: Creature Size and Scale to determine your new space and reach. This spell doesn't change your speed.
+If insufficient room is available for the desired growth, you attain the maximum possible size and may make a Strength check (using your increased Strength) to burst any enclosures in the process. If you fail, you are constrained without harm by the materials enclosing you&#8212;the spell cannot crush you by increasing your size.
+All equipment you wear or carry is similarly enlarged by the spell. Melee and projectile weapons deal more damage (see Table 2-2 in the Dungeon Master's Guide). Other magical properties are not affected by this spell. Any enlarged item that leaves your possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown weapons deal their normal damage (projectiles deal damage based on the size of the weapon that fired them). 
+Multiple magical effects that increase size do not stack, which means (among other things) that you can't use a second casting of this spell to further increase your size while you are still under the effect of the first casting}}
+
+
+Aspect of the Deity(Book of Exalted Deeds): - Mysticism(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Aspect of the Deity](https://dndtools.net/spells/book-of-exalted-deeds--52/aspect-of-the-deity--96/) }} {{School:= Transmutation  [Good]}} {{Level:= **Mysticism 6**, ApostleofPeace 6, ExaltedArcanist 6, Herald 7}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As lesser aspect of the deity, but you take on all the qualities of a celestial creature (see the Monster Manual for complete details):<ul><li>You take on a shining, metallic appearance.</li><li>You gain the ability to smite evil once a day.</li></ul>
+Add your Charisma bonus to your attack roll and your character level to your damage roll against an evil foe.<ul><li>You gain darkvision out to 60 ft.</li><li>You gain resistance 20 to acid, cold, and electricity.</li><li>You gain damage reduction 10/magic.</li><li>You gain spell resistance 25.</li></ul>
+Your creature type does not change (you do not become an
+outsider)}}
+
+
+Visage of the Deity(Spell Compendium): - Mysticism(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Visage of the Deity](https://dndtools.net/spells/spell-compendium--86/visage-deity--4746/) }} {{School:= Transmutation  }} {{Level:= **Mysticism 6**, Cleric 6, Cloistered Cleric 6}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/spell-compendium--86/visage-deity-lesser--4744/">**lesser visage of the deity**</a>, except that you take on many qualities of a celestial or fiendish creature, as follows.
+<ul><li>You take on a shining, metallic appearance (for good clerics) or a more fearsome appearance (for evil clerics).</li><li>You gain the ability to smite evil (for good clerics) or good (for evil clerics) once a day. Add your Charisma modifier to your attack roll and your character level to your damage roll against a foe of the appropriate alignment.</li><li>You gain darkvision out to 60 feet.</li><li>You gain resistance to acid 20, cold 20, and electricity 20 (for good clerics) or resistance to cold 20 and fire 20 (for evil clerics).</li><li>You gain damage reduction 10/magic.</li><li>You gain spell resistance 20.</li></ul>Your creature type does not change (you do not become an outsider)}}
+
+
+Blasphemy(Player's Handbook v.3.5): - Mysticism(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blasphemy](https://dndtools.net/spells/players-handbook-v35--6/blasphemy--2589/) }} {{School:= Evocation  [Evil][Sonic]}} {{Level:= **Mysticism 7**, Cleric 7, NarDemonbinder 7, DeathMaster 7, Evil 7, Hades 7, Hatred 7, Orc 7, Cloistered Cleric 7}} {{Components:= V}} {{Range:= 40 ft.}} {{Area:=Nonevil creatures in a 40-ft.-radius spread centered on you}} {{Duration:=Instantaneous}} {{Savingthrow:=None or Will negates; see text }} {{Save DC:=[[@{spelldc7}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Any nonevil creature within the area of a **blasphemy** spell suffers the following ill effects.
+<table><tr><th>HD </th><th>Effect </th></tr><tr><td> Equal to caster level </td><td> Dazed </td></tr><tr><td> Up to caster level &#8212;1 </td><td> Weakened, dazed </td></tr><tr><td> Up to caster level &#8212;5 </td><td> Paralyzed, weakened, dazed </td></tr><tr><td> Up to caster level &#8212;10 </td><td> Killed, paralyzed, weakened, dazed </td></tr></table>The effects are cumulative and concurrent. No saving throw is allowed against these effects.
+**Dazed:** The creature can take no actions for 1 round, though it defends itself normally.
+**Weakened:** The creature's Strength score decreases by 2d6 points for 2d4 rounds.
+**Paralyzed:** The creature is paralyzed and helpless for 1d10 minutes.
+**Killed:** Living creatures die. Undead creatures are destroyed.
+Furthermore, if you are on your home plane when you cast this spell, nonevil extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the **blasphemy**. The banishment effect allows a Will save (at a -4 penalty) to negate.
+Creatures whose Hit Dice exceed your caster level are unaffected by **blasphemy**}}
+
+
+Holy Word(Player's Handbook v.3.5): - Mysticism(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Holy Word](https://dndtools.net/spells/players-handbook-v35--6/holy-word--2623/) }} {{School:= Evocation  [Good][Sonic]}} {{Level:= **Mysticism 7**, Cleric 7, Good 7, Elysium 7, Cloistered Cleric 7}} {{Components:= V}} {{Range:= 40 ft.}} {{Area:=Nongood creatures in a 40-ft.-radius spread centered on you}} {{Duration:=Instantaneous}} {{Savingthrow:=None or Will negates; see text }} {{Save DC:=[[@{spelldc7}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Any nongood creature within the area that hears the holy word suffers the following ill effects.
+The effects are cumulative and concurrent.
+No saving throw is allowed against these effects.
+Deafened: The creature is deafened for 1d4 rounds.
+Blinded: The creature is blinded for 2d4 rounds.
+Paralyzed: The creature is paralyzed and helpless for 1d10 minutes.
+Killed: Living creatures die.
+Undead creatures are destroyed.
+Furthermore, if you are on your home plane when you cast this spell, nongood extraplanar creatures within the area are instantly banished back to their home planes.
+Creatures so banished cannot return for at least 24 hours.
+This effect takes place regardless of whether the creatures hear the holy word.
+The banishment effect allows a Will save (at a -4 penalty) to negate.
+Creatures whose HD exceed your caster level are unaffected by holy word}}
+
+
+Holy Aura(Player's Handbook v.3.5): - Mysticism(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Holy Aura](https://dndtools.net/spells/players-handbook-v35--6/holy-aura--2332/) }} {{School:= Abjuration  [Good]}} {{Level:= **Mysticism 8**, Cleric 8, Healer 8, Good 8, Elysium 8, Celestial 8, Cloistered Cleric 8}} {{Components:= V, S, AF}} {{Arcane Focus:= A tiny reliquary containing some sacred relic, such as a scrap of cloth from a saint's robe or a piece of parchment from a holy text. The reliquary costs at least 500 gp}} {{Range:= 20 ft.}} {{Target:=One creature/level in a 20-ft.-radius burst centered on you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=See text (harmless)}} {{Save DC:=[[@{spelldc8}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A brilliant divine radiance surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by evil creatures, and causing evil creatures to become blinded when they strike the subjects. This abjuration has four effects.
+First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike protection from evil, this benefit applies against all attacks, not just against attacks by evil creatures.
+Second, each warded creature gains spell resistance 25 against evil spells and spells cast by evil creatures.
+Third, the abjuration blocks possession and mental influence, just as protection from evil does.
+Finally, if an evil creature succeeds on a melee attack against a warded creature, the offending attacker is blinded (Fortitude save negates, as blindness/deafness, but against holy aura's save DC)}}
+
+
+Unholy Aura(Player's Handbook v.3.5): - Mysticism(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Unholy Aura](https://dndtools.net/spells/players-handbook-v35--6/unholy-aura--2371/) }} {{School:= Abjuration  [Evil]}} {{Level:= **Mysticism 8**, Cleric 8, NarDemonbinder 8, DeathMaster 8, Evil 8, Hades 8, Cloistered Cleric 8}} {{Components:= V, S, AF}} {{Arcane Focus:= A tiny reliquary containing some sacred relic, such as a piece of parchment from an unholy text.
+The reliquary costs at least 500 gp}} {{Range:= 20 ft.}} {{Target:=One creature/level in a 20-ft.-radius burst centered on you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=See text (harmless)}} {{Save DC:=[[@{spelldc8}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A malevolent darkness surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by good creatures, and weakening good creatures when they strike the subjects.
+This abjuration has four effects.
+First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves.
+Unlike the effect of protection from good, this benefit applies against all attacks, not just against attacks by good creatures.
+Second, a warded creature gains spell resistance 25 against good spells and spells cast by good creatures.
+Third, the abjuration blocks possession and mental influence, just as protection from good does.
+Finally, if a good creature succeeds on a melee attack against a warded creature, the offending attacker takes 1d6 points of temporary Strength damage (Fortitude negates)}}
+
+
+Aspect of the Deity, Greater(Book of Exalted Deeds): - Mysticism(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Aspect of the Deity, Greater](https://dndtools.net/spells/book-of-exalted-deeds--52/aspect-of-the-deity-greater--97/) }} {{School:= Transmutation  [Good]}} {{Level:= **Mysticism 9**, ApostleofPeace 9, ExaltedArcanist 9, Herald 9}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As lesser aspect of the deity, except that you take on the qualities of a half-celestial (see the Monster Manual for complete details).
+You do not gain the spell-like abilities of these creatures.
+Your creature type changes to outsider for the duration of the spell.
+Unlike other outsiders, you can be brought back from the dead if you are killed in this form.
+You undergo the following transformations:<ul><li>You grow feathered wings that allow you to fly at twice your normal speed (good maneuverability).</li><li>You gain +1 natural armor, or your existing natural armor bonus increases by +1.</li><li>You gain low-light vision.</li><li>You gain immunity to acid, cold, disease, and electricity.</li><li>You gain a +4 racial bonus on your saving throws against poison.</li><li>You gain the following enhancement bonuses to your ability scores: +4 Str, +2 Dex, +4 Con, +2 Int, +4 Wis, +4 Cha.</li></ul}}
+
+
+Visage of the Deity, Greater(Spell Compendium): - Mysticism(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Visage of the Deity, Greater](https://dndtools.net/spells/spell-compendium--86/visage-deity-greater--4749/) }} {{School:= Transmutation  }} {{Level:= **Mysticism 9**, Cleric 9, Purification 9, Competition 9, Cloistered Cleric 9}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/spell-compendium--86/visage-deity-lesser--4744/">**lesser visage of the deity**</a>, except that you take on many qualities of a half-celestial or half-fiendish creature.
+Your creature type changes to outsider for the duration of the spell. Unlike other outsiders, you can be brought back from the dead if you are killed in this form.
+Good clerics undergo the following transformations.
+<ul><li>You grow feathered wings that allow you to fly at twice your normal speed (good maneuverability).</li><li>You gain +1 natural armor.</li><li>You gain low-light vision.</li><li>You gain resistance to acid 10, cold 10, and electricity 10.</li><li>You gain immunity to disease.</li><li>You gain a +4 racial bonus on saving throws against poison.</li><li>You gain damage reduction 10/magic.</li><li>You gain spell resistance 25.</li><li>You gain the following bonuses to your ability scores: +4 Str, +2 Dex, +4 Con, +2 Int, +4 Wis, +4 Cha.</li></ul>Evil clerics undergo the following transformations.
+<ul><li>You grow batlike wings that allow you to fly at your normal speed (average maneuverability).</li><li>You gain +1 natural armor.</li><li>You gain bite and claw attacks. If you are size Medium or larger, your bite deals 1d6 points of damage and each claw attack deals 1d4 points of damage. If you are Small, your bite deals 1d4 points of damage and each claw attack deals 1d3 points of damage.</li><li>You gain darkvision out to 60 feet.</li><li>You gain immunity to poison.</li><li>You gain resistance to acid 10, cold 10, electricity 10, and fire 10.</li><li>You gain damage reduction 10/magic.</li><li>You gain spell resistance 25.</li><li>You gain the following bonuses to your ability scores: +4 Str, +4 Dex, +2 Con, +4 Int, +2 Cha.</li></ul}}

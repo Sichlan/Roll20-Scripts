@@ -1,0 +1,5 @@
+
+
+Dispel Silence(Champions of Valor): - Initiateofmilil(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dispel Silence](https://dndtools.net/spells/champions-of-valor--28/dispel-silence--299/) }} {{School:= Abjuration  }} {{Level:= **Initiateofmilil 2**}} {{Components:= S, DF}} {{Range:= }} {{Target:=One silence effect}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like dispel magic, except as noted above and that it only works against effects that create an area of silence (silence, Khelben's suspended silence, and so on).
+While you have this spell prepared, you gain a +2 competence bonus on Listen checks}}

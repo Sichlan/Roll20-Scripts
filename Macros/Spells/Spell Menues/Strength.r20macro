@@ -1,0 +1,8 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;1:=[View](~Strength-Spell-Level-1)}} {{Spelllevel&nbsp;3:=[View](~Strength-Spell-Level-3)}} {{Spelllevel&nbsp;4:=[View](~Strength-Spell-Level-4)}} {{Spelllevel&nbsp;5:=[View](~Strength-Spell-Level-5)}} {{Spelllevel&nbsp;6:=[View](~Strength-Spell-Level-6)}} 
+
+[1, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 1 }} {{subtags=[Back to Main Menu](~Spells-Main-Strength)}} {{Enlarge Person:=[View](~Strength-Enlarge-Person-Description) [Send](~Strength-Enlarge-Person-Cast)}} ]
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-Strength)}} {{Magic Vestment:=[View](~Strength-Magic-Vestment-Description) [Send](~Strength-Magic-Vestment-Cast)}} ]
+[4, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 4 }} {{subtags=[Back to Main Menu](~Spells-Main-Strength)}} {{Spell Immunity:=[View](~Strength-Spell-Immunity-Description) [Send](~Strength-Spell-Immunity-Cast)}} ]
+[5, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 5 }} {{subtags=[Back to Main Menu](~Spells-Main-Strength)}} {{Righteous Might:=[View](~Strength-Righteous-Might-Description) [Send](~Strength-Righteous-Might-Cast)}} ]
+[6, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 6 }} {{subtags=[Back to Main Menu](~Spells-Main-Strength)}} {{Stoneskin:=[View](~Strength-Stoneskin-Description) [Send](~Strength-Stoneskin-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

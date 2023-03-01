@@ -1,0 +1,84 @@
+
+
+Inflict Light Wounds(Player's Handbook v.3.5): - Destruction(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Inflict Light Wounds](https://dndtools.net/spells/players-handbook-v35--6/inflict-light-wounds--2745/) }} {{School:= Necromancy  }} {{Level:= **Destruction 1**, Cleric 1, DreadNecromancer 1, Blighter 1, DeathMaster 1, Cloistered Cleric 1}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Will half }} {{Save DC:=[[@{spelldc1}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When laying your hand upon a creature, you channel negative energy that deals 1d8 points of damage +1 point per caster level (maximum +5).
+Since undead are powered by negative energy, this spell cures such a creature of a like amount of damage, rather than harming it}}
+
+
+Shatter(Player's Handbook v.3.5): - Destruction(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shatter](https://dndtools.net/spells/players-handbook-v35--6/shatter--2646/) }} {{School:= Evocation  [Sonic]}} {{Level:= **Destruction 2**, Bard 2, Cleric 2, Sorcerer 2, Wizard 2, Warmage 2, Sha'ir 2, DeathMaster 2, Chaos 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=5-ft.-radius spread; or one solid object or one crystalline creature}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates (object); Will negates (object) or Fortitude half; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Shatter creates a loud, ringing noise that breaks brittle, nonmagical objects; sunders a single solid, nonmagical object; or damages a crystalline creature.
+Used as an area attack, shatter destroys nonmagical objects of crystal, glass, ceramic, or porcelain, such as vials, bottles, flasks, jugs, windows, mirrors, and so forth.
+All such objects within a 5-foot radius of the point of origin are smashed into dozens of pieces by the spell.
+Objects weighing more than 1 pound per your level are not affected, but all other objects of the appropriate composition are shattered.
+Alternatively, you can target shatter against a single solid object, regardless of composition, weighing up to 10 pounds per caster level.
+Targeted against a crystalline creature (of any weight), shatter deals 1d6 points of sonic damage per caster level (maximum 10d6), with a Fortitude save for half damage.
+Arcane Material Component: A chip of mica}}
+
+
+Contagion(Player's Handbook v.3.5): - Destruction(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Contagion](https://dndtools.net/spells/players-handbook-v35--6/contagion--2721/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Destruction 3**, Cleric 3, Druid 3, UrbanDruid 3, Adept 3, DeathMaster 3, Blighter 3, Sha'ir 4, Warmage 4, Wizard 4, Sorcerer 4, DreadNecromancer 4, Blightbringer 3, Pestilence 3, Hades 4, Cloistered Cleric 3, Arcanist 4}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc3}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject contracts a disease selected from the table below, which strikes immediately (no incubation period). The DC noted is for the subsequent saves (use contagion's normal save DC for the initial saving throw). See the Dungeon Master's Guide for descriptions of each disease, as well as for the general effects of disease.
+<table><tr><th>Disease </th><th>DC </th><th>Damage </th></tr><tr><td> Blinding sickness </td><td> 16 </td><td> 1d4 Str <sup>1</sup> </td></tr><tr><td> Cackle fever </td><td> 16 </td><td> 1d6 Wis </td></tr><tr><td> Filth fever </td><td> 12 </td><td> 1d3 Dex and 1d3 Con </td></tr><tr><td> Mindfire </td><td> 12 </td><td> 1d4 Int </td></tr><tr><td> Red ache </td><td> 15 </td><td> 1d6 Str </td></tr><tr><td> Shakes </td><td> 13 </td><td> 1d8 Dex </td></tr><tr><td> Slimy doom </td><td> 14 </td><td> 1d4 Con </td></tr><tr><td colspan="3"><sup>1</sup> Each time a victim takes 2 or more points of Strength damage from blinding sickness, he or she must make another Fortitude save (using the disease's save DC) or be permanently blinded. </td></tr></table>See the Dungeon Master's Guide for descriptions of each disease, as well as for the general effects of disease}}
+
+
+Inflict Critical Wounds(Player's Handbook v.3.5): - Destruction(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Inflict Critical Wounds](https://dndtools.net/spells/players-handbook-v35--6/inflict-critical-wounds--2743/) }} {{School:= Necromancy  }} {{Level:= **Destruction 4**, Cleric 4, Blighter 4, DeathMaster 4, DreadNecromancer 4, Cloistered Cleric 4}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like inflict light wounds, except that you deal 4d8 points of damage +1 point per caster level (maximum +20)}}
+
+
+Inflict Light Wounds, Mass(Player's Handbook v.3.5): - Destruction(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Inflict Light Wounds, Mass](https://dndtools.net/spells/players-handbook-v35--6/inflict-light-wounds-mass--2746/) }} {{School:= Necromancy  }} {{Level:= **Destruction 5**, Cleric 5, DeathMaster 5, DreadNecromancer 5, Cloistered Cleric 5}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level, no two of which can be more than 30 ft. apart}} {{Duration:=Instantaneous}} {{Savingthrow:=Will half }} {{Save DC:=[[@{spelldc5}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Negative energy spreads out in all directions from the point of origin, dealing 1d8 points of damage +1 point per caster level (maximum +25) to nearby living enemies.
+Like other inflict spells, mass inflict light wounds cures undead in its area rather than damaging them. A cleric capable of spontaneously casting inflict spells can also spontaneously cast mass inflict spells}}
+
+
+Harm(Player's Handbook v.3.5): - Destruction(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Harm](https://dndtools.net/spells/players-handbook-v35--6/harm--2741/) }} {{School:= Necromancy  }} {{Level:= **Destruction 6**, Cleric 6, Blighter 6, DeathMaster 6, DreadNecromancer 6, Abyss 6, Suffering 6, Cloistered Cleric 6}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Will half; see text }} {{Save DC:=[[@{spelldc6}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Harm charges a subject with negative energy that deals 10 points of damage per caster level (to a maximum of 150 points at 15th level).
+If the creature successfully saves, harm deals half this amount, but it cannot reduce the target's hit points to less than 1.
+If used on an undead creature, harm acts like heal}}
+
+
+Disintegrate(Player's Handbook v.3.5): - Destruction(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Disintegrate](https://dndtools.net/spells/players-handbook-v35--6/disintegrate--2801/) }} {{School:= Transmutation  }} {{Level:= **Destruction 7**, Duskblade 5, Sorcerer 6, Wizard 6, Warmage 6, Sha'ir 6, WuJen 7, UrbanDruid 7, Arcanist 6}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Ray}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude partial (object) }} {{Save DC:=[[@{spelldc7}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A thin, green ray springs from your pointing finger.
+You must make a successful ranged touch attack to hit.
+Any creature struck by the ray takes 2d6 points of damage per caster level (to a maximum of 40d6).
+Any creature reduced to 0 or fewer hit points by this spell is entirely disintegrated, leaving behind only a trace of fine dust.
+A disintegrated creature's equipment is unaffected.
+When used against an object, the ray simply disintegrates as much as one 10-foot cube of nonliving matter.
+Thus, the spell disintegrates only part of any very large object or structure targeted.
+The ray affects even objects constructed entirely of force, such as Bigby's forceful hand or a wall of force, but not magical effects such as a globe of invulnerability or an antimagic field.
+A creature or object that makes a successful Fortitude save is partially affected, taking only 5d6 points of damage.
+If this damage reduces the creature or object to 0 or fewer hit points, it is entirely disintegrated.
+Only the first creature or object struck can be affected; that is, the ray affects only one target per casting.
+Arcane Material Component: A lodestone and a pinch of dust}}
+
+
+Earthquake(Player's Handbook v.3.5): - Destruction(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Earthquake](https://dndtools.net/spells/players-handbook-v35--6/earthquake--2608/) }} {{School:= Evocation  [Earth]}} {{Level:= **Destruction 8**, Warmage 7, Blighter 7, Cleric 8, Druid 8, WuJen 8, UrbanDruid 8, Earth 7, Cavern 8, ReveredAncestor 8, Cloistered Cleric 8}} {{Components:= V, S, DF}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=80-ft.-radius spread (S)}} {{Duration:=1 round}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc8}+@{sf-Evocation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast earthquake, an intense but highly localized tremor rips the ground.
+The shock knocks creatures down, collapses structures, opens cracks in the ground, and more.
+The effect lasts for 1 round, during which time creatures on the ground can't move or attack.
+A spellcaster on the ground must make a Concentration check (DC 20 + spell level) or lose any spell he or she tries to cast.
+The earthquake affects all terrain, vegetation, structures, and creatures in the area.
+The specific effect of an earthquake spell depends on the nature of the terrain where it is cast.
+Cave, Cavern, or Tunnel: The spell collapses the roof, dealing 8d6 points of bludgeoning damage to any creature caught under the cave-in (Reflex DC 15 half ) and pinning that creature beneath the rubble (see below).
+An earthquake cast on the roof of a very large cavern could also endanger those outside the actual area but below the falling debris.
+Cliffs: Earthquake causes a cliff to crumble, creating a landslide that travels horizontally as far as it fell vertically.
+An earthquake cast at the top of a 100-foot cliff would sweep debris 100 feet outward from the base of the cliff.
+Any creature in the path takes 8d6 points of bludgeoning damage (Reflex DC 15 half ) and is pinned beneath the rubble (see below).
+Open Ground: Each creature standing in the area must make a DC 15 Reflex save or fall down.
+Fissures open in the earth, and every creature on the ground has a 25% chance to fall into one (Reflex DC 20 to avoid a fissure).
+At the end of the spell, all fissures grind shut, killing any creatures still trapped within.
+Structure: Any structure standing on open ground takes 100 points of damage, enough to collapse a typical wooden or masonry building, but not a structure built of stone or reinforced masonry.
+Hardness does not reduce this damage, nor is it halved as damage dealt to objects normally is (See the Dungeon Master's Guide for information on hit points for walls and the like).
+Any creature caught inside a collapsing structure takes 8d6 points of bludgeoning damage (Reflex DC 15 half ) and is pinned beneath the rubble (see below).
+River, Lake, or Marsh: Fissures open underneath the water, draining away the water from that area and forming muddy ground.
+Soggy marsh or swampland becomes quicksand for the duration of the spell, sucking down creatures and structures.
+Each creature in the area must make a DC 15 Reflex save or sink down in the mud and quicksand.
+At the end of the spell, the rest of the body of water rushes in to replace the drained water, possibly drowning those caught in the mud.
+Pinned beneath Rubble: Any creature pinned beneath rubble takes 1d6 points of nonlethal damage per minute while pinned.
+If a pinned character falls unconscious, he or she must make a DC 15 Constitution check or take 1d6 points of lethal damage each minute thereafter until freed or dead}}
+
+
+Implosion(Player's Handbook v.3.5): - Destruction(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Implosion](https://dndtools.net/spells/players-handbook-v35--6/implosion--2626/) }} {{School:= Evocation  }} {{Level:= **Destruction 9**, Cleric 9, Warmage 9, Blighter 9, DeathMaster 9, Abyss 9, Slime 9, Cloistered Cleric 9}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One corporeal creature/round}} {{Duration:=Concentration (up to 4 rounds)}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc9}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create a destructive resonance in a corporeal creature's body.
+For each round you concentrate, you cause one creature to collapse in on itself, killing it.
+(This effect, being instantaneous, cannot be dispelled).
+You can target a particular creature only once with each casting of the spell.
+Implosion has no effect on creatures in gaseous form or on incorporeal creatures}}

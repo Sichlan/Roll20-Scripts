@@ -1,0 +1,174 @@
+
+
+Erase(Player's Handbook v.3.5): - Rune(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Erase](https://dndtools.net/spells/players-handbook-v35--6/erase--2808/) }} {{School:= Transmutation  }} {{Level:= **Rune 1**, Bard 1, Sorcerer 1, Wizard 1, Vigilante 1, Sha'ir 1, Savant 1, CourtHerald 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One scroll or two pages}} {{Duration:=Instantaneous}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Erase removes writings of either magical or mundane nature from a scroll or from one or two pages of paper, parchment, or similar surfaces.
+With this spell, you can remove explosive runes, a glyph of warding, a sepia snake sigil, or an arcane mark, but not illusory script or a symbol spell.
+Nonmagical writing is automatically erased if you touch it and no one else is holding it.
+Otherwise, the chance of erasing nonmagical writing is 90%.
+Magic writing must be touched to be erased, and you also must succeed on a caster level check (1d20 + caster level) against DC 15.
+(A natural 1 or 2 is always a failure on this check).
+If you fail to erase explosive runes, a glyph of warding, or a sepia snake sigil, you accidentally activate that writing instead}}
+
+
+Secret Page(Player's Handbook v.3.5): - Rune(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Secret Page](https://dndtools.net/spells/players-handbook-v35--6/secret-page--2869/) }} {{School:= Transmutation  }} {{Level:= **Rune 2**, Bard 3, Sorcerer 3, Wizard 3, EbonmarInfiltrator 3, Vigilante 3, Sha'ir 3, Savant 3, CourtHerald 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Page touched, up to 3 sq. ft. in size}} {{Duration:=Permanent}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Secret page alters the contents of a page so that they appear to be something entirely different.
+Thus, a map can be changed to become a treatise on burnishing ebony walking sticks.
+The text of a spell can be changed to show a ledger page or even another spell.
+Explosive runes or sepia snake sigil can be cast upon the secret page.
+A comprehend languages spell alone cannot reveal a secret page's contents.
+You are able to reveal the original contents by speaking a special word.
+You can then peruse the actual page, and return it to its secret page form at will.
+You can also remove the spell by double repetition of the special word.
+A detect magic spell reveals dim magic on the page in question but does not reveal its true contents.
+True seeing reveals the presence of the hidden material but does not reveal the contents unless cast in combination with comprehend languages.
+A secret page spell can be dispelled, and the hidden writings can be destroyed by means of an erase spell.
+Material Component: Powdered herring scales and will-o'-wisp essence}}
+
+
+Glyph of Warding(Player's Handbook v.3.5): - Rune(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Glyph of Warding](https://dndtools.net/spells/players-handbook-v35--6/glyph-of-warding--2326/) }} {{School:= Abjuration  }} {{Level:= **Rune 3**, Cleric 3, Wealth 3, Dwarf 3, Cloistered Cleric 3}} {{Components:= V, S, M}} {{Material Component:= You trace the glyph with incense, which must first be sprinkled with powdered diamond worth at least 200 gp}} {{Range:= Touch}} {{Target:=Object touched or up to 5 sq. ft./level}} {{Duration:=Permanent until discharged (D)}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc3}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This powerful inscription harms those who enter, pass, or open the warded area or object.
+A glyph of warding can guard a bridge or passage, ward a portal, trap a chest or box, and so on.
+You set the conditions of the ward.
+Typically, any creature entering the warded area or opening the warded object without speaking a password (which you set when casting the spell) is subject to the magic it stores.
+Alternatively or in addition to a password trigger, glyphs can be set according to physical characteristics (such as height or weight) or creature type, subtype, or kind (such as aberration, drow, or red dragon).
+Glyphs can also be set with respect to good, evil, law, or chaos, or to pass those of your religion.
+They cannot be set according to class, Hit Dice, or level.
+Glyphs respond to invisible creatures normally but are not triggered by those who travel past them ethereally.
+Multiple glyphs cannot be cast on the same area.
+However, if a cabinet has three drawers, each can be separately warded.
+When casting the spell, you weave a tracery of faintly glowing lines around the warding sigil.
+A glyph can be placed to conform to any shape up to the limitations of your total square footage.
+When the spell is completed, the glyph and tracery become nearly invisible.
+Glyphs cannot be affected or bypassed by such means as physical or magical probing, though they can be dispelled.
+Mislead, polymorph, and nondetection (and similar magical effects) can fool a glyph, though nonmagical disguises and the like can't.
+Read magic allows you to identify a glyph of warding with a DC 13 Spellcraft check.
+Identifying the glyph does not discharge it and allows you to know the basic nature of the glyph (version, type of damage caused, what spell is stored).
+The DM may decide that the exact glyphs available to you depend on your deity.
+He or she might also make new glyphs available according to the magical research rules in the Dungeon Master's Guide.
+Note:Magic traps such as glyph of warding are hard to detect and disable.
+A rogue (only) can use the Search skill to find the glyph and Disable Device to thwart it.
+The DC in each case is 25 + spell level, or 28 for glyph of warding.
+Depending on the version selected, a glyph either blasts the intruder or activates a spell.
+Blast Glyph: A blast glyph deals 1d8 points of damage per two caster levels (maximum 5d8) to the intruder and to all within 5 feet of him or her.
+This damage is acid, cold, fire, electricity, or sonic (caster's choice, made at time of casting).
+Each creature affected can attempt a Reflex save to take half damage.
+Spell resistance applies against this effect.
+Spell Glyph: You can store any harmful spell of 3rd level or lower that you know.
+All level-dependent features of the spell are based on your caster level at the time of casting the glyph.
+If the spell has a target, it targets the intruder.
+If the spell has an area or an amorphous effect (such as a cloud), the area or effect is centered on the intruder.
+If the spell summons creatures, they appear as close as possible to the intruder and attack.
+Saving throws and spell resistance operate as normal, except that the DC is based on the level of the spell stored in the glyph}}
+
+
+Explosive Runes(Player's Handbook v.3.5): - Rune(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Explosive Runes](https://dndtools.net/spells/players-handbook-v35--6/explosive-runes--2319/) }} {{School:= Abjuration  [Force]}} {{Level:= **Rune 4**, Sorcerer 3, Wizard 3, Sha'ir 3, CourtHerald 3, Arcanist 3}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=One touched object weighing no more than 10 lb.}} {{Duration:=Permanent until discharged (D)}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc4}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You trace these mystic runes upon a book, map, scroll, or similar object bearing written information.
+The runes detonate when read, dealing 6d6 points of force damage.
+Anyone next to the runes (close enough to read them) takes the full damage with no saving throw; any other creature within 10 feet of the runes is entitled to a Reflex save for half damage.
+The object on which the runes were written also takes full damage (no saving throw).
+You and any characters you specifically instruct can read the protected writing without triggering the runes.
+Likewise, you can remove the runes whenever desired.
+Another creature can remove them with a successful dispel magic or erase spell, but attempting to dispel or erase the runes and failing to do so triggers the explosion.
+Note:Magic traps such as explosive runes are hard to detect and disable.
+A rogue (only) can use the Search skill to find the runes and Disable Device to thwart them.
+The DC in each case is 25 + spell level, or 28 for explosive runes}}
+
+
+Planar Binding, Lesser(Player's Handbook v.3.5): - Rune(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Planar Binding, Lesser](https://dndtools.net/spells/players-handbook-v35--6/planar-binding-lesser--2422/) }} {{School:= Conjuration (Calling) }} {{Level:= **Rune 5**, NarDemonbinder 4, Sorcerer 5, Wizard 5, Hathran 5, Sha'ir 5, DreadNecromancer 5, Arcanist 5}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One elemental or outsider with 6 HD or less}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc5}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Casting this spell attempts a dangerous act: to lure a creature from another plane to a specifically prepared trap, which must lie within the spell's range.
+The called creature is held in the trap until it agrees to perform one service in return for its freedom.
+To create the trap, you must use a magic circle spell, focused inward.
+The kind of creature to be bound must be known and stated.
+If you wish to call a specific individual, you must use that individual's proper name in casting the spell.
+The target creature is allowed a Will saving throw.
+If the saving throw succeeds, the creature resists the spell.
+If the saving throw fails, the creature is immediately drawn to the trap (spell resistance does not keep it from being called).
+The creature can escape from the trap with by successfully pitting its spell resistance against your caster level check, by dimensional travel, or with a successful Charisma check (DC 15 + 1/2 your caster level + your Cha modifier).
+It can try each method once per day.
+If it breaks loose, it can flee or attack you.
+A dimensional anchor cast on the creature prevents its escape via dimensional travel.
+You can also employ a calling diagram (see magic circle against evil, page 246) to make the trap more secure.
+If the creature does not break free of the trap, you can keep it bound for as long as you dare.
+You can attempt to compel the creature to perform a service by describing the service and perhaps offering some sort of reward.
+You make a Charisma check opposed by the creature's Charisma check.
+The DM assigns your check a bonus of +0 to +6 based on the nature of the service and the reward.
+If the creature wins the opposed check, it refuses service.
+New offers, bribes, and the like can be made or the old ones reoffered every 24 hours.
+This process can be repeated until the creature promises to serve, until it breaks free, or until you decide to get rid of it by means of some other spell.
+Impossible demands or unreasonable commands are never agreed to.
+If you roll a 1 on the Charisma check, the creature breaks free of the binding and can escape or attack you.
+Once the requested service is completed, the creature need only so inform you to be instantly sent back whence it came.
+The creature might later seek revenge.
+If you assign some open-ended task that the creature cannot complete though its own actions (such as &quot;Wait here&quot; or &quot;Defend this area against attack&quot;), the spell remains in effect for a maximum of one day per caster level, and the creature gains an immediate chance to break free.
+Note that a clever recipient can subvert some instructions.
+When you use a calling spell to call an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+For example, lesser planar binding is a water spell when you cast it to call a water elemental}}
+
+
+Glyph of Warding, Greater(Player's Handbook v.3.5): - Rune(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Glyph of Warding, Greater](https://dndtools.net/spells/players-handbook-v35--6/glyph-of-warding-greater--2327/) }} {{School:= Abjuration  }} {{Level:= **Rune 6**, Cleric 6, Cloistered Cleric 6}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like glyph of warding, except that a greater blast glyph deals up to 10d8 points of damage, and a greater spell glyph can store a spell of 6th level or lower.
+Material Component: You trace the glyph with incense, which must first be sprinkled with powdered diamond worth at least 400 gp}}
+
+
+Symbol of Death(Player's Handbook v.3.5): - Rune(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Symbol of Death](https://dndtools.net/spells/players-handbook-v35--6/symbol-of-death--2762/) }} {{School:= Necromancy  [Death]}} {{Level:= **Rune 8**, Cleric 8, Sorcerer 8, Wizard 8, WuJen 8, Sha'ir 8, DeathMaster 8, DreadNecromancer 8, Cloistered Cleric 8, Arcanist 8}} {{Components:= V, S, M}} {{Material Component:= Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 5,000 gp each}} {{Range:= 0 ft.; see text}} {{Effect:=One symbol}} {{Duration:=See text}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc8}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell allows you to scribe a potent rune of power upon a surface.
+When triggered, a symbol of death slays one or more creatures within 60 feet of the symbol (treat as a burst) whose combined total current hit points do not exceed 150.
+The symbol of death affects the closest creatures first, skipping creatures with too many hit points to affect.
+Once triggered, the symbol becomes active and glows, lasting for 10 minutes per caster level or until it has affected 150 hit points' worth of creatures, whichever comes first.
+Any creature that enters the area while the symbol of death is active is subject to its effect, whether or not that creature was in the area when it was triggered.
+A creature need save against the symbol only once as long as it remains within the area, though if it leaves the area and returns while the symbol is still active, it must save again.
+Until it is triggered, the symbol of death is inactive (though visible and legible at a distance of 60 feet).
+To be effective, a symbol of death must always be placed in plain sight and in a prominent location.
+Covering or hiding the rune renders the symbol of death ineffective, unless a creature removes the covering, in which case the symbol of death works normally.
+As a default, a symbol of death is triggered whenever a creature does one or more of the following, as you select: looks at the rune; reads the rune; touches the rune; passes over the rune; or passes through a portal bearing the rune.
+Regardless of the trigger method or methods chosen, a creature more than 60 feet from a symbol of death can't trigger it (even if it meets one or more of the triggering conditions, such as reading the rune).
+Once the spell is cast, a symbol of death's triggering conditions cannot be changed.
+In this case, &quot;reading&quot; the rune means any attempt to study it, identify it, or fathom its meaning.
+Throwing a cover over a symbol of death to render it inoperative triggers it if the symbol reacts to touch.
+You can't use a symbol of death offensively; for instance, a touch-triggered symbol of death remains untriggered if an item bearing the symbol of death is used to touch a creature.
+Likewise, a symbol of death cannot be placed on a weapon and set to activate when the weapon strikes a foe.
+You can also set special triggering limitations of your own.
+These can be as simple or elaborate as you desire.
+Special conditions for triggering a symbol of death can be based on a creature's name, identity, or alignment, but otherwise must be based on observable actions or qualities.
+Intangibles such as level, class, Hit Dice, and hit points don't qualify.
+For example, a symbol of death can be set to activate when a lawful good creature approaches, but not when a paladin approaches.
+When scribing a symbol of death, you can specify a password or phrase that prevents a creature using it from triggering the effect.
+Anyone using the password remains immune to that particular rune's effects so long as the creature remains within 60 feet of the rune.
+If the creature leaves the radius and returns later, it must use the password again.
+You also can attune any number of creatures to the symbol of death, but doing this can extend the casting time.
+Attuning one or two creatures takes negligible time, and attuning a small group (as many as ten creatures) extends the casting time to 1 hour.
+Attuning a large group (as many as twenty-five creatures) takes 24 hours.
+Attuning larger groups takes proportionately longer, as the DM sees fit.
+Any creature attuned to a symbol of death cannot trigger it and is immune to its effects, even if within its radius when triggered.
+You are automatically considered attuned to your own symbols of death, and thus always ignore the effects and cannot inadvertently trigger them.
+Read magic allows you to identify a symbol of death with a DC 19 Spellcraft check.
+Of course, if the symbol of death is set to be triggered by reading it, this will trigger the symbol.
+A symbol of death can be removed by a successful dispel magic targeted solely on the rune.
+An erase spell has no effect on a symbol of death.
+Destruction of the surface where a symbol of death is inscribed destroys the symbol but also triggers it.
+Symbol of death can be made permanent with a permanency spell.
+A permanent symbol of death that is disabled or that has affected its maximum number of hit points becomes inactive for 10 minutes, then can be triggered again as normal.
+Note:Magic traps such as symbol of death are hard to detect and disable.
+A rogue (only) can use the Search skill to find a symbol of death and Disable Device to thwart it.
+The DC in each case is 25 + spell level, or 33 for symbol of death}}
+
+
+Transcribe Symbol(Spell Compendium): - Rune(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Transcribe Symbol](https://dndtools.net/spells/spell-compendium--86/transcribe-symbol--4312/) }} {{School:= Abjuration  }} {{Level:= **Rune 8**, Sorcerer 6, Wizard 6, Arcanist 6}} {{Components:= V, S, AF}} {{Arcane Focus:= A piece of slate that has been scoured bare and smooth on one side}} {{Range:= Touch}} {{Target:=Magic symbol touched}} {{Duration:=10 minutes or until discharged}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Mimicking the marks of the sigil on the slate you hold, you render yourself immune to detection by the magic symbol.**
+You place a protective spell upon your hand that allows you to touch an untriggered magic sigil (such as a glyph of warding or a symbol of death) without setting it off. The touched sigil is removed from its location and held as magical potential on your hand, as though it were a touch spell.
+To pick up a sigil in this manner, you must make a successful caster level check (DC 20 + the target glyph's spell level). Failure indicates that you have triggered the glyph or symbol. If you successfully transfer the sigil to your hand, you can use a standard action to place it on a surface (not a creature) of the sort on which it can normally be scribed. The transferred sigil works normally thereafter and retains all its original triggering conditions, although its current location might make its triggers difficult or impossible to achieve.
+You can maintain the magic sigil on your hand as long as you concentrate. If your concentration lapses or the spell duration expires while the sigil is thus stored as potential, it immediately triggers upon you (and only you), even if you normally would not meet its same saving throw and spell resistance as the original spell did. The only safe way to rid yourself of the stored sigil is to place it upon a suitable surface}}
+
+
+Teleportation Circle(Player's Handbook v.3.5): - Rune(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Teleportation Circle](https://dndtools.net/spells/players-handbook-v35--6/teleportation-circle--2463/) }} {{School:= Conjuration (Teleportation) }} {{Level:= **Rune 9**, Sorcerer 9, Wizard 9, WuJen 9, Sha'ir 9, Arcanist 9}} {{Components:= V, M}} {{Material Component:= }} {{Range:= 0 ft.}} {{Effect:=5-ft.-radius circle that teleports those who activate it}} {{Duration:=10 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create a circle on the floor or other horizontal surface that teleports, as greater teleport, any creature who stands on it to a designated spot.
+Once you designate the destination for the circle, you can't change it.
+The spell fails if you attempt to set the circle to teleport creatures into a solid object, to a place with which you are not familiar and have no clear description, or to another plane.
+The circle itself is subtle and nearly impossible to notice.
+If you intend to keep creatures from activating it accidentally, you need to mark the circle in some way, such as by placing it on a raised platform.
+Teleportation circle can be made permanent with a permanency spell.
+A permanent teleportation circle that is disabled becomes inactive for 10 minutes, then can be triggered again as normal.
+Note:Magic traps such as teleportation circle are hard to detect and disable.
+A rogue (only) can use the Search skill to find the circle and Disable Device to thwart it.
+The DC in each case is 25 + spell level, or 34 in the case of teleportation circle.
+Material Component: Amber dust to cover the area of the circle (cost 1,000 gp)}}

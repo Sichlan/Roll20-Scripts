@@ -1,0 +1,5 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;1:=[View](~Initiateoftheholyrealm-Spell-Level-1)}} {{Spelllevel&nbsp;2:=[View](~Initiateoftheholyrealm-Spell-Level-2)}} 
+
+[1, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 1 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateoftheholyrealm)}} {{Horrible Taste:=[View](~Initiateoftheholyrealm-Horrible-Taste-Description) [Send](~Initiateoftheholyrealm-Horrible-Taste-Cast)}} {{Love Bite:=[View](~Initiateoftheholyrealm-Love-Bite-Description) [Send](~Initiateoftheholyrealm-Love-Bite-Cast)}} ]
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateoftheholyrealm)}} {{Lionheart:=[View](~Initiateoftheholyrealm-Lionheart-Description) [Send](~Initiateoftheholyrealm-Lionheart-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

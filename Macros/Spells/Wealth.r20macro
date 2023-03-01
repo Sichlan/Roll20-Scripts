@@ -1,0 +1,88 @@
+
+
+Alarm(Player's Handbook v.3.5): - Wealth(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Alarm](https://dndtools.net/spells/players-handbook-v35--6/alarm--2299/) }} {{School:= Abjuration  }} {{Level:= **Wealth 1**, Bard 1, UrbanDruid 1, Savant 1, DeathMaster 1, Sha'ir 1, ThayanSlaver 1, Vigilante 1, Wizard 1, Sorcerer 1, Ranger 1, CourtHerald 1, Arcanist 1}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A tiny bell and a piece of very fine silver wire.}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=20-ft.-radius emanation centered on a point in space}} {{Duration:=2 hours/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Alarm** sounds a mental or audible alarm each time a creature of Tiny or larger size enters the warded area or touches it. A creature that speaks the password (determined by you at the time of casting) does not set off the **alarm**. You decide at the time of casting whether the **alarm** will be mental or audible.
+**Mental Alarm:** A mental **alarm** alerts you (and only you) so long as you remain within 1 mile of the warded area. You note a single mental &quot;ping&quot; that awakens you from normal sleep but does not otherwise disturb concentration. A **silence** spell has no effect on a mental alarm.
+**Audible Alarm:** An audible **alarm** produces the sound of a hand bell, and anyone within 60 feet of the warded area can hear it clearly. Reduce the distance by 10 feet for each interposing closed door and by 20 feet for each substantial interposing wall. In quiet conditions, the ringing can be heard faintly as far as 180 feet away. The sound lasts for 1 round. Creatures within a **silence** spell cannot hear the ringing.
+Ethereal or astral creatures do not trigger the **alarm**.
+**Alarm** can be made permanent with a **permanency** spell}}
+
+
+Obscure Object(Player's Handbook v.3.5): - Wealth(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Obscure Object](https://dndtools.net/spells/players-handbook-v35--6/obscure-object--2342/) }} {{School:= Abjuration  }} {{Level:= **Wealth 2**, Bard 1, Vigilante 1, UrbanDruid 1, Sorcerer 2, Wizard 2, Sha'ir 2, CourtHerald 2, Cleric 3, Cloistered Cleric 3, Arcanist 2}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=One object touched of up to 100 lb./level}} {{Duration:=8 hours (D)}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc2}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell hides an object from location by divination (scrying) effects, such as the scrying spell or a crystal ball.
+Such an attempt automatically fails (if the divination is targeted on the object) or fails to perceive the object (if the divination is targeted on a nearby location, object, or person).
+Arcane Material Component: A piece of chameleon skin}}
+
+
+Glyph of Warding(Player's Handbook v.3.5): - Wealth(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Glyph of Warding](https://dndtools.net/spells/players-handbook-v35--6/glyph-of-warding--2326/) }} {{School:= Abjuration  }} {{Level:= **Wealth 3**, Cleric 3, Dwarf 3, Rune 3, Cloistered Cleric 3}} {{Components:= V, S, M}} {{Material Component:= You trace the glyph with incense, which must first be sprinkled with powdered diamond worth at least 200 gp}} {{Range:= Touch}} {{Target:=Object touched or up to 5 sq. ft./level}} {{Duration:=Permanent until discharged (D)}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc3}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This powerful inscription harms those who enter, pass, or open the warded area or object.
+A glyph of warding can guard a bridge or passage, ward a portal, trap a chest or box, and so on.
+You set the conditions of the ward.
+Typically, any creature entering the warded area or opening the warded object without speaking a password (which you set when casting the spell) is subject to the magic it stores.
+Alternatively or in addition to a password trigger, glyphs can be set according to physical characteristics (such as height or weight) or creature type, subtype, or kind (such as aberration, drow, or red dragon).
+Glyphs can also be set with respect to good, evil, law, or chaos, or to pass those of your religion.
+They cannot be set according to class, Hit Dice, or level.
+Glyphs respond to invisible creatures normally but are not triggered by those who travel past them ethereally.
+Multiple glyphs cannot be cast on the same area.
+However, if a cabinet has three drawers, each can be separately warded.
+When casting the spell, you weave a tracery of faintly glowing lines around the warding sigil.
+A glyph can be placed to conform to any shape up to the limitations of your total square footage.
+When the spell is completed, the glyph and tracery become nearly invisible.
+Glyphs cannot be affected or bypassed by such means as physical or magical probing, though they can be dispelled.
+Mislead, polymorph, and nondetection (and similar magical effects) can fool a glyph, though nonmagical disguises and the like can't.
+Read magic allows you to identify a glyph of warding with a DC 13 Spellcraft check.
+Identifying the glyph does not discharge it and allows you to know the basic nature of the glyph (version, type of damage caused, what spell is stored).
+The DM may decide that the exact glyphs available to you depend on your deity.
+He or she might also make new glyphs available according to the magical research rules in the Dungeon Master's Guide.
+Note:Magic traps such as glyph of warding are hard to detect and disable.
+A rogue (only) can use the Search skill to find the glyph and Disable Device to thwart it.
+The DC in each case is 25 + spell level, or 28 for glyph of warding.
+Depending on the version selected, a glyph either blasts the intruder or activates a spell.
+Blast Glyph: A blast glyph deals 1d8 points of damage per two caster levels (maximum 5d8) to the intruder and to all within 5 feet of him or her.
+This damage is acid, cold, fire, electricity, or sonic (caster's choice, made at time of casting).
+Each creature affected can attempt a Reflex save to take half damage.
+Spell resistance applies against this effect.
+Spell Glyph: You can store any harmful spell of 3rd level or lower that you know.
+All level-dependent features of the spell are based on your caster level at the time of casting the glyph.
+If the spell has a target, it targets the intruder.
+If the spell has an area or an amorphous effect (such as a cloud), the area or effect is centered on the intruder.
+If the spell summons creatures, they appear as close as possible to the intruder and attack.
+Saving throws and spell resistance operate as normal, except that the DC is based on the level of the spell stored in the glyph}}
+
+
+Detect Scrying(Player's Handbook v.3.5): - Wealth(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Detect Scrying](https://dndtools.net/spells/players-handbook-v35--6/detect-scrying--2491/) }} {{School:= Divination  }} {{Level:= **Wealth 4**, CourtHerald 3, TelflammarShadowlord 3, Wizard 4, EbonmarInfiltrator 4, Vigilante 4, Sorcerer 4, Sha'ir 4, Savant 4, DeathMaster 4, Bard 4, Planning 5, Cloistered Cleric 4, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= 40 ft.}} {{Area:=40-ft.-radius emanation centered on you}} {{Duration:=24 hours}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You immediately become aware of any attempt to observe you by means of a <a href="/spells/sub-schools/scrying/">divination (scrying)</a> spell or effect. The spell's area radiates from you and moves as you move. You know the location of every magical sensor within the spell's area.
+If the scrying attempt originates within the area, you also know its location; otherwise, you and the scrier immediately make opposed caster level checks (1d20 + caster level). If you at least match the scrier's result, you get a visual image of the scrier and an accurate sense of his or her direction and distance from you.
+**Material Component:** A small piece of mirror and a miniature brass hearing trumpet}}
+
+
+Forbiddance(Player's Handbook v.3.5): - Wealth(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Forbiddance](https://dndtools.net/spells/players-handbook-v35--6/forbiddance--2321/) }} {{School:= Abjuration  }} {{Level:= **Wealth 6**, Blighter 5, Cleric 6, Hatred 6, Pride 6, Cloistered Cleric 6}} {{Components:= V, S, M, DF}} {{Material Component:= A sprinkling of holy water and rare incenses worth at least 1,500 gp, plus 1,500 gp per 60-foot cube. If a password is desired, this requires the burning of additional rare incenses worth at least 1,000 gp, plus 1,000 gp per 60-foot cube}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=60-ft. cube/level (S)}} {{Duration:=Permanent}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc6}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Forbiddance** seals an area against all planar travel into or within it. This includes all teleportation spells (such as **dimension door** and **teleport**), plane shifting, astral travel, ethereal travel, and all summoning spells. Such effects simply fail automatically.
+In addition, it damages entering creatures whose alignments are different from yours. The effect on those attempting to enter the warded area is based on their alignment relative to yours (see below). A creature inside the area when the spell is cast takes no damage unless it exits the area and attempts to reenter, at which time it is affected as normal.
+**Alignments identical:** No effect. The creature may enter the area freely (although not by planar travel).
+**Alignments different with respect to either law/chaos or good/evil:** The creature takes 6d6 points of damage. A successful Will save halves the damage, and spell resistance applies. 
+**Alignments different with respect to both law/chaos and good/evil:** The creature takes 12d6 points of damage. A successful Will save halves the damage, and spell resistance applies.
+At your option, the abjuration can include a password, in which case creatures of alignments different from yours can avoid the damage by speaking the password as they enter the area. You must select this option (and the password) at the time of casting.
+**Dispel magic** does not dispel a **forbiddance** effect unless the dispeller's level is at least as high as your caster level.
+You can't have multiple overlapping **forbiddance** effects. In such a case, the more recent effect stops at the boundary of the older effect}}
+
+
+Sequester(Player's Handbook v.3.5): - Wealth(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Sequester](https://dndtools.net/spells/players-handbook-v35--6/sequester--2360/) }} {{School:= Abjuration  }} {{Level:= **Wealth 7**, ThayanSlaver 4, Sorcerer 7, Wizard 7, Sha'ir 7, UrbanDruid 7, Cloistered Cleric 7, Arcanist 7}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=One willing creature or object (up to a 2-ft. cube/level) touched}} {{Duration:=One day/level (D)}} {{Savingthrow:=None or Will negates (object) }} {{Save DC:=[[@{spelldc7}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When cast, this spell not only prevents divination spells from working to detect or locate the creature or object affected by sequester, it also renders the affected creature or object invisible to any form of sight or seeing (as the invisibility spell).
+Thus, sequester can mask a secret door, a treasure vault, or anything similar.
+The spell does not prevent the subject from being discovered through tactile means or through the use of devices (such as a robe of eyes or a gem of seeing).
+Creatures affected by sequester become comatose and are effectively in a state of suspended animation until the spell wears off or is dispelled.
+Note: The Will save prevents an attended or magical object from being sequestered.
+There is no save to see the sequestered creature or object or to detect it with a divination spell.
+Material Component: A basilisk eyelash, gum arabic, and a dram of whitewash}}
+
+
+Discern Location(Player's Handbook v.3.5): - Wealth(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Discern Location](https://dndtools.net/spells/players-handbook-v35--6/discern-location--2497/) }} {{School:= Divination  }} {{Level:= **Wealth 8**, Cleric 8, Sorcerer 8, Wizard 8, Healer 8, Beguiler 8, Sha'ir 8, UrbanDruid 8, DeathMaster 8, Knowledge 8, Oracle 8, Planning 8, Retribution 8, Trade 9, Cloistered Cleric 8, Arcanist 8}} {{Components:= V, S, DF}} {{Range:= Unlimited}} {{Target:=One creature or object}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A **discern location** spell is among the most powerful means of locating creatures or objects. Nothing short of a <a href="/spells/players-handbook-v35--6/mind-blank--2338/">**mind blank**</a> spell or the direct intervention of a deity keeps you from learning the exact location of a single individual or object. **Discern location** circumvents normal means of protection from scrying or location. The spell reveals the name of the creature or object's location (place, name, business name, building name, or the like), community, county (or similar political division), country, continent, and the plane of existence where the target lies.
+To find a creature with the spell, you must have seen the creature or have some item that once belonged to it. To find an object, you must have touched it at least once}}
+
+
+Antipathy(Player's Handbook v.3.5): - Wealth(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Antipathy](https://dndtools.net/spells/players-handbook-v35--6/antipathy--2526/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Wealth 9**, Sorcerer 8, Wizard 8, WuJen 8, Sha'ir 8, DeathMaster 8, Druid 9, Blighter 9, UrbanDruid 9, Mentalism 7, Hatred 8, Elf 9, Arcanist 8}} {{Components:= V, S, M, DF}} {{Material Component:= A lump of alum soaked in vinegar}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One location (up to a 10-ft. cube/level) or one object}} {{Duration:=2 hours/level (D)}} {{Savingthrow:=Will partial }} {{Save DC:=[[@{spelldc9}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You cause an object or location to emanate magical vibrations that repel either a specific kind of   intelligent creature or creatures of a particular alignment, as defined by you.  The kind of creature to be affected must be named specifically&#8212;for example, red dragons, hill giants, wererats, lammasus, cloakers, or vampires.  A creature subtype (such as goblinoid) is not specific enough.  Likewise, the specific alignment to be repelled must be named&#8212;for example, chaotic evil, chaotic good, lawful neutral, or neutral.
+Creatures of the designated kind or alignment feel an overpowering urge to leave the area or to avoid the affected item. A compulsion forces them to abandon the area or item, shunning it and never willingly returning to it while the spell is in effect.  A creature that makes a successful saving throw can stay in the area or touch the item but feels uncomfortable doing so.  This distracting discomfort reduces the creature's Dexterity score by 4 points.
+**Antipathy** counters and dispels **sympathy**}}

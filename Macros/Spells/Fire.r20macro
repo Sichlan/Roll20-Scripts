@@ -1,0 +1,103 @@
+
+
+Burning Hands(Player's Handbook v.3.5): - Fire(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Burning Hands](https://dndtools.net/spells/players-handbook-v35--6/burning-hands--2590/) }} {{School:= Evocation  [Fire]}} {{Level:= **Fire 1**, Sorcerer 1, Wizard 1, Adept 1, Warmage 1, Duskblade 1, Blighter 1, ThayanSlaver 1, Sha'ir 1, Arcanist 1}} {{Components:= V, S}} {{Range:= 15 ft.}} {{Area:=Cone-shaped burst}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex half }} {{Save DC:=[[@{spelldc1}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A cone of searing flame shoots from your fingertips.
+Any creature in the area of the flames takes 1d4 points of fire damage per caster level (maximum 5d4).
+Flammable materials, such as cloth, paper, parchment, and thin wood burn if the flames touch them.
+A character can extinguish burning items as a full-round action}}
+
+
+Produce Flame(Player's Handbook v.3.5): - Fire(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Produce Flame](https://dndtools.net/spells/players-handbook-v35--6/produce-flame--2641/) }} {{School:= Evocation  [Fire]}} {{Level:= **Fire 2**, Druid 1, Blighter 2, Orc 2}} {{Components:= V, S}} {{Range:= 0 ft.}} {{Effect:=Flame in your palm}} {{Duration:=1 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Flames as bright as a torch appear in your open hand. The flames harm neither you nor your equipment.
+In addition to providing illumination, the flames can be hurled or used to touch enemies. You can strike an opponent with a melee touch attack, dealing fire damage equal to 1d6 +1 point per caster level (maximum +5). Alternatively, you can hurl the flames up to 120 feet as a thrown weapon. When doing so, you attack with a ranged touch attack (with no range penalty) and deal the same damage as with the melee attack. No sooner do you hurl the flames than a new set appears in your hand. Each attack you make reduces the remaining duration by 1 minute. If an attack reduces the remaining duration to 0 minutes or less, the spell ends after the attack resolves.
+This spell does not function underwater}}
+
+
+Resist Elements(Psionics Handbook 3.0): - Fire(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Resist Elements](https://dndtools.net/spells/psionics-handbook-30--46/resist-elements--3789/) }} {{School:= Abjuration  }} {{Level:= **Fire 3**, Ranger 1, Cleric 2, Druid 2, Paladin 2, Sorcerer 2, Wizard 2, Blighter 2, NentyarHunter 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S, DF}} {{Range:= }}  {{Duration:=1 minute/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As endure elements, except resist elements absorbs the first 12 points of damage.
+Note: Resist elements overlaps (and does not stack with) endure elements and protection from elements. If a character is warded by protection from elements and one or both of the other spells, the protection spell absorbs damage until it is exhausted. If a character is warded by resist elements and endure elements at the same time, the resist spell absorbs damage but the endure spell does not}}
+
+
+Resist Energy(Player's Handbook v.3.5): - Fire(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Resist Energy](https://dndtools.net/spells/players-handbook-v35--6/resist-energy--2357/) }} {{School:= Abjuration  }} {{Level:= **Fire 3**, Ranger 1, Duskblade 1, Cleric 2, DeathMaster 2, Sha'ir 2, WuJen 2, DeathDelver 2, Fatemaker 2, KnightoftheChalice 2, KnightoftheWeave 2, VassalofBahamut 2, Hoardstealer 2, Adept 2, Wizard 2, Sorcerer 2, Paladin 2, Druid 2, UrbanDruid 2, Dragon 2, Cloistered Cleric 2, Arcanist 2}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=10 min./level}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This abjuration grants a creature limited protection from damage of whichever one of five energy types  you select: acid, cold, electricity, fire, or sonic. The subject gains energy resistance 10 against the energy type chosen, meaning that each time the creature is subjected to such damage (whether from a natural or magical source), that damage is reduced by 10 points before being applied to the creature's hit points. The value of the energy resistance granted increases to 20 points at 7th level and to a maximum of 30 points at 11th level. The spell protects the recipient's equipment as well. 
+Resist energy absorbs only damage. The subject could still suffer unfortunate side effects, such as drowning in acid (since drowning damage comes from lack of oxygen) or becoming encased in ice.
+Note: Resist energy overlaps (and does not stack with) protection from energy.
+If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is exhausted}}
+
+
+Wall of Fire(Player's Handbook v.3.5): - Fire(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wall of Fire](https://dndtools.net/spells/players-handbook-v35--6/wall-of-fire--2658/) }} {{School:= Evocation  [Fire]}} {{Level:= **Fire 4**, Sorcerer 4, Wizard 4, Warmage 4, Adept 4, Blighter 4, NarDemonbinder 4, WuJen 4, Sha'ir 4, Druid 5, Arcanist 4}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Opaque sheet of flame up to 20 ft. long/level or a ring of fire with a radius of up to 5 ft. per two levels; either form 20 ft. high}} {{Duration:=Concentration + 1 round/level}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An immobile, blazing curtain of shimmering violet fire springs into existence.
+One side of the wall, selected by you, sends forth waves of heat, dealing 2d4 points of fire damage to creatures within 10 feet and 1d4 points of fire damage to those past 10 feet but within 20 feet.
+The wall deals this damage when it appears and on your turn each round to all creatures in the area.
+In addition, the wall deals 2d6 points of fire damage +1 point of fire damage per caster level (maximum +20) to any creature passing through it.
+The wall deals double damage to undead creatures.
+If you evoke the wall so that it appears where creatures are, each creature takes damage as if passing through the wall.
+If any 5-foot length of wall takes 20 points of cold damage or more in 1 round, that length goes out.
+(Do not divide cold damage by 4, as normal for objects).
+Wall of fire can be made permanent with a permanency spell.
+A permanent wall of fire that is extinguished by cold damage becomes inactive for 10 minutes, then reforms at normal strength.
+Arcane Material Component: A small piece of phosphorus}}
+
+
+Fire Shield(Player's Handbook v.3.5): - Fire(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fire Shield](https://dndtools.net/spells/players-handbook-v35--6/fire-shield--2610/) }} {{School:= Evocation  }} {{Level:= **Fire 5**, Warmage 3, Sorcerer 4, Wizard 4, Duskblade 4, WuJen 4, Sha'ir 4, Sun 4, Retribution 4, Arcanist 4}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell wreathes you in flame and causes damage to each creature that attacks you in melee.
+The flames also protect you from either cold-based or fire-based attacks (your choice).
+Any creature striking you with its body or a handheld weapon deals normal damage, but at the same time the attacker takes 1d6 points of damage +1 point per caster level (maximum +15).
+This damage is either cold damage (if the shield protects against fire-based attacks) or fire damage (if the shield protects against cold-based attacks).
+If the attacker has spell resistance, it applies to this effect.
+Creatures wielding weapons with exceptional reach are not subject to this damage if they attack you.
+When casting this spell, you appear to immolate yourself, but the flames are thin and wispy, giving off light equal to only half the illumination of a normal torch (10 feet).
+The color of the flames is determined randomly (50% chance of either color)&#8212;blue or green if the chill shield is cast, violet or blue if the warm shield is employed.
+The special powers of each version are as follows.
+Warm Shield: The flames are warm to the touch.
+You take only half damage from cold-based attacks.
+If such an attack allows a Reflex save for half damage, you take no damage on a successful save.
+Chill Shield: The flames are cool to the touch.
+You take only half damage from fire-based attacks.
+If such an attack allows a Reflex save for half damage, you take no damage on a successful save.
+Arcane Material Component: A bit of phosphorus for the warm shield; a live firefly or glowworm or the tail portions of four dead ones for the chill shield}}
+
+
+Fire Seeds(Player's Handbook v.3.5): - Fire(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fire Seeds](https://dndtools.net/spells/players-handbook-v35--6/fire-seeds--2392/) }} {{School:= Conjuration (Creation) [Fire]}} {{Level:= **Fire 6**, Druid 6, Warmage 6, Blighter 6, WuJen 6, Sun 6}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Up to four touched acorns or up to eight touched holly berries}} {{Duration:=10 min./level or until used}} {{Savingthrow:=None or Reflex half; see text }} {{Save DC:=[[@{spelldc6}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Depending on the version of fire seeds you choose, you turn acorns into splash weapons that you or another character can throw, or you turn holly berries into bombs that you can detonate on command.
+Acorn Grenades: As many as four acorns turn into special splash weapons that can be hurled as far as 100 feet.
+A ranged touch attack roll is required to strike the intended target.
+Together, the acorns are capable of dealing 1d6 points of fire damage per caster level (maximum 20d6), divided up among the acorns as you wish.
+For example, a 20th-level druid could create one 20d6 missile, two 10d6 missiles, one 11d6 and three 3d6 missiles, or any other combination totalling up to four acorns and 20d6 points of damage.
+Each acorn explodes upon striking any hard surface.
+In addition to its regular fire damage, it deals 1 point of splash damage per die, and it ignites any combustible materials within 10 feet.
+A creature within this area that makes a successful Reflex saving throw takes only half damage; a creature struck directly is not allowed a saving throw.
+Holly Berry Bombs: You turn as many as eight holly berries into special bombs.
+The holly berries are usually placed by hand, since they are too light to make effective thrown weapons (they can be tossed only 5 feet).
+If you are within 200 feet and speak a word of command, each berry instantly bursts into flame, causing 1d8 points of fire damage +1 point per caster level to every creature in a 5-foot-radius burst and igniting any combustible materials within 5 feet.
+A creature in the area that makes a successful Reflex saving throw takes only half damage.
+Material Component: The acorns or holly berries}}
+
+
+Fire Storm(Player's Handbook v.3.5): - Fire(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fire Storm](https://dndtools.net/spells/players-handbook-v35--6/fire-storm--2611/) }} {{School:= Evocation  [Fire]}} {{Level:= **Fire 7**, Druid 7, Warmage 7, Blighter 7, NarDemonbinder 7, Cleric 8, Cloistered Cleric 8}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=Two 10-ft. cubes per level (S)}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex half }} {{Save DC:=[[@{spelldc7}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When a fire storm spell is cast, the whole area is shot through with sheets of roaring flame.
+The raging flames do not harm natural vegetation, ground cover, and any plant creatures in the area that you wish to exclude from damage.
+Any other creature within the area takes 1d6 points of fire damage per caster level (maximum 20d6)}}
+
+
+Incendiary Cloud(Player's Handbook v.3.5): - Fire(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Incendiary Cloud](https://dndtools.net/spells/players-handbook-v35--6/incendiary-cloud--2401/) }} {{School:= Conjuration (Creation) [Fire]}} {{Level:= **Fire 8**, Sorcerer 8, Wizard 8, Warmage 8, WuJen 8, Sha'ir 8, Blighter 9, Arcanist 8}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Cloud spreads in 20-ft. radius, 20 ft. high}} {{Duration:=1 round/level}} {{Savingthrow:=Reflex half; see text }} {{Save DC:=[[@{spelldc8}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An incendiary cloud spell creates a cloud of roiling smoke shot through with white-hot embers.
+The smoke obscures all sight as a fog cloud does.
+In addition, the white-hot embers within the cloud deal 4d6 points of fire damage to everything within the cloud on your turn each round.
+All targets can make Reflex saves each round to take half damage.
+As with a cloudkill spell, the smoke moves away from you at 10 feet per round.
+Figure out the smoke's new spread each round based on its new point of origin, which is 10 feet farther away from where you were when you cast the spell.
+By concentrating, you can make the cloud (actually its point of origin) move as much as 60 feet each round.
+Any portion of the cloud that would extend beyond your maximum range dissipates harmlessly, reducing the remainder's spread thereafter.
+As with fog cloud, wind disperses the smoke, and the spell can't be cast underwater}}
+
+
+Elemental Swarm(Player's Handbook v.3.5): - Fire(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Elemental Swarm](https://dndtools.net/spells/players-handbook-v35--6/elemental-swarm--2390/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Fire 9**, Druid 9, Warmage 9, Air 9, Earth 9, Water 9, Ocean 9, Dwarf 9}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Two or more summoned creatures, no two of which can be more than 30 ft. apart}} {{Duration:=10 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell opens a portal to an Elemental Plane and summons elementals from it. A druid can choose the plane (Air, Earth, Fire, or Water); a cleric opens a portal to the plane matching his domain.
+When the spell is complete, 2d4 Large elementals appear. Ten minutes later, 1d4 Huge elementals appear. Ten minutes after that, one greater elemental appears. Each elemental has maximum hit points per HD. Once these creatures appear, they serve you for the duration of the spell.
+The elementals obey you explicitly and never attack you, even if someone else manages to gain control over them. You do not need to concentrate to maintain control over the elementals. You can dismiss them singly or in groups at any time.
+When you use a summoning spell to summon an air, earth, fire, or water creature, it is a spell of that type. For example, elemental swarm is a fire spell when you cast it to summon fire elementals and a water spell when you use it to summon water elementals.
+<h4>Special</h4>When casting **elemental swarm** as an Air Domain spell, only Air elementals may be summoned.
+When casting **elemental swarm** as an Earth or Dwarf Domain spell, only Earth elementals may be summoned.
+When casting **elemental swarm** as a Fire Domain spell, only Fire elementals may be summoned.
+When casting **elemental swarm** as a Water or Ocean Domain spell, only Water elementals may be summoned}}

@@ -1,0 +1,126 @@
+
+
+Magic Stone(Player's Handbook v.3.5): - Earth(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Magic Stone](https://dndtools.net/spells/players-handbook-v35--6/magic-stone--2836/) }} {{School:= Transmutation  }} {{Level:= **Earth 1**, Cleric 1, Druid 1, HunteroftheDead 1, DeathMaster 1, UrbanDruid 1, Halfling 1, Cloistered Cleric 1}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Up to three pebbles touched}} {{Duration:=30 minutes or until discharged}} {{Savingthrow:=Will negates (harmless, object) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You transmute as many as three pebbles, which can be no larger than sling bullets, so that they strike with great force when thrown or slung. If hurled, they have a range increment of 20 feet. If slung, treat them as sling bullets (range increment 50 feet). The spell gives them a +1 enhancement bonus on attack and damage rolls. The user of the stones makes a normal ranged attack. Each stone that hits deals 1d6+1 points of damage (including the spell's enhancement bonus), or 2d6+2 points against undead}}
+
+
+Soften Earth and Stone(Player's Handbook v.3.5): - Earth(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Soften Earth and Stone](https://dndtools.net/spells/players-handbook-v35--6/soften-earth-and-stone--2875/) }} {{School:= Transmutation  [Earth]}} {{Level:= **Earth 2**, Druid 2, DeathMaster 2}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=10-ft. square/level; see text}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When this spell is cast, all natural, undressed earth or stone in the spell's area is softened.
+Wet earth becomes thick mud, dry earth becomes loose sand or dirt, and stone becomes soft clay that is easily molded or chopped.
+You affect a 10-footsquare area to a depth of 1 to 4 feet, depending on the toughness or resilience of the ground at that spot (DM's option).
+Magical, enchanted, dressed, or worked stone cannot be affected.
+Earth or stone creatures are not affected.
+A creature in mud must succeed on a Reflex save or be caught for 1d2 rounds and unable to move, attack, or cast spells.
+A creature that succeeds on its save can move through the mud at half speed, and it can't run or charge.
+Loose dirt is not as troublesome as mud, but all creatures in the area can move at only half their normal speed and can't run or charge over the surface.
+Stone softened into clay does not hinder movement, but it does allow characters to cut, shape, or excavate areas they may not have been able to affect before.
+For example, a party of adventurers trying to break out of a cavern might use this spell to soften a wall.
+While soften earth and stone does not affect dressed or worked stone, cavern ceilings or vertical surfaces such as cliff faces can be affected.
+Usually, this causes a moderate collapse or landslide as the loosened material peels away from the face of the wall or roof and falls.
+A moderate amount of structural damage can be dealt to a manufactured structure (such as a wall or a tower) by softening the ground beneath it, causing it to settle.
+However, most well-built structures will only be damaged by this spell, not destroyed}}
+
+
+Stone Shape(Player's Handbook v.3.5): - Earth(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Stone Shape](https://dndtools.net/spells/players-handbook-v35--6/stone-shape--2881/) }} {{School:= Transmutation  [Earth]}} {{Level:= **Earth 3**, Trapsmith 2, Cleric 3, Druid 3, DeathMaster 3, Sorcerer 4, Wizard 4, Sha'ir 4, WuJen 5, Craft 3, Cloistered Cleric 3, Arcanist 4}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Stone or stone object touched, up to 10 cu. ft. + 1 cu. ft./level}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can form an existing piece of stone into any shape that suits your purpose.
+For example, you can make a stone weapon, a special trapdoor, or a crude idol.
+Stone shape also permits you to reshape a stone door to make an exit where one didn't exist or to seal a door shut.
+While it's possible to make crude coffers, doors, and so forth with stone shape, fine detail isn't possible.
+There is a 30% chance that any shape including moving parts simply doesn't work.
+Arcane Material Component: Soft clay, which must be worked into roughly the desired shape of the stone object and then touched to the stone while the verbal component is uttered}}
+
+
+Spike Stones(Player's Handbook v.3.5): - Earth(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Spike Stones](https://dndtools.net/spells/players-handbook-v35--6/spike-stones--2879/) }} {{School:= Transmutation  [Earth]}} {{Level:= **Earth 4**, Druid 4}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=One 20-ft. square/level}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=Reflex partial }} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Rocky ground, stone floors, and similar surfaces shape themselves into long, sharp points that blend into the background.
+Spike stones impede progress through an area and deal damage.
+Any creature moving on foot into or through the spell's area moves at half speed.
+In addition, each creature moving through the area takes 1d8 points of piercing damage for each 5 feet of movement through the spiked area.
+Any creature that takes damage from this spell must also succeed on a Reflex save to avoid injuries to its feet and legs.
+A failed save causes the creature's speed to be reduced to half normal for 24 hours or until the injured creature receives a cure spell (which also restores lost hit points).
+Another character can remove the penalty by taking 10 minutes to dress the injuries and succeeding on a Heal check against the spell's save DC.
+Spike stones is a magic trap that can't be disabled with the Disable Device skill.
+Note:Magic traps such as spike stones are hard to detect.
+A rogue (only) can use the Search skill to find spike stones.
+The DC is 25 + spell level, or DC 29 for spike stones}}
+
+
+Wall of Stone(Player's Handbook v.3.5): - Earth(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wall of Stone](https://dndtools.net/spells/players-handbook-v35--6/wall-of-stone--2470/) }} {{School:= Conjuration (Creation) [Earth]}} {{Level:= **Earth 5**, Trapsmith 3, UrbanDruid 5, Sha'ir 5, WuJen 5, Cleric 5, Adept 5, Wizard 5, Sorcerer 5, DeathMaster 5, Druid 6, Craft 5, Cloistered Cleric 5, Arcanist 5}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Stone wall whose area is up to one 5-ft. square/level (S)}} {{Duration:=Instantaneous}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc5}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates a wall of rock that merges into adjoining rock surfaces.
+It is typically employed to close passages, portals, and breaches against opponents.
+A wall of stone is 1 inch thick per four caster levels and composed of up to one 5-foot square per level.
+You can double the wall's area by halving its thickness.
+The wall cannot be conjured so that it occupies the same space as a creature or another object.
+Unlike a wall of iron, you can create a wall of stone in almost any shape you desire.
+The wall created need not be vertical, nor rest upon any firm foundation; however, it must merge with and be solidly supported by existing stone.
+It can be used to bridge a chasm, for instance, or as a ramp.
+For this use, if the span is more than 20 feet, the wall must be arched and buttressed.
+This requirement reduces the spell's area by half.
+Thus, a 20th-level caster can create span with a surface area of ten 5-foot squares.
+The wall can be crudely shaped to allow crenellations, battlements, and so forth by likewise reducing the area.
+Like any other stone wall, this one can be destroyed by a disintegrate spell or by normal means such as breaking and chipping.
+Each 5-foot square of the wall has 15 hit points per inch of thickness and hardness 8.
+A section of wall whose hit points drop to 0 is breached.
+If a creature tries to break through the wall with a single attack, the DC for the Strength check is 20 + 2 per inch of thickness.
+It is possible, but difficult, to trap mobile opponents within or under a wall of stone, provided the wall is shaped so it can hold the creatures.
+Creatures can avoid entrapment with successful Reflex saves.
+Arcane Material Component: A small block of granite}}
+
+
+Stoneskin(Player's Handbook v.3.5): - Earth(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Stoneskin](https://dndtools.net/spells/players-handbook-v35--6/stoneskin--2369/) }} {{School:= Abjuration  }} {{Level:= **Earth 6**, Trapsmith 2, Fatemaker 4, Sorcerer 4, Wizard 4, DeathMaster 4, Adept 4, Sha'ir 4, RunescarredBerserker 4, WuJen 4, Druid 5, DiscipleofThrym 5, UrbanDruid 5, Endurance 5, Strength 6, Dragon 6, Arcanist 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=10 min./level or until discharged}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc6}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The warded creature gains resistance to blows, cuts, stabs, and slashes.
+The subject gains damage reduction 10/adamantine.
+(It ignores the first 10 points of damage each time it takes damage from a weapon, though an adamantine weapon bypasses the reduction).
+Once the spell has prevented a total of 10 points of damage per caster level (maximum 150 points), it is discharged.
+Material Component: Granite and 250 gp worth of diamond dust sprinkled on the target's skin}}
+
+
+Earthquake(Player's Handbook v.3.5): - Earth(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Earthquake](https://dndtools.net/spells/players-handbook-v35--6/earthquake--2608/) }} {{School:= Evocation  [Earth]}} {{Level:= **Earth 7**, Warmage 7, Blighter 7, Cleric 8, Druid 8, WuJen 8, UrbanDruid 8, Destruction 8, Cavern 8, ReveredAncestor 8, Cloistered Cleric 8}} {{Components:= V, S, DF}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=80-ft.-radius spread (S)}} {{Duration:=1 round}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc7}+@{sf-Evocation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast earthquake, an intense but highly localized tremor rips the ground.
+The shock knocks creatures down, collapses structures, opens cracks in the ground, and more.
+The effect lasts for 1 round, during which time creatures on the ground can't move or attack.
+A spellcaster on the ground must make a Concentration check (DC 20 + spell level) or lose any spell he or she tries to cast.
+The earthquake affects all terrain, vegetation, structures, and creatures in the area.
+The specific effect of an earthquake spell depends on the nature of the terrain where it is cast.
+Cave, Cavern, or Tunnel: The spell collapses the roof, dealing 8d6 points of bludgeoning damage to any creature caught under the cave-in (Reflex DC 15 half ) and pinning that creature beneath the rubble (see below).
+An earthquake cast on the roof of a very large cavern could also endanger those outside the actual area but below the falling debris.
+Cliffs: Earthquake causes a cliff to crumble, creating a landslide that travels horizontally as far as it fell vertically.
+An earthquake cast at the top of a 100-foot cliff would sweep debris 100 feet outward from the base of the cliff.
+Any creature in the path takes 8d6 points of bludgeoning damage (Reflex DC 15 half ) and is pinned beneath the rubble (see below).
+Open Ground: Each creature standing in the area must make a DC 15 Reflex save or fall down.
+Fissures open in the earth, and every creature on the ground has a 25% chance to fall into one (Reflex DC 20 to avoid a fissure).
+At the end of the spell, all fissures grind shut, killing any creatures still trapped within.
+Structure: Any structure standing on open ground takes 100 points of damage, enough to collapse a typical wooden or masonry building, but not a structure built of stone or reinforced masonry.
+Hardness does not reduce this damage, nor is it halved as damage dealt to objects normally is (See the Dungeon Master's Guide for information on hit points for walls and the like).
+Any creature caught inside a collapsing structure takes 8d6 points of bludgeoning damage (Reflex DC 15 half ) and is pinned beneath the rubble (see below).
+River, Lake, or Marsh: Fissures open underneath the water, draining away the water from that area and forming muddy ground.
+Soggy marsh or swampland becomes quicksand for the duration of the spell, sucking down creatures and structures.
+Each creature in the area must make a DC 15 Reflex save or sink down in the mud and quicksand.
+At the end of the spell, the rest of the body of water rushes in to replace the drained water, possibly drowning those caught in the mud.
+Pinned beneath Rubble: Any creature pinned beneath rubble takes 1d6 points of nonlethal damage per minute while pinned.
+If a pinned character falls unconscious, he or she must make a DC 15 Constitution check or take 1d6 points of lethal damage each minute thereafter until freed or dead}}
+
+
+Iron Body(Player's Handbook v.3.5): - Earth(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Iron Body](https://dndtools.net/spells/players-handbook-v35--6/iron-body--2825/) }} {{School:= Transmutation  }} {{Level:= **Earth 8**, Sorcerer 8, Wizard 8, Sha'ir 8, DeathMaster 8, UrbanDruid 8, Mechanus 8, Metal 8, Endurance 9, Arcanist 8}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 min./level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell transforms your body into living iron, which grants you several powerful resistances and abilities.
+You gain damage reduction 15/adamantine.
+You are immune to blindness, critical hits, ability score damage, deafness, disease, drowning, electricity, poison, stunning, and all spells or attacks that affect your physiology or respiration, because you have no physiology or respiration while this spell is in effect.
+You take only half damage from acid and fire of all kinds.
+However, you also become vulnerable to all special attacks that affect iron golems.
+You gain a +6 enhancement bonus to your Strength score, but you take a -6 penalty to Dexterity as well (to a minimum Dexterity score of 1), and your speed is reduced to half normal.
+You have an arcane spell failure chance of 50% and a -8 armor check penalty, just as if you were clad in full plate armor.
+You cannot drink (and thus can't use potions) or play wind instruments.
+Your unarmed attacks deal damage equal to a club sized for you (1d4 for Small characters or 1d6 for Medium characters), and you are considered armed when making unarmed attacks.
+Your weight increases by a factor of ten, causing you to sink in water like a stone.
+However, you could survive the crushing pressure and lack of air at the bottom of the ocean&#8212;at least until the spell duration expires.
+Arcane Material Component: A small piece of iron that was once part of either an iron golem, a hero's armor, or a war machine}}
+
+
+Elemental Swarm(Player's Handbook v.3.5): - Earth(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Elemental Swarm](https://dndtools.net/spells/players-handbook-v35--6/elemental-swarm--2390/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Earth 9**, Druid 9, Warmage 9, Air 9, Fire 9, Water 9, Ocean 9, Dwarf 9}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Two or more summoned creatures, no two of which can be more than 30 ft. apart}} {{Duration:=10 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell opens a portal to an Elemental Plane and summons elementals from it. A druid can choose the plane (Air, Earth, Fire, or Water); a cleric opens a portal to the plane matching his domain.
+When the spell is complete, 2d4 Large elementals appear. Ten minutes later, 1d4 Huge elementals appear. Ten minutes after that, one greater elemental appears. Each elemental has maximum hit points per HD. Once these creatures appear, they serve you for the duration of the spell.
+The elementals obey you explicitly and never attack you, even if someone else manages to gain control over them. You do not need to concentrate to maintain control over the elementals. You can dismiss them singly or in groups at any time.
+When you use a summoning spell to summon an air, earth, fire, or water creature, it is a spell of that type. For example, elemental swarm is a fire spell when you cast it to summon fire elementals and a water spell when you use it to summon water elementals.
+<h4>Special</h4>When casting **elemental swarm** as an Air Domain spell, only Air elementals may be summoned.
+When casting **elemental swarm** as an Earth or Dwarf Domain spell, only Earth elementals may be summoned.
+When casting **elemental swarm** as a Fire Domain spell, only Fire elementals may be summoned.
+When casting **elemental swarm** as a Water or Ocean Domain spell, only Water elementals may be summoned}}

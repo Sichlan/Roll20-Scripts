@@ -1,0 +1,82 @@
+
+
+Silent Image(Player's Handbook v.3.5): - Illusion(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Silent Image](https://dndtools.net/spells/players-handbook-v35--6/silent-image--2705/) }} {{School:= Illusion (Figment) }} {{Level:= **Illusion 1**, Bard 1, Sorcerer 1, Wizard 1, Vigilante 1, Beguiler 1, WuJen 1, Sha'ir 1, Jester 1, CourtHerald 1, Gnome 1, Arcanist 1}} {{Components:= V, S, AF}} {{Arcane Focus:= A bit of fleece}} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Effect:=Visual figment that cannot extend beyond four 10-ft. cubes + one 10-ft. cube/level (S)}} {{Duration:=Concentration}} {{Savingthrow:=Will disbelief (if interacted with) }} {{Save DC:=[[@{spelldc1}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates the visual illusion of an object, creature, or force, as visualized by you.
+The illusion does not create sound, smell, texture, or temperature.
+You can move the image within the limits of the size of the effect}}
+
+
+Minor Image(Player's Handbook v.3.5): - Illusion(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Minor Image](https://dndtools.net/spells/players-handbook-v35--6/minor-image--2682/) }} {{School:= Illusion (Figment) }} {{Level:= **Illusion 2**, Bard 2, Sorcerer 2, Wizard 2, Vigilante 2, Beguiler 2, WuJen 2, Sha'ir 2, Jester 2, CourtHerald 2, Creation 2, Gnome 3, Arcanist 2}} {{Components:= }} {{Range:= }}  {{Duration:=Concentration +2 rounds}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like silent image, except that minor image includes some minor sounds but not understandable speech}}
+
+
+Displacement(Player's Handbook v.3.5): - Illusion(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Displacement](https://dndtools.net/spells/players-handbook-v35--6/displacement--2667/) }} {{School:= Illusion (Glamer) }} {{Level:= **Illusion 3**, TelflammarShadowlord 2, Bard 3, Sorcerer 3, Wizard 3, Vigilante 3, Beguiler 3, WuJen 3, Sha'ir 3, Jester 3, Arcanist 3}} {{Components:= V, M}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Illusion}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Emulating the natural ability of the displacer beast (see the Monster Manual), the subject of this spell appears to be about 2 feet away from its true location.
+The creature benefits from a 50% miss chance as if it had total concealment.
+However, unlike actual total concealment, displacement does not prevent enemies from targeting the creature normally.
+True seeing reveals its true location.
+Material Component: A small strip of leather made from displacer beast hide, twisted into a loop}}
+
+
+Phantasmal Killer(Player's Handbook v.3.5): - Illusion(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Phantasmal Killer](https://dndtools.net/spells/players-handbook-v35--6/phantasmal-killer--2691/) }} {{School:= Illusion (Phantasm) [Fear]}} {{Level:= **Illusion 4**, Sorcerer 4, Wizard 4, Warmage 4, Duskblade 4, Hexblade 4, DeathMaster 4, Sha'ir 4, DreadNecromancer 4, Dream 4, Madness 6, Arcanist 4}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One living creature}} {{Duration:=Instantaneous}} {{Savingthrow:=Will disbelief (if interacted with), then Fortitude partial; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You create a phantasmal image of the most fearsome creature imaginable to the subject simply by forming the fears of the subject's subconscious mind into something that its conscious mind can visualize: this most horrible beast. Only the spell's subject can see the phantasmal killer. You see only a vague shape. The target first gets a Will save to recognize the image as unreal. If that save fails, the phantasm touches the subject, and the subject must succeed on a Fortitude save or die from fear. Even if the Fortitude save is successful, the subject takes 3d6 points of damage.
+If the subject of a phantasmal killer attack succeeds in disbelieving and is wearing a helm of telepathy, the beast can be turned upon you. You must then disbelieve it or become subject to its deadly fear attack}}
+
+
+Persistent Image(Player's Handbook v.3.5): - Illusion(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Persistent Image](https://dndtools.net/spells/players-handbook-v35--6/persistent-image--2690/) }} {{School:= Illusion (Figment) }} {{Level:= **Illusion 5**, Bard 5, Sorcerer 5, Wizard 5, WuJen 5, Sha'ir 5, Jester 5, CourtHerald 5, Arcanist 5}} {{Components:= }} {{Range:= }}  {{Duration:=1 min./level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like silent image, except that the figment includes visual, auditory, olfactory, and thermal components, and the figment follows a script determined by you.
+The figment follows that script without your having to concentrate on it.
+The illusion can include intelligible speech if you wish.
+For instance, you could create the illusion of several orcs playing cards and arguing, culminating in a fistfight.
+Material Component: A bit of fleece and several grains of sand}}
+
+
+Mislead(Player's Handbook v.3.5): - Illusion(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Mislead](https://dndtools.net/spells/players-handbook-v35--6/mislead--2686/) }} {{School:= Illusion (Figment/Glamer) }} {{Level:= **Illusion 6**, TelflammarShadowlord 3, Bard 5, Sorcerer 6, Wizard 6, Beguiler 6, Jester 6, Sha'ir 6, CourtHerald 6, Luck 6, Trickery 6, Arcanist 6}} {{Components:= S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=You/one illusory double}} {{Duration:=1 round/level (D) and concentration + 3 rounds; see text}} {{Savingthrow:=None or Will disbelief (if interacted with); see text }} {{Save DC:=[[@{spelldc6}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You become invisible (as improved invisibility, a glamer), and at the same time, an illusory double of you (as major image, a figment) appears.
+You are then free to go elsewhere while your double moves away.
+The double appears within range but thereafter moves as you direct it (which requires concentration beginning on the first round after the casting).
+You can make the figment appear superimposed perfectly over your own body so that observers don't notice an image appearing and you turning invisible.
+You and the figment can then move in different directions.
+The double moves at your speed and can talk and gesture as if it were real, but it cannot attack or cast spells, though it can pretend to do so.
+The illusory double lasts as long as you concentrate upon it, plus 3 additional rounds.
+After you cease concentration, the illusory double continues to carry out the same activity (for instance, fleeing down a hallway) until the duration expires.
+The improved invisibility lasts for 1 round per level, regardless of concentration}}
+
+
+Project Image(Player's Handbook v.3.5): - Illusion(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Project Image](https://dndtools.net/spells/players-handbook-v35--6/project-image--2693/) }} {{School:= Illusion (Shadow) }} {{Level:= **Illusion 7**, Bard 6, Sorcerer 7, Wizard 7, Beguiler 7, Sha'ir 7, Arcanist 7}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=One shadow duplicate}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will disbelief (if interacted with) }} {{Save DC:=[[@{spelldc7}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You tap energy from the Plane of Shadow to create a quasi-real, illusory version of yourself.
+The projected image looks, sounds, and smells like you but is intangible.
+The projected image mimics your actions (including speech) unless you direct it to act differently (which is a move action).
+You can see through its eyes and hear through its ears as if you were standing where it is, and during your turn you can switch from using its senses to using your own, or back again, as a free action.
+While you are using its senses, your body is considered blinded and deafened.
+If you desire, any spell you cast whose range is touch or greater can originate from the projected image instead of from you.
+The projected image can't cast any spells on itself except for illusion spells.
+The spells affect other targets normally, despite originating from the projected image.
+Objects are affected by the projected image as if they had succeeded on their Will save.
+You must maintain line of effect to the projected image at all times.
+If your line of effect is obstructed, the spell ends.
+If you use dimension door, teleport, plane shift, or a similar spell that breaks your line of effect, even momentarily, the spell ends.
+Material Component: A small replica of you (a doll), which costs 5 gp to create}}
+
+
+Screen(Player's Handbook v.3.5): - Illusion(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Screen](https://dndtools.net/spells/players-handbook-v35--6/screen--2696/) }} {{School:= Illusion (Glamer) }} {{Level:= **Illusion 8**, Sorcerer 8, Wizard 8, Beguiler 8, Sha'ir 8, Trickery 7, Gnome 7, Arcanist 8}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Area:=30-ft. cube/level (S)}} {{Duration:=24 hours}} {{Savingthrow:=None or Will disbelief (if interacted with); see text }} {{Save DC:=[[@{spelldc8}+@{sf-Illusion}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell combines several elements to create a powerful protection from scrying and direct observation.
+When casting the spell, you dictate what will and will not be observed in the spell's area.
+The illusion created must be stated in general terms.
+Thus, you could specify the illusion of yourself and another character playing chess for the duration of the spell, but you could not have the illusory chess players take a break, make dinner, and then resume their game.
+You could have a crossroads appear quiet and empty even while an army is actually passing through the area.
+You could specify that no one be seen (including passing strangers), that your troops be undetected, or even that every fifth person or unit should be visible.
+Once the conditions are set, they cannot be changed.
+Attempts to scry the area automatically detect the image stated by you with no save allowed.
+Sight and sound are appropriate to the illusion created.
+A band of people standing in a meadow could be concealed as an empty meadow with birds chirping, for instance.
+Direct observation may allow a save (as per a normal illusion), if there is cause to disbelieve what is seen.
+Certainly onlookers in the area would become suspicious if a marching army disappeared at one point to reappear at another.
+Even entering the area does not cancel the illusion or necessarily allow a save, assuming that hidden beings take care to stay out of the way of those affected by the illusion}}
+
+
+Weird(Player's Handbook v.3.5): - Illusion(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Weird](https://dndtools.net/spells/players-handbook-v35--6/weird--2709/) }} {{School:= Illusion (Phantasm) [Fear]}} {{Level:= **Illusion 9**, Sorcerer 9, Wizard 9, Warmage 9, Sha'ir 9, DeathMaster 9, Madness 9, Dream 9, Mind 9, Arcanist 9}} {{Components:= }} {{Range:= }} {{Target:=Any number of creatures, no two of which can be more than 30 ft. apart}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like phantasmal killer, except it can affect more than one creature.
+Only the affected creatures see the phantasmal creatures attacking them, though you see the attackers as shadowy shapes.
+If a subject's Fortitude save succeeds, it still takes 3d6 points of damage and is stunned for 1 round.
+The subject also takes 1d4 points of temporary Strength damage}}

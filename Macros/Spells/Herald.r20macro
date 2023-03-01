@@ -1,0 +1,96 @@
+
+
+Comprehend Languages(Player's Handbook v.3.5): - Herald(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Comprehend Languages](https://dndtools.net/spells/players-handbook-v35--6/comprehend-languages--2482/) }} {{School:= Divination  }} {{Level:= **Herald 1**, Bard 1, UrbanDruid 1, DeathMaster 1, Savant 1, Sha'ir 1, WuJen 1, Beguiler 1, Vigilante 1, KnightoftheWeave 1, EbonmarInfiltrator 1, Adept 1, Wizard 1, Sorcerer 1, Cleric 1, CourtHerald 1, Mind 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 min./level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can understand the spoken words of creatures or read otherwise incomprehensible written messages.
+In either case, you must touch the creature or the writing.
+The ability to read does not necessarily impart insight into the material, merely its literal meaning.
+The spell enables you to understand or read an unknown language, not speak or write it.
+Written material can be read at the rate of one page (250 words) per minute.
+Magical writing cannot be read, though the spell reveals that it is magical, but comprehend languages is often useful when deciphering treasure maps.
+This spell can be foiled by certain warding magic (such as the secret page and illusory script spells).
+It does not decipher codes or reveal messages concealed in otherwise normal text.
+Comprehend languages can be made permanent with a permanency spell.
+Arcane Material Component: A pinch of soot and a few grains of salt}}
+
+
+Enthrall(Player's Handbook v.3.5): - Herald(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Enthrall](https://dndtools.net/spells/players-handbook-v35--6/enthrall--2548/) }} {{School:= Enchantment (Charm) [Sonic]}} {{Level:= **Herald 2**, Bard 2, Cleric 2, Jester 2, UrbanDruid 2, Domination 2, Elysium 2, Nobility 2, Tyranny 2, Cloistered Cleric 2}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=Any number of creatures}} {{Duration:=1 hour or less}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=If you have the attention of a group of creatures, you can use this spell to hold them spellbound.
+To cast the spell, you must speak or sing without interruption for 1 full round.
+Thereafter, those affected give you their undivided attention, ignoring their surroundings.
+They are considered to have an attitude of friendly while under the effect of the spell (see the Dungeon Master's Guide for information about <span class="caps">NPC</span> attitudes).
+Any potentially affected creature of a race or religion unfriendly to yours gets a +4 bonus on the saving throw.
+A creature with 4 or more HD or with a Wisdom score of 16 or higher remains aware of its surroundings and has an attitude of indifferent.
+It gains a new saving throw if it witnesses actions that it opposes.
+The effect lasts as long as you speak or sing, to a maximum of 1 hour.
+Those enthralled by your words take no action while you speak or sing and for 1d3 rounds thereafter while they discuss the topic or performance.
+Those entering the area during the performance must also successfully save or become enthralled.
+The speech ends (but the 1d3-round delay still applies) if you lose concentration or do anything other than speak or sing.
+If those not enthralled have unfriendly or hostile attitudes toward you, they can collectively make a Charisma check to try to end the spell by jeering and heckling.
+For this check, use the Charisma bonus of the creature with the highest Charisma in the group; others may make Charisma checks to assist (as described in Aid Another, page 65).
+The heckling ends the spell if this check result beats your Charisma check result.
+Only one such challenge is allowed per use of the spell.
+If any member of the audience is attacked or subjected to some other overtly hostile act, the spell ends and the previously enthralled members become immediately unfriendly toward you.
+Each creature with 4 or more HD or with a Wisdom score of 16 or higher becomes hostile}}
+
+
+Tongues(Player's Handbook v.3.5): - Herald(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Tongues](https://dndtools.net/spells/players-handbook-v35--6/tongues--2519/) }} {{School:= Divination  }} {{Level:= **Herald 3**, Bard 2, Vigilante 2, Sorcerer 3, Savant 3, Jester 3, UrbanDruid 3, Sha'ir 3, WuJen 3, Fatemaker 3, EbonmarInfiltrator 3, Adept 3, Wizard 3, CourtHerald 3, Cleric 4, VassalofBahamut 4, DeathMaster 4, Community 4, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=10 min./level}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc3}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell grants the creature touched the ability to speak and understand the language of any intelligent creature, whether it is a racial tongue or a regional dialect.
+The subject can speak only one language at a time, although it may be able to understand several languages.
+Tongues does not enable the subject to speak with creatures who don't speak.
+The subject can make itself understood as far as its voice carries.
+This spell does not predispose any creature addressed toward the subject in any way.
+Tongues can be made permanent with a permanency spell.
+Arcane Material Component: A small clay model of a ziggurat, which shatters when the verbal component is pronounced}}
+
+
+Sending(Player's Handbook v.3.5): - Herald(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Sending](https://dndtools.net/spells/players-handbook-v35--6/sending--2645/) }} {{School:= Evocation  }} {{Level:= **Herald 4**, Cleric 4, DivineBard 4, Savant 4, Sorcerer 5, Wizard 5, Beguiler 5, Sha'ir 5, CourtHerald 5, Trade 4, Cloistered Cleric 4, Arcanist 5}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= See text}} {{Target:=One creature}} {{Duration:=1 round; see text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You contact a particular creature with which you are familiar and send a short message of twenty-five words or less to the subject.
+The subject recognizes you if it knows you.
+It can answer in like manner immediately.
+A creature with an Intelligence score as low as 1 can understand the sending, though the subject's ability to react is limited as normal by its Intelligence score.
+Even if the sending is received, the subject is not obligated to act upon it in any manner.
+If the creature in question is not on the same plane of existence as you are, there is a 5% chance that the sending does not arrive.
+(Local conditions on other planes may worsen this chance considerably, at the option of the DM).
+Arcane Material Component: A short piece of fine copper wire}}
+
+
+Command, Greater(Player's Handbook v.3.5): - Herald(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Command, Greater](https://dndtools.net/spells/players-handbook-v35--6/command-greater--2537/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Herald 5**, ThayanSlaver 3, Cleric 5, DeathMaster 5, Jester 5, Domination 5, Nobility 5, Tyranny 5, Cloistered Cleric 5}} {{Components:= }} {{Range:= }} {{Target:=One creature/level, no two of which can be more than 30 ft. apart}} {{Duration:=1 round/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/command--2536/">**command**</a>, except that up to one creature per level may be affected, and the activities continue beyond 1 round. At the start of each  commanded creature's action after the first, it gets another Will save to attempt to break free from the spell. Each creature must receive the same command}}
+
+
+Dream(Player's Handbook v.3.5): - Herald(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dream](https://dndtools.net/spells/players-handbook-v35--6/dream--2668/) }} {{School:= Illusion (Phantasm) }} {{Level:= **Herald 6**, Bard 5, Sorcerer 5, Wizard 5, WuJen 5, Sha'ir 5, CourtHerald 5, Arcanist 5}} {{Components:= V, S}} {{Range:= Unlimited}} {{Target:=One living creature touched}} {{Duration:=See text}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You, or a messenger touched by you, sends a phantasmal message to others in the form of a dream.
+At the beginning of the spell, you must name the recipient or identify him or her by some title that leaves no doubt as to identity.
+The messenger then enters a trance, appears in the intended recipient's dream, and delivers the message.
+The message can be of any length, and the recipient remembers it perfectly upon waking.
+The communication is one-way.
+The recipient cannot ask questions or offer information, nor can the messenger gain any information by observing the dreams of the recipient.
+Once the message is delivered, the messenger's mind returns instantly to its body.
+The duration of the spell is the time required for the messenger to enter the recipient's dream and deliver the message.
+If the recipient is awake when the spell begins, the messenger can choose to wake up (ending the spell) or remain in the trance.
+The messenger can remain in the trance until the recipient goes to sleep, then enter the recipient's dream and deliver the message as normal.
+A messenger that is disturbed during the trance comes awake, ending the spell.
+Creatures who don't sleep (such as elves, but not half-elves) or don't dream cannot be contacted by this spell.
+The messenger is unaware of its own surroundings or of the activities around it while in the trance.
+It is defenseless both physically and mentally (always fails any saving throw) while in the trance}}
+
+
+Aspect of the Deity(Book of Exalted Deeds): - Herald(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Aspect of the Deity](https://dndtools.net/spells/book-of-exalted-deeds--52/aspect-of-the-deity--96/) }} {{School:= Transmutation  [Good]}} {{Level:= **Herald 7**, ApostleofPeace 6, ExaltedArcanist 6, Mysticism 6}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As lesser aspect of the deity, but you take on all the qualities of a celestial creature (see the Monster Manual for complete details):<ul><li>You take on a shining, metallic appearance.</li><li>You gain the ability to smite evil once a day.</li></ul>
+Add your Charisma bonus to your attack roll and your character level to your damage roll against an evil foe.<ul><li>You gain darkvision out to 60 ft.</li><li>You gain resistance 20 to acid, cold, and electricity.</li><li>You gain damage reduction 10/magic.</li><li>You gain spell resistance 25.</li></ul>
+Your creature type does not change (you do not become an
+outsider)}}
+
+
+Crown of Glory(Spell Compendium): - Herald(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Crown of Glory](https://dndtools.net/spells/spell-compendium--86/crown-glory--4263/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Herald 8**, Glory 8}} {{Components:= V, S, DF}} {{Range:= 20 ft.}} {{Target:=You and one creature/level in a 20-ft.-radius burst centered on you}} {{Duration:=1 minute/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc8}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**When you cast this spell, you crown yourself with your deity's favor and draw all eyes towards you.**
+You are imbued with an aura of celestial authority, inspiring awe in all lesser creatures that behold your terrible perfection and righteousness. You gain +4 enhancement bonus to Charisma for the duration of the spell.
+In addition, the subject creatures gain a +4 morale bonus on attack rolls, saves, and skill checks, immunity to fear effects, and temporary hit points equal to your caster level (maximum 20)}}
+
+
+Aspect of the Deity, Greater(Book of Exalted Deeds): - Herald(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Aspect of the Deity, Greater](https://dndtools.net/spells/book-of-exalted-deeds--52/aspect-of-the-deity-greater--97/) }} {{School:= Transmutation  [Good]}} {{Level:= **Herald 9**, ApostleofPeace 9, ExaltedArcanist 9, Mysticism 9}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As lesser aspect of the deity, except that you take on the qualities of a half-celestial (see the Monster Manual for complete details).
+You do not gain the spell-like abilities of these creatures.
+Your creature type changes to outsider for the duration of the spell.
+Unlike other outsiders, you can be brought back from the dead if you are killed in this form.
+You undergo the following transformations:<ul><li>You grow feathered wings that allow you to fly at twice your normal speed (good maneuverability).</li><li>You gain +1 natural armor, or your existing natural armor bonus increases by +1.</li><li>You gain low-light vision.</li><li>You gain immunity to acid, cold, disease, and electricity.</li><li>You gain a +4 racial bonus on your saving throws against poison.</li><li>You gain the following enhancement bonuses to your ability scores: +4 Str, +2 Dex, +4 Con, +2 Int, +4 Wis, +4 Cha.</li></ul}}

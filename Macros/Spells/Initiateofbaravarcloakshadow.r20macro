@@ -1,0 +1,5 @@
+
+
+Invisibility, Swift(Spell Compendium): - Initiateofbaravarcloakshadow(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Invisibility, Swift](https://dndtools.net/spells/spell-compendium--86/invisibility-swift--3921/) }} {{School:= Illusion (Glamer) }} {{Level:= **Initiateofbaravarcloakshadow 1**, Bard 1, Assassin 2, Duskblade 2, Vigilante 2}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**With a whispered syllable you complete the spell. You notice that others look past you as if you weren't there.**
+This spell functions like invisibility (PH 245), except as noted above}}

@@ -1,0 +1,5 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;2:=[View](~River-Spell-Level-2)}} {{Spelllevel&nbsp;6:=[View](~River-Spell-Level-6)}} 
+
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-River)}} {{Animate Water:=[View](~River-Animate-Water-Description) [Send](~River-Animate-Water-Cast)}} ]
+[6, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 6 }} {{subtags=[Back to Main Menu](~Spells-Main-River)}} {{Master of the Rolling River:=[View](~River-Master-of-the-Rolling-River-Description) [Send](~River-Master-of-the-Rolling-River-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

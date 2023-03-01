@@ -1,0 +1,8 @@
+-----------
+Sacrifices
+-----------
+
+&{template:default} {{name=@{character_name} ❖ Sacrifice}} {{Check:= [[ 1d20 + @{knowreligion} + ?{Ceremony took >= 1 hour?|No, 0|Yes, 1} + ?{Conducted on an altar?|No, 0|Yes, 1|} + ?{Unhallowed or desecrated?|None, 0|Desecrated, 1|Unhallowed, 2} + ?{Important creature present?|No, 0|Yes, 2} + ?{Conducted Publicly?|No,0|Yes,1} + ?{Conducted before followers|<10, 0|<100, 1|>=100, 2} + ?{Sacrifice is tortured for 1 day prior to death?|No, 0|Yes, 1} + ?{Sacrifice loses extremities to hungry demon prior to death?|No,0|Yes,1} + ?{Sacrifice is good-aligned?|No, 0|Yes, 1} + ?{Sacrifice is a virgin?|No, 0|Yes, 1} + ?{HD?|1-5, 1|6-10, 2|11-15, 3|16+, 4} + ?{Is Cleric to another god?|No, 0|Yes, 2} + ?{Sacrifice has properties the deity hates?|No, 0|Yes, 1} + ?{Is Sacrifice willing?|No, 0|Yes but mind-controlled, 1|Yes, 2} ]] }}
+
+
+Bietet eine Abfrage für alle Regeln von Opferungen nach BoVD

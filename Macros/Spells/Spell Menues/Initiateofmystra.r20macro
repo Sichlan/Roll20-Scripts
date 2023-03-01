@@ -1,0 +1,7 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;2:=[View](~Initiateofmystra-Spell-Level-2)}} {{Spelllevel&nbsp;5:=[View](~Initiateofmystra-Spell-Level-5)}} {{Spelllevel&nbsp;6:=[View](~Initiateofmystra-Spell-Level-6)}} {{Spelllevel&nbsp;7:=[View](~Initiateofmystra-Spell-Level-7)}} 
+
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofmystra)}} {{Spell Shield:=[View](~Initiateofmystra-Spell-Shield-Description) [Send](~Initiateofmystra-Spell-Shield-Cast)}} ]
+[5, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 5 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofmystra)}} {{Spell Phylactery:=[View](~Initiateofmystra-Spell-Phylactery-Description) [Send](~Initiateofmystra-Spell-Phylactery-Cast)}} ]
+[6, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 6 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofmystra)}} {{Spellmantle:=[View](~Initiateofmystra-Spellmantle-Description) [Send](~Initiateofmystra-Spellmantle-Cast)}} ]
+[7, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 7 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofmystra)}} {{Holy Star:=[View](~Initiateofmystra-Holy-Star-Description) [Send](~Initiateofmystra-Holy-Star-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

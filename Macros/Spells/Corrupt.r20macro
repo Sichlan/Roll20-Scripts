@@ -1,0 +1,167 @@
+
+
+Seething Eyebane(Book of Vile Darkness): - Corrupt(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Seething Eyebane](https://dndtools.net/spells/book-of-vile-darkness--37/seething-eyebane--253/) }} {{School:= Transmutation  [Acid][Evil]}} {{Level:= **Corrupt 1**}} {{Components:= V, S, Corrupt}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates (see text) }} {{Save DC:=[[@{spelldc1}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject's eyes burst, spraying acid upon everyone within 5 feet.
+The subject is blinded and takes 1d6 points of acid damage.
+Those sprayed take 1d6 points of acid damage (Reflex save for half ).
+Creatures without eyes can't be blinded, but they might take acid damage if someone nearby is the subject of seething eyebane.
+Corruption Cost: 1d6 points of Constitution damage}}
+
+
+Fangs of the Vampire King(Spell Compendium): - Corrupt(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Fangs of the Vampire King](https://dndtools.net/spells/spell-compendium--86/fangs-vampire-king--4476/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Corrupt 2**, Assassin 3, Blackguard 3, Deathbound 3}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**Hissing an evil laugh, you sprout sharp fangs to drain the blood of your foes.**
+You grow vampirelike fangs that allow you to make bite attacks as natural attacks. Your bite attack deals 1d6 points of damage + your strength modifier, and 1 point of Constitution damage. If you make a full attack with other weapons, you can make a bite attack as a natural secondary attack (-5 penalty on the attack roll)}}
+
+
+Absorb Mind(Book of Vile Darkness): - Corrupt(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Absorb Mind](https://dndtools.net/spells/book-of-vile-darkness--37/absorb-mind--151/) }} {{School:= Divination  [Evil]}} {{Level:= **Corrupt 3**}} {{Components:= V, S, AF, Corrupt}} {{Arcane Focus:= A fresh or preserved (still bloody) 1-ounce portion of another creature's brain.}} {{Range:= Personal}} {{Target:=Caster}} {{Duration:=1 minute/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster eats at least a portion of the brain of another creature's corpse.
+By doing so, she gains the creature's memories and knowledge to some degree, so that she has a 25% chance of recalling any important fact known to the creature&#8212;family history, recent events, the general layout of the creature's stomping grounds, details about the creature's death, important plans, passwords, magic item command words, and similar tidbits. Skills, feats, spells, and other such knowledge cannot be obtained in this fashion.
+Once the caster rolls to determine whether she recalls a fact, she cannot attempt to recall that fact again. After the duration expires, the caster no longer has the ability to recall new facts.
+Corruption Cost: 2d6 points of Wisdom damage}}
+
+
+Red Fester(Book of Vile Darkness): - Corrupt(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Red Fester](https://dndtools.net/spells/book-of-vile-darkness--37/red-fester--216/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Corrupt 3**}} {{Components:= V, S, Corrupt}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc3}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject's skin turns red and blisters.
+The blisters quickly turn into oozing wounds.
+Furthermore, the subject's sense of self becomes strangely clouded, diminishing her self-esteem.
+The subject takes 1d6 points of Strength damage and 1d4 points of Charisma damage.
+Corruption Cost: 1d6 points of Strength damage}}
+
+
+Rotting Curse of Urfestra(Book of Vile Darkness): - Corrupt(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Rotting Curse of Urfestra](https://dndtools.net/spells/book-of-vile-darkness--37/rotting-curse-of-urfestra--252/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Corrupt 3**}} {{Components:= V, S, Corrupt}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject's flesh and bones begin to rot.
+The subject takes 1d6 points of Constitution damage immediately, and a further 1d6 points of Constitution damage every hour until the subject dies or the curse is removed with a wish,miracle, or remove curse spell.
+Corruption Cost: 1d6 points of Strength damage}}
+
+
+Serpents of Theggeron(Book of Vile Darkness): - Corrupt(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Serpents of Theggeron](https://dndtools.net/spells/book-of-vile-darkness--37/serpents-of-theggeron--254/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Corrupt 3**}} {{Components:= S, Corrupt}} {{Range:= Personal}} {{Target:=Caster}} {{Duration:=1 minute/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster's arms turn into serpents that can be used as natural weapons.
+The serpents provide the caster with 10-foot reach.
+They have an attack bonus of +10 (plus caster's Strength modifier) and they deal 1d8 points of damage (plus her Strength modifier).
+If the caster hits with a serpent, she has poisoned her foe.
+The poison deals 1d6 points of Strength damage immediately and another 1d6 points of Strength damage 1 minute later.
+Each instance of damage can be negated by a successful Fortitude save (DC 16).
+As a full attack action, the caster can strike with both serpents at her full attack bonus.
+Corruption Cost: 1d6 points of Intelligence damage}}
+
+
+Touch of Juiblex(Book of Vile Darkness): - Corrupt(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Touch of Juiblex](https://dndtools.net/spells/book-of-vile-darkness--37/touch-of-juiblex--262/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Corrupt 3**}} {{Components:= V, S, Corrupt}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject turns into green slime over the course of 4 rounds.
+If a remove curse, polymorph other, heal, greater restoration,
+limited wish,miracle, or wish spell is cast during the 4 rounds of transformation, the subject is restored to normal but still takes 3d6 points of damage.
+Corruption Cost: 1d6 points of Strength damage}}
+
+
+Absorb Strength(Book of Vile Darkness): - Corrupt(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Absorb Strength](https://dndtools.net/spells/book-of-vile-darkness--37/absorb-strength--197/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Corrupt 4**}} {{Components:= V, S, AF, Corrupt}} {{Arcane Focus:= A fresh or preserved (still bloody) 1-ounce portion of another creature's flesh.}} {{Range:= Personal}} {{Target:=Caster}} {{Duration:=10 minutes/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster eats at least a portion of the flesh of another creature's corpse, thereby gaining one-quarter of the creature's Strength score as an enhancement bonus to the caster's Strength score, and one-quarter of the creature's Constitution score as an enhancement bonus to the caster's Constitution.
+Corruption Cost: 2d6 points of Wisdom damage}}
+
+
+Call Forth the Beast(Heroes of Horror): - Corrupt(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Call Forth the Beast](https://dndtools.net/spells/heroes-of-horror--70/call-forth-the-beast--1431/) }} {{School:= Enchantment (Compulsion) [Evil]}} {{Level:= **Corrupt 5**}} {{Components:= V, S, AF, Corrupt}} {{Arcane Focus:= The tongue of an executed murderer}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One humanoid of Hit Dice equal to caster level +4 or less}} {{Duration:=Permanent until discharged, then 1 hour/level (D)}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc5}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The target of this spell experiences no immediate effect. The next time she falls asleep, however, she immediately reawakens with a chaotic evil alignment and a bloodthirsty, temperamental, and even psychotic disposition. The subject has no particular goals during this time except to shed blood and slaughter anyone who aggravates or irritates her; even the most innocent action might result in violence.
+When the spell expires, the subject passes out momentarily, and reawakens with no memory of anything she might have done while under the effect of the spell. So far as she can tell, she simply fell asleep hours earlier, and she has no idea what has happened since then. She has gained no rest, cannot prepare arcane spells, and might be fatigued (if appropriate).
+**Corruption Cost:** [[1d4]] points of Constitution damage}}
+
+
+Claws of the Bebilith(Book of Vile Darkness): - Corrupt(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Claws of the Bebilith](https://dndtools.net/spells/book-of-vile-darkness--37/claws-of-the-bebilith--232/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Corrupt 5**}} {{Components:= V, S, Corrupt}} {{Range:= Personal}} {{Target:=Caster}} {{Duration:=10 minutes/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster gains claws that deal damage based on her size (see below) and can catch and tear an opponent's armor and shield.
+If the opponent has both armor and a shield, roll 1d6: A result of 1-4 indicates the armor is affected, and a result of 5-6 affects the shield.
+The caster makes a grapple check whenever she hits with a claw attack, adding to the opponent's roll any enhancement bonus from magic possessed by the opponent's armor or shield.
+If the caster wins, the armor or shield is torn away and ruined.
+Corruption Cost: 1d6 points of Dexterity damage}}
+
+
+Forbidden Speech(Book of Vile Darkness): - Corrupt(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Forbidden Speech](https://dndtools.net/spells/book-of-vile-darkness--37/forbidden-speech--162/) }} {{School:= Enchantment  [Evil]}} {{Level:= **Corrupt 5**}} {{Components:= V, S, Corrupt}} {{Range:= Touch}} {{Target:=1 living creature}} {{Duration:=Permanent}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc5}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster makes it impossible for a single creature to speak about a single topic.
+The topic should be as narrow as possible for the spell to work properly.
+An appropriate topic might be events that occurred while the creature was in captivity, the whereabouts and names of tormentors, the secret location of a hidden treasure, the password into a guarded compound, the command word of a magic item, or the explanation behind some major occurrence.
+Invalid topics include verbal components of spells, a creature's whole life history, or anything too broad for a reasonable definition of a single topic.
+Whether a topic is too broad is up the DM, who can double the corruption cost and have the spell automatically fail if the caster persists in attempting an invalid topic.
+Thus, this can be a dangerous spell to attempt.
+The affected creature cannot communicate regarding the topic in any way.
+Speech becomes gibberish, writing is reduced to an indecipherable scrawl, gestures are impossible, and even telepathy (including detect thoughts) is scrambled.
+The creature has not forgotten the information, however, and it can be a maddening occurrence for the creature to be unable to communicate information that might be of life-and-death importance to friends and allies.
+Corruption Cost: 1d6 points of Strength damage}}
+
+
+Power Leech(Book of Vile Darkness): - Corrupt(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Power Leech](https://dndtools.net/spells/book-of-vile-darkness--37/power-leech--213/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Corrupt 5**}} {{Components:= V, S, Corrupt}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One living creature}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc5}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster creates a conduit of evil energy between himself and another creature.
+Through the conduit, the caster can leech off ability score points at the rate of 1 point per round.
+The other creature takes 1 point of drain from an ability score of the caster's choosing, and the caster gains a +1 enhancement bonus to the same ability score per point drained during the casting of this spell.
+In other words, all points drained during this spell stack with each other to determine the enhancement bonus, but they don't stack with other castings of power leech or with other enhancement bonuses.
+The enhancement bonus lasts for 10 minutes per caster level.
+Corruption Cost: 1 point of Wisdom drain}}
+
+
+Consume Likeness(Book of Vile Darkness): - Corrupt(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Consume Likeness](https://dndtools.net/spells/book-of-vile-darkness--37/consume-likeness--203/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Corrupt 6**}} {{Components:= V, S, AF, Corrupt}} {{Arcane Focus:= A fresh or preserved (still bloody) 1-ounce portion of another creature's flesh}} {{Range:= Personal}} {{Target:=Caster}} {{Duration:=Permanent}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster can take on the appearance and form&#8212;
+including clothing and equipment&#8212;of a corporeal humanoid that is freshly dead.
+The caster assumes the form of the creature as it looked when it lived.
+The caster must eat the flesh of the corpse whose form is to be assumed as he casts the spell.
+Once the spell is complete, the caster can assume the new likeness at will.
+By changing to this new form, the caster's body can undergo a limited physical transmutation, including adding or subtracting one or two limbs, and his weight can be changed up to one-half.
+If the form selected has wings, the caster can fly at a speed of 30 feet with poor maneuverability.
+If the form has gills, he can breathe underwater.
+The caster cannot assume the likeness of something that is a different size than he is.
+The caster's attack bonuses, natural armor bonus, and saves do not change.
+The spell does not confer special abilities, attack forms, defenses, ability scores, or mannerisms of the chosen form.
+If the caster takes damage or dies, he automatically reverts to his normal form.
+The caster can also take a standard action to voluntarily assume his normal form.
+If the caster uses this spell to create a disguise, he gets a +10 bonus on his Disguise check.
+Corruption Cost: [[2d6]] points of Wisdom drain}}
+
+
+Chain of Sorrow(Heroes of Horror): - Corrupt(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Chain of Sorrow](https://dndtools.net/spells/heroes-of-horror--70/chain-of-sorrow--1438/) }} {{School:= Necromancy  [Evil]}} {{Level:= **Corrupt 7**}} {{Components:= V, S, AF, Corrupt}} {{Arcane Focus:= The umbilical cord of a stillborn child}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature to start, possibly more; see text}} {{Duration:=See below}} {{Savingthrow:=Will half, and see text }} {{Save DC:=[[@{spelldc7}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The target of this spell takes 2d10 points of Charisma drain (Will half). If he makes his saving throw, the spell has no further effect. If he fails, however, the chain continues. The next time he touches a friend, loved one, or ally, that individual takes the same damage: 2d10 points of Charisma drain, or half with a successful save. If this second victim fails the save, she then becomes the host for the spell, and the effect continues with the first friend or ally that she touches. This effect continues until the chain is broken by a successful save or until it has affected a number of people equal to the spell's caster level.
+**Corruption Cost:** 2d4 points of Charisma damage}}
+
+
+Death by Thorns(Book of Vile Darkness): - Corrupt(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Death by Thorns](https://dndtools.net/spells/book-of-vile-darkness--37/death-by-thorns--137/) }} {{School:= Conjuration (Creation) [Death][Evil]}} {{Level:= **Corrupt 7**}} {{Components:= V, S, Corrupt}} {{Range:= Touch}} {{Target:=Up to three creatures, no two of which can be more than 15 ft. apart}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc7}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster causes thorns to sprout from the insides of the subject creatures, which writhe in agony for 1d4 rounds, incapacitated, before dying.
+A wish or miracle spell cast on a subject during this time can eliminate the thorns and save that creature.
+Creatures that succeed at their Fortitude saving throws are still incapacitated for 1d4 rounds in horrible agony, taking
+1d6 points of damage per round.
+At the end of the agony, however, the thorns disappear.
+Corruption Cost: 1d3 points of Wisdom drain}}
+
+
+Rapture of Rupture(Book of Vile Darkness): - Corrupt(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Rapture of Rupture](https://dndtools.net/spells/book-of-vile-darkness--37/rapture-of-rupture--250/) }} {{School:= Transmutation  [Evil]}} {{Level:= **Corrupt 7**}} {{Components:= V, S, Corrupt}} {{Range:= Touch}} {{Target:=One living creature touched per level}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude half }} {{Save DC:=[[@{spelldc7}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With this spell, the caster's touch deals grievous wounds to multiple targets.
+After rapture of rupture is cast, the caster can touch one target per round until she has touched a number of targets equal to her caster level.
+The same creature cannot be affected twice by the same rapture of rupture.
+A creature with no discernible anatomy is unaffected by this spell.
+When the caster touches a subject, his flesh bursts open suddenly in multiple places.
+Each subject takes 6d6 points of damage and is stunned for 1 round; a successful Fortitude save reduces damage by half and negates the stun effect.
+Subjects who fail their Fortitude save continue to take 1d6 points of damage per round until they receive magical healing, succeed at a Heal check (DC 20), or die.
+If a subject takes 6 points of damage from rapture of rupture in a single round, he is stunned in the following round.
+Corruption Cost: 1 point of Strength damage per target touched}}
+
+
+Evil Weather(Book of Vile Darkness): - Corrupt(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Evil Weather](https://dndtools.net/spells/book-of-vile-darkness--37/evil-weather--139/) }} {{School:= Conjuration (Creation) [Evil]}} {{Level:= **Corrupt 8**}} {{Components:= V, S, M, XP, Corrupt}} {{Material Component:= 10,000 gp worth of amethysts}} {{XP-Cost= 200 XP}} {{Range:= Personal}} {{Area:=1-mile/level radius, centered on caster}} {{Duration:=3d6 minutes}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster conjures a type of evil weather.
+It functions as described in Chapter 2 of this book, except that area and duration are as given for this spell.
+Other forms of evil weather have no material component or experience point cost.
+Corruption Cost: 3d6 points of Constitution damage}}
+
+
+Plague of Nightmares(Book of Vile Darkness): - Corrupt(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Plague of Nightmares](https://dndtools.net/spells/book-of-vile-darkness--37/plague-of-nightmares--167/) }} {{School:= Enchantment  [Evil]}} {{Level:= **Corrupt 8**}} {{Components:= V, S, AF, Corrupt}} {{Arcane Focus:= A fresh or preserved (still bloody) 1-ounce portion of another creature's flesh}} {{Range:= Touch}} {{Target:=One living creature}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates }} {{Save DC:=[[@{spelldc8}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster can give the subject demon-haunted dreams so vivid and frightening that sleep provides no rest and the subject eventually turns to suicide.
+The caster must have a chunk of flesh from the target and succeed at a touch attack when she casts plague of nightmares.
+If the target fails the Fortitude save, the spell begins to take effect.
+Thereafter, the caster must chant for 12 hours per week and pay the corruption cost each week to maintain the spell.
+The subject begins to feel the effect of this spell the next time he sleeps, as nightmares of evil gods and demons plague him.
+These nightmares continue each night, and each night the subject takes 1d4 points of Charisma damage and gains no natural healing for that day.
+When the subject reaches 0 Charisma, he enters a trance in which he mentally offers his soul to a demon to be devoured.
+That night the subject dies and is beyond even a true resurrection spell.
+The subject gets a new saving throw each day to resist the spell, and one success is enough to end the nightmares.
+If the spell ultimately succeeds, the focus disappears, alerting the caster that the subject is dead.
+Corruption Cost: [[1d6]] points of Strength damage, taken all at once at the end of each week}}
+
+
+Apocalypse from the Sky(Book of Vile Darkness): - Corrupt(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Apocalypse from the Sky](https://dndtools.net/spells/book-of-vile-darkness--37/apocalypse-from-the-sky--131/) }} {{School:= Conjuration (Creation) [Evil]}} {{Level:= **Corrupt 9**}} {{Components:= V, S, M, Corrupt}} {{Material Component:= An artifact, usually one of good perverted to this corrupt use}} {{Range:= Personal}} {{Area:=10-mile radius/level, centered on caster}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The caster calls upon the darkest forces in all existence to rain destruction down upon the land.
+All creatures and objects in the spell's area take 10d6 points of fire, acid, or sonic damage (caster's choice).
+This damage typically levels forests, sends mountains tumbling, and wipes out entire populations of living creatures.
+The caster is subject to the damage as well as the corruption cost.
+Corruption Cost: [[3d6]] points of Constitution damage and [[4d6]] points of Wisdom drain.
+Just preparing this spell deals [[1d3]] points of Wisdom damage, with another [[1d3]] points of Wisdom damage for each day it remains among the caster's prepared spells}}

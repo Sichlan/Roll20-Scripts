@@ -1,0 +1,5 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;3:=[View](~Initiateofeilistraee-Spell-Level-3)}} {{Spelllevel&nbsp;6:=[View](~Initiateofeilistraee-Spell-Level-6)}} 
+
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofeilistraee)}} {{Spellsong, Lesser:=[View](~Initiateofeilistraee-Spellsong,-Lesser-Description) [Send](~Initiateofeilistraee-Spellsong,-Lesser-Cast)}} ]
+[6, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 6 }} {{subtags=[Back to Main Menu](~Spells-Main-Initiateofeilistraee)}} {{Spellsong:=[View](~Initiateofeilistraee-Spellsong-Description) [Send](~Initiateofeilistraee-Spellsong-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

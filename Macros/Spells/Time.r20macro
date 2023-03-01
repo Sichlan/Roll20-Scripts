@@ -1,0 +1,139 @@
+
+
+True Strike(Player's Handbook v.3.5): - Time(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [True Strike](https://dndtools.net/spells/players-handbook-v35--6/true-strike--2521/) }} {{School:= Divination  }} {{Level:= **Time 1**, Sorcerer 1, Savant 1, Sha'ir 1, WuJen 1, ThayanSlaver 1, NentyarHunter 1, Duskblade 1, Fatemaker 1, RunescarredBerserker 1, Warmage 1, Wizard 1, Assassin 1, Elf 1, Fate 1, Arcanist 1}} {{Components:= V, AF}} {{Arcane Focus:= A small wooden replica of an archery target}} {{Range:= Personal}} {{Target:=You}} {{Duration:=See text}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You gain temporary, intuitive insight into the immediate future during your next attack. Your next single attack roll (if it is made before the end of the next round) gains a +20 insight bonus. Additionally, you are not affected by the miss chance that applies to attackers trying to strike a concealed target}}
+
+
+Gentle Repose(Player's Handbook v.3.5): - Time(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Gentle Repose](https://dndtools.net/spells/players-handbook-v35--6/gentle-repose--2738/) }} {{School:= Necromancy  }} {{Level:= **Time 2**, Cleric 2, Savant 2, DeathMaster 2, DivineBard 2, SlayerofDomiel 2, Healer 2, DreadNecromancer 2, Wizard 3, Sorcerer 3, Sha'ir 3, Cloistered Cleric 2, Arcanist 3}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Corpse touched}} {{Duration:=One day/level}} {{Savingthrow:=Will negates (object) }} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You preserve the remains of a dead creature so that they do not decay.
+Doing so effectively extends the time limit on raising that creature from the dead (see raise dead).
+Days spent under the influence of this spell don't count against the time limit.
+Additionally, this spell makes transporting a fallen comrade more pleasant.
+The spell also works on severed body parts and the like.
+Arcane Material Component: A pinch of salt, and a copper piece for each eye the corpse has (or had)}}
+
+
+Haste(Player's Handbook v.3.5): - Time(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Haste](https://dndtools.net/spells/players-handbook-v35--6/haste--2823/) }} {{School:= Transmutation  }} {{Level:= **Time 3**, Trapsmith 1, TelflammarShadowlord 2, Bard 3, Wizard 3, Vigilante 3, Sorcerer 3, Sha'ir 3, RunescarredBerserker 3, Jester 3, Fatemaker 3, Beguiler 3, WuJen 3, Celerity 4, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature/level, no two of which can be more than 30 ft. apart}} {{Duration:=1 round/level}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The transmuted creatures move and act more quickly than normal. This extra speed has several effects.
+When making a full attack action, a hasted creature may make one extra attack with any weapon he is holding. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a weapon of speed, nor does it actually grant an extra action, so you can't use it to cast a second spell or otherwise take an extra action in the round).
+A hasted creature gains a +1 bonus on attack rolls and a +1 dodge bonus to AC and Reflex saves. Any condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses.
+All of the hasted creature's modes of movement (including land movement, burrow, climb, fly, and swim) increase by 30 feet, to a maximum of twice the subject's normal speed using that form of movement. This increase counts as an enhancement bonus, and it affects the creature's jumping distance as normal for increased speed.
+Multiple haste effects don't stack. Haste dispels and counters slow.
+Material Component: A shaving of licorice root}}
+
+
+Freedom of Movement(Player's Handbook v.3.5): - Time(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Freedom of Movement](https://dndtools.net/spells/players-handbook-v35--6/freedom-of-movement--2322/) }} {{School:= Abjuration  }} {{Level:= **Time 4**, NentyarHunter 3, RunescarredBerserker 3, Bard 4, UrbanDruid 4, Jester 4, DeathDelver 4, Beguiler 4, Vigilante 4, SlayerofDomiel 4, HunteroftheDead 4, EbonmarInfiltrator 4, Hoardstealer 4, Healer 4, Ranger 4, Druid 4, Cleric 4, Savant 4, Luck 4, Ocean 4, Halfling 4, Liberation 4, Cloistered Cleric 4}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Personal or touch}} {{Target:=You or creature touched}} {{Duration:=10 min./level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell enables you or a creature you touch to move and attack normally for the duration of the spell, even under the influence of magic that usually impedes movement, such as paralysis, solid fog, slow, and web. The subject automatically succeeds on any grapple check made to resist a grapple attempt, as well as on grapple checks or Escape Artist checks made to escape a grapple or a pin.
+The spell also allows the subject to move and attack normally while underwater, even with slashing weapons such as axes and swords or with bludgeoning weapons such as flails, hammers, and maces, provided that the weapon is wielded in the hand rather than hurled. The freedom of movement spell does not, however, allow water breathing.
+Material Component: A leather thong, bound around the arm or a similar appendage}}
+
+
+Permanency(Player's Handbook v.3.5): - Time(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Permanency](https://dndtools.net/spells/players-handbook-v35--6/permanency--2900/) }} {{School:= Universal  }} {{Level:= **Time 5**, Sorcerer 5, Wizard 5, WuJen 5, Sha'ir 5, CourtHerald 5, Arcanist 5}} {{Components:= V, S, XP}} {{XP-Cost= See below}} {{Range:= See text}} {{Target:=See text}}{{Area:=See text}}{{Effect:=See text}} {{Duration:=Permanent; see text}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell makes certain other spells permanent. Depending on the spell, you must be of a minimum caster level and must expend a number of XP.
+You can make the following spells permanent in regard to yourself.
+**Spell**: **Minimum Caster Level**, **XP Cost**
+- **Arcane sight**: 11th, 1,500 XP
+- **Comprehend languages**: 9th, 500 XP
+- **Darkvision**: 10th, 1,000 XP
+- **Detect magic**: 9th, 500 XP
+- **Read magic**: 9th, 500 XP
+- **See invisibility**: 10th, 1,000 XP
+- **Tongues**: 11th, 1,500 XP
+You cast the desired spell and then follow it with the **permanency** spell. You cannot cast these spells on other creatures. This application of **permanency** can be dispelled only by a caster of higher level than you were when you cast the spell.
+In addition to personal use, **permanency** can be used to make the following spells permanent on yourself, another creature, or an object (as appropriate).
+**Spell**: **Minimum Caster Level**, **XP Cost**
+- **Enlarge person**: 9th, 500 XP
+- **Magic fang**: 9th, 500 XP
+- **Magic fang, greater**: 11th, 1,500 XP
+- **Rary's telepathic bond**: 13th, 2,500 XP
+- **Reduce person**: 9th, 500 XP
+- **Resistance**: 9th, 500 XP
+Only bonds two creatures per casting of permanency.
+Additionally, the following spells can be cast upon objects or areas only and rendered permanent.
+**Spell**: **Minimum Caster Level**, **XP Cost** </th></tr><tr><td> 
+- **Alarm**: 9th, 500 XP
+- **Animate objects**: 14th, 3,000 XP
+- **Dancing lights**: 9th, 500 XP
+- **Ghost sound**: 9th, 500 XP
+- **Gust of wind**: 11th, 1,500 XP
+- **Invisibility**: 10th, 1,000 XP
+- **Magic mouth**: 10th, 1,000 XP
+- **Mordenkainen's private sanctum**: 13th, 2,500 XP
+- **Phase door**: 15th, 3,500 XP
+- **Prismatic sphere**: 17th, 4,500 XP
+- **Prismatic wall**: 16th, 4,000 XP
+- **Shrink item**: 11th, 1,500 XP
+- **Solid fog**: 12th, 2,000 XP
+- **Stinking cloud**: 11th, 1,500 XP
+- **Symbol of death**: 16th, 4,000 XP
+- **Symbol of fear**: 14th, 3,000 XP
+- **Symbol of insanity**: 16th, 4,000 XP
+- **Symbol of pain**: 13th, 2,500 XP
+- **Symbol of persuasion**: 14th, 3,000 XP
+- **Symbol of sleep**: 16th, 4,000 XP
+- **Symbol of stunning**: 15th, 3,500 XP
+- **Symbol of weakness**: 15th, 3,500 XP
+- **Teleportation circle**: 17th, 4,500 XP
+- **Wall of fire**: 12th, 2,000 XP
+- **Wall of force**: 13th, 2,500 XP
+- **Web** : 10th, 1,000 XP
+Spells cast on other creatures, objects, or locations (not on you) are vulnerable to **dispel magic** as normal.
+The DM may allow other selected spells to be made permanent. Researching this possible application of a spell costs as much time and money as independently researching the selected spell (see the **Dungeon Master's Guide** for details). If the DM has already determined that the application is not possible, the research automatically fails. Note that you never learn what is possible except by the success or failure of your research}}
+
+
+Contingency(Player's Handbook v.3.5): - Time(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Contingency](https://dndtools.net/spells/players-handbook-v35--6/contingency--2597/) }} {{School:= Evocation  }} {{Level:= **Time 6**, Sorcerer 6, Wizard 6, Sha'ir 6, CourtHerald 6, Arcanist 6}} {{Components:= V, S, M, AF}} {{Material Component:= That of the companion spell, plus quicksilver and an eyelash of an ogre mage, rakshasa, or similar spell-using creature}} {{Arcane Focus:= A statuette of you carved from elephant ivory and decorated with gems (worth at least 1,500 gp).
+You must carry the focus for the contingency to work}} {{Range:= Personal}} {{Target:=You}} {{Duration:=One day/level (D) or until discharged}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can place another spell upon your person so that it comes into effect under some condition you dictate when casting contingency.
+The contingency spell and the companion spell are cast at the same time.
+The 10-minute casting time is the minimum total for both castings; if the companion spell has a casting time longer than 10 minutes, use that instead.
+The spell to be brought into effect by the contingency must be one that affects your person (feather fall, levitate, fly,
+teleport, and so forth) and be of a spell level no higher than one-third your caster level (rounded down, maximum 6th level).
+The conditions needed to bring the spell into effect must be clear, although they can be general.
+For example, a contingency cast with water breathing might prescribe that any time you are plunged into or otherwise engulfed in water or similar liquid, the water breathing spell instantly comes into effect.
+Or a contingency could bring a feather fall spell into effect any time you fall more than 4 feet.
+In all cases, the contingency immediately brings into effect the companion spell, the latter being &quot;cast&quot; instantaneously when the prescribed circumstances occur.
+If complicated or convoluted conditions are prescribed, the whole spell combination (contingency and the companion magic) may fail when called on.
+The companion spell occurs based solely on the stated conditions, regardless of whether you want it to.
+You can use only one contingency spell at a time; if a second is cast, the first one (if still active) is dispelled}}
+
+
+Legend Lore(Player's Handbook v.3.5): - Time(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Legend Lore](https://dndtools.net/spells/players-handbook-v35--6/legend-lore--2504/) }} {{School:= Divination  }} {{Level:= **Time 7**, Bard 4, Vigilante 4, UrbanDruid 4, Sorcerer 6, Wizard 6, Sha'ir 6, CourtHerald 6, Oracle 6, Knowledge 7, Arcanist 6}} {{Components:= V, S, M, AF}} {{Material Component:= Incense worth at least 250 gp}} {{Arcane Focus:= Four strips of ivory (worth 50 gp each) formed into a rectangle}} {{Range:= Personal}} {{Target:=You}} {{Duration:=See text}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Legend lore brings to your mind legends about an important person, place, or thing.
+If the person or thing is at hand, or if you are in the place in question, the casting time is only 1d4&#215;10 minutes.
+If you have only detailed information on the person, place, or thing, the casting time is 1d10 days, and the resulting lore is less complete and specific (though it often provides enough information to help you find the person, place, or thing, thus allowing a better legend lore result next time).
+If you know only rumors, the casting time is 2d6 weeks, and the resulting lore is vague and incomplete (though it often directs you to more detailed information, thus allowing a better legend lore result next time).
+During the casting, you cannot engage in other than routine activities: eating, sleeping, and so forth.
+When completed, the divination brings legends (if any) about the person, place, or things to your mind.
+These may be legends that are still current, legends that have been forgotten, or even information that has never been generally known.
+If the person, place, or thing is not of legendary importance, you gain no information.
+As a rule of thumb, characters who are 11th level and higher are &quot;legendary&quot;, as are the sorts of creatures they contend with, the major magic items they wield, and the places where they perform their key deeds.
+Examples of legend lore results include the following.
+A divination about a mysterious magic axe you have at hand: &quot;Woe to the evildoer whose hand touches the axe, for even the haft chops the hand of the evil ones.
+Only a true Son or Daughter of Stone, one who loves Moradin and whom Moradin loves, may awaken the true powers of the axe, and only with the sacred word 'Rudnogg'
+on the lips&quot;.
+A divination about a legendary paladin about whom you know many details: &quot;Vanashon has been denied the glory of death and the duty of life.
+He waits patiently beneath the Forbidden Mountain&quot;.
+(The paladin has been turned to stone in the caverns under the mountain).
+A divination about ancient ruins about which you have only a passing reference in a partially damaged tome: &quot;The sorcerer who called herself Ryth built a library without words and a temple without gods.
+Those who read and those who pray tore it down in a night and a day&quot;.
+(These clues may be enough for you to find out more and get details you need to cast a better legend lore)}}
+
+
+Foresight(Player's Handbook v.3.5): - Time(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Foresight](https://dndtools.net/spells/players-handbook-v35--6/foresight--2500/) }} {{School:= Divination  }} {{Level:= **Time 8**, Druid 9, Sorcerer 9, Wizard 9, Healer 9, Beguiler 9, Blighter 9, Sha'ir 9, UrbanDruid 9, DeathMaster 9, Knowledge 9, Oracle 9, Celestia 9, Fate 9, Halfling 9, Arcanist 9}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Personal or touch}} {{Target:=See text}} {{Duration:=10 min./level}} {{Savingthrow:=None or Will negates (harmless) }} {{Save DC:=[[@{spelldc8}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell grants you a powerful sixth sense in relation to yourself or another.
+Once foresight is cast, you receive instantaneous warnings of impending danger or harm to the subject of the spell.
+Thus, if you are the subject of the spell, you would be warned in advance if a rogue were about to attempt a sneak attack on you, or if a creature were about to leap out from a hiding place, or if an attacker were specifically targeting you with a spell or ranged weapon.
+You are never surprised or flat-footed.
+In addition, the spell gives you a general idea of what action you might take to best protect yourself&#8212;duck, jump right, close your eyes, and so on&#8212;and gives you a +2 insight bonus to AC and Reflex saves.
+This insight bonus is lost whenever you would lose a Dexterity bonus to AC.
+When another creature is the subject of the spell, you receive warnings about that creature.
+You must communicate what you learn to the other creature for the warning to be useful, and the creature can be caught unprepared in the absence of such a warning.
+Shouting a warning, yanking a person back, and even telepathically communicating (via an appropriate spell) can all be accomplished before some danger befalls the subject, provided you act on the warning without delay.
+The subject, however, does not gain the insight bonus to AC and Reflex saves.
+Arcane Material Component: A hummingbird's feather}}
+
+
+Time Stop(Player's Handbook v.3.5): - Time(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Time Stop](https://dndtools.net/spells/players-handbook-v35--6/time-stop--2886/) }} {{School:= Transmutation  }} {{Level:= **Time 9**, Sorcerer 9, Wizard 9, Beguiler 9, WuJen 9, Sha'ir 9, Trickery 9, Celerity 9, Planning 9, Arcanist 9}} {{Components:= V}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1d4+1 rounds (apparent time); see text}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell seems to make time cease to flow for everyone but you. In fact, you speed up so greatly that all other creatures seem frozen, though they are actually still moving at their normal speeds. You are free to act for 1d4+1 rounds of apparent time. Normal and magical fire, cold, gas, and the like can still harm you. While the **time stop** is in effect, other creatures are invulnerable to your attacks and spells; you cannot target such creatures with any attack or spell. A spell that affects an area and has a duration longer than the remaining duration of the **time stop** (such as <a href="/spells/players-handbook-v35--6/cloudkill--2374/">**cloudkill**</a>) have their normal effects on other creatures once the **time stop** ends. Most spellcasters use the additional time to improve their defenses, summon allies, or flee from combat.
+You cannot move or harm items held, carried, or worn by a creature stuck in normal time, but you can affect any item that is not in another creature's possession.
+You are undetectable while **time stop** lasts. You cannot enter an area protected by an <a href="/spells/players-handbook-v35--6/antimagic-field--2301/">**antimagic field**</a> while under the effect of **time stop**}}

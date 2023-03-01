@@ -1,0 +1,5 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;5:=[View](~Weather-Spell-Level-5)}} {{Spelllevel&nbsp;6:=[View](~Weather-Spell-Level-6)}} 
+
+[5, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 5 }} {{subtags=[Back to Main Menu](~Spells-Main-Weather)}} {{Binding Winds:=[View](~Weather-Binding-Winds-Description) [Send](~Weather-Binding-Winds-Cast)}} ]
+[6, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 6 }} {{subtags=[Back to Main Menu](~Spells-Main-Weather)}} {{Cloudwalkers:=[View](~Weather-Cloudwalkers-Description) [Send](~Weather-Cloudwalkers-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

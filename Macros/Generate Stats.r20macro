@@ -1,0 +1,8 @@
+------------
+Statmacro
+------------
+
+&{template:DnD35StdRoll} {{name=Stats}} {{spellflag=true}} {{ [[ 3d4+6 ]] = [[ 3d4+6 ]] }} {{ [[ 3d4+6 ]] = [[ 3d4+6 ]] }} {{ [[ 3d4+6 ]] = [[ 3d4+6 ]] }} {{ [[ 3d4+6 ]] = [[ 3d4+6 ]] }} {{ [[ 3d4+6 ]] = [[ 3d4+6 ]] }} {{ [[ 3d4+6 ]] = [[ 3d4+6 ]] }} {{ [[ 3d4+6 ]] = [[ 3d4+6 ]] }}
+
+
+Generiert 14 Stats in zwei Spalten nach dem von den meisten genutzten System

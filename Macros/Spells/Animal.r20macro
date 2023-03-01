@@ -1,0 +1,67 @@
+
+
+Calm Animals(Player's Handbook v.3.5): - Animal(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Calm Animals](https://dndtools.net/spells/players-handbook-v35--6/calm-animals--2530/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Animal 1**, Druid 1, Ranger 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Animals within 30 ft. of each other}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc1}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell soothes and quiets animals, rendering them docile and harmless.
+Only ordinary animals (those with Intelligence scores of 1 or 2) can be affected by this spell.
+All the subjects must be of the same kind, and no two may be more than 30 feet apart.
+The maximum number of Hit Dice of animals you can affect is equal to 2d4 + caster level.
+A dire animal or an animal trained to attack or guard is allowed a saving throw; other animals are not.
+(A druid could calm a normal bear or wolf with little trouble, but it's more difficult to affect a trained guard dog).
+The affected creatures remain where they are and do not attack or flee.
+They are not helpless and defend themselves normally if attacked.
+Any threat (such as fire, a hungry predator, or an imminent attack) breaks the spell on the threatened creatures}}
+
+
+Hold Animal(Player's Handbook v.3.5): - Animal(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Hold Animal](https://dndtools.net/spells/players-handbook-v35--6/hold-animal--2555/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Animal 2**, Druid 2, Ranger 2, Blightbringer 1}} {{Components:= V, S}} {{Range:= }} {{Target:=One animal}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like hold person, except that it affects an animal instead of a humanoid}}
+
+
+Dominate Animal(Player's Handbook v.3.5): - Animal(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dominate Animal](https://dndtools.net/spells/players-handbook-v35--6/dominate-animal--2545/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Animal 3**, Druid 3}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One animal}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc3}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can enchant an animal and direct it with simple commands such as &quot;Attack&quot;, &quot;Run&quot;, and &quot;Fetch&quot;.
+Suicidal or self-destructive commands (including an order to attack a creature two or more size categories larger than the dominated animal) are simply ignored.
+Dominate animal establishes a mental link between you and the subject creature.
+The animal can be directed by silent mental command as long as it remains in range.
+You need not see the creature to control it.
+You do not receive direct sensory input from the creature, but you know what it is experiencing.
+Because you are directing the animal with your own intelligence, it may be able to undertake actions normally beyond its own comprehension.
+You need not concentrate exclusively on controlling the creature unless you are trying to direct it to do something it normally couldn't do.
+Changing your instructions or giving a dominated creature a new command is the equivalent of redirecting a spell, so it is a move action}}
+
+
+Commune With Nature(Player's Handbook v.3.5): - Animal(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Commune With Nature](https://dndtools.net/spells/players-handbook-v35--6/commune-with-nature--2480/) }} {{School:= Divination  }} {{Level:= **Animal 5**, Ranger 4, NentyarHunter 4, Druid 5, Seafolk 5, Elf 5}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=Instantaneous}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You become one with nature, attaining knowledge of the surrounding territory.
+You instantly gain knowledge of as many as three facts from among the following subjects: the ground or terrain, plants, minerals, bodies of water, people, general animal population, presence of woodland creatures, presence of
+powerful unnatural creatures, or even the general state of the natural setting.
+For example, you could determine the location of any powerful undead creatures, the location of all major sources of safe drinking water, and the location of any buildings (which register as blind spots).
+In outdoor settings, the spell operates in a radius of 1 mile per caster level.
+In natural underground settings&#8212;caves, caverns, and the like&#8212;the radius is limited to 100 feet per caster level.
+The spell does not function where nature has been replaced by construction or settlement, such as in dungeons and towns}}
+
+
+Antilife Shell(Player's Handbook v.3.5): - Animal(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Antilife Shell](https://dndtools.net/spells/players-handbook-v35--6/antilife-shell--2300/) }} {{School:= Abjuration  }} {{Level:= **Animal 6**, Blighter 5, Cleric 6, Druid 6, DeathMaster 6, UrbanDruid 6, Cloistered Cleric 6}} {{Components:= V, S, DF}} {{Range:= 10 ft.}} {{Area:=10-ft.-radius emanation, centered on you}} {{Duration:=10 min./level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You bring into being a mobile, hemispherical energy field that prevents the entrance of most types of living creatures. The effect hedges out animals, aberrations, dragons, fey, giants, humanoids, magical beasts, monstrous humanoids, oozes, plants, and vermin, but not constructs, elementals, outsiders, or undead.  See the **Monster Manual** for more about creature types.
+This spell may be used only defensively, not aggressively. Forcing an abjuration barrier against creatures that the spell keeps at bay collapses the barrier (see Abjuration, page 172)}}
+
+
+Animal Shapes(Player's Handbook v.3.5): - Animal(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Animal Shapes](https://dndtools.net/spells/players-handbook-v35--6/animal-shapes--2776/) }} {{School:= Transmutation  }} {{Level:= **Animal 7**, Druid 8, Moon 8, Scalykind 8}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=Up to one willing creature per level, all within 30 ft. of each other}} {{Duration:=1 hour/level (D)}} {{Savingthrow:=None; see text (harmless)}} {{Save DC:=[[@{spelldc7}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As <a href="/spells/players-handbook-v35--6/polymorph--2854/">polymorph</a>, except you polymorph up to one willing creature per caster level into an animal of your choice; the spell has no effect on unwilling creatures.  All creatures must take the same kind of animal form; for example, you can't turn one subject into a hawk and another into a dire wolf.  Recipients remain in the animal form until the spell expires or until you dismiss it for all recipients.  In addition, an individual subject may choose to resume its normal form as a full-round action; doing so ends the spell for that subject alone.  The maximum HD of an assumed form is equal to the subject's HD or your caster level, whichever is lower, to a maximum of 20 HD at 20th level.
+<strong>Special: When casting **animal shapes** as a Scalykind Domain spell, only ophidian and reptilian creatures are affected.</strong}}
+
+
+Shapechange(Player's Handbook v.3.5): - Animal(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Shapechange](https://dndtools.net/spells/players-handbook-v35--6/shapechange--2870/) }} {{School:= Transmutation  }} {{Level:= **Animal 9**, Druid 9, Sorcerer 9, Wizard 9, WuJen 9, Sha'ir 9, DeathMaster 9, UrbanDruid 9, Limbo 9, Scalykind 9, Arcanist 9}} {{Components:= V, S, AF}} {{Arcane Focus:= A jade circlet worth no less than 1,500 gp, which you must place on your head when casting the spell.
+(The focus melds into your new form when you change shape)}} {{Range:= Personal}} {{Target:=You}} {{Duration:=10 min./level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like polymorph, except that it enables you to assume the form of any single nonunique creature (of any type) from Fine to Colossal size.
+The assumed form cannot have more than your caster level in Hit Dice (to a maximum of 25 HD).
+Unlike polymorph, this spell allows incorporeal or gaseous forms to be assumed.
+You gain all extraordinary and supernatural abilities (both attacks and qualities) of the assumed form, but you lose your own supernatural abilities.
+You also gain the type of the new form (for example, dragon or magical beast) in place of your own.
+The new form does not disorient you.
+Parts of your body or pieces of equipment that are separated from you do not revert to their original forms.
+You can become just about anything you are familiar with.
+You can change form once each round as a free action.
+The change takes place either immediately before your regular action or immediately after it, but not during the action.
+For example, you are in combat and assume the form of a will-o'-wisp.
+When this form is no longer useful, you change into a stone golem and walk away.
+When pursued, you change into a flea, which hides on a horse until it can hop off.
+From there, you can become a dragon, an orc, or just about anything else you are familiar with.
+If you use this spell to create a disguise, you get a +10 bonus on your Disguise check}}

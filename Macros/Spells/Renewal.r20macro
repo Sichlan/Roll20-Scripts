@@ -1,0 +1,98 @@
+
+
+Charm Person(Player's Handbook v.3.5): - Renewal(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Charm Person](https://dndtools.net/spells/players-handbook-v35--6/charm-person--2535/) }} {{School:= Enchantment (Charm) }} {{Level:= **Renewal 1**, Bard 1, UrbanDruid 1, Jester 1, WuJen 1, Beguiler 1, Fatemaker 1, KnightoftheWeave 1, Wizard 1, Sorcerer 1, Sha'ir 1, Temptation 1, Elysium 1, Charm 1, Lust 1, Fey 2, Arcanist 1}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One humanoid creature}} {{Duration:=1 hour/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc1}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This charm makes a humanoid creature regard you as its trusted friend and ally (treat the target's attitude as friendly; see Influencing <span class="caps">NPC</span> Attitudes, page 72). If the creature is currently being threatened or attacked by you or your allies, however, it receives a +5 bonus on its saving throw.
+The spell does not enable you to control the charmed person as if it were an automaton, but it perceives your words and actions in the most favorable way. You can try to give the subject orders, but you must win an opposed Charisma check to convince it to do anything it wouldn't ordinarily do. (Retries are not allowed). An affected creature never obeys suicidal or obviously harmful orders, but a charmed fighter, for example, might believe you if you assured him that the only chance to save your life is for him to hold back an onrushing red dragon for &quot;just a few seconds&quot;. Any act by you or your apparent allies that threatens the charmed person breaks the spell. You must speak the person's language to communicate your commands, or else be good at pantomiming}}
+
+
+Restoration, Lesser(Player's Handbook v.3.5): - Renewal(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Restoration, Lesser](https://dndtools.net/spells/players-handbook-v35--6/restoration-lesser--2432/) }} {{School:= Conjuration (Healing) }} {{Level:= **Renewal 1**, Paladin 1, KnightoftheWeave 1, DeathDelver 1, Cleric 2, Druid 2, Healer 2, HunteroftheDead 2, DeathMaster 2, UrbanDruid 2, Cloistered Cleric 2}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc1}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Lesser restoration dispels any magical effects reducing one of the subject's ability scores (such as ray of enfeeblement) or cures 1d4 points of temporary ability damage to one of the subject's ability scores (such as from a shadow's touch or from poison). It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain}}
+
+
+Remove Disease(Player's Handbook v.3.5): - Renewal(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Remove Disease](https://dndtools.net/spells/players-handbook-v35--6/remove-disease--2428/) }} {{School:= Conjuration (Healing) }} {{Level:= **Renewal 3**, Healer 2, NentyarHunter 2, Cleric 3, Druid 3, Ranger 3, Adept 3, DeathDelver 3, UrbanDruid 3, DivineBard 4, Cloistered Cleric 3}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=Fortitude negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc3}+@{sf-Conjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Remove disease cures all diseases that the subject is suffering from.
+The spell also kills parasites, including green slime and others.
+Certain special diseases may not be countered by this spell or may be countered only by a caster of a certain level or higher.
+Note: Since the spell's duration is instantaneous, it does not prevent reinfection after a new exposure to the same
+disease at a later date}}
+
+
+Reincarnate(Player's Handbook v.3.5): - Renewal(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Reincarnate](https://dndtools.net/spells/players-handbook-v35--6/reincarnate--2862/) }} {{School:= Transmutation  }} {{Level:= **Renewal 4**, Druid 4}} {{Components:= V, S, M, DF}} {{Material Component:= Rare oils and unguents worth a total of least 1,000 gp, spread over the remains}} {{Range:= Touch}} {{Target:=Dead creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=None; see text (harmless)}} {{Save DC:=[[@{spelldc4}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=With this spell, you bring back a dead creature in another body, provided that its death occurred no more than one week before the casting of the spell and the subject's soul is free and willing to return (see Bringing Back the Dead, page 171).
+If the subject's soul is not willing to return, the spell does not work; therefore, a subject that wants to return receives no saving throw.
+Since the dead creature is returning in a new body, all physical ills and afflictions are repaired.
+The condition of the remains is not a factor.
+So long as some small portion of the creature's body still exists, it can be reincarnated, but the portion receiving the spell must have been part of the creature's body at the time of death.
+The magic of the spell creates an entirely new young adult body for the soul to inhabit from the natural elements at hand.
+This process takes 1 hour to complete.
+When the body is ready, the subject is reincarnated.
+A reincarnated creature recalls the majority of its former life and form.
+It retains any class abilities, feats, or skill ranks it formerly possessed.
+Its class, base attack bonus, base save bonuses, and hit points are unchanged.
+Strength, Dexterity, and Constitution scores depend partly on the new body.
+First eliminate the subject's racial adjustments (since it is no longer of his previous race) and then apply the adjustments found belowto its remaining ability scores.
+The subject's level (or Hit Dice) is reduced by 1.
+If the subject was 1st level, its new Constitution score is reduced by 2.
+(If this reduction would put its Con at 0 or lower, it can't be reincarnated).
+This level/HD loss or Constitution loss cannot be repaired by any means.
+It's possible for the change in the subject's ability scores to make it difficult for it to pursue its previous character class.
+If this is the case, the subject is well advised to become a multiclass character.
+For a humanoid creature, the new incarnation is determined using the following table.
+For nonhumanoid creatures, the DM should create a similar table of creatures of the same type or simply choose the new form.
+A creature that has been turned into an undead creature or killed by a death effect can't be returned to life by this spell.
+Constructs, elementals, outsiders, and undead creatures can't be reincarnated.
+The spell cannot bring back a creature who has died of old age.
+The reincarnated creature gains all abilities associated with its new form, including forms of movement and speeds, natural armor, natural attacks, extraordinary abilities, and the like, but it doesn't automatically speak the language of the new form.
+Refer to the Monster Manual for details.
+A wish or a miracle spell can restore a reincarnated character to his or her original form}}
+
+
+Atonement(Player's Handbook v.3.5): - Renewal(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Atonement](https://dndtools.net/spells/players-handbook-v35--6/atonement--2304/) }} {{School:= Abjuration  }} {{Level:= **Renewal 5**, Cleric 5, Druid 5, Healer 5, UrbanDruid 5, Cloistered Cleric 5}} {{Components:= V, S, M, AF, DF, XP}} {{Material Component:= Burning incense.}} {{Arcane Focus:= In addition to your holy symbol or normal divine focus, you need a set of prayer beads (or other prayer device, such as a prayer wheel or prayer book) worth at least 500 gp.}} {{XP-Cost= When cast for the benefit of a creature whose guilt was the result of deliberate acts, the cost to you is 500 XP per casting}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell removes the burden of evil acts or misdeeds from the subject.
+The creature seeking atonement must be truly repentant and desirous of setting right its misdeeds.
+If the atoning creature committed the evil act unwittingly or under some form of compulsion, atonement operates normally at no cost to you.
+However, in the case of a creature atoning for deliberate misdeeds and acts of a knowing and willful nature, you must intercede with your deity (requiring you to expend 500 XP) in order to expunge the subject's burden.
+Many casters first assign a subject of this sort a quest (see geas/quest) or similar penance to determine whether the creature is truly contrite before casting the atonement spell on its behalf.
+Atonement may be cast for one of several purposes, depending on the version selected.
+Reverse Magical Alignment Change: If a creature has had its alignment magically changed, atonement returns its alignment to its original status at no cost in experience points.
+Restore Class: A paladin who has lost her class features due to committing an evil act may have her paladinhood restored to her by this spell.
+Restore Cleric or Druid Spell Powers: A cleric or druid who has lost the ability to cast spells by incurring the anger of his or her deity may regain that ability by seeking atonement from another cleric of the same deity or another druid.
+If the transgression was intentional, the casting cleric loses 500 XP for his intercession.
+If the transgression was unintentional, he does not lose XP.
+Redemption or Temptation: You may cast this spell upon a creature of an opposing alignment in order to offer it a chance to change its alignment to match yours.
+The prospective subject must be present for the entire casting process.
+Upon completion of the spell, the subject freely chooses whether it retains its original alignment or acquiesces to your offer and changes to your alignment.
+No duress, compulsion, or magical influence can force the subject to take advantage of the opportunity offered if it is unwilling to abandon its old alignment.
+This use of the spell does not work on outsiders or any creature incapable of changing its alignment naturally.
+Though the spell description refers to evil acts, atonement can also be used on any creature that has performed acts against its alignment, whether those acts are evil, good, chaotic, or lawful.
+Note:Normally, changing alignment is up to the player (for PCs) or the DM (for NPCs).
+This use of atonement simply offers a believable way for a character to change his or her alignment drastically, suddenly, and definitively}}
+
+
+Restoration, Greater(Player's Handbook v.3.5): - Renewal(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Restoration, Greater](https://dndtools.net/spells/players-handbook-v35--6/restoration-greater--2431/) }} {{School:= Conjuration (Healing) }} {{Level:= **Renewal 7**, Healer 6, Cleric 7, Cloistered Cleric 7}} {{Components:= V, S, XP}} {{XP-Cost= 500 XP}} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like lesser restoration, except that it dispels all negative levels afflicting the healed creature. This effect also reverses level drains by a force or creature, restoring the creature to the highest level it had previously attained. The drained levels are restored only if the time since the creature lost the level is no more than one week per caster level.
+**Greater restoration** also dispels all magical effects penalizing the creature's abilities, cures all temporary ability damage, and restores all points permanently drained from all ability scores. It also eliminates fatigue and exhaustion, and removes all forms of insanity, confusion, and similar mental effects. Greater restoration does not restore levels or Constitution points lost due to death}}
+
+
+Polymorph Any Object(Player's Handbook v.3.5): - Renewal(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Polymorph Any Object](https://dndtools.net/spells/players-handbook-v35--6/polymorph-any-object--2853/) }} {{School:= Transmutation  }} {{Level:= **Renewal 8**, Sorcerer 8, Wizard 8, WuJen 8, Sha'ir 8, UrbanDruid 8, Trickery 8, Arcanist 8}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature, or one nonmagical object of up to 100 cu. ft./level}} {{Duration:=See text}} {{Savingthrow:=Fortitude negates (object); see text }} {{Save DC:=[[@{spelldc8}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like polymorph, except that it changes one object or creature into another.
+The duration of the spell depends on how radical a change is made from the original state to its enchanted state.
+The DM determines the duration by using the following guidelines.
+Unlike polymorph, polymorph any object does grant the creature the Intelligence score of its new form.
+If the original form didn't have a Wisdom or Charisma score, it gains those scores as appropriate for the new form.
+Damage taken by the new form can result in the injury or death of the polymorphed creature.
+For example, it is possible to polymorph a creature into rock and then grind it to dust, causing damage, perhaps even death.
+If the creature was changed to dust to start with, more creative methods to damage it would be needed.
+Perhaps you could use a gust of wind spell to scatter the dust far and wide.
+In general, damage occurs when the new form is changed through physical force, although the DM must adjudicate many of these situations.
+A nonmagical object cannot be made into a magic item with this spell.
+Magic items aren't affected by this spell.
+This spell cannot create material of great intrinsic value, such as copper, silver, gems, silk, gold, platinum, mithral, or adamantine.
+It also cannot reproduce the special properties of cold iron in order to overcome the damage reduction of certain creatures.
+This spell can also be used to duplicate the effects of baleful polymorph, polymorph, flesh to stone, stone to flesh, transmute mud to rock, transmute metal to wood, or transmute rock to mud.
+Arcane Material Component:Mercury, gum arabic, and smoke}}
+
+
+Freedom(Player's Handbook v.3.5): - Renewal(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Freedom](https://dndtools.net/spells/players-handbook-v35--6/freedom--2323/) }} {{School:= Abjuration  }} {{Level:= **Renewal 9**, Sorcerer 9, Wizard 9, WuJen 9, Sha'ir 9, UrbanDruid 9, Arborea 9, Arcanist 9}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One creature}} {{Duration:=Instantaneous}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc9}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=The subject is freed from spells and effects that restrict its movement, including binding, entangle, grappling, imprisonment, maze, paralysis, petrification, pinning, sleep, slow, stunning, temporal stasis, and web.
+To free a creature from imprisonment or maze, you must know its name and background, and youmust cast this spell at the spot where it was entombed or banished into the maze}}

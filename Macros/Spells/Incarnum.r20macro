@@ -1,0 +1,94 @@
+
+
+Detect Incarnum(Magic of Incarnum): - Incarnum(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Detect Incarnum](https://dndtools.net/spells/magic-of-incarnum--74/detect-incarnum--1825/) }} {{School:= Divination  }} {{Level:= **Incarnum 1**, Bard 1, Blackguard 1, Cleric 1, Paladin 1, Sorcerer 1, Wizard 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, DF}} {{Range:= 60 ft.}} {{Area:=Cone-shaped emanation}} {{Duration:=Concentration, up to 10 min./level}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You can sense the presence of incarnum.
+The amount of information revealed depends on how long you study a particular area or subject.
+1st Round: Presence or absence of incarnum (including creatures with the incarnum subtype, soulmelds, or magic items invested with essentia).
+2nd Round:Number of incarnum auras (soulmelds, creatures with the incarnum subtype, and so on) in the area and the power of the most potent aura present (see the table).
+3rd Round: The power and location of each aura.
+If an aura is outside your line of sight, you can discern its
+direction but not its exact location.
+The power of an incarnum aura depends on the type of creature or object that you're detecting and its Hit Dice or caster level, as shown on the table.
+If an aura falls into more than one strength category, the spell indicates the stronger of the two}}
+
+
+Soul Boon(Magic of Incarnum): - Incarnum(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Soul Boon](https://dndtools.net/spells/magic-of-incarnum--74/soul-boon--1837/) }} {{School:= Necromancy  }} {{Level:= **Incarnum 2**, Sorcerer 2, Wizard 2, Cleric 3, Cloistered Cleric 3, Arcanist 2}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=One living creature}} {{Duration:=1 minute}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast this spell, you invoke the power of souls unborn to reinforce the recipient's essentia pool.
+The creature touched gains 1 point of temporary essentia for every three caster levels, to a maximum of 5 points of essentia at caster level 15th.
+These temporary essentia points can be used just like normal essentia points for as long as soul boon lasts.
+Material Component: An empty insect cocoon}}
+
+
+Wall of Incarnum(Magic of Incarnum): - Incarnum(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Wall of Incarnum](https://dndtools.net/spells/magic-of-incarnum--74/wall-of-incarnum--1820/) }} {{School:= Conjuration (Creation) }} {{Level:= **Incarnum 3**, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Incarnum wall whose area is up to one 5-ft. square/level}} {{Duration:=1 minute/level (D)}} {{Savingthrow:=Will partial; see text }} {{Save DC:=[[@{spelldc3}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You cause a flat, vertical, opaque barrier of incarnum to spring into being.
+The wall cannot be conjured so that it occupies the same space as a creature or another object, but it can be adjacent to such.
+It must always be a flat plane, although you can shape its edges to fit the available space.
+The wall of incarnum must be anchored to a surface, but this can be a floor, a ceiling, or even a wall.
+The wall of incarnum can't be moved once it is created.
+A wall of incarnum is 1 inch thick.
+It can be dispelled, but it cannot be damaged or broken, and spells cannot pass through it.
+Ethereal creatures can pass through it, but any other creature (including the caster) attempting to pass through a wall must succeed on aWill save or be blocked by the barrier.
+Regardless of the save's result, the wall of incarnum deals 1d4 points of essentia damage (or Wisdom damage if the creature has no essentia) to the creature.
+Essentia: Every point of essentia invested in the wall of
+incarnum increases the damage dealt on a failed Will save by 1 point.
+Material Component: A tiny, shield-shaped piece of blue quartz}}
+
+
+Essentia Lock(Magic of Incarnum): - Incarnum(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Essentia Lock](https://dndtools.net/spells/magic-of-incarnum--74/essentia-lock--1809/) }} {{School:= Abjuration  }} {{Level:= **Incarnum 4**, Cleric 4, Sorcerer 4, Wizard 4, Cloistered Cleric 4, Arcanist 4}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A tiny padlock made of silver (10 gp)}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One creature}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast essentia lock, you freeze the subject's current allocation of essentia in place.
+The target is unable to shift essentia to or from any soulmelds, feats, or other essentia receptacles he might possess, and must maintain his current allocation of essentia for the duration of the spell.
+Creatures without essentia are unaffected by this spell}}
+
+
+Incarnum Weapon(Magic of Incarnum): - Incarnum(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Incarnum Weapon](https://dndtools.net/spells/magic-of-incarnum--74/incarnum-weapon--1819/) }} {{School:= Conjuration (Creation) }} {{Level:= **Incarnum 5**, Cleric 5, Cloistered Cleric 5}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Large weapon of incarnum}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will partial }} {{Save DC:=[[@{spelldc5}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An oversized weapon made of pure incarnum springs into existence and attacks opponents at a distance, as you direct it, dealing 2d6 points of damage per hit.
+In addition, any living creature struck by the incarnum weapon takes 1 point of Wisdom drain (a successful Will save negates the Wisdom drain).
+The weapon takes a form based on your alignment: battleaxe (chaotic), flail (evil), warhammer (good), or longsword (law).
+Casters can choose any weapon whose alignment is not opposed to theirs (neutral casters can choose any of the four weapons).
+Regardless of the weapon's form, it threatens a critical only on a 20 and deals double damage on a critical hit.
+The incarnum weapon strikes the opponent you designate, starting with one attack in the round the spell is cast and continuing each round thereafter on your turn.
+It uses your base attack bonus (possibly allowing it multiple attacks per round in subsequent rounds) plus your Wisdom modifier as its attack bonus.
+It strikes as a spell, not as a weapon; for example, it can damage creatures that have damage reduction.
+The weapon always strikes from your direction.
+It does not get a flanking bonus or help a combatant get one.
+Your feats or combat actions do not affect the weapon.
+If the weapon goes beyond the spell range, if it goes out of your sight, or if you are not directing it, it returns to you and hovers.
+Each round after the first, you can use a move action to redirect the weapon to a new target.
+If you do not, the weapon continues to attack the previous round's target.
+On any round that the weapon switches targets, it gets one attack.
+Subsequent rounds of attacking that target allow the weapon to make multiple attacks if your base attack bonus would allow it to.
+An incarnum weapon cannot be harmed by physical attacks, but it can be affected by any effect that would affect a spell or a soulmeld.
+An incarnum weapon's Armor Class against touch attacks is 11 (10 + size bonus for Small object).
+Essentia: Every point of essentia you invest in the incarnum weapon adds a +1 insight bonus on the weapon's attack rolls and damage rolls and expands the weapon's critical threat range by 1.
+For example, an incarnum weapon spell with 2 points of essentia invested would have a +2 insight bonus on attack rolls and damage rolls and would have a critical threat range of 18-20}}
+
+
+Incarnum Vigor(Magic of Incarnum): - Incarnum(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Incarnum Vigor](https://dndtools.net/spells/magic-of-incarnum--74/incarnum-vigor--1842/) }} {{School:= Transmutation  }} {{Level:= **Incarnum 6**, Cleric 6, Druid 7, Cloistered Cleric 6}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc6}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You infuse the target with incarnum laced with positive energy.
+He gains fast healing 1.
+In addition, any spell he casts that heals hit point damage heals an additional amount to each creature affected by that spell equal to your caster level or twice the healing spell's level, whichever is lower.
+For example, a cleric casting mass cure serious wounds would add either +14 (twice the level of the mass cure serious wounds spell) or the incarnum vigor's caster level, whichever is lower, to the healing provided to each target of the spell.
+Essentia: Every point of essentia you invest in this spell increases the fast healing granted by 1 point}}
+
+
+Incarnum Bladestorm(Magic of Incarnum): - Incarnum(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Incarnum Bladestorm](https://dndtools.net/spells/magic-of-incarnum--74/incarnum-bladestorm--1818/) }} {{School:= Conjuration (Creation) }} {{Level:= **Incarnum 7**, Sorcerer 7, Wizard 7, Arcanist 7}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=Cylinder (20 ft. radius, 40 ft. high)}} {{Duration:=1 round/level}} {{Savingthrow:=Will half }} {{Save DC:=[[@{spelldc7}+@{sf-Conjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell creates a whirling storm of jagged incarnum blades that inflict psychic damage on all within their area.
+This storm of incarnum blades deals 1d6 points of Wisdom damage to all living creatures within the area (Will half).
+This damage is dealt each round at the end of your turn (as well as to any creature who enters the storm).
+You can move the incarnum bladestorm up to 10 feet as a move action.
+Essentia: For every point of essentia you invest, the incarnum blades deal 1 additional point of Wisdom damage.
+Material Component: A handful of needles}}
+
+
+Incarnum Apotheosis(Magic of Incarnum): - Incarnum(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Incarnum Apotheosis](https://dndtools.net/spells/magic-of-incarnum--74/incarnum-apotheosis--1841/) }} {{School:= Transmutation  }} {{Level:= **Incarnum 8**}} {{Components:= V, S}} {{Range:= Touch}} {{Target:=One creature}} {{Duration:=1 round/3 levels}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc8}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your touch suffuses the target with incarnum.
+For the duration of this spell, all soulmelds, incarnum feats, and other incarnum receptacles of the target are treated as if the maximum allowable quantity of essentia had been invested in them.
+The subject is also immune to any effect that would reduce his essentia pool or unshape his soulmelds.
+Essentia: Every point of essentia invested in this spell extends its duration by 1 round}}
+
+
+Soulmeld Disjunction(Magic of Incarnum): - Incarnum(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Soulmeld Disjunction](https://dndtools.net/spells/magic-of-incarnum--74/soulmeld-disjunction--1812/) }} {{School:= Abjuration  }} {{Level:= **Incarnum 9**, Sorcerer 9, Wizard 9, Arcanist 9}} {{Components:= V, S}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=All soulmelds shaped on one creature}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell rips apart the soulmelds shaped on a particular creature, unshaping them in a burst of scattered incarnum.
+Make a caster level check (1d20 + caster level, maximum +25) against each of the soulmelds shaped on the chosen creature (against a DC of 11 + meldshaper level), starting with the soulmeld with the highest essentia investment (break ties randomly).
+Add +4 to the DC if the soulmeld is bound to a chakra.
+Essentia invested in unshaped soulmelds returns to its owner's essentia pool}}

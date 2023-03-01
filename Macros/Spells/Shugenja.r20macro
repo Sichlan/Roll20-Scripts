@@ -1,0 +1,262 @@
+
+
+Protection from Taint(Oriental Adventures): - Shugenja(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Protection from Taint](https://dndtools.net/spells/oriental-adventures--96/protection-from-taint--2024/) }} {{School:= Abjuration  [Good]}} {{Level:= **Shugenja 1**}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 minute/level (D)}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell wards a creature from attacks by Shadowlands creatures and creatures with the Shadowlands Taint, from mental control, and from summoned or conjured creatures.
+It creates a magical barrier around the subject at a distance of 1 foot.
+The barrier moves with the subject and has three major effects:
+First, the subject gets a +2 deflection bonus to AC and a +2 resistance bonus on saves.
+Both these bonuses apply against attacks made by creatures with the Shadowlands subtype and creatures with a Taint score.
+Second, the barrier blocks any attempt to possess the warded creature (as by a magic jar attack) or to exercise mental control over the creature (as by a vampire's supernatural domination ability, which works similar to dominate person).
+The protection does not prevent a vampire's domination itself, but it prevents the vampire from mentally commanding the protected creature.
+If the protection from Taint effect ends before the domination effect does, the vampire would then be able to mentally command the controlled creature.
+Likewise, the barrier keeps out a possessing life force but does not expel one if it is in place before the spell is cast.
+This second effect works regardless of alignment.
+Third, the spell prevents bodily contact by summoned or conjured creatures (see the Monster Manual).
+This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature.
+Good elementals and outsiders are immune to this effect.
+The protection against contact by summoned or conjured creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature.
+Spell resistance can allow a creature to overcome this protection and touch the warded creature}}
+
+
+Bewildering Substitution(Complete Champion): - Shugenja(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Bewildering Substitution](https://dndtools.net/spells/complete-champion--57/bewildering-substitution--614/) }} {{School:= Illusion (Phantasm) }} {{Level:= **Shugenja 2**, Adept 2, Cleric 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You channel the mockery of the trickster deities to sow dissension among your opponents.
+By casting this spell, you cause the subject to believe that one ally and one enemy have traded places.
+The ally physically closest to the subject now seems to have the appearance, voice, clothing, and gear of its nearest enemy, and that enemy looks and sounds exactly like the subject's nearest ally.
+Both the ally and the enemy must be within the spell's range, and the effect ends immediately if either moves out of its range from you.
+The illusion affects only the subject}}
+
+
+Bewildering Visions(Complete Champion): - Shugenja(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Bewildering Visions](https://dndtools.net/spells/complete-champion--57/bewildering-visions--615/) }} {{School:= Illusion (Phantasm) }} {{Level:= **Shugenja 2**, Adept 2, Cleric 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc2}+@{sf-Illusion}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You channel mischievous divine energy to envelop your foe in sickened disorientation.
+This spell makes the world appear to be tossing and rippling in a nauseating manner.
+The subject is sickened for the duration of the spell and must make a Fortitude save or be nauseated.
+This saving throw must be repeated each round}}
+
+
+Bo of Water(Oriental Adventures): - Shugenja(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Bo of Water](https://dndtools.net/spells/oriental-adventures--96/bo-of-water--2060/) }} {{School:= Evocation  [Water]}} {{Level:= **Shugenja 2**}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Effect:=Bolike beam}} {{Duration:=1 minute/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A 6-foot-long staff formed of water, which you can use with proficiency, springs forth from your hands.
+You wield this staff as if it were a quarterstaff.
+Attacks with the bo of water are regular melee attacks.
+The bo deals 1d8 points of damage +1 point per two caster levels (maximum +10).
+The bo is considered a +1 weapon for purposes of overcoming damage reduction}}
+
+
+Horse's Nose(Oriental Adventures): - Shugenja(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Horse's Nose](https://dndtools.net/spells/oriental-adventures--96/horses-nose--2112/) }} {{School:= Transmutation  }} {{Level:= **Shugenja 2**}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 hour/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You gain the Scent special ability (fully described in Chapter 3 of the Dungeon Master's Guide).
+You can detect approaching enemies, sniff out hidden foes, and track by sense of smell.
+You can detect opponents by sense of smell within 30 feet.
+If the opponent is upwind, the range is 60 feet; if it is downwind, the range is only 15 feet.
+Strong and overpowering scents increase the range (as noted in the <span class="caps">DMG</span>).
+You can note a creature's presence; determining the direction of the scent requires a move-equivalent action, and you can pinpoint the creature's location if you move to within 5 feet of it.
+You can make a Wisdom check to find or follow a track by scent.
+The typical DC for a fresh trail is 10.
+Modifiers to the DC are listed in the <span class="caps">DMG</span>.
+Water ruins the trail.
+You can identify familiar odors just like you identify familiar sights.
+However, an odor is not necessarily familiar to you if your only previous exposure to it was while you were not under the influence of horse's nose.
+You only recognize odors that you could detect normally (without the aid of this spell)}}
+
+
+Interfaith Blessing(Complete Champion): - Shugenja(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Interfaith Blessing](https://dndtools.net/spells/complete-champion--57/interfaith-blessing--609/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Shugenja 2**, Adept 2, Cleric 2, Druid 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= 20 ft. Area: 20-ft.-radius burst centered on you}}  {{Duration:=1 minute/level}} {{Savingthrow:=Will negates (harmless) (harmless)}} {{Save DC:=[[@{spelldc2}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=**You feel your deity speaking through you to other gods, filling the space around you with diverse divine energies that strengthen your ally.**
+When you cast **interfaith blessing**, every creature within range is individually blessed by its own deity for the duration of the spell. The specific blessing gained depends on the particular deity worshiped, as given on the table below. A subject that venerates more than one deity must roll randomly to determine which blessing is received.
+<table><tr><th>Deity </th><th>Blessing </th></tr><tr><td> Bahamut, St. Cuthbert, or Yondalla </td><td> +1 on attack rolls and saves </td></tr><tr><td> Boccob, Corellon Larethian, Vecna, or Wee Jas </td><td> +1 on attack rolls and skill checks </td></tr><tr><td> Ehlonna, Obad-Hai, or the general worship of nature </td><td> +1 on attack rolls and to AC </td></tr><tr><td> Erythnul, Gruumsh, or Lolth </td><td> +2 on damage rolls </td></tr><tr><td> Fharlanghn, Moradin, or Pelor </td><td> +2 to AC </td></tr><tr><td> Garl Glittergold, Olidammara, or no deity </td><td> Roll 1d8 to determine blessing; a result of 6 is player's choice </td></tr><tr><td> Heironeous, Hextor, or Nerull </td><td> +2 on attack rolls </td></tr><tr><td> Kord, Kurtulmak, or Tiamat </td><td> +1 on attack rolls and damage rolls </td></tr></table}}
+
+
+Know the Shadows(Oriental Adventures): - Shugenja(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Know the Shadows](https://dndtools.net/spells/oriental-adventures--96/know-the-shadows--2086/) }} {{School:= Illusion (Glamer) }} {{Level:= **Shugenja 2**}} {{Components:= S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You bend surrounding shadows and blend them to yourself, making yourself one with the darkness.
+As long as you remain within 10 feet of some kind of shadow (except your own shadow) or within at least moderate darkness, your ability to hide is greatly enhanced.
+You can hide yourself from view in the open without anything to hide behind, even while being observed, and you gain a +20 circumstance bonus on Hide checks.
+Unlike invisibility, this spell's effects do not end when you attack, though you cannot hide and attack at the same time.
+You are clearly visible while attacking (and thus do not gain a +2 bonus on your attack for being invisible, nor is your target denied its Dexterity bonus to AC), but you can use a move-equivalent action to hide again after attacking (or hide as part of a move action), and you still gain the +20 circumstance bonus on your Hide check.
+Your opponent can ready an action to attack you when you come into view to attack}}
+
+
+Tetsubo of Earth(Oriental Adventures): - Shugenja(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Tetsubo of Earth](https://dndtools.net/spells/oriental-adventures--96/tetsubo-of-earth--2079/) }} {{School:= Evocation  [Earth]}} {{Level:= **Shugenja 2**}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Effect:=Tetsubolike beam}} {{Duration:=1 minute/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A 6-foot-long tetsubo formed of earth springs forth from your hands.
+You wield this weapon with proficiency as if it were a greatclub.
+Attacks with the tetsubo of earth are regular melee attacks.
+The tetsubo deals 1d10 points of damage +1 point per two caster levels (maximum +10).
+The tetsubo is considered a +1 weapon for purposes of overcoming damage reduction}}
+
+
+Yari of Air(Oriental Adventures): - Shugenja(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Yari of Air](https://dndtools.net/spells/oriental-adventures--96/yari-of-air--2083/) }} {{School:= Evocation  [Air]}} {{Level:= **Shugenja 2**}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Effect:=Yarilike beam}} {{Duration:=1 minute/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A 6-foot-long shaft formed of air springs forth from your hands.
+You wield this shaft as if it were a yari (shortspear).
+Attacks with the yari of air are regular melee attacks.
+The yari deals 1d8 points of damage +1 point per two caster levels (maximum +10).
+The yari is considered a +1 weapon for purposes of overcoming damage reduction}}
+
+
+Magic Circle Against Taint(Oriental Adventures): - Shugenja(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Magic Circle Against Taint](https://dndtools.net/spells/oriental-adventures--96/magic-circle-against-taint--2021/) }} {{School:= Abjuration  [Good]}} {{Level:= **Shugenja 3**}} {{Components:= }} {{Range:= }} {{Area:=Emanates 10 ft. from touched creature}} {{Duration:=10 minutes/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As protection from Taint, except that it encompasses a much larger area and its duration is longer.
+Unlike protection from Taint, this spell has a special function that you may choose when casting the spell.
+A magic circle can be focused inward rather than outward.
+In this case, it serves as an immobile, temporary magical prison for a called creature.
+The creature cannot cross the circle's boundaries.
+(See Calling in the Player's Handbook for more information on using this spell in conjunction with calling spells).
+You must beat a creature's spell resistance in order to keep it at bay (as in the third function of protection from evil), but the deflection and resistance bonuses and the protection from mental control apply regardless of enemies' spell resistance.
+If a creature too large to fit into the spell's area is the subject of the spell, the spell acts as a normal protection from Taint spell for that creature only.
+This spell is not cumulative with protection from Taint and vice versa}}
+
+
+Revitalize Legacy, Least(Weapons of Legacy): - Shugenja(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Revitalize Legacy, Least](https://dndtools.net/spells/weapons-of-legacy--91/revitalize-legacy-least--3528/) }} {{School:= Transmutation  }} {{Level:= **Shugenja 3**, Bard 3, Cleric 3, Druid 3, Paladin 3, Ranger 3, Sorcerer 3, Wizard 3, WuJen 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, AF}} {{Arcane Focus:= Your legacy item, which you must be holding, wearing, or wielding}} {{Range:= Touch}} {{Target:=Your legacy item; see text}} {{Duration:=1 hour/level or until expended}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Power Resistance: No
+Choose one of your legacy item's least legacy abilities with a daily use limit.
+You regain one daily use of the chosen ability.
+This use must be expended within the spell's duration, or it is lost.
+If all daily uses of all least legacy abilities of the item are still available, this spell has no effect (that is, it can't increase the number of available daily uses above the normal maximum).
+No legacy item can be affected by this spell more than once in a 24-hour period}}
+
+
+When Two Become One(Oriental Adventures): - Shugenja(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [When Two Become One](https://dndtools.net/spells/oriental-adventures--96/when-two-become-one--2096/) }} {{School:= Necromancy  }} {{Level:= **Shugenja 3**}} {{Components:= V, S, DF}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 round/level (D)}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast this spell, your spirit enters the body of your horse (which you must be riding when you cast the spell) and merges with the horse's own.
+Your own body hunkers low on the horse's back and holds on tight for the duration of the spell; it is a part of the body you and your steed share, but not a particularly useful part.
+As a joint creature, you and your mount share all your skills, feats, and abilities.
+You make all checks, saves, and attack rolls using the better base number (yours or your horse's) and the better ability score modifier.
+You retain your own Intelligence, Wisdom, Charisma, memory, personality, level and class, alignment, and extraordinary and supernatural abilities.
+You gain your horse's Strength, Dexterity, Constitution, speed, natural armor and weapons, and extraordinary abilities.
+Opponents can attack either your body or your mount's.
+Your body uses the mount's Dexterity bonus to AC, not subject to the maximum Dexterity bonus for your armor type, with your own size modifier, armor bonus, and magical bonuses.
+Your mount's body uses its own Dexterity bonus, size modifier, armor bonus, natural armor bonus, and any magical bonuses derived from items on your body other than armor (such as an amulet of natural armor or ring of protection).
+You and your mount share a pool of hit points equal to your combined total hit points.
+When an opponent hits either your body or your mount's,
+the damage is subtracted from this combined pool.
+Neither you nor your mount becomes disabled or dying until all these combined hit points are exhausted.
+When the spell ends, you divide the hit points remaining in the pool as you choose between you and your mount}}
+
+
+Wingblast(Dragon Magic): - Shugenja(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Wingblast](https://dndtools.net/spells/dragon-magic--62/wingblast--1072/) }} {{School:= Evocation/Transmutation  [Air]}} {{Level:= **Shugenja 3**, Druid 3, Sorcerer 3, Wizard 3, Arcanist 3}} {{Components:= V, S}} {{Range:= See text}} {{Effect:=See text}} {{Duration:=1 round/level (D) or until expended; see text}} {{Savingthrow:=None or Fortitude negates; see text }} {{Save DC:=[[@{spelldc3}+@{sf-Evocation}+@{sf-Transmutation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Hazy wings of mist form at your sides, bearing you aloft.
+At your command, the wings transform into a great blast of wind or a cloud of fog.
+When you cast this spell, large wings of mist&#8212;resembling those of a dragon of your choice&#8212;form on your back.
+You can fly at a speed equal to your base land speed (maximum 60 feet) with good maneuverability.
+You can fly if carrying a medium or heavy load or wearing medium or heavy armor.
+As a swift action, you can choose to transform the wings into one of the two effects given below.
+In either case, doing this immediately ends the spell's duration (if you are flying when this occurs, you fall).<ul><li>A 60-foot-long line-shaped gust of severe wind (as the gust of wind spell; a Fortitude save negates the effect and spell resistance applies).</li><li>A 20-foot-radius cloud of fog centered on you (as the obscuring mist spell; no save or spell resistance applies).</li></ul>
+The cloud created lasts for 1 minute}}
+
+
+Fireball(Player's Handbook v.3.5): - Shugenja(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Fireball](https://dndtools.net/spells/players-handbook-v35--6/fireball--2612/) }} {{School:= Evocation  [Fire]}} {{Level:= **Shugenja 4**, Sorcerer 3, Wizard 3, Warmage 3, WuJen 3, Sha'ir 3, Arcanist 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Long ([[400+floor(@{casterlevel2})*40]] ft)}} {{Area:=20-ft.-radius spread}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex half }} {{Save DC:=[[@{spelldc4}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A fireball spell is an explosion of flame that detonates with a low roar and deals 1d6 points of fire damage per caster level (maximum 10d6) to every creature within the area. Unattended objects also take this damage. The explosion creates almost no pressure.
+You point your finger and determine the range (distance and height) at which the fireball is to burst. A glowing, pea-sized bead streaks from the pointing digit and, unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, blossoms into the **fireball** at that point. (An early impact results in an early detonation). If you attempt to send the bead through a narrow passage, such as through an arrow slit, you must &quot;hit&quot; the opening with a ranged touch attack, or else the bead strikes the barrier and detonates prematurely.
+The **fireball** sets fire to combustibles and damages objects in the area. It can melt metals with low melting points, such as lead, gold, copper, silver, and bronze. If the damage caused to an interposing barrier shatters or breaks through it, the fireball may continue beyond the barrier if the area permits; otherwise it stops at the barrier just as any other spell effect does.
+Material Component: A tiny ball of bat guano and sulfur}}
+
+
+Jade Strike(Oriental Adventures): - Shugenja(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Jade Strike](https://dndtools.net/spells/oriental-adventures--96/jade-strike--2073/) }} {{School:= Evocation  [Good]}} {{Level:= **Shugenja 4**}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=20-ft.-radius burst}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex half }} {{Save DC:=[[@{spelldc4}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You call up holy jade power to smite your enemies.
+Only Tainted creatures, undead, and creatures with the Shadowlands subtype are harmed by the spell; other creatures are unaffected.
+The spell deals 1d8 points of damage per two caster levels (maximum 5d8) to undead and creatures with the Shadowlands subtype, and blinds them for 1 round.
+A successful Reflex save reduces damage to half and negates the blinding effect.
+The spell deals only half damage against creatures with a Taint score (and without the Shadowlands subtype), and they are not blinded.
+They can reduce the damage in half again (down to one-quarter of the roll) with a successful Reflex save.
+In addition to the obvious effects, a blinded creature suffers a 50% miss chance in combat (all opponents have full concealment), loses any Dexterity bonus to AC, grants a +2 bonus on attackers' attack rolls (they are effectively invisible), moves at half speed, and suffers a <del>4 penalty on most Strength</del> and Dexterity-based skills}}
+
+
+Bewildering Mischance(Complete Champion): - Shugenja(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Bewildering Mischance](https://dndtools.net/spells/complete-champion--57/bewildering-mischance--606/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Shugenja 5**, Adept 5, Cleric 5, Cloistered Cleric 5}} {{Components:= V, S, DF}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One living creature}} {{Duration:=1 round/level}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc5}+@{sf-Enchantment}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Your deity's laughter rains down on your suddenly clumsy foe.
+Bewildering mischance causes extreme bad luck to befall the target.
+For the duration of the spell, the subject must roll each saving throw, attack roll, and skill check twice, keeping the lower of the two rolls}}
+
+
+Circle of Flame(Oriental Adventures): - Shugenja(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Circle of Flame](https://dndtools.net/spells/oriental-adventures--96/circle-of-flame--2062/) }} {{School:= Evocation  [Fire]}} {{Level:= **Shugenja 5**}} {{Components:= V, S}} {{Range:= 20 ft.}} {{Area:=All creatures within a 20-ft.-radius burst centered on you}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex half }} {{Save DC:=[[@{spelldc5}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Fire bursts in all directions from the point of origin, dealing 1d8 points of damage +1 point per caster level (maximum +20) to nearby creatures}}
+
+
+Dispel Taint(Oriental Adventures): - Shugenja(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Dispel Taint](https://dndtools.net/spells/oriental-adventures--96/dispel-taint--2014/) }} {{School:= Abjuration  [Good]}} {{Level:= **Shugenja 5**}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=You and a touched evil creature from another plane; or you and an enchantment or evil spell on a touched creature or object}} {{Duration:=1 round/level or until discharged, whichever comes first}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc5}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Shimmering, white, holy energy surrounds you.
+This power has three effects:
+1. You gain a +4 deflection bonus to AC against attacks by Shadowlands creatures and creatures with a Taint score.
+2. On making a successful melee touch attack against an oni or another outsider or elemental with the Shadowlands subtype, you can choose to drive that creature back to its home plane.
+The creature negates the effects with a Will save (SR applies).
+This use discharges and ends the spell.
+3. With a touch, you can automatically dispel any one spell cast by a Tainted creature or any one maho spell.
+Exception: Spells that can't be dispelled by dispel magic also can't be dispelled by dispel Taint.
+Saving throws and spell resistance do not apply to this effect.
+This use discharges and ends the spell}}
+
+
+Lord of the Sky(Dragon Magic): - Shugenja(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Lord of the Sky](https://dndtools.net/spells/dragon-magic--62/lord-of-the-sky--1071/) }} {{School:= Evocation/Transmutation  [Electricity]}} {{Level:= **Shugenja 5**, Sorcerer 5, Wizard 5, Arcanist 5}} {{Components:= V, S}} {{Range:= Personal}} {{Target:=You}} {{Duration:=1 minute/level}} {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A swirling cloud of black mist surrounds you, shot through with bolts of lightning and covering you in powerful magic.
+By casting this spell, you become more formidable in aerial combat, allowing you to deal with airborne enemies more easily.
+You can fly at a speed of 40 feet with good maneuverability (or 30 feet if you wear medium or heavy armor, or carry a medium or heavy load).
+If you already have a fly speed of 40 feet or greater, your fly speed improves by 10 feet, and your maneuverability improves to good (unless it's already better than that).
+While airborne, you can use a swift action each round to fire a bolt of magical lightning as a ranged touch attack against any other airborne target within 60 feet.
+This attack deals 1 point of electricity damage per caster level (maximum 20 points) and reduces the target's fly speed to 1/2 normal for the duration of the spell.
+This speed reduction doesn't stack, so attacking the same target multiple times yields no extra reduction in fly speed (but continues to deal damage).
+Furthermore, while this spell is active, you can activate one lightning bolt (as the spell) as a standard action.
+Doing so ends the duration of lord of the sky, and if you do not have a natural fly speed, you drift to the ground as per the fly spell.
+Special: If you are of the dragonblood subtype (see page 4), this spell grants you a fly speed of 60 feet (or 40 if encumbered as described above).
+Dragonblooded casters who already have a fly speed of 60 feet or greater instead gain a +10-foot improvement to their fly speed}}
+
+
+Revitalize Legacy, Lesser(Weapons of Legacy): - Shugenja(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Revitalize Legacy, Lesser](https://dndtools.net/spells/weapons-of-legacy--91/revitalize-legacy-lesser--3529/) }} {{School:= Transmutation  }} {{Level:= **Shugenja 5**, Bard 5, Cleric 5, Druid 5, Sorcerer 5, Wizard 5, WuJen 5, Cloistered Cleric 5, Arcanist 5}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like least revitalize legacy, except that you regain one daily use of a chosen lesser ability}}
+
+
+Master of the Rolling River(Oriental Adventures): - Shugenja(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Master of the Rolling River](https://dndtools.net/spells/oriental-adventures--96/master-of-the-rolling-river--2075/) }} {{School:= Evocation  [Water]}} {{Level:= **Shugenja 6**, River 6}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One or more creatures in a 20-ft.-radius burst}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex half }} {{Save DC:=[[@{spelldc6}+@{sf-Evocation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast this spell, you create a huge wave of water that slams into one or more targets within range.
+If there is no large, natural source of water (a river, lake, or ocean) within the spell range, you can affect only one target.
+If such a source of water exists within the range of the spell, the spell creates a burst centered on a location you designate.
+In either case, the water deals 1d8 points of damage per two caster levels (maximum 7d8) to the target or to creatures within the area.
+In addition, all affected creatures suffer a bull rush attack, forcing them to make opposed Strength checks against the wave of water.
+The water has an effective Strength of 16 and is considered Medium-size (or 20 and Large if cast near water).
+You designate the direction the wave pushes when you cast the spell; creatures who lose the opposed Strength check are pushed 5 feet, plus 1 foot for every point by which the wave beats their Strength checks, in that direction.
+It is possible for a wave arising from a body of water to push characters into the water.
+The wave puts out torches, campfires, exposed lanterns, and other open flames if they are carried by the target or located within the area and they are of Large size or smaller.
+Magical fires are targeted by a dispel magic effect as if you had cast that spell}}
+
+
+Yakamo's Anger(Oriental Adventures): - Shugenja(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Yakamo's Anger](https://dndtools.net/spells/oriental-adventures--96/yakamos-anger--2082/) }} {{School:= Evocation  [Light]}} {{Level:= **Shugenja 6**}} {{Components:= V, S, DF}} {{Range:= 10 feet}} {{Area:=All sighted creatures within a 10-ft.-radius burst centered on you}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex negates }} {{Save DC:=[[@{spelldc6}+@{sf-Evocation}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell unleashes the anger of the sun deity in a blinding flash originating with you and expanding outward.
+Any creature within the area of the spell that can see you must make a saving throw or be temporarily blinded.
+The blindness lasts for 1 minute per caster level.
+In addition to the obvious effects, a blinded creature suffers a 50% miss chance in combat (all opponents have full concealment), loses any Dexterity bonus to AC, grants a +2 bonus on attackers' attack rolls (they are effectively invisible), moves at half speed, and suffers a <del>4 penalty on Search checks and most Strength</del> and Dexterity-based skill checks.
+Sightless creatures are not affected by Yakamo's anger}}
+
+
+Tomb of Jade(Oriental Adventures): - Shugenja(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Tomb of Jade](https://dndtools.net/spells/oriental-adventures--96/tomb-of-jade--2130/) }} {{School:= Transmutation  }} {{Level:= **Shugenja 7**}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Shadowlands creature touched}} {{Duration:=Concentration}} {{Savingthrow:=Fortitude partial }} {{Save DC:=[[@{spelldc7}+@{sf-Transmutation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=When you cast this spell, you attempt to draw out the impure substance of a Tainted creature and replace it with your own pure substance.
+The spell is draining for you to cast, but it is deadly to creatures that are infected with the Shadowlands Taint.
+You can only cast this spell on a Shadowlands creature (a creature with the Shadowlands subtype or with a Taint score).
+When you touch the creature, it must make a Fortitude saving throw.
+If it succeeds, it is unaffected by the spell.
+If it fails, its skin turns to jade and it is immobilized, standing helpless.
+The creature is aware and breathes normally, but cannot take any physical actions, even speech.
+It can, however, execute purely mental actions (such as using a spell-like ability).
+The effect is similar to that of hold person.
+Each round you maintain the spell, the creature must attempt another Fortitude save.
+If it fails the save, it takes 1d6 points of permanent Constitution drain.
+Each round you maintain the spell, however, you take 1d6 points of subdual damage.
+If you fall unconscious, or if the creature succeeds at its Fortitude save, the spell ends.
+Material Component: A finger of jade worth at least 50 gp}}
+
+
+Words of the Kami(Oriental Adventures): - Shugenja(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Words of the Kami](https://dndtools.net/spells/oriental-adventures--96/words-of-the-kami--2081/) }} {{School:= Evocation  [Sonic]}} {{Level:= **Shugenja 7**}} {{Components:= V}} {{Range:= 30 ft.}} {{Area:=Creatures in a 30-ft.-radius spread centered on you}} {{Duration:=Instantaneous}} {{Savingthrow:=None }}  {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=To utter the holy words of the kami is to bring forth magic of awesome power.
+Creatures with the Shadowlands subtype or with a Taint score suffer the following ill effects:
+The effects are cumulative.
+Deafened: The creature is deafened for 1d4 rounds.
+A deafened creature, in addition to the obvious effects, automatically fails Listen checks, suffers a -4 penalty on initiative, and has a 20% chance to miscast and lose any spell with a verbal (V) component that it tries to cast.
+Blinded: The creature is blinded for 2d4 rounds.
+In addition to the obvious effects, a blinded creature suffers a 50% miss chance in combat (all opponents have full concealment), loses any Dexterity bonus to AC, grants a +2 bonus on attackers' attack rolls (they are effectively invisible), moves at half speed, and suffers a <del>4 penalty on most Strength</del> and Dexterity-based skill checks.
+Paralyzed: The creature is paralyzed and helpless for 1d10 minutes, unable to move or act in any way.
+Killed: Living creatures die.
+Undead creatures are destroyed.
+Creatures free of Taint and without the Shadowlands subtype, including the spellcaster, are deafened for 1d4 rounds, regardless of their Hit Dice}}
+
+
+Jade Aura(Oriental Adventures): - Shugenja(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Jade Aura](https://dndtools.net/spells/oriental-adventures--96/jade-aura--2020/) }} {{School:= Abjuration  [Good]}} {{Level:= **Shugenja 9**}} {{Components:= V, S, AF}} {{Arcane Focus:= A tiny statue carved from jade, representing one of the Seven Fortunes.
+The statue costs at least 500 gp}} {{Range:= 20 ft.}} {{Target:=One creature/level in a 20-ft.-radius burst centered on you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=See text (harmless)}} {{Save DC:=[[@{spelldc9}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A radiance of shimmering jade color surrounds the subjects, protecting them from attacks, granting them resistance to maho and other evil magic, and blinding Tainted and Shadowlands creatures when they strike the subjects.
+This abjuration has four effects.
+First, the warded creatures gain a +4 deflection bonus to AC and a +4 resistance bonus on saves.
+Unlike protection from Taint, this benefit applies against all attacks, not just against attacks by Tainted creatures.
+Second, the warded creatures gain SR 25 against evil spells and spells cast by maho-tsukai, oni, or other Tainted or Shadowlands creatures.
+Third, the abjuration blocks possession and mental influence, just as protection from Taint does.
+Finally, if a creature with a Taint score or the Shadowlands subtype succeeds at a melee attack against a warded creature, the offending attacker is blinded (Fortitude save negates, as blindness/deafness, but against jade aura's save DC)}}
+
+
+Revitalize Legacy, Greater(Weapons of Legacy): - Shugenja(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name} }} {{subtags=casts [Revitalize Legacy, Greater](https://dndtools.net/spells/weapons-of-legacy--91/revitalize-legacy-greater--3527/) }} {{School:= Transmutation  }} {{Level:= **Shugenja 9**, Cleric 9, Druid 9, Sorcerer 9, Wizard 9, WuJen 9, Cloistered Cleric 9, Arcanist 9}} {{Components:= }} {{Range:= }}   {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like least revitalize legacy, except that you regain one daily use of a chosen greater legacy ability}}

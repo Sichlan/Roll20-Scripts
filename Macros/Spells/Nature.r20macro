@@ -1,0 +1,44 @@
+
+
+Trance(Oriental Adventures): - Nature(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Trance](https://dndtools.net/spells/oriental-adventures--96/trance--2052/) }} {{School:= Divination  }} {{Level:= **Nature 1**, Shaman 1}} {{Components:= V, S}} {{Range:= 120 ft.}} {{Area:=120 ft. spread, centered on you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You place yourself in a deep trance, during which you cannot move, speak, or take any action.
+In the trance, you are highly attuned to the powers and forces in the immediate area.
+You can sense certain magical creatures and effects within the spell's area.
+Each round you remain in the trance, you feel the presence of any one lesser spirit, greater spirit, curse, permanent magical effect, or haunting within the spell's area.
+You can determine the general type of thing contacted (such as natural spirit, evil haunting), but cannot communicate with it in any way or gain any other information about it.
+Using this spell does give you enough information to subsequently cast commune with lesser spirit or a similar spell to communicate with the spirit you desire to contact}}
+
+
+Commune With Lesser Spirit(Complete Arcane): - Nature(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Commune With Lesser Spirit](https://dndtools.net/spells/complete-arcane--55/commune-with-lesser-spirit--485/) }} {{School:= Divination  }} {{Level:= **Nature 2**, WuJen 3, Shaman 2, Celestial 2}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= 10 ft.}} {{Target:=One lesser spirit}} {{Duration:=1 min./level}} {{Savingthrow:=Will negates; see text }} {{Save DC:=[[@{spelldc2}+@{sf-Divination}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You contact any local spirit creature with 4 or fewer Hit Dice and can ask it up to one question per two caster levels.
+You must know the identity of the spirit, and you must be within 10 feet of the spirit's location.
+The spirit's knowledge is limited to matters within its immediate area (so that the spirit of a great tree in a village cannot answer questions about events outside the village, for example), and you must ask questions that could typically have one-word answers.
+&quot;Unclear&quot; is a legitimate answer, because spirits are not necessarily omniscient, but in cases where a one-word answer would be misleading or contrary to the spirit's interests, the DM can respond with a short phrase (five words or less) instead.
+If the spirit has been subject to commune with lesser spirit (or commune with greater spirit) within the past week, this spell fails.
+As well, if the spirit's alignment is different from yours, it gets a Will save to resist the spell.
+Unasked questions are wasted if the spell's duration expires.
+Material Component: Incense and a small offering worth 10 gp}}
+
+
+Possess Animal(Player's Guide to Faerûn): - Nature(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Possess Animal](https://dndtools.net/spells/players-guide-to-faerun--22/possess-animal--2275/) }} {{School:= Necromancy  }} {{Level:= **Nature 3**, Shaman 3, Initiateofmalar 3}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Target:=One animal}} {{Duration:=1 round/level (D)}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc3}+@{sf-Necromancy}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You project your spirit into the body of an animal, forcing it to behave as you direct.
+The target must be a normal animal (not a magical beast, vermin, or other monster type), and your caster level must exceed its Hit Dice.
+The animal's soul remains in its body but has no control over it while your spirit is there.
+Your own body lies comatose for the duration of the spell.
+While in the animal's body, you keep your Intelligence, Wisdom, Charisma, level, classes, base attack bonus, base save bonuses, alignment, and mental abilities.
+You can cast spells while you possess the animal only if you have the Natural Spell feat or an equivalent ability, and you can't activate the body's extraordinary or supernatural abilities.
+Furthermore, for every 2 points of damage taken by the animal body while you are possessing it, you take 1 point of damage.
+If the animal body is killed while you are possessing it, you must make a DC 10 Fortitude save or die as well.
+If your body is destroyed while your spirit is in the animal's body, you die at the end of the spell's duration.
+Material Component: A bowl of incense and a morsel of food appealing to the target animal}}
+
+
+Elemental Ward(Complete Arcane): - Nature(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Elemental Ward](https://dndtools.net/spells/complete-arcane--55/elemental-ward--438/) }} {{School:= Abjuration  }} {{Level:= **Nature 4**, WuJen 4}} {{Components:= V, S, M}} {{Material Component:= }} {{Range:= 60 ft.}} {{Area:=60-ft.-radius emanation, centered on you}} {{Duration:=1 minute}} {{Savingthrow:=Will negates }} {{Save DC:=[[@{spelldc4}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell allows you to drive off elementals of a specific type by uttering a fearsome cry.
+When you cast the spell, any elemental within the spell's area must leave the area unless it makes a successful Will save.
+If you try to force the barrier against an elemental that has failed its saving throw, the spell fails.
+Material Component: A small quantity of the element opposed to the type being warded against&#8212;fire for water elementals, earth for air elementals, air for earth elementals, or water for fire elementals}}
+
+
+Commune With Greater Spirit(Complete Arcane): - Nature(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Commune With Greater Spirit](https://dndtools.net/spells/complete-arcane--55/commune-with-greater-spirit--484/) }} {{School:= Divination  }} {{Level:= **Nature 5**, WuJen 7, Shaman 5, Celestial 5, Divination 5}} {{Components:= V, S, M, XP}} {{Material Component:= Incense and a small offering worth 25 gp}} {{XP-Cost= 100 XP}} {{Range:= }} {{Target:=One spirit}}  {{Savingthrow:= }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=As commune with lesser spirit, except this spell can contact any spirit creature regardless of Hit Dice, and you can ask one question per caster level}}

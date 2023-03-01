@@ -1,0 +1,110 @@
+
+
+Protection from Evil(Player's Handbook v.3.5): - Good(1)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Protection from Evil](https://dndtools.net/spells/players-handbook-v35--6/protection-from-evil--2348/) }} {{School:= Abjuration  [Good]}} {{Level:= **Good 1**, Cleric 1, Savant 1, Sha'ir 1, DivineBard 1, KnightoftheChalice 1, VassalofBahamut 1, RunescarredBerserker 1, Healer 1, Adept 1, Wizard 1, Sorcerer 1, Paladin 1, Demonologist 1, Elysium 1, Cloistered Cleric 1, Arcanist 1}} {{Components:= V, S, M, DF}} {{Material Component:= }} {{Range:= Touch}} {{Target:=Creature touched}} {{Duration:=1 min./level (D)}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc1}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.
+First, the subject gains a +2 deflection bonus to AC and a +2 resistance bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures.
+Second, the barrier blocks any attempt to possess the warded creature (by a magic jar attack, for example) or to exercise mental control over the creature (including enchantment (charm) effects and enchantment (compulsion) effects that grant the caster ongoing control over the subject, such as dominate person). The protection does not prevent such effects from targeting the protected creature, but it suppresses the effect for the duration of the protection from evil effect. If the protection from evil effect ends before the effect granting mental control does, the would-be controller would then be able to mentally command the controlled creature. Likewise, the barrier keeps out a possessing life force but does not expel one if it is in place before the spell is cast. This second effect works regardless of alignment.
+Third, the spell prevents bodily contact by summoned creatures. This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. Good summoned creatures are immune to this effect. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature. Spell resistance can allow a creature to overcome this protection and touch the warded creature.
+**Arcane Material Component:** A little powdered silver with which you trace a 3-foot -diameter circle on the floor (or ground) around the creature to be warded}}
+
+
+Aid(Player's Handbook v.3.5): - Good(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Aid](https://dndtools.net/spells/players-handbook-v35--6/aid--2523/) }} {{School:= Enchantment (Compulsion) }} {{Level:= **Good 2**, Cleric 2, Adept 2, KnightoftheChalice 2, Luck 2, Arborea 2, Courage 2, ReveredAncestor 2, Cloistered Cleric 2}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=Living creature touched}} {{Duration:=1 min./level}} {{Savingthrow:=None (harmless)}}  {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Aid grants the target a +1 morale bonus on attack rolls and saves against fear effects, plus temporary hit points equal to 1d8 + caster level (to a maximum of 1d8+10 temporary hit points at caster level 10th)}}
+
+
+Magic Circle Against Evil(Player's Handbook v.3.5): - Good(3)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Magic Circle Against Evil](https://dndtools.net/spells/players-handbook-v35--6/magic-circle-against-evil--2335/) }} {{School:= Abjuration  [Good]}} {{Level:= **Good 3**, Cleric 3, Savant 3, WuJen 3, DivineBard 3, KnightoftheChalice 3, VassalofBahamut 3, Wizard 3, Sorcerer 3, Paladin 3, Sha'ir 3, Elysium 3, Cloistered Cleric 3, Arcanist 3}} {{Components:= V, S, M, DF}} {{Material Component:= A little powdered silver with which you trace a 3-footdiameter circle on the floor (or ground) around the creature to be warded}} {{Range:= Touch}} {{Area:=10-ft.-radius emanation from touched creature}} {{Duration:=10 min./level}} {{Savingthrow:=Will negates (harmless) }} {{Save DC:=[[@{spelldc3}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=All creatures within the area gain the effects of a protection from evil spell, and no nongood summoned creatures can enter the area either.
+You must overcome a creature's spell resistance in order to keep it at bay (as in the third function of protection from evil), but the deflection and resistance bonuses and the protection from mental control apply regardless of enemies' spell resistance.
+This spell has an alternative version that you may choose when casting it.
+A magic circle against evil can be focused inward rather than outward.
+When focused inward, the spell binds a nongood called creature (such as those called by the lesser planar binding, planar binding, and greater planar binding spells) for a maximum of 24 hours per caster level, provided that you cast the spell that calls the creature within 1 round of casting the magic circle.
+The creature cannot cross the circle's boundaries.
+If a creature too large to fit into the spell's area is the subject of the spell, the spell acts as a normal protection from evil spell for that creature only.
+A magic circle leaves much to be desired as a trap.
+If the circle of powdered silver laid down in the process of spellcasting is broken, the effect immediately ends.
+The trapped creature can do nothing that disturbs the circle, directly or indirectly, but other creatures can.
+If the called creature has spell resistance, it can test the trap once a day.
+If you fail to overcome its spell resistance, the creature breaks free, destroying the circle.
+A creature capable of any form of dimensional travel (astral projection, blink, dimension door, etherealness, gate, plane shift, shadow walk, teleport, and similar abilities) can simply leave the circle through that means.
+You can prevent the creature's extradimensional escape by casting a dimensional anchor spell on it, but you must cast the spell before the creature acts.
+If you are successful, the anchor effect lasts as long as the magic circle does.
+The creature cannot reach across the magic circle, but its ranged attacks (ranged weapons, spells, magical abilities, and the like) can.
+The creature can attack any target it can reach with its ranged attacks except for the circle itself.
+You can add a special diagram (a two-dimensional bounded figure with no gaps along its circumference, augmented with various magical sigils) to make the magic circle more secure.
+Drawing the diagram by hand takes 10 minutes and requires a DC 20 Spellcraft check.
+The DM makes this check secretly.
+If the check fails, the diagram is ineffective.
+You can take 10 (see page 65) when drawing the diagram if you are under no particular time pressure to complete the task.
+This task also takes 10 full minutes.
+If time is no factor at all, and you devote 3 hours and 20 minutes to the task, you can take 20.
+A successful diagram allows you to cast a dimensional anchor spell on the magic circle during the round before casting any summoning spell.
+The anchor holds any called creatures in the magic circle for 24 hours per caster level.
+A creature cannot use its spell resistance against a magic circle prepared with a diagram, and none of its abilities or attacks can cross the diagram.
+If the creature tries a Charisma check to break free of the trap (see the lesser planar binding spell), the DC increases by 5.
+The creature is immediately released if anything disturbs the diagram&#8212;even a straw laid across it.
+However, the creature itself cannot disturb the diagram either directly or indirectly, as noted above.
+This spell is not cumulative with protection from evil and vice versa}}
+
+
+Holy Smite(Player's Handbook v.3.5): - Good(4)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Holy Smite](https://dndtools.net/spells/players-handbook-v35--6/holy-smite--2621/) }} {{School:= Evocation  [Good]}} {{Level:= **Good 4**, KnightoftheChalice 4, Glory 4, Elysium 4}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Area:=20-ft.-radius burst}} {{Duration:=Instantaneous (1 round); see text}} {{Savingthrow:=Will partial; see text }} {{Save DC:=[[@{spelldc4}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You draw down holy power to smite your enemies.
+Only evil and neutral creatures are harmed by the spell; good creatures are unaffected.
+The spell deals 1d8 points of damage per two caster levels (maximum 5d8) to each evil creature in the area (or 1d6 points of damage per caster level, maximum 10d6, to an evil outsider) and causes it to become blinded for 1 round.
+A successful Will saving throw reduces damage to half and negates the blinded effect.
+The spell deals only half damage to creatures who are neither good nor evil, and they are not blinded.
+Such a creature can reduce that damage by half (down to one-quarter of the roll) with a successful Will save}}
+
+
+Dispel Evil(Player's Handbook v.3.5): - Good(5)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Dispel Evil](https://dndtools.net/spells/players-handbook-v35--6/dispel-evil--2312/) }} {{School:= Abjuration  [Good]}} {{Level:= **Good 5**, Paladin 4, VassalofBahamut 4, KnightoftheChalice 4, Cleric 5, Elysium 5, Cloistered Cleric 5}} {{Components:= V, S, DF}} {{Range:= Touch}} {{Target:=You and a touched evil creature from another plane; or you and an enchantment or evil spell on a touched creature or object}} {{Duration:=1 round/level or until discharged, whichever comes first}} {{Savingthrow:=See text }} {{Save DC:=[[@{spelldc5}+@{sf-Abjuration}]]}} {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Shimmering, white, holy energy surrounds you.
+This power has three effects.
+First, you gain a +4 deflection bonus to AC against attacks by evil creatures.
+Second, on making a successful melee touch attack against an evil creature from another plane, you can choose to drive that creature back to its home plane.
+The creature can negate the effects with a successful Will save (spell resistance applies).
+This use discharges and ends the spell.
+Third, with a touch you can automatically dispel any one enchantment spell cast by an evil creature or any one evil spell.
+Exception: Spells that can't be dispelled by dispel magic also can't be dispelled by dispel evil.
+Saving throws and spell resistance do not apply to this effect.
+This use discharges and ends the spell}}
+
+
+Blade Barrier(Player's Handbook v.3.5): - Good(6)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Blade Barrier](https://dndtools.net/spells/players-handbook-v35--6/blade-barrier--2588/) }} {{School:= Evocation  [Force]}} {{Level:= **Good 6**, Cleric 6, Warmage 6, DeathMaster 6, War 6, Celestia 6, Metal 6, Cloistered Cleric 6}} {{Components:= V, S}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Effect:=Wall of whirling blades up to 20 ft. long/level, or a ringed wall of whirling blades with a radius of up to 5 ft. per two levels; either form 20 ft. high}} {{Duration:=1 min./level (D)}} {{Savingthrow:=Reflex half or Reflex negates; see text }} {{Save DC:=[[@{spelldc6}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=An immobile, vertical curtain of whirling blades shaped of pure force springs into existence.
+Any creature passing through the wall takes 1d6 points of damage per caster level (maximum 15d6), with a Reflex save for half damage.
+If you evoke the barrier so that it appears where creatures are, each creature takes damage as if passing through the wall.
+Each such creature can avoid the wall (ending up on the side of its choice) and thus take no damage by making a successful Reflex save.
+A blade barrier provides cover (+4 bonus to AC, +2 bonus on Reflex saves) against attacks made through it}}
+
+
+Holy Word(Player's Handbook v.3.5): - Good(7)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Holy Word](https://dndtools.net/spells/players-handbook-v35--6/holy-word--2623/) }} {{School:= Evocation  [Good][Sonic]}} {{Level:= **Good 7**, Cleric 7, Elysium 7, Mysticism 7, Cloistered Cleric 7}} {{Components:= V}} {{Range:= 40 ft.}} {{Area:=Nongood creatures in a 40-ft.-radius spread centered on you}} {{Duration:=Instantaneous}} {{Savingthrow:=None or Will negates; see text }} {{Save DC:=[[@{spelldc7}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=Any nongood creature within the area that hears the holy word suffers the following ill effects.
+The effects are cumulative and concurrent.
+No saving throw is allowed against these effects.
+Deafened: The creature is deafened for 1d4 rounds.
+Blinded: The creature is blinded for 2d4 rounds.
+Paralyzed: The creature is paralyzed and helpless for 1d10 minutes.
+Killed: Living creatures die.
+Undead creatures are destroyed.
+Furthermore, if you are on your home plane when you cast this spell, nongood extraplanar creatures within the area are instantly banished back to their home planes.
+Creatures so banished cannot return for at least 24 hours.
+This effect takes place regardless of whether the creatures hear the holy word.
+The banishment effect allows a Will save (at a -4 penalty) to negate.
+Creatures whose HD exceed your caster level are unaffected by holy word}}
+
+
+Holy Aura(Player's Handbook v.3.5): - Good(8)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Holy Aura](https://dndtools.net/spells/players-handbook-v35--6/holy-aura--2332/) }} {{School:= Abjuration  [Good]}} {{Level:= **Good 8**, Cleric 8, Healer 8, Elysium 8, Mysticism 8, Celestial 8, Cloistered Cleric 8}} {{Components:= V, S, AF}} {{Arcane Focus:= A tiny reliquary containing some sacred relic, such as a scrap of cloth from a saint's robe or a piece of parchment from a holy text. The reliquary costs at least 500 gp}} {{Range:= 20 ft.}} {{Target:=One creature/level in a 20-ft.-radius burst centered on you}} {{Duration:=1 round/level (D)}} {{Savingthrow:=See text (harmless)}} {{Save DC:=[[@{spelldc8}+@{sf-Abjuration}]]}} {{Spellresistance:=Yes (harmless)}}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=A brilliant divine radiance surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by evil creatures, and causing evil creatures to become blinded when they strike the subjects. This abjuration has four effects.
+First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike protection from evil, this benefit applies against all attacks, not just against attacks by evil creatures.
+Second, each warded creature gains spell resistance 25 against evil spells and spells cast by evil creatures.
+Third, the abjuration blocks possession and mental influence, just as protection from evil does.
+Finally, if an evil creature succeeds on a melee attack against a warded creature, the offending attacker is blinded (Fortitude save negates, as blindness/deafness, but against holy aura's save DC)}}
+
+
+Summon Monster IX(Player's Handbook v.3.5): - Good(9)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Summon Monster IX](https://dndtools.net/spells/players-handbook-v35--6/summon-monster-ix--2449/) }} {{School:= Conjuration (Summoning) }} {{Level:= **Good 9**, Cleric 9, Sorcerer 9, Wizard 9, WuJen 9, Sha'ir 9, Chaos 9, Evil 9, Law 9, Celestia 9, Abyss 9, Arborea 9, Baator 9, Cloistered Cleric 9, Arcanist 9}} {{Components:= V, S, AF, DF}} {{Arcane Focus:= A tiny bag and a small (not necessarily lit) candle}} {{Range:= Close([[25 + floor(@{casterlevel2}/ 2) * 5]] ft)}} {{Effect:=One or more summoned creatures, no two of which can be more than 30 ft. apart}} {{Duration:=1 round/level (D)}} {{Savingthrow:=None }}  {{Spellresistance:=No }}  {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=This spell functions like <a href="/spells/players-handbook-v35--6/summon-monster-i--2441/">**summon monster I**</a>, except that you can summon one creature from the 9th-level list, 1d3 creatures of the same kind from the 8th-level list, or 1d4+1 creatures of the same kind from a lower-level list.
+Arcane Focus: A tiny bag and a small (not necessarily lit) candle.
+<h4>Special</h4>When casting **Summon Monster IX** as a Abyss Domain spell, only Chaotic Evil creatures may be summoned.
+When casting **Summon Monster IX** as a Arborea Domain spell, only Chaotic Good creatures may be summoned.
+When casting **Summon Monster IX** as a Baator Domain spell, only Lawful Evil creatures may be summoned.
+When casting **Summon Monster IX** as a Celestia Domain spell, only Lawful Good creatures may be summoned.
+<h4>9TH <span class="caps">LEVEL</span></h4><table><tr><th><strong>Monster</strong> </th><th><strong>Alignement</strong> </th></tr><tr><td> Couatl </td><td> LG </td></tr><tr><td> Leonal (guardinal) </td><td> NG </td></tr><tr><td> Celestial roc </td><td> CG </td></tr><tr><td> Elemental, elder (any) </td><td> N </td></tr><tr><td> Slaad, green </td><td> CN </td></tr><tr><td> Devil, barbed </td><td> LE </td></tr><tr><td> Fiendish dire shark <sup>1</sup> </td><td> NE </td></tr><tr><td> Fiendish monstrous scorpion, Gargantuan </td><td> NE </td></tr><tr><td> Night hag </td><td> NE </td></tr><tr><td> Bebilith (demon) </td><td> CE </td></tr><tr><td> Fiendish monstrous spider, Colossal </td><td> CE </td></tr><tr><td> Hezrou (demon) </td><td> CE </td></tr><tr><td colspan="2"><sup>1</sup> may be summoned only into an aquatic or watery environment </td></tr></table}}

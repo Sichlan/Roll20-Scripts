@@ -1,0 +1,7 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;2:=[View](~Guardian-Spell-Level-2)}} {{Spelllevel&nbsp;3:=[View](~Guardian-Spell-Level-3)}} {{Spelllevel&nbsp;4:=[View](~Guardian-Spell-Level-4)}} {{Spelllevel&nbsp;8:=[View](~Guardian-Spell-Level-8)}} 
+
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-Guardian)}} {{Warning:=[View](~Guardian-Warning-Description) [Send](~Guardian-Warning-Cast)}} ]
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-Guardian)}} {{Substitution:=[View](~Guardian-Substitution-Description) [Send](~Guardian-Substitution-Cast)}} ]
+[4, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 4 }} {{subtags=[Back to Main Menu](~Spells-Main-Guardian)}} {{Snake Barrier:=[View](~Guardian-Snake-Barrier-Description) [Send](~Guardian-Snake-Barrier-Cast)}} ]
+[8, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 8 }} {{subtags=[Back to Main Menu](~Spells-Main-Guardian)}} {{Surelife:=[View](~Guardian-Surelife-Description) [Send](~Guardian-Surelife-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

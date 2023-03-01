@@ -1,0 +1,5 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;2:=[View](~Ancestor-Spell-Level-2)}} {{Spelllevel&nbsp;8:=[View](~Ancestor-Spell-Level-8)}} 
+
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-Ancestor)}} {{Ancestral Vengeance:=[View](~Ancestor-Ancestral-Vengeance-Description) [Send](~Ancestor-Ancestral-Vengeance-Cast)}} ]
+[8, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 8 }} {{subtags=[Back to Main Menu](~Spells-Main-Ancestor)}} {{Compel:=[View](~Ancestor-Compel-Description) [Send](~Ancestor-Compel-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

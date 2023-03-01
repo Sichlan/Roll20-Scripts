@@ -1,0 +1,10 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;1:=[View](~Joy-Spell-Level-1)}} {{Spelllevel&nbsp;2:=[View](~Joy-Spell-Level-2)}} {{Spelllevel&nbsp;3:=[View](~Joy-Spell-Level-3)}} {{Spelllevel&nbsp;4:=[View](~Joy-Spell-Level-4)}} {{Spelllevel&nbsp;6:=[View](~Joy-Spell-Level-6)}} {{Spelllevel&nbsp;7:=[View](~Joy-Spell-Level-7)}} {{Spelllevel&nbsp;8:=[View](~Joy-Spell-Level-8)}} 
+
+[1, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 1 }} {{subtags=[Back to Main Menu](~Spells-Main-Joy)}} {{Vision of Heaven:=[View](~Joy-Vision-of-Heaven-Description) [Send](~Joy-Vision-of-Heaven-Cast)}} ]
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-Joy)}} {{Elation:=[View](~Joy-Elation-Description) [Send](~Joy-Elation-Cast)}} ]
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-Joy)}} {{Distilled Joy:=[View](~Joy-Distilled-Joy-Description) [Send](~Joy-Distilled-Joy-Cast)}} ]
+[4, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 4 }} {{subtags=[Back to Main Menu](~Spells-Main-Joy)}} {{Good Hope:=[View](~Joy-Good-Hope-Description) [Send](~Joy-Good-Hope-Cast)}} ]
+[6, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 6 }} {{subtags=[Back to Main Menu](~Spells-Main-Joy)}} {{Heroism, Greater:=[View](~Joy-Heroism,-Greater-Description) [Send](~Joy-Heroism,-Greater-Cast)}} ]
+[7, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 7 }} {{subtags=[Back to Main Menu](~Spells-Main-Joy)}} {{Starmantle:=[View](~Joy-Starmantle-Description) [Send](~Joy-Starmantle-Cast)}} ]
+[8, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 8 }} {{subtags=[Back to Main Menu](~Spells-Main-Joy)}} {{Sympathy:=[View](~Joy-Sympathy-Description) [Send](~Joy-Sympathy-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

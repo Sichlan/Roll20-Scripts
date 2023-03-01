@@ -1,0 +1,6 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;5:=[View](~Ooze-Spell-Level-5)}} {{Spelllevel&nbsp;7:=[View](~Ooze-Spell-Level-7)}} {{Spelllevel&nbsp;8:=[View](~Ooze-Spell-Level-8)}} 
+
+[5, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 5 }} {{subtags=[Back to Main Menu](~Spells-Main-Ooze)}} {{Oozepuppet:=[View](~Ooze-Oozepuppet-Description) [Send](~Ooze-Oozepuppet-Cast)}} ]
+[7, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 7 }} {{subtags=[Back to Main Menu](~Spells-Main-Ooze)}} {{Slime Wave:=[View](~Ooze-Slime-Wave-Description) [Send](~Ooze-Slime-Wave-Cast)}} ]
+[8, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 8 }} {{subtags=[Back to Main Menu](~Spells-Main-Ooze)}} {{Befoul:=[View](~Ooze-Befoul-Description) [Send](~Ooze-Befoul-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

@@ -1,0 +1,5 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;2:=[View](~Beastmaster-Spell-Level-2)}} {{Spelllevel&nbsp;4:=[View](~Beastmaster-Spell-Level-4)}} 
+
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-Beastmaster)}} {{Beastmask:=[View](~Beastmaster-Beastmask-Description) [Send](~Beastmaster-Beastmask-Cast)}} ]
+[4, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 4 }} {{subtags=[Back to Main Menu](~Spells-Main-Beastmaster)}} {{Bear's Heart:=[View](~Beastmaster-Bear's-Heart-Description) [Send](~Beastmaster-Bear's-Heart-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]

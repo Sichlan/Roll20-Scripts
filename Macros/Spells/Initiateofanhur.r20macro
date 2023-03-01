@@ -1,0 +1,5 @@
+
+
+Thunderstroke(Champions of Valor): - Initiateofanhur(2)
+	/w gm &{template:DnD35StdRoll} {{spellflag=true}} {{name=@{character_name}}} {{subtags=casts [Thunderstroke](https://dndtools.net/spells/champions-of-valor--28/thunderstroke--321/) }} {{School:= Evocation  [Electricity]}} {{Level:= **Initiateofanhur 2**}} {{Components:= V, S, DF}} {{Range:= Medium ([[100+floor(@{casterlevel2})*10]] ft)}} {{Target:=One creature or object}} {{Duration:=Instantaneous}} {{Savingthrow:=Reflex half }} {{Save DC:=[[@{spelldc2}+@{sf-Evocation}]]}} {{Spellresistance:=Yes }} {{CLC:= [[ 1d20+@{casterlevel2}+@{spellpen} ]] vs spell resistance.}} {{compcheck=Concentration: [[ {1d20+ [[ @{concentration} ]] }>[[?{Damage Taken|0}+15+0]] ]] }} {{succeedcheck=Success! @{subjective} casts @{possessive} spell!}} {{failcheck=@{subjective} fails @{possessive} concentration :( }} {{notes=You call down a bolt of electricity, which unerringly strikes the target and deals 1d6 points of electricity damage per caster level (maximum 5d6).
+A small rumble of thunder accompanies the bolt, which is as loud as a battle (Listen DC -10 to hear it)}}

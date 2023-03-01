@@ -1,0 +1,10 @@
+/w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Spellcompendium}} {{Spelllevel&nbsp;1:=[View](~Fey-Spell-Level-1)}} {{Spelllevel&nbsp;2:=[View](~Fey-Spell-Level-2)}} {{Spelllevel&nbsp;3:=[View](~Fey-Spell-Level-3)}} {{Spelllevel&nbsp;4:=[View](~Fey-Spell-Level-4)}} {{Spelllevel&nbsp;5:=[View](~Fey-Spell-Level-5)}} {{Spelllevel&nbsp;7:=[View](~Fey-Spell-Level-7)}} {{Spelllevel&nbsp;8:=[View](~Fey-Spell-Level-8)}} 
+
+[1, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 1 }} {{subtags=[Back to Main Menu](~Spells-Main-Fey)}} {{Faerie Fire:=[View](~Fey-Faerie-Fire-Description) [Send](~Fey-Faerie-Fire-Cast)}} ]
+[2, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 2 }} {{subtags=[Back to Main Menu](~Spells-Main-Fey)}} {{Charm Person:=[View](~Fey-Charm-Person-Description) [Send](~Fey-Charm-Person-Cast)}} ]
+[3, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 3 }} {{subtags=[Back to Main Menu](~Spells-Main-Fey)}} {{Inspired Aim:=[View](~Fey-Inspired-Aim-Description) [Send](~Fey-Inspired-Aim-Cast)}} ]
+[4, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 4 }} {{subtags=[Back to Main Menu](~Spells-Main-Fey)}} {{Blinding Beauty:=[View](~Fey-Blinding-Beauty-Description) [Send](~Fey-Blinding-Beauty-Cast)}} ]
+[5, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 5 }} {{subtags=[Back to Main Menu](~Spells-Main-Fey)}} {{Tree Stride:=[View](~Fey-Tree-Stride-Description) [Send](~Fey-Tree-Stride-Cast)}} ]
+[7, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 7 }} {{subtags=[Back to Main Menu](~Spells-Main-Fey)}} {{Liveoak:=[View](~Fey-Liveoak-Description) [Send](~Fey-Liveoak-Cast)}} ]
+[8, /w @{character_name} &{template:DnD35StdRoll} {{name=@{character_name} ❖ Level 8 }} {{subtags=[Back to Main Menu](~Spells-Main-Fey)}} {{Unearthly Beauty:=[View](~Fey-Unearthly-Beauty-Description) [Send](~Fey-Unearthly-Beauty-Cast)}} ]
+System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.Dictionary`2[System.String,System.String]]
